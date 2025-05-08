@@ -3,11 +3,12 @@ import GradientTitle from "@/components/atoms/typography/GradientTitle";
 import BodyText from "@/components/atoms/typography/BodyText";
 import LogoBadge from "@/components/atoms/common/LogoBadge";
 import ImageInfoCard from "@/components/molecules/cards/ImageInfoCard";
-import HeadingText from "@/components/atoms/typography/HeadingText";
+// import HeadingText from "@/components/atoms/typography/HeadingText";
+import Accordion from "@/components/molecules/common/Accordion";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full min-h-screen justify-center gap-6 p-6">
+    <div className="flex flex-col w-[1000px] mx-auto min-h-screen justify-center gap-6 py-6">
       <OutlineBtn text="Get Started" />
       <GradientTitle text="Your Gradient Title" fontSize="64px" fontWeight="bold" />
       <BodyText text="This is a simple paragraph." fontSize="16px" color="#ff0000" />
@@ -19,7 +20,8 @@ export default function Home() {
         <ImageInfoCard bgImage="/bg-image.jpg" title="Our Mission & Vision" description="iTCart is a global AI automation company offering secure AI tools and enterprise IT solutions to accelerate digital transformation." height="580px" width="auto" titleSize="36px" descriptionSize="18px" />
         <ImageInfoCard bgImage="/bg-image.jpg" title="Our Mission & Vision" description="iTCart is a global AI automation company offering secure AI tools and enterprise IT solutions to accelerate digital transformation." height="580px" width="auto" titleSize="36px" descriptionSize="18px" lineClamp={2} />
       </div>
-      <HeadingText text="Your Heading Text" fontSize="24px" hoverColor="#ff0000" />
+      {/* <HeadingText text="Your Heading Text" fontSize="24px" hoverColor="#ff0000" /> */}
+      <Accordion />
     </div>
   );
 }
