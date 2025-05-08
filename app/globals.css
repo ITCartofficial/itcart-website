@@ -3,6 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --d: 2500ms;
+	--angle: 90deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	/* --c1: rgba(168, 239, 255, 1); */
+	--c1: #45C2CC;
+	--c2: #FFFFFF;
 }
 
 @theme inline {
@@ -24,7 +32,7 @@ body {
 }
 
 /* Headings */
-h1 {
+/* h1 {
   @apply text-[64px] leading-[80px] font-bold;
 }
 
@@ -46,10 +54,10 @@ h5 {
 
 h6 {
   @apply text-[20px] leading-[24px] font-medium;
-}
+} */
 
 /* Body Text Styles */
-.p-large-bold {
+/* .p-large-bold {
   @apply text-[24px] leading-[32px] font-bold;
 }
 
@@ -87,4 +95,4 @@ h6 {
 
 .p-xsmall {
   @apply text-[14px] leading-[22px] font-normal;
-}
+} */
