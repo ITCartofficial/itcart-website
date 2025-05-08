@@ -1,9 +1,9 @@
 import React from 'react'
 import { TypographyProps } from '@/types/PropsTypes'
 
-const GradientTitle: React.FC<TypographyProps> = ({ text, fontSize, fontWeight, textAlign, lineHeight }) => {
+const GradientTitle: React.FC<TypographyProps> = ({ text, fontSize, fontWeight='bold', textAlign, lineHeight, className }) => {
     return (
-        <h1 style={{ ...gradientTextStyle, fontSize, fontWeight, textAlign, lineHeight }}>{text}</h1>
+        <h2 style={{ ...gradientTextStyle, fontSize, fontWeight, textAlign, lineHeight }}>{text}</h2>
     )
 }
 
