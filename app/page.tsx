@@ -23,7 +23,8 @@ export default function Home() {
         <ImageInfoCard bgImage="/bg-image.jpg" title="Our Mission & Vision" description="iTCart is a global AI automation company offering secure AI tools and enterprise IT solutions to accelerate digital transformation." height="580px" width="auto" titleSize="36px" descriptionSize="18px" lineClamp={2} />
       </div> */}
       {/* <HeadingText text="Your Heading Text" fontSize="24px" hoverColor="#ff0000" /> */}
-      <Accordion />
+      {/* <Accordion /> */}
+      <FaqSection/>
     </div>
   );
 }
