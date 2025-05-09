@@ -1,5 +1,6 @@
 import { Montserrat } from "next/font/google"
 import "./globals.css"
+import Header from "@/components/organisms/layouts/Header"
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -21,6 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/favicon.png" />
       </head>
       <body className={`${montserrat.variable} font-sans antialiased`}>
+         <Header />
         {children}
       </body>
     </html>

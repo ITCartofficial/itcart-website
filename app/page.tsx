@@ -9,7 +9,7 @@ import Accordion from "@/components/molecules/common/Accordion";
 export default function Home() {
   return (
     <div className="flex flex-col w-[1000px] mx-auto min-h-screen justify-center gap-6 py-6">
-      <OutlineBtn text="Get Started" />
+      {/* <OutlineBtn text="Get Started" />
       <GradientTitle text="Your Gradient Title" fontSize="64px" fontWeight="bold" />
       <BodyText text="This is a simple paragraph." fontSize="16px" color="#ff0000" />
       <div className="flex gap-4">
@@ -19,9 +19,9 @@ export default function Home() {
       <div className="grid grid-cols-2 gap-4 w-[1000px] mx-auto">
         <ImageInfoCard bgImage="/bg-image.jpg" title="Our Mission & Vision" description="iTCart is a global AI automation company offering secure AI tools and enterprise IT solutions to accelerate digital transformation." height="580px" width="auto" titleSize="36px" descriptionSize="18px" />
         <ImageInfoCard bgImage="/bg-image.jpg" title="Our Mission & Vision" description="iTCart is a global AI automation company offering secure AI tools and enterprise IT solutions to accelerate digital transformation." height="580px" width="auto" titleSize="36px" descriptionSize="18px" lineClamp={2} />
-      </div>
+      </div> */}
       {/* <HeadingText text="Your Heading Text" fontSize="24px" hoverColor="#ff0000" /> */}
-      <Accordion />
+      {/* <Accordion /> */}
     </div>
   );
 }
