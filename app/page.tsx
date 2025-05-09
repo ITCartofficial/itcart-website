@@ -1,10 +1,12 @@
-import OutlineBtn from "@/components/atoms/buttons/OutlineBtn";
-import GradientTitle from "@/components/atoms/typography/GradientTitle";
-import BodyText from "@/components/atoms/typography/BodyText";
-import LogoBadge from "@/components/atoms/common/LogoBadge";
-import ImageInfoCard from "@/components/molecules/cards/ImageInfoCard";
+// import OutlineBtn from "@/components/atoms/buttons/OutlineBtn";
+// import GradientTitle from "@/components/atoms/typography/GradientTitle";
+// import BodyText from "@/components/atoms/typography/BodyText";
+// import LogoBadge from "@/components/atoms/common/LogoBadge";
+// import ImageInfoCard from "@/components/molecules/cards/ImageInfoCard";
+import FaqSection from "@/components/organisms/sections/FaqSection";
 // import HeadingText from "@/components/atoms/typography/HeadingText";
-import Accordion from "@/components/molecules/common/Accordion";
+// import Accordion from "@/components/molecules/common/Accordion";
+// import FaqWithImage from "@/components/molecules/faqs/FaqWithImage";
 
 export default function Home() {
   return (
@@ -21,7 +23,7 @@ export default function Home() {
         <ImageInfoCard bgImage="/bg-image.jpg" title="Our Mission & Vision" description="iTCart is a global AI automation company offering secure AI tools and enterprise IT solutions to accelerate digital transformation." height="580px" width="auto" titleSize="36px" descriptionSize="18px" lineClamp={2} />
       </div> */}
       {/* <HeadingText text="Your Heading Text" fontSize="24px" hoverColor="#ff0000" /> */}
-      {/* <Accordion /> */}
+      <Accordion />
     </div>
   );
 }
