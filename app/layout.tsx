@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 
 export const metadata = {
   title: "Best AI Automation Company In US | iTCART",
-  description: "iTCart – The best AI automation company in US, offering cutting-edge solutions to streamline workflows, enhance efficiency, and drive business growth.",
+  description: "iTCart - The best AI automation company in US, offering cutting-edge solutions to streamline workflows, enhance efficiency, and drive business growth.",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
