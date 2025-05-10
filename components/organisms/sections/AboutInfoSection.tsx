@@ -13,14 +13,14 @@ type AboutInfoSectionProps = {
 
 const AboutInfoSection: React.FC<AboutInfoSectionProps> = ({ title, cardDetails }) => {
     return (
-        <div className="container mx-auto px-4 md:px-10 flex flex-col gap-10 pb-14">
+        <div className="container mx-auto px-4 md:px-10 flex flex-col gap-10 pb-8 lg:pb-14">
             <GradientTitle text={title} className="text-[30px] lg:text-[50px] lg:w-[70%] leading-tight text-center lg:text-left" />
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:min-h-[500px]">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 lg:min-h-[500px]">
                 {cardDetails.map((card, i) => (
                     i == 1 && (
                         <div key={i} className="lg:-translate-y-16 flex flex-col gap-6">
                             <ImageInfoCard bgImage={card.bgImage} description={card.description} title={card.title} className="h-[360px]" />
-                            <div className="pl-8 flex justify-center lg:justify-start">
+                            <div className="lg:pl-8 flex justify-center lg:justify-start">
                                 <OutlineBtn text="Read More" textColor="#ffffff" icon={<FaArrowRight className="text-sm font-semibold text-white" />} />
                             </div>
                         </div>
