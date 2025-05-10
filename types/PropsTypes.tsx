@@ -2,7 +2,7 @@ import React from "react"
 
 export type TypographyProps = {
     text: string
-    fontSize: React.CSSProperties["fontSize"]
+    fontSize?: React.CSSProperties["fontSize"]
     color?: string
     lineHeight?: React.CSSProperties["lineHeight"]
     fontWeight?: string
@@ -17,17 +17,19 @@ export type TypographyProps = {
 export type LogoBadgeProps = {
     src: string;
     alt: string;
+    className?: string;
 }
 
 export type ImageInfoCardProps = {
     bgImage: string,
     title: string,
     description: string,
-    height: React.CSSProperties["height"],
-    width: React.CSSProperties["width"],
+    height?: React.CSSProperties["height"],
+    width?: React.CSSProperties["width"],
     titleSize?: string,
     descriptionSize?: string,
     lineClamp?: number
+    className?: string;
 }
 
 export type AccordionProps = {
@@ -40,9 +42,10 @@ export type AccordionProps = {
     active?: boolean
     onClick?: () => void;
     imgUrl?: string
+    index?: number
 }
 
-export type FaqWithImageProps = {
+export interface FaqWithImageProps {
     faqsData: {
         id: number
         title: string
@@ -50,4 +53,6 @@ export type FaqWithImageProps = {
         image: string
     }[]
     faqsCount?: number
+    title?: string
 }
+

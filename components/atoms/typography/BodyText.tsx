@@ -1,9 +1,9 @@
 import React from 'react'
 import { TypographyProps } from '@/types/PropsTypes'
 
-const BodyText: React.FC<TypographyProps> = ({ text, fontSize, color, textAlign, fontWeight, lineHeight, textDecoration, lineClamp, className }) => {
+const BodyText: React.FC<TypographyProps> = ({ text, color, textAlign, fontWeight, lineHeight, textDecoration, lineClamp, className }) => {
     return (
-        <p style={{ fontSize, color, textAlign, fontWeight, lineHeight, textDecoration, WebkitLineClamp: lineClamp, overflow: 'hidden', display: '-webkit-box', WebkitBoxOrient: 'vertical', lineBreak: 'auto' }} className={className}>{text}</p>
+        <p style={{ color, textAlign, fontWeight, lineHeight, textDecoration, WebkitLineClamp: lineClamp, overflow: 'hidden', display: '-webkit-box', WebkitBoxOrient: 'vertical', lineBreak: 'auto' }} className={className}>{text}</p>
     )
 }
 

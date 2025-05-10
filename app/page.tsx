@@ -3,14 +3,17 @@
 // import BodyText from "@/components/atoms/typography/BodyText";
 // import LogoBadge from "@/components/atoms/common/LogoBadge";
 // import ImageInfoCard from "@/components/molecules/cards/ImageInfoCard";
-import FaqSection from "@/components/organisms/sections/FaqSection";
+// import FaqSection from "@/components/organisms/sections/FaqSection";
+// import HomeBannerSection from "@/components/organisms/sections/HomeBannerSection";
 // import HeadingText from "@/components/atoms/typography/HeadingText";
 // import Accordion from "@/components/molecules/common/Accordion";
 // import FaqWithImage from "@/components/molecules/faqs/FaqWithImage";
 
+import HomeTemplate from "@/components/templates/HomeTemplate";
+
 export default function Home() {
   return (
-    <div className="flex flex-col w-[1000px] mx-auto min-h-screen justify-center gap-6 py-6">
+    <div className="flex flex-col">
       {/* <OutlineBtn text="Get Started" />
       <GradientTitle text="Your Gradient Title" fontSize="64px" fontWeight="bold" />
       <BodyText text="This is a simple paragraph." fontSize="16px" color="#ff0000" />
@@ -24,7 +27,9 @@ export default function Home() {
       </div> */}
       {/* <HeadingText text="Your Heading Text" fontSize="24px" hoverColor="#ff0000" /> */}
       {/* <Accordion /> */}
-      <FaqSection/>
+      {/* <FaqSection/>
+      <HomeBannerSection /> */}
+      <HomeTemplate />
     </div>
   );
 }
