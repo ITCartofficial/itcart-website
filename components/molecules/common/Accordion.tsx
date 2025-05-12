@@ -15,7 +15,8 @@ const Accordion: React.FC<AccordionProps> = ({
   textAlign,
   active = false,
   onClick,
-  imgUrl
+  imgUrl,
+  index
 }) => {
   const contentRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState<number>(0);
@@ -29,11 +30,14 @@ const Accordion: React.FC<AccordionProps> = ({
   }, [active]);
 
   return (
-    <div className="group flex flex-col gap-2 w-full transition-all duration-300 ease-in-out">
+    <div className="group flex flex-col gap-4 w-full transition-all duration-300 ease-in-out">
       <button
         onClick={onClick}
-        className={`text-left ${active ? 'text-[#2BADB7]' : ''} transition-colors duration-300 ease-in-out`}
+        className={`text-left flex items-center ${active ? 'text-[#2BADB7]' : 'text-white'} transition-colors duration-300 ease-in-out`}
       >
+        <div className="flex bg-[#2BADB7] text-white rounded-full w-6 h-6 items-center justify-center mr-2 font-bold md:hidden">
+          {index}
+        </div>
         <HeadingText text={title} fontSize={titleSize} textAlign={textAlign} />
       </button>
 
@@ -58,6 +62,7 @@ const Accordion: React.FC<AccordionProps> = ({
           fontSize={descriptionSize}
           lineClamp={lineClamp}
           textAlign={textAlign}
+          color='#ffffff'
         />
       </div>
     </div>

@@ -1,13 +1,19 @@
-import { faqsData } from "@/components/data/faqsData"
-import FaqWithImage from "@/components/molecules/faqs/FaqWithImage"
+import OutlineBtn from "@/components/atoms/buttons/OutlineBtn"
+import GradientTitle from "@/components/atoms/typography/GradientTitle"
+// import FaqWithImage from "@/components/molecules/faqs/FaqWithImage"
+import { FaArrowRight } from "react-icons/fa6"
 
-const FaqSection = () => {
+import { FaqWithImageProps } from "@/types/PropsTypes"
+import FaqWithImage from "@/components/molecules/faqs/FaqWithImage"
+const FaqSection = ({ faqsData, faqsCount, title }: FaqWithImageProps) => {
     return (
-        <div>
+        <div className="container mx-auto px-4 md:px-10 bg-black flex flex-col gap-[48px] items-center justify-center overflow-x-hidden">
+            <GradientTitle text={title || ""} lineHeight="normal" className="text-[30px] lg:text-[50px] text-center lg:text-left" />
             <FaqWithImage
                 faqsData={faqsData}
-                faqsCount={4}
+                faqsCount={faqsCount}
             />
+            <OutlineBtn text="Show More" textColor="#ffffff" icon={<FaArrowRight className="text-sm font-semibold text-white" />} />
         </div>
     )
 }

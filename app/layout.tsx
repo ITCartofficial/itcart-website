@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </head>
-      <body className={`${montserrat.variable} font-sans antialiased`}>
+      <body className={`w-full overflow-x-hidden ${montserrat.variable} font-sans antialiased relative`}>
          <Header />
         {children}
       </body>

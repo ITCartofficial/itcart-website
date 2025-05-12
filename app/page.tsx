@@ -4,14 +4,14 @@
 // import LogoBadge from "@/components/atoms/common/LogoBadge";
 // import ImageInfoCard from "@/components/molecules/cards/ImageInfoCard";
 import FaqSection from "@/components/organisms/sections/FaqSection";
-import HeroSection from "@/components/organisms/sections/HeroSection";
 // import HeadingText from "@/components/atoms/typography/HeadingText";
 // import Accordion from "@/components/molecules/common/Accordion";
 // import FaqWithImage from "@/components/molecules/faqs/FaqWithImage";
 
+import HomeTemplate from "@/components/templates/HomeTemplate";
+
 export default function Home() {
   return (
-    <div>
       <div className="container m-auto px-4 md:px-10 xl:px-24">
         {/* <OutlineBtn text="Get Started" />
       <GradientTitle text="Your Gradient Title" fontSize="64px" fontWeight="bold" />
@@ -28,7 +28,5 @@ export default function Home() {
         {/* <Accordion /> */}
         <FaqSection />
       </div>
-        <HeroSection />
-    </div>
   );
 }
