@@ -1,9 +1,9 @@
 import { TypographyProps } from "@/types/PropsTypes"
 
 
-const HeadingText: React.FC<TypographyProps> = ({ text, fontSize, fontWeight = 'bold', textAlign, lineHeight, color, className }) => {
+const HeadingText: React.FC<TypographyProps> = ({ text, fontWeight = 'bold', lineHeight, color, className }) => {
     return (
-        <h2 style={{ fontSize, fontWeight, textAlign, lineHeight, color }} className={className}>{text}</h2>
+        <h2 style={{ fontWeight, lineHeight, color }} className={className}>{text}</h2>
     )
 }
 

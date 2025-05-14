@@ -56,3 +56,10 @@ export interface FaqWithImageProps {
     title?: string
 }
 
+export type TestimonialCardProps = {
+    rating: number
+    userName: string
+    userDesignation: string
+    userImage: string
+    testimonialMessage: string
+}
