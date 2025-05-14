@@ -13,7 +13,8 @@ import HomeTemplate from "@/components/templates/HomeTemplate";
 
 export default function Home() {
   return (
-    <div className="container m-auto px-4 md:px-10 xl:px-24">
+    <div>
+      <HomeTemplate/>
       {/* <OutlineBtn text="Get Started" />
       <GradientTitle text="Your Gradient Title" fontSize="64px" fontWeight="bold" />
       <BodyText text="This is a simple paragraph." fontSize="16px" color="#ff0000" />
@@ -27,9 +28,9 @@ export default function Home() {
       </div> */}
       {/* <HeadingText text="Your Heading Text" fontSize="24px" hoverColor="#ff0000" /> */}
       {/* <Accordion /> */}
-      <FaqSection faqsData={faqsData}
+      {/* <FaqSection faqsData={faqsData}
         faqsCount={6}
-        title="Frequently Asked Questions" />
+        title="Frequently Asked Questions" /> */}
     </div>
   );
 }
