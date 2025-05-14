@@ -13,7 +13,7 @@ const FaqSection = ({ faqsData, faqsCount, title }: FaqWithImageProps) => {
                 faqsData={faqsData}
                 faqsCount={faqsCount}
             />
-            <OutlineBtn text="Show More" textColor="#ffffff" icon={<FaArrowRight className="text-sm font-semibold text-white" />} />
+            <OutlineBtn className="-mt-4" text="Show More" textColor="#ffffff" icon={<FaArrowRight className="text-sm font-semibold text-white" />} />
         </div>
     )
 }
