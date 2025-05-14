@@ -6,13 +6,16 @@ type OutlineBtnProps = {
     text: string
     icon?: React.ReactNode
     textColor?: string
+    className?: string
 }
 
-const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, icon, textColor }) => {
+const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, icon, textColor, className }) => {
     return (
-        <button className='w-max anim-outline-btn flex items-center justify-center gap-2 cursor-pointer hover:gap-3 transition-all duration-300 ease-in-out'>
+        <button className={`group w-max anim-outline-btn flex items-center justify-center gap-2 cursor-pointer  ${className}`}>
             <p className="text-sm font-medium" style={{ color: textColor }}>{text}</p>
-            {icon || ""}
+            <div className="group-hover:translate-x-1 transition-all duration-300 ease-in-out">
+                {icon || ""}
+            </div>
         </button>
     )
 }
