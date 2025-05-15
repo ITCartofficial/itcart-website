@@ -47,15 +47,13 @@ const Faq: React.FC<FaqSectionProps> = ({
             text={mainTitle}
             color={titleColor}
             textAlign="center"
-            fontSize="2.5rem"
-            className="mb-2"
+            className="mb-2 lg:text-[2.5rem]"
           />
           <HeadingText 
             text={subtitle}
             color={subtitleColor}
             textAlign="center"
-            fontSize="2.5rem"
-            className="mb-8"
+            className="mb-8 lg:text-[2.5rem]"
           />
         </div>
         
