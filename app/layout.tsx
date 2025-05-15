@@ -22,8 +22,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/favicon.png" />
       </head>
       <body className={`w-full overflow-x-hidden ${montserrat.variable} font-sans antialiased relative`}>
-         <Header />
-        {children}
+        <Header />
+        <>
+          {children}
+        </>
       </body>
     </html>
   )

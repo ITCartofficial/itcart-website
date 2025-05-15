@@ -21,8 +21,10 @@ const LogoSlider: React.FC<LogoSliderProps> = ({ logos }) => {
                 spaceBetween={20}
                 breakpoints={{
                     320: { slidesPerView: 2.5 },
-                    640: { slidesPerView: 6 },
-                    1024: { slidesPerView: 9 },
+                    640: { slidesPerView: 5 },
+                    1024: { slidesPerView: 7 },
+                    1440: { slidesPerView: 8 },
+                    
                 }}
                 className="flex items-center justify-center"
             >

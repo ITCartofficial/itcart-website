@@ -13,8 +13,8 @@ type AboutInfoSectionProps = {
 
 const AboutInfoSection: React.FC<AboutInfoSectionProps> = ({ title, cardDetails }) => {
     return (
-        <div className="container mx-auto px-4 md:px-10 flex flex-col gap-10 pb-8 lg:pb-14">
-            <GradientTitle text={title} className="text-[30px] lg:text-[50px] lg:w-[70%] leading-tight text-center lg:text-left" />
+        <div className="flex flex-col gap-10">
+            <GradientTitle text={title} className="text-[30px] lg:text-[50px] lg:w-[70%] leading-tight text-center lg:text-left" theme="dark" />
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 lg:min-h-[500px]">
                 {cardDetails.map((card, i) => (
                     i == 1 && (

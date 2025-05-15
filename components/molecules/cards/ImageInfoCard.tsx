@@ -9,7 +9,7 @@ const ImageInfoCard: React.FC<ImageInfoCardProps> = ({ bgImage, title, descripti
     return (
         <div style={{ backgroundImage: `url(${bgImage})` }} className={`bg-cover min-h-[100vw] lg:min-h-[480px] h-full bg-center w-full max-w-max rounded-2xl overflow-hidden group hover:-translate-y-4 transition-all duration-500 ease-in-out ${className && className}`}>
             <div className="wrapper flex flex-col gap-4 justify-end p-8 w-full h-full" style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85%)' }}>
-                <GradientTitle text={title} className="text-[24px] lg:text-[36px]" />
+                <GradientTitle text={title} className="text-[24px] lg:text-[36px]" theme="dark" />
                 <BodyText text={description} fontSize={descriptionSize || "18px"} lineClamp={lineClamp} />
             </div>
         </div>

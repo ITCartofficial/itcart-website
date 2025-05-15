@@ -1,19 +1,17 @@
-'use client';
+"use client";
 
-import TestimonialCard from '@/components/molecules/cards/TestimonialCard'
-import { TestimonialCardProps } from '@/types/PropsTypes'
+import IconInfoCard from '../cards/IconInfoCard'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import { IconInfoCardProps } from '@/types/PropsTypes';
 
-type TestimonialSliderProps = {
-    testimonialsData: TestimonialCardProps[]
+type CardSliderProps = {
+    cardLists: IconInfoCardProps[]
 }
 
-const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonialsData }) => {
-    // console.log(testimonialsData);
-
+const CardSlider: React.FC<CardSliderProps> = ({ cardLists }) => {
     return (
         <div className='w-full overflow-hidden'>
             <Swiper
@@ -26,15 +24,21 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonialsData 
                 breakpoints={{
                     320: { slidesPerView: 1 },
                     640: { slidesPerView: 2 },
-                    1024: { slidesPerView: 3.2 },
+                    1024: { slidesPerView: 3 },
                     1440: { slidesPerView: 4 },
                 }}
                 className="flex items-center justify-center"
             >
                 {
-                    testimonialsData.map((testimonial, i) => (
+                    cardLists.map((card, i) => (
                         <SwiperSlide key={i}>
-                            <TestimonialCard rating={testimonial.rating} testimonialMessage={testimonial.testimonialMessage} userDesignation={testimonial.userDesignation} userImage={testimonial.userImage} userName={testimonial.userName} />
+                            <IconInfoCard
+                                bgImage={card.bgImage}
+                                title={card.title}
+                                description={card.description}
+                                buttonUrl={card.buttonUrl}
+                                logo={card.logo}
+                            />
                         </SwiperSlide>
                     ))
                 }
@@ -43,4 +47,4 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonialsData 
     )
 }
 
-export default TestimonialSlider
+export default CardSlider

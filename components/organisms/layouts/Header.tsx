@@ -1,9 +1,9 @@
 'use client'
+
 import React, { useEffect, useState } from 'react'
 import Logo from "@/components/atoms/common/Logo"
 import SearchButton from '@/components/atoms/common/SearchButton'
 import Navigation from '@/components/molecules/navigation/Navigation'
-import Link from 'next/link'
 import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
 import { FaArrowRight } from 'react-icons/fa6'
 import MobileMenuButton from '@/components/atoms/buttons/MobileMenuButton'
@@ -50,9 +50,7 @@ const Header: React.FC = () => {
           {/* Search and Contact Button (Right) */}
           <div className="w-[200px] hidden lg:flex items-center gap-4 flex-shrink-0">
             <SearchButton />
-            <Link href="/contact">
-              <OutlineBtn text="Contact us" textColor='#ffffff' icon={<FaArrowRight className="text-sm font-semibold text-white" />} />
-            </Link>
+            <OutlineBtn text="Contact us" url="/contact" textColor='#ffffff' icon={<FaArrowRight className="text-sm font-semibold text-white" />} />
           </div>
         </div>
       </div>
@@ -64,9 +62,7 @@ const Header: React.FC = () => {
       >
         <div className="container mx-auto px-4">
           <Navigation className="mb-3" />
-          <Link href="/contact">
-            <OutlineBtn text="Contact us" icon={<FaArrowRight className="text-sm font-semibold" />} />
-          </Link>
+          <OutlineBtn url='/contact' text="Contact us" icon={<FaArrowRight className="text-sm font-semibold" />} />
         </div>
       </div>
     </header>

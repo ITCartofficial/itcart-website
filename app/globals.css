@@ -5,12 +5,15 @@
   --foreground: #171717;
 
   --d: 2500ms;
-	--angle: 90deg;
-	--gradX: 100%;
-	--gradY: 50%;
-	/* --c1: rgba(168, 239, 255, 1); */
-	--c1: #45C2CC;
-	--c2: #FFFFFF;
+  --angle: 90deg;
+  --gradX: 100%;
+  --gradY: 50%;
+  /* --c1: rgba(168, 239, 255, 1); */
+  /* --c1: #45c2cc;
+  --c2: #ffffff; */
+  --c1: #45c2cc;
+  --c2: #ffffff;
+  --c3: #000000;
 }
 
 @theme inline {

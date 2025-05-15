@@ -1,5 +1,14 @@
 import React from "react"
 
+export type OutlineBtnProps = {
+    text: string
+    icon?: React.ReactNode
+    textColor?: string
+    className?: string
+    url?: string
+    theme?: "dark" | "light"
+}
+
 export type TypographyProps = {
     text: string
     fontSize?: React.CSSProperties["fontSize"]
@@ -62,4 +71,13 @@ export type TestimonialCardProps = {
     userDesignation: string
     userImage: string
     testimonialMessage: string
+}
+
+export type IconInfoCardProps = {
+    bgImage: string,
+    title: string,
+    description: string;
+    className?: string
+    buttonUrl: string;
+    logo: string
 }
