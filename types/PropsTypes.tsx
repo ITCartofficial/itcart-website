@@ -21,6 +21,7 @@ export type TypographyProps = {
     lineClamp?: number
     hoverColor?: string
     className?: string
+    theme?: "dark" | "light"
 }
 
 export type LogoBadgeProps = {
