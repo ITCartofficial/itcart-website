@@ -11,11 +11,12 @@ const TextRevealSection: React.FC<TextRevealSectionProps> = ({
     title = "Scaling brands with top-notch AI-powered solutions" 
 }) => {
     return (
-        <div className="w-full min-h-screen flex flex-col justify-center items-center text-center bg-white">
+        <div className="w-full h-max flex flex-col justify-center items-center text-center bg-white pb-8">
             <GradientTitle
                 text={title}
                 lineHeight="1.2"
                 className="max-w-[800px] text-[50px] mb-6"
+                theme='light'
             />
             <div>
                 <TextReveal

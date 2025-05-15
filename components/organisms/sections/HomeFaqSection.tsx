@@ -33,7 +33,7 @@ const sampleFAQs: AccordionItem[] = [
 
 const HomeFaqSection: React.FC = () => {
   return (
-    <div>
+    <div className='h-full'>
       <Faq
         mainTitle="Everything"
         subtitle="you need to know about"

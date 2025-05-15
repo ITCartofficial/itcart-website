@@ -2,7 +2,7 @@ import BodyText from "@/components/atoms/typography/BodyText";
 import FooterSection from "@/components/molecules/footer/FooterSection";
 import Image from "next/image";
 import Logo from "@/components/atoms/common/Logo";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+// import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import SocialIcons from "@/components/molecules/common/SocialIcons";
 
 const certLogos = [
@@ -16,8 +16,8 @@ const certLogos = [
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white px-6 lg:px-20 py-12 relative overflow-hidden">
-            <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-10">
+        <footer className="bg-black text-white py-12 relative overflow-hidden">
+            <div className="container mx-auto lg:px-10 flex flex-col lg:flex-row gap-10">
                 {/* Left Side – Logo, Text, Image */}
                 <div className="w-full lg:w-1/2 flex flex-col justify-between gap-6">
                     <Logo />
@@ -84,22 +84,24 @@ const Footer = () => {
             </div>
 
             {/* Bottom Row – Text & Certifications */}
-            <div className="mt-12 flex flex-col lg:flex-row items-center justify-between gap-6 border-t border-white/10 pt-6">
-                <BodyText
-                    text="The Privacy Policy, Terms and Conditions will be applied fully and affect to your use of this Website. By using this website, you agreed to accept all terms and conditions."
-                    className="text-xs text-white/70 max-w-lg"
-                />
-                <div className="flex flex-wrap items-center gap-6">
-                    {certLogos.map((cert, idx) => (
-                        <Image
-                            key={idx}
-                            src={cert.src}
-                            alt={cert.alt}
-                            width={60}
-                            height={60}
-                            className="object-contain"
-                        />
-                    ))}
+            <div className="border-t border-white/10">
+                <div className="container mx-auto lg:px-10 mt-12 flex flex-col lg:flex-row items-center justify-between gap-6">
+                    <BodyText
+                        text="The Privacy Policy, Terms and Conditions will be applied fully and affect to your use of this Website. By using this website, you agreed to accept all terms and conditions."
+                        className="text-xs text-white/70 max-w-lg"
+                    />
+                    <div className="flex flex-wrap items-center gap-6">
+                        {certLogos.map((cert, idx) => (
+                            <Image
+                                key={idx}
+                                src={cert.src}
+                                alt={cert.alt}
+                                width={60}
+                                height={60}
+                                className="object-contain"
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
         </footer>

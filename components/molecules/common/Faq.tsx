@@ -37,7 +37,7 @@ const Faq: React.FC<FaqSectionProps> = ({
 
   return (
     <section 
-      className={`w-full py-12 border-b-2 border-b-zinc-600 ${className}`} 
+      className={`w-full h-full ${className}`} 
       style={{ backgroundColor }}
     >
       {/* Title Section */}

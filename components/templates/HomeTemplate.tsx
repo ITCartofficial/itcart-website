@@ -29,19 +29,31 @@ const HomeTemplate = () => {
       <div className="bg-white py-16 lg:rounded-tl-[85px] lg:rounded-tr-[85px]">
         <HorizontalSliderSection text='Driving Innovation Across Our Key Verticals' cardLists={keyVerticalsData} />
       </div>
-      <div className="bg-black py-16">
-        <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
-      </div>
       <div className="bg-white py-16">
-        <TestimonialSection testimonialsData={testimonialsData} />
+        <TextRevealSection />
       </div>
       <div className="bg-white">
         <ContentfulSection bgImage={missionContent.bgImage} description={missionContent.description} title={missionContent.title} />
       </div>
-      <TextRevealSection />
-      <AwardsSection />
-      <HeroSection />
-      <HomeFaqSection />
+      <div className="bg-white py-16">
+        <TestimonialSection testimonialsData={testimonialsData} />
+      </div>
+      <div className="bg-black py-16">
+        <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
+      </div>
+      <div className="bg-black py-16">
+        <AwardsSection />
+      </div>
+      <div className="bg-black ">
+        <HeroSection />
+      </div>
+      <div className="bg-[#131313] py-16 border-b-2 border-b-zinc-600">
+        <HomeFaqSection />
+      </div>
+
+
+
+
     </div>
   )
 }

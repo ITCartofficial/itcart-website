@@ -19,7 +19,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   buttonText = "Learn More"
 }) => {
   return (
-    <section className="relative w-full bg-black pt-16 md:pt-20 pl-6 md:pl-12 lg:pl-24 overflow-hidden border-b-2 border-b-zinc-600">
+    <section className="relative w-full h-full bg-black pl-6 md:pl-12 lg:pl-24 overflow-hidden border-b-2 border-b-zinc-600">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left content */}
         <div className="flex flex-col gap-6 text-center md:text-left items-center md:items-start">
@@ -27,6 +27,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
             text={title}
             lineHeight="1.2"
             className="text-[50px]"
+            theme='dark'
           />
           <div className="flex flex-col gap-4">
             <BodyText
