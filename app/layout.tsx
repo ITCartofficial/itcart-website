@@ -1,6 +1,7 @@
 import { Montserrat } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/organisms/layouts/Header"
+import Footer from "@/components/organisms/layouts/Footer"
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`w-full overflow-x-hidden ${montserrat.variable} font-sans antialiased relative`}>
          <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   )

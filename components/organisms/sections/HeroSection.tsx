@@ -19,30 +19,27 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   buttonText = "Learn More"
 }) => {
   return (
-    <section className="relative w-full bg-black pt-16 md:pt-20 mb-20 px-6 md:px-12 lg:px-24 overflow-hidden border-b-2 border-b-zinc-600">
+    <section className="relative w-full bg-black pt-16 md:pt-20 pl-6 md:pl-12 lg:pl-24 overflow-hidden border-b-2 border-b-zinc-600">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left content */}
         <div className="flex flex-col gap-6 text-center md:text-left items-center md:items-start">
           <GradientTitle
             text={title}
-            fontSize="2rem md:fontSize-[3rem]"
             lineHeight="1.2"
-            className="max-w-lg"
+            className="text-[50px]"
           />
           <div className="flex flex-col gap-4">
             <BodyText
               text={description}
               color="#FFFFFF"
-              fontSize="1rem md:text-[1.125rem]"
               lineHeight="1.6"
-              className="max-w-lg opacity-90"
+              className="max-w-lg opacity-90 text-base"
             />
             <BodyText
               text={subDescription}
               color="#FFFFFF"
-              fontSize="1rem md:text-[1.125rem]"
               lineHeight="1.6"
-              className="max-w-lg opacity-90"
+              className="max-w-lg opacity-90 text-base"
             />
           </div>
           <div className="mt-4">

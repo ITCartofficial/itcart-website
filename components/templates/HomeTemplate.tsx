@@ -5,6 +5,11 @@ import { faqsData } from '../data/faqsData';
 import ClientsSection from '../organisms/sections/ClientsSection';
 import AboutInfoSection from '../organisms/sections/AboutInfoSection';
 import { ImageInfoCardProps } from '@/types/PropsTypes';
+import HeroSection from '../organisms/sections/HeroSection';
+import TextRevealSection from '../organisms/sections/TextRevealSection';
+import AwardsSection from '../organisms/sections/AwardsSection';
+import HomeFaqSection from '../organisms/sections/HomeFaqSection';
+
 
 const homeBannerData = {
   videoSrc: '/videos/home-banner.mp4',
@@ -51,11 +56,15 @@ const { videoSrc, poster, heading, description, buttonText } = homeBannerData
 
 const HomeTemplate = () => {
   return (
-    <div className='flex flex-col gap-14 h-full bg-black'>
+    <div className='flex flex-col h-full bg-black'>
       <VideoHeroBanner className='h-full lg:pb-20' heading={heading} description={description} buttonText={buttonText} videoSrc={videoSrc} poster={poster} />
       <ClientsSection title='Trusted by these amazing companies' logos={logos} />
-      <AboutInfoSection title='About Us – Creating Impact with a Clear Vision' cardDetails={aboutBrief} />
+      <AboutInfoSection title='About Us - Creating Impact with a Clear Vision' cardDetails={aboutBrief} />
       <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
+      <TextRevealSection/>
+      <AwardsSection/>
+      <HeroSection />
+      <HomeFaqSection/>
     </div>
   )
 }
