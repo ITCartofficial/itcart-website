@@ -24,8 +24,8 @@ const ContentfulSection: React.FC<ContentfulSectionProps> = ({ title, descriptio
                     <div className="flex flex-col gap-2 lg:w-2/3">
                         {
                             descriptions && descriptions.map((text, i) => (
-                                <BodyText key={i} text={text.trim()} className='lg:text-[18px] font-normal' />
-                            )) || <BodyText text={description} className='lg:text-[18px] font-normal' />
+                                <BodyText key={i} text={text.trim()} color='#fff' className='lg:text-[18px] font-normal' />
+                            )) || <BodyText text={description} color='#fff' className='lg:text-[18px] font-normal' />
                         }
                     </div>
                 </div>
