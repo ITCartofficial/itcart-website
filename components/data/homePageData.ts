@@ -4,6 +4,7 @@ export const missionContent = {
   bgImage: "/images/home/background-section.jpg"
 }
 
+
 export const keyVerticalsData = [
   {
     bgImage: "/images/home/aixbfs-bg.jpg",
