@@ -250,3 +250,31 @@ export const homeBannerData = {
   description: "Experience unmatched efficiency, innovation, and business agility with a multi-functional AI-powered platform.",
   buttonText: "Get Started"
 };
+
+export const posts = [
+    {
+        title: "Benefits Of Digital Transformation: Real-time Case Studies",
+        author: "Akshay Chakrapani",
+        date: "24 April 2025",
+        image: "/images/ai-image.jpeg",
+        featured: true,
+    },
+    {
+        title: "Explainable AI: Features, Importance, and Usecases",
+        author: "Akshay Chakrapani",
+        date: "22 April 2025",
+        image: "/images/business-intelligence.webp",
+    },
+    {
+        title: "Digital Transformation: Importance and Strategies",
+        author: "Akshay Chakrapani",
+        date: "21 April 2025",
+        image: "/images/business-intelligence.webp",
+    },
+    {
+        title: "6 Top Agentic AI trends to follow in the AI Industry",
+        author: "Akshay Chakrapani",
+        date: "16 April 2025",
+        image: "/images/business-intelligence.webp",
+    },
+]

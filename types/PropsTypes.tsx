@@ -82,3 +82,12 @@ export type IconInfoCardProps = {
     buttonUrl: string;
     logo: string
 }
+
+export interface CaseStudy {
+    id: number
+    title: string
+    description: string
+    image: string
+    link: string
+    linkText: string
+}

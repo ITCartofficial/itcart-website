@@ -40,7 +40,7 @@ const Accordion: React.FC<AccordionProps> = ({
 
   return (
     <div className={`w-full ${className}`}>
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto tra">
         {visibleItems.map((item) => (
           <div 
             key={item.id}

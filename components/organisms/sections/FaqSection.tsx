@@ -8,7 +8,7 @@ import FaqWithImage from "@/components/molecules/faqs/FaqWithImage"
 const FaqSection = ({ faqsData, faqsCount, title }: FaqWithImageProps) => {
     return (
         <div className="container mx-auto px-4 md:px-10 bg-black flex flex-col gap-[48px] items-center justify-center overflow-x-hidden">
-            <GradientTitle text={title || ""} lineHeight="normal" className="text-[30px] lg:text-[50px] text-center lg:text-left" theme="dark" />
+            <GradientTitle text={title || ""} lineHeight="normal" className="text-[30px] lg:text-[50px] text-center lg:w-2/3" theme="dark" />
             <FaqWithImage
                 faqsData={faqsData}
                 faqsCount={faqsCount}
