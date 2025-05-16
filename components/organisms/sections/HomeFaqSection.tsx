@@ -35,12 +35,11 @@ const HomeFaqSection: React.FC = () => {
   return (
     <div className='h-full'>
       <Faq
-        mainTitle="Everything"
-        subtitle="you need to know about"
+        label="FAQs"
+        mainTitle="Everything you need to know about"
         faqs={sampleFAQs}
         titleColor="white"
-        subtitleColor="#8FD7DA"
-        accentColor="#8FD7DA"
+        accentColor="#ffffff"
         backgroundColor="#131313"
       />
     </div>

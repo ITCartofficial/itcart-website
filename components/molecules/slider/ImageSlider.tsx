@@ -6,20 +6,16 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 const slides = [
     {
-        imgSrc: "/images/rcm.jpeg",
+        imgSrc: "/images/home/awards/awards-2.png",
         prompt: "Beautiful interactive p5js with fish and nebulae",
     },
     {
-        imgSrc: "/images/ai-image.jpeg",
+        imgSrc: "/images/home/awards/awards-3.png",
         prompt: "Make me an endless dinosaur runner game",
     },
     {
-        imgSrc: "/images/digital-transformation.jpg",
+        imgSrc: "/images/home/awards/awards-1.png",
         prompt: "p5js to explore a Mandelbrot set",
-    },
-    {
-        imgSrc: "/images/business-intelligence.webp",
-        prompt: "p5js particle interaction with gravity",
     },
 ];
 

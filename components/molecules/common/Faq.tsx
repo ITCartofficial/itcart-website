@@ -1,16 +1,16 @@
 'use client'
 import Accordion, { AccordionItem } from '@/components/atoms/common/Accordion';
-import HeadingText from '@/components/atoms/typography/HeadingText';
+import BodyText from '@/components/atoms/typography/BodyText';
+import GradientTitle from '@/components/atoms/typography/GradientTitle';
 import React, { useState } from 'react';
 import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
 
 // Props for the FAQ Section organism
 export interface FaqSectionProps {
+  label: string;
   mainTitle: string;
-  subtitle: string;
   faqs: AccordionItem[];
   titleColor?: string;
-  subtitleColor?: string;
   accentColor?: string;
   backgroundColor?: string;
   maxVisible?: number;
@@ -18,11 +18,10 @@ export interface FaqSectionProps {
 }
 
 const Faq: React.FC<FaqSectionProps> = ({
+  label,
   mainTitle,
-  subtitle,
   faqs,
   titleColor = 'white',
-  subtitleColor = '#8FD7DA', // Light teal color from the screenshot
   accentColor = '#8FD7DA',
   backgroundColor = 'black',
   maxVisible = 7,
@@ -36,29 +35,17 @@ const Faq: React.FC<FaqSectionProps> = ({
   };
 
   return (
-    <section 
-      className={`w-full h-full ${className}`} 
+    <section
+      className={`w-full h-full ${className}`}
       style={{ backgroundColor }}
     >
       {/* Title Section */}
       <div className="container mx-auto px-4 text-center">
-        <div className="mb-6">
-          <HeadingText 
-            text={mainTitle}
-            color={titleColor}
-            textAlign="center"
-            className="mb-2 lg:text-[2.5rem]"
-          />
-          <HeadingText 
-            text={subtitle}
-            color={subtitleColor}
-            textAlign="center"
-            className="mb-8 lg:text-[2.5rem]"
-          />
+        <div className="flex flex-col items-center mb-6">
+          <BodyText text={label} className='text-2xl pb-4' color='#ffffff' fontWeight='600' />
+          <GradientTitle text={mainTitle} lineHeight="1.2" className="max-w-xl text-[50px]" theme='dark' />
         </div>
-        
-        {/* Chevron to expand/collapse */}
-        <button 
+        <button
           onClick={toggleExpansion}
           className="flex justify-center items-center w-10 h-10 mx-auto transition-transform duration-300 cursor-pointer"
           aria-expanded={isExpanded}
@@ -75,7 +62,7 @@ const Faq: React.FC<FaqSectionProps> = ({
       {/* Accordion Section - Conditionally rendered */}
       {isExpanded && (
         <div className="container mx-auto px-4 mt-8">
-          <Accordion 
+          <Accordion
             items={faqs}
             accentColor={accentColor}
             textColor={titleColor}
