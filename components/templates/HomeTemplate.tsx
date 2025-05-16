@@ -47,12 +47,9 @@ const HomeTemplate = () => {
       <div className="bg-black ">
         <HeroSection />
       </div>
-      <div className="bg-[#131313] py-16 border-b-2 border-b-zinc-600">
+      <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
         <HomeFaqSection />
       </div>
-
-
-
 
     </div>
   )
