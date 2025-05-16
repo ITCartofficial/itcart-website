@@ -24,9 +24,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className={`w-full overflow-x-hidden ${montserrat.variable} font-sans antialiased relative`}>
         <Header />
-        <>
+        <main>
           {children}
-        </>
+        </main>
         <Footer />
       </body>
     </html>

@@ -32,7 +32,12 @@ const HomeTemplate = () => {
         <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
       </div>
       <div className="bg-white py-16 lg:rounded-tl-[85px] lg:rounded-tr-[85px]">
-        <HorizontalSliderSection text='Driving Innovation Across Our Key Verticals' cardLists={keyVerticalsData} />
+        <HorizontalSliderSection
+          text='Driving Innovation Across Our Key Verticals'
+          cardLists={keyVerticalsData.map(card => ({
+            ...card, logoBg: card.logoBg === 'dark' ? 'dark' : 'light'
+          }))}
+        />
       </div>
       <div className="bg-white py-16">
         <TextRevealSection />

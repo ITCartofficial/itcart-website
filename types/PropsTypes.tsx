@@ -1,6 +1,4 @@
-import React from "react"
-
-export type OutlineBtnProps = {
+export interface OutlineBtnProps {
     text: string
     icon?: React.ReactNode
     textColor?: string
@@ -9,7 +7,7 @@ export type OutlineBtnProps = {
     theme?: "dark" | "light"
 }
 
-export type TypographyProps = {
+export interface TypographyProps {
     text: string
     fontSize?: React.CSSProperties["fontSize"]
     color?: string
@@ -24,13 +22,13 @@ export type TypographyProps = {
     theme?: "dark" | "light"
 }
 
-export type LogoBadgeProps = {
+export interface LogoBadgeProps {
     src: string;
     alt: string;
     className?: string;
 }
 
-export type ImageInfoCardProps = {
+export interface ImageInfoCardProps {
     bgImage: string,
     title: string,
     description: string,
@@ -42,7 +40,7 @@ export type ImageInfoCardProps = {
     className?: string;
 }
 
-export type AccordionProps = {
+export interface AccordionProps {
     title: string
     description: string
     titleSize?: string
@@ -66,7 +64,7 @@ export interface FaqWithImageProps {
     title?: string
 }
 
-export type TestimonialCardProps = {
+export interface TestimonialCardProps {
     rating: number
     userName: string
     userDesignation: string
@@ -81,12 +79,13 @@ export type IconInfoCardProps = {
     className?: string
     buttonUrl: string;
     logo: string
+    logoBg: "dark" | "light"
 }
 
 export interface CaseStudy {
-    id: number
+    id: number | string
     title: string
-    description: string
+    description?: string
     image: string
     link: string
     linkText: string
