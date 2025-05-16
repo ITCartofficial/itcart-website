@@ -34,6 +34,7 @@ body {
   color: var(--foreground);
 }
 
+
 /* Headings */
 /* h1 {
   @apply text-[64px] leading-[80px] font-bold;

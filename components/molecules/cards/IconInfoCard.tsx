@@ -12,7 +12,7 @@ const IconInfoCard: React.FC<IconInfoCardProps> = ({ bgImage, title, description
             >
                 <FillLogoBadge bgColor="#ffffff" logo={logo} className="absolute top-6 left-6" />
                 <GradientTitle text={title} className="text-[24px] lg:text-[30px]" theme="dark" />
-                <BodyText text={description} lineClamp={4} className="text-base" />
+                <BodyText text={description} lineClamp={4} className="text-base" color="#ffffff"/>
                 <LinkButton text="Learn More" url={buttonUrl} className="lg:text-[20px]" textColor="#ffffff" />
             </div>
         </div>

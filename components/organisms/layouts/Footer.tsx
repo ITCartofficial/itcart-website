@@ -2,8 +2,8 @@ import BodyText from "@/components/atoms/typography/BodyText";
 import FooterSection from "@/components/molecules/footer/FooterSection";
 import Image from "next/image";
 import Logo from "@/components/atoms/common/Logo";
-// import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import SocialIcons from "@/components/molecules/common/SocialIcons";
+import GradientTitle from "@/components/atoms/typography/GradientTitle";
 
 const certLogos = [
     { src: "/logos/MSMEmart-Logo.png", alt: "MSME Logo" },
@@ -21,9 +21,7 @@ const Footer = () => {
                 {/* Left Side – Logo, Text, Image */}
                 <div className="w-full lg:w-1/2 flex flex-col justify-between gap-6">
                     <Logo />
-                    <h1 className="text-3xl font-bold leading-snug text-cyan-200 mt-4">
-                        Smart Solutions for a Smarter Tomorrow
-                    </h1>
+                    <GradientTitle text="Smart Solutions for a Smarter Tomorrow" lineHeight="1.2" className="max-w-lg text-[45px]" theme='dark' />
                     <Image
                         src="/images/two-hands.png"
                         alt="hands Image"
