@@ -2,7 +2,7 @@ import React from 'react'
 import HeroBanner from '../organisms/sections/HeroBanner'
 import ServicesGrid from '../organisms/sections/ServiceGrid'
 
-const AboutTemplate = () => {
+const ServiceTemplate = () => {
     return (
         <>
             <HeroBanner title="Our Services"
@@ -19,4 +19,4 @@ const AboutTemplate = () => {
     )
 }
 
-export default AboutTemplate
+export default ServiceTemplate
