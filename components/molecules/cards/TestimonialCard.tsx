@@ -13,8 +13,8 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ rating, userName, use
                 <RatingStars rating={rating} />
 
                 <div className="flex items-center gap-4">
-                    <div className="flex">
-                        <ImageContainer src={userImage} alt={userName || "Testimonial Image"} height={64} width={64} className="rounded-full object-cover" />
+                    <div className="flex relative">
+                        <ImageContainer src={userImage} alt={userName || "Testimonial Image"} height={64} width={64} className="rounded-full h-14 w-14 object-cover" />
                     </div>
                     <div className="flex flex-col">
                         <HeadingText text={userName} color="#000" className="lg:text-[18px]" />
