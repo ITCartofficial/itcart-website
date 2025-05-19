@@ -139,7 +139,7 @@ const Faq: React.FC<FaqSectionProps> = ({
 
   // Calculate the height of the accordion content
   useEffect(() => {
-    let timeoutId: NodeJS.Timeout;
+    ;
 
     const updateContentHeight = () => {
       if (accordionRef.current) {
@@ -152,7 +152,7 @@ const Faq: React.FC<FaqSectionProps> = ({
     updateContentHeight();
 
     // Set timeout to recalculate height after animations
-    timeoutId = setTimeout(updateContentHeight, 300);
+    const timeoutId: NodeJS.Timeout = setTimeout(updateContentHeight, 300);
 
     // Set an interval to continuously update height while expanded
     const intervalId = setInterval(() => {

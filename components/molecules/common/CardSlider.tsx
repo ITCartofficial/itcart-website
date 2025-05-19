@@ -38,6 +38,7 @@ const CardSlider: React.FC<CardSliderProps> = ({ cardLists }) => {
                                 description={card.description}
                                 buttonUrl={card.buttonUrl}
                                 logo={card.logo}
+                                logoBg={card.logoBg}
                             />
                         </SwiperSlide>
                     ))

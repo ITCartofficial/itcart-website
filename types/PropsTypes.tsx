@@ -1,15 +1,13 @@
-import React from "react"
-
-export type OutlineBtnProps = {
+export interface OutlineBtnProps {
     text: string
-    icon?: React.ReactNode
+    icon?: React.ReactNode | "default"
     textColor?: string
     className?: string
     url?: string
     theme?: "dark" | "light"
 }
 
-export type TypographyProps = {
+export interface TypographyProps {
     text: string
     fontSize?: React.CSSProperties["fontSize"]
     color?: string
@@ -21,15 +19,16 @@ export type TypographyProps = {
     lineClamp?: number
     hoverColor?: string
     className?: string
+    theme?: "dark" | "light"
 }
 
-export type LogoBadgeProps = {
+export interface LogoBadgeProps {
     src: string;
     alt: string;
     className?: string;
 }
 
-export type ImageInfoCardProps = {
+export interface ImageInfoCardProps {
     bgImage: string,
     title: string,
     description: string,
@@ -41,7 +40,7 @@ export type ImageInfoCardProps = {
     className?: string;
 }
 
-export type AccordionProps = {
+export interface AccordionProps {
     title: string
     description: string
     titleSize?: string
@@ -65,7 +64,7 @@ export interface FaqWithImageProps {
     title?: string
 }
 
-export type TestimonialCardProps = {
+export interface TestimonialCardProps {
     rating: number
     userName: string
     userDesignation: string
@@ -80,4 +79,22 @@ export type IconInfoCardProps = {
     className?: string
     buttonUrl: string;
     logo: string
+    logoBg: "dark" | "light"
+}
+
+export interface CaseStudy {
+    id: number | string
+    title: string
+    description?: string
+    image: string
+    link: string
+    linkText: string
+}
+
+export interface AddressCardProps {
+    country: "India" | "US" | "Singapore" | "UAE" | "KSA",
+    phone: string,
+    email: string,
+    location: string,
+    mapUrl?: string,
 }

@@ -7,12 +7,14 @@ import AboutInfoSection from '../organisms/sections/AboutInfoSection';
 import TestimonialSection from '../organisms/sections/TestimonialSection';
 import HorizontalSliderSection from '../organisms/sections/HorizontalSliderSection';
 
-import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent } from '../data/homePageData';
+import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts } from '../data/homePageData';
 import ContentfulSection from '../organisms/sections/ContentfulSection';
 import TextRevealSection from '../organisms/sections/TextRevealSection';
 import AwardsSection from '../organisms/sections/AwardsSection';
 import BusinessTransformSection from '../organisms/sections/BusinessTransformSection';
 import HomeFaqSection from '../organisms/sections/HomeFaqSection';
+import CaseStudySection from '../organisms/sections/CaseStudySection';
+import BlogsFeatureSection from '../organisms/sections/BlogsFeatureSection';
 
 
 const { videoSrc, poster, heading, description, buttonText } = homeBannerData
@@ -27,8 +29,16 @@ const HomeTemplate = () => {
       <div className="bg-black py-16 container mx-auto lg:px-10">
         <AboutInfoSection title='About Us – Creating Impact with a Clear Vision' cardDetails={aboutBrief} />
       </div>
+      <div className="bg-black py-16">
+        <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
+      </div>
       <div className="bg-white py-16 lg:rounded-tl-[85px] lg:rounded-tr-[85px]">
-        <HorizontalSliderSection text='Driving Innovation Across Our Key Verticals' cardLists={keyVerticalsData} />
+        <HorizontalSliderSection
+          text='Driving Innovation Across Our Key Verticals'
+          cardLists={keyVerticalsData.map(card => ({
+            ...card, logoBg: card.logoBg === 'dark' ? 'dark' : 'light'
+          }))}
+        />
       </div>
       <div className="bg-white py-16">
         <TextRevealSection />
@@ -37,10 +47,13 @@ const HomeTemplate = () => {
         <ContentfulSection bgImage={missionContent.bgImage} description={missionContent.description} title={missionContent.title} />
       </div>
       <div className="bg-white py-16">
+        <CaseStudySection />
+      </div>
+      <div className="bg-white py-16">
         <TestimonialSection testimonialsData={testimonialsData} />
       </div>
-      <div className="bg-black py-16">
-        <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
+      <div className="bg-white pt-16">
+        <BlogsFeatureSection posts={posts} />
       </div>
       <div className="bg-black py-16">
         <AwardsSection />

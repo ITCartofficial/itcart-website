@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import HeadingText from "@/components/atoms/typography/HeadingText";
 
 
 interface SlideCardProps {
