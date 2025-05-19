@@ -11,10 +11,11 @@ import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, 
 import ContentfulSection from '../organisms/sections/ContentfulSection';
 import TextRevealSection from '../organisms/sections/TextRevealSection';
 import AwardsSection from '../organisms/sections/AwardsSection';
-import HeroSection from '../organisms/sections/HeroSection';
+import BusinessTransformSection from '../organisms/sections/BusinessTransformSection';
 import HomeFaqSection from '../organisms/sections/HomeFaqSection';
 import CaseStudySection from '../organisms/sections/CaseStudySection';
 import BlogsFeatureSection from '../organisms/sections/BlogsFeatureSection';
+
 
 const { videoSrc, poster, heading, description, buttonText } = homeBannerData
 
@@ -58,7 +59,7 @@ const HomeTemplate = () => {
         <AwardsSection />
       </div>
       <div className="bg-black ">
-        <HeroSection />
+        <BusinessTransformSection />
       </div>
       <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
         <HomeFaqSection />
