@@ -8,7 +8,7 @@ const originalItems: CaseStudy[] = [
   {
     id: 1,
     title: "AI Powered Digital Transformations at Ajmal Foundation",
-    image: "/images/case_studies/case_studies/aipowereddigital.png",
+    image: "/images/case_studies/aipowereddigital.png",
     link: "#",
     linkText: "Read Case Study",
   },
@@ -48,14 +48,7 @@ const originalItems: CaseStudy[] = [
     image: "/images/case_studies/tranformingeducation.png",
     link: "#",
     linkText: "Read Case Study",
-  },
-  {
-    id: 7,
-    title: "AI Powered Digital Transformations at Ajmal Foundation",
-    image: "/images/case_studies/aipowereddigital.png",
-    link: "#",
-    linkText: "Read Case Study",
-  },
+  }
 ]
 
 // Add clones at beginning and end

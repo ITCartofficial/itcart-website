@@ -1,6 +1,6 @@
 export interface OutlineBtnProps {
     text: string
-    icon?: React.ReactNode
+    icon?: React.ReactNode | "default"
     textColor?: string
     className?: string
     url?: string
@@ -89,4 +89,12 @@ export interface CaseStudy {
     image: string
     link: string
     linkText: string
+}
+
+export interface AddressCardProps {
+    country: "India" | "US" | "Singapore" | "UAE" | "KSA",
+    phone: string,
+    email: string,
+    location: string,
+    mapUrl?: string,
 }

@@ -1,0 +1,35 @@
+import ImageContainer from "@/components/atoms/common/ImageContainer"
+import BodyText from "@/components/atoms/typography/BodyText"
+import HeadingText from "@/components/atoms/typography/HeadingText"
+import ContactForm from "@/components/molecules/forms/ContactForm"
+
+
+const ContactFormSection = () => {
+    return (
+        <div className="w-full border-[1px] border-[#45C2CC] lg:p-16 rounded-2xl">
+            <div className="grid grid-cols-2 lg:gap-14">
+                <div className="flex flex-col gap-8">
+                    <div className="flex flex-col gap-2">
+                        <HeadingText
+                            text="Let&apos;s connect with us"
+                            theme="dark"
+                            className="lg:text-3xl text-white" />
+                        <BodyText
+                            text="Discover the transformative power of AiX and unlock a future brimming with infinite possibilities."
+                            theme="dark"
+                            className="text-base text-white" />
+                    </div>
+                    <ContactForm theme="dark" />
+                </div>
+                <div className="w-full h-full relative rounded-xl overflow-hidden">
+                    <ImageContainer
+                        src={"/images/contact/contact-form-img.jpg"}
+                        alt="contact-us"
+                    />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default ContactFormSection
