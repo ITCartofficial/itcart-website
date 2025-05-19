@@ -50,7 +50,7 @@ export const termsConditionContent: ContentItem[] = [
   },
   {
     title: "10. General",
-    content:"IT Cart Terms and Conditions are designed and composed under consideration of all agreements, the client signature or payment of an advance fees constitutes agreement to and acceptance of these terms and conditions, Online Payment is an approval and acceptance of our terms & conditions.<br></br>For any other inquiry,<a href='/contact' class='text-blue-400 hover:underline'>Contact</a> our support team. Our support team will contact you soon.",
+    content:"IT Cart Terms and Conditions are designed and composed under consideration of all agreements, the client signature or payment of an advance fees constitutes agreement to and acceptance of these terms and conditions, Online Payment is an approval and acceptance of our terms & conditions.<br></br>For any other inquiry, <a href='/contact' class='text-blue-400 hover:underline'>Contact</a> our support team. Our support team will contact you soon.",
     isHTML: true
   }
 ];
