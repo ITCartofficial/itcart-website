@@ -1,10 +1,12 @@
+export type Theme = "dark" | "light";
+
 export interface OutlineBtnProps {
     text: string
     icon?: React.ReactNode | "default"
     textColor?: string
     className?: string
     url?: string
-    theme?: "dark" | "light"
+    theme?: Theme
 }
 
 export interface TypographyProps {
@@ -19,7 +21,7 @@ export interface TypographyProps {
     lineClamp?: number
     hoverColor?: string
     className?: string
-    theme?: "dark" | "light"
+    theme?: Theme
 }
 
 export interface LogoBadgeProps {
@@ -97,4 +99,34 @@ export interface AddressCardProps {
     email: string,
     location: string,
     mapUrl?: string,
+}
+
+export interface ExecutiveLeader {
+    image: string;
+    title: string;
+    designation: string;
+    desciption: string;
+    matrics:
+    {
+        numericValue: number;
+        title: string;
+    }[]
+    profileRef: string;
+}
+
+export interface GlobalStrategist {
+    image: string;
+    title: string;
+    designation: string;
+}
+
+export interface Ambassador {
+    image: string;
+    title: string;
+    designation: string;
+    profileRef: string;
+    matrics: {
+        numericValue: number;
+        title: string;
+    }[];
 }

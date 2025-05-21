@@ -15,7 +15,7 @@ const AboutInfoSection: React.FC<AboutInfoSectionProps> = ({ title, cardDetails 
     return (
         <div className="flex flex-col gap-10">
             <GradientTitle text={title} className="text-[30px] lg:text-[50px] lg:w-[70%] leading-tight text-center lg:text-left" theme="dark" />
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 lg:min-h-[500px]">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:min-h-[500px] lg:px-24">
                 {cardDetails.map((card, i) => (
                     i == 1 && (
                         <div key={i} className="lg:-translate-y-16 flex flex-col gap-6">
@@ -25,7 +25,7 @@ const AboutInfoSection: React.FC<AboutInfoSectionProps> = ({ title, cardDetails 
                             </div>
                         </div>
                     ) || (
-                        <ImageInfoCard bgImage={card.bgImage} description={card.description} title={card.title} key={i} />
+                        <ImageInfoCard bgImage={card.bgImage} description={card.description} title={card.title} className="" key={i} />
                     )
                 ))}
             </div>

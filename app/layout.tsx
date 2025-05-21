@@ -2,6 +2,8 @@ import { Montserrat } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/organisms/layouts/Header"
 import Footer from "@/components/organisms/layouts/Footer"
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -28,6 +30,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <Footer />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )

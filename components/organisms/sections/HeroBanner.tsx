@@ -15,9 +15,9 @@ interface BreadcrumbItem {
 
 interface HeroBannerProps {
   title: string;
-  description: string;
-  ctaText: string;
-  ctaUrl: string;
+  description?: string;
+  ctaText?: string;
+  ctaUrl?: string;
   breadcrumbItems: BreadcrumbItem[];
   backgroundImage?: string;
   className?: string;
@@ -34,9 +34,9 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
 }) => {
   return (
     <section className={`relative w-full bg-black text-white overflow-hidden ${className}`}>
-          <div className="relative h-[40vh] sm:h-[40vh] md:h-[60vh] lg:h-[70vh]">
-        <div 
-          className="absolute inset-0 z-0 opacity-70" 
+      <div className="relative h-[40vh] sm:h-[40vh] md:h-[60vh] lg:h-[70vh] bg-gradient-to-t from-black/100 to-white">
+        <div
+          className="absolute inset-0 z-0 opacity-70"
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: 'cover',
@@ -52,7 +52,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
             theme="dark" 
             className="text-3xl sm:text-4xl md:text-[50px] mb-2 text-center"
           />
-          
+
           {/* Breadcrumb Navigation */}
           <nav className="flex items-center justify-center text-sm">
             <ul className="flex items-center">
@@ -76,25 +76,33 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
       </div>
 
       {/* Description and CTA Content (below the wave) */}
-      <div className="container mx-auto px-4 ">
-        <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
-          {/* Description */}
-          <BodyText 
-            text={description} 
-            color="#ffffff" 
-            className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 lg:mb-10"
-          />
+      {
+        description && (
+          <div className="container mx-auto px-4 ">
+            <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+              {/* Description */}
+              <BodyText
+                text={description}
+                color="#ffffff"
+                className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 lg:mb-10"
+              />
 
-          {/* CTA Button */}
-          <OutlineBtn 
-            text={ctaText} 
-            icon={<FaArrowRight size={16} />} 
-            url={ctaUrl}
-            theme="dark"
-            className="mt-2"
-          />
-        </div>
-      </div>
+              {/* CTA Button */}
+              {
+                ctaText && (
+                  <OutlineBtn
+                    text={ctaText}
+                    icon={<FaArrowRight size={16} />}
+                    url={ctaUrl}
+                    theme="dark"
+                    className="mt-2"
+                  />
+                )
+              }
+            </div>
+          </div>
+        )
+      }
     </section>
   )
 }

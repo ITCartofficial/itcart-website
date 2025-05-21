@@ -18,7 +18,7 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonialsData 
         <div className='w-full overflow-hidden'>
             <Swiper
                 modules={[Autoplay]}
-                slidesPerView={4}
+                // slidesPerView={4}
                 loop={true}
                 autoplay={{ delay: 0, disableOnInteraction: false }}
                 speed={3000}
@@ -26,8 +26,8 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonialsData 
                 breakpoints={{
                     320: { slidesPerView: 1 },
                     640: { slidesPerView: 2 },
-                    1024: { slidesPerView: 3.2 },
-                    1440: { slidesPerView: 4 },
+                    1024: { slidesPerView: 2.2 },
+                    1440: { slidesPerView: 2.6 },
                 }}
                 className="flex items-center justify-center"
             >
