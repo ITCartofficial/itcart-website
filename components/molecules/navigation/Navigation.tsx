@@ -18,6 +18,7 @@ const Navigation: React.FC<NavigationProps> = ({ className }) => {
     setActiveMenu(label)
   }
 
+  console.log(activeMenu)
   return (
     <nav className={className || ''}>
       <ul className="flex flex-col lg:flex-row items-start lg:items-center gap-1 lg:gap-6 relative z-50">
