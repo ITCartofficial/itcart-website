@@ -24,7 +24,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card }) => {
             <div className="absolute inset-0 bg-gradient-to-b from-gray-900/10 to-gray-900/90 z-10 rounded-[30px]" />
             <div className="absolute inset-0 z-20 p-6 flex flex-col justify-end rounded-[30px]">
                 <GradientTitle text={card.title} theme="dark" className="text-xl font-bold text-white mb-2" />
-                <LinkButton text={card.linkText} textColor='#ffffff' />
+                <LinkButton url={card.link} text={card.linkText} textColor='#ffffff' />
             </div>
         </div>
     )

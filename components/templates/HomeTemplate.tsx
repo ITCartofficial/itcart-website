@@ -7,7 +7,7 @@ import AboutInfoSection from '../organisms/sections/AboutInfoSection';
 import TestimonialSection from '../organisms/sections/TestimonialSection';
 import HorizontalSliderSection from '../organisms/sections/HorizontalSliderSection';
 
-import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts } from '../data/homePageData';
+import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts, caseStudies } from '../data/homePageData';
 import ContentfulSection from '../organisms/sections/ContentfulSection';
 import TextRevealSection from '../organisms/sections/TextRevealSection';
 import AwardsSection from '../organisms/sections/AwardsSection';
@@ -47,7 +47,7 @@ const HomeTemplate = () => {
         <ContentfulSection bgImage={missionContent.bgImage} description={missionContent.description} title={missionContent.title} />
       </div>
       <div className="bg-white py-16">
-        <CaseStudySection />
+        <CaseStudySection caseStudies={caseStudies} />
       </div>
       <div className="bg-white py-16">
         <TestimonialSection testimonialsData={testimonialsData} />
