@@ -5,7 +5,10 @@ import LinkButton from '@/components/atoms/buttons/LinkButton';
 import GradientTitle from '@/components/atoms/typography/GradientTitle';
 
 const TechnologySection = () => {
-    const technologyPostsCard = blogPosts.slice(0, 3);
+    // const technologyPostsCard = blogPosts.slice(0, 3);
+          const technologyPostsCard = blogPosts
+            .filter((blog) => blog.category === "Technology")
+            .slice(0, 3);
     return (
         <div className='container py-20'>
             <div className='flex justify-between'>
