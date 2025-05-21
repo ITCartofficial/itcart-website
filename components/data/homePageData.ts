@@ -49,7 +49,7 @@ export const keyVerticalsData = [
     description:
       "An AI-driven RCM like no other - medical scribing, medical coding, and medical billing, helping you streamline revenue cycle processes efficiently.  ",
     buttonUrl: "#",
-    logo: "/logos/RCMAiX.png",
+    logo: "/logos/rcmaix.png",
     logoBg: "light",
   },
   {
