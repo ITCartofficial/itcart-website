@@ -2,7 +2,7 @@ import { Montserrat } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/organisms/layouts/Header"
 import Footer from "@/components/organisms/layouts/Footer"
-
+import { Analytics } from '@vercel/analytics/next';
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
@@ -28,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
