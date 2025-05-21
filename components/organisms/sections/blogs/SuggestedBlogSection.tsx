@@ -120,7 +120,7 @@ const SuggestedBlogSection = () => {
         id: '1',
         title: "Experience a multi-functional AI-powered platform",
         image: "/images/blogs/blog-featured-14.jpg",
-        link: "/contact",
+        link: "/contact-us",
         linkText: "Contact us",
     }
 
