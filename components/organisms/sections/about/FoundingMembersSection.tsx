@@ -27,6 +27,7 @@ const FoundingMembersSection = ({ members, theme, direction }: {
                 <BodyText
                     text={"Meet our visionary founding members: Driving leadership, innovation and strategic excellence in IT."}
                     className={"lg:text-[20px]"}
+                    theme={theme}
                 />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

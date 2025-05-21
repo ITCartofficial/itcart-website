@@ -34,7 +34,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
 }) => {
   return (
     <section className={`relative w-full bg-black text-white overflow-hidden ${className}`}>
-      <div className="relative h-[40vh] sm:h-[40vh] md:h-[60vh] lg:h-[70vh]">
+      <div className="relative h-[40vh] sm:h-[40vh] md:h-[60vh] lg:h-[70vh] bg-gradient-to-t from-black/100 to-white">
         <div
           className="absolute inset-0 z-0 opacity-70"
           style={{

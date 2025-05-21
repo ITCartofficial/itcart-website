@@ -24,6 +24,11 @@ const SwiperController = ({ current }: { current: number }) => {
 const BlogSlider = () => {
     const [current, setCurrent] = useState(0);
 
+    // 🔹 Filter 5 Editor's Pick blogs
+    const editorsPickPosts = blogPosts
+        .filter((blog) => blog.category === "Editor's Pick")
+        .slice(0, 5);
+
     return (
         <div className="w-full flex flex-col items-center space-y-6">
             <div className="container relative">
@@ -33,7 +38,7 @@ const BlogSlider = () => {
                     slidesPerView={1}
                     onSlideChange={(swiper) => setCurrent(swiper.activeIndex)}
                     autoplay={{ delay: 5000, disableOnInteraction: false }}>
-                    {blogPosts.map((blog, index) => (
+                    {editorsPickPosts.map((blog, index) => (
                         <SwiperSlide key={index}>
                             <BlogSliderCard {...blog} />
                         </SwiperSlide>
@@ -44,7 +49,7 @@ const BlogSlider = () => {
 
             {/* Custom Pagination */}
             <div className="flex space-x-2">
-                {blogPosts.map((_, index) => (
+                {editorsPickPosts.map((_, index) => (
                     <button
                         key={index}
                         onClick={() => setCurrent(index)}

@@ -13,7 +13,6 @@ interface HorizontalCardProps {
     imageWidth?: string;
     imageHeight?: string;
     titleSize?: string;
-    titleWeight?: 'normal' | 'medium' | 'semibold' | 'bold';
     className?: string;
 
     // Optional "Continue Reading" button
@@ -30,7 +29,6 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({
     imageWidth = 'w-1/4',
     imageHeight = 'h-20',
     titleSize = 'text-base',
-    titleWeight = 'semibold',
     className = '',
     showButton = false,
     buttonUrl = '#',
@@ -53,7 +51,6 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({
             <div className="flex-1 px-4 flex flex-col justify-center gap-1">
                 <HeadingText
                     text={title}
-                    fontWeight={titleWeight}
                     className={`${titleSize} leading-tight mb-1 hover:text-[#45c2cc]`}
                 />
 

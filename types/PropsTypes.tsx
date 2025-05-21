@@ -1,13 +1,13 @@
+export type Theme = "dark" | "light";
+
 export interface OutlineBtnProps {
     text: string
     icon?: React.ReactNode | "default"
     textColor?: string
     className?: string
     url?: string
-    theme?: "dark" | "light"
+    theme?: Theme
 }
-
-export type Theme = "dark" | "light";
 
 export interface TypographyProps {
     text: string
@@ -21,7 +21,7 @@ export interface TypographyProps {
     lineClamp?: number
     hoverColor?: string
     className?: string
-    theme?: "dark" | "light"
+    theme?: Theme
 }
 
 export interface LogoBadgeProps {
