@@ -9,6 +9,7 @@ import SocialIcons from '@/components/molecules/common/SocialIcons'
 
 import { blogPosts } from '@/components/data/blogsData'
 import { CaseStudy } from '@/types/PropsTypes'
+import Image from 'next/image'
 
 // Define types for blog post
 interface BlogPost {
@@ -170,10 +171,11 @@ const SuggestedBlogSection = () => {
                                     >
                                         <div className="flex items-center gap-3">
                                             {post.imageUrl && (
-                                                <div className="w-16 h-16 flex-shrink-0">
-                                                    <img 
+                                                <div className="w-16 h-16 flex-shrink-0 relative">
+                                                    <Image 
                                                         src={post.imageUrl} 
                                                         alt={post.title} 
+                                                        fill
                                                         className="w-full h-full object-cover rounded"
                                                     />
                                                 </div>
