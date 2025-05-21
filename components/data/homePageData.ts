@@ -12,7 +12,7 @@ export const keyVerticalsData = [
     title: "AiXBFS",
     description:
       "Experience banking efficiency with our AI-powered solutions, including fraud detection, debt recovery, and compliance management.",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/aixbfs.png",
     logoBg: "light",
   },
@@ -21,7 +21,7 @@ export const keyVerticalsData = [
     title: "AiXHealthcare",
     description:
       "Get introduced to quality-driven AI healthcare solutions that empower precise diagnostics, seamless operations, and personalized patient care. ",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/aixhealthcare.png",
     logoBg: "light",
   },
@@ -30,7 +30,7 @@ export const keyVerticalsData = [
     title: "AiXFintech",
     description:
       "With our AI-powered fintech platform, we can improve payment systems and risk management via intelligent automation and predictive intelligence. ",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/aixfintech.png",
     logoBg: "light",
   },
@@ -39,7 +39,7 @@ export const keyVerticalsData = [
     title: "CyberAiX",
     description:
       "Protect sensitive data from unauthorized access with our user-friendly AI-powered platform - a shield in the AI world. ",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/cyberaix.png",
     logoBg: "light",
   },
@@ -48,7 +48,7 @@ export const keyVerticalsData = [
     title: "RCMAiX",
     description:
       "An AI-driven RCM like no other - medical scribing, medical coding, and medical billing, helping you streamline revenue cycle processes efficiently.  ",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/rcmaix.png",
     logoBg: "light",
   },
@@ -57,7 +57,7 @@ export const keyVerticalsData = [
     title: "AiX Desk",
     description:
       "Automate daily tasks and integrate tools like Microsoft 365 via our AI-powered virtual assistant, helping users manage workload effortlessly. ",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/deskaix.png",
     logoBg: "light",
   },
@@ -66,7 +66,7 @@ export const keyVerticalsData = [
     title: "AiXEnergy",
     description:
       "With our smart solutions for sustainability and cost efficiency, we transform the energy sector via an AI-powered platform. ",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/aixenergy.png",
     logoBg: "light",
   },
@@ -75,7 +75,7 @@ export const keyVerticalsData = [
     title: "Realty AiX",
     description:
       "Optimize property listing, leasing, and construction processes at scale with a user-friendly AI-powered solution. ",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/realtyaix.png",
     logoBg: "light",
   },
@@ -84,7 +84,7 @@ export const keyVerticalsData = [
     title: "AiX ERP",
     description:
       "Integrate advanced automation processes that streamline business operations and offer real-time insights via an AI-driven ERP platform. ",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/aixerp.png",
     logoBg: "light",
   },
@@ -93,7 +93,7 @@ export const keyVerticalsData = [
     title: "AiX QP",
     description:
       "Leverage a user-friendly learning management platform that offers high-quality courses, helping students achieve their goals. ",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/aixqp.png",
     logoBg: "light",
   },
@@ -102,7 +102,7 @@ export const keyVerticalsData = [
     title: "AiX Motorsports",
     description:
       "Enable faster lap times and improved vehicle reliability with AI-driven performance optimization, predictive maintenance, and real-time analytics. ",
-    buttonUrl: "#",
+    buttonUrl: "/vertical",
     logo: "/logos/aixmotorsports.png",
     logoBg: "light",
   },
@@ -261,3 +261,50 @@ export const posts = [
     image: "/images/business-intelligence.webp",
   },
 ];
+
+export const caseStudies = [
+  {
+    id: 1,
+    title: "AI Powered Digital Transformations at Ajmal Foundation",
+    image: "/images/case_studies/aipowereddigital.png",
+    link: "/case-study",
+    linkText: "Read Case Study",
+  },
+  {
+    id: 2,
+    title:
+      "Transforming Healthcare: The Success of Health AI's Telehealth Platform",
+    image: "/images/case_studies/Transforming-healthcare.png",
+    link: "/case-study",
+    linkText: "Read Case Study",
+  },
+  {
+    id: 3,
+    title:
+      "Building the Future: BIMQP’s Success with IT Cart’s Digital Solutions",
+    image: "/images/case_studies/buildingfuture.png",
+    link: "/case-study",
+    linkText: "Read Case Study",
+  },
+  {
+    id: 4,
+    title: "Maarif Foundation Digital Transformation with IT Cart",
+    image: "/images/case_studies/maariffoundation.png",
+    link: "/case-study",
+    linkText: "Read Case Study",
+  },
+  {
+    id: 5,
+    title: "Digital Transformation at ImmunoCon2024 Conference",
+    image: "/images/case_studies/digitaltransformation.png",
+    link: "/case-study",
+    linkText: "Read Case Study",
+  },
+  {
+    id: 6,
+    title: "Transforming Education and Operations: AIX HUB",
+    image: "/images/case_studies/tranformingeducation.png",
+    link: "/case-study",
+    linkText: "Read Case Study",
+  }
+]

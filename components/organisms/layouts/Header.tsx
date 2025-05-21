@@ -50,7 +50,7 @@ const Header: React.FC = () => {
           {/* Search and Contact Button (Right) */}
           <div className="w-[200px] hidden lg:flex items-center gap-4 flex-shrink-0">
             <SearchButton />
-            <OutlineBtn text="Contact us" url="/contact" textColor='#ffffff' icon={<FaArrowRight className="text-sm font-semibold text-white" />} />
+            <OutlineBtn text="Contact us" url="/contact-us" textColor='#ffffff' icon={<FaArrowRight className="text-sm font-semibold text-white" />} />
           </div>
         </div>
       </div>
