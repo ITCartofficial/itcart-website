@@ -50,7 +50,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
           <GradientTitle 
             text={title} 
             theme="dark" 
-            className="text-3xl sm:text-4xl md:text-5xl mb-2 text-center"
+            className="text-3xl sm:text-4xl md:text-[50px] mb-2 text-center"
           />
           
           {/* Breadcrumb Navigation */}

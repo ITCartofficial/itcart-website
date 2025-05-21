@@ -18,7 +18,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, description, lastUpdat
                 <GradientTitle
                     text={title}
                     theme="dark"
-                    className="text-4xl md:text-5xl mb-4"
+                    className="text-4xl md:text-5xl lg:text-[64px] mb-4"
                 />
 
                 <BodyText
