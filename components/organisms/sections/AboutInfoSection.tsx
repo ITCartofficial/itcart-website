@@ -25,7 +25,7 @@ const AboutInfoSection: React.FC<AboutInfoSectionProps> = ({ title, cardDetails 
                             </div>
                         </div>
                     ) || (
-                        <ImageInfoCard bgImage={card.bgImage} description={card.description} title={card.title} key={i} />
+                        <ImageInfoCard bgImage={card.bgImage} description={card.description} title={card.title} className="" key={i} />
                     )
                 ))}
             </div>

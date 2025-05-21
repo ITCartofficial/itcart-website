@@ -7,6 +7,8 @@ export interface OutlineBtnProps {
     theme?: "dark" | "light"
 }
 
+export type Theme = "dark" | "light";
+
 export interface TypographyProps {
     text: string
     fontSize?: React.CSSProperties["fontSize"]
@@ -97,4 +99,34 @@ export interface AddressCardProps {
     email: string,
     location: string,
     mapUrl?: string,
+}
+
+export interface ExecutiveLeader {
+    image: string;
+    title: string;
+    designation: string;
+    desciption: string;
+    matrics:
+    {
+        numericValue: number;
+        title: string;
+    }[]
+    profileRef: string;
+}
+
+export interface GlobalStrategist {
+    image: string;
+    title: string;
+    designation: string;
+}
+
+export interface Ambassador {
+    image: string;
+    title: string;
+    designation: string;
+    profileRef: string;
+    matrics: {
+        numericValue: number;
+        title: string;
+    }[];
 }

@@ -7,7 +7,7 @@ import { FaArrowRight } from 'react-icons/fa6'
 
 const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, icon, textColor, className, url, theme = "dark" }) => {
 
-    const iconColor = theme === 'dark' ? 'text-[#ffffff]' : "text-[#eee]";
+    const iconColor = theme === 'dark' ? 'text-[#ffffff]' : "text-[#2BADB7]";
 
     return (
         <Link href={url || "#"} className={`group w-max anim-outline-btn ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`}>

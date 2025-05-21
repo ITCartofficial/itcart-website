@@ -30,7 +30,7 @@ const FaqWithImage: React.FC<FaqWithImageProps> = ({ faqsData, faqsCount, }) => 
 
       {faqsData.slice(0, faqsCount).map((faq, index) => (
         <div className="grid lg:grid-cols-2 gap-4 w-full border-b last:border-none border-[#333] pb-4" key={index}>
-          <div className="px-8 hidden lg:block">0{index + 1}</div>
+          <div className="px-8 hidden lg:block text-white">0{index + 1}</div>
           <Accordion
             title={faq.title}
             description={faq.description}
