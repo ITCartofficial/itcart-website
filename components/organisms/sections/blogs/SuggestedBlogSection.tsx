@@ -52,13 +52,41 @@ const SuggestedBlogSection = () => {
                 setShowDropdown(false)
             } else {
                 const searchLower = value.toLowerCase()
-                const filtered = blogPosts
-                    .filter((blog: BlogPost) => 
-                        blog.title.toLowerCase().includes(searchLower) || 
-                        blog.author.toLowerCase().includes(searchLower) ||
-                        (blog.description && blog.description.toLowerCase().includes(searchLower))
-                    )
-                    .slice(0, 3) // Limit to 3 results
+                
+                // First filter matching posts
+                const matchingPosts = blogPosts.filter((blog: BlogPost) => 
+                    blog.title.toLowerCase().includes(searchLower) || 
+                    blog.author.toLowerCase().includes(searchLower) ||
+                    (blog.description && blog.description.toLowerCase().includes(searchLower))
+                )
+                
+                // Sort by relevance
+                const sortedPosts = matchingPosts.sort((a: BlogPost, b: BlogPost) => {
+                    const titleA = a.title.toLowerCase()
+                    const titleB = b.title.toLowerCase()
+                    
+                    // Exact title match takes highest priority
+                    if (titleA === searchLower && titleB !== searchLower) return -1
+                    if (titleB === searchLower && titleA !== searchLower) return 1
+                    
+                    // Title starts with search term takes second priority
+                    const aStartsWith = titleA.startsWith(searchLower)
+                    const bStartsWith = titleB.startsWith(searchLower)
+                    if (aStartsWith && !bStartsWith) return -1
+                    if (bStartsWith && !aStartsWith) return 1
+                    
+                    // Title contains search term takes third priority
+                    const aContains = titleA.includes(searchLower)
+                    const bContains = titleB.includes(searchLower)
+                    if (aContains && !bContains) return -1
+                    if (bContains && !aContains) return 1
+                    
+                    // If both have same priority level, sort alphabetically
+                    return titleA.localeCompare(titleB)
+                })
+                
+                // Take more results (up to 10 for scrolling)
+                const filtered = sortedPosts.slice(0, 10)
                 
                 setSearchResults(filtered)
                 setShowDropdown(filtered.length > 0)
@@ -131,7 +159,7 @@ const SuggestedBlogSection = () => {
                         {/* Search Results Dropdown */}
                         {showDropdown && searchResults.length > 0 && (
                             <div 
-                                className="absolute z-10 w-full mt-1 bg-gray-800 border border-gray-700 rounded-md shadow-lg"
+                                className="absolute z-10 w-full mt-1 bg-gray-800 border border-gray-700 rounded-md shadow-lg max-h-80 overflow-y-auto"
                                 onClick={(e: React.MouseEvent) => e.stopPropagation()} // Prevent closing when clicking inside
                             >
                                 {searchResults.map((post: BlogPost) => (
@@ -161,6 +189,11 @@ const SuggestedBlogSection = () => {
                                         </div>
                                     </a>
                                 ))}
+                                {searchResults.length >= 10 && (
+                                    <div className="p-3 text-center text-sm text-gray-400 border-t border-gray-700">
+                                        Search for more results...
+                                    </div>
+                                )}
                             </div>
                         )}
                     </div>
@@ -179,9 +212,6 @@ const SuggestedBlogSection = () => {
 }
 
 export default SuggestedBlogSection
-
-
-
 
 
 
