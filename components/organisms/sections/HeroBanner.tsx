@@ -47,10 +47,10 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
         {/* Title and Breadcrumb Container */}
         <div className="container mx-auto px-4 relative z-10 pt-30 md:pt-35">
           {/* Title */}
-          <GradientTitle
-            text={title}
-            theme="dark"
-            className="text-3xl sm:text-4xl md:text-5xl mb-2 text-center"
+          <GradientTitle 
+            text={title} 
+            theme="dark" 
+            className="text-3xl sm:text-4xl md:text-[50px] mb-2 text-center"
           />
 
           {/* Breadcrumb Navigation */}

@@ -70,7 +70,7 @@ const ContactForm = ({ theme }: { theme: "dark" | "light" }) => {
       />
       <button
         type="submit"
-        className="w-full bg-gradient-to-r from-white to-cyan-400 text-black font-semibold py-3 rounded-lg flex items-center justify-center gap-2 hover:opacity-90 transition"
+        className="w-full bg-gradient-to-r from-white to-cyan-400 text-black font-semibold py-3 rounded-lg flex items-center justify-center gap-2 hover:opacity-90 transition cursor-pointer"
       >
         Send Now <FaArrowRight className={`text-sm font-semibold ${theme == "dark" ? "text-[#000]" : "text-[#fff]"}`} />
       </button>

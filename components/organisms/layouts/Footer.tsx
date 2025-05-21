@@ -10,6 +10,7 @@ const certLogos = [
     { src: "/logos/CMMI-Level-3-Logo.png", alt: "CMMI Level 3 Logo" },
     { src: "/logos/ISO-9001-Logo.png", alt: "ISO 9001 Logo" },
     { src: "/logos/ISO-27001-Logo.png", alt: "ISO 27001 Logo" },
+    { src: "/logos/DesignRush.png", alt: "Design Rush Logo" },
 ];
 
 
@@ -33,7 +34,7 @@ const Footer = () => {
 
                 {/* Right Side – Sections + Social Icons */}
                 <div className="w-full lg:w-1/2 flex flex-col gap-10">
-                    <SocialIcons />
+                    <SocialIcons size={21} color="#ffffff" />
 
                     {/* Footer Links Grid */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
