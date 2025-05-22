@@ -10,6 +10,7 @@ import SocialIcons from '@/components/molecules/common/SocialIcons'
 import { blogPosts } from '@/lib/data/blogsData'
 import { CaseStudy } from '@/types/PropsTypes'
 import Image from 'next/image'
+import { socialLinks } from '@/lib/data/footerData'
 
 // Define types for blog post
 interface BlogPost {
@@ -205,7 +206,7 @@ const SuggestedBlogSection = () => {
                         theme='dark'
                         className="text-4xl leading-tight"
                     />
-                    <SocialIcons size={21} color="#ffffff" className='md:justify-center' />
+                    <SocialIcons size={21} color="#ffffff" className='md:justify-center' socialMedia={socialLinks} />
                     <CaseStudyCard card={caseStudyData} />
                 </div>
             </div>
