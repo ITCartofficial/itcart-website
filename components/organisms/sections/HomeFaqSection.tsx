@@ -2,48 +2,42 @@ import React from 'react';
 import { AccordionItem } from '@/components/atoms/common/Accordion';
 import Faq from '@/components/molecules/common/Faq';
 
+// Props interface for the reusable component
+export interface HomeFaqSectionProps {
+  faqs: AccordionItem[];
+  label?: string;
+  mainTitle?: string;
+  titleColor?: string;
+  accentColor?: string;
+  backgroundColor?: string;
+  maxVisible?: number;
+  className?: string;
+}
 
-const sampleFAQs: AccordionItem[] = [
-  {
-    id: '1',
-    title: 'What are the services of iTCart?',
-    content: 'Our services revolve around digital transformation and AI automation. Starting from technology integration to managing data analytics, we cater to each vertical in the AI landscape.'
-  },
-  {
-    id: '2',
-    title: 'What is the Unique Selling Proposition of iTCart?',
-    content: 'Our USP is to deliver personalized AI-powered solutions that help businesses leverage AI and automation needs.'
-  },
-  {
-    id: '3',
-    title: 'What are the industries where iTCart serves?',
-    content: 'iTCart offers services in various industries, including banking, real estate, healthcare, cybersecurity, and more.'
-  },
-  {
-    id: '4',
-    title: 'What makes iTCart the best AI automation company in the US?',
-    content: 'iTCart’s commitment to innovation, customer-centric solutions, and robust data privacy is the quality that sets the company apart. The company’s AI automation tools streamline processes, reduce operational costs, and drive smarter decision-making.'
-  },
-  {
-    id: '5',
-    title: 'How can iTCart help my company implement AI automation?',
-    content: 'iTCart helps your company implement AI automation by offering end-to-end solutions that streamline workflows, reduce operational costs, and minimize human error. Their AI automation services include automating repetitive tasks and document management, as well as deploying chatbots and predictive analytics.'
-  }
-];
-
-const HomeFaqSection: React.FC = () => {
+const HomeFaqSection: React.FC<HomeFaqSectionProps> = ({
+  faqs,
+  label = "FAQs",
+  mainTitle = "Everything you need to know about",
+  titleColor = "white",
+  accentColor = "#ffffff",
+  backgroundColor = "#131313",
+  maxVisible = 7,
+  className = "",
+}) => {
   return (
-    <div className='h-full'>
+    <div className={`h-full ${className}`}>
       <Faq
-        label="FAQs"
-        mainTitle="Everything you need to know about"
-        faqs={sampleFAQs}
-        titleColor="white"
-        accentColor="#ffffff"
-        backgroundColor="#131313"
+        label={label}
+        mainTitle={mainTitle}
+        faqs={faqs}
+        titleColor={titleColor}
+        accentColor={accentColor}
+        backgroundColor={backgroundColor}
+        maxVisible={maxVisible}
       />
     </div>
   );
 };
 
 export default HomeFaqSection;
+

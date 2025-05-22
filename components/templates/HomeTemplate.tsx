@@ -15,6 +15,7 @@ import BusinessTransformSection from '../organisms/sections/BusinessTransformSec
 import HomeFaqSection from '../organisms/sections/HomeFaqSection';
 import CaseStudySection from '../organisms/sections/CaseStudySection';
 import BlogsFeatureSection from '../organisms/sections/BlogsFeatureSection';
+import { homeFAQs } from '../data/faqsData';
 
 
 const { videoSrc, poster, heading, description, buttonText } = homeBannerData
@@ -62,7 +63,7 @@ const HomeTemplate = () => {
         <BusinessTransformSection />
       </div>
       <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
-        <HomeFaqSection />
+        <HomeFaqSection faqs={homeFAQs} />
       </div>
 
     </div>
