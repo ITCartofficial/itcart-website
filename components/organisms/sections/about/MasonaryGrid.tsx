@@ -1,16 +1,14 @@
 import Image from "next/image"
 
-const MasonaryGrid = () => {
+const MasonaryGrid = ({}) => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-black text-white rounded-xl">
-
             <div
                 className="p-6 rounded-xl h-64 flex flex-col justify-between shrink-0"
                 style={{ background: 'linear-gradient(116deg, rgba(69, 204, 249, 0.33) 10.92%, rgba(2, 58, 88, 0.14) 96.4%)', backdropFilter: "blur(38%)" }}
             >
                 <p className="text-sm md:text-base mb-4">
-                    With a mission to deliver cutting-edge AI solutions, we're scaling globally—
-                    powered by a talented workforce and creating meaningful job opportunities worldwide.
+                    With a mission to deliver cutting-edge AI solutions, we're scaling globally — powered by a talented workforce and creating meaningful job opportunities worldwide.
                 </p>
                 <div>
                     <p className="text-3xl font-semibold">6 countries</p>

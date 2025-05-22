@@ -29,7 +29,8 @@ export const navItems = [
     label: "Company",
     href: "",
     submenu: [
-      { label: "About", href: "/about-us" },
+      { label: "About Us", href: "/about-us" },
+      { label: "Our Blogs", href: "/blogs" },
       { label: "Contact Us", href: "/contact-us" },
     ],
   },

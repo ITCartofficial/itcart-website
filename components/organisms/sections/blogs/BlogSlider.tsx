@@ -6,7 +6,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import BlogSliderCard from '../../../molecules/blogs/BlogSliderCard';
-import { blogPosts } from '@/components/data/blogsData';
+import { blogPosts } from '@/lib/data/blogsData';
 
 // Syncs dot-clicks with slide changes
 const SwiperController = ({ current }: { current: number }) => {

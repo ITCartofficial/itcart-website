@@ -19,6 +19,7 @@ const IconCard = ({ icon, title, description, className, theme }: IconCardProps)
                 height={64}
                 width={64}
                 className="h-12 w-auto object-contain"
+                loading="lazy"
             />
             <GradientTitle
                     text={title}

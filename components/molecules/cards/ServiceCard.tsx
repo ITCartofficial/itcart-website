@@ -25,7 +25,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     className = "",
 }) => {
     return (
-        <div className={`flex flex-col w-full max-w-sm overflow-hidden rounded-3xl bg-black ${className}`}>
+        <div className={`flex flex-col w-full max-w-max overflow-hidden rounded-3xl bg-black ${className}`}>
             <div className="relative h-96">
                 {imageSrc ? (
                     <Image
@@ -33,7 +33,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
                         alt={imageAlt || title}
                         fill
                         className="object-cover"
-                        priority
+                        loading="lazy"
                     />
                 ) : (
                     <div className="w-full h-full bg-gray-800" />

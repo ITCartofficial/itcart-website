@@ -1,20 +1,20 @@
 import React from 'react'
-import VideoHeroBanner from '../organisms/sections/VideoHeroBanner'
-import FaqSection from '../organisms/sections/FaqSection';
-import { faqsData } from '../data/faqsData';
-import ClientsSection from '../organisms/sections/ClientsSection';
-import AboutInfoSection from '../organisms/sections/AboutInfoSection';
-import TestimonialSection from '../organisms/sections/TestimonialSection';
-import HorizontalSliderSection from '../organisms/sections/HorizontalSliderSection';
+import VideoHeroBanner from '../organisms/sections/home/VideoHeroBanner'
+import FaqSection from '../organisms/sections/home/FaqSection';
+import { faqsData } from '../../lib/data/faqsData';
+import ClientsSection from '../organisms/sections/home/ClientsSection';
+import AboutInfoSection from '../organisms/sections/home/AboutInfoSection';
+import TestimonialSection from '../organisms/sections/home/TestimonialSection';
+import HorizontalSliderSection from '../organisms/sections/home/HorizontalSliderSection';
 
-import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts, caseStudies } from '../data/homePageData';
-import ContentfulSection from '../organisms/sections/ContentfulSection';
-import TextRevealSection from '../organisms/sections/TextRevealSection';
-import AwardsSection from '../organisms/sections/AwardsSection';
-import BusinessTransformSection from '../organisms/sections/BusinessTransformSection';
-import HomeFaqSection from '../organisms/sections/HomeFaqSection';
-import CaseStudySection from '../organisms/sections/CaseStudySection';
-import BlogsFeatureSection from '../organisms/sections/BlogsFeatureSection';
+import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts, caseStudies } from '@/lib/data/homePageData';
+import ContentfulSection from '../organisms/sections/home/ContentfulSection';
+import TextRevealSection from '../organisms/sections/home/TextRevealSection';
+import AwardsSection from '../organisms/sections/home/AwardsSection';
+import BusinessTransformSection from '../organisms/sections/home/BusinessTransformSection';
+import HomeFaqSection from '../organisms/sections/home/HomeFaqSection';
+import CaseStudySection from '../organisms/sections/home/CaseStudySection';
+import BlogsFeatureSection from '../organisms/sections/home/BlogsFeatureSection';
 
 
 const { videoSrc, poster, heading, description, buttonText } = homeBannerData

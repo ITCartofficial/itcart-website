@@ -11,6 +11,7 @@ const Logo: React.FC = () => {
         width={120} 
         height={32} 
         className="h-8 w-auto"
+        loading="lazy"
       />
     </Link>
   )

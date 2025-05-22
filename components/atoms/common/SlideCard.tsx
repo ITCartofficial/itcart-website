@@ -28,6 +28,7 @@ const SlideCard: React.FC<SlideCardProps> = ({ imgSrc, prompt, position }) => {
                     width={800}
                     height={400}
                     className="w-full h-[300px] object-cover"
+                    loading="lazy"
                 />
             </div>
         </div>

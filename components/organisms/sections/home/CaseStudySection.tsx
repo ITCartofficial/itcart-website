@@ -13,7 +13,7 @@ const CaseStudySection = ({caseStudies}:{caseStudies: CaseStudy[]}) => {
                 <OutlineBtn text="Explore More" textColor="#000" theme="light" />
             </div>
             <div className="lg:w-[60%]">
-                <CaseStudiesSlider cards={caseStudies} />
+                <CaseStudiesSlider caseStudies={caseStudies} />
             </div>
         </div>
     )

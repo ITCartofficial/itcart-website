@@ -7,7 +7,7 @@ import CaseStudyCard from '@/components/molecules/cards/CaseStudyCard'
 import SearchInput from '@/components/molecules/common/SearchInput'
 import SocialIcons from '@/components/molecules/common/SocialIcons'
 
-import { blogPosts } from '@/components/data/blogsData'
+import { blogPosts } from '@/lib/data/blogsData'
 import { CaseStudy } from '@/types/PropsTypes'
 import Image from 'next/image'
 

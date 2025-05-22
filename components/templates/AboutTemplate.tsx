@@ -2,7 +2,7 @@ import CoreValueSection from "../organisms/sections/about/CoreValueSection"
 import WhoWeAreSection from "../organisms/sections/about/WhoWeAreSection"
 import HeroBanner from "../organisms/sections/HeroBanner"
 
-import { coreValues, foundingMembers, executiveLeadership, globalStrategists, ambassadorsList, historyData } from '@/components/data/aboutPageData'
+import { coreValues, foundingMembers, executiveLeadership, globalStrategists, ambassadorsList, historyData } from '@/lib/data/aboutPageData'
 
 import MissionVisionSection from "../organisms/sections/about/MissionVisionSection"
 import AIFrameworkSection from "../organisms/sections/about/AIFrameworkSection"
@@ -43,7 +43,7 @@ const AboutTemplate = () => {
                     { label: 'About Us', url: '/about-us' }
                 ]}
                 backgroundImage="/images/about/about-hero-bg.jpg"
-                className="bg-no-repeat"
+                className="bg-no-repeat lg:max-h-[400px]"
             />
             <div className="bg-black py-16">
                 <WhoWeAreSection />

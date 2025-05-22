@@ -1,6 +1,6 @@
 import React from 'react'
 import BlogCard from '../../../molecules/blogs/BlogCard'
-import { blogPosts } from '@/components/data/blogsData';
+import { blogPosts } from '@/lib/data/blogsData';
 import LinkButton from '@/components/atoms/buttons/LinkButton';
 import GradientTitle from '@/components/atoms/typography/GradientTitle';
 

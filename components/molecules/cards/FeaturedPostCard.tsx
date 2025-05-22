@@ -17,6 +17,7 @@ const FeaturedPostCard = (featured: Featured) => {
                 src={featured?.image || ""}
                 alt={featured?.title || ""}
                 fill
+                loading="lazy"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">

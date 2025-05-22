@@ -43,7 +43,7 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({
                     alt={title}
                     fill
                     className="object-cover rounded-sm"
-                    priority
+                    loading="lazy"
                 />
             </div>
 

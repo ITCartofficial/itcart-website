@@ -21,6 +21,7 @@ const PostLists = ({ posts, items=3 }: { posts: Post[], items: number }) => {
                         alt={post.title}
                         width={60}
                         height={60}
+                        loading="lazy"
                         className="w-14 h-14 object-cover rounded-lg"
                     />
                     <div>

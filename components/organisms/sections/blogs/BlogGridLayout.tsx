@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { blogPosts } from '@/components/data/blogsData';
+import { blogPosts } from '@/lib/data/blogsData';
 
 import HeadingText from '@/components/atoms/typography/HeadingText';
 import BlogCard from '../../../molecules/blogs/BlogCard';

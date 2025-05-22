@@ -30,7 +30,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
                     alt={title}
                     fill
                     className="object-cover rounded-lg"
-                    priority
+                    loading='lazy'
                 />
             </div>
 

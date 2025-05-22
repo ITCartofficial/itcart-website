@@ -25,6 +25,7 @@ const BlogSliderCard: React.FC<BlogSliderCardProps> = ({ imageUrl, title, descri
                     layout="fill"
                     objectFit="cover"
                     className="rounded-2xl"
+                    loading="lazy"
                 />
             </div>
             <div className="flex flex-col justify-between md:w-1/2">

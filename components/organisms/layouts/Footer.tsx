@@ -5,17 +5,13 @@ import Logo from "@/components/atoms/common/Logo";
 import SocialIcons from "@/components/molecules/common/SocialIcons";
 import GradientTitle from "@/components/atoms/typography/GradientTitle";
 
-const certLogos = [
-    { src: "/logos/MSMEmart-Logo.png", alt: "MSME Logo" },
-    { src: "/logos/CMMI-Level-3-Logo.png", alt: "CMMI Level 3 Logo" },
-    { src: "/logos/ISO-9001-Logo.png", alt: "ISO 9001 Logo" },
-    { src: "/logos/ISO-27001-Logo.png", alt: "ISO 27001 Logo" },
-    { src: "/logos/DesignRush.png", alt: "Design Rush Logo" },
-];
-
-
+import { footerMenus, certLogos, socialLinks } from '@/lib/data/footerData'
 
 const Footer = () => {
+    const serviceMenus = footerMenus.find(menus => menus.title == "Services")?.navigations;
+    const companyMenus = footerMenus.find(menus => menus.title == "Company")?.navigations;
+    const solutionMenus = footerMenus.find(menus => menus.title == "Solutions")?.navigations;
+
     return (
         <footer className="bg-black text-white py-12 relative overflow-hidden">
             <div className="container mx-auto lg:px-10 flex flex-col lg:flex-row gap-10">
@@ -29,53 +25,29 @@ const Footer = () => {
                         width={300}
                         height={350}
                         className="h-[350px] w-auto mt-6"
+                        loading="lazy"
                     />
                 </div>
 
                 {/* Right Side – Sections + Social Icons */}
                 <div className="w-full lg:w-1/2 flex flex-col gap-10">
-                    <SocialIcons size={21} color="#ffffff" />
+                    <SocialIcons size={21} color="#ffffff" socialMedia={socialLinks} />
 
                     {/* Footer Links Grid */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
 
                         <FooterSection
                             title="Services"
-                            items={[
-                                { label: "Digital Transformation", href: "/services/digital-transformation" },
-                                { label: "Application Services", href: "/services/application" },
-                                { label: "Cloud Ops Services", href: "/services/cloud-ops" },
-                                { label: "Business Intelligence", href: "/services/business-intelligence" },
-                                { label: "Digital Commerce", href: "/services/digital-commerce" },
-                                { label: "DevOps Services", href: "/services/devops" },
-                                { label: "Cyber Security", href: "/services/cybersecurity" },
-                                { label: "Data Analytics", href: "/services/data-analytics" },
-                                { label: "Managed IT Services", href: "/services/managed-it" },
-                                { label: "AI & ML Automations", href: "/services/ai-ml" },
-                                { label: "Startup Services", href: "/services/startup" },
-                                { label: "IoT Services", href: "/services/iot" },
-                            ]}
+                            items={serviceMenus || []}
                         />
                         <div className="grid gap-8">
                             <FooterSection
                                 title="Company"
-                                items={[
-                                    { label: "About Us", href: "/about" },
-                                    { label: "Case Studies", href: "/case-studies" },
-                                    { label: "Our Blogs", href: "/blogs" },
-                                    { label: "Contact Us", href: "/contact" },
-                                    { label: "Our Partners", href: "/partners" },
-                                    { label: "Sitemap", href: "/sitemap" },
-                                ]}
+                                items={companyMenus || []}
                             />
                             <FooterSection
                                 title="Solutions"
-                                items={[
-                                    { label: "AiXHub - Your AI Workspace", href: "/solutions/aixhub" },
-                                    { label: "Document Management System", href: "/solutions/dms" },
-                                    { label: "Digital Transformation Suite", href: "/solutions/dts" },
-                                    { label: "All Solutions →", href: "/solutions" },
-                                ]} />
+                                items={solutionMenus || []} />
 
                         </div>
                     </div>
@@ -98,6 +70,7 @@ const Footer = () => {
                                 width={60}
                                 height={60}
                                 className="object-contain"
+                                loading="lazy"
                             />
                         ))}
                     </div>

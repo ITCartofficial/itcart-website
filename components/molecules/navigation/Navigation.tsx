@@ -9,7 +9,7 @@ type NavigationProps = {
 }
 
 // Define your navigation items with optional submenus
-import { navItems } from '@/components/data/Menu'
+import { navItems } from '@/lib/data/Menu'
 
 const Navigation: React.FC<NavigationProps> = ({ className }) => {
   const [activeMenu, setActiveMenu] = useState<string | null>(null)

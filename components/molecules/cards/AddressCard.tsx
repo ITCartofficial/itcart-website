@@ -36,8 +36,8 @@ const AddressCard: React.FC<AddressCardProps> = ({ country, phone, email, locati
                     <FiMail className="text-white" />
                     <span className="text-sm text-white">{email}</span>
                 </Link>
-                <Link href={mapUrl || ""} className="flex gap-2 items-center">
-                    <FiMapPin className="text-white text-base" />
+                <Link href={mapUrl || ""} className="flex gap-2">
+                    <FiMapPin className="text-white text-base shrink-0 mt-0.5" />
                     <span className="text-sm text-white">{location}</span>
                 </Link>
             </div>

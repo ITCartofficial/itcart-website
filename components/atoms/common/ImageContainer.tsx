@@ -19,6 +19,7 @@ const ImageContainer = ({ src, alt, width, height, className }: ImageContainerPr
                         width={width || 400}
                         height={height || 300}
                         className={`object-cover ${className}`}
+                        loading="lazy"
                     />
                 ) : (
                     <Image

@@ -1,5 +1,5 @@
 import React from 'react'
-import { termsConditionContent } from '@/components/data/termsConditionData'
+import { termsConditionContent } from '@/lib/data/termsConditionData'
 import ContentSection from '@/components/organisms/sections/ContentSection'
 import HeroSection from '@/components/organisms/sections/HeroSection'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentSection from '@/components/organisms/sections/ContentSection'
-import { privacyPolicyContent } from '@/components/data/privacyPolicyData'
+import { privacyPolicyContent } from '@/lib/data/privacyPolicyData'
 import HeroSection from '@/components/organisms/sections/HeroSection'
 
 const PrivacyPolicy = () => {
