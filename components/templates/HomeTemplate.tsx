@@ -1,7 +1,7 @@
 import React from 'react'
 import VideoHeroBanner from '../organisms/sections/home/VideoHeroBanner'
 import FaqSection from '../organisms/sections/home/FaqSection';
-import { faqsData } from '../../lib/data/faqsData';
+import { faqsData, homeFAQs } from '../../lib/data/faqsData';
 import ClientsSection from '../organisms/sections/home/ClientsSection';
 import AboutInfoSection from '../organisms/sections/home/AboutInfoSection';
 import TestimonialSection from '../organisms/sections/home/TestimonialSection';

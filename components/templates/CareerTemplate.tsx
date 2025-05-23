@@ -2,8 +2,8 @@ import React from 'react'
 import BlogsHero from '../organisms/sections/blogs/BlogsHero'
 import OutlineBtn from '../atoms/buttons/OutlineBtn'
 import { FaArrowRight } from 'react-icons/fa6';
-import HomeFaqSection from '../organisms/sections/HomeFaqSection';
-import { careersFaqs } from '../data/faqsData';
+import HomeFaqSection from '../organisms/sections/home/HomeFaqSection';
+import { careersFaqs } from '@/lib/data/faqsData';
 import HorizontalImageSlider from '../molecules/slider/HorizontalImageSlider';
 import WhyWorkWithUsSection from '../organisms/sections/careers/WhyWorkWithUsSection';
 import JobSection from '../organisms/sections/careers/JobSection';

@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 
-import { jobs } from '@/components/data/jobData';
+import { jobs } from '@/lib/data/jobData';
 import JobCard from '@/components/molecules/cards/JobCard';
 
 const categories = ['All Position', 'Executive Assistant', 'Information technology & Engineering', 'Insurance', 'Marketing & Sales', 'Product Development', 'Sales'];
