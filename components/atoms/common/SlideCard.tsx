@@ -4,11 +4,11 @@ import Image from "next/image";
 
 interface SlideCardProps {
     imgSrc: string;
-    prompt: string;
+    altText: string;
     position: "left" | "center" | "right" | "hidden";
 }
 
-const SlideCard: React.FC<SlideCardProps> = ({ imgSrc, prompt, position }) => {
+const SlideCard: React.FC<SlideCardProps> = ({ imgSrc, altText, position }) => {
     const positionClasses = {
         left: "transform scale-90 rotate-[-6deg] -translate-x-[115%] translate-y-4 opacity-60 z-0",
         center: "transform scale-100 rotate-0 translate-x-0 translate-y-0 opacity-100 z-10",
@@ -24,7 +24,7 @@ const SlideCard: React.FC<SlideCardProps> = ({ imgSrc, prompt, position }) => {
             <div className="relative rounded-xl overflow-hidden shadow-xl">
                 <Image
                     src={imgSrc}
-                    alt={prompt}
+                    alt={altText}
                     width={800}
                     height={400}
                     className="w-full h-[300px] object-cover"
