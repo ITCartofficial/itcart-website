@@ -1,5 +1,3 @@
-import { AccordionItem } from "../atoms/common/Accordion";
-
 export const faqsData = [
     {
       id: 1,
@@ -43,7 +41,7 @@ export const faqsData = [
 
 
 
-  export const homeFAQs: AccordionItem[] = [
+  export const homeFAQs = [
   {
     id: '1',
     title: 'What are the services of iTCart?',
@@ -74,7 +72,7 @@ export const faqsData = [
 
 
 
-export const careersFaqs: AccordionItem[] = [
+export const careersFaqs = [
   {
     id: '1',
     title: 'What is the recruitment process at iTCart?',
