@@ -1,6 +1,7 @@
 'use client';
 import React, { useState, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import type { Swiper as SwiperType } from 'swiper';
 import { Navigation, Autoplay } from 'swiper/modules';
 import Image from 'next/image';
 import 'swiper/css';
@@ -12,7 +13,7 @@ interface HorizontalImageSliderProps {
 
 const HorizontalImageSlider: React.FC<HorizontalImageSliderProps> = ({ images }) => {
   const [current, setCurrent] = useState(0);
-  const swiperRef = useRef<any>(null);
+  const swiperRef = useRef<SwiperType | null>(null);
 
   const defaultImages = [
     '/images/career/slide-1.png',
