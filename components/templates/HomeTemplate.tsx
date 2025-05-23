@@ -62,7 +62,7 @@ const HomeTemplate = () => {
         <BusinessTransformSection />
       </div>
       <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
-        <HomeFaqSection />
+        <HomeFaqSection faqs={homeFAQs} />
       </div>
 
     </div>

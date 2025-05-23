@@ -7,15 +7,15 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 const slides = [
     {
         imgSrc: "/images/home/awards/awards-2.png",
-        prompt: "Beautiful interactive p5js with fish and nebulae",
+        altText: "Beautiful interactive p5js with fish and nebulae",
     },
     {
         imgSrc: "/images/home/awards/awards-3.png",
-        prompt: "Make me an endless dinosaur runner game",
+        altText: "Make me an endless dinosaur runner game",
     },
     {
         imgSrc: "/images/home/awards/awards-1.png",
-        prompt: "p5js to explore a Mandelbrot set",
+        altText: "p5js to explore a Mandelbrot set",
     },
 ];
 
@@ -41,7 +41,7 @@ const ImageSlider: React.FC = () => {
                     <SlideCard
                         key={index}
                         imgSrc={slide.imgSrc}
-                        prompt={slide.prompt}
+                        altText={slide.altText}
                         position={getPosition(index)}
                     />
                 ))}
