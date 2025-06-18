@@ -8,25 +8,26 @@ type MobileMenuButtonProps = {
 const MobileMenuButton: React.FC<MobileMenuButtonProps> = ({ isOpen, onClick }) => {
   return (
     <button
-      className="lg:hidden flex flex-col justify-center items-center w-8 h-8"
+      className="lg:hidden flex flex-col justify-center items-center w-8 h-8 relative z-60"
       onClick={onClick}
       aria-label={isOpen ? "Close menu" : "Open menu"}
+      aria-expanded={isOpen}
     >
       <span 
-        className={`block w-6 h-0.5 bg-white mb-1.5 transition-transform duration-300 ${
-          isOpen ? 'rotate-45 translate-y-2' : ''
+        className={`block w-6 h-0.5 bg-white transition-all duration-300 ease-in-out absolute ${
+          isOpen ? 'rotate-45' : '-translate-y-1.5'
         }`}
-      ></span>
+      />
       <span 
-        className={`block w-6 h-0.5 bg-white mb-1.5 transition-opacity duration-300 ${
-          isOpen ? 'opacity-0' : ''
+        className={`block w-6 h-0.5 bg-white transition-all duration-300 ease-in-out ${
+          isOpen ? 'opacity-0 scale-0' : 'opacity-100 scale-100'
         }`}
-      ></span>
+      />
       <span 
-        className={`block w-6 h-0.5 bg-white transition-transform duration-300 ${
-          isOpen ? '-rotate-45 -translate-y-2' : ''
+        className={`block w-6 h-0.5 bg-white transition-all duration-300 ease-in-out absolute ${
+          isOpen ? '-rotate-45' : 'translate-y-1.5'
         }`}
-      ></span>
+      />
     </button>
   )
 }

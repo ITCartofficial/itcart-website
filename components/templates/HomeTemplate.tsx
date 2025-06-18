@@ -27,7 +27,7 @@ const HomeTemplate = () => {
         <ClientsSection title='Trusted by these amazing companies' logos={logos} />
       </div>
       <div className="bg-black py-16 container mx-auto lg:px-10">
-        <AboutInfoSection title='About Us – Creating Impact with a Clear Vision' cardDetails={aboutBrief} />
+        <AboutInfoSection title='About Us - Creating Impact with a Clear Vision' cardDetails={aboutBrief} />
       </div>
       <div className="bg-black py-16">
         <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
