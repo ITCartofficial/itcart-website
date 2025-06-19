@@ -17,11 +17,11 @@ const NewsletterSection = () => {
     return (
         <div className="container bg-black pt-20">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="col-span-1 md:col-span-2">
+                <div className="col-span-1 md:col-span-2 order-2 md:order-1">
                     <NewsletterSubscription theme="dark"/>
                 </div>
 
-                <div className='col-span-1 md:col-span-1 '>
+                <div className='col-span-1 md:col-span-1 h-[350px] md:h-full lg:h-[425px] order-1 md:order-2'>
                     <CaseStudyCard card={caseStudyData} />
                 </div>
             </div>
