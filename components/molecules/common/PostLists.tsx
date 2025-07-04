@@ -19,10 +19,10 @@ const PostLists = ({ posts, items=3 }: { posts: Post[], items: number }) => {
                     <Image
                         src={post.image}
                         alt={post.title}
-                        width={60}
-                        height={60}
+                        width={100}
+                        height={100}
                         loading="lazy"
-                        className="w-14 h-14 object-cover rounded-lg"
+                        className="w-24 h-24 object-cover rounded-lg"
                     />
                     <div>
                         <p className="text-sm text-gray-400">{post.author} &nbsp;&bull;&nbsp; {post.date}</p>

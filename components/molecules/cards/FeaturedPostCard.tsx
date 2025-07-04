@@ -12,7 +12,7 @@ interface Featured {
 
 const FeaturedPostCard = (featured: Featured) => {
     return (
-        <Link href='#' className="rounded-2xl overflow-hidden shadow-lg relative group">
+        <Link href='#' className="rounded-2xl overflow-hidden shadow-lg relative group lg:h-[340px] h-[240px]">
             <Image
                 src={featured?.image || ""}
                 alt={featured?.title || ""}
