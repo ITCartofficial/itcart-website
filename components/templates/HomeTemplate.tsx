@@ -15,6 +15,10 @@ import BusinessTransformSection from '../organisms/sections/home/BusinessTransfo
 import HomeFaqSection from '../organisms/sections/home/HomeFaqSection';
 import CaseStudySection from '../organisms/sections/home/CaseStudySection';
 import BlogsFeatureSection from '../organisms/sections/home/BlogsFeatureSection';
+import PatentPendingSection from '../organisms/sections/home/PatentPendingSection';
+
+
+
 
 
 const { videoSrc, poster, heading, description, buttonText } = homeBannerData
@@ -29,10 +33,11 @@ const HomeTemplate = () => {
       <div className="bg-black py-16 container mx-auto lg:px-10">
         <AboutInfoSection title='About Us - Creating Impact with a Clear Vision' cardDetails={aboutBrief} />
       </div>
-      <div className="bg-black py-16">
-        <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
+      <div className="bg-black">
+        {/* <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" /> */}
+        <PatentPendingSection />
       </div>
-      <div className="bg-white py-16 lg:rounded-tl-[85px] lg:rounded-tr-[85px]">
+      <div className="bg-white py-16 ">
         <HorizontalSliderSection
           text='Driving Innovation Across Our Key Verticals'
           cardLists={keyVerticalsData.map(card => ({
@@ -40,13 +45,13 @@ const HomeTemplate = () => {
           }))}
         />
       </div>
-      <div className="bg-white py-16">
+      <div className="bg-white pb-16">
         <TextRevealSection />
       </div>
       <div className="bg-white">
         <ContentfulSection bgImage={missionContent.bgImage} description={missionContent.description} title={missionContent.title} />
       </div>
-      <div className="bg-white py-16">
+      <div className="bg-white pt-16">
         <CaseStudySection caseStudies={caseStudies} />
       </div>
       <div className="bg-white py-16">
