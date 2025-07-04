@@ -7,7 +7,8 @@ import AboutInfoSection from '../organisms/sections/home/AboutInfoSection';
 import TestimonialSection from '../organisms/sections/home/TestimonialSection';
 import HorizontalSliderSection from '../organisms/sections/home/HorizontalSliderSection';
 
-import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts, caseStudies } from '@/lib/data/homePageData';
+// import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts, caseStudies } from '@/lib/data/homePageData';
+import homeData from '@/lib/data/homedata.json';
 import ContentfulSection from '../organisms/sections/home/ContentfulSection';
 import TextRevealSection from '../organisms/sections/home/TextRevealSection';
 import AwardsSection from '../organisms/sections/home/AwardsSection';
@@ -16,6 +17,7 @@ import HomeFaqSection from '../organisms/sections/home/HomeFaqSection';
 import CaseStudySection from '../organisms/sections/home/CaseStudySection';
 import BlogsFeatureSection from '../organisms/sections/home/BlogsFeatureSection';
 
+const { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts, caseStudies } = homeData
 
 const { videoSrc, poster, heading, description, buttonText } = homeBannerData
 
