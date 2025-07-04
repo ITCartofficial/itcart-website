@@ -11,6 +11,7 @@ type VideoHeroBannerProps = {
     description: string;
     buttonText: string;
     className?: string;
+    onButtonClick?: () => void; // Optional callback for button click
 };
 
 const VideoHeroBanner = ({ className, heading, description, buttonText }: VideoHeroBannerProps) => {

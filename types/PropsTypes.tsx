@@ -7,6 +7,7 @@ export interface OutlineBtnProps {
     className?: string
     url?: string
     theme?: Theme
+    onClick?: () => void
 }
 
 export interface TypographyProps {

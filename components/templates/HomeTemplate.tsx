@@ -1,44 +1,96 @@
-import React from 'react'
-import VideoHeroBanner from '../organisms/sections/home/VideoHeroBanner'
-import FaqSection from '../organisms/sections/home/FaqSection';
-import { faqsData, homeFAQs } from '../../lib/data/faqsData';
-import ClientsSection from '../organisms/sections/home/ClientsSection';
-import AboutInfoSection from '../organisms/sections/home/AboutInfoSection';
-import TestimonialSection from '../organisms/sections/home/TestimonialSection';
-import HorizontalSliderSection from '../organisms/sections/home/HorizontalSliderSection';
+import React from "react";
+import VideoHeroBanner from "../organisms/sections/home/VideoHeroBanner";
+import FaqSection from "../organisms/sections/home/FaqSection";
+import { faqsData, homeFAQs } from "../../lib/data/faqsData";
+import ClientsSection from "../organisms/sections/home/ClientsSection";
+import AboutInfoSection from "../organisms/sections/home/AboutInfoSection";
+import TestimonialSection from "../organisms/sections/home/TestimonialSection";
+import HorizontalSliderSection from "../organisms/sections/home/HorizontalSliderSection";
 
 // import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts, caseStudies } from '@/lib/data/homePageData';
-import homeData from '@/lib/data/homedata.json';
-import ContentfulSection from '../organisms/sections/home/ContentfulSection';
-import TextRevealSection from '../organisms/sections/home/TextRevealSection';
-import AwardsSection from '../organisms/sections/home/AwardsSection';
-import BusinessTransformSection from '../organisms/sections/home/BusinessTransformSection';
-import HomeFaqSection from '../organisms/sections/home/HomeFaqSection';
-import CaseStudySection from '../organisms/sections/home/CaseStudySection';
-import BlogsFeatureSection from '../organisms/sections/home/BlogsFeatureSection';
+import homeData from "@/lib/data/homedata.json";
+import ContentfulSection from "../organisms/sections/home/ContentfulSection";
+import TextRevealSection from "../organisms/sections/home/TextRevealSection";
+import AwardsSection from "../organisms/sections/home/AwardsSection";
+import BusinessTransformSection from "../organisms/sections/home/BusinessTransformSection";
+import HomeFaqSection from "../organisms/sections/home/HomeFaqSection";
+import CaseStudySection from "../organisms/sections/home/CaseStudySection";
+import BlogsFeatureSection from "../organisms/sections/home/BlogsFeatureSection";
+// import ModalForm from "../atoms/common/ModalForm";
 
-const { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts, caseStudies } = homeData
+const {
+  keyVerticalsData,
+  testimonialsData,
+  aboutBrief,
+  logos,
+  homeBannerData,
+  missionContent,
+  posts,
+  caseStudies,
+} = homeData;
 
-const { videoSrc, poster, heading, description, buttonText } = homeBannerData
+const { videoSrc, poster, heading, description, buttonText } = homeBannerData;
 
 const HomeTemplate = () => {
+  // const [showModal, setShowModal] = useState(false);
+  // const [formData, setFormData] = useState({ name: "", email: "" });
+
+  // const handleFormSubmit = (data: { name: string; email: string }) => {
+  //   console.log("Form submitted with data:");
+  //   setFormData(data);
+  //   console.log(formData);
+  // };
+
+  // const handleFormSubmit = (data: {
+  //   fullName: string;
+  //   email: string;
+  //   phone: string;
+  //   portfolio: string;
+  //   coverLetter: string;
+  // }) => {
+  //   alert("Form submitted: " + JSON.stringify(data, null, 2));
+  // };
+  // const handleOpenModal = () => {
+  //   setShowModal(true);
+  //   console.log("Modal opened");
+  // };
+
   return (
-    <div className='flex flex-col h-full bg-black'>
-      <VideoHeroBanner className='h-full lg:pb-20' heading={heading} description={description} buttonText={buttonText} videoSrc={videoSrc} poster={poster} />
+    <div className="flex flex-col h-full bg-black">
+      <VideoHeroBanner
+        className="h-full lg:pb-20"
+        heading={heading}
+        description={description}
+        buttonText={buttonText}
+        videoSrc={videoSrc}
+        poster={poster}
+    
+      />
       <div className="bg-black py-10 sm:py-12 md:py-16 px-4 sm:px-6">
-        <ClientsSection title='Trusted by these amazing companies' logos={logos} />
+        <ClientsSection
+          title="Trusted by these amazing companies"
+          logos={logos}
+        />
       </div>
       <div className="bg-black py-12 sm:py-14 md:py-16 container mx-auto px-4 sm:px-6 lg:px-10">
-        <AboutInfoSection title='About Us Creating Impact with a Clear Vision' cardDetails={aboutBrief} />
+        <AboutInfoSection
+          title="About Us Creating Impact with a Clear Vision"
+          cardDetails={aboutBrief}
+        />
       </div>
       <div className="bg-black py-10 sm:py-12 md:py-16 px-4 sm:px-6">
-        <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
+        <FaqSection
+          faqsData={faqsData}
+          faqsCount={4}
+          title="Our AI-powered Solutions for Intelligent Automation"
+        />
       </div>
       <div className="bg-white py-10 sm:py-12 md:py-16 lg:rounded-tl-[50px] lg:rounded-tr-[50px] px-4 sm:px-6">
         <HorizontalSliderSection
-          text='Driving Innovation Across Our Key Verticals'
-          cardLists={keyVerticalsData.map(card => ({
-            ...card, logoBg: card.logoBg === 'dark' ? 'dark' : 'light'
+          text="Driving Innovation Across Our Key Verticals"
+          cardLists={keyVerticalsData.map((card) => ({
+            ...card,
+            logoBg: card.logoBg === "dark" ? "dark" : "light",
           }))}
         />
       </div>
@@ -46,7 +98,11 @@ const HomeTemplate = () => {
         <TextRevealSection />
       </div>
       <div className="bg-white py-10 sm:py-12 md:py-16 px-4 sm:px-6">
-        <ContentfulSection bgImage={missionContent.bgImage} description={missionContent.description} title={missionContent.title} />
+        <ContentfulSection
+          bgImage={missionContent.bgImage}
+          description={missionContent.description}
+          title={missionContent.title}
+        />
       </div>
       <div className="bg-white py-16">
         <CaseStudySection caseStudies={caseStudies} />
@@ -67,8 +123,13 @@ const HomeTemplate = () => {
         <HomeFaqSection faqs={homeFAQs} />
       </div>
 
+      {/* <ModalForm
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        onSubmit={handleFormSubmit}
+      /> */}
     </div>
-  )
-}
+  );
+};
 
-export default HomeTemplate
+export default HomeTemplate;
