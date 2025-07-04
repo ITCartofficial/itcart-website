@@ -78,14 +78,10 @@ const HomeTemplate = () => {
           cardDetails={aboutBrief}
         />
       </div>
-      <div className="bg-black py-10 sm:py-12 md:py-16 px-4 sm:px-6">
-        <FaqSection
-          faqsData={faqsData}
-          faqsCount={4}
-          title="Our AI-powered Solutions for Intelligent Automation"
-        />
+      <div className="bg-black py-16">
+        <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
       </div>
-      <div className="bg-white py-10 sm:py-12 md:py-16 lg:rounded-tl-[50px] lg:rounded-tr-[50px] px-4 sm:px-6">
+      <div className="bg-white py-16 lg:rounded-tl-[85px] lg:rounded-tr-[85px]">
         <HorizontalSliderSection
           text="Driving Innovation Across Our Key Verticals"
           cardLists={keyVerticalsData.map((card) => ({
@@ -94,7 +90,7 @@ const HomeTemplate = () => {
           }))}
         />
       </div>
-      <div className="bg-white py-16">
+      <div className="bg-white pb-16">
         <TextRevealSection />
       </div>
       <div className="bg-white py-10 sm:py-12 md:py-16 px-4 sm:px-6">
@@ -104,7 +100,7 @@ const HomeTemplate = () => {
           title={missionContent.title}
         />
       </div>
-      <div className="bg-white py-16">
+      <div className="bg-white pt-16">
         <CaseStudySection caseStudies={caseStudies} />
       </div>
       <div className="bg-white py-16">
