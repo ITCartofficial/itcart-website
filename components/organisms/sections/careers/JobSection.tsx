@@ -9,7 +9,7 @@ const JobSection = () => {
             <GradientTitle
                 text="Explore all Open Position"
                 lineHeight="1.2"
-                className="text-[50px] pb-6 text-center"
+                className="text-3xl md:text-[50px] pb-6 text-center"
                 theme='dark'
             />
             <BodyText

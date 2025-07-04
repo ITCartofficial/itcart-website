@@ -4,25 +4,25 @@ export const navItems = [
     label: "Our Services",
     href: "/services",
     submenu: [
-      { label: "Web Development", href: "/services/web-development" },
-      { label: "Mobile Apps", href: "/services/mobile-apps" },
-      { label: "Cloud Solutions", href: "/services/cloud" },
+      { label: "Web Development", href: "#" },
+      { label: "Mobile Apps", href: "#" },
+      { label: "Cloud Solutions", href: "#" },
     ],
   },
   {
     label: "Our Solutions",
     href: "/solutions",
     submenu: [
-      { label: "AI & ML", href: "/solutions/ai" },
-      { label: "Automation", href: "/solutions/automation" },
+      { label: "AI & ML", href: "#" },
+      { label: "Automation", href: "#" },
     ],
   },
   {
     label: "Industries",
     href: "/industries",
     submenu: [
-      { label: "Healthcare", href: "/industries/healthcare" },
-      { label: "Finance", href: "/industries/finance" },
+      { label: "Healthcare", href: "#" },
+      { label: "Finance", href: "#" },
     ],
   },
   {

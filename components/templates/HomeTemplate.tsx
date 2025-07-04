@@ -26,8 +26,13 @@ const HomeTemplate = () => {
       <div className="bg-black py-10 sm:py-12 md:py-16 px-4 sm:px-6">
         <ClientsSection title='Trusted by these amazing companies' logos={logos} />
       </div>
+<<<<<<< HEAD
       <div className="bg-black py-12 sm:py-14 md:py-16 container mx-auto px-4 sm:px-6 lg:px-10">
         <AboutInfoSection title='About Us Creating Impact with a Clear Vision' cardDetails={aboutBrief} />
+=======
+      <div className="bg-black py-16 container mx-auto lg:px-10">
+        <AboutInfoSection title='About Us - Creating Impact with a Clear Vision' cardDetails={aboutBrief} />
+>>>>>>> dev-r
       </div>
       <div className="bg-black py-10 sm:py-12 md:py-16 px-4 sm:px-6">
         <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" />
