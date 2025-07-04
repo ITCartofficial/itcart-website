@@ -83,7 +83,7 @@ const Faq: React.FC<FaqSectionProps> = ({
       <div className="container mx-auto px-4 text-center">
         <div className="flex flex-col items-center mb-6">
           <BodyText text={label} className='text-2xl pb-4' color='#ffffff' fontWeight='600' />
-          <GradientTitle text={mainTitle} lineHeight="1.2" className="max-w-xl text-[30px] lg:text-[50px]" theme='dark' />
+          <GradientTitle text={mainTitle} lineHeight="1.2" className="max-w-xl text-[50px]" theme='dark' />
         </div>
         <button
           onClick={toggleExpansion}
