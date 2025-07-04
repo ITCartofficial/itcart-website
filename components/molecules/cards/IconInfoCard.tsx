@@ -1,10 +1,10 @@
-import LinkButton from "@/components/atoms/buttons/LinkButton";
+// import LinkButton from "@/components/atoms/buttons/LinkButton";
 import FillLogoBadge from "@/components/atoms/common/FillLogoBadge";
 import BodyText from "@/components/atoms/typography/BodyText";
 import GradientTitle from "@/components/atoms/typography/GradientTitle"
 import { IconInfoCardProps } from "@/types/PropsTypes";
 
-const IconInfoCard: React.FC<IconInfoCardProps> = ({ bgImage, title, description, buttonUrl, logo, logoBg }) => {
+const IconInfoCard: React.FC<IconInfoCardProps> = ({ bgImage, title, description, logo, logoBg }) => {
     return (
         <div className="min-w-[200px] lg:min-w-[300px] h-[360px] lg:h-[460px] rounded-[40px] overflow-hidden bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${bgImage})` }}>
             <div className="wrapper flex flex-col gap-4 justify-end p-6 w-full h-full relative"

@@ -1,10 +1,10 @@
 'use-client'
 
-import OutlineBtn from "@/components/atoms/buttons/OutlineBtn"
+// import OutlineBtn from "@/components/atoms/buttons/OutlineBtn"
 import GradientTitle from "@/components/atoms/typography/GradientTitle"
 import ImageInfoCard from "@/components/molecules/cards/ImageInfoCard"
 import { ImageInfoCardProps } from "@/types/PropsTypes"
-import { FaArrowRight } from "react-icons/fa6"
+// import { FaArrowRight } from "react-icons/fa6"
 
 type AboutInfoSectionProps = {
     title: string

@@ -1,9 +1,9 @@
-import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
+// import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
 import GradientTitle from '@/components/atoms/typography/GradientTitle'
 import CardSlider from '@/components/molecules/common/CardSlider'
 import { IconInfoCardProps } from '@/types/PropsTypes'
 import React from 'react'
-import { FaArrowRight } from 'react-icons/fa6'
+// import { FaArrowRight } from 'react-icons/fa6'
 
 type HorizontalSliderSectionProps = {
     cardLists: IconInfoCardProps[]
