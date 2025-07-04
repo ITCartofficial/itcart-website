@@ -10,9 +10,9 @@ const CaseStudySection = ({caseStudies}:{caseStudies: CaseStudy[]}) => {
             <div className="flex flex-col gap-4 w-full lg:w-[40%] px-4 lg:pl-24">
                 <GradientTitle theme="light" text="Case Studies That Inspire Digital Change" className="text-[30px] text-center lg:text-left lg:text-[50px] leading-tight" />
                 <BodyText text="Explore our case studies for in-depth insights, expert analyses, and success stories." className="text-black sm:text-[16px] text-center lg:text-left" />
-                <div className="flex justify-center lg:justify-start">
+                {/* <div className="flex justify-center lg:justify-start">
                  <OutlineBtn text="Explore More" textColor="#000" theme="light" />
-                </div>
+                </div> */}
             </div>
             <div className="w-full lg:w-[60%]">
                 <CaseStudiesSlider caseStudies={caseStudies} />
