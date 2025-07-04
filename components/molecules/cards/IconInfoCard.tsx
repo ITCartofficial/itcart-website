@@ -6,7 +6,7 @@ import { IconInfoCardProps } from "@/types/PropsTypes";
 
 const IconInfoCard: React.FC<IconInfoCardProps> = ({ bgImage, title, description, buttonUrl, logo, logoBg }) => {
     return (
-        <div className="lg:min-w-[300px] lg:h-[460px] rounded-[40px] overflow-hidden bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${bgImage})` }}>
+        <div className="min-w-[200px] lg:min-w-[300px] h-[360px] lg:h-[460px] rounded-[40px] overflow-hidden bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${bgImage})` }}>
             <div className="wrapper flex flex-col gap-4 justify-end p-6 w-full h-full relative"
                 style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85%)' }}
             >

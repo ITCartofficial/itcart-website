@@ -18,7 +18,7 @@ const AwardsSection: React.FC<AwardsSectionProps> = ({
       <GradientTitle
         text={title}
         lineHeight="1.2"
-        className="text-[50px] mb-6 text-center"
+        className="text-[32px] px-4  lg:text-[50px] mb-6 text-center"
         theme='dark'
       />
       <div className='flex justify-center'>

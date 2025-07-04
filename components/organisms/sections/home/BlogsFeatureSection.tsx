@@ -20,7 +20,7 @@ export default function BlogsFeatureSection({ posts }: { posts: Featured[] }) {
             <section className="bg-black text-white container mx-auto lg:px-10 py-16">
             <div className="flex flex-col gap-2 mb-8">
                 <BodyText text="New Blog" className="text-[24px] font-semibold" color="#ffffff" />
-                <GradientTitle text="Insights & Thought Leadership" theme="dark" className="lg:text-[50px] w-2/3 leading-tight" />
+                <GradientTitle text="Insights & Thought Leadership" theme="dark" className="text-[30px] lg:text-[50px] leading-tight w-full md:w-full lg:w-2/3" />
             </div>
             <PostHighlights featured={featured} recent={recent} />
         </section>

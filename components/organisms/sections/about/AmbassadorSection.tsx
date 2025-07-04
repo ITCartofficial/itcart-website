@@ -9,7 +9,7 @@ const AmbassadorSection = ({ ambassador }: { ambassador: Ambassador[] }) => {
             <div className="container">
                 <GradientTitle
                     text="Our Global Ambassadors"
-                    className="lg:text-[50px] leading-tight"
+                    className="text-[30px] text-center lg:text-left lg:text-[50px] leading-tight"
                 />
             </div>
             <div className="mt-4">

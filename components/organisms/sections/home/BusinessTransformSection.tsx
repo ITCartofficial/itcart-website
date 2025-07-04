@@ -18,15 +18,15 @@ const BusinessTransformSection: React.FC<BusinessTransformSectionProps> = ({
   buttonText = "Learn More"
 }) => {
   return (
-    <section className="w-full h-[300px] md:min-h-[400px] lg:min-h-[500px] bg-[url('/images/home/blue-spiral-lines-2.png')] bg-contain bg-no-repeat bg-right" >
+    <section className=" w-full m-h-[300px] md:min-h-[400px] lg:min-h-[500px] bg-[url('/images/home/blue-spiral-lines-2.png')] bg-contain bg-no-repeat bg-right" >
       <div className="relative w-full h-full pl-6 md:pl-12 lg:pl-24 overflow-hidden container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center py-8">
           {/* Left content */}
-          <div className="flex flex-col gap-6 text-center md:text-left items-center md:items-start">
+          <div className="flex flex-col gap-6 text-30px text-left md:text-left items-center md:items-start pb-8">
             <GradientTitle
               text={title}
               lineHeight="1.2"
-              className="text-[50px]"
+              className="text-[30px] lg:text-[50px]"
               theme='dark'
             />
             <div className="flex flex-col gap-4">

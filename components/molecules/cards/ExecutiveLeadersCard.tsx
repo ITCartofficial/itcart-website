@@ -8,7 +8,8 @@ import OutlineBtn from "@/components/atoms/buttons/OutlineBtn"
 
 const ExecutiveLeadersCard = ({ executiveLeader, theme }: { executiveLeader: ExecutiveLeader, theme: 'dark' | 'light' }) => {
     return (
-        <div className="flex items-center gap-8 relative lg:h-[400px]">
+        <div className="flex flex-col lg:flex-row items-center gap-8 relative lg:h-[400px]">
+            {/* image container */}
             <div className="relative h-full w-full max-w-[360px] border border-[#F2F2F2] rounded-3xl shadow-md overflow-hidden">
                 <ImageContainer
                     src={executiveLeader.image}
@@ -18,6 +19,7 @@ const ExecutiveLeadersCard = ({ executiveLeader, theme }: { executiveLeader: Exe
                     className="h-full w-full"
                 />
             </div>
+            {/* text container */}
             <div className="px-6 grow">
                 <div className="w-full flex flex-col gap-6">
                     <div className="flex flex-col gap-2">
@@ -38,7 +40,7 @@ const ExecutiveLeadersCard = ({ executiveLeader, theme }: { executiveLeader: Exe
                             theme={theme}
                         />
                     </div>
-                    <div className="flex gap-4">
+                    <div className="flex gap-4 flex-wrap lg:flex-nowrap">
                         {
                             executiveLeader.matrics &&
                             executiveLeader.matrics.map((matric, i) => (

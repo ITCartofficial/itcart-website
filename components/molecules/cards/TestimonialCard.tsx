@@ -8,7 +8,7 @@ import { TestimonialCardProps } from "@/types/PropsTypes"
 
 const TestimonialCard: React.FC<TestimonialCardProps> = ({ rating, userName, userDesignation, userImage, testimonialMessage }) => {
     return (
-        <div className="bg-[#F2F4F5] lg:min-w-[370px] lg:min-h-[250px] lg:shrink-0 p-6 rounded-[25px] flex flex-col gap-4 justify-start">
+        <div className="bg-[#F2F4F5] w-321px h-271px lg:min-w-[370px] lg:min-h-[250px] lg:shrink-0 p-6 rounded-[25px] flex flex-col gap-4 justify-start">
             <div className="flex flex-col gap-4">
                 <RatingStars rating={rating} />
 

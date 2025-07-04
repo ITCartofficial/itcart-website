@@ -6,17 +6,17 @@ interface InfoShowcaseProps {
     title: string,
     description: string,
     theme: "dark" | "light",
-    imageUrl: string,
+    imageUrl: string,   
     className?: string,
     reverse?: boolean,
-}
+}   
 
 const InfoShowcase = ({ title, description, theme, className, imageUrl, reverse }: InfoShowcaseProps) => {
     const descriptions = description.split('<br>');
     return (
         <div className={`w-full grid grid-cols-1 md:grid-cols-2 gap-14 ${className}`}>
             <div className={`flex flex-col gap-4 py-6 ${reverse && "order-2"}`}>
-                <GradientTitle text={title} theme={theme} className='lg:text-[36px] leading-tight' />
+                <GradientTitle text={title} theme={theme} className='text-[30px] lg:text-[36px] leading-tight' />
 
                 <div className="flex flex-col gap-4">
                     {
@@ -31,6 +31,7 @@ const InfoShowcase = ({ title, description, theme, className, imageUrl, reverse 
                     src={imageUrl}
                     alt={title}
                     className="rounded-3xl"
+                    
                 />
             </div>
         </div>

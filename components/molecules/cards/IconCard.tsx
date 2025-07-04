@@ -24,12 +24,12 @@ const IconCard = ({ icon, title, description, className, theme }: IconCardProps)
             <GradientTitle
                     text={title}
                     theme={theme}
-                    className="lg:text-3xl text-center"
+                    className="text-[24px] lg:text-3xl text-center"
                 />
                 <BodyText
                     text={description}
                     theme={theme}
-                    className="text-white text-[18px] text-center"
+                    className="text-white text-[16px] lg:text-[18px] text-center"
                 />
         </div>
     )
