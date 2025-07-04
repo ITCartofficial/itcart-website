@@ -1,8 +1,6 @@
 export const missionContent = {
-  title:
-    "At iTCart, we empower businesses to reimagine operations and accelerate decision-making through intelligent automation and data-driven insights.",
-  description:
-    "Our approach centers on automation integration minimizing manual effort, reducing errors, and freeing teams to focus on strategic goals. <br> From AI-driven HR and document management systems to agile business process automation, our solutions boost efficiency and productivity.<br> With the AiXFramework, we deliver AI-powered decision making, personalized customer experiences, and scalable cloud solutions to keep you ahead of the curve. <br> Partner with iTCart to drive your Digital Transformation and succeed in the AI era.",
+  title: "At iTCart, we empower businesses to reimagine operations and accelerate decision-making through intelligent automation and data-driven insights.",
+  description: "Our approach centers on automation integration minimizing manual effort, reducing errors, and freeing teams to focus on strategic goals.<br>From AI-driven HR and document management systems to agile business process automation, our solutions boost efficiency and productivity.<br>With the AiXHub Framework, we deliver AI-powered decision making, personalized customer experiences, and scalable cloud solutions to keep you ahead of the curve.<br>Partner with iTCart to drive your Digital Transformation and succeed in the AI era.",
   bgImage: "/images/home/background-section.jpg",
 };
 
@@ -10,8 +8,7 @@ export const keyVerticalsData = [
   {
     bgImage: "/images/home/aixbfs-bg.jpg",
     title: "AiXBFS",
-    description:
-      "Experience banking efficiency with our AI-powered solutions, including fraud detection, debt recovery, and compliance management.",
+    description: "Experience banking efficiency with our AI-powered solutions, including fraud detection, debt recovery, and compliance management.",
     buttonUrl: "/vertical",
     logo: "/logos/aixbfs.png",
     logoBg: "light",
@@ -194,15 +191,15 @@ export const testimonialsData = [
 export const aboutBrief = [
   {
     bgImage: "/images/about-card-1.jpg",
-    title: "Our Mission & Vision",
+    title: "Our Vision",
     description:
-      "iTCart is a global AI automation company offering secure AI tools and enterprise IT solutions to accelerate digital transformation.",
+      "To revolutionize industries and deliver scalable and adaptive AI-powered solutions that shape the digital economy. ITCart's commitment extends beyond transformation, offering sustainable AI systems that redefine business success.",
   },
   {
     bgImage: "/images/about-card-2.jpg",
-    title: "Patent-Pending AI Framework",
+    title: "Our Mission",
     description:
-      "AiXHub is a patent-pending AI orchestration framework that unifies governance, automation, and human oversight to help enterprises build secure, scalable, and responsible AI systems.",
+      "To become a global AI industry disruptor who transforms businesses with proprietary AI solutions, helping streamline operations, reduce risks, and drive scalable growth. iTCart harnesses AI that transforms enterprises with future-ready technology.",
   },
 ];
 
@@ -228,9 +225,8 @@ export const logos = [
 export const homeBannerData = {
   videoSrc: "/videos/home-banner.mp4",
   poster: "/images/home-banner.jpg",
-  heading: "The world's first native operating system",
-  description:
-    "Experience unmatched efficiency, innovation, and business agility with a multi-functional AI-powered platform.",
+  heading: "The world’s first AI-Native EOS",
+  description: "Experience unmatched efficiency, innovation, and business agility with a multi-functional AI-powered platform.",
   buttonText: "Get Started",
 };
 

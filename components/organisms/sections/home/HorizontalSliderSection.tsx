@@ -18,7 +18,7 @@ const HorizontalSliderSection: React.FC<HorizontalSliderSectionProps> = ({ text,
             </div>
             <CardSlider cardLists={cardLists} />
             <div className="w-full flex justify-center items-center">
-                <OutlineBtn text='Explore More' textColor='#000000' theme='light' icon={<FaArrowRight className="text-sm font-semibold text-black" />} />
+                {/* <OutlineBtn text='Explore More' textColor='#000000' theme='light' icon={<FaArrowRight className="text-sm font-semibold text-black" />} /> */}
             </div>
         </div>
     )

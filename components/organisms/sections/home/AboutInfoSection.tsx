@@ -20,9 +20,9 @@ const   AboutInfoSection: React.FC<AboutInfoSectionProps> = ({ title, cardDetail
                     i == 1 && (
                         <div key={i} className="lg:-translate-y-16 flex flex-col gap-6">
                             <ImageInfoCard bgImage={card.bgImage} description={card.description} title={card.title} className="h-[360px]" />
-                            <div className="lg:pl-8 flex justify-center lg:justify-start">
+                            {/* <div className="lg:pl-8 flex justify-center lg:justify-start">
                                 <OutlineBtn text="Read More" textColor="#ffffff" icon={<FaArrowRight className="text-sm font-semibold text-white" />} />
-                            </div>
+                            </div> */}
                         </div>
                     ) || (
                         <ImageInfoCard bgImage={card.bgImage} description={card.description} title={card.title} className="" key={i} />

@@ -13,9 +13,9 @@ interface BusinessTransformSectionProps {
 
 const BusinessTransformSection: React.FC<BusinessTransformSectionProps> = ({
   title = "Ready to Transform Your Business?",
-  description = "Experience Digital Transformation firsthand and accelerate growth with AI today.",
+  description = "Experience artificially intelligent transformation first-hand and accelerate growth with AI today.",
   subDescription = "Let iTCart guide your journey from outdated workflows to intelligent automation, hyper-efficient processes, and AI-driven scalability.",
-  buttonText = "Learn More"
+  buttonText = "Get Started"
 }) => {
   return (
     <section className=" w-full m-h-[300px] md:min-h-[400px] lg:min-h-[500px] bg-[url('/images/home/blue-spiral-lines-2.png')] bg-contain bg-no-repeat bg-right" >
