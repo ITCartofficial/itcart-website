@@ -1,5 +1,5 @@
-import IconCard from "@/components/molecules/cards/IconCard";
-import GradientTitle from "@/components/atoms/typography/GradientTitle";
+// import IconCard from "@/components/molecules/cards/IconCard";
+// import GradientTitle from "@/components/atoms/typography/GradientTitle";
 import React from "react";
 import WhoWeAreCard from "@/components/molecules/cards/WhoWeAreCard";
 
