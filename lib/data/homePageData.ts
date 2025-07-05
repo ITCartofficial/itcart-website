@@ -10,8 +10,8 @@ export const keyVerticalsData = [
     title: "AiXBFS",
     description: "Experience banking efficiency with our AI-powered solutions, including fraud detection, debt recovery, and compliance management.",
     buttonUrl: "/vertical",
-    logo: "/logos/aixbfs.png",
     logoBg: "light",
+    logo: "/logos/vertical-logos/aixbfs.png",
   },
   {
     bgImage: "/images/home/aixhealthcare-bg.jpg",
@@ -19,7 +19,7 @@ export const keyVerticalsData = [
     description:
       "Get introduced to quality-driven AI healthcare solutions that empower precise diagnostics, seamless operations, and personalized patient care. ",
     buttonUrl: "/vertical",
-    logo: "/logos/aixhealthcare.png",
+    logo: "/logos/vertical-logos/aixhealthcare.png",
     logoBg: "light",
   },
   {
@@ -28,7 +28,7 @@ export const keyVerticalsData = [
     description:
       "With our AI-powered fintech platform, we can improve payment systems and risk management via intelligent automation and predictive intelligence. ",
     buttonUrl: "/vertical",
-    logo: "/logos/aixfintech.png",
+    logo: "/logos/vertical-logos/aixfintech.png",
     logoBg: "light",
   },
   {
@@ -37,7 +37,7 @@ export const keyVerticalsData = [
     description:
       "Protect sensitive data from unauthorized access with our user-friendly AI-powered platform - a shield in the AI world. ",
     buttonUrl: "/vertical",
-    logo: "/logos/cyberaix.png",
+    logo: "/logos/vertical-logos/aixcyber.png",
     logoBg: "light",
   },
   {
@@ -46,7 +46,7 @@ export const keyVerticalsData = [
     description:
       "An AI-driven RCM like no other - medical scribing, medical coding, and medical billing, helping you streamline revenue cycle processes efficiently.  ",
     buttonUrl: "/vertical",
-    logo: "/logos/rcmaix.png",
+    logo: "/logos/vertical-logos/aixrcm.png",
     logoBg: "light",
   },
   {
@@ -55,7 +55,7 @@ export const keyVerticalsData = [
     description:
       "Automate daily tasks and integrate tools like Microsoft 365 via our AI-powered virtual assistant, helping users manage workload effortlessly. ",
     buttonUrl: "/vertical",
-    logo: "/logos/deskaix.png",
+    logo: "/logos/vertical-logos/aixdesk.png",
     logoBg: "light",
   },
   {
@@ -64,7 +64,7 @@ export const keyVerticalsData = [
     description:
       "With our smart solutions for sustainability and cost efficiency, we transform the energy sector via an AI-powered platform. ",
     buttonUrl: "/vertical",
-    logo: "/logos/aixenergy.png",
+    logo: "/logos/vertical-logos/aixenergy.png",
     logoBg: "light",
   },
   {
@@ -73,7 +73,7 @@ export const keyVerticalsData = [
     description:
       "Optimize property listing, leasing, and construction processes at scale with a user-friendly AI-powered solution. ",
     buttonUrl: "/vertical",
-    logo: "/logos/realtyaix.png",
+    logo: "/logos/vertical-logos/aixreality.png",
     logoBg: "light",
   },
   {
@@ -82,7 +82,7 @@ export const keyVerticalsData = [
     description:
       "Integrate advanced automation processes that streamline business operations and offer real-time insights via an AI-driven ERP platform. ",
     buttonUrl: "/vertical",
-    logo: "/logos/aixerp.png",
+    logo: "/logos/vertical-logos/aixerp.png",
     logoBg: "light",
   },
   {
@@ -91,7 +91,7 @@ export const keyVerticalsData = [
     description:
       "Leverage a user-friendly learning management platform that offers high-quality courses, helping students achieve their goals. ",
     buttonUrl: "/vertical",
-    logo: "/logos/aixqp.png",
+    logo: "/logos/vertical-logos/aixqp.png",
     logoBg: "light",
   },
   {
@@ -100,7 +100,7 @@ export const keyVerticalsData = [
     description:
       "Enable faster lap times and improved vehicle reliability with AI-driven performance optimization, predictive maintenance, and real-time analytics. ",
     buttonUrl: "/vertical",
-    logo: "/logos/aixmotorsports.png",
+    logo: "/logos/vertical-logos/aixmotorsports.png",
     logoBg: "light",
   },
 ];
