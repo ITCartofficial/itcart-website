@@ -17,7 +17,7 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({
   // console.log(testimonialsData);
 
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden lg:px-0 px-4">
       <Swiper
         modules={[Autoplay]}
         // slidesPerView={4}
@@ -26,8 +26,7 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({
         speed={3000}
         spaceBetween={20}
         breakpoints={{
-          320: { slidesPerView: 1 },
-          640: { slidesPerView: 2.1 },
+          640: { slidesPerView: 1 },
           1024: { slidesPerView: 3 },
           1440: { slidesPerView: 4 },
         }}

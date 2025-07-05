@@ -10,7 +10,7 @@ type FillLogoBadgeProps = {
 const FillLogoBadge: React.FC<FillLogoBadgeProps> = ({ logo, bgColor, className }) => {
     const background = bgColor === "dark" ? "#000000" : "#ffffff";
     return (
-        <div style={{ backgroundColor: background }} className={`p-2 bg-white rounded-xl ${className}`} >
+        <div style={{ backgroundColor: background }} className={`bg-white rounded-xl ${className}`} >
             <Image
                 src={logo}
                 alt='logo'
