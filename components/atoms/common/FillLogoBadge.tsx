@@ -16,7 +16,7 @@ const FillLogoBadge: React.FC<FillLogoBadgeProps> = ({ logo, bgColor, className 
                 alt='logo'
                 height={100}
                 width={100}
-                className='w-auto h-[36px] object-cover'
+                className='w-auto h-auto object-cover'
                 loading="lazy"
             />
         </div>
