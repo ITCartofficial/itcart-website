@@ -19,7 +19,7 @@ export async function sendContactEmail(
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        to: "numan.thinkatronics@gmail.com", // <-- Change this to your email!
+        to: "itcart.io@gmail.com", // <-- Change this to your email!
         subject: `Contact Form Submission from ${formData.firstName} for iTCart`,
         text:
           `Name: ${formData.firstName} ${formData.lastName}\n` +
