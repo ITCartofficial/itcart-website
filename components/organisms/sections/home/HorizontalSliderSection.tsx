@@ -1,9 +1,9 @@
-import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
+// import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
 import GradientTitle from '@/components/atoms/typography/GradientTitle'
 import CardSlider from '@/components/molecules/common/CardSlider'
 import { IconInfoCardProps } from '@/types/PropsTypes'
 import React from 'react'
-import { FaArrowRight } from 'react-icons/fa6'
+// import { FaArrowRight } from 'react-icons/fa6'
 
 type HorizontalSliderSectionProps = {
     cardLists: IconInfoCardProps[]
@@ -14,11 +14,11 @@ const HorizontalSliderSection: React.FC<HorizontalSliderSectionProps> = ({ text,
     return (
         <div className='flex flex-col gap-8'>
             <div className="container mx-auto lg:px-10">
-                <GradientTitle text={text} className='lg:text-[50px] lg:w-[60%] leading-tight' theme='light' />
+                <GradientTitle text={text} className=' text-[30px] lg:text-[50px] lg:w-[60%] leading-tight text-center lg:text-left' theme='light' />
             </div>
             <CardSlider cardLists={cardLists} />
             <div className="w-full flex justify-center items-center">
-                <OutlineBtn text='Explore More' textColor='#000000' theme='light' icon={<FaArrowRight className="text-sm font-semibold text-black" />} />
+                {/* <OutlineBtn text='Explore More' textColor='#000000' theme='light' icon={<FaArrowRight className="text-sm font-semibold text-black" />} /> */}
             </div>
         </div>
     )

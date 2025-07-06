@@ -26,12 +26,12 @@ const BlogGridLayout = () => {
     .slice(0, 5);
 
   return (
-    <div className="container bg-black text-white p-8 mt-20">
+    <div className="container bg-black text-white p-8 mt-8 lg:mt-16">
       <div className="w-full">
         {/* Header row with headings */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-6">
           <HeadingText text="Editor's Pick" className="text-lg" />
-          <HeadingText text="" className="text-lg" />
+          <HeadingText text="" className="text-lg hidden sm:hidden lg:block" />
           <HeadingText text="Trending" className="text-lg" />
         </div>
 

@@ -15,6 +15,7 @@ import BannerContainer from "../atoms/common/BannerContainer"
 import GradientTitle from "../atoms/typography/GradientTitle"
 import MultiParagraphs from "../molecules/common/MultiParagraphs"
 
+
 const missionVisionData = {
     title: "Our Mission & Vision",
     description: "To become a global AI industry disruptor who transforms businesses with proprietary AI solutions, helping streamline operations, reduce risks, and drive scalable growth. iTCart harnesses AI that transforms enterprises with future-ready technology.<br>To revolutionize industries and deliver scalable and adaptive AI-powered solutions that shape the digital economy. ITCart's commitment extends beyond transformation, offering sustainable AI systems that redefine business success.",
@@ -62,7 +63,7 @@ const AboutTemplate = () => {
                     aixFramework={PatientSectionData}
                     theme={'dark'}
                     reverse
-                    className="border-2 border-[#565656] bg-[#181818] lg:py-10 lg:px-8 rounded-2xl"
+                    className="border-2 border-[#565656] bg-[#181818] py-5 px-5 lg:py-10 lg:px-8 rounded-2xl"
                     button={{ text: "Read More", path: "/about-us" }}
                 />
             </div>
@@ -88,7 +89,7 @@ const AboutTemplate = () => {
             <div className="bg-black pt-16">
                 <BannerContainer bgImage="/images/contact/contact-bg.jpg" className="lg:h-[90vh]">
                     <div className="container flex flex-col items-center gap-4">
-                        <GradientTitle text={globalExpansionData.title} className="lg:text-[50px] text-center" theme="dark" />
+                        <GradientTitle text={globalExpansionData.title} className="text-[30px] lg:text-[50px] text-center" theme="dark" />
                         <MultiParagraphs description={globalExpansionData.description} className="text-center" />
                     </div>
                 </BannerContainer>

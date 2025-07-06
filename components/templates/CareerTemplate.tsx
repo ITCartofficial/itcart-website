@@ -7,6 +7,7 @@ import { careersFaqs } from '@/lib/data/faqsData';
 import HorizontalImageSlider from '../molecules/slider/HorizontalImageSlider';
 import WhyWorkWithUsSection from '../organisms/sections/careers/WhyWorkWithUsSection';
 import JobSection from '../organisms/sections/careers/JobSection';
+import WhoWeAre from '../organisms/sections/careers/WhoWeAre';
 
 
 
@@ -35,6 +36,7 @@ const CareersTemplate: React.FC<CareersTemplateProps> = ({ buttonText = "View al
             <div className='w-ful pb-16'>
                 <HorizontalImageSlider />
             </div>
+            <WhoWeAre/>
             <WhyWorkWithUsSection />
             <JobSection/>
             <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Logo: React.FC = () => {
   return (
-    <Link href="/" className="flex items-center">
+    <Link href="/" className="flex justify-center lg:justify-start">
       <Image 
         src="/IT Cart Logo Transparent.svg" 
         alt="ITCart Logo" 

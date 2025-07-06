@@ -13,7 +13,7 @@ const CoreValueSection = ({ coreValues }: { coreValues: CoreValues[] }) => {
             <GradientTitle
                 text='Our Core Values'
                 theme='dark'
-                className='text-center lg:text-[50px]'
+                className='text-center text-[30px] lg:text-[50px]'
             />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                 {

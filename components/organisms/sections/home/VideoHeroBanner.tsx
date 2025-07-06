@@ -11,6 +11,7 @@ type VideoHeroBannerProps = {
     description: string;
     buttonText: string;
     className?: string;
+    onButtonClick?: () => void; // Optional callback for button click
 };
 
 const VideoHeroBanner = ({ className, heading, description, buttonText }: VideoHeroBannerProps) => {
@@ -22,8 +23,8 @@ const VideoHeroBanner = ({ className, heading, description, buttonText }: VideoH
                 bgClass="translate-y-[-20%] lg:translate-y-[-10%] w-[100%] h-auto lg:w-full lg:h-full"
             >
                 <div className="h-full w-full flex flex-col items-center lg:items-start justify-between gap-6 pt-60 pb-16 lg:pt-4 lg:pb-24 lg:translate-y-[50%]">
-                    <GradientTitle text={heading} className="leading-[1.3em] lg:text-[64px] text-[36px] text-center lg:text-left" />
-                    <BodyText text={description} color="#ffffff" className="lg:w-2/3 w-[90%] text-base text-center lg:text-left" />
+                    <GradientTitle text={heading} className="text-[30px] lg:text-[64px] leading-[1.3em] text-center lg:text-left" />
+                    <BodyText text={description} color="#ffffff" className="w-[90%] lg:w-2/3 text-sm sm:text-base text-center lg:text-left"/>
                     <OutlineBtn text={buttonText} icon={<FaArrowRight className="text-sm font-semibold text-white" />} textColor="#ffffff" />
                 </div>
             </VideoContainer>
