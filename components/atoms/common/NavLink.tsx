@@ -55,6 +55,7 @@ const NavLink: React.FC<NavLinkProps> = ({
         {/* Main link that navigates to the page */}
         <a
           href={href}
+          style={{ scrollBehavior: "smooth" }}
           className="flex-1 px-4 py-4 flex items-center"
           onClick={handleMainLinkClick}
         >

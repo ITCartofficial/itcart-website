@@ -36,7 +36,7 @@ const SlideCard: React.FC<SlideCardProps> = ({
           alt={altText}
           width={800}
           height={400}
-          className="w-full h-[300px] object-cover"
+          className="w-full h-auto object-cover"
           loading="lazy"
         />
       </div>
@@ -47,11 +47,11 @@ const SlideCard: React.FC<SlideCardProps> = ({
               {description.title}
             </h3>
           )}
-          {description.text && (
+          {/* {description.text && (
             <p className="text-white text-sm line-clamp-3">
               {description.text}
             </p>
-          )}
+          )} */}
         </div>
       )}
     </div>

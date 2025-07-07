@@ -1,38 +1,38 @@
 export const navItems = [
   { label: "Home", href: "/" },
   {
-    label: "Our Services",
-    href: "/",
+    label: "Our Verticals",
+    href: "#our-verticals",
     // submenu: [
     //   { label: "Web Development", href: "#" },
     //   { label: "Mobile Apps", href: "#" },
     //   { label: "Cloud Solutions", href: "#" },
     // ],
   },
-  {
-    label: "Our Solutions",
-    href: "/",
-    // submenu: [
-    //   { label: "AI & ML", href: "#" },
-    //   { label: "Automation", href: "#" },
-    // ],
-  },
-  {
-    label: "Industries",
-    href: "/",
-    // submenu: [
-    //   { label: "Healthcare", href: "#" },
-    //   { label: "Finance", href: "#" },
-    // ],
-  },
+  // {
+  //   label: "Our Solutions",
+  //   href: "/",
+  //   // submenu: [
+  //   //   { label: "AI & ML", href: "#" },
+  //   //   { label: "Automation", href: "#" },
+  //   // ],
+  // },
+  // {
+  //   label: "Industries",
+  //   href: "/",
+  //   // submenu: [
+  //   //   { label: "Healthcare", href: "#" },ck
+  //   //   { label: "Finance", href: "#" },
+  //   // ],
+  // },
   {
     label: "Company",
     href: "",
     submenu: [
-      // { label: "About Us", href: "/about-us" },
-      // { label: "Our Blogs", href: "/blogs" },
-      { label: "Contact Us", href: "/contact-us" },
+      { label: "About Us", href: "/about-us" },
+      { label: "Our Blogs", href: "/blogs" },
+      { label: "Case Studies", href: "#case-studies" },
     ],
   },
-  // { label: "Careers", href: "/careers" },
+  { label: "Careers", href: "/careers" },
 ];
