@@ -10,7 +10,7 @@ type TestimonialSectionProps = {
 const TestimonialSection: React.FC<TestimonialSectionProps> = ({ testimonialsData }) => {
     return (
         <div className="flex flex-col gap-10">
-            <GradientTitle text='What People Say About Us' theme="light" className='lg:text-[50px] text-center' />
+            <GradientTitle text='What People Say About Us' theme="light" className='text-[32px] lg:text-[50px] text-center' />
             <TestimonialSlider testimonialsData={testimonialsData} />
         </div>
     )

@@ -63,7 +63,7 @@ const AboutTemplate = () => {
                     aixFramework={PatientSectionData}
                     theme={'dark'}
                     reverse
-                    className="border-2 border-[#565656] bg-[#181818] lg:py-10 lg:px-8 rounded-2xl"
+                    className="border-2 border-[#565656] bg-[#181818] py-5 px-5 lg:py-10 lg:px-8 rounded-2xl"
                     button={{ text: "Read More", path: "/about-us" }}
                 />
             </div>
@@ -89,7 +89,7 @@ const AboutTemplate = () => {
             <div className="bg-black pt-16">
                 <BannerContainer bgImage="/images/contact/contact-bg.jpg" className="lg:h-[90vh]">
                     <div className="container flex flex-col items-center gap-4">
-                        <GradientTitle text={globalExpansionData.title} className="lg:text-[50px] text-center" theme="dark" />
+                        <GradientTitle text={globalExpansionData.title} className="text-[30px] lg:text-[50px] text-center" theme="dark" />
                         <MultiParagraphs description={globalExpansionData.description} className="text-center" />
                     </div>
                 </BannerContainer>

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import Logo from "@/components/atoms/common/Logo"
-import SearchButton from '@/components/atoms/common/SearchButton'
+// import SearchButton from '@/components/atoms/common/SearchButton'
 import Navigation from '@/components/molecules/navigation/Navigation'
 import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
 import { FaArrowRight } from 'react-icons/fa6'
@@ -62,7 +62,7 @@ const Header: React.FC = () => {
 
           {/* Mobile Menu Button and Search */}
           <div className="flex items-center gap-2 lg:hidden">
-            <SearchButton />
+            {/* <SearchButton /> */}
             <MobileMenuButton isOpen={isMenuOpen} onClick={toggleMenu} />
           </div>
 
@@ -73,7 +73,7 @@ const Header: React.FC = () => {
 
           {/* Search and Contact Button (Right - Desktop) */}
           <div className="hidden lg:flex items-center gap-4 flex-shrink-0 min-w-[200px] justify-end">
-            <SearchButton />
+            {/* <SearchButton /> */}
             <OutlineBtn
               text="Contact us"
               url="/contact-us"

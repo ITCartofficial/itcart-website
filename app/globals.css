@@ -34,6 +34,10 @@ body {
   color: var(--foreground);
 }
 
+Link, a {
+  scroll-behavior: smooth!important;
+}
+
 
 /* Headings */
 /* h1 {

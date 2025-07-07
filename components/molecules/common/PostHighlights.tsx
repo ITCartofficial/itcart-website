@@ -1,7 +1,7 @@
 import React from 'react'
 import FeaturedPostCard from '../cards/FeaturedPostCard'
 import PostLists from './PostLists'
-import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
+// import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
 
 interface Featured {
     id?: string,
@@ -20,7 +20,7 @@ const PostHighlights = ({ featured, recent }: { featured: Featured, recent: Feat
             {/* Recent Posts */}
             <div className="flex flex-col justify-between gap-4">
                 <PostLists posts={recent} items={3} />
-                <OutlineBtn url="#" text="See all Posts" />
+                {/* <OutlineBtn url="#" text="See all Posts" /> */}
             </div>
         </div>
     )

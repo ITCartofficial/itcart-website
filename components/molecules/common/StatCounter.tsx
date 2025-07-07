@@ -16,7 +16,7 @@ const StatCounter: React.FC<StatCounterProps> = ({ end, suffix = '+', label, dur
 
     const textColor = theme == 'dark' ? 'text-white' : 'text-black';
     return (
-        <div className="w-full">
+        <div className="flex-1/3 lg:w-full">
             <div className="text-3xl font-bold text-[#45C2CC]">
                 <CountUp end={end} duration={duration} suffix={suffix} />
             </div>

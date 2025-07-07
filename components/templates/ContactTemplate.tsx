@@ -33,9 +33,9 @@ const addressList: AddressCardProps[] = [
 
 const ContactTemplate = () => {
   return (
-    <div className="flex flex-col h-full bg-black pt-16 lg:pt-24">
-      <div className="container mx-auto lg:px-10 lg:w-1/2 flex flex-col items-center lg:py-16">
-        <GradientTitle text="Get in Touch" theme="dark" className="lg:text-[64px]" />
+    <div className="flex flex-col lg:h-full bg-black pt-16 lg:pt-24">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-10 lg:w-1/2 flex flex-col items-center py-8 lg:py-16">
+        <GradientTitle text="Get in Touch" theme="dark" className="text-[36px] lg:text-[64px]" />
         <BodyText text="Stay ahead with AI-powered solutions tailored to your needs. Connect with IT Cart experts through our contact form to explore what&apos;s possible." color="#ffffff" className="text-center" />
       </div>
 

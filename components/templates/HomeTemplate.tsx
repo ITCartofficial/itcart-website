@@ -1,7 +1,7 @@
 import React from 'react'
 import VideoHeroBanner from '../organisms/sections/home/VideoHeroBanner'
-import FaqSection from '../organisms/sections/home/FaqSection';
-import { faqsData, homeFAQs } from '../../lib/data/faqsData';
+// import FaqSection from '../organisms/sections/home/FaqSection';
+import { homeFAQs } from '../../lib/data/faqsData';
 import ClientsSection from '../organisms/sections/home/ClientsSection';
 import AboutInfoSection from '../organisms/sections/home/AboutInfoSection';
 import TestimonialSection from '../organisms/sections/home/TestimonialSection';
@@ -37,7 +37,7 @@ const HomeTemplate = () => {
         {/* <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" /> */}
         <PatentPendingSection />
       </div>
-      <div className="bg-white py-16 ">
+      <div id='our-verticals' className="bg-white py-16 pt-20">
         <HorizontalSliderSection
           text='Driving Innovation Across Our Key Verticals'
           cardLists={keyVerticalsData.map(card => ({
@@ -51,7 +51,7 @@ const HomeTemplate = () => {
       <div className="bg-white">
         <ContentfulSection bgImage={missionContent.bgImage} description={missionContent.description} title={missionContent.title} />
       </div>
-      <div className="bg-white pt-16">
+      <div id='case-studies' className="bg-white pt-16">
         <CaseStudySection caseStudies={caseStudies} />
       </div>
       <div className="bg-white py-16">
