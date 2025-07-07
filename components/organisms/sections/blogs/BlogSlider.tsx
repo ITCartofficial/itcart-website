@@ -6,7 +6,8 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import BlogSliderCard from '../../../molecules/blogs/BlogSliderCard';
-import { blogPosts } from '@/lib/data/blogsData';
+// import { blogPosts } from '@/lib/data/blogsData';
+import { Post } from '@/types/wordpress';
 
 // Syncs dot-clicks with slide changes
 const SwiperController = ({ current }: { current: number }) => {
@@ -21,13 +22,12 @@ const SwiperController = ({ current }: { current: number }) => {
     return null;
 };
 
-const BlogSlider = () => {
+const BlogSlider = ({ posts }: { posts: Post[] }) => {
     const [current, setCurrent] = useState(0);
 
     // 🔹 Filter 5 Editor's Pick blogs
-    const editorsPickPosts = blogPosts
-        .filter((blog) => blog.category === "Editor's Pick")
-        .slice(0, 5);
+    const editorsPickPosts = posts.slice(0, 5);
+        // .filter((blog) => blog.category === "Editor's Pick")
 
     return (
         <div className="w-full flex flex-col items-center space-y-6">

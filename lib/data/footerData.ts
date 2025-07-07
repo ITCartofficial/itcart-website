@@ -34,7 +34,7 @@ export const footerMenus = [
     title: "Company",
     navigations: [
       { label: "About Us", href: "/about" },
-      { label: "Case Studies", href: "/case-studies" },
+      { label: "Case Studies", href: "/#case-studies" },
       { label: "Our Blogs", href: "/blogs" },
       { label: "Contact Us", href: "/contact-us" },
       { label: "Privacy Policy", href: "/privacy-policy" },
@@ -56,7 +56,7 @@ export const footerMenus = [
       { label: "AiXQP", href: "/" },
       { label: "AiXHealthcare", href: "/" },
       { label: "AiXFinance", href: "/" },
-      { label: "All Verticals →", href: "#our-verticals" },
+      { label: "All Verticals →", href: "/#our-verticals" },
     ],
   }
 ];

@@ -1,29 +1,33 @@
 import React from 'react';
-import Link from 'next/link';
-import { blogPosts } from '@/lib/data/blogsData';
+// import Link from 'next/link';
+// import { blogPosts } from '@/lib/data/blogsData';
 
 import HeadingText from '@/components/atoms/typography/HeadingText';
 import BlogCard from '../../../molecules/blogs/BlogCard';
 import HorizontalCard from '../../../molecules/blogs/HorizontalCard';
 import NumberedCard from '../../../molecules/blogs/NumberCard';
+import { Post } from '@/types/wordpress';
+import { format } from 'date-fns';
+import { enUS } from 'date-fns/locale';
 
-const BlogGridLayout = () => {
+const BlogGridLayout = ({ posts }:{ posts: Post[] }) => {
   // Use first blog post for the featured card
   // const featuredPost = blogPosts[0];
-
+  const featuredPost = posts[0];
+  
   // Use the next 4 posts for the horizontal cards section
   // const horizontalCardsPosts = blogPosts.slice(0, 4);
 
-  const editorsPickBlogs = blogPosts.filter(post => post.category === "Editor's Pick");
-  const featuredPost = editorsPickBlogs[0];
-  const horizontalCardsPosts = editorsPickBlogs.slice(1, 6);
+  // const editorsPickBlogs = blogPosts.filter(post => post.category === "Editor's Pick");
+  // const featuredPost = editorsPickBlogs[0];
+  // const horizontalCardsPosts = editorsPickBlogs.slice(1, 6);
 
 
   // Use the same posts for the numbered cards section
   // const numberedCardsPosts = blogPosts.slice(0, 4);
-  const numberedCardsPosts = blogPosts
-    .filter((blog) => blog.category === "Trending")
-    .slice(0, 5);
+  // const numberedCardsPosts = blogPosts
+  //   .filter((blog) => blog.category === "Trending")
+  //   .slice(0, 5);
 
   return (
     <div className="container bg-black text-white p-8 mt-8 lg:mt-16">
@@ -40,42 +44,42 @@ const BlogGridLayout = () => {
           {/* First Column - BlogCard */}
           <div>
             <BlogCard
-              imageUrl={featuredPost.imageUrl}
-              title={featuredPost.title}
-              description={featuredPost.description}
-              author={featuredPost.author}
-              date={featuredPost.date}
-              linkUrl={`/blog/${featuredPost.slug}`}
+              imageUrl={featuredPost?.featuredImage?.node.sourceUrl || ''}
+              title={featuredPost?.title}
+              description={featuredPost?.excerpt}
+              author={""}
+              date={featuredPost?.date}
+              linkUrl={`/blog/${featuredPost?.slug}`}
             />
           </div>
 
           {/* Second Column - Four Horizontal Cards */}
           <div className="flex flex-col gap-4">
-            {horizontalCardsPosts.map((post) => (
-              <Link key={post.id} href={`/blog/${post.slug}`}>
+            {posts.slice(1,5).map((post) => (
+              <a key={post.id} href={`/blogs/${post.slug}`}>
                 <div className='bg-[#212121] rounded-lg'>
                   <HorizontalCard
-                    imageUrl={post.imageUrl}
-                    title={post.title}
-                    author={post.author}
-                    date={post.date}
+                    imageUrl={post?.featuredImage?.node.sourceUrl || ''}
+                    title={post?.title}
+                    author={""}
+                    date={format(new Date(post?.date), 'MMMM dd, yyyy', { locale: enUS })}// Format date to 'MMMM dd, yyyy'
                   />
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
 
           {/* Third Column - Numbered Cards */}
           <div className="space-y-6 flex flex-col gap-1">
-            {numberedCardsPosts.map((post, index) => (
-              <Link key={post.id} href={`/blog/${post.slug}`}>
+            {posts.slice(5,10).map((post, index) => (
+              <a key={post.id} href={`/blogs/${post.slug}`}>
                 <NumberedCard
                   number={`0${index + 1}`}
-                  title={post.title}
-                  author={post.author}
-                  date={post.date}
+                  title={post?.title}
+                  author={""}
+                  date={format(new Date(post?.date), 'MMMM dd, yyyy', { locale: enUS })}
                 />
-              </Link>
+              </a>
             ))}
           </div>
         </div>
