@@ -2,7 +2,7 @@ export const navItems = [
   { label: "Home", href: "/" },
   {
     label: "Our Services",
-    href: "/services",
+    href: "/",
     // submenu: [
     //   { label: "Web Development", href: "#" },
     //   { label: "Mobile Apps", href: "#" },
@@ -11,7 +11,7 @@ export const navItems = [
   },
   {
     label: "Our Solutions",
-    href: "/solutions",
+    href: "/",
     // submenu: [
     //   { label: "AI & ML", href: "#" },
     //   { label: "Automation", href: "#" },
@@ -19,7 +19,7 @@ export const navItems = [
   },
   {
     label: "Industries",
-    href: "/industries",
+    href: "/",
     // submenu: [
     //   { label: "Healthcare", href: "#" },
     //   { label: "Finance", href: "#" },
