@@ -33,7 +33,7 @@ export const footerMenus = [
   {
     title: "Company",
     navigations: [
-      { label: "About Us", href: "/about" },
+      { label: "About Us", href: "/about-us" },
       { label: "Case Studies", href: "/#case-studies" },
       { label: "Our Blogs", href: "/blogs" },
       { label: "Contact Us", href: "/contact-us" },
