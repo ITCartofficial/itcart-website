@@ -29,8 +29,8 @@ const PatientSectionData = {
 }
 
 const globalExpansionData = {
-    title: "iTcart's Global Expansions",
-    description: "The IT industry is not only central to modern businesses but also influences society as a whole. ITCart is designed to offer firms with a journey that goes beyond the ordinary. <br> We are dedicated to transforming lives through innovative IT solutions, improving the lives of millions globally. ITCart, an AI automation company known for its global expansion has its footprints in UAE, KSA, USA, and UK along with other APAC and European regions.",
+    title: "iTCart's Global Expansions",
+    description: "The IT industry is not only central to modern businesses but also influences society as a whole. iTCart is designed to offer firms with a journey that goes beyond the ordinary. <br> We are dedicated to transforming lives through innovative IT solutions, improving the lives of millions globally. iTCart, an AI automation company known for its global expansion has its footprints in UAE, KSA, USA, and UK along with other APAC and European regions.",
     bgImage: "/images/contact/contact-bg.jpg",
 }
 

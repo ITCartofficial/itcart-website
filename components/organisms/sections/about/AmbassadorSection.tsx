@@ -8,7 +8,7 @@ const AmbassadorSection = ({ ambassador }: { ambassador: Ambassador[] }) => {
         <div className="bg-black flex flex-col gap-8">
             <div className="container">
                 <GradientTitle
-                    text="Our Global Ambassadors"
+                    text="Our Global Ambassador"
                     className="text-[30px] text-center lg:text-left lg:text-[50px] leading-tight"
                 />
             </div>

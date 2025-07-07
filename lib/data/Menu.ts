@@ -2,7 +2,7 @@ export const navItems = [
   { label: "Home", href: "/" },
   {
     label: "Our Verticals",
-    href: "#our-verticals",
+    href: "/#our-verticals",
     // submenu: [
     //   { label: "Web Development", href: "#" },
     //   { label: "Mobile Apps", href: "#" },
@@ -31,7 +31,7 @@ export const navItems = [
     submenu: [
       { label: "About Us", href: "/about-us" },
       { label: "Our Blogs", href: "/blogs" },
-      { label: "Case Studies", href: "#case-studies" },
+      { label: "Case Studies", href: "/#case-studies" },
     ],
   },
   { label: "Careers", href: "/careers" },
