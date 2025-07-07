@@ -51,7 +51,7 @@ export const keyVerticalsData = [
   },
   {
     bgImage: "/images/home/aixdesk-bg.png",
-    title: "AiX Desk",
+    title: "AiXDesk",
     description:
       "Automate daily tasks and integrate tools like Microsoft 365 via our AI-powered virtual assistant, helping users manage workload effortlessly. ",
     buttonUrl: "/vertical",
@@ -69,7 +69,7 @@ export const keyVerticalsData = [
   },
   {
     bgImage: "/images/home/realtyaix-bg.png",
-    title: "Realty AiX",
+    title: "AiXRealty",
     description:
       "Optimize property listing, leasing, and construction processes at scale with a user-friendly AI-powered solution. ",
     buttonUrl: "/vertical",
@@ -78,7 +78,7 @@ export const keyVerticalsData = [
   },
   {
     bgImage: "/images/home/aixerp-bg.png",
-    title: "AiX ERP",
+    title: "AiXERP",
     description:
       "Integrate advanced automation processes that streamline business operations and offer real-time insights via an AI-driven ERP platform. ",
     buttonUrl: "/vertical",
@@ -87,7 +87,7 @@ export const keyVerticalsData = [
   },
   {
     bgImage: "/images/home/aixqp-bg.png",
-    title: "AiX QP",
+    title: "AiXQP",
     description:
       "Leverage a user-friendly learning management platform that offers high-quality courses, helping students achieve their goals. ",
     buttonUrl: "/vertical",
@@ -96,7 +96,7 @@ export const keyVerticalsData = [
   },
   {
     bgImage: "/images/home/aixmotorsports-bg.png",
-    title: "AiX Motorsports",
+    title: "AiXMotorsports",
     description:
       "Enable faster lap times and improved vehicle reliability with AI-driven performance optimization, predictive maintenance, and real-time analytics. ",
     buttonUrl: "/vertical",
