@@ -10,7 +10,8 @@ import { footerMenus, certLogos, socialLinks } from '@/lib/data/footerData'
 const Footer = () => {
     const serviceMenus = footerMenus.find(menus => menus.title == "Services")?.navigations;
     const companyMenus = footerMenus.find(menus => menus.title == "Company")?.navigations;
-    const solutionMenus = footerMenus.find(menus => menus.title == "Solutions")?.navigations;
+    // const solutionMenus = footerMenus.find(menus => menus.title == "Solutions")?.navigations;
+    const verticalMenus = footerMenus.find(menus => menus.title == "Our Verticals")?.navigations;
 
     return (
         <footer className="bg-black text-white py-12 relative overflow-hidden">
@@ -53,7 +54,7 @@ const Footer = () => {
                         {/* Company + Solutions Section */}
                         <div className="flex flex-col items-center text-center sm:items-start sm:text-left gap-8">
                             <FooterSection title="Company" items={companyMenus || []} />
-                            <FooterSection title="Solutions" items={solutionMenus || []} />
+                            <FooterSection title="Verticals" items={verticalMenus || []} />
                         </div>
                     </div>
                 </div>
