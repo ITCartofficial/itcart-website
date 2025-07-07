@@ -10,7 +10,7 @@ interface AwardsSectionProps {
 }
 
 const AwardsSection: React.FC<AwardsSectionProps> = ({
-  title = "AI Entrepreneur Of The Year 2024",
+  title = "Awards & Recognition",
 }) => {
   return (
     <div className="">

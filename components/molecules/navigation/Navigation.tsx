@@ -85,6 +85,7 @@ const Navigation: React.FC<NavigationProps> = ({
                   <li key={idx}>
                     <a
                       href={subItem.href}
+                      style={{ scrollBehavior: "smooth" }}
                       className="block px-4 py-3 text-sm text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200 first:rounded-t-lg last:rounded-b-lg"
                       onClick={handleLinkClick}
                     >
@@ -109,6 +110,7 @@ const Navigation: React.FC<NavigationProps> = ({
                     <li key={idx}>
                       <a
                         href={subItem.href}
+                        style={{ scrollBehavior: "smooth" }}
                         className="block px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-slate-700 rounded-md transition-all duration-200"
                         onClick={handleLinkClick}
                       >
