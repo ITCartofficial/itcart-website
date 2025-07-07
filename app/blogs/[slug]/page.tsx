@@ -9,7 +9,7 @@ import client from "@/lib/wp/graphqlClient";
 // import { Post } from '@/types/wordpress';
 
 interface PageProps {
-  params: { slug: string[] };
+  params: { slug: string | string[] };
 }
 
 interface Post {
