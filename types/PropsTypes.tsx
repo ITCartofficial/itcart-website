@@ -130,3 +130,19 @@ export interface Ambassador {
         title: string;
     }[];
 }
+
+export interface CaseStudyItem {
+  id: string;
+  title: string;
+  description: string;
+  author: string;
+  date: string;
+  imageUrl: string;
+  bannerImage: string;
+  slug: string;
+  content: {
+    title: string;
+    content: string | string[];
+    isHTML?: boolean;
+  }[];
+}

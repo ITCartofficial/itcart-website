@@ -33,7 +33,7 @@ const HomeTemplate = () => {
       <div className="bg-black py-16 container mx-auto lg:px-10">
         <AboutInfoSection title='About Us - Creating Impact with a Clear Vision' cardDetails={aboutBrief} />
       </div>
-      <div className="bg-black">
+      <div className="bg-white">
         {/* <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" /> */}
         <PatentPendingSection />
       </div>
