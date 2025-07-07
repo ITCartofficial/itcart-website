@@ -21,7 +21,7 @@ export const navItems = [
     label: "Industries",
     href: "/industries",
     // submenu: [
-    //   { label: "Healthcare", href: "#" },
+    //   { label: "Healthcare", href: "#" },ck
     //   { label: "Finance", href: "#" },
     // ],
   },
