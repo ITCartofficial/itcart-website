@@ -16,6 +16,7 @@ import HomeFaqSection from '../organisms/sections/home/HomeFaqSection';
 import CaseStudySection from '../organisms/sections/home/CaseStudySection';
 import BlogsFeatureSection from '../organisms/sections/home/BlogsFeatureSection';
 import PatentPendingSection from '../organisms/sections/home/PatentPendingSection';
+import { caseStudyData } from '@/lib/data/caseStudyData';
 
 
 
@@ -52,7 +53,7 @@ const HomeTemplate = () => {
         <ContentfulSection bgImage={missionContent.bgImage} description={missionContent.description} title={missionContent.title} />
       </div>
       <div id='case-studies' className="bg-white pt-16">
-        <CaseStudySection caseStudies={caseStudies} />
+        <CaseStudySection caseStudies={caseStudyData}  />
       </div>
       <div className="bg-white py-16">
         <TestimonialSection testimonialsData={testimonialsData} />

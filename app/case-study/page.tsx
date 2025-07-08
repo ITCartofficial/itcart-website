@@ -7,17 +7,20 @@ import BodyText from '@/components/atoms/typography/BodyText';
 
 import CaseStudy from '@/components/molecules/cards/CaseStudy';
 import { caseStudyData } from '@/lib/data/caseStudyData';
+import OutlineBtn from '@/components/atoms/buttons/OutlineBtn';
+import { FaArrowRight } from 'react-icons/fa6';
+import Link from 'next/link';
 
 const CaseStudiesPage: React.FC = () => {
     return (
         <div className="min-h-screen bg-black text-white">
             {/* Hero Section */}
             <section className="py-20 px-4 sm:px-6 lg:px-8">
-                <div className="max-w-7xl mx-auto text-center">
+                <div className="max-w-7xl mx-auto text-center pt-16 lg:pt-24">
                     <GradientTitle
                         text="Our Case Studies"
                         theme="dark"
-                        className="text-4xl md:text-6xl mb-8"
+                        className="text-[36px] lg:text-[64px] mb-8"
                     />
                     <BodyText
                         text="Discover how we've helped businesses transform their digital presence and achieve remarkable results through innovative solutions."
@@ -46,7 +49,7 @@ const CaseStudiesPage: React.FC = () => {
             </section>
 
             {/* Call to Action Section */}
-            <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
+            <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#131313]">
                 <div className="max-w-4xl mx-auto text-center">
                     <GradientTitle
                         text="Ready to Start Your Success Story?"
@@ -58,18 +61,17 @@ const CaseStudiesPage: React.FC = () => {
                         className="text-lg text-gray-300 mb-8"
                     />
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a
-                            href="/contact"
-                            className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300"
-                        >
+                        <Link
+                            href="/contact-us"
+                            className="bg-gradient-to-r fbg-gradient-to-r from-[#29C1E2] to-white text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-white hover:to-[#29C1E2] transition-all duration-300">
                             Get Started
-                        </a>
-                        <a
-                            href="/services"
-                            className="border border-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-all duration-300"
-                        >
-                            Our Services
-                        </a>
+                        </Link>
+                        <OutlineBtn
+                            text="Our Services"
+                            textColor="#FFFFFF"
+                            icon={<FaArrowRight size={16} color="#FFFFFF" />}
+                            url='/services'
+                        />
                     </div>
                 </div>
             </section>

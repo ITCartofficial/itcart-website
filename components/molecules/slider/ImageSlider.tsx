@@ -76,6 +76,15 @@ const slides = [
 
 // export default ImageSlider;
 
+
+
+
+
+
+
+
+
+
 const ImageSlider: React.FC = () => {
   const [current, setCurrent] = useState<number>(0);
 
@@ -142,7 +151,6 @@ const ImageSlider: React.FC = () => {
 };
 
 export default ImageSlider;
-<<<<<<< HEAD
 
 
 
@@ -249,5 +257,3 @@ export default ImageSlider;
 
 
 
-=======
->>>>>>> staging

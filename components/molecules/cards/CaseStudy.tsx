@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
 import HeadingText from '@/components/atoms/typography/HeadingText';
@@ -22,7 +23,7 @@ const CaseStudy: React.FC<CaseStudyProps> = ({
     slug,
 }) => {
     return (
-        <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-black text-white">
+        <div className="max-w-sm rounded-lg overflow-hidden shadow-xs bg-black text-white p-4">
             <div className="relative h-48 w-full">
                 <Image
                     src={imageUrl}
@@ -54,7 +55,7 @@ const CaseStudy: React.FC<CaseStudyProps> = ({
 
                 <LinkButton
                     text="Continue Reading"
-                    url={`/case-studies/${slug}`}
+                    url={`/case-study/${slug}`}
                     className="pt-2"
                 />
             </div>
