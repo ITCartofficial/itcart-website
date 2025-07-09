@@ -8,7 +8,6 @@ import SearchInput from '@/components/molecules/common/SearchInput'
 import SocialIcons from '@/components/molecules/common/SocialIcons'
 
 import { blogPosts } from '@/lib/data/blogsData'
-import { CaseStudy } from '@/types/PropsTypes'
 import Image from 'next/image'
 import { socialLinks } from '@/lib/data/footerData'
 

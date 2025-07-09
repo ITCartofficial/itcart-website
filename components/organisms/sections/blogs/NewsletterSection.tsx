@@ -2,7 +2,6 @@
 
 import React from 'react'
 import CaseStudyCard from '@/components/molecules/cards/CaseStudyCard'
-import { CaseStudy } from '@/types/PropsTypes'
 import NewsletterSubscription from '../../../molecules/blogs/NewsLetterSubscription'
 
 const NewsletterSection = () => {
