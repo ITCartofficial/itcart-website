@@ -1,4 +1,3 @@
-// pages/case-studies/index.tsx or app/case-studies/page.tsx (depending on your Next.js version)
 'use client'
 
 import React from 'react';

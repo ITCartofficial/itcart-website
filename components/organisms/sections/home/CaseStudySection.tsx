@@ -38,8 +38,7 @@ import OutlineBtn from "@/components/atoms/buttons/OutlineBtn";
 import BodyText from "@/components/atoms/typography/BodyText";
 import GradientTitle from "@/components/atoms/typography/GradientTitle";
 import CaseStudiesSlider from "@/components/molecules/slider/CaseStudiesSlider";
-import { caseStudyData } from "@/lib/data/caseStudyData";
-import { CaseStudy, CaseStudyItem } from "@/types/PropsTypes";
+import { CaseStudyItem } from "@/types/PropsTypes";
 
 const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => {
   return (
@@ -59,7 +58,7 @@ const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => 
                 </div>
       </div>
       <div className="w-full lg:w-[60%]">
-        <CaseStudiesSlider caseStudies={caseStudyData} />
+        <CaseStudiesSlider caseStudies={caseStudies} />
       </div>
     </div>
   );

@@ -167,7 +167,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react"
 import CaseStudyCard from "../cards/CaseStudyCard"
-import type { CaseStudy, CaseStudyItem } from "@/types/PropsTypes"
+import type {CaseStudyItem } from "@/types/PropsTypes"
 
 export default function CaseStudiesSlider({ caseStudies }: { caseStudies: CaseStudyItem[] }) {
   // Create a truly infinite loop by duplicating the entire set multiple times

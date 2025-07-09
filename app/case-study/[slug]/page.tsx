@@ -1,8 +1,6 @@
 'use client'
 
 import React from 'react';
-import { useRouter } from 'next/router'; // For Pages Router
-// import { useParams } from 'next/navigation'; // For App Router - uncomment if using App Router
 import Image from 'next/image';
 import Link from 'next/link';
 import GradientTitle from '@/components/atoms/typography/GradientTitle';
@@ -186,14 +184,14 @@ const CaseStudyDetailPage: React.FC = () => {
                                 // </Link>
 
                                 <CaseStudy
-                                key={study.id}
-                                imageUrl={study.imageUrl}
-                                title={study.title}
-                                description={study.description}
-                                author={study.author}
-                                date={study.date}
-                                slug={`${study.slug}`}
-                            />
+                                    key={study.id}
+                                    imageUrl={study.imageUrl}
+                                    title={study.title}
+                                    description={study.description}
+                                    author={study.author}
+                                    date={study.date}
+                                    slug={`${study.slug}`}
+                                />
                             ))}
                     </div>
                 </div>

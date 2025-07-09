@@ -1,6 +1,6 @@
 import LinkButton from '@/components/atoms/buttons/LinkButton'
 import GradientTitle from '@/components/atoms/typography/GradientTitle'
-import { CaseStudy, CaseStudyItem } from '@/types/PropsTypes'
+import { CaseStudyItem } from '@/types/PropsTypes'
 import Image from 'next/image'
 import React from 'react'
 
