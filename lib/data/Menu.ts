@@ -31,7 +31,7 @@ export const navItems = [
     submenu: [
       { label: "About Us", href: "/about-us" },
       { label: "Our Blogs", href: "/blogs" },
-      { label: "Case Studies", href: "#case-studies" },
+      { label: "Case Studies", href: "/case-study" },
     ],
   },
   { label: "Careers", href: "/careers" },
