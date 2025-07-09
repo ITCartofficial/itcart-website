@@ -1,7 +1,7 @@
 import React from 'react'
 import FeaturedPostCard from '../cards/FeaturedPostCard'
 import PostLists from './PostLists'
-import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
+// import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
 
 interface Featured {
     id?: string,

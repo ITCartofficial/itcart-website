@@ -15,9 +15,9 @@ const JobListings = () => {
             (selectedCategory === 'Information technology & Engineering' && job.jobCategory === 'Product Development'));
 
     return (
-        <div className="bg-black text-white flex">
+        <div className="bg-black text-white flex flex-col md:flex-row">
             {/* Left Sidebar */}
-            <div className="w-80 p-6">
+            <div className="w-full md:w-80 p-6 flex md:flex-col flex-wrap">
                 {categories.map((category) => (
                     <div
                         key={category}
@@ -25,8 +25,7 @@ const JobListings = () => {
                         className={`p-3 mb-2 rounded cursor-pointer text-lg font-medium ${selectedCategory === category
                             ? 'bg-cyan-400 text-black'
                             : 'text-gray-300 hover:text-white'
-                            }`}
-                    >
+                            }`}>
                         {category}
                     </div>
                 ))}

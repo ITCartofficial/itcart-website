@@ -31,7 +31,7 @@ const WhyWorkWithUsSection = () => {
             <GradientTitle
                 text='Why Work with Us?'
                 lineHeight="1.2"
-                className="text-[50px] pb-6 text-center"
+                className="text-3xl md:text-[50px] pb-6 text-center"
                 theme='dark'
             />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

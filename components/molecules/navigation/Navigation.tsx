@@ -1,99 +1,131 @@
-'use client'
+"use client";
 
-import React, { useState } from 'react'
-import NavLink from '@/components/atoms/common/NavLink'
-import Link from 'next/link'
+import React, { useState } from "react";
+import NavLink from "@/components/atoms/common/NavLink";
+// import Link from 'next/link'
+import { navItems } from "@/lib/data/Menu";
 
 type NavigationProps = {
-  className?: string
-}
+  className?: string;
+  isMobile: boolean;
+  onLinkClick?: () => void;
+};
 
-// Define your navigation items with optional submenus
-import { navItems } from '@/lib/data/Menu'
+const Navigation: React.FC<NavigationProps> = ({
+  className,
+  isMobile,
+  onLinkClick,
+}) => {
+  const [activeMenu, setActiveMenu] = useState<string | null>(null);
+  const [openMobileSubmenu, setOpenMobileSubmenu] = useState<string | null>(
+    null
+  );
 
-const Navigation: React.FC<NavigationProps> = ({ className }) => {
-  const [activeMenu, setActiveMenu] = useState<string | null>(null)
+  const handleDesktopHover = (label: string | null) => {
+    if (!isMobile) {
+      setActiveMenu(label);
+    }
+  };
 
-  const handleHover = (label: string | null) => {
-    setActiveMenu(label)
-  }
+  const handleMobileSubmenuToggle = (label: string) => {
+    if (isMobile) {
+      setOpenMobileSubmenu(openMobileSubmenu === label ? null : label);
+    }
+  };
 
-  console.log(activeMenu)
+  const handleLinkClick = () => {
+    if (onLinkClick) {
+      onLinkClick();
+    }
+    // Close any open submenus when clicking a link
+    setOpenMobileSubmenu(null);
+  };
+
   return (
-    <nav className={className || ''}>
-      <ul className="flex flex-col lg:flex-row items-start lg:items-center gap-1 lg:gap-6 relative z-50">
+    <nav className={className || ""}>
+      <ul
+        className={`flex ${isMobile ? "flex-col" : "flex-row"} items-start ${
+          isMobile ? "" : "lg:items-center"
+        } ${isMobile ? "gap-0" : "gap-2 lg:gap-3"} relative z-50 ${
+          isMobile ? "" : "whitespace-nowrap"
+        }`}
+      >
         {navItems.map((item, i) => (
           <li
             key={i}
-            className="relative group"
-            onMouseEnter={() => handleHover(item.label)}
-            onMouseLeave={() => handleHover(null)}
+            className={`relative group w-full ${
+              isMobile ? "border-b border-slate-700 last:border-b-0" : ""
+            }`}
+            onMouseEnter={() => handleDesktopHover(item.label)}
+            onMouseLeave={() => handleDesktopHover(null)}
           >
-            <NavLink href={item.href} hasDropdown={!!item.submenu}>
-              <span className="flex items-center gap-1">
-                {item.label}
-              </span>
+            <NavLink
+              href={item.href}
+              hasDropdown={!!item.submenu}
+              isMobile={isMobile}
+              isSubmenuOpen={
+                isMobile ? openMobileSubmenu === item.label : false
+              }
+              onDropdownClick={() => handleMobileSubmenuToggle(item.label)}
+              onLinkClick={handleLinkClick}
+            >
+              <span className="flex items-center gap-1">{item.label}</span>
             </NavLink>
-            {item.submenu && (
+
+            {/* Desktop Dropdown */}
+            {item.submenu && !isMobile && (
               <ul
-                className={`absolute left-0 mt-2 w-48 bg-white dark:bg-gray-900 shadow-lg rounded-md py-2 transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100 group-hover:visible invisible`}
+                className={`absolute left-0 top-full mt-2 w-56 bg-white dark:bg-slate-800 shadow-xl rounded-lg py-2 transition-all duration-300 ease-in-out border border-gray-200 dark:border-slate-600 ${
+                  activeMenu === item.label
+                    ? "opacity-100 visible transform translate-y-0"
+                    : "opacity-0 invisible transform -translate-y-2"
+                }`}
               >
                 {item.submenu.map((subItem, idx) => (
                   <li key={idx}>
-                    <Link
+                    <a
                       href={subItem.href}
-                      className="block px-4 py-2 text-sm text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+                      style={{ scrollBehavior: "smooth" }}
+                      className="block px-4 py-3 text-sm text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200 first:rounded-t-lg last:rounded-b-lg"
+                      onClick={handleLinkClick}
                     >
                       {subItem.label}
-                    </Link>
+                    </a>
                   </li>
                 ))}
               </ul>
+            )}
+
+            {/* Mobile Dropdown */}
+            {item.submenu && isMobile && (
+              <div
+                className={`overflow-hidden transition-all duration-300 ease-in-out bg-slate-800 ${
+                  openMobileSubmenu === item.label
+                    ? "max-h-96 opacity-100"
+                    : "max-h-0 opacity-0"
+                }`}
+              >
+                <ul className="py-2 pl-4 space-y-1">
+                  {item.submenu.map((subItem, idx) => (
+                    <li key={idx}>
+                      <a
+                        href={subItem.href}
+                        style={{ scrollBehavior: "smooth" }}
+                        className="block px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-slate-700 rounded-md transition-all duration-200"
+                        onClick={handleLinkClick}
+                      >
+                        {subItem.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             )}
           </li>
         ))}
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Navigation
-
-
-// import React from 'react'
-// import NavLink from '@/components/atoms/common/NavLink'
-
-
-// type NavigationProps = {
-//   className?: string
-// }
-
-// const Navigation: React.FC<NavigationProps> = ({ className }) => {
-//   return (
-//     <nav className={`${className || ''}`}>
-//       <ul className="flex flex-col lg:flex-row items-start lg:items-center gap-1 lg:gap-6">
-//         <li>
-//           <NavLink href="/">Home</NavLink>
-//         </li>
-//         <li>
-//           <NavLink href="/services" hasDropdown>Our Services</NavLink>
-//         </li>
-//         <li>
-//           <NavLink href="/solutions" hasDropdown>Our Solutions</NavLink>
-//         </li>
-//         <li>
-//           <NavLink href="/industries" hasDropdown>Industries</NavLink>
-//         </li>
-//         <li>
-//           <NavLink href="/company" hasDropdown>Company</NavLink>
-//         </li>
-//         <li>
-//           <NavLink href="/careers">Careers</NavLink>
-//         </li>
-//       </ul>
-//     </nav>
-//   )
-// }
-
-// export default Navigation
-
+export default Navigation;

@@ -48,6 +48,7 @@ const BusinessTransformSection: React.FC<BusinessTransformSectionProps> = ({
                 text={buttonText}
                 textColor="#FFFFFF"
                 icon={<FaArrowRight size={16} color="#FFFFFF" />}
+                url='/contact-us'
               />
             </div>
           </div>

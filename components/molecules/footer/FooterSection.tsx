@@ -1,6 +1,6 @@
 import BodyText from "@/components/atoms/typography/BodyText";
 import HeadingText from "@/components/atoms/typography/HeadingText";
-import Link from "next/link";
+// import Link from "next/link";
 
 interface FooterSectionProps {
   title: string;
@@ -19,13 +19,23 @@ const FooterSection: React.FC<FooterSectionProps> = ({ title, items }) => {
       <ul className="space-y-1">
         {items.map((item, index) => (
           <li key={index}>
-            <Link href={item.href}>
-              <BodyText
-                text={item.label}
-                lineHeight="32px"
-                className="text-sm text-white hover:text-cyan-300 cursor-pointer transition"
-              />
-            </Link>
+            {title === "Services" ? (
+              <p>
+                <BodyText
+                  text={item.label}
+                  lineHeight="32px"
+                  className="text-sm text-white hover:text-cyan-300 cursor-default transition"
+                />
+              </p>
+            ) : (
+              <a href={item.href}>
+                <BodyText
+                  text={item.label}
+                  lineHeight="32px"
+                  className="text-sm text-white hover:text-cyan-300 cursor-pointer transition"
+                />
+              </a>
+            )}
           </li>
         ))}
       </ul>

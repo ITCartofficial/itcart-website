@@ -39,13 +39,13 @@ const BlogSliderCard: React.FC<BlogSliderCardProps> = ({ imageUrl, title, descri
                     <GradientTitle
                         text={title}
                         theme="dark"
-                        className="text-4xl mb-4"
+                        className="text-3xl sm:text-4xl mb-4"
                     />
                     <BodyText
                         text={description}
                         color="white"
                         textAlign="left"
-                        className="text-lg"
+                        className="text-base md:text-lg"
                     />
                 </div>
                 <div className="text-sm text-gray-400">

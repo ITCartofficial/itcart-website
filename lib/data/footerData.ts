@@ -36,20 +36,29 @@ export const footerMenus = [
       { label: "About Us", href: "/about" },
       { label: "Case Studies", href: "/case-studies" },
       { label: "Our Blogs", href: "/blogs" },
-      { label: "Contact Us", href: "/contact" },
+      { label: "Contact Us", href: "/contact-us" },
       { label: "Privacy Policy", href: "/privacy-policy" },
       { label: "Terms & Conditions", href: "/terms-and-conditions" },
     ],
   },
+  // {
+  //   title: "Solutions",
+  //   navigations: [
+  //     { label: "AiXHub - Your AI Workspace", href: "/solutions/aixhub" },
+  //     { label: "Document Management System", href: "/solutions/dms" },
+  //     { label: "Digital Transformation Suite", href: "/solutions/dts" },
+  //     { label: "All Solutions →", href: "/solutions" },
+  //   ],
+  // },
   {
-    title: "Solutions",
+    title: "Our Verticals",
     navigations: [
-      { label: "AiXHub - Your AI Workspace", href: "/solutions/aixhub" },
-      { label: "Document Management System", href: "/solutions/dms" },
-      { label: "Digital Transformation Suite", href: "/solutions/dts" },
-      { label: "All Solutions →", href: "/solutions" },
+      { label: "AiXQP", href: "/" },
+      { label: "AiXHealthcare", href: "/" },
+      { label: "AiXFinance", href: "/" },
+      { label: "All Verticals →", href: "#our-verticals" },
     ],
-  },
+  }
 ];
 
 export const socialLinks = {
