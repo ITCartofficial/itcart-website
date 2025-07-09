@@ -193,7 +193,7 @@ export const aboutBrief = [
     bgImage: "/images/about-card-1.jpg",
     title: "Our Vision",
     description:
-      "To revolutionize industries and deliver scalable and adaptive AI-powered solutions that shape the digital economy. ITCart's commitment extends beyond transformation, offering sustainable AI systems that redefine business success.",
+      "To revolutionize industries and deliver scalable and adaptive AI-powered solutions that shape the digital economy. iTCart's commitment extends beyond transformation, offering sustainable AI systems that redefine business success.",
   },
   {
     bgImage: "/images/about-card-2.jpg",

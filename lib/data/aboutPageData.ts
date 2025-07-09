@@ -374,6 +374,26 @@ export const ambassadorsList = [
     ],
   },
   {
+    image: "/images/ambassador/Dr Athey.png",
+    title: "Dr. Brian D. Athey",
+    designation: "Global AI Ambassador",
+    profileRef: "#", //button link
+    matrics: [
+      {
+        numericValue: 20,
+        title: "Years of leadership in AI",
+      },
+      {
+        numericValue: 200,
+        title: "Keynotes on AI ",
+      },
+      {
+        numericValue: 30,
+        title: "Patents in AI and Genomics",
+      },
+    ],
+  },
+  {
     image: "/images/ambassador/Joan Hennessey.jpg",
     title: "Joan Hennessey ",
     designation: "Philanthropy of the State of Michigan Ambassador",
@@ -450,6 +470,26 @@ export const ambassadorsList = [
       {
         numericValue: 35,
         title: "Years of Licensed CRE Practice",
+      },
+    ],
+  },
+  {
+    image: "/images/ambassador/Prashanta.png",
+    title: "Dr. Prasanta Kumar Ghosh",
+    designation: "Global Ambassador – AiXQP Research & Learning",
+    profileRef: "#", //button link
+    matrics: [
+      {
+        numericValue: 20,
+        title: "Expertise in AI ",
+      },
+      {
+        numericValue: 40,
+        title: "Global Research Publications ",
+      },
+      {
+        numericValue: 10,
+        title: "Awards & Honors in Academia",
       },
     ],
   },
