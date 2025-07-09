@@ -88,19 +88,19 @@ export const caseStudyData: CaseStudyItem[] = [
  }, 
   {
     id: "2",
-    title: "Building the Future: BIMQP's Success with IT Cart's Digital Solutions",
+    title: "Building the Future: BIMQP's Success with iTCart's Digital Solutions",
     description:
-      "A comprehensive healthcare management system that streamlined patient care and reduced administrative overhead by 50Discover how BIMQP revolutionized construction project delivery by partnering with IT Cart to implement advanced BIM solutions—enhancing collaboration, compliance, data visualization, and operational efficiency across the entire project lifecycle.",
+      "A comprehensive healthcare management system that streamlined patient care and reduced administrative overhead by 50Discover how BIMQP revolutionized construction project delivery by partnering with iTCart to implement advanced BIM solutions—enhancing collaboration, compliance, data visualization, and operational efficiency across the entire project lifecycle.",
     author:"Akshay Chakrapani",
     date: "November 28, 2024",
     imageUrl: "/images/case-study/case study featured/buildingfuture.png",
     bannerImage: "/images/case-study/BIMQP.webp",
-    slug: "building-the-future-bimqps-success-with-it-carts-digital-solutions",
+    slug: "building-the-future-bimqps-success-with-itcarts-digital-solutions",
     content: [
   {
     title: "Executive Summary",
     content: [
-      "IT Cart partnered with BIMQP (Building Information Modeling Quality and Performance) to lead a digital transformation that significantly enhanced BIMQP’s operational efficiency and project delivery standards. This initiative integrated advanced BIM solutions, fostered a collaborative environment and set a new benchmark for digital transformation in the construction sector."
+      "iTCart partnered with BIMQP (Building Information Modeling Quality and Performance) to lead a digital transformation that significantly enhanced BIMQP’s operational efficiency and project delivery standards. This initiative integrated advanced BIM solutions, fostered a collaborative environment and set a new benchmark for digital transformation in the construction sector."
     ],
     isHTML: false
   },
@@ -171,7 +171,7 @@ export const caseStudyData: CaseStudyItem[] = [
   {
     title: "Conclusion",
     content: [
-      "The digital transformation for BIMQP by IT Cart exemplifies the power of advanced digital solutions in the construction sector. This project enhanced operational efficiency and project delivery standards, setting a benchmark for future initiatives. Continuous investment in digital infrastructure and training will further enhance BIMQP’s ability to support technological advancements in construction."
+      "The digital transformation for BIMQP by iTCart exemplifies the power of advanced digital solutions in the construction sector. This project enhanced operational efficiency and project delivery standards, setting a benchmark for future initiatives. Continuous investment in digital infrastructure and training will further enhance BIMQP’s ability to support technological advancements in construction."
     ],
     isHTML: false
   },
@@ -187,19 +187,19 @@ export const caseStudyData: CaseStudyItem[] = [
 
   {
     id: "3",
-    title: "Maarif Foundation Digital Transformation with IT Cart",
+    title: "Maarif Foundation Digital Transformation with iTCart",
     description:
-      "Explore how the Maarif Foundation partnered with IT Cart to digitally transform its philanthropic initiatives—streamlining donations, enhancing donor engagement, ensuring compliance, and increasing global outreach through secure, user-friendly platforms",
+      "Explore how the Maarif Foundation partnered with iTCart to digitally transform its philanthropic initiatives—streamlining donations, enhancing donor engagement, ensuring compliance, and increasing global outreach through secure, user-friendly platforms",
     author: "Akshay Chakrapani",
     date: "October 10, 2024",
     imageUrl: "/images/case-study/case study featured/maariffoundation.png",
     bannerImage: "/images/case-study/TMF-Case-Study-Banner.webp",
-    slug: "maarif-foundation-digital-transformation-with-it-cart",
+    slug: "maarif-foundation-digital-transformation-with-itcart",
     content: [
       {
         title: "Executive Summary",
         content:
-          "IT Cart led a groundbreaking digital transformation initiative for The Maarif Foundation UK. The customer wanted a strategic implementation of modern digital solutions that would significantly enhance the Foundation’s global accessibility and donor engagement. The project resulted in increased donation volumes and streamlined operational processes, showcasing the power of technology in driving social impact. It set a new standard for philanthropic digital transformation in the UK.",
+          "iTCart led a groundbreaking digital transformation initiative for The Maarif Foundation UK. The customer wanted a strategic implementation of modern digital solutions that would significantly enhance the Foundation’s global accessibility and donor engagement. The project resulted in increased donation volumes and streamlined operational processes, showcasing the power of technology in driving social impact. It set a new standard for philanthropic digital transformation in the UK.",
         isHTML: false,
       },
       {
@@ -225,7 +225,7 @@ export const caseStudyData: CaseStudyItem[] = [
       {
     title: "Digital Solutions Provided",
     content: [
-      "<p>IT Cart developed a custom digital platform tailored to the unique needs of the Maarif Foundation.</p>",
+      "<p>iTCart developed a custom digital platform tailored to the unique needs of the Maarif Foundation.</p>",
       "<ul class='list-disc pl-6 space-y-2'>\
       <li><strong>Mobile Responsive Design: </strong>Developed a mobile-responsive website to ensure compatibility and optimal viewing experience across all devices.</li>\
       <li><strong>User-Friendly Donation Interface: </strong>Designed an intuitive and user-friendly donation interface with clear calls-to-action, simplified forms, and minimal steps to streamline the donation process.</li>\
@@ -263,7 +263,7 @@ export const caseStudyData: CaseStudyItem[] = [
   {
     title: "Conclusion",
     content: [
-      "The digital transformation for The Maarif Foundation UK exemplifies IT Cart's capability to integrate advanced digital solutions in the nonprofit sector, enhancing global reach and operational efficiency. This project not only supported a significant charitable initiative but also set a benchmark for future philanthropic efforts. Sustained investment in digital infrastructure and training will further enhance the Foundation’s capability to support vulnerable communities effectively."
+      "The digital transformation for The Maarif Foundation UK exemplifies iTCart's capability to integrate advanced digital solutions in the nonprofit sector, enhancing global reach and operational efficiency. This project not only supported a significant charitable initiative but also set a benchmark for future philanthropic efforts. Sustained investment in digital infrastructure and training will further enhance the Foundation’s capability to support vulnerable communities effectively."
     ],
     isHTML: false
   },
@@ -280,7 +280,7 @@ export const caseStudyData: CaseStudyItem[] = [
     id: "4",
     title: "Digital Transformation at ImmunoCon2024 Conference",
     description:
-      "Discover how IT Cart digitally transformed IMMUNOCON-2024 at IISc Bengaluru—streamlining registrations, enhancing delegate engagement, enabling real-time updates, and creating a seamless experience for academic conference participants worldwide.",
+      "Discover how iTCart digitally transformed IMMUNOCON-2024 at IISc Bengaluru—streamlining registrations, enhancing delegate engagement, enabling real-time updates, and creating a seamless experience for academic conference participants worldwide.",
     author: "Akshay Chakrapani",
     date: "October 10, 2024",
     imageUrl: "/images/case-study/case study featured/digitaltransformation.png",
@@ -290,7 +290,7 @@ export const caseStudyData: CaseStudyItem[] = [
     {
     title: "Executive Summary",
     content: [
-      "IT Cart led a landmark digital transformation initiative for IMMUNOCON-2024 at the prestigious Indian Institute of Science, Bengaluru. This case study details the strategic implementation of digital solutions that significantly enhanced the conference’s global accessibility and academic interaction."
+      "iTCart led a landmark digital transformation initiative for IMMUNOCON-2024 at the prestigious Indian Institute of Science, Bengaluru. This case study details the strategic implementation of digital solutions that significantly enhanced the conference’s global accessibility and academic interaction."
     ],
     isHTML: false
   },
@@ -316,7 +316,7 @@ export const caseStudyData: CaseStudyItem[] = [
   {
     title: "Digital Solutions Provided",
     content: [
-      "<p>IT Cart developed a custom digital platform tailored to the unique needs of IMMUNOCON-2024.</p>\
+      "<p>iTCart developed a custom digital platform tailored to the unique needs of IMMUNOCON-2024.</p>\
       <li><strong>Enhanced Registration Portal: </strong>An advanced registration system that could handle various categories of participants and adapt to fluctuations in real-time.</li>\
       <li><strong>Interactive Agenda Planner: </strong>A dynamic tool that allowed participants to customize their schedules, integrate them with personal calendars, and receive updates on sessions of interest.</li>\
       <li><strong>Real-time Streaming and Engagement: </strong>Implemented cutting-edge live streaming technology with interactive features such as live Q&A, polls, and virtual networking rooms.</li>\
@@ -352,7 +352,7 @@ export const caseStudyData: CaseStudyItem[] = [
   {
     title: "Conclusion",
     content: [
-      "The digital transformation for IMMUNOCON-2024 exemplifies IT Cart’s capability to integrate advanced digital solutions in an academic setting, enhancing both global reach and operational efficiency. This project not only supported a prestigious event but also set a benchmark for future academic conferences worldwide."
+      "The digital transformation for IMMUNOCON-2024 exemplifies iTCart's capability to integrate advanced digital solutions in an academic setting, enhancing both global reach and operational efficiency. This project not only supported a prestigious event but also set a benchmark for future academic conferences worldwide."
     ],
     isHTML: false
   },
@@ -369,17 +369,17 @@ export const caseStudyData: CaseStudyItem[] = [
     id: "5",
     title: "AI Powered Digital Transformations at Ajmal Foundation",
     description:
-      "Explore how Ajmal Foundation leveraged IT Cart's AI-powered digital solutions to modernize operations, enhance educational outreach, optimize healthcare services, and drive impact across its philanthropic initiatives.",
+      "Explore how Ajmal Foundation leveraged iTCart's AI-powered digital solutions to modernize operations, enhance educational outreach, optimize healthcare services, and drive impact across its philanthropic initiatives.",
     author: "Akshay Chakrapani",
     date: "December 25, 2024",
     imageUrl: "/images/case-study/case study featured/aipowereddigital.png",
     bannerImage: "/images/case-study/Tranforming Ajmal.webp",
-    slug: "digital-transformation-at-ajmal-foundation-with-ai",
+    slug: "ai-powered-digital-transformation-at-ajmal-foundation",
     content: [
     {
     title: "Executive Summary",
     content: [
-      "Ajmal Foundation, a leading educational institution, faced challenges in communication, operational efficiency, and engagement. Implementing AIX HUB, a comprehensive digital platform developed by IT Cart, revolutionized the Foundation’s approach, resulting in enhanced productivity, improved community engagement, and streamlined administrative processes."
+      "Ajmal Foundation, a leading educational institution, faced challenges in communication, operational efficiency, and engagement. Implementing AiXHub, a comprehensive digital platform developed by iTCart, revolutionized the Foundation's approach, resulting in enhanced productivity, improved community engagement, and streamlined administrative processes."
     ],
     isHTML: false
   },
@@ -393,11 +393,11 @@ export const caseStudyData: CaseStudyItem[] = [
   {
     title: "Navigating the Implementation Journey",
     content: [
-      "<p>AIX HUB was chosen for its robust features tailored to the needs of educational institutions. The implementation process involved:</p>\
-      <li><strong>Initial Assessment:</strong> Collaborating with IT Cart to understand the Foundation’s specific needs and challenges.</li>\
-      <li><strong>Customization and Integration:</strong> Tailoring AIX HUB’s features, including Communication and Engagement, Operational Efficiency, and Security and Emergency, to fit the Foundation’s workflows.</li>\
+      "<p>AiXHub was chosen for its robust features tailored to the needs of educational institutions. The implementation process involved:</p>\
+      <li><strong>Initial Assessment:</strong> Collaborating with iTCart to understand the Foundation's specific needs and challenges.</li>\
+      <li><strong>Customization and Integration:</strong> Tailoring AiXHub's features, including Communication and Engagement, Operational Efficiency, and Security and Emergency, to fit the Foundation's workflows.</li>\
       <li><strong>Training and Rollout:</strong> Conducting comprehensive training sessions for staff and faculty to ensure smooth adoption.</li>\
-      <li><strong>Ongoing Support:</strong> Establishing a support and feedback loop with IT Cart for continuous improvement.</li>\
+      <li><strong>Ongoing Support:</strong> Establishing a support and feedback loop with iTCart for continuous improvement.</li>\
       <ul class='list-disc pl-6 space-y-2'>\
       </ul>"
     ],
@@ -424,7 +424,7 @@ export const caseStudyData: CaseStudyItem[] = [
   {
     title: "Conclusion: Empowering Ajmal Foundation's Future",
     content: [
-      "The AIX HUB case study at Ajmal Foundation exemplifies how digital transformation can address multifaceted challenges in educational institutions, leading to tangible improvements in operations, community engagement, and overall institutional culture."
+      "The AiXHub case study at Ajmal Foundation exemplifies how digital transformation can address multifaceted challenges in educational institutions, leading to tangible improvements in operations, community engagement, and overall institutional culture."
     ],
     isHTML: false
   }
@@ -432,14 +432,14 @@ export const caseStudyData: CaseStudyItem[] = [
  }, 
   {
     id: "6",
-    title: "Transforming Education and Operations: AIX HUB",
+    title: "Transforming Education and Operations: AiXHub",
     description:
-      "Discover how AIX HUB revolutionized education and operations by integrating AI-driven collaboration, intelligent automation, and real-time insights—empowering institutions to scale efficiently and make smarter decisions.",
+      "Discover how AiXHub revolutionized education and operations by integrating AI-driven collaboration, intelligent automation, and real-time insights—empowering institutions to scale efficiently and make smarter decisions.",
     author: "Akshay Chakrapani",
     date: "Novemvber 24, 2024",
     imageUrl: "/images/case-study/case study featured/tranformingeducation.png",
     bannerImage: "/images/case-study/Tranforming Education.png",
-    slug: "transforming-education-and-operations-aix-hub-at-the-forefront",
+    slug: "transforming-education-and-operations-aixhub-at-the-forefront",
     content: [
       {
     title: "Background",
@@ -451,12 +451,12 @@ export const caseStudyData: CaseStudyItem[] = [
   {
     title: "Solution",
     content: [
-      "<p>AIX HUB was chosen for its robust features tailored to the needs of educational institutions.</p>\
+      "<p>AiXHub was chosen for its robust features tailored to the needs of educational institutions.</p>\
       <ul class='list-disc pl-6 space-y-2'>\
-      <li><strong>Initial Assessment:</strong> Collaborating with IT Cart to understand the Foundation's specific needs and challenges.</li>\
-      <li><strong>Customization and Integration:</strong> Tailoring AIX HUB's features, including Communication and Engagement, Operational Efficiency, and Security and Emergency, to fit the Foundation’s workflows.</li>\
+      <li><strong>Initial Assessment:</strong> Collaborating with iTCart to understand the Foundation's specific needs and challenges.</li>\
+      <li><strong>Customization and Integration:</strong> Tailoring AiXHub's features, including Communication and Engagement, Operational Efficiency, and Security and Emergency, to fit the Foundation’s workflows.</li>\
       <li><strong>Training and Rollout:</strong> Conducting comprehensive training sessions for staff and faculty to ensure smooth adoption.</li>\
-      <li><strong>Ongoing Support:</strong> Establishing a support and feedback loop with IT Cart for continuous improvement.</li>\
+      <li><strong>Ongoing Support:</strong> Establishing a support and feedback loop with iTCart for continuous improvement.</li>\
       <p>The implementation process involved:</p>\
       </ul>"
     ],
@@ -483,8 +483,8 @@ export const caseStudyData: CaseStudyItem[] = [
   {
     title: "Conclusion",
     content: [
-      "<p>In the ever-evolving landscape of education, the Ajmal Foundation stands committed to harnessing the power of digital transformation to redefine the educational experience and operational efficiency. The introduction of AIX HUB, built on SharePoint Online within the Office 365 ecosystem, represents a significant stride towards achieving this mission.</p>\
-      <p>The <a href='https://itcart.io' target='_blank'>AIX HUB</a> case study at Ajmal Foundation exemplifies how digital transformation can address multifaceted challenges in educational institutions, leading to tangible improvements in operations, community engagement, and overall institutional culture.</p>"
+      "<p>In the ever-evolving landscape of education, the Ajmal Foundation stands committed to harnessing the power of digital transformation to redefine the educational experience and operational efficiency. The introduction of AiXHub, built on SharePoint Online within the Office 365 ecosystem, represents a significant stride towards achieving this mission.</p>\
+      <p>The <a href='https://itcart.io' target='_blank'>AiXHub</a> case study at Ajmal Foundation exemplifies how digital transformation can address multifaceted challenges in educational institutions, leading to tangible improvements in operations, community engagement, and overall institutional culture.</p>"
     ],
     isHTML: true
     }
