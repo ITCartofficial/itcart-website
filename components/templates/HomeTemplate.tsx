@@ -7,7 +7,7 @@ import AboutInfoSection from '../organisms/sections/home/AboutInfoSection';
 import TestimonialSection from '../organisms/sections/home/TestimonialSection';
 import HorizontalSliderSection from '../organisms/sections/home/HorizontalSliderSection';
 
-import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts, caseStudies } from '@/lib/data/homePageData';
+import { keyVerticalsData, testimonialsData, aboutBrief, logos, homeBannerData, missionContent, posts } from '@/lib/data/homePageData';
 import ContentfulSection from '../organisms/sections/home/ContentfulSection';
 import TextRevealSection from '../organisms/sections/home/TextRevealSection';
 import AwardsSection from '../organisms/sections/home/AwardsSection';
