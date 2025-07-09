@@ -214,7 +214,7 @@ export const ambassadorsList = [
   {
     image: "/images/ambassador/Randall.png",
     title: "Randall D. Oostra",
-    designation: "Global Business Ambassador",
+    designation: "Global Business Ambassadorr",
     profileRef: "#", //button link
     matrics: [
       {
@@ -333,7 +333,7 @@ export const ambassadorsList = [
     ],
   },
   {
-    image: "/images/ambassador/bryongough.jpg",
+    image: "/images/ambassador/John Kuehn.png",
     title: "John Kuehn",
     designation:
       "Senior Enterprise Supply Chain Advisor - Healthcare & Markets",
@@ -374,6 +374,26 @@ export const ambassadorsList = [
     ],
   },
   {
+    image: "/images/ambassador/Dr Athey.png",
+    title: "Dr. Brian D. Athey",
+    designation: "Global AI Ambassador",
+    profileRef: "#", //button link
+    matrics: [
+      {
+        numericValue: 20,
+        title: "Years of leadership in AI",
+      },
+      {
+        numericValue: 200,
+        title: "Keynotes on AI ",
+      },
+      {
+        numericValue: 30,
+        title: "Patents in AI and Genomics",
+      },
+    ],
+  },
+  {
     image: "/images/ambassador/Joan Hennessey.jpg",
     title: "Joan Hennessey ",
     designation: "Philanthropy of the State of Michigan Ambassador",
@@ -385,7 +405,7 @@ export const ambassadorsList = [
       },
       {
         numericValue: 200,
-        title: "Projects Managedn",
+        title: "Projects Managed",
       },
       {
         numericValue: 900,
@@ -393,6 +413,106 @@ export const ambassadorsList = [
       },
     ],
   },
+   {
+    image: "/images/ambassador/Mitch Daly.png",
+    title: "Mitch Daly",
+    designation: "Insurance Ambassador",
+    profileRef: "#", //button link
+    matrics: [
+      {
+        numericValue: 15,
+        title: "Years of Experience",
+      },
+      {
+        numericValue: 300,
+        title: "Clients Advised ",
+      },
+      {
+        numericValue: 50,
+        title: "Thought Leadership Features",
+      },
+    ],
+  },
+  {
+    image: "/images/ambassador/davebarr.png",
+    title: "Dave Barr",
+    designation: "Global Steel Industry Ambassador",
+    profileRef: "#", //button link
+    matrics: [
+      {
+        numericValue: 30,
+        title: "Years of Industry Leadership",
+      },
+      {
+        numericValue: 40,
+        title: "Years of Center Steel Service ",
+      },
+      {
+        numericValue: 100,
+        title: "Major Industry Partnerships",
+      },
+    ],
+  },
+  {
+    image: "/images/ambassador/mrtim.png",
+    title: "Tim Schlachter ",
+    designation: "Global Commercial Real Estate (CRE) Ambassador ",
+    profileRef: "#", //button link
+    matrics: [
+      {
+        numericValue: 30,
+        title: "Years of CRE Expertise ",
+      },
+      {
+        numericValue: 100,
+        title: "Successful Brokerage ",
+      },
+      {
+        numericValue: 35,
+        title: "Years of Licensed CRE Practice",
+      },
+    ],
+  },
+  {
+    image: "/images/ambassador/Prashanta.png",
+    title: "Dr. Prasanta Kumar Ghosh",
+    designation: "Global Ambassador – AiXQP Research & Learning",
+    profileRef: "#", //button link
+    matrics: [
+      {
+        numericValue: 20,
+        title: "Expertise in AI ",
+      },
+      {
+        numericValue: 40,
+        title: "Global Research Publications ",
+      },
+      {
+        numericValue: 10,
+        title: "Awards & Honors in Academia",
+      },
+    ],
+  },
+  // {
+  //   image: "/images/ambassador/Joan Hennessey.jpg",
+  //   title: "Tim Schlachter ",
+  //   designation: "Global Commercial Real Estate (CRE) Ambassador ",
+  //   profileRef: "#", //button link
+  //   matrics: [
+  //     {
+  //       numericValue: 30,
+  //       title: "Steel Innovation ",
+  //     },
+  //     {
+  //       numericValue: 300,
+  //       title: "Inventory Strategy  ",
+  //     },
+  //     {
+  //       numericValue: 50,
+  //       title: "Industrial Resilience",
+  //     },
+  //   ],
+  // },
 ];
 
 export const historyData = {
