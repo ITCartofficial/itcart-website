@@ -191,7 +191,7 @@ export const globalStrategists = [
   {
     image: "/images/strategists/randalloostra.png",
     title: "Randall D. Oostra",
-    designation: "Global Business Ambassadorr",
+    designation: "Global Business Ambassador",
   },
   {
     image: "/images/strategists/brianathey.png",
@@ -214,7 +214,7 @@ export const ambassadorsList = [
   {
     image: "/images/ambassador/Randall.png",
     title: "Randall D. Oostra",
-    designation: "Global Business Ambassadorr",
+    designation: "Global Business Ambassador",
     profileRef: "#", //button link
     matrics: [
       {
