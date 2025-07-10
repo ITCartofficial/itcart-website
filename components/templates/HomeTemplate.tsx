@@ -16,7 +16,6 @@ import {
   logos,
   homeBannerData,
   missionContent,
-  caseStudies,
 } from "@/lib/data/homePageData";
 import ContentfulSection from "../organisms/sections/home/ContentfulSection";
 import TextRevealSection from "../organisms/sections/home/TextRevealSection";
