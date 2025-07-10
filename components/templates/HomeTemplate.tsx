@@ -30,6 +30,7 @@ import { Post } from "@/types/wordpress";
 import { notFound } from "next/navigation";
 import client from "@/lib/wp/graphqlClient";
 import { GET_ALL_POST_SLUGS } from "@/lib/wp/queries";
+import { caseStudyData } from '@/lib/data/caseStudyData';
 
 const { videoSrc, poster, heading, description, buttonText } = homeBannerData;
 
@@ -109,7 +110,7 @@ const HomeTemplate = () => {
         />
       </div>
       <div id="case-studies" className="bg-white pt-16">
-        <CaseStudySection caseStudies={caseStudies} />
+        <CaseStudySection caseStudies={caseStudyData} />
       </div>
       <div className="bg-white py-16">
         <TestimonialSection testimonialsData={testimonialsData} />

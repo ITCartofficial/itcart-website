@@ -2,16 +2,28 @@
 
 import React from 'react'
 import CaseStudyCard from '@/components/molecules/cards/CaseStudyCard'
-import { CaseStudy } from '@/types/PropsTypes'
 import NewsletterSubscription from '../../../molecules/blogs/NewsLetterSubscription'
 
 const NewsletterSection = () => {
-    const caseStudyData: CaseStudy = {
+    const caseStudyData = {
         id: '1',
         title: "Experience a multi-functional AI-powered platform",
         image: "/images/blogs/blog-featured-2.jpg",
         link: "/contact",
         linkText: "Contact us",
+        author: "John Doe",
+        date: "2024-06-01",
+        imageUrl: "/images/blogs/blog-featured-2.jpg",
+        bannerImage: "/images/blogs/blog-banner-2.jpg",
+        description: "Discover how our AI-powered platform can transform your business operations.",
+        slug: "ai-powered-platform",
+        content: [
+            {
+                title: "Overview",
+                content: "This case study explores the features and benefits of our multi-functional AI-powered platform, showcasing real-world applications and results.",
+            }
+        ],
+        // Add any other required properties with appropriate values
     }
 
     return (

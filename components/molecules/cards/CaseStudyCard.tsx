@@ -1,19 +1,19 @@
-// import LinkButton from '@/components/atoms/buttons/LinkButton'
+import LinkButton from '@/components/atoms/buttons/LinkButton'
 import GradientTitle from '@/components/atoms/typography/GradientTitle'
-import { CaseStudy } from '@/types/PropsTypes'
+import { CaseStudyItem } from '@/types/PropsTypes'
 import Image from 'next/image'
 import React from 'react'
 
 interface CaseStudyCardProps {
-    card: CaseStudy
+    card: CaseStudyItem
 }
 
-const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card }) => {
+const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card}) => {
     return (
         <div className="relative h-full">
             <div className="absolute inset-0 rounded-[30px] overflow-hidden">
                 <Image
-                    src={card.image}
+                    src={card.imageUrl}
                     alt={card.title}
                     fill
                     className="object-cover"
@@ -24,7 +24,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card }) => {
             <div className="absolute inset-0 bg-gradient-to-b from-gray-900/10 to-gray-900/90 z-10 rounded-[30px]" />
             <div className="absolute inset-0 z-20 p-6 flex flex-col justify-end rounded-[30px]">
                 <GradientTitle text={card.title} theme="dark" className="text-xl font-bold text-white mb-2" />
-                {/* <LinkButton url={card.link} text={card.linkText} textColor='#ffffff' /> */}
+                <LinkButton url={`/case-study/${card.slug}`} text="Read More" textColor='#ffffff' />
             </div>
         </div>
     )

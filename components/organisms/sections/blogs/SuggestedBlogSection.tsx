@@ -8,7 +8,6 @@ import SearchInput from '@/components/molecules/common/SearchInput'
 import SocialIcons from '@/components/molecules/common/SocialIcons'
 
 import { blogPosts } from '@/lib/data/blogsData'
-import { CaseStudy } from '@/types/PropsTypes'
 import Image from 'next/image'
 import { socialLinks } from '@/lib/data/footerData'
 
@@ -117,12 +116,23 @@ const SuggestedBlogSection = () => {
         }
     }, [])
 
-    const caseStudyData: CaseStudy = {
+    const caseStudyData = {
         id: '1',
         title: "Experience a multi-functional AI-powered platform",
-        image: "/images/blogs/blog-featured-14.jpg",
+        author: "ITCart Team",
+        date: "2024-06-01",
+        imageUrl: "/images/blogs/blog-featured-14.jpg",
+        bannerImage: "/images/blogs/blog-featured-14-banner.jpg",
+        description: "Discover how our AI-powered platform transforms your business.",
         link: "/contact-us",
         linkText: "Contact us",
+        slug: "ai-powered-platform",
+        content: [
+            {
+                title: "Overview",
+                content: "Learn more about our multi-functional AI-powered platform and how it can benefit your business."
+            }
+        ]
     }
 
     return (

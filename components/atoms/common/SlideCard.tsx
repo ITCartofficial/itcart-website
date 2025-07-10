@@ -59,3 +59,12 @@ const SlideCard: React.FC<SlideCardProps> = ({
 };
 
 export default SlideCard;
+
+
+
+
+
+
+
+
+

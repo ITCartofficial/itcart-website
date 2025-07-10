@@ -131,13 +131,18 @@ export interface Ambassador {
   }[];
 }
 
-export interface ContactEmailPayload {
-  to: string;
-  subject: string;
-  text: string;
-}
-
-export interface SendEmailResult {
-  success: boolean;
-  message: string;
+export interface CaseStudyItem {
+  id: string;
+  title: string;
+  description: string;
+  author: string;
+  date: string;
+  imageUrl: string;
+  bannerImage: string;
+  slug: string;
+  content: {
+    title: string;
+    content: string | string[];
+    isHTML?: boolean;
+  }[];
 }
