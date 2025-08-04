@@ -20,7 +20,7 @@ export default async function SingleBlogPage({
 
     return (
         <article id="singlePostContainer">
-      <h1>{data?.post?.title}</h1>
+      <h1 style={{color:"#ffff"}}>{data?.post?.title}</h1>
       {data.post.featuredImage?.node?.sourceUrl && (
         <Image
           src={data?.post?.featuredImage?.node?.sourceUrl}
@@ -32,6 +32,7 @@ export default async function SingleBlogPage({
       )}
       <div
         id="postContent"
+        style={{color:"#ffff"}}
         dangerouslySetInnerHTML={{ __html: data?.post?.content }}
       />
     </article>
