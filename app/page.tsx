@@ -1,4 +1,5 @@
-import HomeTemplate from "@/components/templates/HomeTemplate";
+import HomeTemplate from "@/app/(features)/page";
+import { useHomeContext } from "./homeContext";
 
 export default function Home() {
   return (

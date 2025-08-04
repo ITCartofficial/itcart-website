@@ -1,4 +1,4 @@
-import { ContentItem } from "@/components/organisms/sections/ContentSection";
+import { ContentItem } from "@/app/components/ContentSection";
 
 
 export const privacyPolicyContent: ContentItem[] = [
