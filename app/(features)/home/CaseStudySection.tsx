@@ -34,10 +34,10 @@
 
 
 
-import OutlineBtn from "@/app/components/buttons/OutlineBtn";
-import BodyText from "@/app/components/typography/BodyText";
-import GradientTitle from "@/app/components/typography/GradientTitle";
-import CaseStudiesSlider from "@/app/components/slider/CaseStudiesSlider";
+import OutlineBtn from "@/components/buttons/OutlineBtn";
+import BodyText from "@/components/typography/BodyText";
+import GradientTitle from "@/components/typography/GradientTitle";
+import CaseStudiesSlider from "@/components/slider/CaseStudiesSlider";
 import { CaseStudyItem } from "@/types/PropsTypes";
 
 const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => {

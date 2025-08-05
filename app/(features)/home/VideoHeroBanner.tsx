@@ -1,7 +1,7 @@
-import OutlineBtn from "@/app/components/buttons/OutlineBtn";
-import VideoContainer from "@/app/components/common/VideoContainer";
-import BodyText from "@/app/components/typography/BodyText";
-import GradientTitle from "@/app/components/typography/GradientTitle";
+import OutlineBtn from "@/components/buttons/OutlineBtn";
+import VideoContainer from "@/components/common/VideoContainer";
+import BodyText from "@/components/typography/BodyText";
+import GradientTitle from "@/components/typography/GradientTitle";
 import { FaArrowRight } from "react-icons/fa6";
 
 type VideoHeroBannerProps = {

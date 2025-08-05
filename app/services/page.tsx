@@ -1,6 +1,6 @@
 import React from 'react'
-import HeroBanner from '@/app/components/HeroBanner'
-import ServicesGrid from '@/app/components/ServiceGrid'
+import HeroBanner from '@/components/HeroBanner'
+import ServicesGrid from '@/components/ServiceGrid'
 
 const Services = () => {
     return (

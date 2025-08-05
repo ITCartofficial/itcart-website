@@ -1,4 +1,4 @@
-import { ContentItem } from "@/app/components/ContentSection";
+import { ContentItem } from "@/components/ContentSection";
 
 
 export const termsConditionContent: ContentItem[] = [

@@ -1,6 +1,6 @@
 // import BodyText from "@/components/atoms/typography/BodyText";
-import GradientTitle from "@/app/components/typography/GradientTitle";
-import ImageSlider from "@/app/components/slider/ImageSlider";
+import GradientTitle from "@/components/typography/GradientTitle";
+import ImageSlider from "@/components/slider/ImageSlider";
 import React from "react";
 
 interface AwardsSectionProps {

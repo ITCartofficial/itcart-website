@@ -1,5 +1,5 @@
-import BodyText from '@/app/components/typography/BodyText'
-import GradientTitle from '@/app/components/typography/GradientTitle'
+import BodyText from '@/components/typography/BodyText'
+import GradientTitle from '@/components/typography/GradientTitle'
 import React from 'react'
 
 type ContentfulSectionProps = {

@@ -1,8 +1,8 @@
 'use-client'
 
 // import OutlineBtn from "@/components/atoms/buttons/OutlineBtn"
-import GradientTitle from "@/app/components/typography/GradientTitle"
-import ImageInfoCard from "@/app/components/cards/ImageInfoCard"
+import GradientTitle from "@/components/typography/GradientTitle"
+import ImageInfoCard from "@/components/cards/ImageInfoCard"
 import { ImageInfoCardProps } from "@/types/PropsTypes"
 // import { FaArrowRight } from "react-icons/fa6"
 

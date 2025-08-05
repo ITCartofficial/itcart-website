@@ -1,5 +1,5 @@
-import BodyText from "@/app/components/typography/BodyText"
-import LogoSlider from "@/app/components/common/SliderLogos"
+import BodyText from "@/components/typography/BodyText"
+import LogoSlider from "@/components/common/SliderLogos"
 
 type ClientsSectionProps = {
     title: string

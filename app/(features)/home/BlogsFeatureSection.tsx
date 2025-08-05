@@ -1,8 +1,8 @@
 "use client";
 
-import BodyText from "@/app/components/typography/BodyText";
-import GradientTitle from "@/app/components/typography/GradientTitle";
-import PostHighlights from "@/app/components/common/PostHighlights";
+import BodyText from "@/components/typography/BodyText";
+import GradientTitle from "@/components/typography/GradientTitle";
+import PostHighlights from "@/components/common/PostHighlights";
 
 import { Post } from "@/types/wordpress";
 // interface Featured {

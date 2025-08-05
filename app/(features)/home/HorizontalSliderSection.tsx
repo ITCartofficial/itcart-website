@@ -1,6 +1,6 @@
 // import OutlineBtn from '@/components/atoms/buttons/OutlineBtn'
-import GradientTitle from '@/app/components/typography/GradientTitle'
-import CardSlider from '@/app/components/common/CardSlider'
+import GradientTitle from '@/components/typography/GradientTitle'
+import CardSlider from '@/components/common/CardSlider'
 import { IconInfoCardProps } from '@/types/PropsTypes'
 import React from 'react'
 // import { FaArrowRight } from 'react-icons/fa6'
