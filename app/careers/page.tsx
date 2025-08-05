@@ -9,14 +9,8 @@ import WhyWorkWithUsSection from '@/app/components/careers/WhyWorkWithUsSection'
 import JobSection from '@/app/components/careers/JobSection';
 import WhoWeAre from '@/app/components/careers/WhoWeAre';
 
-
-
-
-interface CareersProps {
-    buttonText?: string;
-}
-
-const Careers: React.FC<CareersProps> = ({ buttonText = "View all open positions" }) => {
+const Careers: React.FC = () => {
+    const buttonText = "View all open positions";
     return (
         <section className="w-full bg-black text-white pt-32 pb-20">
             <div className='pb-8'>
