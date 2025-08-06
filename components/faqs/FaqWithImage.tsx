@@ -1,13 +1,10 @@
 'use client';
 
 import { useState } from "react";
-<<<<<<< HEAD:app/components/faqs/FaqWithImage.tsx
-import Accordion from "@/app/components/common/Accordion2";
-import ImageContainer from "@/app/components/common/ImageContainer";
-=======
-import Accordion from "@/app/components/molecules/common/Accordion";
-import ImageContainer from "@/components/common/ImageContainer";
->>>>>>> 0329340cd93302542958a5a5076f895092463e2c:components/faqs/FaqWithImage.tsx
+
+
+import Accordion from "../common/Accordion2";
+import ImageContainer from "../common/ImageContainer";
 
 import { FaqWithImageProps } from "@/types/PropsTypes";
 
