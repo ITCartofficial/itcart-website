@@ -4,8 +4,6 @@ import Header from "@/app/components/layouts/Header"
 import Footer from "@/app/components/layouts/Footer"
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import { ReactNode } from "react";
-import { HomeProvider } from "./homeContext";
 
 
 const montserrat = Montserrat({

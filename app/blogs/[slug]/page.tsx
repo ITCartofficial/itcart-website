@@ -1,3 +1,4 @@
+
 import client from "@/lib/wp/graphqlClient";
 import { GET_POST_BY_SLUG } from "@/lib/wp/queries";
 import Image from "next/image";

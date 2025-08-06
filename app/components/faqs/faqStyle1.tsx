@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from "react";
-import Accordion from "@/app/components/molecules/common/Accordion";
+import Accordion from "@/app/components/common/Accordion2";
+// import Accordion from "../common/Accordion";
 import ImageContainer from "@/app/components/common/ImageContainer";
 
 import { FaqWithImageProps } from "@/types/PropsTypes";

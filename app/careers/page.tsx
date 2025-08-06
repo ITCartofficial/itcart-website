@@ -1,3 +1,4 @@
+'use client';
 import React from 'react'
 import BlogsHero from '@/app/components/blogs2/BlogsHero'
 import OutlineBtn from '@/app/components/buttons/OutlineBtn'
@@ -11,12 +12,7 @@ import WhoWeAre from '@/app/components/careers/WhoWeAre';
 
 
 
-
-interface Careers {
-    buttonText?: string;
-}
-
-const Careers: React.FC<Careers> = ({ buttonText = "View all open positions" }) => {
+const Careers: React.FC = () => {
     return (
         <section className="w-full bg-black text-white pt-32 pb-20">
             <div className='pb-8'>
@@ -30,7 +26,7 @@ const Careers: React.FC<Careers> = ({ buttonText = "View all open positions" }) 
                     className='pb-20'
                 />
                 <div className='w-full flex justify-center py-10'>
-                    <OutlineBtn text={buttonText} url='/careers/job-openings' icon={<FaArrowRight className="text-sm font-semibold text-white" />} textColor="#ffffff" />
+                    <OutlineBtn text={"View all open positions"} url='/careers/job-openings' icon={<FaArrowRight className="text-sm font-semibold text-white" />} textColor="#ffffff" />
                 </div>
             </div>
             <div className='w-ful pb-16'>
