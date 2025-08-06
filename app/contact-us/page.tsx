@@ -1,8 +1,8 @@
 import { AddressCardProps } from "@/types/PropsTypes"
-import BodyText from "@/app/components/typography/BodyText"
-import GradientTitle from "@/app/components/typography/GradientTitle"
-import AddressSection from "@/app/components/contact/AddressSection"
-import ContactFormSection from "@/app/components/contact/ContactFormSection"
+import BodyText from "@/components/typography/BodyText"
+import GradientTitle from "@/components/typography/GradientTitle"
+import AddressSection from "@/components/contact/AddressSection"
+import ContactFormSection from "@/components/contact/ContactFormSection"
 
 const addressList: AddressCardProps[] = [
   {

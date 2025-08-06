@@ -1,12 +1,12 @@
 'use client';
 
 import React, { useEffect } from "react";
-import BlogsHero from "@/app/components/blogs2/BlogsHero";
-import BlogSlider from "@/app/components/blogs2/BlogSlider";
-import NewsletterSection from "@/app/components/blogs2/NewsletterSection";
+import BlogsHero from "@/components/blogs2/BlogsHero";
+import BlogSlider from "@/components/blogs2/BlogSlider";
+import NewsletterSection from "@/components/blogs2/NewsletterSection";
 // import TechnologySection from "../organisms/sections/blogs/TechnologySection";
 // import SuggestedBlogSection from "../organisms/sections/blogs/SuggestedBlogSection";
-import BlogGridLayout from "@/app/components/blogs2/BlogGridLayout";
+import BlogGridLayout from "@/components/blogs2/BlogGridLayout";
 import { GET_ALL_POST_SLUGS } from "@/lib/wp/queries";
 import client from "@/lib/wp/graphqlClient";
 import { Post } from "@/types/wordpress";

@@ -1,12 +1,12 @@
 'use client'
 
 import React from 'react';
-import GradientTitle from '@/app/components/typography/GradientTitle';
-import BodyText from '@/app/components/typography/BodyText';
+import GradientTitle from '@/components/typography/GradientTitle';
+import BodyText from '@/components/typography/BodyText';
 
-import CaseStudy from '@/app/components/cards/CaseStudy';
+import CaseStudy from '@/components/cards/CaseStudy';
 import { caseStudyData } from '@/lib/data/caseStudyData';
-import OutlineBtn from '@/app/components/buttons/OutlineBtn';
+import OutlineBtn from '@/components/buttons/OutlineBtn';
 import { FaArrowRight } from 'react-icons/fa6';
 import Link from 'next/link';
 

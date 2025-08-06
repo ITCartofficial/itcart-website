@@ -1,5 +1,5 @@
-import GradientTitle from '@/app/components/typography/GradientTitle'
-import TestimonialSlider from '@/app/components/common/TestimonialSlider'
+import GradientTitle from '@/components/typography/GradientTitle'
+import TestimonialSlider from '@/components/common/TestimonialSlider'
 import { TestimonialCardProps } from '@/types/PropsTypes'
 import React from 'react'
 

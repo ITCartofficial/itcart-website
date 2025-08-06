@@ -1,6 +1,6 @@
 import React from 'react';
-import { AccordionItem } from '@/app/components/common/Accordion';
-import Faq from '@/app/components/common/Faq';
+import { AccordionItem } from '@/components/common/Accordion';
+import Faq from '@/components/common/Faq';
 
 // Props interface for the reusable component
 export interface HomeFaqSectionProps {

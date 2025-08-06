@@ -1,5 +1,5 @@
-import TextReveal from '@/app/components/common/TextReveal'
-import GradientTitle from '@/app/components/typography/GradientTitle'
+import TextReveal from '@/components/common/TextReveal'
+import GradientTitle from '@/components/typography/GradientTitle'
 import React from 'react'
 
 interface TextRevealSectionProps {

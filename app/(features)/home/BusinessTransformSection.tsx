@@ -1,6 +1,6 @@
-import OutlineBtn from '@/app/components/buttons/OutlineBtn';
-import BodyText from '@/app/components/typography/BodyText';
-import GradientTitle from '@/app/components/typography/GradientTitle';
+import OutlineBtn from '@/components/buttons/OutlineBtn';
+import BodyText from '@/components/typography/BodyText';
+import GradientTitle from '@/components/typography/GradientTitle';
 import { FaArrowRight } from 'react-icons/fa6';
 
 

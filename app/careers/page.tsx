@@ -1,14 +1,14 @@
 'use client';
 import React from 'react'
-import BlogsHero from '@/app/components/blogs2/BlogsHero'
-import OutlineBtn from '@/app/components/buttons/OutlineBtn'
+import BlogsHero from '@/components/blogs2/BlogsHero'
+import OutlineBtn from '@/components/buttons/OutlineBtn'
 import { FaArrowRight } from 'react-icons/fa6';
 import HomeFaqSection from '@/app/(features)/home/HomeFaqSection';
 import { careersFaqs } from '@/lib/data/faqsData';
-import HorizontalImageSlider from '@/app/components/slider/HorizontalImageSlider';
-import WhyWorkWithUsSection from '@/app/components/careers/WhyWorkWithUsSection';
-import JobSection from '@/app/components/careers/JobSection';
-import WhoWeAre from '@/app/components/careers/WhoWeAre';
+import HorizontalImageSlider from '@/components/slider/HorizontalImageSlider';
+import WhyWorkWithUsSection from '@/components/careers/WhyWorkWithUsSection';
+import JobSection from '@/components/careers/JobSection';
+import WhoWeAre from '@/components/careers/WhoWeAre';
 
 
 

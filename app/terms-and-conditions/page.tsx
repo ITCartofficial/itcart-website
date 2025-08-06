@@ -1,7 +1,7 @@
 import React from 'react'
 import { termsConditionContent } from '@/lib/data/termsConditionData'
-import ContentSection from '@/app/components/ContentSection'
-import HeroSection from '@/app/components/HeroSection'
+import ContentSection from '@/components/ContentSection'
+import HeroSection from '@/components/HeroSection'
 
 const TermsConditions = () => {
     return (
