@@ -428,8 +428,8 @@ export const ambassadorsList = [
         title: "Clients Advised ",
       },
       {
-        numericValue: 10,
-        title: "Industry Veteran",
+        numericValue: 2,
+        title: "Prestigious Awards",
       },
     ],
   },
