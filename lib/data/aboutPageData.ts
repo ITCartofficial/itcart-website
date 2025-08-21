@@ -414,22 +414,22 @@ export const ambassadorsList = [
     ],
   },
    {
-    image: "/images/ambassador/Mitch Daly.png",
-    title: "Mitch Daly",
-    designation: "Insurance Ambassador",
+    image: "/images/ambassador/Rob Haynie.png",
+    title: "Rob Haynie",
+    designation: "Global Ambassador",
     profileRef: "#", //button link
     matrics: [
       {
-        numericValue: 15,
+        numericValue: 31,
         title: "Years of Experience",
       },
       {
-        numericValue: 300,
+        numericValue: 1000,
         title: "Clients Advised ",
       },
       {
-        numericValue: 50,
-        title: "Thought Leadership Features",
+        numericValue: 10,
+        title: "Industry Veteran",
       },
     ],
   },
