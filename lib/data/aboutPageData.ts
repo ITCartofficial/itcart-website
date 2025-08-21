@@ -416,7 +416,7 @@ export const ambassadorsList = [
    {
     image: "/images/ambassador/Rob Haynie.png",
     title: "Rob Haynie",
-    designation: "Global Ambassador",
+    designation: "Global Ambassador Life insurance Settlements",
     profileRef: "#", //button link
     matrics: [
       {
