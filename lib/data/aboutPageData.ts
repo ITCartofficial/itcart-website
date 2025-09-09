@@ -36,7 +36,7 @@ export const foundingMembers = [
   {
     image: "/images/founders/rohimuddin.png",
     title: "Rohim Uddin",
-    designation: "Founder & Director",
+    designation: "Founder & Global CTO, COO",
     description:
       "A visionary and a globally acclaimed cross functional technocrat with expertise spanning over 2 decades building solutions, patented products for small, medium & large enterprises globally.",
   },
@@ -62,34 +62,30 @@ export const executiveLeadership = [
     title: "Rohim uddin",
     designation: "Founder & Global CTO, COO",
     desciption:
-      "A visionary and a globally acclaimed cross functional technocrat, the driving force behind iTCart’s technological vision. With over two decades of experience in building enterprise solutions across 25+ industries, Rohim brings unparalleled expertise in software development, AI integration, and digital transformation.",
+      "A visionary and a globally acclaimed cross functional technocrat, the driving force behind iTCart's technological vision. With over two decades of experience in building enterprise solutions across 32+ industries, Rohim brings unparalleled expertise in software development, Al integration, and digital transformation.",
     matrics: [
       {
-        numericValue: 20,
+        numericValue: 22,
         title: "Years of Experience",
       },
       {
-        numericValue: 25,
+        numericValue: 40,
         title: "Industry Expertise",
       },
-      {
-        numericValue: 130,
+      { 
+        numericValue: 500,
         title: "Solutions Expertise",
       },
       {
-        numericValue: 19,
+        numericValue: 25,
         title: "Products Expertise",
       },
       {
         numericValue: 100,
-        title: "Products Expertise",
-      },
+        title: "Global Customers",
+      },  
       {
-        numericValue: 100,
-        title: "Products Expertise",
-      },
-      {
-        numericValue: 6,
+        numericValue: 24,
         title: "Noteworthy Innovations",
       },
     ],
