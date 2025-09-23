@@ -45,7 +45,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
                     <GradientTitle
                         text={title}
                         theme="dark"
-                        className="text-4xl max-w-[220px]"
+                        className="text-4xl"
                     />
                 </div>
             </div>
