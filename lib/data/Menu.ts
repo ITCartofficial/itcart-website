@@ -34,5 +34,8 @@ export const navItems = [
       { label: "Case Studies", href: "/#case-studies" },
     ],
   },
+  { label: "Solutions", href: "/solutions" },
   { label: "Careers", href: "/careers" },
+  { label: "Industry", href: "/industry" },
+  { label: "Contact Us", href: "/contact-us" },
 ];
