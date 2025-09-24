@@ -30,6 +30,7 @@ import { notFound } from "next/navigation";
 import client from "@/lib/wp/graphqlClient";
 import { GET_ALL_POST_SLUGS } from "@/lib/wp/queries";
 import { caseStudyData } from '@/lib/data/caseStudyData';
+import AiSection from "./(features)/home/AiSection";
 
 
 
@@ -87,6 +88,15 @@ const HomeTemplate = () => {
           cardDetails={aboutBrief}
         />
       </div>
+
+      <div className="bg-black py-16 container mx-auto lg:px-10">
+        <AiSection
+          title="Our AI-powered Solutions for Intelligent Automation"
+          cardDetails={aboutBrief}
+        />
+
+      </div>
+
       <div className="bg-white">
         {/* <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" /> */}
         <PatentPendingSection />
