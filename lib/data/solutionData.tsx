@@ -1,6 +1,6 @@
 export const solutionData = [
   {
-    title: "AiXHubTM Intranet",
+    title: "AiXHub™ Intranet",
     description: "Crafted for success, streamlines efficiency, minimizes costs, and heightens precision through tailored solutions, ensuring sustained growth and innovation.",
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/solutions/ai_image.png"
