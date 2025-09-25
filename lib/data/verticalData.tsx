@@ -3,7 +3,7 @@ export const verticalData = [
         title: "AI & ML Automations",
         description: "Digital care platform providing patient analytics, clinical insights, and personalized care pathways for wellness organizations.",
         linkUrl: "/services/ai-ml-automations",
-        imageSrc: "/images/services/ai-ml-automation.png",
+        imageSrc: "/images/vertical/AiXHub.png",
         compenyName: 'AiXHub',
         verticalCompenyLogo: '/images/verticalLogos/AiXHub.png'
     },
@@ -11,7 +11,7 @@ export const verticalData = [
         title: "Application Services",
         description: "End-to-end banking solutions, delivering automation, compliance tracking, and agility for financial institutions globally.",
         linkUrl: "/services/application-services",
-        imageSrc: "/images/services/application-service.png",
+        imageSrc: "/images/vertical/AiXBFS.png",
         compenyName: 'AiXBFS',
         verticalCompenyLogo: '/images/verticalLogos/AiXBFS.png'
     },
@@ -19,7 +19,7 @@ export const verticalData = [
         title: "Business Intelligence",
         description: "Modular ERP platform unifying finance, HR, inventory, and operations with scalable architecture and real-time insights.",
         linkUrl: "/services/business-intelligence",
-        imageSrc: "/images/services/business-intelligence.png",
+        imageSrc: "/images/vertical/business-intelligence.png",
         compenyName: 'AiXERP',
         verticalCompenyLogo: '/images/verticalLogos/AiXERP.png'
     },

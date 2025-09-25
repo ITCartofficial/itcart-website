@@ -13,7 +13,7 @@ const OurVerticals = () => {
                     { label: 'Home', url: '/' },
                     { label: 'Our Verticals', url: '/services' }
                 ]}
-                backgroundImage="/images/services/service-bg.png"
+                backgroundImage="/images/vertical/vertical-bg.png"
             />
             <OurVwerticalGrid className='container' />
         </div>

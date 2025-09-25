@@ -13,7 +13,7 @@ export default function page() {
                     { label: 'Home', url: '/' },
                     { label: 'Our Solutions', url: '/services' }
                 ]}
-                backgroundImage="/images/services/service-bg.png"
+                backgroundImage="/images/solutions/solutions-bg.png"
             />
             <SolutionGrid className='container'/>
         </div>
