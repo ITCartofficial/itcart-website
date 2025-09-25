@@ -32,7 +32,7 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
             <div className='w-full'>
 
                 <BodyText
-                    text={compenyName}
+                    text={compenyName ?? ""}
                     color="rgba(255, 255, 255, 0.8)"
                     lineHeight="1.5"
                     className="text-sm mb-2 text-center"
