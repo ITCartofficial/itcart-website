@@ -22,7 +22,7 @@ const FoundingMembersSection = ({ members, theme, direction }: {
                 <GradientTitle
                     text='Founding Members'
                     theme='light'
-                    className='text-[30px] lg:text-[50px] '
+                    className='text-[30px] lg:text-[48px] '
                 />
                 <BodyText
                     text={"Meet our visionary founding members: Driving leadership, innovation and strategic excellence in IT."}

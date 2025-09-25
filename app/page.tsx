@@ -94,7 +94,6 @@ const HomeTemplate = () => {
           title="Our AI-powered Solutions for Intelligent Automation"
           cardDetails={aboutBrief}
         />
-
       </div>
 
       <div className="bg-white">
@@ -126,7 +125,7 @@ const HomeTemplate = () => {
       <div className="bg-white py-16">
         <TestimonialSection testimonialsData={testimonialsData} />
       </div>
-      <div className="bg-white pt-16">
+      <div className="bg-white">
         <BlogsFeatureSection posts={posts} />
       </div>
       <div className="bg-black py-16">

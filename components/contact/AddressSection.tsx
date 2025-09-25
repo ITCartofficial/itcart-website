@@ -5,7 +5,8 @@ import { AddressCardProps } from "@/types/PropsTypes"
 const AddressSection = ({ addressList }: { addressList: AddressCardProps[] }) => {
     return (
         <BannerContainer bgImage="/images/contact/contact-bg.jpg">
-            <div className="container mx-auto lg:px-10 lg:py-16 h-full grid lg:grid-cols-4 gap-8">
+            <div className="lg:px-10 lg:py-16 h-full grid lg:grid-cols-4 gap-8 mx-10 sm-3 md:mx-10 lg:mx-6">
+
                 {
                     addressList.map((address, i) => (
                         <AddressCard

@@ -11,6 +11,9 @@ import { GET_ALL_POST_SLUGS } from "@/lib/wp/queries";
 import client from "@/lib/wp/graphqlClient";
 import { Post } from "@/types/wordpress";
 import { notFound } from "next/navigation";
+import TechnologySection from "@/components/blogs2/TechnologySection";
+import NumberedCard from "@/components/blogs/NumberCard";
+import SuggestedBlogSection from "@/components/blogs2/SuggestedBlogSection";
 
 const BlogsTemplate = () => {
   const getBlogs = async () => {
@@ -57,8 +60,9 @@ const BlogsTemplate = () => {
       <BlogSlider posts={posts} />
       <BlogGridLayout posts={posts} />
       <NewsletterSection />
-      {/* <TechnologySection /> */}
-      {/* <SuggestedBlogSection /> */}
+      <TechnologySection />
+      <SuggestedBlogSection />
+
     </section>
   );
 };

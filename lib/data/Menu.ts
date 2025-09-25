@@ -2,7 +2,7 @@ export const navItems = [
   { label: "Home", href: "/" },
   {
     label: "Our Verticals",
-    href: "/#our-verticals",
+    href: "/our-verticals",
     // submenu: [
     //   { label: "Web Development", href: "#" },
     //   { label: "Mobile Apps", href: "#" },
