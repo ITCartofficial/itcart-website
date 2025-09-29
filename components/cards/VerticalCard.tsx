@@ -1,6 +1,8 @@
+"use client"
 import React from 'react';
 import BodyText from '@/components/typography/BodyText';
 import { FaArrowRight } from 'react-icons/fa6';
+import { useRouter } from 'next/navigation';
 
 interface VerticalCardProps {
     title: string;
@@ -12,6 +14,7 @@ interface VerticalCardProps {
     className?: string;
     compenyName?: string;
     verticalCompenyLogo?: string;
+    compenyLogo?: string
 }
 
 const VerticalCard: React.FC<VerticalCardProps> = ({
@@ -23,8 +26,11 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
     linkUrl = "#",
     className = "",
     compenyName,
-    verticalCompenyLogo
+    verticalCompenyLogo,
+    compenyLogo
 }) => {
+
+    const router = useRouter();
 
     return (
         <div className="flex justify-center items-center  bg-black min-h-[420px]">
@@ -48,10 +54,10 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
                                 className="w-full lg:h-[163px] h-[180] object-cover"
                             />
                         </div>
-                     
+
                         <div className="w-30 h-20 mx-auto mb-3 flex items-center justify-center">
                             <img
-                                src={verticalCompenyLogo}
+                                src={compenyLogo}
                                 alt="Logo"
                                 className="max-h-full max-w-full object-contain"
                             />
@@ -62,7 +68,7 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
                         </p>
                     </div>
 
-                    <button className="mt-6 inline-block mx-auto group cursor-pointer" aria-label="Learn more">
+                    <button onClick={() => router.push(`our-verticals/${compenyName}`)} className="mt-6 inline-block mx-auto group cursor-pointer" aria-label="Learn more">
                         <span className="inline-flex rounded-lg p-[1px] bg-gradient-to-r from-black to-[#2ac4c9]">
                             <span className="flex items-center gap-3 bg-white rounded-lg px-6 py-2 text-black font-medium">
                                 <span>Learn More</span>
@@ -76,8 +82,6 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
 
                 </div>
             </div>
-
-
         </div>
     );
 };
