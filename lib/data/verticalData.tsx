@@ -347,6 +347,86 @@ export const verticalData = [
         compenyName: 'AiXGRC',
         verticalCompenyLogo: '/images/verticalLogos/AiXGRC.png',
         compenyLogo: '/images/verticalLogos/AiXGRC.png',
+        detailPage: {
+            bannerTitle: "AI-Powered Compliance Management Platform ",
+            bannerDescription: "AI-powered compliance management ensuring regulatory adherence for enterprises ",
+            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2: {
+                contentOne: "In today's high-stakes regulatory landscape, managing governance, risk, and compliance (GRC) isn't just about ticking boxes—it's about building trust, ensuring resilience, and driving intelligent accountability. Traditional GRC approaches fall short in the face of evolving regulations and exponential data growth. AiXGRC is your AI-powered command center for Governance, Risk & Compliance, designed to give organizations the power to see around corners, adapt faster, and lead with confidence using smart governance frameworks and predictive risk modeling. ",
+                contenttwo: "",
+                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+            },
+            aboutSection: {
+                aboutImage: '/images/vertical/section2Image.png',
+                logo: '/images/verticalLogos/AiXQP.png',
+                contentOne: "AiXGRC is an AI-powered GRC automation platform built on iTCart's patent-pending AiXHub framework that streamlines governance, simplifies risk management, and automates compliance workflows across enterprises. With deep intelligence and real-time monitoring, AiXGRC empowers organizations to navigate regulatory shifts, identify emerging risks, ensure automated policy enforcement, automate audits and controls, and drive enterprise-wide accountability through intelligent automation that transforms governance from reactive to predictive.  ",
+                contenttwo: ""
+            },
+            CapabilitySections: [
+                {
+                    title: "Risk Intelligence Engine",
+                    description: "Continuously assess risks using dynamic AI scoring models and predictive analytics.",
+                    gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+                },
+                {
+                    title: "Automated Compliance Workflows ",
+                    description: "Stay audit-ready with AI-driven workflows tracking and reporting compliance activities.  ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Real-Time Monitoring Dashboards",
+                    description: "Gain 360° visibility across departments with centralized dashboards and smart alerts. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Policy Control Management",
+                    description: "Digitize policies, map controls, track changes with automated enforcement systems. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Cross-Functional Integration ",
+                    description: "Seamlessly connects with ERP, CRM, HRMS enabling data harmony at scale. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "CIntelligent Audit Automation",
+                    description: "Automate audit lifecycles eliminating manual dependencies with intelligent control testing. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                }
+            ],
+            skillGapSection: [
+                {
+                    icon: '/images/vertical/icons/manicon.png',
+                    title: "Leadership & Officers",
+                    highlight: "Ensure enterprise-wide policy enforcement and strategic governance oversight ",
+                    description: "",
+                    gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/handicons.png',
+                    title: "Internal Auditors",
+                    highlight: "Automate audit lifecycles and control testing with intelligent automation.",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/handicons.png',
+                    title: "IT & Security Teams",
+                    highlight: "Manage data governance, cybersecurity policies, and real-time risk events. ",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+            ],
+
+            logo: 'AiXQP-whitelogo',
+            section2Data: '',
+            section2Image: '/images/vertical/section2Image.png',
+            section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
+            section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
+            aboutImage: '',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            about2SecondParagraph: 'Powered by the proprietary AiXHub™ engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
+        }
     },
     {
         title: "Data Analytics",
@@ -446,6 +526,86 @@ export const verticalData = [
         compenyName: 'AiXDesk',
         verticalCompenyLogo: '/images/verticalLogos/AiXDesk.png',
         compenyLogo: '/images/verticalLogos/AiXDesk.png',
+        detailPage: {
+            bannerTitle: "Intelligent IT Support & Asset Management Platform",
+            bannerDescription: "Smart IT Service Management Made Simple ",
+            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2: {
+                contentOne: "Modern workplaces face constant IT disruptions that impact productivity. Traditional helpdesk systems create bottlenecks with manual ticket routing, delayed responses, and fragmented asset tracking. Teams waste valuable time on repetitive tasks while critical issues remain unresolved, leading to frustrated employees and decreased operational efficiency. ",
+                contenttwo: "",
+                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+            },
+            aboutSection: {
+                aboutImage: '/images/vertical/section2Image.png',
+                logo: '/images/verticalLogos/AiXQP.png',
+                contentOne: "AiXDesk transforms IT service management through intelligent automation, unifying ticketing systems with comprehensive asset tracking and seamless workflow management. Built on iTCart's patent-pending AiXFramework, this AI-powered platform streamlines enterprise IT operations by eliminating manual bottlenecks and accelerating issue resolution. Organizations experience dramatic improvements in service delivery with automated ticket routing, predictive escalations, and complete asset lifecycle visibility. The solution integrates advanced analytics with mobile accessibility, enabling teams to maintain optimal performance while reducing operational costs and enhancing end-user satisfaction across all departments. ",
+                contenttwo: ""
+            },
+            CapabilitySections: [
+                {
+                    title: "Intelligent Ticket Management",
+                    description: "AI-powered automation captures and routes issues instantly to appropriate teams.",
+                    gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+                },
+                {
+                    title: "Smart Escalation System",
+                    description: "Automated priority-based escalations ensure critical issues receive immediate attention.  ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Complete Asset Visibility",
+                    description: "Centralized tracking for all hardware and software throughout their lifecycle.",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Workflow Automation",
+                    description: "Streamlined approval processes eliminate manual bottlenecks and reduce delays.",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Advanced Analytics Dashboard",
+                    description: "Real-time insights into performance metrics and operational efficiency trends.",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Mobile-Ready Platform",
+                    description: "Full functionality accessible to agents and employees across all devices. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                }
+            ],
+            skillGapSection: [
+                {
+                    icon: '/images/vertical/icons/manicon.png',
+                    title: "IT Administrators",
+                    highlight: "Complete system oversight with centralized management and automated reporting tools. ",
+                    description: "",
+                    gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/handicons.png',
+                    title: "HR Teams ",
+                    highlight: "Streamlined onboarding processes with automated access provisioning and device allocation.",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/handicons.png',
+                    title: "Finance Departments ",
+                    highlight: "Comprehensive license tracking with automated compliance monitoring and cost optimization insights.",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+            ],
+
+            logo: 'AiXQP-whitelogo',
+            section2Data: '',
+            section2Image: '/images/vertical/section2Image.png',
+            section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
+            section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
+            aboutImage: '',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            about2SecondParagraph: 'Powered by the proprietary AiXHub™ engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
+        }
     },
     {
         title: "Digital Commerce",
@@ -706,6 +866,86 @@ export const verticalData = [
         compenyName: 'RCMAiX',
         verticalCompenyLogo: '/images/verticalLogos/RCMAiX.png',
         compenyLogo: '/images/verticalLogos/RCMAiX.png',
+        detailPage: {
+            bannerTitle: "Transform Healthcare Revenue with AI-Powered RCM",
+            bannerDescription: "Streamline billing processes with intelligent automation",
+            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2: {
+                contentOne: "Healthcare providers face escalating billing inefficiencies, claim denials exceeding 15%, and administrative burdens that drain resources from patient care. With 40% of hospitals reporting negative margins and rising costs outpacing reimbursements, traditional revenue cycle management systems lack intelligent automation to predict bottlenecks, prevent denials, and optimize financial outcomes in real-time. Modern AI Entertainment Solutions and AI-driven revenue management technologies are becoming essential for healthcare survival. ",
+                contenttwo: "",
+                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+            },
+            aboutSection: {
+                aboutImage: '/images/vertical/section2Image.png',
+                logo: '/images/verticalLogos/AiXQP.png',
+                contentOne: "RCM AIX revolutionizes healthcare financial management by combining advanced AI algorithms with comprehensive revenue cycle expertise. Our platform automates claims processing, predicts cash flow patterns, and seamlessly integrates with existing hospital information systems to reduce errors and accelerate payment cycles. Built specifically for healthcare providers, banking institutions, and insurance companies, RCM AIX ensures organizations improve their bottom line through end-to-end revenue cycle optimization and RCM automation while maintaining regulatory compliance. ",
+                contenttwo: ""
+            },
+            CapabilitySections: [
+                {
+                    title: "Claims Automation ",
+                    description: "AI algorithms reduce denials and ensure accurate reimbursement processing through AI-driven revenue management ",
+                    gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+                },
+                {
+                    title: "Predictive Analytics ",
+                    description: "Advanced forecasting identifies bottlenecks and optimizes revenue cycles  ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Seamless Integration ",
+                    description: "End-to-end revenue cycle integration with existing HIS and ERP platforms via cloud-based billing solutions ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Risk Detection ",
+                    description: "AI-driven fraud detection monitors patterns to enhance financial integrity  ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Compliance Management ",
+                    description: "Built-in HIPAA, ICD-10, and regulatory compliance ensures data security with RCM automation ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Real-time Reporting ",
+                    description: "Comprehensive analytics provide actionable insights for revenue optimization and RCM for hospitals ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                }
+            ],
+            skillGapSection: [
+                {
+                    icon: '/images/vertical/icons/manicon.png',
+                    title: "Healthcare Providers ",
+                    highlight: "Independent practices, hospitals, specialty clinics optimizing billing and revenue realization through RCM for hospitals. ",
+                    description: "",
+                    gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/handicons.png',
+                    title: "Financial Institutions ",
+                    highlight: "Banks requiring streamlined workflows for loans, underwriting, payment reconciliation automation via cloud-based billing solutions. ",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/handicons.png',
+                    title: "Insurance Companies  ",
+                    highlight: "Organizations needing improved claim settlement accuracy and reduced fraudulent transactions through AI-driven revenue management. ",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+            ],
+
+            logo: 'AiXQP-whitelogo',
+            section2Data: '',
+            section2Image: '/images/vertical/section2Image.png',
+            section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
+            section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
+            aboutImage: '',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            about2SecondParagraph: 'Powered by the proprietary AiXHub™ engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
+        }
     },
     {
         title: "Startup Services",
@@ -805,6 +1045,88 @@ export const verticalData = [
         compenyName: 'AiXMotersports',
         verticalCompenyLogo: '/images/verticalLogos/AiXMotersports.png',
         compenyLogo: '/images/verticalLogos/AiXMotersports.png',
+        detailPage: {
+            bannerTitle: "AiXMotorsports: AI-based racing performance  ",
+            bannerDescription: "Transforming Racing Performance Through AI-Powered Intelligence ",
+            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2: {
+                contentOne: "The global motorsports market is valued at $8.6 billion in 2025, with Formula 1 teams generating over 1.1 million telemetry data points per second from 300+ car sensors.  ",
+                contenttwo: "Modern racing operations manage complex ecosystems of data analytics, requiring teams to process 400GB of data during a single race while making split-second decisions that determine championship outcomes.  ",
+                contentthree: "Organizations are investing heavily in AI technology, with simulation speeds increasing by 25% and teams running billions of calculations to optimize race strategies. ",
+                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+            },
+            aboutSection: {
+                aboutImage: '/images/vertical/section2Image.png',
+                logo: '/images/verticalLogos/AiXQP.png',
+                contentOne: "AiXMotorSports represents the world's first AI-native racing operations platform built on the revolutionary AiXHub Framework.  ",
+                contenttwo: "Unlike traditional point solutions that add complexity to racing operations, AiXMotorSports replaces fragmented motorsports technology stacks with unified, intelligent execution that thinks like a race engineer, acts like a strategist, and learns like a championship team. ",
+                contentthree: 'This platform delivers autonomous decision-making, embedded governance, and cross-system orchestration specifically designed for professional racing organizations. '
+            },
+            CapabilitySections: [
+                {
+                    title: "Predictive Race Strategy Intelligence",
+                    description: "Real-time AI-powered analysis processing tire degradation, fuel consumption, and track conditions for optimal race strategies. ",
+                    gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+                },
+                {
+                    title: "Autonomous Performance Optimization",
+                    description: "Advanced aerodynamics and vehicle dynamics simulation running billions of calculations to maximize car setup configurations",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Intelligent Telemetry Analytics",
+                    description: "Machine learning algorithms analyzing 300+ sensor data streams to identify performance opportunities and predict component failures.", 
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "AI-Driven Pit Strategy Management",
+                    description: "Smart decision execution for pit stops, tire changes, and strategic positioning based on real-time race conditions. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Automated Compliance Monitoring",
+                    description: "Embedded FIA regulatory compliance engine ensuring adherence to technical regulations and safety standards.",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Cross-Team Communication Hub",
+                    description: "Unified platform connecting race engineers, strategists, drivers, and pit crews with synchronized decision-making capabilities. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                }
+            ],
+            skillGapSection: [
+                {
+                    icon: '/images/vertical/icons/manicon.png',
+                    title: "Team Principals",
+                    highlight: "30-50% operational cost reduction through unified platform consolidation and automated workflow orchestration. ",
+                    description: "",
+                    gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/handicons.png',
+                    title: "Race Engineers",
+                    highlight: "Enhanced performance analysis with 90-98% data accuracy and 75% faster decision-making capabilities. ",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/handicons.png',
+                    title: "Chief Technology Officers",
+                    highlight: "Infrastructure consolidation replacing 5-10 specialized racing tools with single AI-native platform.",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+            ],
+
+            logo: 'AiXQP-whitelogo',
+            section2Data: '',
+            section2Image: '/images/vertical/section2Image.png',
+            section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
+            section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
+            aboutImage: '',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            about2SecondParagraph: 'Powered by the proprietary AiXHub™ engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
+        }
     },
     {
         title: "Startup Services",
@@ -957,21 +1279,21 @@ export const verticalData = [
                     title: "Hospitals ",
                     highlight: "Large healthcare networks optimizing patient flow through artificial intelligence in healthcare solutions. ",
                     description: "",
-                    gradient: "from-[#45C2CC] to-[#181919]",  
+                    gradient: "from-[#45C2CC] to-[#181919]",
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
                     title: "Clinics ",
                     highlight: "Mid-size providers enhancing workflows with smart care solutions and AI in telemedicine. ",
                     description: "",
-                    gradient: "from-[#222222] to-[#111111]",   
+                    gradient: "from-[#222222] to-[#111111]",
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
                     title: "Healthcare Administrators ",
                     highlight: "Healthcare Administrators ",
                     description: "Executives implementing healthcare AI solutions for governance automation and compliance documentation. ",
-                    gradient: "from-[#222222] to-[#111111]",  
+                    gradient: "from-[#222222] to-[#111111]",
                 },
             ],
 
@@ -993,5 +1315,86 @@ export const verticalData = [
         compenyName: 'AiXEnergy',
         verticalCompenyLogo: '/images/verticalLogos/AiXEnergy.png',
         compenyLogo: '/images/verticalLogos/AiXEnergy.png',
+        detailPage: {
+            bannerTitle: "Powering Energy Intelligence with AI Innovation ",
+            bannerDescription: "Next-generation AI platform transforming energy operations and sustainability  ",
+            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2: {
+                contentOne: "Modern energy enterprises face critical challenges from grid instability, asset failures, and renewable integration complexities. Traditional systems struggle with real-time optimization, predictive maintenance, and regulatory compliance demands. These operational inefficiencies create massive energy value chain disruptions, with 31% of energy companies experiencing double-digit capital cost increases annually.",
+                contenttwo: "",
+                contentthree: "",
+                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+            },
+            aboutSection: {
+                aboutImage: '/images/vertical/section2Image.png',
+                logo: '/images/verticalLogos/AiXQP.png',
+                contentOne: "AiXEnergy revolutionizes energy operations through iTCart's patent-pending AiXFramework, delivering intelligent grid management, predictive asset optimization, and autonomous energy decision-making. Built for utilities, renewable providers, and energy enterprises facing the $110.98 billion digital power transformation market, AiXEnergy transforms fragmented energy operations into unified, intelligent execution platforms. Our AI-native architecture optimizes performance, reduces operational costs by 30-50%, and accelerates sustainable energy transitions across grid operations, renewable integration, and regulatory compliance management for tomorrow's energy leaders.  ",
+                contentthree: ' '
+            },
+            CapabilitySections: [
+                {
+                    title: "Smart Grid Monitoring",
+                    description: "Real-time grid performance analytics with AI-powered predictive intelligence  ",
+                    gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+                },
+                {
+                    title: "Renewable Asset Optimization",
+                    description: "Automated solar, wind, and hybrid energy forecasting with weather integration  ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Predictive Maintenance Intelligence",
+                    description: "AI-driven failure prevention reducing downtime and extending asset lifecycles  ", 
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Energy Compliance Automation",
+                    description: "Embedded regulatory adherence with real-time policy enforcement capabilities  ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Unified Operations Dashboard",
+                    description: "360-degree energy operations visibility with role-based intelligent insights  ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Sustainable Energy Analytics",
+                    description: "Carbon footprint tracking and emission optimization through AI automation  ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                }
+            ],
+            skillGapSection: [
+                {
+                    icon: '/images/vertical/icons/manicon.png',
+                    title: "Team Principals",
+                    highlight: "30-50% operational cost reduction through unified platform consolidation and automated workflow orchestration. ",
+                    description: "",
+                    gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/handicons.png',
+                    title: "Race Engineers",
+                    highlight: "Enhanced performance analysis with 90-98% data accuracy and 75% faster decision-making capabilities. ",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/handicons.png',
+                    title: "Chief Technology Officers",
+                    highlight: "Infrastructure consolidation replacing 5-10 specialized racing tools with single AI-native platform.",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+            ],
+
+            logo: 'AiXQP-whitelogo',
+            section2Data: '',
+            section2Image: '/images/vertical/section2Image.png',
+            section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
+            section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
+            aboutImage: '',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            about2SecondParagraph: 'Powered by the proprietary AiXHub™ engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
+        }
     },
 ];
