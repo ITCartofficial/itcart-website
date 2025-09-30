@@ -13,9 +13,6 @@ const OurVwerticalGrid: React.FC<OurVwerticalGridProps> = ({ className = "" }) =
             <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:gap-12 gap-8 place-items-center">
                 {verticalData.map((service, index) => {
 
-                    console.log("service", service);
-
-
                     return (
                         <VerticalCard
                             key={`${service.title}-${index}`}
@@ -30,9 +27,6 @@ const OurVwerticalGrid: React.FC<OurVwerticalGridProps> = ({ className = "" }) =
                         />
                     )
                 }
-
-
-
                 )}
             </div>
             {/* </div> */}
