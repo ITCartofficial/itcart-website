@@ -36,6 +36,7 @@ const OurVerticalsDetailPage = () => {
                     contentOne={filterdItem?.detailPage?.VerticalContentSection2?.contentOne ?? ""}
                     contenttwo={filterdItem?.detailPage?.VerticalContentSection2?.contenttwo ?? ""}
                     contentthree={filterdItem?.detailPage?.VerticalContentSection2?.contentthree ?? ""}
+                    VerticalContentSection2Heading={filterdItem?.detailPage?.VerticalContentSection2Heading ?? ""}
                     image={filterdItem?.detailPage?.VerticalContentSection2?.sectionTwoFirstImage ?? ""}
                 />
             </div>
@@ -45,10 +46,11 @@ const OurVerticalsDetailPage = () => {
                     aboutProduct={true}
                     contentOne={filterdItem?.detailPage?.aboutSection?.contentOne ?? ""}
                     contenttwo={filterdItem?.detailPage?.aboutSection?.contenttwo ?? ""}
-                    contentthree={filterdItem?.detailPage?.aboutSection?.contentthree ?? ""}   
-                    image={filterdItem?.detailPage?.aboutSection?.aboutImage ?? ""}            
+                    contentthree={filterdItem?.detailPage?.aboutSection?.contentthree ?? ""}
+                    image={filterdItem?.detailPage?.aboutSection?.aboutImage ?? ""}
                     logo={filterdItem?.detailPage?.aboutSection?.logo ?? ""}
                     contentfour={filterdItem?.detailPage?.aboutSection?.contentfour ?? ""}
+                    aboutSectionHeading={filterdItem?.detailPage?.aboutSectionHeading ?? ""}
                 />
 
             </div>
@@ -56,6 +58,7 @@ const OurVerticalsDetailPage = () => {
 
             <div className='bg-black py-3 container'>
                 <CapabilitySection
+                    capabilitiSectionHeading={filterdItem?.detailPage?.capabilitiSectionHeading ?? ""}
                     CapabilitySections={filterdItem?.detailPage?.CapabilitySections ?? []}
                 />
             </div>
@@ -63,6 +66,7 @@ const OurVerticalsDetailPage = () => {
             <div className='bg-black py-16 container mx-auto lg:px-10'>
                 <SkillGapSection
                     skillGapSection={filterdItem?.detailPage?.skillGapSection ?? []}
+                    skillGapSectionHeading={filterdItem?.detailPage?.skillGapSectionHeading ?? ""}
                 />
             </div>
 

@@ -10,9 +10,11 @@ interface Capability {
 
 interface CapabilitySectionProps {
     CapabilitySections?: Capability[]
+    capabilitiSectionHeading?: string
+
 }
 
-const CapabilitySection: React.FC<CapabilitySectionProps> = ({ CapabilitySections }) => {
+const CapabilitySection: React.FC<CapabilitySectionProps> = ({ CapabilitySections, capabilitiSectionHeading }) => {
 
     return (
         <section
@@ -23,7 +25,7 @@ const CapabilitySection: React.FC<CapabilitySectionProps> = ({ CapabilitySection
                 {/* Added overlay (bg-black/80) to make text more readable */}
                 <div className="max-w-7xl mx-auto text-center mb-5">
                     <GradientTitle
-                        text="Core Capabilities "
+                        text={capabilitiSectionHeading ?? ""}
                         theme="dark"
                         className="text-[22px] sm:text-[25px] md:text-[48px] w-full"
                     />

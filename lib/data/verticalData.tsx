@@ -11,6 +11,10 @@ export const verticalData = [
             bannerTitle: "AI-Powered Social Intranet That Works Smart ",
             bannerDescription: "The World's First AI-Native Enterprise Operating System - Unify Your Digital Workplace ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'The Digital Workspace Challenge',
+            aboutSectionHeading: 'Meet Your Intelligent Workplace',
+            capabilitiSectionHeading: 'AI-Powered Core Capabilities',
+            skillGapSectionHeading: 'Built For Modern Teams',
             VerticalContentSection2: {
                 contentOne: "Transform your organization's fragmented digital workspace into an intelligent, unified platform that eliminates software sprawl while boosting productivity through AI-driven automation and seamless Microsoft 365 integration. ",
                 contenttwo: "",
@@ -22,6 +26,7 @@ export const verticalData = [
                 contentOne: "AiXHub by iTCart isn't just another intranet—it's your enterprise's first AI-native operating system that centralizes people, processes, and platforms into one personalized, intelligent workspace. Built on patent-protected architecture with autonomous decision execution, AiXHub transforms every interaction into opportunity while reducing operational costs by 30% and increasing employee engagement by 200%. ",
                 contenttwo: ""
             },
+
             CapabilitySections: [
                 {
                     title: "Smart Automation",
@@ -100,6 +105,10 @@ export const verticalData = [
             bannerTitle: 'Experience Next-Gen Digital Finance with AiXBFS',
             bannerDescription: 'Transforming Banking with Intelligent AI Solutions .',
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'Current Market Landscape ',
+            aboutSectionHeading: 'Meet Your Intelligent Workplace',
+            capabilitiSectionHeading: 'Core Capabilities of AiXBFS',
+            skillGapSectionHeading: 'Built For Financial Innovators ',
             VerticalContentSection2: {
                 contentOne: "Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.",
                 contenttwo: "These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.",
@@ -182,6 +191,10 @@ export const verticalData = [
             bannerTitle: "The Smart ERP Platform for Intelligent, Agile Enterprises",
             bannerDescription: "Designed for growing enterprises, AiXERP brings together finance, HR, inventory, procurement, operations, and more—under one intelligent platform. ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'Current Market Landscape  ',
+            aboutSectionHeading: 'About AiXERP',
+            capabilitiSectionHeading: 'Core capabilities  ',
+            skillGapSectionHeading: 'AiXERP Personal',
             VerticalContentSection2: {
                 contentOne: "The ERP market is experiencing unprecedented growth, reaching $147.7 billion in 2025 with over 3.8 million companies adopting ERP solutions. Cloud-based ERP dominates 70.4% of global spending, while AI integration is becoming the new standard for intelligent automation.  ",
                 contenttwo: "Digital transformation spending has reached $2.5 trillion in 2024, driving enterprise modernization initiatives.  ",
@@ -268,10 +281,18 @@ export const verticalData = [
         compenyName: 'AiXQP',
         verticalCompenyLogo: '/images/verticalLogos/AiXQP.png',
         compenyLogo: '/images/verticalLogos/AiXQP.png',
+        VerticalContentSection2Heading: 'Current Market Landscape  ',
+        aboutSectionHeading: 'About AiXQP    ',
+        capabilitiSectionHeading: 'Core capabilities  ',
+        skillGapSectionHeading: 'Bridge Skills Gaps with AI-Driven Education ',
         detailPage: {
             bannerTitle: "AiXQP: The Future of Intelligent Learning Starts Here  ",
             bannerDescription: "Experience Personalized Learning that adapts to your environment  ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'Current Market Landscape  ',
+            aboutSectionHeading: 'About AiXERP',
+            capabilitiSectionHeading: 'Core capabilities  ',
+            skillGapSectionHeading: 'AiXERP Personal',
             VerticalContentSection2: {
                 contentOne: "Transform your organization's fragmented digital workspace into an intelligent, unified platform that eliminates software sprawl while boosting productivity through AI-driven automation and seamless Microsoft 365 integration. ",
                 contenttwo: "",
@@ -351,6 +372,10 @@ export const verticalData = [
             bannerTitle: "AI-Powered Compliance Management Platform ",
             bannerDescription: "AI-powered compliance management ensuring regulatory adherence for enterprises ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'Transform Risk Into Competitive Advantage',
+            aboutSectionHeading: 'Meet Your AI-Powered Compliance Command Center',
+            capabilitiSectionHeading: 'Six Pillars of Intelligent Compliance',
+            skillGapSectionHeading: 'Empowering Every Compliance Stakeholde',
             VerticalContentSection2: {
                 contentOne: "In today's high-stakes regulatory landscape, managing governance, risk, and compliance (GRC) isn't just about ticking boxes—it's about building trust, ensuring resilience, and driving intelligent accountability. Traditional GRC approaches fall short in the face of evolving regulations and exponential data growth. AiXGRC is your AI-powered command center for Governance, Risk & Compliance, designed to give organizations the power to see around corners, adapt faster, and lead with confidence using smart governance frameworks and predictive risk modeling. ",
                 contenttwo: "",
@@ -440,6 +465,10 @@ export const verticalData = [
             bannerTitle: "Transforming Financial Services Through AI-Powered Automation ",
             bannerDescription: "Experience digitalized financial services with our AiXHub Framework  ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'Current Market Landscape',
+            aboutSectionHeading: 'About AiXFinTech  ',
+            capabilitiSectionHeading: 'Core features ',
+            skillGapSectionHeading: 'Strategic Solutions for Financial Leaders ',
             VerticalContentSection2: {
                 contentOne: "The global AI in fintech market is experiencing exponential growth, valued at $17.79 billion in 2025 and projected to reach $52.19 billion by 2029. Financial institutions are under increasing pressure to manage 342 applications on average, with 42% of software licenses going unused, representing $127 million in annual waste.",
                 contenttwo: "This fragmentation leads to $10 million in annual losses per 1,000 employees through operational inefficiencies. ",
@@ -530,6 +559,10 @@ export const verticalData = [
             bannerTitle: "Intelligent IT Support & Asset Management Platform",
             bannerDescription: "Smart IT Service Management Made Simple ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'The IT Support Challenge',
+            aboutSectionHeading: 'Meet AiXDesk   ',
+            capabilitiSectionHeading: 'Core Capabilities ',
+            skillGapSectionHeading: 'Built For Modern Teams ',
             VerticalContentSection2: {
                 contentOne: "Modern workplaces face constant IT disruptions that impact productivity. Traditional helpdesk systems create bottlenecks with manual ticket routing, delayed responses, and fragmented asset tracking. Teams waste valuable time on repetitive tasks while critical issues remain unresolved, leading to frustrated employees and decreased operational efficiency. ",
                 contenttwo: "",
@@ -619,6 +652,10 @@ export const verticalData = [
             bannerTitle: "CyberAiX: AI-Powered Enterprise Cybersecurity Platform",
             bannerDescription: "CyberAiX delivers real-time protection, zero-trust resilience, and AI-driven defense at every layer of your digital ecosystem.",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'Current Market Landscape ',
+            aboutSectionHeading: 'About CyberAiX    ',
+            capabilitiSectionHeading: 'Core Capabilities ',
+            skillGapSectionHeading: 'CyberAiX Personal ',
             VerticalContentSection2: {
                 contentOne: "The cybersecurity industry faces unprecedented challenges with cybercrime costs projected to reach $10.5 trillion by 2025. The AI cybersecurity market has expanded from $22.4 billion in 2023 to $60.6 billion by 2028, demonstrating 21.9% annual growth.  ",
                 contenttwo: "Organizations report 74% significant impact from AI-powered threats, while 97% expect AI-generated security incidents. The threat detection systems market reached $179.79 billion in 2024, projected to grow to $511.07 billion by 2032.  ",
@@ -709,6 +746,10 @@ export const verticalData = [
             bannerTitle: 'Reimagine Patient Care with an AI Healthcare Platform That Thinks Ahead',
             bannerDescription: 'AI Healthcare That Learns, Adapts & Delivers Better Outcomes ',
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'Current Marketplace ',
+            aboutSectionHeading: 'About AiXLifeCare.',
+            capabilitiSectionHeading: 'Core Capabilities ',
+            skillGapSectionHeading: 'Trusted by Healthcare Leaders',
             VerticalContentSection2: {
                 contentOne: "Healthcare systems operate with fragmented data sources, inefficient workflows, and manual processes that compromise patient care quality. With cybersecurity threats affecting 80% of hospitals, workforce shortages reaching crisis levels, and operating margins below 2%, healthcare institutions struggle with diagnostic delays, regulatory compliance, and operational inefficiencies. These disconnected systems hinder predictive analytics and precision medicine delivery. ",
                 contenttwo: "",
@@ -779,6 +820,10 @@ export const verticalData = [
             bannerTitle: "AiXHeat - AI-Native HVAC Operations Platform ",
             bannerDescription: "Cut energy costs by 40% and prevent 95% of equipment failures with AiXHeat's intelligent automation platform. ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'Current Market Landscape  ',
+            aboutSectionHeading: 'Introducing AiXHeat',
+            capabilitiSectionHeading: 'Key Features  ',
+            skillGapSectionHeading: 'Built For Facility Excellence',
             VerticalContentSection2: {
                 contentOne: "Global HVAC systems consume 40% of building energy with $280 billion smart buildings market reaching unprecedented complexity. Despite massive automation investments, 67% of commercial buildings operate with reactive maintenance causing 25-40% energy waste and unexpected equipment failures costing billions annually. ",
                 contenttwo: "",
@@ -870,6 +915,10 @@ export const verticalData = [
             bannerTitle: "Transform Healthcare Revenue with AI-Powered RCM",
             bannerDescription: "Streamline billing processes with intelligent automation",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'Healthcare Revenue Challenges & AI Solutions',
+            aboutSectionHeading: 'Next-Generation Revenue Cycle Management Platform  ',
+            capabilitiSectionHeading: 'AI-Powered Revenue Cycle Capabilities  ',
+            skillGapSectionHeading: 'Target Audience ',
             VerticalContentSection2: {
                 contentOne: "Healthcare providers face escalating billing inefficiencies, claim denials exceeding 15%, and administrative burdens that drain resources from patient care. With 40% of hospitals reporting negative margins and rising costs outpacing reimbursements, traditional revenue cycle management systems lack intelligent automation to predict bottlenecks, prevent denials, and optimize financial outcomes in real-time. Modern AI Entertainment Solutions and AI-driven revenue management technologies are becoming essential for healthcare survival. ",
                 contenttwo: "",
@@ -955,6 +1004,10 @@ export const verticalData = [
         compenyName: 'AiXReality',
         verticalCompenyLogo: '/images/verticalLogos/AiXReality.png',
         compenyLogo: '/images/verticalLogos/AiXReality.png',
+        VerticalContentSection2Heading: 'Current Market Landscape ',
+        aboutSectionHeading: 'Introducing AiXRealty ',
+        capabilitiSectionHeading: 'Key Features ',
+        skillGapSectionHeading: 'Built For Real Estate Professionals ',
         detailPage: {
             bannerTitle: "AiXRealty - AI-Native Real Estate Operating System ",
             bannerDescription: "AiXRealty revolutionizes property management and real estate operations through our comprehensive AI-native platform.  ",
@@ -1049,6 +1102,10 @@ export const verticalData = [
             bannerTitle: "AiXMotorsports: AI-based racing performance  ",
             bannerDescription: "Transforming Racing Performance Through AI-Powered Intelligence ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'Current Market Landscape  ',
+            aboutSectionHeading: 'About AiXMotorSports  ',
+            capabilitiSectionHeading: 'Core Features ',
+            skillGapSectionHeading: 'Strategic Solutions for Racing Organizations',
             VerticalContentSection2: {
                 contentOne: "The global motorsports market is valued at $8.6 billion in 2025, with Formula 1 teams generating over 1.1 million telemetry data points per second from 300+ car sensors.  ",
                 contenttwo: "Modern racing operations manage complex ecosystems of data analytics, requiring teams to process 400GB of data during a single race while making split-second decisions that determine championship outcomes.  ",
@@ -1075,7 +1132,7 @@ export const verticalData = [
                 },
                 {
                     title: "Intelligent Telemetry Analytics",
-                    description: "Machine learning algorithms analyzing 300+ sensor data streams to identify performance opportunities and predict component failures.", 
+                    description: "Machine learning algorithms analyzing 300+ sensor data streams to identify performance opportunities and predict component failures.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -1140,6 +1197,10 @@ export const verticalData = [
             bannerTitle: "Smart Insurance for Secure Future",
             bannerDescription: "Personalized coverage adapting to your lifestyle ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: 'The Insurance Revolution',
+            aboutSectionHeading: 'Meet InsureAiX   ',
+            capabilitiSectionHeading: 'Our Technology Advantage  ',
+            skillGapSectionHeading: 'Why Choose InsureAiX? ',
             VerticalContentSection2: {
                 contentOne: "The insurance industry still relies on outdated actuarial models from the last century. Traditional insurers use static, one-size-fits-all approaches that ignore genomics, behavior, lifestyle, and real-time health data—leaving billions in mispriced risk and customers paying premiums that don't reflect their actual risk profile",
                 contenttwo: "",
@@ -1230,6 +1291,10 @@ export const verticalData = [
             bannerTitle: "Advanced Artificial Intelligence in Healthcare and Patient Management ",
             bannerDescription: "Intelligent healthcare automation for better outcomes ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: "Healthcare's Digital Transformation Challenge  ",
+            aboutSectionHeading: 'Introducing AiXHealthcare  ',
+            capabilitiSectionHeading: 'Advanced Healthcare AI Capabilities',
+            skillGapSectionHeading: 'Who Benefits from AiXHealthcare',
             VerticalContentSection2: {
                 contentOne: "Healthcare organizations struggle with fragmented systems and manual processes despite massive investments in healthcare AI solutions. Hospitals need unified smart care solutions that ensure every patient journey is governed, SLA-compliant, and continuously optimized through comprehensive digital healthcare solutions and intelligent automation.",
                 contenttwo: "",
@@ -1319,6 +1384,10 @@ export const verticalData = [
             bannerTitle: "Powering Energy Intelligence with AI Innovation ",
             bannerDescription: "Next-generation AI platform transforming energy operations and sustainability  ",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            VerticalContentSection2Heading: "Energy Revolution & Innovation Gap",
+            aboutSectionHeading: 'Smart Energy Transformation Platform',
+            capabilitiSectionHeading: 'Core Energy Intelligence Capabilities',
+            skillGapSectionHeading: 'Energy Leaders We Empower',
             VerticalContentSection2: {
                 contentOne: "Modern energy enterprises face critical challenges from grid instability, asset failures, and renewable integration complexities. Traditional systems struggle with real-time optimization, predictive maintenance, and regulatory compliance demands. These operational inefficiencies create massive energy value chain disruptions, with 31% of energy companies experiencing double-digit capital cost increases annually.",
                 contenttwo: "",
@@ -1344,7 +1413,7 @@ export const verticalData = [
                 },
                 {
                     title: "Predictive Maintenance Intelligence",
-                    description: "AI-driven failure prevention reducing downtime and extending asset lifecycles  ", 
+                    description: "AI-driven failure prevention reducing downtime and extending asset lifecycles  ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {

@@ -8,10 +8,11 @@ interface SectionAboutProps {
     image?: string
     logo?: string
     contentthree?: string
-    contentfour?: string
+    contentfour?: string;
+    aboutSectionHeading?: string
 }
 
-const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, contentOne, contenttwo, image, logo, contentthree, contentfour }) => {
+const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, contentOne, contenttwo, image, logo, contentthree, contentfour, aboutSectionHeading }) => {
 
     return (
         <section className="w-full bg-black text-white px-6 py-1">
@@ -22,9 +23,9 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, co
                 <div className={`space-y-6 ${aboutProduct ? "md:order-2" : "md:order-1"}`}>
                     {aboutProduct &&
                         <GradientTitle
-                            text="About This"
+                            text={aboutSectionHeading ?? ''}
                             theme="dark"
-                            className="text-[22px] sm:text-[25px] md:text-[30px] w-full lg:w-[50%]"
+                            className="text-[22px] sm:text-[25px] md:text-[30px] w-full "
                         />
                     }
 

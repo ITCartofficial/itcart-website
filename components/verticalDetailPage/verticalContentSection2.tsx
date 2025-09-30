@@ -6,11 +6,11 @@ interface VerticalContentSection2Props {
     contentOne?: string;
     contenttwo?: string;
     image?: string;
-    contentthree?: string
-
+    contentthree?: string;
+    VerticalContentSection2Heading?: string;
 }
 
-const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ aboutProduct, className, contentOne, contenttwo, image, contentthree }) => {
+const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ aboutProduct, className, contentOne, contenttwo, image, contentthree, VerticalContentSection2Heading }) => {
     return (
         <section className="w-full bg-black text-white px-6 py-1">
             <div
@@ -18,13 +18,15 @@ const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ about
             >
                 {/* Left Content */}
                 <div className={`space-y-6 ${aboutProduct ? "md:order-2" : "md:order-1"}`}>
-                    {aboutProduct &&
-                        <GradientTitle
-                            text="About This"
-                            theme="dark"
-                            className="text-[22px] sm:text-[25px] md:text-[30px] w-full lg:w-[50%]"
-                        />
-                    }
+
+                    {/* VerticalContentSection2Heading */}
+
+                    <GradientTitle
+                        text={VerticalContentSection2Heading ?? ''}
+                        theme="dark"
+                        className="text-[22px] sm:text-[25px] md:text-[30px] w-full"
+                    />
+
 
                     <p className="text-[16px] leading-relaxed">
                         {contentOne}

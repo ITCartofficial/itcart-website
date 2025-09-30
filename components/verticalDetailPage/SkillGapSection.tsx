@@ -93,15 +93,16 @@ interface SkillGap {
 interface SkillGapSectionProps {
     className?: string;
     skillGapSection?: SkillGap[];
+    skillGapSectionHeading?: string;
 }
 
-const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSection }) => {
+const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSection, skillGapSectionHeading }) => {
     return (
         <section className={`w-full bg-black text-white px-6 py-0 ${className}`}>
             {/* Section Title */}
             <div className="max-w-5xl mx-auto text-center mb-16">
                 <GradientTitle
-                    text="Engineered with our users at the core"
+                    text={skillGapSectionHeading ?? ''}
                     theme="dark"
                     className="text-[28px] sm:text-[36px] md:text-[48px] font-bold leading-tight"
                 />
