@@ -1,3 +1,4 @@
+import Image from "next/image";
 import GradientTitle from "../typography/GradientTitle";
 
 interface VerticalContentSection2Props {
@@ -42,12 +43,21 @@ const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ about
 
                 {/* Right Image */}
                 <div className={`flex justify-center ${aboutProduct ? "md:order-1" : "md:order-2"}`}>
+                    <Image
+                        src={image || "/placeholder.png"} // fallback in case image is undefined
+                        alt="VR Learning"
+                        width={600} // set explicit width
+                        height={400} // and height for layout stability
+                        className="rounded-xl w-full max-w-md md:max-w-full object-cover"
+                    />
+                </div>
+                {/* <div className={`flex justify-center ${aboutProduct ? "md:order-1" : "md:order-2"}`}>
                     <img
                         src={image}
                         alt="VR Learning"
                         className="rounded-xl w-full max-w-md md:max-w-full"
                     />
-                </div>
+                </div> */}
             </div>
         </section>
     );

@@ -81,6 +81,8 @@
 import { FaArrowRight } from "react-icons/fa6";
 import GradientTitle from "../typography/GradientTitle";
 import OutlineBtn from "../buttons/OutlineBtn";
+import BodyText from "../typography/BodyText";
+import Image from "next/image";
 
 interface SkillGap {
     gradient?: string;
@@ -94,9 +96,16 @@ interface SkillGapSectionProps {
     className?: string;
     skillGapSection?: SkillGap[];
     skillGapSectionHeading?: string;
+    showDescription?: boolean;
+    skillGapHeadingDescription?: string;
+    showShadedBackground
 }
 
-const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSection, skillGapSectionHeading }) => {
+const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSection,
+    skillGapSectionHeading,
+    skillGapHeadingDescription, showShadedBackground
+}) => {
+
     return (
         <section className={`w-full bg-black text-white px-6 py-0 ${className}`}>
             {/* Section Title */}
@@ -106,42 +115,53 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
                     theme="dark"
                     className="text-[28px] sm:text-[36px] md:text-[48px] font-bold leading-tight"
                 />
+
+                <BodyText
+                    text={skillGapHeadingDescription ?? ""}
+                    color="#ffffff"
+                    className="text-sm sm:text-[15px] md:text-[18px] mt-3 "
+                />
             </div>
 
-            {/* Cards Grid */}
-            {/* grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 */}
-            <div className="max-w-7xl mx-auto flex flex-col sm:flex-row flex-wrap gap-10 justify-center">
+            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:flex-nowrap gap-10 justify-center">
                 {(skillGapSection ?? []).map((item, index) => (
                     <div
                         key={index}
-                        className="relative w-full sm:w-[300px] md:w-[320px] lg:w-[360px] rounded-xl border border-cyan-500/40 p-10 pt-16 flex flex-col items-center text-center space-y-4 hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300"
+                        className={`relative w-full sm:w-[300px] md:w-[320px] lg:w-[360px] rounded-xl p-10 pt-16 flex flex-col items-center text-center space-y-4 
+        transition-all duration-300
+       bg-gradient-to-b from-gray-800 via-gray-1000 to-black
+        ${showShadedBackground
+                                ? "shadow-lg "
+                                : "border border-cyan-500/40 hover:shadow-lg hover:shadow-cyan-500/20"
+                            }`}
                     >
                         {/* Floating Icon */}
                         <div className="absolute -top-10 flex justify-center w-full">
                             <div className="flex justify-center items-center w-20 h-20 rounded-full bg-cyan-500 shadow-lg">
-                                <img
+                                <Image
                                     src={item?.icon}
                                     alt={item?.title || "icon"}
                                     className="w-10 h-10"
+                                    width={600} // set explicit width
+                                    height={400} // and height for layout stability
                                 />
                             </div>
                         </div>
 
                         {/* Title */}
-                        <h3 className="text-[22px] md:text-[26px] font-bold text-cyan-400">
+                        <h3 className="text-[16px] md:text-[15px] font-bold text-cyan-400">
                             {item.title}
                         </h3>
 
+
                         {/* Description */}
-                        <p className="text-lg text-gray-300">
-                            <span className="font-semibold text-white">{item.highlight}</span>{" "}
-                            – {item.description}
+                        <p className=" text-gray-300">
+                            <span className={`${showShadedBackground ? '' : 'font-semibold'} text-white  md:text-[13px]`}>{item.highlight}</span>{" "}
+                            {item.description && '–'}   {item.description}
                         </p>
                     </div>
                 ))}
             </div>
-
-
             {/* CTA Button */}
             <div className="w-full flex justify-center mt-12">
                 <OutlineBtn
@@ -156,4 +176,6 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
 };
 
 export default SkillGapSection;
+
+
 

@@ -3,7 +3,6 @@
 import React from 'react'
 import CaseStudyCard from '@/components/cards/CaseStudyCard'
 import NewsletterSubscription from '../blogs/NewsLetterSubscription'
-import TechnologySection from './TechnologySection'
 
 const NewsletterSection = () => {
     const caseStudyData = {

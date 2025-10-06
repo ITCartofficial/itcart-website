@@ -9,17 +9,27 @@ interface Capability {
 }
 
 interface CapabilitySectionProps {
-    CapabilitySections?: Capability[]
-    capabilitiSectionHeading?: string
-
+    CapabilitySections?: Capability[];
+    capabilitiSectionHeading?: string;
+    itemePerRow?: number;
+    textColor?: string;
+    isBackgroundImage?: boolean;
+    capabilitiSectionDescription?: string;
 }
 
-const CapabilitySection: React.FC<CapabilitySectionProps> = ({ CapabilitySections, capabilitiSectionHeading }) => {
+const CapabilitySection: React.FC<CapabilitySectionProps> = ({ CapabilitySections,
+    capabilitiSectionHeading, itemePerRow,
+    isBackgroundImage, capabilitiSectionDescription }) => {
+
+    console.log("capabilitiSectionDescription", capabilitiSectionDescription);
+
 
     return (
         <section
             className="w-full text-white bg-black bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/vertical/AiXQP_sectionbgimage.png')" }}
+            style={{
+                backgroundImage: isBackgroundImage ? "url('/images/vertical/AiXQP_sectionbgimage.png')" : "none"
+            }}
         >
             <section className="w-full text-white px-6 py-12 md:py-12">
                 {/* Added overlay (bg-black/80) to make text more readable */}
@@ -29,9 +39,15 @@ const CapabilitySection: React.FC<CapabilitySectionProps> = ({ CapabilitySection
                         theme="dark"
                         className="text-[22px] sm:text-[25px] md:text-[48px] w-full"
                     />
+
+                    <BodyText
+                        text={capabilitiSectionDescription ?? ""}
+                        color="#ffffff"
+                        className="text-[16px] mt-3"
+                    />
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+                <div className={`grid grid-cols-1 sm:grid-cols-${itemePerRow ? itemePerRow : 2} gap-6 md:gap-8`}>
                     {CapabilitySections?.map((cap, index) => (
                         <div
                             key={index}
@@ -41,7 +57,7 @@ const CapabilitySection: React.FC<CapabilitySectionProps> = ({ CapabilitySection
                             <GradientTitle
                                 text={cap.title}
                                 theme="dark"
-                                className="text-[22px] sm:text-[25px] md:text-[30px] w-full"
+                                className="text-[22px] sm:text-[20px] md:text-[24px] w-full leading-[1.3]"
                             />
 
                             <BodyText

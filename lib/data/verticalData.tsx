@@ -190,19 +190,20 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "The Smart ERP Platform for Intelligent, Agile Enterprises",
             bannerDescription: "Designed for growing enterprises, AiXERP brings together finance, HR, inventory, procurement, operations, and more—under one intelligent platform. ",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXERP-banner.jpg",
             VerticalContentSection2Heading: 'Current Market Landscape  ',
             aboutSectionHeading: 'About AiXERP',
             capabilitiSectionHeading: 'Core capabilities  ',
             skillGapSectionHeading: 'AiXERP Personal',
+            impactImage: '/images/vertical/AiXERP-impact.png',
             VerticalContentSection2: {
                 contentOne: "The ERP market is experiencing unprecedented growth, reaching $147.7 billion in 2025 with over 3.8 million companies adopting ERP solutions. Cloud-based ERP dominates 70.4% of global spending, while AI integration is becoming the new standard for intelligent automation.  ",
                 contenttwo: "Digital transformation spending has reached $2.5 trillion in 2024, driving enterprise modernization initiatives.  ",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXERP-section2image.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXERP-aboutimage.png',
+                logo: '/images/vertical/AiXERP-darklogo.png',
                 contentOne: "AiXERP transforms traditional enterprise resource planning through iTCart's revolutionary AiXHub™ Framework, delivering the world's first truly AI-native ERP solution.  ",
                 contenttwo: "Unlike conventional systems that simply add AI features to existing processes, AiXERP is built from the ground up with artificial intelligence at its core, fundamentally reimagining how enterprises manage their operations. ",
                 contentthree: "Built on iTCart's secure, scalable AI infrastructure, AiXERP provides real- time insights across all business operations while maintaining enterprise- level security and compliance standards.Experience up to 96% process automation, dramatically reducing manual tasks while enabling data- driven decision - making that adapts to changing market conditions."
@@ -371,19 +372,20 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "AI-Powered Compliance Management Platform ",
             bannerDescription: "AI-powered compliance management ensuring regulatory adherence for enterprises ",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXGRC-banner.jpg",
             VerticalContentSection2Heading: 'Transform Risk Into Competitive Advantage',
             aboutSectionHeading: 'Meet Your AI-Powered Compliance Command Center',
             capabilitiSectionHeading: 'Six Pillars of Intelligent Compliance',
             skillGapSectionHeading: 'Empowering Every Compliance Stakeholde',
+            impactImage: '/images/vertical/AiXGRC-impact.png',
             VerticalContentSection2: {
                 contentOne: "In today's high-stakes regulatory landscape, managing governance, risk, and compliance (GRC) isn't just about ticking boxes—it's about building trust, ensuring resilience, and driving intelligent accountability. Traditional GRC approaches fall short in the face of evolving regulations and exponential data growth. AiXGRC is your AI-powered command center for Governance, Risk & Compliance, designed to give organizations the power to see around corners, adapt faster, and lead with confidence using smart governance frameworks and predictive risk modeling. ",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXGRC-section.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXGRC-about.png',
+                logo: '/images/vertical/AiXGRC-darklogo.png',
                 contentOne: "AiXGRC is an AI-powered GRC automation platform built on iTCart's patent-pending AiXHub framework that streamlines governance, simplifies risk management, and automates compliance workflows across enterprises. With deep intelligence and real-time monitoring, AiXGRC empowers organizations to navigate regulatory shifts, identify emerging risks, ensure automated policy enforcement, automate audits and controls, and drive enterprise-wide accountability through intelligent automation that transforms governance from reactive to predictive.  ",
                 contenttwo: ""
             },
@@ -651,7 +653,7 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "CyberAiX: AI-Powered Enterprise Cybersecurity Platform",
             bannerDescription: "CyberAiX delivers real-time protection, zero-trust resilience, and AI-driven defense at every layer of your digital ecosystem.",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/CyberAiX-banner.jpg",
             VerticalContentSection2Heading: 'Current Market Landscape ',
             aboutSectionHeading: 'About CyberAiX    ',
             capabilitiSectionHeading: 'Core Capabilities ',
@@ -660,11 +662,11 @@ export const verticalData = [
                 contentOne: "The cybersecurity industry faces unprecedented challenges with cybercrime costs projected to reach $10.5 trillion by 2025. The AI cybersecurity market has expanded from $22.4 billion in 2023 to $60.6 billion by 2028, demonstrating 21.9% annual growth.  ",
                 contenttwo: "Organizations report 74% significant impact from AI-powered threats, while 97% expect AI-generated security incidents. The threat detection systems market reached $179.79 billion in 2024, projected to grow to $511.07 billion by 2032.  ",
                 contentthree: 'Modern enterprises require intelligent, automated defense systems capable of combating sophisticated AI-driven attacks. ',
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/sectionTwoFirstImage-CyberAiX.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/aboutimage-CyberAiX.png',
+                logo: '/images/vertical/dark-logo.png',
                 contentOne: "CyberAiX transforms enterprise security through AI-powered threat detection, zero-trust architecture, and automated response capabilities. Built on iTCart's proprietary AiXFramework, this comprehensive platform delivers real-time protection across cloud, on-premise, and hybrid environments.  ",
                 contenttwo: "From ransomware prevention to insider threat detection, CyberAiX combines machine learning intelligence with industry-specific controls for healthcare, manufacturing, BFSI, and EdTech sectors "
             },
@@ -716,7 +718,7 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/manicon.png',
                     title: "IT Infrastructure",
                     highlight: "Cloud and infrastructure teams managing multicloud security across distributed environments.",
                     description: "",
@@ -745,19 +747,20 @@ export const verticalData = [
         detailPage: {
             bannerTitle: 'Reimagine Patient Care with an AI Healthcare Platform That Thinks Ahead',
             bannerDescription: 'AI Healthcare That Learns, Adapts & Delivers Better Outcomes ',
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXLifeCare-banner.jpg",
             VerticalContentSection2Heading: 'Current Marketplace ',
             aboutSectionHeading: 'About AiXLifeCare.',
             capabilitiSectionHeading: 'Core Capabilities ',
             skillGapSectionHeading: 'Trusted by Healthcare Leaders',
+            impactImage: '/images/vertical/AiXLifeCareimpact.png',
             VerticalContentSection2: {
                 contentOne: "Healthcare systems operate with fragmented data sources, inefficient workflows, and manual processes that compromise patient care quality. With cybersecurity threats affecting 80% of hospitals, workforce shortages reaching crisis levels, and operating margins below 2%, healthcare institutions struggle with diagnostic delays, regulatory compliance, and operational inefficiencies. These disconnected systems hinder predictive analytics and precision medicine delivery. ",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXLifeCare-section2.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXLifeCare-about.png',
+                logo: '/images/vertical/AiXLifeCare-darklogo.png',
                 contentOne: "AiXLifeCare is iTCart's revolutionary AI healthcare platform that transforms patient care through intelligent automation and predictive analytics. Built on the proprietary AiX Framework, this comprehensive enterprise AI solutions for lifecare platform delivers AI clinical decision support, automated diagnostics, and AI patient monitoring tools.  ",
                 contenttwo: "Unlike traditional healthcare systems, AiXLifeCare is AI-native from the ground up, empowering every healthcare touchpoint to be faster, safer, and smarter through HIPAA-compliant AI architecture and seamless integration capabilities ",
                 contentthree: ''
@@ -819,19 +822,20 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "AiXHeat - AI-Native HVAC Operations Platform ",
             bannerDescription: "Cut energy costs by 40% and prevent 95% of equipment failures with AiXHeat's intelligent automation platform. ",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXHEAT-banner.jpg",
             VerticalContentSection2Heading: 'Current Market Landscape  ',
             aboutSectionHeading: 'Introducing AiXHeat',
             capabilitiSectionHeading: 'Key Features  ',
             skillGapSectionHeading: 'Built For Facility Excellence',
+            impactImage: '/images/vertical/AiXHEAT-impact.png',
             VerticalContentSection2: {
                 contentOne: "Global HVAC systems consume 40% of building energy with $280 billion smart buildings market reaching unprecedented complexity. Despite massive automation investments, 67% of commercial buildings operate with reactive maintenance causing 25-40% energy waste and unexpected equipment failures costing billions annually. ",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXHEAT-section2.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXHEAT-about.png',
+                logo: '/images/vertical/AiXHEAT-darklogo.png',
                 contentOne: "AiXHeat is an AI-native HVAC Operations Platform powered by iTCart's patent-pending AiXHub Framework, transforming reactive heating and cooling systems into intelligent, self-optimizing networks.  ",
                 contenttwo: "Unlike fragmented building automation systems, AiXHeat unifies climate control, energy management, predictive maintenance, and occupancy optimization into a single intelligent platform.  ",
                 contentthree: 'Built on autonomous AI Personas (CoPilots and AutoPilots), it continuously learns from environmental patterns, occupancy behaviors, and equipment performance to deliver 35% energy cost reductions while improving comfort levels.',
@@ -1008,18 +1012,20 @@ export const verticalData = [
         aboutSectionHeading: 'Introducing AiXRealty ',
         capabilitiSectionHeading: 'Key Features ',
         skillGapSectionHeading: 'Built For Real Estate Professionals ',
+
         detailPage: {
             bannerTitle: "AiXRealty - AI-Native Real Estate Operating System ",
             bannerDescription: "AiXRealty revolutionizes property management and real estate operations through our comprehensive AI-native platform.  ",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXReality-banner.jpg",
+            impactImage: '/images/vertical/AiXReality-impact.png',
             VerticalContentSection2: {
                 contentOne: "The global real estate industry faces massive digital fragmentation with $5 billion in AI opportunities by 2025. Property management companies struggle with 40% efficiency losses from manual processes, while 80% of real estate businesses still rely on outdated systems creating $10 million annual inefficiencies per 1,000 employees. ",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXReality-section.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXReality-about.png',
+                logo: '/images/vertical/AiXReality-darkLogo.png',
                 contentOne: "AiXRealty is an AI-native Enterprise Operating System specifically designed for the real estate industry, powered by iTCart's patent-pending AiXHub Framework. Unlike fragmented PropTech solutions, AiXRealty unifies property management, tenant relations, transaction processing, and investment analysis into a single intelligent platform.  ",
                 contenttwo: "Built on autonomous AI Personas (CoPilots and AutoPilots), it transforms manual real estate operations into intelligent, self-governing systems that think like agents, act like teams, and learn like industry veterans.  ",
                 contentthree: 'AiXRealty replaces 5-10 traditional real estate tools with one unified AI-driven platform that continuously evolves and optimizes performance. '
@@ -1101,20 +1107,21 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "AiXMotorsports: AI-based racing performance  ",
             bannerDescription: "Transforming Racing Performance Through AI-Powered Intelligence ",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXMotersports-banner.jpg",
             VerticalContentSection2Heading: 'Current Market Landscape  ',
             aboutSectionHeading: 'About AiXMotorSports  ',
             capabilitiSectionHeading: 'Core Features ',
             skillGapSectionHeading: 'Strategic Solutions for Racing Organizations',
+            impactImage: '/images/vertical/AiXMotersports-impact.png',
             VerticalContentSection2: {
                 contentOne: "The global motorsports market is valued at $8.6 billion in 2025, with Formula 1 teams generating over 1.1 million telemetry data points per second from 300+ car sensors.  ",
                 contenttwo: "Modern racing operations manage complex ecosystems of data analytics, requiring teams to process 400GB of data during a single race while making split-second decisions that determine championship outcomes.  ",
                 contentthree: "Organizations are investing heavily in AI technology, with simulation speeds increasing by 25% and teams running billions of calculations to optimize race strategies. ",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXMotersports-section.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXMotersports-about.png',
+                logo: '/images/vertical/AiXMotersports-darklogo.png',
                 contentOne: "AiXMotorSports represents the world's first AI-native racing operations platform built on the revolutionary AiXHub Framework.  ",
                 contenttwo: "Unlike traditional point solutions that add complexity to racing operations, AiXMotorSports replaces fragmented motorsports technology stacks with unified, intelligent execution that thinks like a race engineer, acts like a strategist, and learns like a championship team. ",
                 contentthree: 'This platform delivers autonomous decision-making, embedded governance, and cross-system orchestration specifically designed for professional racing organizations. '
@@ -1290,19 +1297,20 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "Advanced Artificial Intelligence in Healthcare and Patient Management ",
             bannerDescription: "Intelligent healthcare automation for better outcomes ",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXHealthcare-banner.jpg",
             VerticalContentSection2Heading: "Healthcare's Digital Transformation Challenge  ",
             aboutSectionHeading: 'Introducing AiXHealthcare  ',
             capabilitiSectionHeading: 'Advanced Healthcare AI Capabilities',
             skillGapSectionHeading: 'Who Benefits from AiXHealthcare',
+            impactImage: '/images/vertical/AiXHealthcare-impact.png',
             VerticalContentSection2: {
                 contentOne: "Healthcare organizations struggle with fragmented systems and manual processes despite massive investments in healthcare AI solutions. Hospitals need unified smart care solutions that ensure every patient journey is governed, SLA-compliant, and continuously optimized through comprehensive digital healthcare solutions and intelligent automation.",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXHealthcare-section.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXHealthcare-about.png',
+                logo: '/images/vertical/AiXHealthcare-darklogo.png',
                 contentOne: "AiXHealthcare represents the next generation of artificial intelligence in healthcare, transforming hospitals, clinics, and healthcare networks into self-governing, patient-intelligent enterprises through comprehensive digital health platform orchestration. Built on iTCart's proprietary AiXFramework, our healthcare AI solutions deliver SLA-bound workflows, embedded compliance governance, and multi-agent AI orchestration across clinical, financial, and operational processes. From emergency triage to insurance approvals and discharge planning, AiXHealthcare ensures every patient journey is faster, safer, and fully compliant through advanced digital healthcare solutions and intelligent automation capabilities. ",
                 contenttwo: ""
             },

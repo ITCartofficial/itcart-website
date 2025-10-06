@@ -14,7 +14,7 @@ const Services = () => {
                     { label: 'Our Services', url: '/services' }
                 ]}
                 backgroundImage="/images/services/service-bg.png"
-                />
+            />
             <ServicesGrid className='container' />
         </div>
     )

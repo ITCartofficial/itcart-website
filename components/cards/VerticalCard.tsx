@@ -3,6 +3,7 @@ import React from 'react';
 import BodyText from '@/components/typography/BodyText';
 import { FaArrowRight } from 'react-icons/fa6';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 interface VerticalCardProps {
     title: string;
@@ -18,15 +19,9 @@ interface VerticalCardProps {
 }
 
 const VerticalCard: React.FC<VerticalCardProps> = ({
-    title,
     description,
-    imageSrc = "/images/default-service.jpg",
     imageAlt = "Service illustration",
-    linkText = "Learn More",
-    linkUrl = "#",
-    className = "",
     compenyName,
-    verticalCompenyLogo,
     compenyLogo
 }) => {
 
@@ -47,22 +42,28 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
                 <div className="bg-white rounded-2xl shadow-lg max-w-sm w-full p-3 flex flex-col text-center min-h-[420px]">
                     {/* Top content */}
                     <div className="flex-grow">
-                        <div className="w-full overflow-hidden rounded-xl mb-2">
-                            <img
+                        {/* Main company image */}
+                        <div className="w-full overflow-hidden rounded-xl mb-2 relative aspect-[16/9]">
+                            <Image
                                 src={`/images/vertical/${compenyName}.png`}
                                 alt={imageAlt}
-                                className="w-full lg:h-[163px] h-[180] object-cover"
+                                fill
+                                className="object-cover"
+                                priority
                             />
                         </div>
 
-                        <div className="w-30 h-20 mx-auto mb-3 flex items-center justify-center">
-                            <img
-                                src={compenyLogo}
+                        {/* Company logo */}
+                        <div className="w-30 h-20 mx-auto mb-3 relative">
+                            <Image
+                                src={compenyLogo ? compenyLogo : ''}
                                 alt="Logo"
-                                className="max-h-full max-w-full object-contain"
+                                fill
+                                className="object-contain"
                             />
                         </div>
 
+                        {/* Description */}
                         <p className="text-gray-600 text-sm leading-relaxed">
                             {description}
                         </p>

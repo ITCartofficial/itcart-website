@@ -1,3 +1,4 @@
+import Image from "next/image";
 import GradientTitle from "../typography/GradientTitle";
 
 interface SectionAboutProps {
@@ -9,10 +10,14 @@ interface SectionAboutProps {
     logo?: string
     contentthree?: string
     contentfour?: string;
-    aboutSectionHeading?: string
+    aboutSectionHeading?: string;
+    showLogo?: boolean;
 }
 
-const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, contentOne, contenttwo, image, logo, contentthree, contentfour, aboutSectionHeading }) => {
+const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, contentOne, contenttwo, image, logo, contentthree, contentfour,
+    aboutSectionHeading,
+    showLogo
+}) => {
 
     return (
         <section className="w-full bg-black text-white px-6 py-1">
@@ -42,8 +47,9 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, co
                         {contentfour}
                     </p>
 
-                    {/* contentfour */}
                 </div>
+
+
 
                 <div
                     className={`rounded-xl w-full h-[300px] md:h-[350px] bg-cover bg-center flex items-end justify-center ${aboutProduct ? "md:order-1" : "md:order-2"}`}
@@ -51,14 +57,21 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, co
                         backgroundImage: `url(${image})`,
                     }}
                 >
-                    <div className="w-30 h-20 mb-4 bg-white rounded-md flex items-center justify-center">
-                        <img
-                            src={logo}
-                            alt="Logo"
-                            className="max-h-full max-w-full object-contain"
-                        />
-                    </div>
+                    {
+                        !showLogo &&
+                        <div className="w-30 h-20 mb-4 bg-white rounded-md flex items-center justify-center">
+                            <Image
+                                src={logo ? logo : ''}
+                                alt="Logo"
+                                width={600}
+                                height={400}
+                                className="max-h-full max-w-full object-contain"
+                            />
+                        </div>
+                    }
                 </div>
+
+
 
             </div>
         </section>

@@ -12,7 +12,6 @@ import client from "@/lib/wp/graphqlClient";
 import { Post } from "@/types/wordpress";
 import { notFound } from "next/navigation";
 import TechnologySection from "@/components/blogs2/TechnologySection";
-import NumberedCard from "@/components/blogs/NumberCard";
 import SuggestedBlogSection from "@/components/blogs2/SuggestedBlogSection";
 
 const BlogsTemplate = () => {

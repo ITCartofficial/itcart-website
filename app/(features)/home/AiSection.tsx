@@ -1,6 +1,5 @@
 'use-client'
 import GradientTitle from "@/components/typography/GradientTitle"
-import ImageInfoCard from "@/components/cards/ImageInfoCard"
 import { ImageInfoCardProps } from "@/types/PropsTypes"
 import OutlineBtn from "@/components/buttons/OutlineBtn"
 import { FaArrowRight } from "react-icons/fa6"
@@ -14,7 +13,7 @@ type AiSectionProps = {
 }
 
 
-const AiSection: React.FC<AiSectionProps> = ({ title, cardDetails }) => {
+const AiSection: React.FC<AiSectionProps> = ({ title }) => {
 
     const [clickedId, setClickedId] = useState(AiSectionData[0]?.id)
 
@@ -26,7 +25,7 @@ const AiSection: React.FC<AiSectionProps> = ({ title, cardDetails }) => {
 
             <div className="flex flex-col items-center w-full py-5">
                 {AiSectionData.map((item, index) => (
-                    <div onClick={() => setClickedId(item?.id)} className="w-full flex justify-between py-3 border-b border-[#333333] cursor-pointer">
+                    <div key={index} onClick={() => setClickedId(item?.id)} className="w-full flex justify-between py-3 border-b border-[#333333] cursor-pointer">
                         <div key={item.id} className="flex flex-col items-center justify-center  sm:text-[#2BADB7] text-white">
                             <span className="lg:text-[20px] md:text-[20px] sm:text-[18px] text-[18px] text-[#2BADB7] font-bold sm:mb-auto mb-auto">{item.id}</span>
                         </div>

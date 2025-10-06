@@ -4,8 +4,7 @@
 import GradientTitle from "@/components/typography/GradientTitle"
 import ImageInfoCard from "@/components/cards/ImageInfoCard"
 import { ImageInfoCardProps } from "@/types/PropsTypes"
-import OutlineBtn from "@/components/buttons/OutlineBtn"
-import { FaArrowRight } from "react-icons/fa6"
+
 // import { FaArrowRight } from "react-icons/fa6"
 
 type AboutInfoSectionProps = {

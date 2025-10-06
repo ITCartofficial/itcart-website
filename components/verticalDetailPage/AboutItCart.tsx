@@ -1,8 +1,8 @@
 import React from "react";
 import GradientTitle from "../typography/GradientTitle";
-import BodyText from "../typography/BodyText";
+import Image from "next/image";
 
-const AboutItCart = () => {
+const AboutItCart = ({ impactImage }: { impactImage: string }) => {
     const impacts = [
         "Achieve 76% higher learning efficiency compared to traditional platforms through personalized AI",
         "Increase course completion rates from industry average 15% to 85% using engagement",
@@ -25,18 +25,18 @@ const AboutItCart = () => {
 
     return (
         <section
-            className="w-full text-white px-6 bg-white bg-cover bg-center rounded-lg">
+            className="w-full text-white px-6 bg-cover bg-center rounded-lg">
             <section className="w-full text-white">
                 {/* Added overlay (bg-black/80) to make text more readable */}
                 <div className="max-w-7xl mx-auto text-center mb-5">
                     <GradientTitle
                         text="Why choose iTCart?  "
-                        theme='light'
+                        theme='dark'
                         className="text-[22px] sm:text-[25px] md:text-[30px] w-full"
                     />
                 </div>
 
-                <div className="w-full bg-white py-1">
+                <div className="w-full py-1">
                     <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 text-center">
                         {stats.map((stat, index) => (
                             <div
@@ -50,17 +50,19 @@ const AboutItCart = () => {
                     </div>
                 </div>
 
-                <div className="w-full bg-white px-6 py-16">
+                <div className="w-full px-6 py-16">
                     <div className="max-w-5xl mx-auto text-center mb-5">
-                        <h2 className="text-[38px] md:text-[48px] font-bold text-gray-900">Impact</h2>
+                        <h2 className="text-[38px] md:text-[48px] font-bold text-white">Impact</h2>
                     </div>
 
-                    {/* Top Image */}
                     <div className="w-full mx-auto mb-10">
-                        <img
-                            src="/images/vertical/about-it-cart-image.png"
+                        <Image
+                            src={impactImage ? impactImage : "/images/vertical/about-it-cart-image.png"}
                             alt="Students learning"
-                            className="w-full rounded-xl md:h-100 h-40"
+                            width={800}
+                            height={400}
+                            className="w-full rounded-xl md:h-[400px] h-[160px] object-cover"
+                            priority
                         />
                     </div>
 
@@ -71,17 +73,20 @@ const AboutItCart = () => {
                                 key={index}
                                 className="flex items-center rounded-lg"
                             >
-                                {/* Arrow Icon */}
+
                                 <div className="text-teal-500 mr-3 flex-shrink-0 text-xl font-bold">
-                                    <img
+                                    <Image
                                         src="/images/vertical/icons/leftarrow.png"
-                                        alt="Students learning"
-                                        className="w-5 h-5"
+                                        alt="Left arrow"
+                                        width={20}
+                                        height={20}
+                                        className="object-contain"
                                     />
                                 </div>
 
+
                                 {/* Text */}
-                                <p className="text-gray-800 p-4 shadow-sm bg-gray-100 font-medium text-base text-[17px] sm:text-[20px] md:text-[24px] leading-relaxed w-full rounded-lg">
+                                <p className="text-white p-2 shadow-sm bg-[#151515] font-medium text-base text-[17px] sm:text-[20px] md:text-[20px] leading-relaxed w-full rounded-lg">
                                     {item}
                                 </p>
                             </div>
@@ -92,7 +97,7 @@ const AboutItCart = () => {
 
 
 
-                <section className="w-full bg-white text-white px-6 py-1">
+                <section className="w-full  text-white px-6 py-1">
                     <div
                         className={`w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center`}
                     >
@@ -101,11 +106,11 @@ const AboutItCart = () => {
 
                             <GradientTitle
                                 text="Our Proprietary AI Engine "
-                                theme="light"
+                                theme="dark"
                                 className="text-[22px] sm:text-[25px] md:text-[30px] w-[50%] lg:w-[50%]"
                             />
 
-                            <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+                            <p className="text-white text-base md:text-lg leading-relaxed">
                                 AiXQP runs on <span className="font-bold">AiXHub™</span>, the core of the{" "}
                                 <span className="font-bold">AiX Framework</span>—bringing{" "}
                                 <span className="font-bold">deep AI automation</span>,{" "}
@@ -114,19 +119,24 @@ const AboutItCart = () => {
                                 experience.
                             </p>
 
-                            <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+                            <p className="text-white text-base md:text-lg leading-relaxed">
                                 Whether you're a solo learner, training a team, or scaling an
                                 institution-wide learning program, AiXQP is ready to grow with you.
                             </p>
                         </div>
 
-                        <div className={`flex justify-center`}>
-                            <img
-                                src="/images/vertical/aipriorityimage.png"
-                                alt="VR Learning"
-                                className="rounded-xl w-full max-w-md md:max-w-full"
-                            />
+                        <div className="flex justify-center">
+                            <div className="relative w-full max-w-md md:max-w-full aspect-[16/9]">
+                                <Image
+                                    src="/images/vertical/aipriorityimage.png"
+                                    alt="VR Learning"
+                                    fill
+                                    className="rounded-xl object-cover"
+                                    priority
+                                />
+                            </div>
                         </div>
+
                     </div>
                 </section>
 
