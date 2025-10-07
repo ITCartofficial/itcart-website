@@ -4,7 +4,7 @@ import Image from 'next/image';
 import GradientTitle from '@/components/typography/GradientTitle';
 import BodyText from '@/components/typography/BodyText';
 import LinkButton from '@/components/buttons/LinkButton';
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 
 
 interface ServiceCardProps {
@@ -29,11 +29,16 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 
     const router = useRouter();
 
+    const pathName = usePathname().split('/')[1]
+
     const formattedTitle = title.replace(/\s+/g, '-').replace(/&/g, '&');
+
+    console.log("pathName", pathName);
+
 
     return (
         <div
-            onClick={() => router.push(`services/${formattedTitle}`)}
+            onClick={() => router.push(`${pathName}/${formattedTitle}`)}
             className={`flex flex-col w-full max-w-max overflow-hidden rounded-3xl bg-black cursor-pointer ${className}`}>
             <div className="relative h-96">
                 {imageSrc ? (

@@ -31,9 +31,8 @@ const CapabilitySection: React.FC<CapabilitySectionProps> = ({ CapabilitySection
                 backgroundImage: isBackgroundImage ? "url('/images/vertical/AiXQP_sectionbgimage.png')" : "none"
             }}
         >
-            <section className="w-full text-white px-6 py-12 md:py-12">
-                {/* Added overlay (bg-black/80) to make text more readable */}
-                <div className="max-w-7xl mx-auto text-center mb-5">
+            <section className="w-full text-white px-6 py-12 md:py-12 p-2">
+                <div className="max-w-7xl mx-auto text-center mb-10">
                     <GradientTitle
                         text={capabilitiSectionHeading ?? ""}
                         theme="dark"

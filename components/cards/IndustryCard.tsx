@@ -3,6 +3,7 @@ import Image from 'next/image';
 import GradientTitle from '@/components/typography/GradientTitle';
 import BodyText from '@/components/typography/BodyText';
 import LinkButton from '@/components/buttons/LinkButton';
+import { useRouter } from 'next/router';
 
 
 interface IndustryCardProps {
@@ -24,15 +25,22 @@ const IndustryCard: React.FC<IndustryCardProps> = ({
     linkUrl = "#",
     className = "",
 }) => {
+
+    const router = useRouter();
+
+    const formattedTitle = title.replace(/\s+/g, '-').replace(/&/g, '&');
+
     return (
-        <div className={`flex flex-col w-full max-w-max overflow-hidden rounded-3xl bg-black ${className}`}>
+        <div
+            onClick={() => router.push(`industry/${formattedTitle}`)}
+            className={`flex flex-col w-full max-w-max overflow-hidden rounded-3xl bg-black ${className}`}>
             <div className="relative h-96">
                 {imageSrc ? (
                     <Image
                         src={imageSrc}
                         alt={imageAlt || title}
                         fill
-                        className="object-cover"
+                        className="object-cover"    
                         loading="lazy"
                     />
                 ) : (

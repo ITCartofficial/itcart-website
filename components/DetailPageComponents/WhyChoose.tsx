@@ -46,7 +46,7 @@ const WhyChoose: React.FC<WhyChooseProps> = ({ whyChooseUsHeading, className, wh
                                     <Image src={data.image} alt={data.title} fill className="object-cover" />
                                 </div>
                                 <div className="p-6">
-                                    <h3 className="text-2xl font-bold text-cyan-400 mb-3">{data.title}</h3>
+                                    <h3 className="text-2xl font-bold text-[#45C2CC] mb-3">{data.title}</h3>
                                     <p className="text-gray-300 leading-relaxed">{data.content}</p>
                                 </div>
                             </div>

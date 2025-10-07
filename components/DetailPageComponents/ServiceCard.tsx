@@ -16,6 +16,7 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ className, serviceCardHeading, serviceCardItems }) => {
 
+
     return (
         <section className={`w-full bg-black text-white px-6 py-0 ${className}`}>
             {/* Section Title */}
@@ -36,15 +37,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ className, serviceCardHeading
                                 key={index}
                                 className={`rounded-3xl p-8 bg-zinc-900 text-[#FFFFFF] hover:text-white`}
                             >
-                                <div
-                                    className={`mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[#2BADB7]`}
-                                >
+                                <div className="mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[#2BADB7] overflow-hidden">
                                     <Image
-                                        src={feature ? feature?.icon : ''}
+                                        src={feature?.icon || "/fallback-icon.png"}
                                         alt={feature?.title || "icon"}
-                                        className=""
-                                        width={600} // set explicit width
-                                        height={400} // and height for layout stability 
+                                        width={32}
+                                        height={32}
+                                        className="object-contain"
                                     />
                                 </div>
                                 <h3

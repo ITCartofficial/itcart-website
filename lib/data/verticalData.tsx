@@ -10,19 +10,20 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "AI-Powered Social Intranet That Works Smart ",
             bannerDescription: "The World's First AI-Native Enterprise Operating System - Unify Your Digital Workplace ",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXHub-banner.jpg",
             VerticalContentSection2Heading: 'The Digital Workspace Challenge',
             aboutSectionHeading: 'Meet Your Intelligent Workplace',
             capabilitiSectionHeading: 'AI-Powered Core Capabilities',
             skillGapSectionHeading: 'Built For Modern Teams',
+            impactImage: '/images/vertical/AiXHub-impact.png', 
             VerticalContentSection2: {
                 contentOne: "Transform your organization's fragmented digital workspace into an intelligent, unified platform that eliminates software sprawl while boosting productivity through AI-driven automation and seamless Microsoft 365 integration. ",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXHub-section.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXHub-about.png',
+                logo: '/images/vertical/AiXHub-darklogo.png',
                 contentOne: "AiXHub by iTCart isn't just another intranet—it's your enterprise's first AI-native operating system that centralizes people, processes, and platforms into one personalized, intelligent workspace. Built on patent-protected architecture with autonomous decision execution, AiXHub transforms every interaction into opportunity while reducing operational costs by 30% and increasing employee engagement by 200%. ",
                 contenttwo: ""
             },
@@ -104,19 +105,20 @@ export const verticalData = [
         detailPage: {
             bannerTitle: 'Experience Next-Gen Digital Finance with AiXBFS',
             bannerDescription: 'Transforming Banking with Intelligent AI Solutions .',
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXBFS-banner.jpg",
             VerticalContentSection2Heading: 'Current Market Landscape ',
             aboutSectionHeading: 'Meet Your Intelligent Workplace',
             capabilitiSectionHeading: 'Core Capabilities of AiXBFS',
             skillGapSectionHeading: 'Built For Financial Innovators ',
+            impactImage: '/images/vertical/AiXBFS-impact.png',
             VerticalContentSection2: {
                 contentOne: "Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.",
                 contenttwo: "These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXBFS-section.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXBFS-about.png',
+                logo: '/images/vertical/AiXBFS-darklogo.png',
                 contentOne: "AiXBFS is iTCart's flagship AI-powered banking and financial services platform that unifies all major BFS workflows under one intelligent umbrella.",
                 contenttwo: "This comprehensive suite delivers end-to-end financial service automation from loan origination to debt recovery, transforming traditional operations into fully digital, data-driven experiences.  ",
                 contentthree: 'Built on the revolutionary AIX Framework, AiXBFS combines modular infrastructure with intelligent automation to streamline credit underwriting automation, optimize collections, enhance compliance visibility, and empower partners across the entire BFSI ecosystem.'
@@ -466,19 +468,20 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "Transforming Financial Services Through AI-Powered Automation ",
             bannerDescription: "Experience digitalized financial services with our AiXHub Framework  ",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXFintech-banner.jpg",
             VerticalContentSection2Heading: 'Current Market Landscape',
             aboutSectionHeading: 'About AiXFinTech  ',
             capabilitiSectionHeading: 'Core features ',
             skillGapSectionHeading: 'Strategic Solutions for Financial Leaders ',
+            impactImage: '/images/vertical/AiXFintech-impact.png',
             VerticalContentSection2: {
                 contentOne: "The global AI in fintech market is experiencing exponential growth, valued at $17.79 billion in 2025 and projected to reach $52.19 billion by 2029. Financial institutions are under increasing pressure to manage 342 applications on average, with 42% of software licenses going unused, representing $127 million in annual waste.",
                 contenttwo: "This fragmentation leads to $10 million in annual losses per 1,000 employees through operational inefficiencies. ",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXFintech-section.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXFintech-about.png',
+                logo: '/images/vertical/AiXFintech-darklogo.png',
                 contentOne: "AiXFinTech represents the world's first AI-native financial services solution built on the revolutionary AiXHub Framework.  ",
                 contenttwo: "Unlike traditional point solutions that add complexity, AiXFinTech replaces fragmented financial technology stacks with unified, intelligent execution that thinks like a financial expert, acts like a compliance officer, and learns like a risk manager.",
                 contentthree: "This platform delivers autonomous decision-making, embedded governance, and cross-system orchestration specifically designed for modern financial institutions. "
@@ -560,19 +563,20 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "Intelligent IT Support & Asset Management Platform",
             bannerDescription: "Smart IT Service Management Made Simple ",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXDesk-banner.jpg",
             VerticalContentSection2Heading: 'The IT Support Challenge',
-            aboutSectionHeading: 'Meet AiXDesk   ',
+            aboutSectionHeading: 'Meet AiXDesk',
+            impactImage: '/images/vertical/AiXDesk-impact.png',
             capabilitiSectionHeading: 'Core Capabilities ',
             skillGapSectionHeading: 'Built For Modern Teams ',
             VerticalContentSection2: {
                 contentOne: "Modern workplaces face constant IT disruptions that impact productivity. Traditional helpdesk systems create bottlenecks with manual ticket routing, delayed responses, and fragmented asset tracking. Teams waste valuable time on repetitive tasks while critical issues remain unresolved, leading to frustrated employees and decreased operational efficiency. ",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXDesk-section.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXDesk-about.png',
+                logo: '/images/vertical/AiXDesk-darklogo.png',
                 contentOne: "AiXDesk transforms IT service management through intelligent automation, unifying ticketing systems with comprehensive asset tracking and seamless workflow management. Built on iTCart's patent-pending AiXFramework, this AI-powered platform streamlines enterprise IT operations by eliminating manual bottlenecks and accelerating issue resolution. Organizations experience dramatic improvements in service delivery with automated ticket routing, predictive escalations, and complete asset lifecycle visibility. The solution integrates advanced analytics with mobile accessibility, enabling teams to maintain optimal performance while reducing operational costs and enhancing end-user satisfaction across all departments. ",
                 contenttwo: ""
             },
@@ -1203,19 +1207,20 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "Smart Insurance for Secure Future",
             bannerDescription: "Personalized coverage adapting to your lifestyle ",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/InsureAiX-banner.jpg",
             VerticalContentSection2Heading: 'The Insurance Revolution',
             aboutSectionHeading: 'Meet InsureAiX   ',
             capabilitiSectionHeading: 'Our Technology Advantage  ',
             skillGapSectionHeading: 'Why Choose InsureAiX? ',
+            impactImage: '/images/vertical/InsureAiX-impact.png',
             VerticalContentSection2: {
                 contentOne: "The insurance industry still relies on outdated actuarial models from the last century. Traditional insurers use static, one-size-fits-all approaches that ignore genomics, behavior, lifestyle, and real-time health data—leaving billions in mispriced risk and customers paying premiums that don't reflect their actual risk profile",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/InsureAiX-section.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/InsureAiX-about.png',
+                logo: '/images/vertical/InsureAiX-darklogo.png',
                 contentOne: "InsureAiX revolutionizes traditional insurance through cutting-edge AI-powered precision underwriting that goes beyond outdated demographic tables. Our proprietary technology integrates genomics, behavioral intelligence, real-time health monitoring, and multi-omics data fusion to deliver truly personalized coverage. Unlike conventional insurers using century-old actuarial models, we calculate biological age, assess lifestyle patterns, and provide dynamic premium adjustments that reward healthy choices. Transform your insurance experience with transparent, science-backed coverage that adapts to your unique risk profile and empowers better life decisions through intelligent insights.  ",
                 contenttwo: "",
                 contentthree: ""

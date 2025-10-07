@@ -17,6 +17,7 @@ export const serviceData = [
       skillGapSectionHeading: 'Built For Modern Teams',
       skillGapHeadingDescription: 'Elevate cybersecurity with our expert solutions, safeguarding your digital assets against evolving threats with precision.',
       showShadedBackground: true,
+      serviceCardHeading: 'Our Approach in Cyber Security Services',
       VerticalContentSection2: {
         contentOne: "Transform your organization's fragmented digital workspace into an intelligent, unified platform that eliminates software sprawl while boosting productivity through AI-driven automation and seamless Microsoft 365 integration. ",
         contenttwo: "",
@@ -52,6 +53,32 @@ export const serviceData = [
           image: '/images/services/Tailored-Solutions.png',
           title: 'Customer-Centric',
           content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+        }
+      ],
+      serviceCardItems: [
+        {
+          title: "Network Security",
+          description: "Safeguard your organization's network infrastructure against cyber threats, ensuring a resilient defense mechanism.",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Identity and Access Management",
+          description: "Manage and control access to critical systems, enhancing security and minimizing risks related to user identity.",
+          gradient: "from-[#222222] to-[#111111]", // dark
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Incident Response & Management",
+          description: "Rapidly respond to security incidents, minimizing damage and downtime with effective incident response strategies.",
+          gradient: "from-[#222222] to-[#111111]", // dark
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Managed Security Services",
+          description: "Leverage our expertise for proactive monitoring, management, and maintenance of your cybersecurity infrastructure, ensuring round-the-clock protection.",
+          gradient: "from-[#222222] to-[#111111]", // dark
+          icon: '/images/vertical/icons/manicon.png'
         }
       ],
 
