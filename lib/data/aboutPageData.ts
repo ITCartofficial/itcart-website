@@ -189,11 +189,11 @@ export const globalStrategists = [
     title: "Randall D. Oostra",
     designation: "Global Business Ambassador",
   },
-  {
-    image: "/images/strategists/brianathey.png",
-    title: "Dr. Brian D. Athey",
-    designation: "Global Digital and AI Transformation Ambassador",
-  },
+  // {
+  //   image: "/images/strategists/brianathey.png",
+  //   title: "Dr. Brian D. Athey",
+  //   designation: "Global Digital and AI Transformation Ambassador",
+  // },
   {
     image: "/images/strategists/scottsebastian.png",
     title: "Scott Sebastian",
@@ -369,26 +369,26 @@ export const ambassadorsList = [
       },
     ],
   },
-  {
-    image: "/images/ambassador/Dr Athey.png",
-    title: "Dr. Brian D. Athey",
-    designation: "Global AI Ambassador",
-    profileRef: "#", //button link
-    matrics: [
-      {
-        numericValue: 20,
-        title: "Years of leadership in AI",
-      },
-      {
-        numericValue: 200,
-        title: "Keynotes on AI ",
-      },
-      {
-        numericValue: 30,
-        title: "Patents in AI and Genomics",
-      },
-    ],
-  },
+  // {
+  //   image: "/images/ambassador/Dr Athey.png",
+  //   title: "Dr. Brian D. Athey",
+  //   designation: "Global AI Ambassador",
+  //   profileRef: "#", //button link
+  //   matrics: [
+  //     {
+  //       numericValue: 20,
+  //       title: "Years of leadership in AI",
+  //     },
+  //     {
+  //       numericValue: 200,
+  //       title: "Keynotes on AI ",
+  //     },
+  //     {
+  //       numericValue: 30,
+  //       title: "Patents in AI and Genomics",
+  //     },
+  //   ],
+  // },
   {
     image: "/images/ambassador/Joan Hennessey.jpg",
     title: "Joan Hennessey ",

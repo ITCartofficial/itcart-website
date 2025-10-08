@@ -76,6 +76,7 @@ const AboutUs = () => {
                     theme="light"
                 />
             </div>
+
             <div className="bg-white py-16 rounded-bl-[85px] rounded-br-[85px]">
                 <ExecutiveLeadersSection execLeaders={executiveLeadership} />
             </div>
@@ -84,22 +85,24 @@ const AboutUs = () => {
                 <GlobalStrategistsSection globalStrategists={globalStrategists} />
             </div>
 
-            <div className="bg-black py-16">
-                <AmbassadorSection ambassador={ambassadorsList} />
-            </div>
+                {/* <div className="bg-black py-16">
+                    <AmbassadorSection ambassador={ambassadorsList} />
+                </div> */}
 
-            <div className="bg-black py-16">
+
+
+            {/* <div className="bg-black py-16">
                 <HistorySection className="border-2 border-[#565656] bg-[#181818] py-5 px-5 lg:py-10 lg:px-8 rounded-2xl" bgImage={historyData.bgImage} title={historyData.title} description={historyData.description} />
-            </div>
+            </div> */}
 
-            <div className="bg-black pt-16">
+            {/* <div className="bg-black pt-16">
                 <BannerContainer bgImage="/images/contact/contact-bg.jpg" className="lg:h-[90vh]">
                     <div className="container flex flex-col items-center gap-4">
                         <GradientTitle text={globalExpansionData.title} className="text-[30px] lg:text-[48px] text-center" theme="dark" />
                         <MultiParagraphs description={globalExpansionData.description} className="text-center" />
                     </div>
                 </BannerContainer>
-            </div>
+            </div> */}
 
         </div>
     )

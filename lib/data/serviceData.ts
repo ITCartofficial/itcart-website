@@ -1,7 +1,7 @@
 export const serviceData = [
   {
     title: "AI & ML Automations",
-    description: "Crafted for success, streamlines efficiency, minimizes costs, and heightens precision through tailored solutions, ensuring sustained growth and innovation.",
+    description: "Intelligent machine learning automation services that streamline workflows, reduce manual tasks, and boost operational efficiency significantly.",
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/services/ai-ml-automation.png",
     detailPage: {
@@ -158,61 +158,61 @@ export const serviceData = [
   },
   {
     title: "Application Services",
-    description: "Empowering innovation, efficiency, and growth. Seamlessly tailored solutions, propel success in a dynamic digital landscape. Your gateway to transformative technological brilliance.",
+    description: "Custom application development, maintenance, and support services ensuring seamless software performance, scalability, and user experience optimization. ",
     linkUrl: "/services/application-services",
     imageSrc: "/images/services/application-service.png"
   },
   {
     title: "Business Intelligence",
-    description: "Amplify efficiency, marketing, and service. Tailored for quality and real-time visibility, empowering your data-driven success through business intelligence.",
+    description: "Advanced data-driven insights, interactive dashboards, and comprehensive reporting solutions that empower strategic decision-making and business growth",
     linkUrl: "/services/business-intelligence",
     imageSrc: "/images/services/business-intelligence.png"
   },
   {
     title: "CloudOps Services",
-    description: "Maximize cloud infrastructure with our CloudOps suite. Tailored for migration, security, and efficiency. Enjoy scalability, cost-effectiveness, and top-tier security for your needs.",
+    description: "Complete cloud infrastructure management, optimization, and monitoring services ensuring scalable, secure, and cost-effective cloud operations delivery.",
     linkUrl: "/services/cloud-computing",
     imageSrc: "/images/services/cloud-computing.png"
   },
   {
     title: "Cybersecurity Services",
-    description: "From assessments to encryption and advanced tools, mitigate data breach risks and fortify compliance through personalized, comprehensive protection.",
+    description: "Comprehensive security protection, threat detection, vulnerability assessment, and compliance solutions safeguarding your digital assets and data integrit",
     linkUrl: "/services/cybersecurity-services",
     imageSrc: "/images/services/cybersecurity.png"
   },
   {
     title: "Data Analytics",
-    description: "Empower decisions with our Data Analytics solutions. Seamlessly collect, integrate, analyze, and visualize data for accurate insights, optimizing efficiency, and elevating customer service.",
+    description: "Big data processing, predictive analytics, and business intelligence services transforming raw information into actionable insights for competitive advantage.",
     linkUrl: "/services/data-analytics",
     imageSrc: "/images/services/data-analytics.png"
   },
   {
     title: "DevOps Services",
-    description: "Unify development and operations seamlessly with our DevOps service. Automate processes, enhance quality, & cultivate accountability. Tailored for security, scalability, and peak performance.",
+    description: "Streamlined development operations, CI/CD pipeline automation, and deployment optimization services accelerating software delivery and system reliability.",
     linkUrl: "/services/devops-services",
     imageSrc: "/images/services/DevOps.png"
   },
   {
     title: "Digital Commerce",
-    description: "Transform businesses with our Digital Commerce suite. User-friendly, secure online stores enhance reach, revenue, and customer experience. Tailored solutions provide real-time visibility and risk mitigation.",
+    description: "End-to-end e-commerce platform development, payment integration, and online marketplace solutions driving digital sales and customer engagement growth.",
     linkUrl: "/services/digital-commerce",
     imageSrc: "/images/services/digital-commerce.png"
   },
   {
     title: "Digital Transformation",
-    description: "Unleash digital transformation with IT Cart's services. From strategy to culture transformation, we empower businesses in the digital era, delivering customer value.",
+    description: "Strategic business modernization, process digitization, and technology integration services enabling competitive advantage in the digital marketplace era.",
     linkUrl: "/services/digital-transformation",
     imageSrc: "/images/services/digital-transformation.png"
   },
   {
     title: "IoT Services",
-    description: "Drive operational success with our IoT services. Enhance efficiency, cut costs and boost accuracy and leverage intelligent systems for unlimited possibilities.",
+    description: "IoT implementation, connected device management, and smart solution development for enhanced automation and operational visibility. ",
     linkUrl: "/services/iot-services",
     imageSrc: "/images/services/IoT-service.png"
   },
   {
     title: "Managed IT Services",
-    description: "Optimize network, server management, and support. Cut costs, boost efficiency and ensure compliance with personalized solutions for quality and real-time insights.",
+    description: "Comprehensive IT infrastructure management, 24/7 monitoring, help desk support, and proactive maintenance ensuring optimal technology performance reliability. ",
     linkUrl: "/services/managed-it-services",
     imageSrc: "/images/services/managed-it-service.png"
   },

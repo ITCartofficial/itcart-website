@@ -12,7 +12,7 @@ const GlobalStrategistsSection = ({ globalStrategists }: { globalStrategists: Gl
                     className="text-center lg:text-left text-[30px] lg:text-[48px] leading-tight"
                 />
             </div>
-            <div className="grid md:grid-cols-3 lg:grid-cols-4 grid-cols-1 gap-6 justify-items-center">
+            <div className="grid md:grid-cols-3 lg:grid-cols-3 grid-cols-1 gap-6 justify-items-center">
                 {
                     globalStrategists.map((globalStrategist, i) => (
                         <LeaderCard
