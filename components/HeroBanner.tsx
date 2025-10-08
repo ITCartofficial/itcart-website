@@ -34,9 +34,9 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
 }) => {
   return (
     <section className={`relative w-full bg-black text-white overflow-hidden ${className}`}>
-      <div className="relative h-[40vh] sm:h-[40vh] md:h-[60vh] lg:h-[70vh] bg-gradient-to-t from-black/100 to-white">
+      <div className="relative h-[40vh] sm:h-[40vh] md:h-[60vh] lg:h-[70vh] bg-gradient-to-t from-black/100">
         <div
-          className="absolute inset-0 z-0 opacity-70"
+          className="absolute inset-0 z-0 "
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: 'cover',
@@ -50,11 +50,11 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
           <GradientTitle 
             text={title} 
             theme="dark" 
-            className="text-3xl sm:text-4xl md:text-[50px] text-center"
+            className="text-3xl sm:text-4xl md:text-[64px] text-center"
           />
 
           {/* Breadcrumb Navigation */}
-          <nav className="flex items-center justify-center text-sm">
+          <nav className="flex items-center justify-center text-[20px]">
             <ul className="flex items-center">
               {breadcrumbItems.map((item, index) => (
                 <React.Fragment key={index}>

@@ -25,7 +25,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, description, lastUpdat
                     text={description}
                     color="white"
                     textAlign="center"
-                    className="text-lg mb-8"
+                    className="text-lg mb-8 mt-2"
                 />
                 {lastUpdated && (
                     <div className="inline-block p-[1px] rounded bg-gradient-to-r from-[#4C4C4C] to-[#45C2CC]">

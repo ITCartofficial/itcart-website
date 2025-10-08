@@ -41,6 +41,7 @@ export interface ImageInfoCardProps {
   descriptionSize?: string;
   lineClamp?: number;
   className?: string;
+  showBtn?: boolean;
 }
 
 export interface AccordionProps {

@@ -11,7 +11,7 @@ const ExecutiveLeadersSection = ({ execLeaders }: { execLeaders: ExecutiveLeader
         <GradientTitle
           text='Meet Our Executive Leadership'
           theme='light'
-          className='block w-full text-[30px] lg:text-[50px] leading-tight pb-10'
+          className='block w-full text-[30px] lg:text-[48px] leading-tight pb-10'
         />
       </div>
       <ExecutiveLeadersSlider execLeaders={execLeaders} theme='light' />

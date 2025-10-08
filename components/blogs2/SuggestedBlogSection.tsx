@@ -137,89 +137,104 @@ const SuggestedBlogSection = () => {
 
     return (
         <div>
+
+            <div className='container grid grid-cols-1 md:grid-cols-3 gap-8 mb-3'>
+                <GradientTitle
+                    text="Must Read"
+                    fontWeight="bold"
+                    theme='dark'
+                    className="lg:text-[30px] text-[24px] leading-tight"
+                />
+            </div>
+
             <div className='container grid grid-cols-1 md:grid-cols-3 gap-8'>
                 {/* Left: Blog Cards */}
                 <div className='col-span-2'>
-                    <GradientTitle
-                        text="Must Read"
-                        fontWeight="bold"
-                        theme='dark'
-                        className="text-4xl leading-tight"
-                    />
-                    <div className='flex flex-col gap-4 pt-10'>
+
+                    <div className='flex flex-col gap-4'>
                         {suggestedPostsCard.map((post: BlogPost) => (
                             <HorizontalCard key={post.id}
                                 imageUrl={post.imageUrl}
                                 title={post.title}
                                 author={post.author}
                                 date={post.date}
-                                imageHeight='h-40'
-                                titleSize="text-2xl"
+                                imageHeight='h-50'
+                                imageWidth='md:w-80 w-full'
+                                titleSize="lg:text-[24px] text-[20px]"
                                 showButton={true}
                                 buttonUrl={`/blog/${post.slug}`}
                                 buttonText="Continue Reading"
+                                showColumn={true}
                             />
                         ))}
                     </div>
                 </div>
 
                 {/* Right: Sidebar */}
-                <div className='col-span-1 flex flex-col gap-6'>
-                    <div className="w-full max-w-md relative">
-                        <SearchInput value={search} onChange={handleSearchChange} />
+                <div className='col-span-1 flex md:flex-col gap-6 flex-col-reverse '>
 
-                        {/* Search Results Dropdown */}
-                        {showDropdown && searchResults.length > 0 && (
-                            <div
-                                className="absolute z-10 w-full mt-1 bg-gray-800 border border-gray-700 rounded-md shadow-lg max-h-80 overflow-y-auto"
-                                onClick={(e: React.MouseEvent) => e.stopPropagation()} // Prevent closing when clicking inside
-                            >
-                                {searchResults.map((post: BlogPost) => (
-                                    <a
-                                        key={post.id}
-                                        href={`/blog/${post.slug}`}
-                                        className="block p-3 border-b border-gray-700 last:border-0 hover:bg-gray-700 transition-colors"
-                                    >
-                                        <div className="flex items-center gap-3">
-                                            {post.imageUrl && (
-                                                <div className="w-16 h-16 flex-shrink-0 relative">
-                                                    <Image
-                                                        src={post.imageUrl}
-                                                        alt={post.title}
-                                                        fill
-                                                        className="w-full h-full object-cover rounded"
-                                                    />
+
+                    <>
+                        <div className="w-full max-w-md relative ">
+                            <SearchInput value={search} onChange={handleSearchChange} />
+
+                            {/* Search Results Dropdown */}
+                            {showDropdown && searchResults.length > 0 && (
+                                <div
+                                    className="absolute z-10 w-full mt-1 bg-gray-800 border border-gray-700 rounded-md shadow-lg max-h-80 overflow-y-auto"
+                                    onClick={(e: React.MouseEvent) => e.stopPropagation()} // Prevent closing when clicking inside
+                                >
+                                    {searchResults.map((post: BlogPost) => (
+                                        <a
+                                            key={post.id}
+                                            href={`/blog/${post.slug}`}
+                                            className="block p-3 border-b border-gray-700 last:border-0 hover:bg-gray-700 transition-colors"
+                                        >
+                                            <div className="flex items-center gap-3">
+                                                {post.imageUrl && (
+                                                    <div className="w-16 h-16 flex-shrink-0 relative">
+                                                        <Image
+                                                            src={post.imageUrl}
+                                                            alt={post.title}
+                                                            fill
+                                                            className="w-full h-full object-cover rounded"
+                                                        />
+                                                    </div>
+                                                )}
+                                                <div>
+                                                    <h4 className="text-white font-medium line-clamp-1">
+                                                        {post.title}
+                                                    </h4>
+                                                    <p className="text-gray-400 text-sm">
+                                                        {post.author} • {post.date}
+                                                    </p>
                                                 </div>
-                                            )}
-                                            <div>
-                                                <h4 className="text-white font-medium line-clamp-1">
-                                                    {post.title}
-                                                </h4>
-                                                <p className="text-gray-400 text-sm">
-                                                    {post.author} • {post.date}
-                                                </p>
                                             </div>
+                                        </a>
+                                    ))}
+                                    {searchResults.length >= 10 && (
+                                        <div className="p-3 text-center text-sm text-gray-400 border-t border-gray-700">
+                                            Search for more results...
                                         </div>
-                                    </a>
-                                ))}
-                                {searchResults.length >= 10 && (
-                                    <div className="p-3 text-center text-sm text-gray-400 border-t border-gray-700">
-                                        Search for more results...
-                                    </div>
-                                )}
-                            </div>
-                        )}
-                    </div>
-                    <GradientTitle
-                        text="Stay Connected"
-                        fontWeight="bold"
-                        theme='dark'
-                        className="text-3xl md:text-4xl leading-tight"
-                    />
-                    <SocialIcons size={21} color="#ffffff" className='md:justify-center' socialMedia={socialLinks} />
-                    <div className='h-[350px] md:h-[450px]'>
-                        <CaseStudyCard card={caseStudyData} />
-                    </div>
+                                    )}
+                                </div>
+                            )}
+                        </div>
+                    </>
+
+                    <>
+                        <GradientTitle
+                            text="Stay Connected"
+                            fontWeight="bold"
+                            theme='dark'
+                            className="text-[20px] md:text-[24px] leading-tight text-center"
+                        />
+                        <SocialIcons size={21} color="#ffffff" className='flex md:justify-center' socialMedia={socialLinks} />
+                        <div className='h-[350px] md:h-[450px]'>
+                            <CaseStudyCard card={caseStudyData} />
+                        </div>
+                    </>
+
                 </div>
             </div>
         </div>

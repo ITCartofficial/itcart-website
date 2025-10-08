@@ -1,8 +1,10 @@
+"use client";
 import React from 'react';
 import Image from 'next/image';
 import GradientTitle from '@/components/typography/GradientTitle';
 import BodyText from '@/components/typography/BodyText';
 import LinkButton from '@/components/buttons/LinkButton';
+import { usePathname, useRouter } from 'next/navigation';
 
 
 interface ServiceCardProps {
@@ -24,8 +26,20 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     linkUrl = "#",
     className = "",
 }) => {
+
+    const router = useRouter();
+
+    const pathName = usePathname().split('/')[1]
+
+    const formattedTitle = title.replace(/\s+/g, '-').replace(/&/g, '&');
+
+    console.log("pathName", pathName);
+
+
     return (
-        <div className={`flex flex-col w-full max-w-max overflow-hidden rounded-3xl bg-black ${className}`}>
+        <div
+            onClick={() => router.push(`${pathName}/${formattedTitle}`)}
+            className={`flex flex-col w-full max-w-max overflow-hidden rounded-3xl bg-black cursor-pointer ${className}`}>
             <div className="relative h-96">
                 {imageSrc ? (
                     <Image
@@ -45,7 +59,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
                     <GradientTitle
                         text={title}
                         theme="dark"
-                        className="text-4xl max-w-[220px]"
+                        className="text-4xl"
                     />
                 </div>
             </div>

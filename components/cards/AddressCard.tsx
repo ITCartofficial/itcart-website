@@ -20,7 +20,7 @@ const AddressCard: React.FC<AddressCardProps> = ({ country, phone, email, locati
     }
 
     return (
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-full mt-6 md:mt-6 lg:mt-0 sm:mt-6 mt-6 ">
             <div className="national_flag rounded-full w-8 h-8 absolute -top-4 -left-4 overflow-hidden">
                 <ImageContainer
                     src={national_flag}

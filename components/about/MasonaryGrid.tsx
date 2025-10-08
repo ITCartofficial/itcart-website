@@ -11,11 +11,11 @@ const MasonaryGrid = ({ }) => {
                     backdropFilter: "blur(38%)"
                 }}
             >
-                <p className="text-[16px] md:text-left mb-4">
+                <p className="text-[18px] md:text-left mb-4">
                     With a mission to deliver cutting-edge AI solutions, we're scaling globally — powered by a talented workforce and creating meaningful job opportunities worldwide.
                 </p>
                 <div className=" md:text-left">
-                    <p className="text-[36px] font-semibold">6 countries</p>
+                    <p className="text-[24px] font-semibold">6 countries</p>
                     <p className="text-[20px] text-white/80">85 employees</p>
                 </div>
             </div>
@@ -58,10 +58,10 @@ const MasonaryGrid = ({ }) => {
                 }}
             >
                 <div className="flex flex-col md:text-left mb-2">
-                    <p className="text-[36px] font-semibold">490+</p>
+                    <p className="text-[24px] font-semibold">490+</p>
                     <p className="text-[16px]">Trusted client</p>
                 </div>
-                <p className="text-[16px] text-white/80 md:text-left">
+                <p className="text-[18px] text-white/80 md:text-left">
                     Our diversified clientele base has helped us deliver exceptional quality at all times.
                     As we move forward, we look to introduce new technologies that will help us target a new audience.
                 </p>

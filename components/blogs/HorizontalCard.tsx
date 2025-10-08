@@ -19,6 +19,8 @@ interface HorizontalCardProps {
     showButton?: boolean;
     buttonUrl?: string;
     buttonText?: string;
+
+    showColumn?:boolean
 }
 
 const HorizontalCard: React.FC<HorizontalCardProps> = ({
@@ -33,30 +35,31 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({
     showButton = false,
     buttonUrl = '#',
     buttonText = 'Continue Reading',
+    showColumn
 }) => {
     return (
-        <div className={`w-full flex overflow-hidden p-2 text-white shadow-lg ${className}`}>
+        <div className={`w-full ${showColumn ? 'lg:flex' : "flex"} overflow-hidden p-2 text-white shadow-lg ${showColumn} ${className}`}>
             {/* Image Section */}
             <div className={`relative ${imageWidth} ${imageHeight}`}>
                 <Image
                     src={imageUrl}
                     alt={title}
                     fill
-                    className="object-cover rounded-sm"
+                    className={`object-cover rounded-sm`}
                     loading="lazy"
                 />
             </div>
 
             {/* Content Section */}
-            <div className="flex-1 px-4 flex flex-col justify-center gap-1">
+            <div className={`flex-1 ${showColumn ? "lg:px-4 lg:mt-0 mt-4 md:mt-0" : "px-4"} flex flex-col justify-center`}>
                 <HeadingText
                     text={title}
                     className={`${titleSize} leading-tight mb-1 hover:text-[#45c2cc]`}
                 />
 
                 <div className="text-xs text-gray-400">
-                    <p>{author}</p>
-                    <p>{date}</p>
+                    <p>{author + "-" + date}</p>
+                    {/* <p>{date}</p> */}
                 </div>
 
                 {/* Optional Button */}

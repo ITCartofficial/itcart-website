@@ -1,12 +1,13 @@
 import BodyText from "@/components/typography/BodyText";
 import GradientTitle from "@/components/typography/GradientTitle";
 
-const HistorySection = ({ title, description, bgImage }: { title: string; description: string; bgImage: string }) => {
+const HistorySection = ({ title, description, bgImage, className }: { title: string; description: string; bgImage: string, className: string }) => {
   const descriptions = description.split('<br>');
 
   return (
-    <div className="w-full overflow-hidden">
-      <div className="lg:hidden w-full h-[260px] bg-cover bg-center" style={{ backgroundImage: `url(${bgImage})` }} />
+    <div className="container mx-auto lg:px-10">
+
+      <div className={`lg:hidden w-full h-[260px] bg-cover bg-center ${className}`} style={{ backgroundImage: `url(${bgImage})` }} />
 
       <div className="hidden lg:block container rounded-3xl overflow-hidden lg:min-h-[440px] bg-cover relative p-8" style={{ backgroundImage: `url(${bgImage})` }}>
         <div className="bg-white lg:w-[560px] min-h-[370px] rounded-3xl p-6 ml-8 flex flex-col gap-4">
@@ -18,7 +19,8 @@ const HistorySection = ({ title, description, bgImage }: { title: string; descri
           </div>
         </div>
       </div>
-      <div className="lg:hidden bg-white w-full p-6 flex flex-col gap-4">
+
+      <div className="lg:hidden bg-white w-full p-6 flex flex-col gap-4 rounded-3xl mt-2">
         <GradientTitle text={title} theme="light" className="text-[30px] text-left" />
         <div className="flex flex-col gap-4">
           {descriptions.map((text, i) => (
@@ -26,6 +28,7 @@ const HistorySection = ({ title, description, bgImage }: { title: string; descri
           ))}
         </div>
       </div>
+      
     </div>
   );
 };

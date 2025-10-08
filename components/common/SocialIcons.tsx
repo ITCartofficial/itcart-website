@@ -21,7 +21,7 @@ const SocialIcons = ({
     socialMedia
 }: SocialIconProps) => {
     return (
-        <div className={`flex justify-center lg:justify-end gap-4 ${className}`}>
+        <div className={`flex justify-center gap-4 ${className}`}>
             <Link href={socialMedia.instagram}>
                 <FaInstagram size={size} color={color} />
             </Link>

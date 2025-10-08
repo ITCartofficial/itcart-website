@@ -29,7 +29,7 @@ const PatientSectionData = {
 }
 
 const globalExpansionData = {
-    title: "iTCart's Global Expansions",
+    title: "ITCart's Global Expansions",
     description: "The IT industry is not only central to modern businesses but also influences society as a whole. iTCart is designed to offer firms with a journey that goes beyond the ordinary. <br> We are dedicated to transforming lives through innovative IT solutions, improving the lives of millions globally. iTCart, an AI automation company known for its global expansion has its footprints in UAE, KSA, USA, and UK along with other APAC and European regions.",
     bgImage: "/images/contact/contact-bg.jpg",
 }
@@ -58,6 +58,7 @@ const AboutUs = () => {
                     theme={'dark'}
                 />
             </div>
+
             <div className="bg-black py-16">
                 <AIFrameworkSection
                     aixFramework={PatientSectionData}
@@ -67,6 +68,7 @@ const AboutUs = () => {
                     button={{ text: "Read More", path: "/about-us" }}
                 />
             </div>
+
             <div className="bg-white py-16 rounded-tl-[85px] rounded-tr-[85px]">
                 <FoundingMembersSection
                     direction="row"
@@ -74,26 +76,33 @@ const AboutUs = () => {
                     theme="light"
                 />
             </div>
+
             <div className="bg-white py-16 rounded-bl-[85px] rounded-br-[85px]">
                 <ExecutiveLeadersSection execLeaders={executiveLeadership} />
             </div>
+
             <div className="bg-black py-16">
                 <GlobalStrategistsSection globalStrategists={globalStrategists} />
             </div>
-            <div className="bg-black py-16">
-                <AmbassadorSection ambassador={ambassadorsList} />
-            </div>
-            <div className="bg-black py-16">
-                <HistorySection bgImage={historyData.bgImage} title={historyData.title} description={historyData.description} />
-            </div>
-            <div className="bg-black pt-16">
+
+                {/* <div className="bg-black py-16">
+                    <AmbassadorSection ambassador={ambassadorsList} />
+                </div> */}
+
+
+
+            {/* <div className="bg-black py-16">
+                <HistorySection className="border-2 border-[#565656] bg-[#181818] py-5 px-5 lg:py-10 lg:px-8 rounded-2xl" bgImage={historyData.bgImage} title={historyData.title} description={historyData.description} />
+            </div> */}
+
+            {/* <div className="bg-black pt-16">
                 <BannerContainer bgImage="/images/contact/contact-bg.jpg" className="lg:h-[90vh]">
                     <div className="container flex flex-col items-center gap-4">
-                        <GradientTitle text={globalExpansionData.title} className="text-[30px] lg:text-[50px] text-center" theme="dark" />
+                        <GradientTitle text={globalExpansionData.title} className="text-[30px] lg:text-[48px] text-center" theme="dark" />
                         <MultiParagraphs description={globalExpansionData.description} className="text-center" />
                     </div>
                 </BannerContainer>
-            </div>
+            </div> */}
 
         </div>
     )
