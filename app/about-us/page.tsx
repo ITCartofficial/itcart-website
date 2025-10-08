@@ -2,13 +2,18 @@ import CoreValueSection from "../../components/about/CoreValueSection"
 import WhoWeAreSection from "../../components/about/WhoWeAreSection"
 import HeroBanner from "../../components/HeroBanner"
 
-import { coreValues, foundingMembers, executiveLeadership, globalStrategists } from '@/lib/data/aboutPageData'
+import { coreValues, foundingMembers, executiveLeadership, globalStrategists, ambassadorsList, historyData } from '@/lib/data/aboutPageData'
 
 import MissionVisionSection from "../../components/about/MissionVisionSection"
 import AIFrameworkSection from "../../components/about/AIFrameworkSection"
 import FoundingMembersSection from "../../components/about/FoundingMembersSection"
 import ExecutiveLeadersSection from "../../components/about/ExecutiveLeadersSection"
 import GlobalStrategistsSection from "../../components/about/GlobalStrategistsSection"
+import AmbassadorSection from "@/components/about/AmbassadorSection"
+import HistorySection from "@/components/about/HistorySection"
+import BannerContainer from "@/components/common/BannerContainer"
+import GradientTitle from "@/components/typography/GradientTitle"
+import MultiParagraphs from "@/components/common/MultiParagraphs"
 // import AmbassadorSection from "../../components/about/AmbassadorSection"
 // import HistorySection from "../../components/about/HistorySection"
 // import BannerContainer from "../../components/common/BannerContainer"
@@ -28,11 +33,11 @@ const PatientSectionData = {
     imageUrl: "/images/about-card-2.jpg",
 }
 
-// const globalExpansionData = {
-//     title: "ITCart's Global Expansions",
-//     description: "The IT industry is not only central to modern businesses but also influences society as a whole. iTCart is designed to offer firms with a journey that goes beyond the ordinary. <br> We are dedicated to transforming lives through innovative IT solutions, improving the lives of millions globally. iTCart, an AI automation company known for its global expansion has its footprints in UAE, KSA, USA, and UK along with other APAC and European regions.",
-//     bgImage: "/images/contact/contact-bg.jpg",
-// }
+const globalExpansionData = {
+    title: "ITCart's Global Expansions",
+    description: "The IT industry is not only central to modern businesses but also influences society as a whole. iTCart is designed to offer firms with a journey that goes beyond the ordinary. <br> We are dedicated to transforming lives through innovative IT solutions, improving the lives of millions globally. iTCart, an AI automation company known for its global expansion has its footprints in UAE, KSA, USA, and UK along with other APAC and European regions.",
+    bgImage: "/images/contact/contact-bg.jpg",
+}
 
 
 const AboutUs = () => {
@@ -85,24 +90,22 @@ const AboutUs = () => {
                 <GlobalStrategistsSection globalStrategists={globalStrategists} />
             </div>
 
-                {/* <div className="bg-black py-16">
-                    <AmbassadorSection ambassador={ambassadorsList} />
-                </div> */}
+            <div className="bg-black py-16">
+                <AmbassadorSection ambassador={ambassadorsList} />
+            </div>
 
-
-
-            {/* <div className="bg-black py-16">
+            <div className="bg-black py-16">
                 <HistorySection className="border-2 border-[#565656] bg-[#181818] py-5 px-5 lg:py-10 lg:px-8 rounded-2xl" bgImage={historyData.bgImage} title={historyData.title} description={historyData.description} />
-            </div> */}
+            </div>
 
-            {/* <div className="bg-black pt-16">
+            <div className="bg-black pt-16">
                 <BannerContainer bgImage="/images/contact/contact-bg.jpg" className="lg:h-[90vh]">
                     <div className="container flex flex-col items-center gap-4">
                         <GradientTitle text={globalExpansionData.title} className="text-[30px] lg:text-[48px] text-center" theme="dark" />
                         <MultiParagraphs description={globalExpansionData.description} className="text-center" />
                     </div>
                 </BannerContainer>
-            </div> */}
+            </div>
 
         </div>
     )
