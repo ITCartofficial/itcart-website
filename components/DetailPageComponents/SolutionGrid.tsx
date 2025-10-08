@@ -2,7 +2,17 @@ import Image from "next/image";
 import BodyText from "../typography/BodyText";
 import GradientTitle from "../typography/GradientTitle";
 
-export default function SolutionGrid({ className, CapabilitySections }) {
+interface SolutionGridProps {
+    className?: string;
+    CapabilitySections?: {
+        gradient?: string; // 👈 make optional
+        title: string;
+        description: string;
+        icon: string;
+    }[];
+}
+
+export default function SolutionGrid({ className = "", CapabilitySections = [] }: SolutionGridProps) {
 
     return (
         <>

@@ -64,8 +64,9 @@ const OurVerticalsDetailPage = () => {
 
             <div className='bg-black py-16 container mx-auto lg:px-10'>
                 <SkillGapSection
-                    skillGapSection={filterdItem?.detailPage?.skillGapSection ?? []}
-                    skillGapSectionHeading={filterdItem?.detailPage?.skillGapSectionHeading ?? ""}
+                    skillGapSection={filterdItem?.detailPage?.skillGapSection}
+                    skillGapSectionHeading={filterdItem?.detailPage?.skillGapSectionHeading}
+                    showShadedBackground={true}
                 />
             </div>
 

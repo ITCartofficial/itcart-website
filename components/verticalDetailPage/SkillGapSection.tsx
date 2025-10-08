@@ -98,7 +98,7 @@ interface SkillGapSectionProps {
     skillGapSectionHeading?: string;
     showDescription?: boolean;
     skillGapHeadingDescription?: string;
-    showShadedBackground
+    showShadedBackground?: boolean
 }
 
 const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSection,
@@ -139,7 +139,7 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
                         <div className="absolute -top-10 flex justify-center w-full">
                             <div className="flex justify-center items-center w-20 h-20 rounded-full bg-cyan-500 shadow-lg">
                                 <Image
-                                    src={item?.icon}
+                                    src={item?.icon || ""}
                                     alt={item?.title || "icon"}
                                     className="w-10 h-10"
                                     width={600} // set explicit width

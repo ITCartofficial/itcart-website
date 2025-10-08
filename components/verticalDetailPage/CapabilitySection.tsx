@@ -15,6 +15,7 @@ interface CapabilitySectionProps {
     textColor?: string;
     isBackgroundImage?: boolean;
     capabilitiSectionDescription?: string;
+
 }
 
 const CapabilitySection: React.FC<CapabilitySectionProps> = ({ CapabilitySections,
