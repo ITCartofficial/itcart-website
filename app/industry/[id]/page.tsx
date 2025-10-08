@@ -2,16 +2,16 @@
 import HomeFaqSection from '@/app/(features)/home/HomeFaqSection'
 import FutureSection from '@/components/DetailPageComponents/FutureSection'
 import SolutionGrid from '@/components/DetailPageComponents/SolutionGrid'
-import AboutItCart from '@/components/verticalDetailPage/AboutItCart'
+// import AboutItCart from '@/components/verticalDetailPage/AboutItCart'
 import CapabilitySection from '@/components/verticalDetailPage/CapabilitySection'
 import SectionAbout from '@/components/verticalDetailPage/SectionAbout'
 import SkillGapSection from '@/components/verticalDetailPage/SkillGapSection'
-import VerticalContentSection2 from '@/components/verticalDetailPage/verticalContentSection2'
+// import VerticalContentSection2 from '@/components/verticalDetailPage/verticalContentSection2'
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
 import { industryData } from '@/lib/data/industryData'
 import { usePathname } from 'next/navigation'
 import React from 'react'
-import ServiceCard from '@/components/DetailPageComponents/ServiceCard';
+// import ServiceCard from '@/components/DetailPageComponents/ServiceCard';
 import WhyChoose from '@/components/DetailPageComponents/WhyChoose'
 
 
@@ -98,6 +98,7 @@ const IndustryDetailPage = () => {
 
             <div className="py-7 border-b-zinc-600">
                 <SolutionGrid
+                    className=""
                     CapabilitySections={filterdItem?.detailPage?.CapabilitySections ?? []}
                 />
             </div>
@@ -111,13 +112,24 @@ const IndustryDetailPage = () => {
             </div>
 
             <div className='bg-black     container'>
-                <CapabilitySection
+                {/* <CapabilitySection
                     isBackgroundImage={false}
                     textColor='#45C2CC'
                     itemePerRow={3}
                     capabilitiSectionDescription={filterdItem?.detailPage?.capabilitiSectionDescription ?? ""}
                     capabilitiSectionHeading={filterdItem?.detailPage?.capabilitiSectionHeading ?? ""}
                     CapabilitySections={filterdItem?.detailPage?.CapabilitySections ?? []}
+                /> */}
+                <CapabilitySection
+                    isBackgroundImage={false}
+                    textColor="#45C2CC"
+                    itemePerRow={3}
+                    capabilitiSectionDescription={filterdItem?.detailPage?.capabilitiSectionDescription ?? ""}
+                    capabilitiSectionHeading={filterdItem?.detailPage?.capabilitiSectionHeading ?? ""}
+                    CapabilitySections={(filterdItem?.detailPage?.CapabilitySections ?? []).map(item => ({
+                        gradient: "from-[#45C2CC] to-[#000]",
+                        ...item,
+                    }))}
                 />
             </div>
 

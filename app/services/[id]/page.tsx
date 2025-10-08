@@ -50,7 +50,6 @@ const ServicesDetailPage = () => {
         }
     ];
 
-    
 
     return (
         <div className='bg-black'>
@@ -106,8 +105,8 @@ const ServicesDetailPage = () => {
 
             <div className='bg-black container py-10'>
                 <ServiceCard
-                    serviceCardItems={(filterdItem?.detailPage as any)?.serviceCardItems ?? []}
-                    serviceCardHeading={(filterdItem?.detailPage as any)?.serviceCardHeading ?? ""}
+                    serviceCardItems={(filterdItem?.detailPage)?.serviceCardItems ?? []}
+                    serviceCardHeading={(filterdItem?.detailPage)?.serviceCardHeading ?? ""}
                 />
             </div>
 
@@ -130,7 +129,7 @@ const ServicesDetailPage = () => {
                     aboutSectionHeading={filterdItem?.detailPage?.aboutSection2Heading ?? ""}
                     image={filterdItem?.detailPage?.aboutSection?.aboutImage ?? ""}
                     logo={filterdItem?.detailPage?.aboutSection?.logo ?? ""}
-                    // contentfour={(filterdItem?.detailPage?.aboutSection as any)?.contentfour ?? ""}
+                // contentfour={(filterdItem?.detailPage?.aboutSection as any)?.contentfour ?? ""}
                 />
 
             </div>
@@ -148,3 +147,4 @@ const ServicesDetailPage = () => {
 }
 
 export default ServicesDetailPage
+
