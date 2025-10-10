@@ -122,10 +122,10 @@ const ServicesDetailPage = () => {
                 <SectionAbout
                     showLogo={true}
                     aboutProduct={true}
-                    contentOne={filterdItem?.detailPage?.aboutSection?.contentOne ?? ""}
-                    contenttwo={filterdItem?.detailPage?.aboutSection?.contenttwo ?? ""}
-                    contentthree={(filterdItem?.detailPage?.aboutSection as unknown as { contentthree?: string })?.contentthree ?? ""}
-                    contentfour={(filterdItem?.detailPage?.aboutSection as unknown as { contentfour?: string })?.contentfour ?? ""}
+                    contentOne={filterdItem?.detailPage?.aboutSection2?.contentOne ?? ""}
+                    contenttwo={filterdItem?.detailPage?.aboutSection2?.contenttwo ?? ""}
+                    contentthree={(filterdItem?.detailPage?.aboutSection2 as unknown as { contentthree?: string })?.contentthree ?? ""}
+                    contentfour={(filterdItem?.detailPage?.aboutSection2 as unknown as { contentfour?: string })?.contentfour ?? ""}
                     aboutSectionHeading={filterdItem?.detailPage?.aboutSection2Heading ?? ""}
                     image={filterdItem?.detailPage?.aboutSection?.aboutImage ?? ""}
                     logo={filterdItem?.detailPage?.aboutSection?.logo ?? ""}
@@ -135,11 +135,16 @@ const ServicesDetailPage = () => {
             </div>
 
             <div className="py-10 border-b-2 border-b-zinc-600">
-                <FutureSection />
+                <FutureSection
+                    futurSectionHeading={filterdItem?.detailPage?.futurSectionHeading ?? ""}
+                    futurSectionDescription={filterdItem?.detailPage?.futurSectionDescription ?? ""}
+                />
             </div>
 
             <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
-                <HomeFaqSection faqs={homeFAQs} />
+                <HomeFaqSection
+                    FAQsHeading={filterdItem?.detailPage?.FAQsHeading}
+                    faqs={filterdItem?.detailPage?.FAQs ?? []} />
             </div>
 
         </div>

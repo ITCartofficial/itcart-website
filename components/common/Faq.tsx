@@ -15,6 +15,7 @@ export interface FaqSectionProps {
   backgroundColor?: string;
   maxVisible?: number;
   className?: string;
+  FAQsHeading?: string
 }
 
 const Faq: React.FC<FaqSectionProps> = ({
@@ -26,11 +27,12 @@ const Faq: React.FC<FaqSectionProps> = ({
   backgroundColor = 'black',
   maxVisible = 7,
   className = '',
+  FAQsHeading
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [contentHeight, setContentHeight] = useState(0);
   const accordionRef = useRef<HTMLDivElement>(null);
-  
+
   // Create a state to track changes in the child accordion
   const [childAccordionChange, setChildAccordionChange] = useState(0);
 
@@ -83,7 +85,7 @@ const Faq: React.FC<FaqSectionProps> = ({
       <div className="container mx-auto px-4 text-center">
         <div className="flex flex-col items-center mb-6">
           <BodyText text={label} className='text-2xl pb-4' color='#ffffff' fontWeight='600' />
-          <GradientTitle text={mainTitle} lineHeight="1.2" className="max-w-xl text-[50px]" theme='dark' />
+          <GradientTitle text={FAQsHeading ? FAQsHeading : mainTitle} lineHeight="1.2" className="max-w-xxl text-[50px]" theme='dark' />
         </div>
         <button
           onClick={toggleExpansion}
@@ -100,9 +102,9 @@ const Faq: React.FC<FaqSectionProps> = ({
       </div>
 
       {/* Accordion Section - Always rendered but with height transition */}
-      <div 
+      <div
         className="container mx-auto px-4 mt-4 overflow-hidden transition-all duration-500 ease-in-out"
-        style={{ 
+        style={{
           maxHeight: isExpanded ? `${contentHeight}px` : '0',
           opacity: isExpanded ? 1 : 0,
         }}

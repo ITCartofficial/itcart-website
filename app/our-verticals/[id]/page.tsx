@@ -1,4 +1,5 @@
 "use client"
+import HomeFaqSection from '@/app/(features)/home/HomeFaqSection'
 import AboutItCart from '@/components/verticalDetailPage/AboutItCart'
 import CapabilitySection from '@/components/verticalDetailPage/CapabilitySection'
 import SectionAbout from '@/components/verticalDetailPage/SectionAbout'
@@ -76,6 +77,9 @@ const OurVerticalsDetailPage = () => {
                 />
             </div>
 
+            <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
+                <HomeFaqSection faqs={filterdItem?.detailPage?.FAQs ?? []} />
+            </div>
         </div >
     )
 }

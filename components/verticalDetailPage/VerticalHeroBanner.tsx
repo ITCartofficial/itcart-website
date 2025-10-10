@@ -60,7 +60,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                         <GradientTitle
                             text={title}
                             theme="dark"
-                            className="text-[26px] sm:text-[32px] md:text-[48px] w-full lg:w-[50%]"
+                            className="text-[26px] sm:text-[32px] md:text-[48px] w-full lg:w-[70%]"
                         />
 
                         {/* Subtitle */}
