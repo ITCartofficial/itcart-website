@@ -3,13 +3,11 @@ import EnterPriceGrid from "@/components/CunsultNow/EnterPriceGrid"
 import ImplementationStratogy from "@/components/CunsultNow/ImplementationStratogy"
 import WhyImplementation from "@/components/CunsultNow/WhyImplementation"
 import HeroBanner from "@/components/HeroBanner"
-import IndustryGrid from "@/components/IndustryGrid"
-import { coreValues, foundingMembers, executiveLeadership, globalStrategists, ambassadorsList, historyData } from '@/lib/data/aboutPageData'
+import { executiveLeadership } from '@/lib/data/aboutPageData'
 import AwardsSection from "../(features)/home/AwardsSection"
 import TestimonialSection from "../(features)/home/TestimonialSection"
 import { testimonialsData } from "@/lib/data/homePageData"
 import AboutSection from "@/components/CunsultNow/AboutSection"
-import ContactFormSection from "@/components/contact/ContactFormSection"
 import SectionContact from "@/components/CunsultNow/SectionContact"
 import HomeFaqSection from "../(features)/home/HomeFaqSection"
 
