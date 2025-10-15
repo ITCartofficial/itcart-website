@@ -9,6 +9,7 @@ export const navItems = [
     //   { label: "Cloud Solutions", href: "#" },
     // ],
   },
+  { label: "Cunsult Now", href: "/cunsultnow" },
   // {
   //   label: "Our Solutions",
   //   href: "/",

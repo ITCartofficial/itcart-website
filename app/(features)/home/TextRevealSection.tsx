@@ -11,12 +11,12 @@ const TextRevealSection: React.FC<TextRevealSectionProps> = ({
     title = "Scaling brands with top-notch AI-powered solutions" 
 }) => {
     return (
-        <div className="w-full h-max flex flex-col justify-center items-center text-center bg-white ">
+        <div className="w-full h-max flex flex-col justify-center items-center text-center bg-black ">
             <GradientTitle
                 text={title}
                 lineHeight="1.2"
                 className="max-w-[800px] text-[24px] lg:text-[50px] mb-6"
-                theme='light'
+                theme='dark'
             />
             <div>
                 <TextReveal
@@ -28,7 +28,7 @@ const TextRevealSection: React.FC<TextRevealSectionProps> = ({
                             in the AI market.
                         </>
                     }
-                    backgroundColor="bg-white"
+                    backgroundColor="bg-black"
                     dimmedTextColor="text-[#E1E1E1]"
                     revealedTextColor="text-black"
                     spotlightSize={300}

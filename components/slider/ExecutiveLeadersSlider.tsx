@@ -12,10 +12,16 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 const ExecutiveLeadersSlider = ({
   execLeaders,
   theme,
+  bgColor
 }: {
   execLeaders: ExecutiveLeader[];
   theme: "dark" | "light";
+  bgColor: string
 }) => {
+
+  console.log("bgColor", bgColor);
+
+
   return (
     <div className="relative pb-16">
       <div className="absolute z-10 flex gap-4 bottom-0 right-0">
@@ -40,7 +46,7 @@ const ExecutiveLeadersSlider = ({
       >
         {execLeaders.map((execLeader, i) => (
           <SwiperSlide key={i}>
-            <ExecutiveLeadersCard executiveLeader={execLeader} theme={theme} />
+            <ExecutiveLeadersCard executiveLeader={execLeader} bgColor={bgColor} theme={theme} />
           </SwiperSlide>
         ))}
       </Swiper>

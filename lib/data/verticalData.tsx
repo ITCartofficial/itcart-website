@@ -9,54 +9,54 @@ export const verticalData = [
         compenyLogo: '/images/verticalLogos/AiXHub.png',
         detailPage: {
             bannerTitle: "AI-Powered Social Intranet That Works Smart ",
-            bannerDescription: "The World's First AI-Native Enterprise Operating System - Unify Your Digital Workplace ",
+            bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform ",
             bannerImage: "/images/vertical/AiXHub-banner.jpg",
-            VerticalContentSection2Heading: 'The Digital Workspace Challenge',
-            aboutSectionHeading: 'Meet Your Intelligent Workplace',
-            capabilitiSectionHeading: 'AI-Powered Core Capabilities',
+            VerticalContentSection2Heading: 'Digital Workspace Challenge',
+            aboutSectionHeading: 'Revolutionary AI-Native Workplace',
+            capabilitiSectionHeading: 'AI-Powered Core Capabilities ',
             skillGapSectionHeading: 'Built For Modern Teams',
             impactImage: '/images/vertical/AiXHub-impact.png',
             VerticalContentSection2: {
-                contentOne: "Transform your organization's fragmented digital workspace into an intelligent, unified platform that eliminates software sprawl while boosting productivity through AI-driven automation and seamless Microsoft 365 integration. ",
+                contentOne: "Modern organizations struggle with fragmented digital workspaces requiring comprehensive enterprise intranet solutions, AI workplace automation solution, and digital workplace automation. Traditional systems lack intelligent enterprise intranet platform capabilities and AI digital workplace transformation features needed for unified enterprise intranet portal operations across distributed teams.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXHub-section.png"
             },
             aboutSection: {
                 aboutImage: '/images/vertical/AiXHub-about.png',
                 logo: '/images/vertical/AiXHub-darklogo.png',
-                contentOne: "AiXHub by iTCart isn't just another intranet—it's your enterprise's first AI-native operating system that centralizes people, processes, and platforms into one personalized, intelligent workspace. Built on patent-protected architecture with autonomous decision execution, AiXHub transforms every interaction into opportunity while reducing operational costs by 30% and increasing employee engagement by 200%. ",
+                contentOne: "AiXHub transforms organizations through the world's first AI-native operating system featuring enterprise intranet solutions, digital workplace automation, AI workplace automation solution, and comprehensive enterprise intranet platform capabilities. Built on patent-protected architecture delivering autonomous decision execution and AI digital workplace transformation through unified enterprise intranet portal intelligence that centralizes people, processes, and platforms into personalized, intelligent workspace environments reducing operational costs by 30% while increasing employee engagement by 200%.",
                 contenttwo: ""
             },
 
             CapabilitySections: [
                 {
                     title: "Smart Automation",
-                    description: "AI-powered workflows and predictive triggers ",
+                    description: "AI-powered workflows with predictive triggers through comprehensive digital workplace automation systems. ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "Intelligent Analytics ",
-                    description: "Data-driven insights with personalized dashboards ",
+                    description: "Data-driven insights with personalized dashboards via advanced enterprise intranet solutions technology. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "AI + IoT Integration",
-                    description: "Enterprise AIoT for predictive maintenance ",
+                    title: "AI IoT Integration ",
+                    description: "Enterprise AIoT for predictive maintenance through AI workplace automation solution capabilities. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Advanced Security ",
-                    description: "Anomaly detection with Microsoft's AI stack ",
+                    description: "Anomaly detection with Microsoft's AI stack via secure enterprise intranet platform architecture. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Conversational Interfaces ",
-                    description: "AI bots for surveys and engagement  ",
+                    description: "AI bots for surveys and engagement through intelligent AI digital workplace transformation. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Cross-System Orchestration  ",
-                    description: "Unified execution across ERP, CRM, HRMS ",
+                    title: "Cross-System Orchestration",
+                    description: "Unified execution across ERP, CRM, HRMS through comprehensive enterprise intranet portal connectivity.  ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
@@ -64,21 +64,21 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/manicon.png',
                     title: "Enterprise Leaders ",
-                    highlight: "Strategic decision-makers seeking operational excellence ",
+                    highlight: "Strategic decision-makers seeking operational excellence through AI solutions",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
                     title: "IT Managers ",
-                    highlight: "Technology teams managing software consolidation ",
+                    highlight: "Technology teams managing software consolidation and digital transformation",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
                     title: "HR Professionals  ",
-                    highlight: "Employee engagement and workflow optimization ",
+                    highlight: "Employee engagement and workflow optimization through intelligent automation",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -86,28 +86,28 @@ export const verticalData = [
             FAQs: [
                 {
                     id: '1',
-                    title: 'How does AiXHub integrate with existing Microsoft 365 environments?',
-                    content: "AiXHub is built natively on Microsoft 365 and Azure Cognitive Services, ensuring seamless integration without disrupting current workflows while enhancing capabilities through AI automation. "
+                    title: 'How does AiXHub integrate with Microsoft 365?',
+                    content: "AiXHub is built natively on Microsoft 365 ensuring seamless enterprise intranet solutions integration without disrupting workflows. "
                 },
                 {
                     id: '2',
-                    title: 'What makes AiXHub different from traditional intranet solutions?',
-                    content: 'Unlike point solutions that add complexity, AiXHub replaces fragmented tool stacks with a unified AI-native operating system featuring autonomous decision execution and patent-protected architecture. '
+                    title: 'What makes AiXHub different from traditional solutions?',
+                    content: 'Unlike point solutions, AiXHub replaces fragmented tools with unified AI workplace automation solution featuring autonomous execution.'
                 },
                 {
                     id: '3',
-                    title: 'How quickly can organizations see ROI from AiXHub implementation?',
-                    content: 'Based on 25+ enterprise implementations, organizations achieve 156% ROI within 6 months, scaling to 487% ROI within 24 months through operational cost reduction and productivity gains.'
+                    title: 'How quickly can organizations see ROI?',
+                    content: 'Organizations achieve 156% ROI within 6 months through digital workplace automation and AI digital workplace transformation.'
                 },
                 {
                     id: '4',
-                    title: 'Is AiXHub suitable for regulated industries like healthcare and financial services',
-                    content: 'Yes, AiXHub includes embedded governance engines with real-time compliance monitoring, supporting GDPR, HIPAA, DPDP standards and providing complete audit trails for regulatory requirements. '
+                    title: 'Is AiXHub suitable for regulated industries?',
+                    content: 'Yes, AiXHub includes embedded governance supporting GDPR, HIPAA standards through secure enterprise intranet platform architecture.'
                 },
                 {
                     id: '5',
-                    title: 'What level of customization does AiXHub offer for different industries? ',
-                    content: "AiXHub is industry-agnostic with modular architecture, offering persona-based AI agents (CoPilot/AutoPilot) tailored to specific business functions across 22+ industries and 300+ enterprise implementations. "
+                    title: 'What customization does AiXHub offer ',
+                    content: "AiXHub offers modular architecture with persona-based AI agents across 22+ industries through comprehensive enterprise intranet portal capabilities."
                 }
             ],
 
@@ -130,69 +130,77 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXBFS.png',
         compenyLogo: '/images/verticalLogos/AiXBFS.png',
         detailPage: {
-            bannerTitle: 'Experience Next-Gen Digital Finance with AiXBFS',
-            bannerDescription: 'Transforming Banking with Intelligent AI Solutions .',
+            bannerTitle: 'AI-Powered Social Intranet That Works Smart',
+            bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform",
             bannerImage: "/images/vertical/AiXBFS-banner.jpg",
-            VerticalContentSection2Heading: 'Current Market Landscape ',
-            aboutSectionHeading: 'Meet Your Intelligent Workplace',
-            capabilitiSectionHeading: 'Core Capabilities of AiXBFS',
+            VerticalContentSection2Heading: 'Digital Workspace Challenge ',
+            aboutSectionHeading: 'Revolutionary AI-Native Workplace',
+            capabilitiSectionHeading: 'AI-Powered Core Capabilities',
             skillGapSectionHeading: 'Built For Financial Innovators ',
             impactImage: '/images/vertical/AiXBFS-impact.png',
             VerticalContentSection2: {
-                contentOne: "Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.",
-                contenttwo: "These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.",
+                contentOne: "Modern organizations struggle with fragmented digital workspaces requiring comprehensive enterprise intranet solutions, AI workplace automation solution, and digital workplace automation. Traditional systems lack intelligent enterprise intranet platform capabilities and AI digital workplace transformation features needed for unified enterprise intranet portal operations. ",
+                contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXBFS-section.png"
             },
             aboutSection: {
                 aboutImage: '/images/vertical/AiXBFS-about.png',
                 logo: '/images/vertical/AiXBFS-darklogo.png',
-                contentOne: "AiXBFS is iTCart's flagship AI-powered banking and financial services platform that unifies all major BFS workflows under one intelligent umbrella.",
-                contenttwo: "This comprehensive suite delivers end-to-end financial service automation from loan origination to debt recovery, transforming traditional operations into fully digital, data-driven experiences.  ",
-                contentthree: 'Built on the revolutionary AIX Framework, AiXBFS combines modular infrastructure with intelligent automation to streamline credit underwriting automation, optimize collections, enhance compliance visibility, and empower partners across the entire BFSI ecosystem.'
+                contentOne: "AiXHub transforms organizations through the world's first AI-native operating system featuring enterprise intranet solutions, digital workplace automation, AI workplace automation solution, and comprehensive enterprise intranet platform capabilities. Built on patent-protected architecture delivering autonomous decision execution and AI digital workplace transformation through unified enterprise intranet portal intelligence. ",
+                contenttwo: "",
+                contentthree: ''
             },
             CapabilitySections: [
                 {
-                    title: "Unified Digital Platform",
-                    description: "An all-in-one solution offering AI-powered credit assessment, smart collections routing, and real-time compliance monitoring.  ",
+                    title: "Smart Automation",
+                    description: "AI-powered workflows with predictive triggers through comprehensive digital workplace automation systems.  ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
-                    title: "Intelligent automation suite ",
-                    description: "Experience various automation features – predictive delinquency modeling, no-code policy engine, and partner lifecycle management.  ",
+                    title: "Intelligent Analytics",
+                    description: "Data-driven insights with personalized dashboards via advanced enterprise intranet solutions technology.  ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Advanced Analytics & Insights ",
-                    description:
-                        "With unified dashboards, you can track performance, risks, and operations that help you take decisions.  ",
+                    title: "AI IoT Integration",
+                    description: "Enterprise AIoT for predictive maintenance through AI workplace automation solution capabilities.   ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Debt collection and recovery",
-                    description:
-                        "With predictive AI and smart outreach, AiXBFS offers one of the best debt collection and recovery services. ",
+                    title: "Advanced Security",
+                    description: "Anomaly detection with Microsoft's AI stack via secure enterprise intranet platform architecture. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Conversational Interfaces",
+                    description: "AI bots for surveys and engagement through intelligent AI digital workplace transformation. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Cross-System Orchestration",
+                    description: "Unified execution across ERP, CRM, HRMS through comprehensive enterprise intranet portal connectivity. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/manicon.png',
-                    title: "Banks & NBFCs ",
-                    highlight: "Streamline lending operations and digital banking transformation ",
+                    title: "Enterprise Leaders  ",
+                    highlight: "Strategic decision-makers seeking operational excellence through AI solutions",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
-                    title: "Fintech Lenders",
-                    highlight: "Scale digital credit products with API-first architecture ",
+                    title: "IT Managers",
+                    highlight: "Technology teams managing software consolidation and digital transformation",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
-                    title: "Collection Agencies",
-                    highlight: "Optimize recovery with predictive AI and smart routing  ",
+                    title: "HR Professionals",
+                    highlight: "Employee engagement and workflow optimization through intelligent automation",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -354,43 +362,43 @@ export const verticalData = [
         capabilitiSectionHeading: 'Core capabilities  ',
         skillGapSectionHeading: 'Bridge Skills Gaps with AI-Driven Education ',
         detailPage: {
-            bannerTitle: "AiXQP: The Future of Intelligent Learning Starts Here  ",
-            bannerDescription: "Experience Personalized Learning that adapts to your environment  ",
+            bannerTitle: "The Future of Intelligent Learning Starts Here",
+            bannerDescription: "Experience Personalized Learning that adapts to your environment",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
-            VerticalContentSection2Heading: 'Current Market Landscape  ',
-            aboutSectionHeading: 'About AiXERP',
-            capabilitiSectionHeading: 'Core capabilities  ',
-            skillGapSectionHeading: 'AiXERP Personal',
+            VerticalContentSection2Heading: 'Traditional Education Platform Crisis',
+            aboutSectionHeading: 'Revolutionary AI Learning Platform',
+            capabilitiSectionHeading: 'Intelligent Learning Core Capabilities',
+            skillGapSectionHeading: 'Built For Learning Excellence',
             VerticalContentSection2: {
-                contentOne: "Transform your organization's fragmented digital workspace into an intelligent, unified platform that eliminates software sprawl while boosting productivity through AI-driven automation and seamless Microsoft 365 integration. ",
+                contentOne: " Traditional online education platforms suffer from generic content delivery requiring comprehensive AI learning experience platform, AI-powered education platform, intelligent learning management system, personalized AI learning system, adaptive learning technology, AI in student engagement, and AI certification programs for modern educational excellence. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/section2Image.png"
             },
             aboutSection: {
                 aboutImage: '/images/vertical/section2Image.png',
                 logo: '/images/verticalLogos/AiXQP.png',
-                contentOne: "AiXQP is iTCart's revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.  ",
-                contenttwo: "Powered by the proprietary AiXHub™ engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains. "
+                contentOne: " AiXQP is iTCart's revolutionary AI learning experience platform featuring comprehensive AI-powered education platform, intelligent learning management system, personalized AI learning system, adaptive learning technology, AI in student engagement, and AI certification programs capabilities. Built ground-up with AiXHub™ engine delivering interactive AI tutors and continuous intelligence that evolves with learner needs ensuring faster skill development and industry relevance across multiple educational domains through intelligent automation.",
+                contenttwo: " "
             },
             CapabilitySections: [
                 {
-                    title: "Intelligent learning experiences  ",
-                    description: "AiXQP offers personalised learning paths, AI tutoring, and skill-based progression, helping you upskill based on demonstrated competencies. ",
+                    title: "Personalized Learning Paths  ",
+                    description: "AI tutoring and skill-based progression through comprehensive personalized AI learning system technology. ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
-                    title: "AI-powered engagement  ",
-                    description: "We detect engagement drops and adjust content delivery through interactive exercises maintaining optimal conditions. ",
+                    title: "AI-Powered Student Engagemen",
+                    description: "Interactive exercises maintaining optimal conditions via advanced AI in student engagement capabilities.  ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Initial assessment",
-                    description: "Our AI learning platform evaluates your current knowledge, learning preferences, and career objectives via sophisticated diagnostic tools.   ",
+                    title: "Adaptive Learning Technology",
+                    description: "Continuous adaptation analyzing performance data through comprehensive adaptive learning technology systems. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Continuous adaptation ",
-                    description: "As you progress, our system analyzes your performance data to refine your path and reinforce challenging concepts.   ",
+                    title: "Intelligent Assessment Tools",
+                    description: "Sophisticated diagnostic evaluation via advanced intelligent learning management system architecture. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
@@ -398,14 +406,14 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/manicon.png',
                     title: "Students and Graduates",
-                    highlight: "Bridge classroom-to-career gap with practical AI-enhanced learning ",
+                    highlight: "Bridge classroom-to-career gap with practical AI-enhanced learning",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
                     title: "Working Professionals   ",
-                    highlight: "Upskill on schedule with adaptive, personalized learning paths ",
+                    highlight: "Upskill on schedule with adaptive personalized learning paths",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -420,18 +428,53 @@ export const verticalData = [
             FAQs: [
                 {
                     id: '1',
-                    title: 'Will AI replace my teacher or coach?',
-                    content: "AiXQP is built to support educators, not replace them. Think of it as a co-teacher that never sleeps."
+                    title: 'What makes AiXQP different from other online learning platforms? ',
+                    content: "Unlike platforms that add AI as an afterthought, AiXQP is built ground-up as an AI learning experience platform with every lesson, quiz, and response powered by intelligent systems that understand, guide, and grow with learners through personalized AI learning system capabilities."
                 },
                 {
                     id: '2',
-                    title: 'Do I need to be tech-savvy?',
-                    content: 'Not at all. AiXQP is built for simplicity—with a no-learning-curve interface and onboarding that’s as smart as the platform itself. '
+                    title: 'How does the AI-powered education platform adapt to individual learning styles?',
+                    content: ' Our AI-powered education platform analyzes your performance data, learning preferences, and career objectives to create personalized study paths through adaptive learning technology that evolves with your progress and reinforces challenging concepts automatically.'
                 },
                 {
                     id: '3',
-                    title: 'What if my industry changes fast?',
-                    content: 'AiXQP updates content and learning paths automatically, based on industry trends and feedback—so you’re never outdated. '
+                    title: 'What types of AI certification programs are available?',
+                    content: 'AiXQP offers comprehensive AI certification programs across multiple domains including technology, healthcare, finance, marketing, and manufacturing with industry-relevant credentials and verified learning outcomes that enhance career prospects.'
+                },
+                {
+                    id: '4',
+                    title: 'How does the intelligent learning management system track progress?',
+                    content: 'Our intelligent learning management system provides real-time progress tracking, performance analytics, personalized study recommendations, and continuous assessment through sophisticated diagnostic tools that identify strengths and improvement areas.'
+                },
+                {
+                    id: '5',
+                    title: 'Is the platform suitable for corporate training programs? ',
+                    content: "Absolutely. AiXQP's adaptive learning technology scales across departments with intelligent automation solutions, automated content creation, streamlined assessment tools, and comprehensive reporting capabilities for enterprise-wide training programs. "
+                },
+                {
+                    id: '6',
+                    title: 'How secure is learner data on the platform?',
+                    content: "AiXQP prioritizes data privacy with end-to-end encryption, GDPR compliance, global education standards adherence, and secure data handling protocols ensuring learner information is never sold or compromised. "
+                },
+                {
+                    id: '7',
+                    title: 'Can the platform integrate with existing learning management systems?',
+                    content: " Yes, our intelligent learning management system supports seamless integration with existing LMS, HR systems, and talent platforms through robust APIs and SCORM compliance for maximum compatibility."
+                },
+                {
+                    id: '8',
+                    title: 'What languages are supported by the AI in student engagement features?',
+                    content: " Our AI in student engagement capabilities support multilingual learning with automatic translations, voiceovers, and localized content delivery making education borderless and accessible globally."
+                },
+                {
+                    id: '9',
+                    title: 'How does the personalized AI learning system improve completion rates?',
+                    content: "The personalized AI learning system increases completion rates from industry average 15% to 85% through engagement monitoring, content adaptation, interactive AI tutors, real-time feedback, and personalized motivation strategies."
+                },
+                {
+                    id: '10',
+                    title: 'Are there mobile learning capabilities available?',
+                    content: " Yes, AiXQP features mobile-optimized learning with fully responsive design, offline access capabilities, distraction-free interface, and seamless synchronization across devices for learning on-the-go."
                 },
             ],
             logo: 'AiXQP-whitelogo',
@@ -1576,20 +1619,20 @@ export const verticalData = [
             bannerTitle: "Smart Insurance for Secure Future",
             bannerDescription: "Personalized coverage adapting to your lifestyle ",
             bannerImage: "/images/vertical/InsureAiX-banner.jpg",
-            VerticalContentSection2Heading: 'The Insurance Revolution',
-            aboutSectionHeading: 'Meet InsureAiX   ',
-            capabilitiSectionHeading: 'Our Technology Advantage  ',
-            skillGapSectionHeading: 'Why Choose InsureAiX? ',
+            VerticalContentSection2Heading: 'The Insurance Revolution Crisis',
+            aboutSectionHeading: 'Revolutionary AI-Native Insurance Excellence',
+            capabilitiSectionHeading: 'Advanced Insurance AI Technology',
+            skillGapSectionHeading: 'Built For Insurance Innovation ',
             impactImage: '/images/vertical/InsureAiX-impact.png',
             VerticalContentSection2: {
-                contentOne: "The insurance industry still relies on outdated actuarial models from the last century. Traditional insurers use static, one-size-fits-all approaches that ignore genomics, behavior, lifestyle, and real-time health data—leaving billions in mispriced risk and customers paying premiums that don't reflect their actual risk profile",
+                contentOne: "The insurance industry still relies on outdated actuarial models from the last century. Traditional insurers use static, one-size-fits-all approaches that ignore genomics, behavior, lifestyle, and real-time health data requiring advanced artificial intelligence in insurance, predictive analytics in insurance, and ai in health insurance solutions. This leaves billions in mispriced risk and customers paying premiums that don't reflect their actual risk profile through outdated ai in insurance industry practices and lack of AI insurance automation. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/InsureAiX-section.png"
             },
             aboutSection: {
                 aboutImage: '/images/vertical/InsureAiX-about.png',
                 logo: '/images/vertical/InsureAiX-darklogo.png',
-                contentOne: "InsureAiX revolutionizes traditional insurance through cutting-edge AI-powered precision underwriting that goes beyond outdated demographic tables. Our proprietary technology integrates genomics, behavioral intelligence, real-time health monitoring, and multi-omics data fusion to deliver truly personalized coverage. Unlike conventional insurers using century-old actuarial models, we calculate biological age, assess lifestyle patterns, and provide dynamic premium adjustments that reward healthy choices. Transform your insurance experience with transparent, science-backed coverage that adapts to your unique risk profile and empowers better life decisions through intelligent insights.  ",
+                contentOne: "InsureAiX revolutionizes traditional insurance through cutting-edge AI-powered precision underwriting that goes beyond outdated demographic tables. Our proprietary technology integrates genomics, behavioral intelligence, real-time health monitoring, and multi-omics data fusion featuring comprehensive artificial intelligence in insurance, advanced predictive analytics in insurance, and intelligent digital insurance platform capabilities. Unlike conventional insurers using century-old actuarial models, we calculate biological age, assess lifestyle patterns, and provide dynamic premium adjustments through ai in health insurance and comprehensive ai in insurance industry automation. ",
                 contenttwo: "",
                 contentthree: ""
 
@@ -1597,54 +1640,54 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "Biological Age Assessment ",
-                    description: "Advanced genomics and epigenetics determine cellular aging beyond chronological age for precise risk calculation.  ",
+                    description: "Advanced genomics and epigenetics determine cellular aging beyond chronological age through artificial intelligence in insurance and precision risk calculation.  ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "Dynamic Premium Engine ",
-                    description: "Real-time premium adjustments based on lifestyle, health data, and behavioral changes that reward positive actions.  ",
+                    description: "Real-time premium adjustments based on lifestyle, health data, and behavioral changes via comprehensive predictive analytics in insurance and intelligent automation. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Multi-Omics Intelligence ",
-                    description: "Integration of genomics, proteomics, behavioral data using ConceptGen and Metscape platforms for comprehensive analysis.  ",
+                    description: "Integration of genomics, proteomics, behavioral data through advanced digital insurance platform and ConceptGen analytics for comprehensive analysis. ",
                     gradient: "from-[#222222] to-[#111111]", // dar
                 },
                 {
                     title: "Explainable AI Underwriting  ",
-                    description: "Transparent, traceable predictions built for regulatory scrutiny and audit compliance with full accountability. ",
+                    description: "Transparent, traceable predictions built for regulatory scrutiny through ai in health insurance compliance and full accountability systems.  ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Behavioral Intelligence Platform ",
-                    description: "Activity, sleep, stress, mental health tracking quantified and normalized for personalized risk modeling.  ",
+                    description: "Activity, sleep, stress, mental health tracking quantified through comprehensive ai in insurance industry platforms and personalized risk modeling. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Modular API Infrastructure ",
-                    description: "Seamless integration with EHR systems, wearable platforms, claims software, and policy engines for ecosystem connectivity.  ",
+                    description: "Seamless integration with EHR systems, wearable platforms, claims software via advanced AI insurance automation and ecosystem connectivity. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/manicon.png',
-                    title: "ISO Certified Excellence ",
-                    highlight: "ISO/IEC 9001:2015 and 27001:2022 certified with MSME Global Mart recognition ensuring quality and security standards.  ",
+                    title: "Insurance Carriers",
+                    highlight: "Precision underwriting with genomic analysis and behavioral intelligence through comprehensive artificial intelligence in insurance and advanced risk assessment. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
-                    title: "Proven Leadership Team  ",
-                    highlight: "Led by globally recognized executives with 27+ years combined experience across healthcare, technology, and manufacturing industries.  ",
+                    title: "Healthcare Organizations",
+                    highlight: "Integrated health insurance solutions with real-time monitoring and personalized coverage via ai in health insurance and predictive analytics capabilities. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
-                    title: "Advanced AI Technology ",
-                    highlight: "Proprietary multi-omics fusion platform integrating genomics, behavioral data, and real-time health monitoring for precision underwriting.   ",
+                    title: "Individual Consumers",
+                    highlight: "Personalized insurance coverage with dynamic premiums and lifestyle rewards through intelligent digital insurance platform and AI insurance automation. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -1653,32 +1696,32 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'What types of insurance does InsureAiX offer?',
-                    content: " Comprehensive coverage across health, life, motor, property, travel, cyber liability, and specialty insurance for individuals, families, and businesses through our AI-powered platform. "
+                    content: "Comprehensive coverage across health, life, motor, property, travel, cyber liability, and specialty insurance through our artificial intelligence in insurance platform for individuals, families, and businesses."
                 },
                 {
                     id: '2',
                     title: 'How does InsureAiX determine personalized premiums?',
-                    content: "Our proprietary AI engine analyzes biological age, genomics, behavioral data, lifestyle patterns, and real-time health metrics to calculate accurate risk profiles and dynamic premiums."
+                    content: "Our proprietary AI engine analyzes biological age, genomics, behavioral data, lifestyle patterns, and real-time health metrics through predictive analytics in insurance to calculate accurate risk profiles. "
                 },
                 {
                     id: '3',
                     title: 'Is my health and genetic data secure?',
-                    content: " Yes, we maintain end-to-end encryption, federated data models, fully anonymized genomic data, and comply with HIPAA, GDPR, and SOC 2 security standards. "
+                    content: "Yes, we maintain end-to-end encryption, federated data models, fully anonymized genomic data, and comply with HIPAA, GDPR, and SOC 2 security standards for digital insurance platform protection."
                 },
                 {
                     id: '4',
-                    title: 'Can my premiums change based on healthy lifestyle choices? ',
-                    content: ' Absolutely. Our dynamic premium engine rewards positive health actions, fitness improvements, and wellness program participation with real-time premium adjustments.  '
+                    title: 'Can my premiums change based on healthy lifestyle choices?',
+                    content: 'Absolutely. Our dynamic premium engine rewards positive health actions through ai in health insurance capabilities, fitness improvements, and wellness program participation with real-time adjustments. '
                 },
                 {
                     id: '5',
-                    title: 'How does InsureAiX integrate with existing healthcare systems? ',
-                    content: 'Our modular API infrastructure seamlessly connects with EHR systems, wearable devices, claims software, and policy engines for comprehensive health ecosystem integration.'
+                    title: 'How does InsureAiX integrate with existing healthcare systems?',
+                    content: 'Our modular API infrastructure seamlessly connects with EHR systems, wearable devices, claims software through comprehensive AI insurance automation for health ecosystem integration.'
                 },
                 {
                     id: '6',
                     title: 'What makes InsureAiX different from traditional insurance companies? ',
-                    content: 'We use AI-driven precision underwriting, biological age assessment, multiomics data fusion, and explainable AI technology instead of outdated demographic-based actuarial tables.'
+                    content: 'We use AI-driven precision underwriting, biological age assessment, multi-omics data fusion, and explainable AI technology through ai in insurance industry innovation instead of outdated demographic-based actuarial tables.'
                 }
             ],
             logo: 'AiXQP-whitelogo',

@@ -83,7 +83,7 @@ const AboutUs = () => {
             </div>
 
             <div className="bg-white py-16 rounded-bl-[85px] rounded-br-[85px]">
-                <ExecutiveLeadersSection execLeaders={executiveLeadership} />
+                <ExecutiveLeadersSection bgColor={""} execLeaders={executiveLeadership} />
             </div>
 
             <div className="bg-black py-16">

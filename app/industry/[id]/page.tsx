@@ -2,16 +2,13 @@
 import HomeFaqSection from '@/app/(features)/home/HomeFaqSection'
 import FutureSection from '@/components/DetailPageComponents/FutureSection'
 import SolutionGrid from '@/components/DetailPageComponents/SolutionGrid'
-// import AboutItCart from '@/components/verticalDetailPage/AboutItCart'
 import CapabilitySection from '@/components/verticalDetailPage/CapabilitySection'
 import SectionAbout from '@/components/verticalDetailPage/SectionAbout'
 import SkillGapSection from '@/components/verticalDetailPage/SkillGapSection'
-// import VerticalContentSection2 from '@/components/verticalDetailPage/verticalContentSection2'
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
 import { industryData } from '@/lib/data/industryData'
 import { usePathname } from 'next/navigation'
 import React from 'react'
-// import ServiceCard from '@/components/DetailPageComponents/ServiceCard';
 import WhyChoose from '@/components/DetailPageComponents/WhyChoose'
 
 
@@ -98,8 +95,10 @@ const IndustryDetailPage = () => {
 
             <div className="py-7 border-b-zinc-600">
                 <SolutionGrid
+                    capabilitiSectionHeading={filterdItem?.detailPage?.solutionGridHeading}
+                    capabilitiSectionDescription={filterdItem?.detailPage?.solutionGridHeadingDiscription}
                     className=""
-                    CapabilitySections={filterdItem?.detailPage?.CapabilitySections ?? []}
+                    CapabilitySections={filterdItem?.detailPage?.solutionGridItems ?? []}
                 />
             </div>
 
@@ -112,14 +111,6 @@ const IndustryDetailPage = () => {
             </div>
 
             <div className='bg-black     container'>
-                {/* <CapabilitySection
-                    isBackgroundImage={false}
-                    textColor='#45C2CC'
-                    itemePerRow={3}
-                    capabilitiSectionDescription={filterdItem?.detailPage?.capabilitiSectionDescription ?? ""}
-                    capabilitiSectionHeading={filterdItem?.detailPage?.capabilitiSectionHeading ?? ""}
-                    CapabilitySections={filterdItem?.detailPage?.CapabilitySections ?? []}
-                /> */}
                 <CapabilitySection
                     isBackgroundImage={false}
                     textColor="#45C2CC"
@@ -145,7 +136,7 @@ const IndustryDetailPage = () => {
                     contentthree={(filterdItem?.detailPage?.aboutSection as unknown as { contentthree?: string })?.contentthree ?? ""}
                     contentfour={(filterdItem?.detailPage?.aboutSection as unknown as { contentfour?: string })?.contentfour ?? ""}
                     aboutSectionHeading={filterdItem?.detailPage?.aboutSection2Heading ?? ""}
-                    image={filterdItem?.detailPage?.aboutSection?.aboutImage ?? ""}
+                    image={ "/images/industries/aboutfinalimage.png"}
                     logo={filterdItem?.detailPage?.aboutSection?.logo ?? ""}
                 // contentfour={(filterdItem?.detailPage?.aboutSection as any)?.contentfour ?? ""}
                 />
@@ -153,11 +144,16 @@ const IndustryDetailPage = () => {
             </div>
 
             <div className="py-10 border-b-2 border-b-zinc-600">
-                <FutureSection />
+                <FutureSection
+                    futurSectionHeading={filterdItem?.detailPage?.futurSectionHeading ?? ""}
+                    futurSectionDescription={filterdItem?.detailPage?.futurSectionDescription ?? ""}
+                />
             </div>
 
             <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
-                <HomeFaqSection faqs={homeFAQs} />
+                <HomeFaqSection
+                    FAQsHeading={filterdItem?.detailPage?.FAQsHeading}
+                    faqs={filterdItem?.detailPage?.FAQs ?? []} />
             </div>
 
         </div >

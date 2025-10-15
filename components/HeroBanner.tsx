@@ -21,6 +21,8 @@ interface HeroBannerProps {
   breadcrumbItems: BreadcrumbItem[];
   backgroundImage?: string;
   className?: string;
+  isCunsultNow?: boolean;
+
 }
 
 const HeroBanner: React.FC<HeroBannerProps> = ({
@@ -30,11 +32,12 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
   ctaUrl,
   breadcrumbItems,
   backgroundImage = '/images/services/service-bg.png',
-  className = ''
+  className = '',
+  isCunsultNow
 }) => {
   return (
     <section className={`relative w-full bg-black text-white overflow-hidden ${className}`}>
-      <div className="relative h-[40vh] sm:h-[40vh] md:h-[60vh] lg:h-[70vh] bg-gradient-to-t from-black/100">
+      <div className="relative h-[60vh] sm:h-[60vh] md:h-[60vh] lg:h-[80vh] bg-gradient-to-t from-black/100">
         <div
           className="absolute inset-0 z-0 "
           style={{
@@ -47,38 +50,68 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
         {/* Title and Breadcrumb Container */}
         <div className="container mx-auto px-4 relative z-10 pt-30 md:pt-35">
           {/* Title */}
-          <GradientTitle 
-            text={title} 
-            theme="dark" 
+          <GradientTitle
+            text={title}
+            theme="dark"
             className="text-3xl sm:text-4xl md:text-[64px] text-center"
           />
 
-          {/* Breadcrumb Navigation */}
-          <nav className="flex items-center justify-center text-[20px]">
-            <ul className="flex items-center">
-              {breadcrumbItems.map((item, index) => (
-                <React.Fragment key={index}>
-                  <li>
-                    <Link href={item.url} className="text-gray-300 hover:text-cyan-400 transition-colors">
-                      {item.label}
-                    </Link>
-                  </li>
-                  {index < breadcrumbItems.length - 1 && (
-                    <li className="mx-2 text-gray-400">
-                      /
-                    </li>
+          {
+            isCunsultNow && description && (
+              <div className="container mx-auto px-4">
+                <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+                  {/* Description */}
+                  <BodyText
+                    text={description}
+                    color="#ffffff"
+                    className="text-sm sm:text-base md:text-lg my-2"
+                  />
+
+                  {/* CTA Button */}
+                  {ctaText && (
+                    <OutlineBtn
+                      text={ctaText}
+                      icon={<FaArrowRight size={16} />}
+                      url={ctaUrl}
+                      theme="dark"
+                      className="mt-2"
+                    />
                   )}
-                </React.Fragment>
-              ))}
-            </ul>
-          </nav>
+                </div>
+              </div>
+            )
+          }
+
+          {
+            !isCunsultNow &&
+            <nav className="flex items-center justify-center text-[20px]">
+              <ul className="flex items-center">
+                {breadcrumbItems.map((item, index) => (
+                  <React.Fragment key={index}>
+                    <li>
+                      <Link href={item.url} className="text-gray-300 hover:text-cyan-400 transition-colors">
+                        {item.label}
+                      </Link>
+                    </li>
+                    {index < breadcrumbItems.length - 1 && (
+                      <li className="mx-2 text-gray-400">
+                        /
+                      </li>
+                    )}
+                  </React.Fragment>
+                ))}
+              </ul>
+            </nav>
+          }
+          {/* Breadcrumb Navigation */}
+
         </div>
       </div>
 
       {/* Description and CTA Content (below the wave) */}
       {
-        description && (
-          <div className="container mx-auto px-4 ">
+        !isCunsultNow && description && (
+          <div className="container mx-auto px-4">
             <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
               {/* Description */}
               <BodyText
@@ -88,17 +121,15 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
               />
 
               {/* CTA Button */}
-              {
-                ctaText && (
-                  <OutlineBtn
-                    text={ctaText}
-                    icon={<FaArrowRight size={16} />}
-                    url={ctaUrl}
-                    theme="dark"
-                    className="mt-2"
-                  />
-                )
-              }
+              {ctaText && (
+                <OutlineBtn
+                  text={ctaText}
+                  icon={<FaArrowRight size={16} />}
+                  url={ctaUrl}
+                  theme="dark"
+                  className="mt-2"
+                />
+              )}
             </div>
           </div>
         )

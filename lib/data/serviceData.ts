@@ -9,7 +9,7 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Your Business Operations with Advanced AI & ML Automation",
       bannerDescription: "Unlock the power of comprehensive AI & ML consulting services to streamline operations, eliminate manual bottlenecks, and gain predictive insights that drive business innovation through advanced artificial intelligence integration services.",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/ai-ml-banner.png",
       bannerImageAlt: '',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'From Static Systems to Intelligent Operations',
@@ -29,31 +29,31 @@ export const serviceData = [
       whyChooseUsHeading: 'Why Choose Us',
       whyChooseUsHeadingDescription: 'Explore innovative AI technologies and comprehensive automation solutions designed for intelligent business transformation.',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/services/ai-ml-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "With advanced AI ML development services and AI and ML automation services, we help you move from static systems to intelligent, self-optimizing processes—designed for growth, efficiency, and resilience.",
         contenttwo: "At iTCart, our approach goes beyond simply deploying AI. We deliver transformation—backed by comprehensive AI development services, human-centered design, and industry-specific expertise through our proven AI integration services and AI & ML solutions and services."
       },
       aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE',
       aboutSection2: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/vertical/ai-ml-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: 'AiXQP runs on AiXHub™, the core of the AiX Framework—bringing deep AI automation, intelligent decision-making, and scalable performance to your learning experience. ',
         contenttwo: "Whether you're a solo learner, training a team, or scaling an institution-wide learning program, AiXQP is ready to grow with you."
       },
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/ai-ml-choose1.png',
           title: 'Tailored Solutions ',
           content: "Customized AI and ML consulting services designed for your sector's unique challenges and compliance requirements through specialized artificial intelligence integration services."
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/ai-ml-choose2.png',
           title: ' Proactive Innovation ',
           content: 'Built-in scalability and compliance through advanced AI ML development services and comprehensive AI integration services ensuring future-ready solutions. '
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/ai-ml-choose3.png',
           title: 'Customer-Centric Approach',
           content: 'AI and ML automation services that enhance human capability rather than replace it, focusing on augmented intelligence and collaborative efficiency. '
         }
@@ -207,14 +207,14 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Innovative Application Services Tailored for Your Business Success",
       bannerDescription: "Transform your vision into reality with iTCart's AI Application Development Services. ",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/Application-Services-banner.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Build. Scale. Transform. Succeed.',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
-        logo: '/images/verticalLogos/AiXQP.png',
+        aboutImage: '/images/services/Application-Services-section.png',
+        logo: '/images/verticalLogos/Application-Services-section.png',
         contentOne: "Experience the power of expertly designed digital application development services that ignite business growth and streamline your operations. Our cutting-edge solutions equip you with smart tools, seamless enterprise application integration, and performance focus to drive digital transformation tailored to your unique business needs. ",
         contenttwo: ""
       },
@@ -316,17 +316,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore robust application technologies and advanced development capabilities with comprehensive solutions designed for transformation. ',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Application-Services-whychoose1.png',
           title: 'Proven Track Record',
           content: "98% client retention across 50+ global clients with 60% reduced application downtime and accelerated time-to-market. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Application-Services-whychoose2.png',
           title: 'Certified Excellence',
           content: 'ISO 9001 and ISO 27001 certifications ensuring quality and security with GDPR, HIPAA compliance implementation. '
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Application-Services-whychoose3.png',
           title: 'Innovation Leadership',
           content: 'AI-first approach with intelligent automation integration and cutting-edge custom application development services for competitive advantage. '
         }
@@ -401,13 +401,13 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Data into Scalable Business Intelligence with Experts",
       bannerDescription: "Partner with iTCart's business intelligence consultants to turn your data into scalable business intelligence solutions.",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/Business-Intelligence-banner.png",
       bannerImageAlt: 'Data analysis for business intelligence ',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Analyze. Visualize. Decide. Scale.',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/services/Business-Intelligence-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "Unified data view: Integrate information from multiple sources—spreadsheets, databases, cloud platforms, and external feeds for a single source of truth with our business intelligence data integration approach. In-depth analytics: Leverage data analysis for business intelligence to uncover trends, patterns, and growth opportunities tailored to your industry. ",
         contenttwo: ""
@@ -510,17 +510,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore robust business intelligence technologies and advanced analytics capabilities with comprehensive solutions designed for transformation. ',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Business-Intelligence-choose1.png',
           title: 'Cross-Industry Expertise',
           content: "Proven success across retail, finance, healthcare, manufacturing sectors with tailored business intelligence consulting services and measurable outcomes. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Business-Intelligence-choose2.png',
           title: 'End-to-End Delivery',
           content: 'Complete process from strategy and business intelligence implementation to visualization and actionable planning ensuring comprehensive solution delivery. '
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Business-Intelligence-choose3.png',
           title: 'Tailored Implementation',
           content: 'Solutions customized to your unique goals, budget, and requirements through personalized business intelligence data integration approaches. '
         }
@@ -595,13 +595,13 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Experience CloudOps that Deliver Uptime, Agility and Business Resilience",
       bannerDescription: "End-to-end cloud operations services to manage, monitor, optimize, and secure your multi-cloud infrastructure.",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/CloudOps-Services-banner.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Manage. Monitor. Optimize. Secure',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/services/CloudOps-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "At iTCart, our comprehensive cloud operations services are more than uptime—it's intelligent automation, continuous cost optimization, and full-stack observability. With proactive monitoring and AI-driven recommendations, we ensure your infrastructure is always secure, scalable, and performance-ready through advanced cloud infrastructure management services and cloud management and operation services. ",
         contenttwo: ""
@@ -704,17 +704,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore robust cloud technologies and advanced automation capabilities with comprehensive solutions designed for transformation. ',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/CloudOps-Services-choose1.png',
           title: 'Security-First Approach',
           content: "Cloud security and compliance integrated from the ground up with continuous vulnerability scanning, patching, and regulatory adherence. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/CloudOps-Services-choose2.png',
           title: 'Always-On Support',
           content: '24/7 cloud monitoring services with immediate remediation, expert technical support, and proactive infrastructure maintenance ensuring maximum uptime. '
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/CloudOps-Services-choose3.png',
           title: 'Intelligent Automation',
           content: 'Advanced cloudops automation solutions with AI-driven optimization, predictive analytics, and self-healing capabilities for enhanced operational efficiency. '
         }
@@ -789,13 +789,13 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Future-Proof Your Business with Top-Notch Cyber Security Services",
       bannerDescription: " Protect your organization from sophisticated cyber threats with cyber security services combining AI driven threat detection and response, expert guidance, and industry-specific strategies.",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/Cybersecurity-Services-banner.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Defend. Detect. Secure. Thrive',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/services/Cybersecurity-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "Our services combine advanced technologies, expert guidance, and proactive monitoring to defend your digital assets, ensure business continuity, and build lasting digital trust through comprehensive cyber security solutions. ",
         contenttwo: ""
@@ -898,17 +898,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore innovative security technologies and comprehensive protection solutions designed for resilient digital operations and compliance excellence. ',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Cybersecurity-Services-choose1.png',
           title: 'Comprehensive Protection Coverage',
           content: "Complete cyber security solutions securing every digital layer from infrastructure to identity with industry-specific strategies and compliance-ready frameworks. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Cybersecurity-Services-choose2.png',
           title: 'Domain Expertise Excellence',
           content: 'Seasoned professionals in BFSI, healthcare, e-commerce, SaaS, government, and manufacturing delivering specialized cybersecurity compliance solutions. '
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Cybersecurity-Services-choose3.png',
           title: 'End-to-End Service Portfolio',
           content: 'Complete service spectrum from strategy and implementation to monitoring and incident response ensuring comprehensive cyber security management'
         }
@@ -982,14 +982,14 @@ export const serviceData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Turn Data into Decisions. Faster. Smarter. Scalable",
-      bannerDescription: " From real-time dashboards to predictive insights, our Ai- Powered data analytics services help you extract, visualize, and act on business-critical intelligence. ",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerDescription: "From real-time dashboards to predictive insights, our Ai- Powered data analytics services help you extract, visualize, and act on business-critical intelligence. ",
+      bannerImage: "/images/services/Data-Analytics-banner.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Extract. Visualize. Predict. Transform.',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/services/Data-Analytics-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "At iTCart, we don't just analyze data—we transform it into actionable intelligence that fuels enterprise growth. Our advanced data analytics consulting services combine strategic vision with technical expertise, helping organizations overcome the most pressing challenges in data analytics. From data strategy to implementation, we deliver enterprise data analytics solutions powered by modern BI tools, AI-driven forecasting, and Generative AI for Data Analytics to drive data analytics in digital transformation. ",
         contenttwo: ""
@@ -1092,17 +1092,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore robust data technologies and advanced analytics capabilities with comprehensive solutions designed for transformation. ',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Data-Analytics-choose1.png',
           title: 'AI-Driven Innovation',
           content: "Embedded AI & ML capabilities delivering predictive and prescriptive analytics with industry-specific KPIs and intelligent automation through Generative AI for Data Analytics. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Data-Analytics-choose2.png',
           title: 'End-to-End Expertise',
           content: 'Comprehensive advanced data analytics consulting services from strategy development through implementation, training, and ongoing optimization support. '
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Data-Analytics-choose3.png',
           title: 'Secure Architecture',
           content: 'Cloud-native data infrastructure with robust security, compliance frameworks, and governance ensuring protected, scalable analytics environments. '
         }
@@ -1177,13 +1177,13 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Experience Top-Notch DevOps Services that Drive Reliable Software Releases",
       bannerDescription: " Transform your software delivery and operational efficiency with one of the best DevOps service providers in the industry delivering faster releases and continuous innovation.",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/DevOps-Services-banner.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Accelerate. Automate. Deploy. Scale.',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/services/DevOps-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "Transforming software development lifecycles through comprehensive DevOps services and solutions that bridge the gap between development and operations teams. We specialize in delivering DevOps strategy consulting solutions, DevOps implementation services, and continuous integration pipelines. ",
         contenttwo: ""
@@ -1286,17 +1286,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore innovative DevOps technologies and comprehensive automation solutions designed for reliable software delivery and operational excellence. ',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/DevOps-Services-choose1.png',
           title: 'Proven Expertise Results',
           content: "Advanced enterprise DevOps solutions generating tangible business outcomes including faster time-to-market, reduced deployment failures, and enhanced operational efficiency. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/DevOps-Services-choose2.png',
           title: 'End-to-End DevOps Capabilities',
           content: 'Complete DevOps services and solutions from cloud migrations to comprehensive CI/CD pipeline implementation through best DevOps service providers expertise. '
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/DevOps-Services-choose3.png',
           title: 'Industry-Agnostic Solutions',
           content: 'Tailored DevOps infrastructure management providers services meeting unique organizational needs across industries dismantling silos and fostering collaboration innovation. '
         }
@@ -1371,13 +1371,13 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Experience Digital Commerce Excellence with iTCart",
       bannerDescription: "Our digital commerce services empower you to thrive by combining advanced technologies, secure payment systems, and seamless channel integration for lasting customer loyalty.",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/Digital-Commerce-banner.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Innovate. Integrate. Optimize. Dominate.',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/services/Digital-Commerce-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "iTCart stands out as a premier digital commerce partner by uniquely combining cutting-edge AI automation with comprehensive e-commerce solutions through our proprietary AiXHub™ Framework delivering intelligent, adaptive digital commerce platforms. ",
         contenttwo: ""
@@ -1480,17 +1480,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore innovative commerce technologies and comprehensive solutions designed for sustainable business growth and competitive excellence. ',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Digital-Commerce-choose1.png',
           title: 'Security-First Architecture',
           content: "Robust security measures and integrated secure payment gateways protecting transactions and customer data, ensuring safe online shopping experiences. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Digital-Commerce-choose2.png',
           title: 'Multi-Channel Retail Solutions',
           content: 'Excellence in cross-channel integration as leading multi-channel retail solutions providers, seamlessly connecting systems for unified, efficient platforms. '
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Digital-Commerce-choose3.png',
           title: 'AI-Driven Customer Experience',
           content: 'Customer-centric design approach focusing on intuitive interfaces and engaging experiences powered by artificial intelligence enhancing user satisfaction. '
         }
@@ -1565,13 +1565,13 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Propel Your Business Forward with Next-Gen Digital Transformation Services ",
       bannerDescription: "Scale your organization's full potential with iTCart's expert-led digital transformation services designed for sustainable growth and competitive advantage.",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/Digital-Transformation-banner.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Modernize. Optimize. Scale. Transform.',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/services/Digital-Transformation-sectionimage.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "We help businesses modernize operations, elevate customer experiences, and future-proof their growth by embracing cutting-edge digital transformation technologies, agile processes, and data-driven strategies through comprehensive digital transformation consulting. ",
         contenttwo: ""
@@ -1674,17 +1674,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore innovative digital technologies and comprehensive transformation solutions designed for sustainable business modernization and competitive excellence. ',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Digital-Transformation-why-coose-us1.png',
           title: 'End-to-End Partnership',
           content: "Comprehensive digital transformation consulting services from initial strategic assessment to full implementation and ongoing maintenance support. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Digital-Transformation-why-coose-us2.png',
           title: 'Proven Frameworks',
           content: 'Established methodologies leveraging industry-leading models combined with proprietary AiXHub framework ensuring successful enterprise digital transformation.  '
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Digital-Transformation-why-coose-us3.png',
           title: 'Deep Expertise',
           content: 'Strategic business transformation consulting expertise combining consulting acumen with hands-on technical implementation for seamless strategy-technology integration. '
         }
@@ -1759,13 +1759,13 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Power Intelligent Insights and Automation with IoT Services",
       bannerDescription: "From device connectivity to cloud analytics, our IoT development services help you design, deploy, and scale intelligent IoT ecosystems.",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/iot-services-banner.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Connect. Automate. Optimize. Transform.',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/services/iot-services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "At iTCart, we bridge the gap between physical devices and digital intelligence. With deep expertise in edge computing, sensor integration, cloud telemetry, and AI-driven analytics, we help enterprises harness the full potential of IoT in business operations for measurable results through comprehensive IoT solutions and services.",
         contenttwo: ""
@@ -1868,17 +1868,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore innovative IoT technologies and comprehensive solutions designed for intelligent automation and competitive advantage.',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/iot-services-choose1.png',
           title: 'Top IoT Solution Provider',
           content: "Recognized as one of the top IoT solution providers with proven expertise in delivering comprehensive IoT development services across industries. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/iot-services-choose2.png',
           title: 'End-to-End IoT Services',
           content: 'Complete IoT solutions and services portfolio from strategic consulting to ongoing managed services ensuring seamless IoT transformation journey.'
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/iot-services-choose3.png',
           title: 'Custom IoT Expertise',
           content: 'Specialized custom IoT solutions development tailored to unique business requirements with industry-specific compliance and optimization capabilities. '
         }
@@ -1960,13 +1960,13 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Empower Your Business with Expertly Crafted Managed IT Services",
       bannerDescription: "Achieve peak efficiency, robust security, and business growth with managed IT designed for seamless performance and continuous innovation. ",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/Managed-IT-Services-banner.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Monitor. Secure. Optimize. Transform.',
       aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/services/Managed-IT-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "Experience the power of enterprise-grade managed IT services that go beyond traditional support to deliver transformational business outcomes. iTCart's comprehensive managed technology services combine cutting-edge technology with strategic expertise to optimize operations, enhance cybersecurity posture, and accelerate sustainable growth through our remote monitoring and management approach. ",
         contenttwo: ""
@@ -2069,17 +2069,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore robust IT technologies and advanced management capabilities with comprehensive solutions designed for transformation. ',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Managed-IT-Services-choose1.png',
           title: 'Complete IT Coverage',
           content: "From network management and cybersecurity to cloud infrastructure solutions, data backup, and strategic IT consulting services—all under one roof. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Managed-IT-Services-choose2.png',
           title: 'Proactive Monitoring Excellence',
           content: 'Our remote monitoring and management approach prevents downtime through real-time issue detection and instant resolutions with predictive analytics. '
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Managed-IT-Services-choose3.png',
           title: 'Personalized Strategies',
           content: "Tailored managed technology services solutions designed for your organization's specific needs, size, industry requirements, and growth objectives."
         }
@@ -2154,17 +2154,22 @@ export const serviceData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "You Have Vision. We Bring It to Life",
       bannerDescription: "Transform ideas into scalable startup success today",
-      bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+      bannerImage: "/images/services/Startup-Services-banner.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Innovate. Build. Scale. Succeed.',
-
+      aboutSection: {
+        aboutImage: '/images/services/Startup-Services-section.png',
+        logo: '/images/verticalLogos/AiXQP.png',
+        contentOne: "We partner with founders, innovators, and early-stage teams through our startup business consultants providing comprehensive startup consulting services, custom software development for startups, and digital transformation for startups solutions. ",
+        contenttwo: ""
+      },
       skillGapSectionHeading: 'Comprehensive Startup Business Consulting Suite',
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent startup development and seamless market entry ensuring optimal business growth.',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/manicon.png',
           title: "Startup Consulting Services Strategy",
           highlight: "Comprehensive startup consulting services including idea validation, market research, competitor benchmarking, and feasibility studies through expert startup business consultants. ",
           description: "",
@@ -2258,24 +2263,24 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore innovative startup technologies and comprehensive solutions designed for rapid growth and market success.',
       whyChooseUsCards: [
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Startup-Services-choose1.png',
           title: 'End-to-End Partnership',
           content: "Comprehensive startup consulting services from ideation to scaling with dedicated startup business consultants throughout your entrepreneurial journey. "
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Startup-Services-choose2.png',
           title: 'Technology Excellence',
           content: 'Specialized custom software development for startups combined with cutting-edge AI integration for startups ensuring competitive technological advantage.'
         },
         {
-          image: '/images/services/Tailored-Solutions.png',
+          image: '/images/services/Startup-Services-choose3.png',
           title: 'Digital Innovation',
           content: 'Complete digital transformation for startups including cloud infrastructure, automation, and affordable SaaS backup software for startups ensuring operational excellence. '
         }
       ],
       aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
       aboutSection2: {
-        aboutImage: '/images/vertical/section2Image.png',
+        aboutImage: '/images/vertical/Startup-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: 'iTCart Startup Consulting Services run on AiXHub™, the core of the AiX Framework—bringing intelligent automation, predictive analytics, and scalable performance to your startup development experience. ',
         contenttwo: "Whether you're launching your first product or scaling your second startup, our comprehensive solutions including AI integration for startups are ready to grow with you. "
@@ -2322,12 +2327,7 @@ export const serviceData = [
         sectionTwoFirstImage: "/images/vertical/section2Image.png"
       },
 
-      aboutSection: {
-        aboutImage: '/images/vertical/section2Image.png',
-        logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "We partner with founders, innovators, and early-stage teams through our startup business consultants providing comprehensive startup consulting services, custom software development for startups, and digital transformation for startups solutions. ",
-        contenttwo: ""
-      },
+
       logo: 'AiXQP-whitelogo',
       section2Data: '',
       section2Image: '/images/vertical/section2Image.png',
@@ -2470,17 +2470,17 @@ const one = {
   whyChooseUsHeadingDescription: ' ',
   whyChooseUsCards: [
     {
-      image: '/images/services/Tailored-Solutions.png',
+      image: '/images/services/Digital-Transformation-sectionimage.png',
       title: '',
       content: " "
     },
     {
-      image: '/images/services/Tailored-Solutions.png',
+      image: '/images/services/Digital-Transformation-sectionimage.png',
       title: '',
       content: ' '
     },
     {
-      image: '/images/services/Tailored-Solutions.png',
+      image: '/images/services/Digital-Transformation-sectionimage.png',
       title: ' ',
       content: ''
     }
