@@ -21,8 +21,7 @@ export const solutionData = [
       futureItems: [
         {
           title: "Smart Collaboration",
-          description:
-            "AI-enhanced communication tools to improve employee engagement and communication through comprehensive business communication software.",
+          description: "AI-enhanced communication tools to improve employee engagement and communication through comprehensive business communication software.",
           icon: "/images/solutions/futureSectionIcon.png",
         },
         {
@@ -33,14 +32,12 @@ export const solutionData = [
         },
         {
           title: "Intelligent Automation",
-          description:
-            "Benefits of intelligent intranet platforms via advanced workplace automation software reducing manual tasks.",
+          description: "Benefits of intelligent intranet platforms via advanced workplace automation software reducing manual tasks.",
           icon: "/images/solutions/futureSectionIcon.png",
         },
         {
           title: "Modern Transformation",
-          description:
-            "Complete modern workplace transformation supporting modern intranet for remote teams operations.",
+          description: "Complete modern workplace transformation supporting modern intranet for remote teams operations.",
           icon: "/images/solutions/futureSectionIcon.png",
         },
         {
@@ -87,22 +84,22 @@ export const solutionData = [
         {
           title: "Technology Companies",
           description: "Modern intranet for remote teams with advanced collaboration tools, AI coaching, and comprehensive project management through enterprise intranet with workflow automation.",
-          image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop"
+          image: "/images/solutions/Collaboration-Excellence.png"
         },
         {
           title: "Financial Services",
           description: "Secure employee experience platform with regulatory compliance, document management, and comprehensive communication systems via best digital workplace software for enterprises.",
-          image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop"
+          image: "/images/solutions/Collaboration-Excellence.png"
         },
         {
           title: "Healthcare Organizations",
           description: "Digital workplace solution supporting patient data security, staff coordination, and comprehensive training management platforms with intelligent automation capabilities.",
-          image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop"
+          image: "/images/solutions/Collaboration-Excellence.png"
         },
         {
           title: "Manufacturing Enterprises",
           description: "Workplace automation software enabling shift management, safety protocols, and comprehensive operational coordination through enterprise intranet with workflow automation systems.",
-          image: "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800&h=600&fit=crop"
+          image: "/images/solutions/Collaboration-Excellence.png"
         }
       ],
       chooseHeading: "one",
