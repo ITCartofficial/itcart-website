@@ -204,150 +204,148 @@ export const solutionData = [
     detailPage: {
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
-      bannerTitle: "",
-      bannerDescription: "",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
       bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
-      VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: '',
       aboutSection: {
         aboutImage: '/images/industries/travelTourism-section.png',
-        logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "",
         contenttwo: ""
       },
-      skillGapSectionHeading: '',
-      skillGapHeadingDescription: '',
-      skillGapSection: [
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
         {
-          icon: '/images/solutions/futureSectionIcon.png',
           title: "",
-          highlight: "",
           description: "",
-          gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+          icon: "/images/solutions/futureSectionIcon.png",
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
           title: "",
-          highlight: "",
           description: "",
-          gradient: "from-[#222222] to-[#111111]",   // add gradient
+          icon: "/images/solutions/futureSectionIcon.png",
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
           title: "",
-          highlight: "",
           description: "",
-          gradient: "from-[#222222] to-[#111111]",   // add gradient
+          icon: "/images/solutions/futureSectionIcon.png",
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
           title: "",
           highlight: "",
           description: "",
-          gradient: "from-[#222222] to-[#111111]",   // add gradient
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
         },
       ],
       solutionGridHeading: '',
-      solutionGridHeadingDiscription: '',
       solutionGridItems: [
         {
           title: "",
           description: "",
-          icon: '/images/solutions/futureSectionIcon.png',
-          image: '/images/industries/travelTourism-solution1.png'
+          image: "/images/solutions/Collaboration-Excellence.png"
         },
         {
           title: "",
           description: "",
-          icon: '/images/solutions/futureSectionIcon.png',
-          image: '/images/industries/travelTourism-solution2.png'
+          image: "/images/solutions/Collaboration-Excellence.png"
         },
         {
           title: "",
           description: "",
-          icon: '/images/solutions/futureSectionIcon.png',
-          image: '/images/industries/travelTourism-solution3.png'
+          image: "/images/solutions/Collaboration-Excellence.png"
         },
         {
-          title: "Passenger Booking and Reservation System",
+          title: "",
           description: "",
-          icon: '/images/solutions/futureSectionIcon.png',
-          image: '/images/industries/travelTourism-solution4.png'
-        },
-        {
-          title: "Passenger Booking and Reservation System",
-          description: "",
-          icon: '/images/solutions/futureSectionIcon.png',
-          image: '/images/industries/travelTourism-solution5.png'
-        },
-        {
-          title: "Cross-System Orchestration  ",
-          description: "Unified execution across ERP, CRM, HRMS ",
-          icon: '/images/solutions/futureSectionIcon.png',
-          image: '/images/industries/travelTourism-solution6.png'
+          image: "/images/solutions/Collaboration-Excellence.png"
         }
       ],
-      whyChooseUsHeading: '',
-      whyChooseUsHeadingDescription: '',
-      whyChooseUsCards: [
+      chooseHeading: "",
+      chooseItems: [
         {
-          image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
         },
         {
-          image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
         },
         {
-          image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
-        }
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
       ],
-      capabilitiSectionHeading: '',
-      capabilitiSectionDescription: '',
-      CapabilitySections: [
-        {
-          title: "",
-          description: "",
-          icon: '/images/solutions/futureSectionIcon.png'
-        },
-        {
-          title: "",
-          description: "",
-          icon: '/images/solutions/futureSectionIcon.png'
-        },
-        {
-          title: "",
-          description: "",
-          icon: '/images/solutions/futureSectionIcon.png'
-        },
-        {
-          title: "",
-          description: "",
-          icon: '/images/solutions/futureSectionIcon.png'
-        },
-        {
-          title: "",
-          description: "",
-          icon: '/images/solutions/futureSectionIcon.png'
-        },
-        {
-          title: "",
-          description: "Unified execution across ERP, CRM, HRMS ",
-          icon: '/images/solutions/futureSectionIcon.png'
-        }
-      ],
-      showShadedBackground: true,
-      aboutSection2Heading: 'Our Proprietary AI Engine',
-      aboutSection2: {
-        aboutImage: '/images/vertical/section2Image.png',
-        logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: '',
-        contenttwo: ""
-      },
       futurSectionHeading: "",
       futurSectionDescription: "",
       FAQsHeading: '',
@@ -394,60 +392,1920 @@ export const solutionData = [
     title: "Digital Transformation Suite",
     description: "Amplify efficiency, marketing, and service. Tailored for quality and real-time visibility, empowering your data-driven success through business intelligence.",
     linkUrl: "/services/business-intelligence",
-    imageSrc: "/images/solutions/DigitalTransformationSuite.png"
+    imageSrc: "/images/solutions/DigitalTransformationSuite.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        }
+      ],
+      chooseHeading: "",
+      chooseItems: [
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Business Process Automation",
     description: "Enhance business efficiency, streamline workflows, reduce manual tasks and boost productivity, paving the way for agile and optimized operations.",
     linkUrl: "/services/cloud-computing",
-    imageSrc: "/images/solutions/Business-Process-Automation.png"
+    imageSrc: "/images/solutions/Business-Process-Automation.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        }
+      ],
+      chooseHeading: "",
+      chooseItems: [
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Human Resource Management",
     description: "Optimize your workforce, streamline operations, empower teams and foster a productive, engaged workforce through innovative HR management tools.",
     linkUrl: "/services/cybersecurity-services",
-    imageSrc: "/images/solutions/HR_management.png"
+    imageSrc: "/images/solutions/HR_management.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        }
+      ],
+      chooseHeading: "",
+      chooseItems: [
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Learning Management System",
     description: "Transform education, empower seamless learning, foster engagement and streamline educational experiences with our innovative, user-centric platform.",
     linkUrl: "/services/data-analytics",
-    imageSrc: "/images/solutions/Learning-Management-System.png"
+    imageSrc: "/images/solutions/Learning-Management-System.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        }
+      ],
+      chooseHeading: "",
+      chooseItems: [
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Enterprise Resource Planning",
     description: "Redefine business excellence with our ERP system. Unify operations, streamline processes and ignite efficiency for a future-ready, agile enterprise primed for success.",
     linkUrl: "/services/devops-services",
-    imageSrc: "/images/solutions/Enterprise-Resource.png"
+    imageSrc: "/images/solutions/Enterprise-Resource.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        }
+      ],
+      chooseHeading: "",
+      chooseItems: [
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Customer Relationship Management",
     description: "Supercharge relationships with our CRM system. Unify customer data, streamline interactions and drive business growth through personalized, seamless, and data-driven connections.",
     linkUrl: "/services/digital-commerce",
-    imageSrc: "/images/solutions/Customer-Relationship-Management.png"
+    imageSrc: "/images/solutions/Customer-Relationship-Management.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        }
+      ],
+      chooseHeading: "",
+      chooseItems: [
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Supply Chain Management",
     description: "Empower your business backbone with our Supply Chain Management solutions. Streamline logistics, elevate transparency and foster efficiency for a robust, agile, and interconnected business network.",
     linkUrl: "/services/digital-transformation",
-    imageSrc: "/images/solutions/Supply-Chain-Management.png"
+    imageSrc: "/images/solutions/Supply-Chain-Management.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        }
+      ],
+      chooseHeading: "",
+      chooseItems: [
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Logistics Management",
     description: "Reimagine your logistical prowess with our Logistics Management solutions. Effortlessly streamline distribution, refine processes, and elevate efficiency for a versatile, integrated logistics network.",
     linkUrl: "/services/iot-services",
-    imageSrc: "/images/solutions/Logistics-Management.png"
+    imageSrc: "/images/solutions/Logistics-Management.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        }
+      ],
+      chooseHeading: "",
+      chooseItems: [
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Governance, Risk& Compliance",
     description: "Strengthen enterprise, enhance transparency, manage risks and uphold regulatory standards for a compliant and resilient business framework.",
     linkUrl: "/services/managed-it-services",
-    imageSrc: "/images/solutions/Governance-Risk-Compliance.png"
+    imageSrc: "/images/solutions/Governance-Risk-Compliance.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        }
+      ],
+      chooseHeading: "",
+      chooseItems: [
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Financial Business Intelligence",
     description: "Uncover data-driven decision-making, harness valuable analytics and steer strategic financial growth for an informed and adaptive enterprise.",
     linkUrl: "/services/startup-services",
-    imageSrc: "/images/solutions/Financial-Business-Intelligence.png"
+    imageSrc: "/images/solutions/Financial-Business-Intelligence.png",
+     detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "",
+          description: "",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: '',
+      colabSectionDiscription: '',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "",
+          highlight: "",
+          description: "",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        },
+        {
+          title: "",
+          description: "",
+          image: "/images/solutions/Collaboration-Excellence.png"
+        }
+      ],
+      chooseHeading: "",
+      chooseItems: [
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
 ];
