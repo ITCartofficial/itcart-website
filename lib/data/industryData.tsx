@@ -3517,90 +3517,90 @@ export const industryData = [
     detailPage: {
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
-      bannerTitle: "",
-      bannerDescription: "",
+      bannerTitle: "Travel Technology Solutions Excellence",
+      bannerDescription: "Empowering modern tourism through comprehensive travel industry digital transformation and AI travel automation software for hotels",
       bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
-      aboutSectionHeading: '',
+      aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
         aboutImage: '/images/industries/travelTourism-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "",
+        contentOne: "The travel and tourism sector faces complex challenges including digital transformation demands, operational efficiency, and guest satisfaction expectations. Modern tourism companies require robust travel technology solutions infrastructure enabling comprehensive travel industry software, travel industry digital transformation, tour operator management software, travel agency automation software, tour management software, guest experience automation, travel operations software, AI travel automation software for hotels, guest experience automation, and tourism intelligence platform. iTCart delivers intelligent hospitality solutions through innovative automation frameworks and comprehensive travel management. ",
         contenttwo: ""
       },
-      skillGapSectionHeading: '',
-      skillGapHeadingDescription: '',
+      skillGapSectionHeading: 'Travel Technology Excellence',
+      skillGapHeadingDescription: 'Accelerating travel technology solutions through comprehensive innovation platforms ',
       skillGapSection: [
         {
           icon: '/images/vertical/icons/manicon.png',
-          title: "",
-          highlight: "",
+          title: "Smart Tourism Operations",
+          highlight: "Advanced travel operations software systems with tour operator management software, guest experience automation, and comprehensive operational coordination across all tourism touchpoints. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/images/vertical/icons/handicons.png',
-          title: "",
-          highlight: "",
+          title: "Digital Travel Intelligence ",
+          highlight: "Comprehensive travel industry digital transformation featuring AI travel automation software for hotels, seamless booking flows, and continuous guest satisfaction advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/vertical/icons/handicons.png',
-          title: "",
-          highlight: "",
+          title: "Tour Management Innovation",
+          highlight: "Real-time tour management software utilizing smart algorithms for itinerary management and proactive travel optimization through tourism intelligence platform strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/vertical/icons/handicons.png',
-          title: "",
-          highlight: "",
+          title: "Connected Travel Ecosystem",
+          highlight: "Advanced travel agency automation software enabling seamless integration through travel industry software excellence and guest experience automation services. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
       ],
-      solutionGridHeading: '',
-      solutionGridHeadingDiscription: '',
+      solutionGridHeading: 'Our Travel & Tourism Software Solutions',
+      solutionGridHeadingDiscription: 'Explore our comprehensive suite of travel technology solutions ',
       solutionGridItems: [
         {
-          title: "",
-          description: "",
+          title: "Tour Operator Platform",
+          description: "Comprehensive tour operator management software with reservation processing, itinerary management, vendor coordination, and service monitoring systems optimizing travel operations through advanced travel industry software. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution1.png'
         },
         {
-          title: "",
-          description: "",
+          title: "Travel Agency Suite",
+          description: "Advanced travel agency automation software featuring booking automation, customer management, commission tracking, and operational coordination systems enhancing business efficiency through travel technology solutions. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution2.png'
         },
         {
-          title: "",
-          description: "",
+          title: "Guest Experience Engine",
+          description: "Integrated guest experience automation with personalized services through AI travel automation software for hotels applications and location-based services delivering seamless travel experiences. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution3.png'
         },
         {
-          title: "Passenger Booking and Reservation System",
-          description: "",
+          title: "Tourism Intelligence System ",
+          description: "Dynamic tourism intelligence platform utilizing predictive analytics for destination management, demand forecasting, and comprehensive operational intelligence supporting sustainable tourism through travel industry digital transformation. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution4.png'
         },
         {
-          title: "Passenger Booking and Reservation System",
-          description: "",
+          title: "Hotel Automation Platform",
+          description: "Automated AI travel automation software for hotels featuring smart room controls, service optimization, and guest satisfaction enhancement through comprehensive travel operations software solutions. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution5.png'
         },
         {
-          title: "Cross-System Orchestration  ",
-          description: "Unified execution across ERP, CRM, HRMS ",
+          title: "Tour Management Hub",
+          description: "Connected tour management software with travel industry software integration, guest experience automation, real-time coordination, and operational excellence management. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution6.png'
         }
       ],
-      whyChooseUsHeading: '',
+      whyChooseUsHeading: 'Why choose us',
       whyChooseUsHeadingDescription: '',
       whyChooseUsCards: [
         {
@@ -3619,37 +3619,37 @@ export const industryData = [
           content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
         }
       ],
-      capabilitiSectionHeading: '',
-      capabilitiSectionDescription: '',
+      capabilitiSectionHeading: 'Our Additional Solutions',
+      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "",
-          description: "",
+          title: "Business Intelligence Systems",
+          description: "Advanced analytics platforms providing travel insights, guest behavior analysis, market optimization, and comprehensive performance tracking for strategic tourism decision-making through tourism intelligence platform capabilities. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "",
-          description: "",
+          title: "DevOps Management",
+          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for travel technology solutions services and system reliability. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "",
-          description: "",
+          title: "Supply Chain Solutions ",
+          description: "Comprehensive vendor management featuring service coordination, inventory tracking, procurement automation, and logistics coordination through intelligent tour management software solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "",
-          description: "",
+          title: "Learning Management System",
+          description: "Training modules for tourism teams, certification tracking, service assessments, and skills development through immersive travel operations software experiences. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "",
-          description: "",
+          title: "Loyalty CRM Systems",
+          description: "Guest relationship management with personalized communications, preference tracking, reward-based services, and enhanced experiences through comprehensive travel industry software platforms. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "",
-          description: "Unified execution across ERP, CRM, HRMS ",
+          title: "Human Resource Management ",
+          description: "Staff scheduling, performance management, compliance tracking, and workforce optimization through automated HR processes and AI travel automation software for hotels applications. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -3661,44 +3661,44 @@ export const industryData = [
         contentOne: '',
         contenttwo: ""
       },
-      futurSectionHeading: "",
-      futurSectionDescription: "",
-      FAQsHeading: '',
+      futurSectionHeading: "Ready to get started?",
+      futurSectionDescription: "Transform your travel & tourism operations with comprehensive automation solutions ",
+      FAQsHeading: 'Everything you need to know about Travel & Tourism',
       FAQs: [
         {
           id: '1',
-          title: '',
-          content: ""
+          title: "What makes iTCart's travel technology solutions different?",
+          content: "Our comprehensive approach integrates tour operator management software capabilities with proven guest experience automation methodologies, delivering measurable results through advanced travel agency automation software, tour management software, and AI travel automation software for hotels ensuring competitive advantage in tourism."
         },
         {
           id: '2',
-          title: 'How long does it take to implement AI and ML automation services?',
-          content: ''
+          title: 'How do travel industry software solutions improve operations?',
+          content: 'Travel industry software applications optimize reservation processing, enhance operational workflows, streamline tour coordination, and improve service delivery through travel industry digital transformation services and real-time operational insights delivering tourism excellence. '
         },
         {
           id: '3',
-          title: '',
-          content: ''
+          title: 'What guest experience automation features are included',
+          content: 'Our guest experience automation platform includes personalized service delivery, preference tracking, AI travel automation software for hotels integration, mobile check-in, loyalty management, and comprehensive dashboard with real-time monitoring capabilities ensuring guest satisfaction.'
         },
         {
           id: '4',
-          title: '',
-          content: ''
+          title: 'How does tour operator management software enhance efficiency?',
+          content: 'Tour operator management software solutions streamline itinerary planning, vendor coordination, booking management, customer communication, and operational processes through intelligent automation and travel operations software integration improving business efficiency.'
         },
         {
           id: '5',
-          title: "",
-          content: ""
+          title: "What tourism intelligence platform services do you offer?",
+          content: "Our tourism intelligence platform encompasses market analysis systems, demand forecasting tools, competitor intelligence, performance analytics, and comprehensive optimization through travel technology solutions delivering business improvements."
         },
         {
           id: '6',
-          title: "",
-          content: ""
+          title: "How long does travel industry digital transformation implementation take?",
+          content: "Travel industry digital transformation typically requires nine to twelve months for comprehensive implementation, including system integration, staff training, and optimization phases ensuring minimal operational disruption while maximizing investment returns."
         },
         {
           id: '7',
-          title: "",
-          content: ""
+          title: "Can your solutions integrate with existing travel systems?",
+          content: "Yes, our travel technology solutions feature robust APIs and pre-built integrations ensuring seamless connectivity with existing booking engines, tour management software, and travel industry software platforms without disrupting operations."
         },
       ]
     }

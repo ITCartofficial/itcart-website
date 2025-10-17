@@ -7,7 +7,7 @@ export const solutionData = [
     detailPage: {
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
-      bannerTitle: "bannerTitle",
+      bannerTitle: ".................",
       bannerDescription: "bannerDescription",
       bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
       aboutSectionHeading: '...',
@@ -204,8 +204,8 @@ export const solutionData = [
     detailPage: {
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
-      bannerTitle: "bannerTitle",
-      bannerDescription: "bannerDescription",
+      bannerTitle: "Best Digital Workplace Software for Enterprises",
+      bannerDescription: "Transform workplace through comprehensive enterprise collaboration platform excellence ",
       bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
       aboutSectionHeading: '',
       aboutSection: {
@@ -396,7 +396,7 @@ export const solutionData = [
     detailPage: {
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
-      bannerTitle: "bannerTitle",
+      bannerTitle: "bannerTitle...................",
       bannerDescription: "bannerDescription",
       bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
       aboutSectionHeading: '',
@@ -2121,7 +2121,7 @@ export const solutionData = [
     description: "Uncover data-driven decision-making, harness valuable analytics and steer strategic financial growth for an informed and adaptive enterprise.",
     linkUrl: "/services/startup-services",
     imageSrc: "/images/solutions/Financial-Business-Intelligence.png",
-     detailPage: {
+    detailPage: {
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "bannerTitle",
