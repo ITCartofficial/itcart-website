@@ -3,6 +3,7 @@ import { useState } from "react";
 import BodyText from "../typography/BodyText"
 import GradientTitle from "../typography/GradientTitle"
 import { FaArrowRight } from "react-icons/fa6";
+import Image from "next/image";
 
 function WhyImplementation() {
 
@@ -83,11 +84,13 @@ function WhyImplementation() {
                 </div>
 
                 <div className="w-full md:w-2/3 flex flex-col items-start gap-4">
-                    <div className="w-full">
-                        <img
-                            src={selected?.image}
+                    <div className="w-full relative rounded-lg overflow-hidden h-[300px] sm:h-[400px] lg:h-[500px]">
+                        <Image
+                            src={selected?.image || "/placeholder.jpg"} // fallback image
                             alt="AI Concept"
-                            className="rounded-lg w-full object-cover"
+                            fill
+                            className="object-cover rounded-lg"
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 100vw"
                         />
                     </div>
 

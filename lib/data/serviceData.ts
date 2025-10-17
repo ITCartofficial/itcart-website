@@ -2356,191 +2356,191 @@ export const serviceData = [
 
 
 
-const one = {
-  serviceName: 'Cybersecurity Services',
-  bannerButtonText: "Get in touch",
-  bannerTitle: "",
-  bannerDescription: "",
-  bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
-  bannerImageAlt: 'Custom Software Development for Startups',
-  VerticalContentSection2Heading: 'The Digital Workspace Challenge',
-  bannerNtnName: 'Get Started Today',
-  aboutSectionHeading: '',
-  aboutSection: {
-    aboutImage: '/images/vertical/section2Image.png',
-    logo: '/images/verticalLogos/AiXQP.png',
-    contentOne: "",
-    contenttwo: ""
-  },
-  skillGapSectionHeading: '',
-  skillGapHeadingDescription: '',
-  skillGapSection: [
-    {
-      icon: '/images/vertical/icons/manicon.png',
-      title: "",
-      highlight: "",
-      description: "",
-      gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
-    },
-    {
-      icon: '/images/vertical/icons/handicons.png',
-      title: "",
-      highlight: " ",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]",   // add gradient
-    },
-    {
-      icon: '/images/vertical/icons/handicons.png',
-      title: "",
-      highlight: "",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]",   // add gradient
-    },
-    {
-      icon: '/images/vertical/icons/handicons.png',
-      title: "",
-      highlight: "",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]",   // add gradient
-    },
-  ],
-  capabilitiSectionHeading: '',
-  capabilitiSectionDescription: ' ',
-  CapabilitySections: [
-    {
-      title: "",
-      description: "",
-      gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-      icon: '/images/vertical/icons/manicon.png'
-    },
-    {
-      title: "",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]", // dark
-    },
-    {
-      title: "",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]", // dark
-    },
-    {
-      title: "",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]", // dark
-    },
-    {
-      title: "",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]", // dark
-    },
-    {
-      title: "",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]", // dark
-    }
-  ],
-  serviceCardHeading: '',
-  serviceCardItems: [
-    {
-      title: "",
-      description: "",
-      gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-      icon: '/images/vertical/icons/manicon.png'
-    },
-    {
-      title: "",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]", // dark
-      icon: '/images/vertical/icons/manicon.png'
-    },
-    {
-      title: "",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]", // dark
-      icon: '/images/vertical/icons/manicon.png'
-    },
-    {
-      title: "",
-      description: "",
-      gradient: "from-[#222222] to-[#111111]", // dark
-      icon: '/images/vertical/icons/manicon.png'
-    }
-  ],
-  whyChooseUsHeading: 'Why Choose iTCart',
-  whyChooseUsHeadingDescription: ' ',
-  whyChooseUsCards: [
-    {
-      image: '/images/services/Digital-Transformation-sectionimage.png',
-      title: '',
-      content: " "
-    },
-    {
-      image: '/images/services/Digital-Transformation-sectionimage.png',
-      title: '',
-      content: ' '
-    },
-    {
-      image: '/images/services/Digital-Transformation-sectionimage.png',
-      title: ' ',
-      content: ''
-    }
-  ],
-  aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
-  aboutSection2: {
-    aboutImage: '/images/vertical/section2Image.png',
-    logo: '/images/verticalLogos/AiXQP.png',
-    contentOne: '',
-    contenttwo: ""
-  },
-  futurSectionHeading: "",
-  futurSectionDescription: "",
-  FAQsHeading: 'FAQs  ',
-  FAQs: [
-    {
-      id: '1',
-      title: '',
-      content: ""
-    },
-    {
-      id: '2',
-      title: '',
-      content: ''
-    },
-    {
-      id: '3',
-      title: '',
-      content: ''
-    },
-    {
-      id: '4',
-      title: '',
-      content: ''
-    },
-    {
-      id: '5',
-      title: "",
-      content: ""
-    },
-    {
-      id: '6',
-      title: "",
-      content: ""
-    }
-  ],
+// const one = {
+//   serviceName: 'Cybersecurity Services',
+//   bannerButtonText: "Get in touch",
+//   bannerTitle: "",
+//   bannerDescription: "",
+//   bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+//   bannerImageAlt: 'Custom Software Development for Startups',
+//   VerticalContentSection2Heading: 'The Digital Workspace Challenge',
+//   bannerNtnName: 'Get Started Today',
+//   aboutSectionHeading: '',
+//   aboutSection: {
+//     aboutImage: '/images/vertical/section2Image.png',
+//     logo: '/images/verticalLogos/AiXQP.png',
+//     contentOne: "",
+//     contenttwo: ""
+//   },
+//   skillGapSectionHeading: '',
+//   skillGapHeadingDescription: '',
+//   skillGapSection: [
+//     {
+//       icon: '/images/vertical/icons/manicon.png',
+//       title: "",
+//       highlight: "",
+//       description: "",
+//       gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+//     },
+//     {
+//       icon: '/images/vertical/icons/handicons.png',
+//       title: "",
+//       highlight: " ",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]",   // add gradient
+//     },
+//     {
+//       icon: '/images/vertical/icons/handicons.png',
+//       title: "",
+//       highlight: "",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]",   // add gradient
+//     },
+//     {
+//       icon: '/images/vertical/icons/handicons.png',
+//       title: "",
+//       highlight: "",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]",   // add gradient
+//     },
+//   ],
+//   capabilitiSectionHeading: '',
+//   capabilitiSectionDescription: ' ',
+//   CapabilitySections: [
+//     {
+//       title: "",
+//       description: "",
+//       gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+//       icon: '/images/vertical/icons/manicon.png'
+//     },
+//     {
+//       title: "",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]", // dark
+//     },
+//     {
+//       title: "",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]", // dark
+//     },
+//     {
+//       title: "",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]", // dark
+//     },
+//     {
+//       title: "",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]", // dark
+//     },
+//     {
+//       title: "",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]", // dark
+//     }
+//   ],
+//   serviceCardHeading: '',
+//   serviceCardItems: [
+//     {
+//       title: "",
+//       description: "",
+//       gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+//       icon: '/images/vertical/icons/manicon.png'
+//     },
+//     {
+//       title: "",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]", // dark
+//       icon: '/images/vertical/icons/manicon.png'
+//     },
+//     {
+//       title: "",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]", // dark
+//       icon: '/images/vertical/icons/manicon.png'
+//     },
+//     {
+//       title: "",
+//       description: "",
+//       gradient: "from-[#222222] to-[#111111]", // dark
+//       icon: '/images/vertical/icons/manicon.png'
+//     }
+//   ],
+//   whyChooseUsHeading: 'Why Choose iTCart',
+//   whyChooseUsHeadingDescription: ' ',
+//   whyChooseUsCards: [
+//     {
+//       image: '/images/services/Digital-Transformation-sectionimage.png',
+//       title: '',
+//       content: " "
+//     },
+//     {
+//       image: '/images/services/Digital-Transformation-sectionimage.png',
+//       title: '',
+//       content: ' '
+//     },
+//     {
+//       image: '/images/services/Digital-Transformation-sectionimage.png',
+//       title: ' ',
+//       content: ''
+//     }
+//   ],
+//   aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
+//   aboutSection2: {
+//     aboutImage: '/images/vertical/section2Image.png',
+//     logo: '/images/verticalLogos/AiXQP.png',
+//     contentOne: '',
+//     contenttwo: ""
+//   },
+//   futurSectionHeading: "",
+//   futurSectionDescription: "",
+//   FAQsHeading: 'FAQs  ',
+//   FAQs: [
+//     {
+//       id: '1',
+//       title: '',
+//       content: ""
+//     },
+//     {
+//       id: '2',
+//       title: '',
+//       content: ''
+//     },
+//     {
+//       id: '3',
+//       title: '',
+//       content: ''
+//     },
+//     {
+//       id: '4',
+//       title: '',
+//       content: ''
+//     },
+//     {
+//       id: '5',
+//       title: "",
+//       content: ""
+//     },
+//     {
+//       id: '6',
+//       title: "",
+//       content: ""
+//     }
+//   ],
 
-  showShadedBackground: true,
-  VerticalContentSection2: {
-    contentOne: "",
-    contenttwo: "",
-    sectionTwoFirstImage: "/images/vertical/section2Image.png"
-  },
+//   showShadedBackground: true,
+//   VerticalContentSection2: {
+//     contentOne: "",
+//     contenttwo: "",
+//     sectionTwoFirstImage: "/images/vertical/section2Image.png"
+//   },
 
-  logo: 'AiXQP-whitelogo',
-  section2Data: '',
-  section2Image: '/images/vertical/section2Image.png',
-  section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
-  section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
-  aboutImage: '',
-  aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
-  about2SecondParagraph: 'Powered by the proprietary AiXHub™ engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
-}
+//   logo: 'AiXQP-whitelogo',
+//   section2Data: '',
+//   section2Image: '/images/vertical/section2Image.png',
+//   section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
+//   section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
+//   aboutImage: '',
+//   aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+//   about2SecondParagraph: 'Powered by the proprietary AiXHub™ engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
+// }

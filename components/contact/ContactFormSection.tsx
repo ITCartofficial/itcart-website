@@ -4,7 +4,7 @@ import HeadingText from "@/components/typography/HeadingText"
 import ContactForm from "@/components/forms/ContactForm"
 
 
-const ContactFormSection = () => {
+const ContactFormSection = ({ image }: { image: string }) => {
     return (
         <div className="w-full border-[1px] border-[#45C2CC] p-6 sm:p-8 lg:p-16 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14">
@@ -23,7 +23,7 @@ const ContactFormSection = () => {
                 </div>
                 <div className="w-full h-64 sm:h-96 lg:h-full relative rounded-xl overflow-hidden">
                     <ImageContainer
-                        src={"/images/contact/contact-form-img.jpg"}
+                        src={image ? image : "/images/contact/contact-form-img.jpg"}
                         alt="contact-us"
                     />
                 </div>

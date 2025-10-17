@@ -3,13 +3,395 @@ export const solutionData = [
     title: "AiXHub™ Intranet",
     description: "Consolidates resources, cultivates seamless collaboration and amplifies productivity via integrated tools, elevating communication, security, and organizational efficiency.",
     linkUrl: "/services/ai-ml-automations",
-    imageSrc: "/images/solutions/ai_image.png"
+    imageSrc: "/images/solutions/ai_image.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "bannerTitle",
+      bannerDescription: "bannerDescription",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      aboutSectionHeading: '...',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        contentOne: ".......",
+        contenttwo: ""
+      },
+      futureGridHeading: 'futureGridHeading',
+      futureGridDiscription: "futureGridDiscription",
+      futureItems: [
+        {
+          title: "Smart Collaboration",
+          description:
+            "AI-enhanced communication tools to improve employee engagement and communication through comprehensive business communication software.",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "Employee Experience",
+          description:
+            "Tools to improve employee engagement and communication through comprehensive employee experience platform capabilities.",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "Intelligent Automation",
+          description:
+            "Benefits of intelligent intranet platforms via advanced workplace automation software reducing manual tasks.",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "Modern Transformation",
+          description:
+            "Complete modern workplace transformation supporting modern intranet for remote teams operations.",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "AI Integration",
+          description:
+            "How AI transforms enterprise collaboration through intelligent features and automated workflows.",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+        {
+          title: "Microsoft 365 (H3)",
+          description:
+            "Seamless digital workplace integrated with Microsoft 365 providing unified productivity experiences.",
+          icon: "/images/solutions/futureSectionIcon.png",
+        },
+      ],
+      collabSectionHeading: 'Heading',
+      colabSectionDiscription: 'colabSectionDiscription',
+      collaburationItems: [
+        {
+          id: 1,
+          title: "Collaboration Excellence",
+          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 2,
+          title: "Employee Empowerment",
+          highlight: "Empowerment",
+          description:
+            "Empower employees with AI-driven tools and adaptive workflows to enhance productivity, communication, and engagement across all departments.",
+          imageSrc: "/images/solutions/Collaboration-Excellence.png",
+        },
+        {
+          id: 3,
+          title: "AI-Powered Intelligence",
+          highlight: "Intelligence",
+          description:
+            "Integrate intelligent AI solutions to improve decision-making, automate tasks, and provide actionable insights across your enterprise.",
+          imageSrc: "/images/ai-intelligence.jpg",
+        },
+      ],
+      solutionGridHeading: 'Title',
+      solutionGridItems: [
+        {
+          title: "Technology Companies",
+          description: "Modern intranet for remote teams with advanced collaboration tools, AI coaching, and comprehensive project management through enterprise intranet with workflow automation.",
+          image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop"
+        },
+        {
+          title: "Financial Services",
+          description: "Secure employee experience platform with regulatory compliance, document management, and comprehensive communication systems via best digital workplace software for enterprises.",
+          image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop"
+        },
+        {
+          title: "Healthcare Organizations",
+          description: "Digital workplace solution supporting patient data security, staff coordination, and comprehensive training management platforms with intelligent automation capabilities.",
+          image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop"
+        },
+        {
+          title: "Manufacturing Enterprises",
+          description: "Workplace automation software enabling shift management, safety protocols, and comprehensive operational coordination through enterprise intranet with workflow automation systems.",
+          image: "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800&h=600&fit=crop"
+        }
+      ],
+      chooseHeading: "one",
+      chooseItems: [
+        {
+          title: "Discovery & Planning",
+          description: "We begin by understanding your business goals, technical requirements, and user needs through comprehensive stakeholder workshops. ",
+          gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "Architecture & Design",
+          description: "We architect scalable, secure, and high-performance systems tailored to your long-term needs with intuitive user experiences.",
+          gradient: "from-[#222222] to-[#111111]", // dark
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "Agile Development",
+          description: "We use agile development models ensuring fast iterations, transparent progress, and early value delivery through sprint cycles. ",
+          gradient: "from-[#222222] to-[#111111]", // dark
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "QA & Security Testing",
+          description: "Every application is tested rigorously for performance, security, and functionality with vulnerability and penetration testing protocols. ",
+          gradient: "from-[#222222] to-[#111111]", // dark
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "QA & Security Testing",
+          description: "Every application is tested rigorously for performance, security, and functionality with vulnerability and penetration testing protocols. ",
+          gradient: "from-[#222222] to-[#111111]", // dark
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "QA & Security Testing",
+          description: "Every application is tested rigorously for performance, security, and functionality with vulnerability and penetration testing protocols. ",
+          gradient: "from-[#222222] to-[#111111]", // dark
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "QA & Security Testing",
+          description: "Every application is tested rigorously for performance, security, and functionality with vulnerability and penetration testing protocols. ",
+          gradient: "from-[#222222] to-[#111111]", // dark
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "QA & Security Testing",
+          description: "Every application is tested rigorously for performance, security, and functionality with vulnerability and penetration testing protocols. ",
+          gradient: "from-[#222222] to-[#111111]", // dark
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+
+      ],
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Document Management System",
     description: "Master document organization, fortify collaboration and safeguard security, ensuring seamless compliance for an unparalleled, streamlined operation.",
     linkUrl: "/services/application-services",
-    imageSrc: "/images/solutions/Document_Management_System.png"
+    imageSrc: "/images/solutions/Document_Management_System.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "",
+      bannerDescription: "",
+      bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      VerticalContentSection2Heading: 'The Digital Workspace Challenge',
+      aboutSectionHeading: '',
+      aboutSection: {
+        aboutImage: '/images/industries/travelTourism-section.png',
+        logo: '/images/verticalLogos/AiXQP.png',
+        contentOne: "",
+        contenttwo: ""
+      },
+      skillGapSectionHeading: '',
+      skillGapHeadingDescription: '',
+      skillGapSection: [
+        {
+          icon: '/images/solutions/futureSectionIcon.png',
+          title: "",
+          highlight: "",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+        },
+        {
+          icon: '/images/vertical/icons/handicons.png',
+          title: "",
+          highlight: "",
+          description: "",
+          gradient: "from-[#222222] to-[#111111]",   // add gradient
+        },
+        {
+          icon: '/images/vertical/icons/handicons.png',
+          title: "",
+          highlight: "",
+          description: "",
+          gradient: "from-[#222222] to-[#111111]",   // add gradient
+        },
+        {
+          icon: '/images/vertical/icons/handicons.png',
+          title: "",
+          highlight: "",
+          description: "",
+          gradient: "from-[#222222] to-[#111111]",   // add gradient
+        },
+      ],
+      solutionGridHeading: '',
+      solutionGridHeadingDiscription: '',
+      solutionGridItems: [
+        {
+          title: "",
+          description: "",
+          icon: '/images/solutions/futureSectionIcon.png',
+          image: '/images/industries/travelTourism-solution1.png'
+        },
+        {
+          title: "",
+          description: "",
+          icon: '/images/solutions/futureSectionIcon.png',
+          image: '/images/industries/travelTourism-solution2.png'
+        },
+        {
+          title: "",
+          description: "",
+          icon: '/images/solutions/futureSectionIcon.png',
+          image: '/images/industries/travelTourism-solution3.png'
+        },
+        {
+          title: "Passenger Booking and Reservation System",
+          description: "",
+          icon: '/images/solutions/futureSectionIcon.png',
+          image: '/images/industries/travelTourism-solution4.png'
+        },
+        {
+          title: "Passenger Booking and Reservation System",
+          description: "",
+          icon: '/images/solutions/futureSectionIcon.png',
+          image: '/images/industries/travelTourism-solution5.png'
+        },
+        {
+          title: "Cross-System Orchestration  ",
+          description: "Unified execution across ERP, CRM, HRMS ",
+          icon: '/images/solutions/futureSectionIcon.png',
+          image: '/images/industries/travelTourism-solution6.png'
+        }
+      ],
+      whyChooseUsHeading: '',
+      whyChooseUsHeadingDescription: '',
+      whyChooseUsCards: [
+        {
+          image: '/images/industries/service1.png',
+          title: 'Tailored Solutions',
+          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+        },
+        {
+          image: '/images/industries/service2.png',
+          title: 'Proactive Threat',
+          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+        },
+        {
+          image: '/images/industries/service3.png',
+          title: 'Customer-Centric',
+          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+        }
+      ],
+      capabilitiSectionHeading: '',
+      capabilitiSectionDescription: '',
+      CapabilitySections: [
+        {
+          title: "",
+          description: "",
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "",
+          icon: '/images/solutions/futureSectionIcon.png'
+        },
+        {
+          title: "",
+          description: "Unified execution across ERP, CRM, HRMS ",
+          icon: '/images/solutions/futureSectionIcon.png'
+        }
+      ],
+      showShadedBackground: true,
+      aboutSection2Heading: 'Our Proprietary AI Engine',
+      aboutSection2: {
+        aboutImage: '/images/vertical/section2Image.png',
+        logo: '/images/verticalLogos/AiXQP.png',
+        contentOne: '',
+        contenttwo: ""
+      },
+      futurSectionHeading: "",
+      futurSectionDescription: "",
+      FAQsHeading: '',
+      FAQs: [
+        {
+          id: '1',
+          title: '',
+          content: ""
+        },
+        {
+          id: '2',
+          title: 'How long does it take to implement AI and ML automation services?',
+          content: ''
+        },
+        {
+          id: '3',
+          title: '',
+          content: ''
+        },
+        {
+          id: '4',
+          title: '',
+          content: ''
+        },
+        {
+          id: '5',
+          title: "",
+          content: ""
+        },
+        {
+          id: '6',
+          title: "",
+          content: ""
+        },
+        {
+          id: '7',
+          title: "",
+          content: ""
+        },
+      ]
+    }
   },
   {
     title: "Digital Transformation Suite",

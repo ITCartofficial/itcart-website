@@ -4,7 +4,7 @@ import { OutlineBtnProps } from '@/types/PropsTypes'
 import { FaArrowRight } from 'react-icons/fa6'
 
 
-const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, icon, className, url, theme = "dark", onClick }) => {
+const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, className, url, theme = "dark", onClick }) => {
 
     // const iconColor = theme === 'dark' ? 'text-[#2BADB7]' : "text-[#2BADB7]";
 

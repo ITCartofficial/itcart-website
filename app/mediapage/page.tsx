@@ -1,19 +1,8 @@
-import ExecutiveLeadersSection from "@/components/about/ExecutiveLeadersSection"
-import EnterPriceGrid from "@/components/CunsultNow/EnterPriceGrid"
-import ImplementationStratogy from "@/components/CunsultNow/ImplementationStratogy"
-import WhyImplementation from "@/components/CunsultNow/WhyImplementation"
+import SectionTeam from "@/components/Csr/SectionTeam"
 import HeroBanner from "@/components/HeroBanner"
-import { executiveLeadership } from '@/lib/data/aboutPageData'
-import AwardsSection from "../(features)/home/AwardsSection"
-import TestimonialSection from "../(features)/home/TestimonialSection"
-import { testimonialsData } from "@/lib/data/homePageData"
-import AboutSection from "@/components/CunsultNow/AboutSection"
-import SectionContact from "@/components/CunsultNow/SectionContact"
 import HomeFaqSection from "../(features)/home/HomeFaqSection"
 
-
-function CunsultNow() {
-
+function MediaPage() {
 
     const homeFAQs = [
         {
@@ -50,58 +39,34 @@ function CunsultNow() {
 
     return (
         <div className='bg-black'>
-            <HeroBanner title="Artificially Intelligent Digital Transformation (AiX)"
-                description="World's first AI-native operating system replacing 342 fragmented applications with unified intelligent execution."
-                ctaText="Connect with Us"
+            <HeroBanner title="Technology Transforms Lives."
+                description="At iTCart, innovation is a responsibility, not just advancement. Through our CSR initiatives, we drive change in healthcare, education, sustainability, and community empowerment. By supporting critical sectors and ethical innovation, we use technology as a force for good, making impact central to our mission."
+                ctaText=""
                 ctaUrl="/contact"
                 breadcrumbItems={[
                     { label: 'Home', url: '/' },
                     { label: 'Our Industry', url: '/industry' }
                 ]}
-                backgroundImage="/images/cunsultnow/cunsultnow-banner.png"
+                backgroundImage="/images/csr/banner-image.png"
                 isCunsultNow={true}
             />
 
-            <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <WhyImplementation />
-            </div>
-
-            <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <ImplementationStratogy />
-            </div>
-
-            <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <EnterPriceGrid />
-            </div>
-
-            <div className="bg-black py-8 rounded-bl-[85px] rounded-br-[85px] lg:px-10">
-                <ExecutiveLeadersSection
-                    execLeaders={executiveLeadership}
-                    bgColor="dark"
+            <div className="bg-black py-8">
+                <SectionTeam
+                    heading=""
+                    discription=""
                 />
+
             </div>
 
-            <div className="bg-black py-16">
-                <AwardsSection />
-            </div>
-
-            <div className="bg-black py-8">
-                <TestimonialSection bgColor={"dark"} testimonialsData={testimonialsData} />
-            </div>
-
-            <div className="bg-black py-8">
-                <AboutSection />
-            </div>
-
-            <div className="bg-black py-8">
-                <SectionContact showContent={""} image=""/>
-            </div>
 
             <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
                 <HomeFaqSection faqs={homeFAQs} />
             </div>
 
+
+
         </div>
     )
 }
-export default CunsultNow
+export default MediaPage

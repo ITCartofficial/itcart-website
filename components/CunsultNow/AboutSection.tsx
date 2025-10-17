@@ -1,3 +1,4 @@
+import Image from "next/image";
 import GradientTitle from "../typography/GradientTitle";
 
 function AboutSection() {
@@ -14,11 +15,13 @@ function AboutSection() {
 
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
                 {/* Left Image Section */}
-                <div className="w-full lg:w-1/2">
-                    <img
+                <div className="w-full lg:w-1/2 relative h-[350px] sm:h-[450px] lg:h-[350px] rounded-2xl overflow-hidden shadow-lg">
+                    <Image
                         src="/images/cunsultnow/aboutsection-img.png"
                         alt="AI Visualization"
-                        className="w-full h-[350px] sm:h-[450px] lg:h-[350px] rounded-2xl object-cover shadow-lg"
+                        fill
+                        className="object-cover rounded-2xl"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
                     />
                 </div>
 

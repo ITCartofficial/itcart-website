@@ -40,7 +40,7 @@ const ContactUs = () => {
       </div>
 
       <div className="container mx-auto lg:px-10 lg:py-16">
-        <ContactFormSection />
+        <ContactFormSection image=""/>
       </div>
       <div className="mb-10 md:mb-0 lg:mb-0">
         <AddressSection addressList={addressList} />

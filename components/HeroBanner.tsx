@@ -64,7 +64,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                   <BodyText
                     text={description}
                     color="#ffffff"
-                    className="text-sm sm:text-base md:text-lg my-2"
+                    className="text-sm sm:text-base md:text-lg my-5"
                   />
 
                   {/* CTA Button */}

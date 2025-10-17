@@ -54,7 +54,7 @@ const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => 
           className="text-black sm:text-[16px] text-center lg:text-left"
         />
         <div className="flex justify-center lg:justify-start">
-          <OutlineBtn url='/case-study' text="Explore More" textColor="#01FFFF" theme="dark" className="bg-red-400"/>
+          <OutlineBtn url='/case-study' text="Explore More" textColor="#01FFFF" theme="dark" className=""/>
         </div>
       </div>
       <div className="w-full lg:w-[60%]">

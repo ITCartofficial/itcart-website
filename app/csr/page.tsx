@@ -1,19 +1,13 @@
-import ExecutiveLeadersSection from "@/components/about/ExecutiveLeadersSection"
-import EnterPriceGrid from "@/components/CunsultNow/EnterPriceGrid"
-import ImplementationStratogy from "@/components/CunsultNow/ImplementationStratogy"
-import WhyImplementation from "@/components/CunsultNow/WhyImplementation"
+import BetterFutureSection from "@/components/Csr/BetterFutureSection"
+import ShappingSection from "@/components/Csr/ShappingSection"
 import HeroBanner from "@/components/HeroBanner"
-import { executiveLeadership } from '@/lib/data/aboutPageData'
-import AwardsSection from "../(features)/home/AwardsSection"
 import TestimonialSection from "../(features)/home/TestimonialSection"
 import { testimonialsData } from "@/lib/data/homePageData"
-import AboutSection from "@/components/CunsultNow/AboutSection"
-import SectionContact from "@/components/CunsultNow/SectionContact"
+import SectionTeam from "@/components/Csr/SectionTeam"
+import JoinSection from "@/components/Csr/JoinSection"
 import HomeFaqSection from "../(features)/home/HomeFaqSection"
 
-
-function CunsultNow() {
-
+function Csr() {
 
     const homeFAQs = [
         {
@@ -50,39 +44,25 @@ function CunsultNow() {
 
     return (
         <div className='bg-black'>
-            <HeroBanner title="Artificially Intelligent Digital Transformation (AiX)"
-                description="World's first AI-native operating system replacing 342 fragmented applications with unified intelligent execution."
-                ctaText="Connect with Us"
+            <HeroBanner title="Visual Mosaic of Our Journey"
+                description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
+                ctaText="Book a Free Session Now"
                 ctaUrl="/contact"
                 breadcrumbItems={[
                     { label: 'Home', url: '/' },
                     { label: 'Our Industry', url: '/industry' }
                 ]}
-                backgroundImage="/images/cunsultnow/cunsultnow-banner.png"
+                backgroundImage="/images/csr/banner-image.png"
                 isCunsultNow={true}
             />
 
             <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <WhyImplementation />
+                <BetterFutureSection />
             </div>
+
 
             <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <ImplementationStratogy />
-            </div>
-
-            <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <EnterPriceGrid />
-            </div>
-
-            <div className="bg-black py-8 rounded-bl-[85px] rounded-br-[85px] lg:px-10">
-                <ExecutiveLeadersSection
-                    execLeaders={executiveLeadership}
-                    bgColor="dark"
-                />
-            </div>
-
-            <div className="bg-black py-16">
-                <AwardsSection />
+                <ShappingSection />
             </div>
 
             <div className="bg-black py-8">
@@ -90,12 +70,16 @@ function CunsultNow() {
             </div>
 
             <div className="bg-black py-8">
-                <AboutSection />
+                <SectionTeam
+                    heading="Witness Our Commitment To Change"
+                    discription="Explore moments from our CSR initiatives, showcasing our commitment to education, healthcare, sustainability and community development through impactful efforts."
+                />
             </div>
 
             <div className="bg-black py-8">
-                <SectionContact showContent={""} image=""/>
+                <JoinSection className="" />
             </div>
+
 
             <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
                 <HomeFaqSection faqs={homeFAQs} />
@@ -104,4 +88,4 @@ function CunsultNow() {
         </div>
     )
 }
-export default CunsultNow
+export default Csr

@@ -9,7 +9,11 @@ export const navItems = [
     //   { label: "Cloud Solutions", href: "#" },
     // ],
   },
+  { label: "Media", href: "/mediapage" },
+  // mediapage
   { label: "Cunsult Now", href: "/cunsultnow" },
+  { label: "CSR", href: "/csr" },
+
   // {
   //   label: "Our Solutions",
   //   href: "/",
@@ -33,6 +37,7 @@ export const navItems = [
       { label: "About Us", href: "/about-us" },
       { label: "Our Blogs", href: "/blogs" },
       { label: "Case Studies", href: "/#case-studies" },
+      { label: "Our Partners", href: "/ourpatners" },
     ],
   },
   { label: "Solutions", href: "/solutions" },

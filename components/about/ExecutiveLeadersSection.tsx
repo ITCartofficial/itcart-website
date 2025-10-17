@@ -2,7 +2,6 @@ import GradientTitle from '@/components/typography/GradientTitle'
 import ExecutiveLeadersSlider from '@/components/slider/ExecutiveLeadersSlider'
 import { ExecutiveLeader } from '@/types/PropsTypes'
 import React from 'react'
-import { strict } from 'assert'
 
 const ExecutiveLeadersSection = ({ execLeaders, bgColor }: { execLeaders: ExecutiveLeader[], bgColor: string }) => {
 
