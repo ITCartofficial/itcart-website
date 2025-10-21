@@ -199,11 +199,11 @@ export const globalStrategists = [
     title: "Scott Sebastian",
     designation: "Global Director - GTM Strategy",
   },
-  {
-    image: "/images/strategists/aaronranka.png",
-    title: "Aaron Ranka",
-    designation: "Global Director - BFN & Fintech",
-  },
+  // {
+  //   image: "/images/strategists/aaronranka.png",
+  //   title: "Aaron Ranka",
+  //   designation: "Global Director - BFN & Fintech",
+  // },
 ];
 
 export const ambassadorsList = [
@@ -247,26 +247,26 @@ export const ambassadorsList = [
       },
     ],
   },
-  {
-    image: "/images/ambassador/Aaron.png",
-    title: "Aaron Ranka",
-    designation: "Global Director – BFS & Fintech",
-    profileRef: "#", //button link
-    matrics: [
-      {
-        numericValue: 20,
-        title: "Years of Experience",
-      },
-      {
-        numericValue: 25,
-        title: "Fintech ARR Managed",
-      },
-      {
-        numericValue: 50,
-        title: "Build Cross Functional Team",
-      },
-    ],
-  },
+  // {
+  //   image: "/images/ambassador/Aaron.png",
+  //   title: "Aaron Ranka",
+  //   designation: "Global Director – BFS & Fintech",
+  //   profileRef: "#", //button link
+  //   matrics: [
+  //     {
+  //       numericValue: 20,
+  //       title: "Years of Experience",
+  //     },
+  //     {
+  //       numericValue: 25,
+  //       title: "Fintech ARR Managed",
+  //     },
+  //     {
+  //       numericValue: 50,
+  //       title: "Build Cross Functional Team",
+  //     },
+  //   ],
+  // },
   {
     image: "/images/ambassador/bryongough.jpg",
     title: "Bryon Gough",
