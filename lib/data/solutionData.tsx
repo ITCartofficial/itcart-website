@@ -5,7 +5,6 @@ export const solutionData = [
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/solutions/ai_image.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: ".................",
       bannerDescription: "bannerDescription",
@@ -14,7 +13,8 @@ export const solutionData = [
       aboutSection: {
         aboutImage: '/images/industries/travelTourism-section.png',
         contentOne: ".......",
-        contenttwo: ""
+        contenttwo: "",
+        logo: ""
       },
       futureGridHeading: 'futureGridHeading',
       futureGridDiscription: "futureGridDiscription",
@@ -80,6 +80,7 @@ export const solutionData = [
         },
       ],
       solutionGridHeading: 'Title',
+      solutionGridHeadingDiscription: '',
       solutionGridItems: [
         {
           title: "Technology Companies",
@@ -211,7 +212,8 @@ export const solutionData = [
       aboutSection: {
         aboutImage: '/images/industries/travelTourism-section.png',
         contentOne: "",
-        contenttwo: ""
+        contenttwo: "",
+        logo: ""
       },
       futureGridHeading: 'futureGridHeading',
       futureGridDiscription: "futureGridDiscription",
