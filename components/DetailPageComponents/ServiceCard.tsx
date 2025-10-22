@@ -31,7 +31,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ className, serviceCardHeading
 
             <main className="bg-black px-4 py-1">
                 <div className="mx-auto w-full">
-                    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {(serviceCardItems ?? []).map((feature, index) => (
                             <div
                                 key={index}

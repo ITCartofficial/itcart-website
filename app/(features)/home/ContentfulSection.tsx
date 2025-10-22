@@ -19,7 +19,7 @@ const ContentfulSection: React.FC<ContentfulSectionProps> = ({ title, descriptio
         <div className='w-full h-max bg-cover bg-no-repeat px-10 lg:rounded-[48px] overflow-hidden' style={{ backgroundImage: `url(${bgImage})` }}>
             <div className="w-full h-full p-10" style={{ background: 'linear-gradient(-90deg, rgba(0, 0, 0, 0.00) 0%, #000 85%)' }}>
                 <div className="container mx-auto py-6 lg:px-10 lg:py-16 flex flex-col gap-4 justify-center">
-                    <GradientTitle text={title} theme='dark' className='lg:text-[30px] leading-tight lg:w-2/3' />
+                    <GradientTitle text={title} theme='dark' className='lg:text-[30px] leading-tight lg:w-2/4' />
 
                     <div className="flex flex-col gap-2 lg:w-2/3">
                         {

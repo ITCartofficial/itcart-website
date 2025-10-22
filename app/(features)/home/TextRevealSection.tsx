@@ -28,9 +28,9 @@ const TextRevealSection: React.FC<TextRevealSectionProps> = ({
                             in the AI market.
                         </>
                     }
-                    backgroundColor="bg-black"
-                    dimmedTextColor="text-[#E1E1E1]"
-                    revealedTextColor="text-black"
+                    backgroundColor="bg-red"
+                    dimmedTextColor="text-grey-200"
+                    revealedTextColor="text-white"
                     spotlightSize={300}
                     textSize="text-4xl md:text-6xl"
                     defaultHighlightSize={470}

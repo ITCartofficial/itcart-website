@@ -1,30 +1,14 @@
 import Image from "next/image"
 import GradientTitle from "../typography/GradientTitle"
 
-function divResult() {
 
-    const stats = [
-        {
-            percentage: "89%",
-            label: "Employee satisfaction improvement rates",
-        },
-        {
-            percentage: "67%",
-            label: "Reduction in operational inefficiency",
-        },
-        {
-            percentage: "78%",
-            label: "Increase in workflow productivity",
-        },
-        {
-            percentage: "86%",
-            label: "Faster task completion rates",
-        },
-        {
-            percentage: "73%",
-            label: "Enhancement in customer experience engagement",
-        },
-    ]
+interface ResultItem {
+    percentage: string,
+    label: string,
+}
+
+function divResult({ resultHeading, results,
+    resultImage }: { resultHeading: string, results: ResultItem[], resultImage: string }) {
 
     return (
         <div className="px-6  md:px-12">
@@ -33,7 +17,7 @@ function divResult() {
                     {/* Left side - Image */}
                     <div className="flex justify-center items-center h-[500px] sm:h-[600px] md:h-[500px] rounded-3xl overflow-hidden bg-center bg-cover"
                         style={{
-                            backgroundImage: "url('/images/solutions/workspaceimage.png')"
+                            backgroundImage: `url(${resultImage})`
                         }}
                     >
                     </div>
@@ -42,14 +26,12 @@ function divResult() {
                         {/* Heading */}
                         <div>
                             <h2 className="text-4xl md:text-[48px] font-bold text-white">
-                                Proven Digital
-                                <br />
-                                Workplace Results
+                                {resultHeading}
                             </h2>
                         </div>
 
                         <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 justify-items-center">
-                            {stats.map((stat, index) => (
+                            {results.map((stat, index) => (
                                 <div key={index} className="space-y-2">
                                     <div className="text-5xl md:text-[60px] font-bold text-cyan-400">{stat.percentage}</div>
                                     <p className="text-start text-[14px] text-gray-300 leading-relaxed">{stat.label}</p>

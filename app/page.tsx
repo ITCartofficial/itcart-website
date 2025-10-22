@@ -96,7 +96,7 @@ const HomeTemplate = () => {
         />
       </div>
 
-      <div className="bg-white">
+      <div className="bg-black">
         <PatentPendingSection />
       </div>
 
