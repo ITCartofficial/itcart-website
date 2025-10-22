@@ -92,11 +92,20 @@ function SolutionDetailPage() {
             </div>
 
             <div className='bg-black container py-10'>
-                <SectionResult />
+                <SectionResult
+                    resultHeading={(filterdItem?.detailPage)?.resultHeading ?? ""}
+                    results={(filterdItem?.detailPage)?.results ?? []}
+                    resultImage={(filterdItem?.detailPage)?.resultImage ?? ""}
+                />
             </div>
 
             <div className='bg-black container py-10'>
-                <SolutionAboutSection className="" />
+                <SolutionAboutSection
+                    aboutSolutionHeading={(filterdItem?.detailPage)?.aboutSolutionHeading ?? ""}
+                    aboutSolutionDiscription={(filterdItem?.detailPage)?.aboutSolutionDiscription ?? ""}
+                    aboutSolutionImage={(filterdItem?.detailPage)?.aboutSolutionImage ?? ""}
+                    className=""
+                />
             </div>
 
             <div className="bg-black py-8">
