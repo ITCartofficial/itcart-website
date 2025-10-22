@@ -1,0 +1,110 @@
+import Image from "next/image"
+import GradientTitle from "../typography/GradientTitle"
+
+function divResult() {
+
+    const stats = [
+        {
+            percentage: "89%",
+            label: "Employee satisfaction improvement rates",
+        },
+        {
+            percentage: "67%",
+            label: "Reduction in operational inefficiency",
+        },
+        {
+            percentage: "78%",
+            label: "Increase in workflow productivity",
+        },
+        {
+            percentage: "86%",
+            label: "Faster task completion rates",
+        },
+        {
+            percentage: "73%",
+            label: "Enhancement in customer experience engagement",
+        },
+    ]
+
+    return (
+        <div className="px-6  md:px-12">
+            <div className="mx-auto max-w-7xl">
+                <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
+                    {/* Left side - Image */}
+                    <div className="flex justify-center items-center h-[500px] sm:h-[600px] md:h-[500px] rounded-3xl overflow-hidden bg-center bg-cover"
+                        style={{
+                            backgroundImage: "url('/images/solutions/workspaceimage.png')"
+                        }}
+                    >
+                    </div>
+
+                    <div className="space-y-5 p-5">
+                        {/* Heading */}
+                        <div>
+                            <h2 className="text-4xl md:text-[48px] font-bold text-white">
+                                Proven Digital
+                                <br />
+                                Workplace Results
+                            </h2>
+                        </div>
+
+                        <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 justify-items-center">
+                            {stats.map((stat, index) => (
+                                <div key={index} className="space-y-2">
+                                    <div className="text-5xl md:text-[60px] font-bold text-cyan-400">{stat.percentage}</div>
+                                    <p className="text-start text-[14px] text-gray-300 leading-relaxed">{stat.label}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className=" bg-black text-white mt-10 sm:py-15 md:py-25 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
+                <div className="max-w-4xl mx-auto w-full">
+                    <div className="relative border border-[#45C2CC] rounded-3xl p-8 sm:p-12 lg:p-16 bg-gradient-to-br from-gray-900/50 to-black/50 backdrop-blur-sm">
+                        <div className="absolute top-0 left-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl"></div>
+
+                        <div className="relative z-10 text-center">
+                            <div className="max-w-5xl mx-auto text-center mb-4">
+                                <GradientTitle
+                                    text={"Trusted Excellence"}
+                                    theme="dark"
+                                    className="text-[28px] sm:text-[36px] md:text-[48px] font-bold leading-tight"
+                                />
+                            </div>
+
+                            <p className="text-gray-300 text-base sm:text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto mb-10 sm:mb-16 lg:mb-12">
+                                Built by iTCart, ISO-certified leaders in digital transformation delivering enterprise-grade digital workplace solution that drives organizational excellence and measurable business success.
+                            </p>
+
+                            <div className="flex sm:flex-row items-center justify-center gap-8 sm:gap-12 lg:gap-16">
+                                <div className="group relative w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56">
+                                    <Image
+                                        src="/images/solutions/logo-01.png"
+                                        alt="Team collaboration..."
+                                        fill
+                                        style={{ objectFit: "cover" }}
+                                        priority
+                                    />
+                                </div>
+
+                                <div className="group relative w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56">
+                                    <Image
+                                        src="/images/solutions/logo-02.png"
+                                        alt="Team collaboration..."
+                                        fill
+                                        style={{ objectFit: "cover" }}
+                                        priority
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default divResult

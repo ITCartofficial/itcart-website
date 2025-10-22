@@ -97,10 +97,10 @@ const HomeTemplate = () => {
       </div>
 
       <div className="bg-white">
-        {/* <FaqSection faqsData={faqsData} faqsCount={4} title="Our AI-powered Solutions for Intelligent Automation" /> */}
         <PatentPendingSection />
       </div>
-      <div id="our-verticals" className="bg-white py-16 pt-20">
+
+      <div id="our-verticals" className="bg-black py-16 pt-20">
         <HorizontalSliderSection
           text="Driving Innovation Across Our Key Verticals"
           cardLists={keyVerticalsData.map((card) => ({
@@ -109,23 +109,23 @@ const HomeTemplate = () => {
           }))}
         />
       </div>
-      <div className="bg-white pb-16">
+      <div className="bg-black pb-16">
         <TextRevealSection />
       </div>
-      <div className="bg-white">
+      <div className="bg-black">
         <ContentfulSection
           bgImage={missionContent.bgImage}
           description={missionContent.description}
           title={missionContent.title || ""}
         />
       </div>
-      <div id="case-studies" className="bg-white pt-16">
+      <div id="case-studies" className="bg-black pt-16">
         <CaseStudySection caseStudies={caseStudyData} />
       </div>
-      <div className="bg-white py-16">
-        <TestimonialSection testimonialsData={testimonialsData} />
+      <div className="bg-black py-16">
+        <TestimonialSection bgColor={"true"} testimonialsData={testimonialsData} />
       </div>
-      <div className="bg-white">
+      <div className="bg-black">
         <BlogsFeatureSection posts={posts} />
       </div>
       <div className="bg-black py-16">

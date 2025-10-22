@@ -12,6 +12,7 @@ export interface HomeFaqSectionProps {
   backgroundColor?: string;
   maxVisible?: number;
   className?: string;
+  FAQsHeading?: string
 }
 
 const HomeFaqSection: React.FC<HomeFaqSectionProps> = ({
@@ -23,12 +24,14 @@ const HomeFaqSection: React.FC<HomeFaqSectionProps> = ({
   backgroundColor = "#131313",
   maxVisible = 7,
   className = "",
+  FAQsHeading
 }) => {
   return (
     <div className={`h-full ${className}`}>
       <Faq
         label={label}
         mainTitle={mainTitle}
+        FAQsHeading={FAQsHeading}
         faqs={faqs}
         titleColor={titleColor}
         accentColor={accentColor}

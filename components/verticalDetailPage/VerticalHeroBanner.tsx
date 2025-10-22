@@ -45,7 +45,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                 />
 
                 {/* Flexbox wrapper */}
-                <div className="container relative z-10 h-full flex items-center justify-center text-center lg:justify-start lg:text-left">
+                <div className="container relative z-10 h-full flex items-center justify-center text-center lg:justify-start lg:text-left my-6">
                     <div className="w-full flex flex-col items-center lg:items-start">
 
                         {
@@ -60,7 +60,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                         <GradientTitle
                             text={title}
                             theme="dark"
-                            className="text-[26px] sm:text-[32px] md:text-[48px] w-full lg:w-[50%]"
+                            className="text-[26px] sm:text-[32px] md:text-[48px] w-full lg:w-[70%]"
                         />
 
                         {/* Subtitle */}
