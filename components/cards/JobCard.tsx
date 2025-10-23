@@ -1,9 +1,10 @@
 'use client';
-import OutlineBtn from '@/components/buttons/OutlineBtn';
+// import OutlineBtn from '@/components/buttons/OutlineBtn';
 import BodyText from '@/components/typography/BodyText';
 import GradientTitle from '@/components/typography/GradientTitle';
 import React from 'react';
 import { FaMapMarkerAlt, FaBriefcase, FaBookOpen, FaArrowRight } from 'react-icons/fa';
+import OutlineBtn from '../buttons/OutlineBtn';
 
 
 
@@ -14,6 +15,7 @@ export interface JobCardProps {
     jobCategory: string;
     jobDescriptionUrl: string;
     className?: string;
+    btnName?:string
 }
 
 const JobCard: React.FC<JobCardProps> = ({
@@ -23,10 +25,10 @@ const JobCard: React.FC<JobCardProps> = ({
     jobCategory,
     jobDescriptionUrl,
     className = '',
+    btnName
 }) => {
     return (
-        <div
-            className={`flex justify-between items-center w-full p-4 border border-gray-700 rounded-lg bg-black ${className}`}>
+        <div className={`flex flex-col lg:flex-row justify-between items-center w-full p-4 border border-gray-700 rounded-lg bg-black ${className}`}>
             <div>
                 <GradientTitle
                     text={title}
@@ -49,7 +51,15 @@ const JobCard: React.FC<JobCardProps> = ({
                     </div>
                 </div>
             </div>
-            <OutlineBtn text='View Job Description' url={`${jobDescriptionUrl}`} icon={<FaArrowRight className="text-sm font-semibold text-white" />} textColor="#ffffff" />
+
+            <OutlineBtn
+                text={btnName ?? ''}
+                url={`${jobDescriptionUrl}`}
+                icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+                textColor="#ffffff"
+                showBorderaButton={true}
+                className="mt-3 md:mt-0"
+            />
 
         </div>
     );

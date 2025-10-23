@@ -35,7 +35,7 @@ const HorizontalImageSlider: React.FC<HorizontalImageSliderProps> = ({ images })
         }
 
         .swiper-slide-active {
-          transform: scale(1.1) scaleX(1.3) !important;
+          transform: scale(1.01) scaleX(1.4) !important;
           z-index: 10 !important;
         }
 
@@ -88,16 +88,18 @@ const HorizontalImageSlider: React.FC<HorizontalImageSliderProps> = ({ images })
         className="!pb-12"
       >
         {slideImages.map((image, index) => (
-          <SwiperSlide key={index}>
-            <div className="relative w-full h-64 md:h-[350px] lg:h-[430px] rounded-lg overflow-hidden shadow-lg">
-              <Image
-                src={image}
-                alt={`Slide ${index + 1}`}
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
-          </SwiperSlide>
+         <SwiperSlide key={index}>
+  <div className="scale-wrapper transition-transform duration-300 ease-in-out">
+    <div className="relative w-full h-64 md:h-[350px] lg:h-[430px] rounded-3xl overflow-hidden shadow-lg">
+      <Image
+        src={image}
+        alt={`Slide ${index + 1}`}
+        fill
+        className="object-cover"
+      />
+    </div>
+  </div>
+</SwiperSlide>
         ))}
 
         {/* Custom Navigation Buttons (unchanged) */}
