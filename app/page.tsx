@@ -69,7 +69,7 @@ const HomeTemplate = () => {
   return (
     <div className="flex flex-col h-full bg-black">
       <VideoHeroBanner
-        className="h-full lg:pb-20"
+        className="h-full md:h-[750px] lg:py-20"
         heading={heading}
         description={description}
         buttonText={buttonText}

@@ -88,18 +88,18 @@ const HorizontalImageSlider: React.FC<HorizontalImageSliderProps> = ({ images })
         className="!pb-12"
       >
         {slideImages.map((image, index) => (
-         <SwiperSlide key={index}>
-  <div className="scale-wrapper transition-transform duration-300 ease-in-out">
-    <div className="relative w-full h-64 md:h-[350px] lg:h-[430px] rounded-3xl overflow-hidden shadow-lg">
-      <Image
-        src={image}
-        alt={`Slide ${index + 1}`}
-        fill
-        className="object-cover"
-      />
-    </div>
-  </div>
-</SwiperSlide>
+          <SwiperSlide key={index}>
+            <div className="scale-wrapper transition-transform duration-300 ease-in-out">
+              <div className="relative w-full h-64 md:h-[350px] lg:h-[430px] rounded-3xl overflow-hidden shadow-lg">
+                <Image
+                  src={image}
+                  alt={`Slide ${index + 1}`}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </SwiperSlide>
         ))}
 
         {/* Custom Navigation Buttons (unchanged) */}
@@ -108,16 +108,15 @@ const HorizontalImageSlider: React.FC<HorizontalImageSliderProps> = ({ images })
       </Swiper>
 
       {/* Custom Tailwind Pagination */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+      <div className="absolute left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
         {slideImages.map((_, index) => (
           <button
             key={index}
             onClick={() => swiperRef.current?.slideToLoop(index)}
-            className={`h-2 rounded-full transition-all duration-300 ease-in-out cursor-pointer ${
-              current === index
-                ? 'w-8 bg-gradient-to-r from-[#29C1E2] to-white'
-                : 'w-2 bg-transparent border border-gray-300'
-            }`}
+            className={`h-2 rounded-full transition-all duration-300 ease-in-out cursor-pointer ${current === index
+              ? 'w-8 bg-gradient-to-r from-[#29C1E2] to-white'
+              : 'w-2 bg-transparent border border-gray-300'
+              }`}
           />
         ))}
       </div>

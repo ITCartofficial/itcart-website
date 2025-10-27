@@ -158,8 +158,8 @@ const SuggestedBlogSection = () => {
                                 title={post.title}
                                 author={post.author}
                                 date={post.date}
-                                imageHeight='h-50'
-                                imageWidth='md:w-80 w-full'
+                                imageHeight='h-60'
+                                imageWidth='md:w-100 w-full'
                                 titleSize="lg:text-[24px] text-[20px]"
                                 showButton={true}
                                 buttonUrl={`/blog/${post.slug}`}

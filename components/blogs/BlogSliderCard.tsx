@@ -18,8 +18,8 @@ import { FaArrowRight } from 'react-icons/fa6';
 
 const BlogSliderCard: React.FC<Post> = ({ excerpt, slug, title, featuredImage }) => {
     return (
-        <div className="flex flex-col md:flex-row bg-black text-white rounded-lg overflow-hidden shadow-lg gap-11">
-            <div className="relative md:w-1/2 w-full h-96 md:h-[370px]">
+        <div className="flex flex-col md:flex-row bg-black text-white rounded-lg overflow-hidden shadow-lg h-96 md:h-[500px] gap-11">
+            <div className="relative md:w-1/2 w-full h-96 md:h-[450px]">
                 <Image
                     src={featuredImage?.node.sourceUrl || ''}
                     alt={title}

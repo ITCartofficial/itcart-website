@@ -3,7 +3,7 @@ import GradientTitle from "../typography/GradientTitle";
 
 function AboutSection() {
     return (
-        <section className="bg-black text-white py-16 px-6 md:px-12">
+        <section className="bg-black text-white md:py-16 px-6 md:px-12">
             <div className="max-w-7xl mx-auto flex flex-col items-center text-center mb-12">
                 <GradientTitle
                     text={"Transform Your Enterprise with AI-Native Intelligence"}

@@ -18,7 +18,7 @@ const NewsletterSubscription = ({ theme }: { theme: "dark" | "light" }) => {
 
   return (
     <div className="bg-black flex items-center justify-center">
-      <div className="w-full rounded-xl border border-gray-800 bg-gray-950 px-8 lg:px-20 py-12">
+      <div className="w-full rounded-xl border border-[#45C2CC] bg-gray-950 px-8 lg:px-20 py-12">
         <div className="text-center md:text-left mb-6">
           <div className="flex justify-center items-baseline flex-wrap md:justify-start">
             <span className="text-white text-3xl font-bold mr-2">Subscribe To</span>
@@ -31,7 +31,7 @@ const NewsletterSubscription = ({ theme }: { theme: "dark" | "light" }) => {
 
           <BodyText
             text="Sign up to our newsletter and will keep you in the loop."
-            className="text-gray-400 mt-2"
+            className="text-[#FFFFFF] mt-2"
           />
         </div>
 

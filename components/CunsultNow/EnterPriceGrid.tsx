@@ -63,7 +63,7 @@ function EnterPriceGrid() {
                             key={index}
                             className="relative rounded-2xl overflow-hidden h-[400px] flex items-end p-6 bg-cover bg-center group transition-all duration-300"
                             style={{
-                                backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.25)), url(${cap.image})`,
+                                backgroundImage: ` url(${cap.image})`,
                             }}
                         >
                             <div className="z-10">

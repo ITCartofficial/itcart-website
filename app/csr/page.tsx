@@ -71,12 +71,13 @@ function Csr() {
 
             <div className="bg-black py-8">
                 <SectionTeam
+                    removeBorder={false}
                     heading="Witness Our Commitment To Change"
                     discription="Explore moments from our CSR initiatives, showcasing our commitment to education, healthcare, sustainability and community development through impactful efforts."
                 />
             </div>
 
-            <div className="bg-black py-8">
+            <div className="bg-black py-16">
                 <JoinSection className="" />
             </div>
 

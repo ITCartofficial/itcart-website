@@ -37,7 +37,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
 }) => {
   return (
     <section className={`relative w-full bg-black text-white overflow-hidden ${className}`}>
-      <div className="relative h-[60vh] sm:h-[60vh] md:h-[60vh] lg:h-[80vh] bg-gradient-to-t from-black/100">
+      <div className="relative h-[60vh] sm:h-[60vh] md:h-[60vh] lg:h-[60vh] bg-gradient-to-t from-black/100 bg-green-400">
         <div
           className="absolute inset-0 z-0 "
           style={{
@@ -108,7 +108,6 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
         </div>
       </div>
 
-      {/* Description and CTA Content (below the wave) */}
       {
         !isCunsultNow && description && (
           <div className="container mx-auto px-4">

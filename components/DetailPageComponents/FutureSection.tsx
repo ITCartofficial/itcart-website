@@ -1,3 +1,5 @@
+import { FaArrowRight } from "react-icons/fa6";
+import OutlineBtn from "../buttons/OutlineBtn";
 import BodyText from "../typography/BodyText";
 import GradientTitle from "../typography/GradientTitle";
 
@@ -24,6 +26,17 @@ const FutureSection: React.FC<FutureSectionProps> = ({
                 color="#ffffff"
                 className="text-[16px] mt-3"
             />
+
+            <div className="w-full flex justify-center my-10">
+                <OutlineBtn
+                    url="/"
+                    text="Start your upgrade today"
+                    textColor="#ffffff"
+                    icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+                />
+            </div>
+
+
         </div>
 
     );

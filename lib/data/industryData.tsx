@@ -153,7 +153,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your airline operations with comprehensive digital transformation solutions ",
-      FAQsHeading: 'FAQs - Everything you need to know about Airlines',
+      FAQsHeading: ' Everything you need to know about Airlines',
       FAQs: [
         {
           id: '1',

@@ -51,20 +51,20 @@ const AboutUs = () => {
                 backgroundImage="/images/about/about-hero-bg.jpg"
                 className="bg-no-repeat lg:max-h-[400px]"
             />
-            <div className="bg-black py-16">
+            <div className="bg-black md:py-16">
                 <WhoWeAreSection />
             </div>
-            <div className="bg-black py-16">
+            <div className="bg-black py-10 md:py-16">
                 <CoreValueSection coreValues={coreValues} />
             </div>
-            <div className="bg-black py-16">
+            <div className="bg-black md:py-16">
                 <MissionVisionSection
                     missionVision={missionVisionData}
                     theme={'dark'}
                 />
             </div>
 
-            <div className="bg-black py-16">
+            <div className="bg-black py:10 md:py-16">
                 <AIFrameworkSection
                     aixFramework={PatientSectionData}
                     theme={'dark'}

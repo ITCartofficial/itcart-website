@@ -110,14 +110,14 @@ const ExecutiveLeadersSlider = ({
       <div className="absolute z-10 flex gap-4 bottom-0 right-0">
         <button
           onClick={handlePrev}
-          className="bg-[#2BADB7] p-4 rounded-full cursor-pointer hover:bg-[#248a93] transition-colors"
+          className="bg-[#2BADB7] p-4 rounded-full cursor-pointer hover:bg-transparent border hover:border-white transition-colors"
           aria-label="Previous slide"
         >
           <FaArrowLeft className="text-base font-semibold text-white" />
         </button>
         <button
           onClick={handleNext}
-          className="bg-[#2BADB7] p-4 rounded-full cursor-pointer hover:bg-[#248a93] transition-colors"
+          className="bg-[#2BADB7] p-4 rounded-full cursor-pointer hover:bg-transparent border hover:border-white transition-colors"
           aria-label="Next slide"
         >
           <FaArrowRight className="text-base font-semibold text-white" />

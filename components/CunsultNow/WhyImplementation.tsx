@@ -84,7 +84,7 @@ function WhyImplementation() {
                 </div>
 
                 <div className="w-full md:w-2/3 flex flex-col items-start gap-4">
-                    <div className="w-full relative rounded-lg overflow-hidden h-[300px] sm:h-[400px] lg:h-[500px]">
+                    <div className="w-full relative rounded-lg overflow-hidden h-[300px] sm:h-[300px] lg:h-[300px]">
                         <Image
                             src={selected?.image || "/placeholder.jpg"} // fallback image
                             alt="AI Concept"

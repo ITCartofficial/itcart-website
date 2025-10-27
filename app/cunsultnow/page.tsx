@@ -81,7 +81,7 @@ function CunsultNow() {
                 />
             </div>
 
-            <div className="bg-black py-16">
+            <div className="bg-black">
                 <AwardsSection />
             </div>
 
@@ -97,7 +97,7 @@ function CunsultNow() {
                 <SectionContact showContent={""} image=""/>
             </div>
 
-            <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
+            <div className="bg-[#131313] my-10 py-5 border-b-2 border-b-zinc-600">
                 <HomeFaqSection faqs={homeFAQs} />
             </div>
 

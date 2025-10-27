@@ -6,9 +6,9 @@ import GradientTitle from '@/components/typography/GradientTitle';
 
 const TechnologySection = () => {
     // const technologyPostsCard = blogPosts.slice(0, 3);
-          const technologyPostsCard = blogPosts
-            .filter((blog) => blog.category === "Technology")
-            .slice(0, 3);
+    const technologyPostsCard = blogPosts
+        .filter((blog) => blog.category === "Technology")
+        .slice(0, 3);
     return (
         <div className='container py-20'>
             <div className='flex justify-between'>

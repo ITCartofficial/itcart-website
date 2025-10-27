@@ -11,10 +11,10 @@ const PatentPendingSection = () => {
             <GradientTitle
                 text="Our Patent-Pending AI framework"
                 lineHeight="1.2"
-                className="text-2xl sm:text-3xl md:text-4xl lg:text-[50px] mb-4 sm:mb-6 text-left"
+                className="text-2xl sm:text-3xl md:text-4xl lg:text-[50px] mb-2 sm:mb-6 text-left w-[60%]"
                 theme='dark'
             />
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:mt-10'>
                 <div className='max-w-none lg:max-w-[540px] order-2 lg:order-1'>
                     <p className='text-white sm:text-lg md:text-xl text-black pb-3 sm:pb-4 leading-relaxed'>
                         <span className='font-semibold'>AiXHub<sup>TM</sup> Framework</span> is iTCart's proprietary AI-native EOS (Enterprise Operating System), designed to unify data, human oversight, and automation into one adaptive, high-performance ecosystem to help enterprises build secure, scalable and responsible AI systems.

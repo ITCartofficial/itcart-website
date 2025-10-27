@@ -10,11 +10,11 @@ import { Post } from '@/types/wordpress';
 import { format } from 'date-fns';
 import { enUS } from 'date-fns/locale';
 
-const BlogGridLayout = ({ posts }:{ posts: Post[] }) => {
+const BlogGridLayout = ({ posts }: { posts: Post[] }) => {
   // Use first blog post for the featured card
   // const featuredPost = blogPosts[0];
   const featuredPost = posts[0];
-  
+
   // Use the next 4 posts for the horizontal cards section
   // const horizontalCardsPosts = blogPosts.slice(0, 4);
 
@@ -55,13 +55,15 @@ const BlogGridLayout = ({ posts }:{ posts: Post[] }) => {
 
           {/* Second Column - Four Horizontal Cards */}
           <div className="flex flex-col gap-4">
-            {posts.slice(1,5).map((post) => (
+            {posts.slice(1, 5).map((post) => (
               <a key={post.id} href={`/blogs/${post.slug}`}>
                 <div className='bg-[#212121] rounded-lg'>
                   <HorizontalCard
                     imageUrl={post?.featuredImage?.node.sourceUrl || ''}
                     title={post?.title}
                     author={""}
+                    imageWidth="w-25"
+                    imageHeight="h-20"
                     date={format(new Date(post?.date), 'MMMM dd, yyyy', { locale: enUS })}// Format date to 'MMMM dd, yyyy'
                   />
                 </div>
@@ -71,7 +73,7 @@ const BlogGridLayout = ({ posts }:{ posts: Post[] }) => {
 
           {/* Third Column - Numbered Cards */}
           <div className="space-y-6 flex flex-col gap-1">
-            {posts.slice(5,10).map((post, index) => (
+            {posts.slice(5, 10).map((post, index) => (
               <a key={post.id} href={`/blogs/${post.slug}`}>
                 <NumberedCard
                   number={`0${index + 1}`}

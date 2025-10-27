@@ -27,7 +27,7 @@ function CollaborationSection({
     return (
         <div className="bg-black text-white px-4">
             {/* Section Title */}
-            <div className="max-w-5xl mx-auto text-center mb-16">
+            <div className="max-w-5xl mx-auto text-center mb-8 lg:mb-14">
                 <GradientTitle
                     text={futurSectionHeading || "Collaboration Excellence"}
                     theme="dark"
@@ -51,6 +51,8 @@ function CollaborationSection({
                             className={`relative cursor-pointer overflow-hidden rounded-[20px] shadow-[0_0_25px_rgba(0,255,255,0.15)] transition-all duration-500 ease-in-out
                 ${isActive ? "lg:flex-[2] flex-auto" : "lg:flex-[1] flex-auto"}
                 h-[400px] sm:h-[500px] md:h-[550px]`}
+
+                            onMouseEnter={() => setActiveId(activeId === item.id ? null : item.id)}
                             onClick={() =>
                                 setActiveId(activeId === item.id ? null : item.id)
                             }
@@ -73,8 +75,8 @@ function CollaborationSection({
                             ></div>
 
                             {/* Bottom content */}
-                            <div className="absolute bottom-6 left-6 sm:bottom-8 sm:left-8 z-20">
-                                {/* Title always visible */}
+                            <div className="absolute w-full bottom-6 left-6 sm:bottom-8 sm:left-8 z-20">
+
                                 <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-2">
                                     {item.title.split(" ")[0]}{" "}
                                     <span className="text-cyan-400">
@@ -84,7 +86,7 @@ function CollaborationSection({
 
                                 {/* Description only for active item */}
                                 {isActive && (
-                                    <p className="text-gray-200 text-sm sm:text-base leading-relaxed max-w-sm mt-1">
+                                    <p className="text-gray-200 text-sm sm:text-base leading-relaxed mt-1 w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%]">
                                         {item.description}
                                     </p>
                                 )}

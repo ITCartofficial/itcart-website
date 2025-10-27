@@ -45,7 +45,7 @@ const ContactForm = ({ theme }: { theme: "dark" | "light" }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 bg-black rounded-xl w-full max-w-2xl"
+      className="space-y-4 rounded-xl w-full max-w-2xl bg-[#131313]"
     >
       <div className="grid grid-cols-2 gap-4">
         <InputField

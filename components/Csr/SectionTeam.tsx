@@ -3,22 +3,23 @@ import { useState } from "react";
 import GradientTitle from "../typography/GradientTitle";
 import Image from "next/image";
 
-export default function SectionTeam({ heading, discription }: { heading: string, discription: string }) {
+export default function SectionTeam({ heading, discription, removeBorder }: { heading: string, discription: string, removeBorder: boolean }) {
 
     const slides = [
         {
-            mainImg: "/images/home/awards/awards-2.png",
+            mainImg: "/images/csr/slide1.jpg",
         },
         {
-            mainImg: "/images/home/awards/awards-3.png",
+            mainImg: "/images/csr/slide2.jpg",
         },
         {
-            mainImg: "/images/home/awards/awards-2.png",
+            mainImg: "/images/csr/slide3.jpg",
         },
         {
-            mainImg: "/images/home/awards/awards-3.png",
+            mainImg: "/images/csr/slide4.jpg",
         }
     ];
+
 
     const [current, setCurrent] = useState(0);
 
@@ -41,7 +42,7 @@ export default function SectionTeam({ heading, discription }: { heading: string,
 
             {/* Slider Container */}
             <div className="relative w-full max-w-5xl">
-                <div className="bg-gradient-to-br from-gray-900 to-black border border-cyan-500/30 rounded-3xl p-6 sm:p-8 lg:p-12">
+                <div className={` ${removeBorder ? "" : "border-cyan-500/30 bg-gradient-to-br from-gray-900 to-black border"} rounded-3xl p-6 sm:p-8 lg:p-12`}>
                     {/* Main Image */}
                     <div className="mb-8 flex justify-center">
                         <div className="relative w-full max-w-[700px] aspect-video overflow-hidden rounded-2xl">
@@ -65,6 +66,7 @@ export default function SectionTeam({ heading, discription }: { heading: string,
                                     }`}
                             >
                                 <Image
+                                    onClick={() => setCurrent(index)}
                                     src={thumb?.mainImg || "/placeholder.jpg"} // fallback image
                                     alt={`Thumbnail ${index + 1}`}
                                     fill

@@ -922,7 +922,7 @@ export const serviceData = [
       },
       futurSectionHeading: "Ready to Secure Your Digital Future?",
       futurSectionDescription: "Transform your security posture with comprehensive cyber security services that deliver measurable protection and compliance assurance through proven expertise? ",
-      FAQsHeading: 'FAQs  ',
+      FAQsHeading: 'Everything You Need to Know About Digital Transformation  ',
       FAQs: [
         {
           id: '1',

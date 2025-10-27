@@ -35,7 +35,7 @@ const AiSection: React.FC<AiSectionProps> = ({ title }) => {
 
                             <div className="hidden lg:block rounded-[40px] overflow-hidden w-[550px] h-[300px]  text-[#2BADB7] font-bold border border-[#2BADB7]">
                                 <Image
-                                    src={item?.image}
+                                    src={item?.image ? item?.image : item?.image}
                                     alt={item?.image}
                                     width={550}
                                     height={300}

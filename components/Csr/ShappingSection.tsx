@@ -1,4 +1,5 @@
 import Image from "next/image";
+import GradientTitle from "../typography/GradientTitle";
 
 function ShappingSection() {
 
@@ -43,9 +44,15 @@ function ShappingSection() {
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
                     {/* Left Column - Header Text */}
                     <div className="lg:pr-8">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                            Shaping a Better Tomorrow
-                        </h1>
+
+                        {/* text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tigh */}
+
+                        <GradientTitle
+                            text={'Building a Better Future,Together'}
+                            theme="dark"
+                            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tigh"
+                        />
+
                         <p className="text-gray-300 text-base md:text-lg leading-relaxed">
                             At iTCart, innovation is our responsibility. Through CSR, we support healthcare,
                             physiotherapy, education, sustainability, and community development. By enhancing
@@ -78,11 +85,14 @@ function ShappingSection() {
 
                                 <div className="space-y-3">
                                     {initiative.items.map((item, idx) => (
-                                        <div key={idx}>
-                                            <p className="text-white">
-                                                <span className="font-semibold">{idx + 1}. {item.label}</span>
-                                                <span className="text-gray-400"> – {item.description}</span>
-                                            </p>
+                                        <div key={idx} className="flex items-start gap-1">
+                                            <span className="text-white font-semibold whitespace-nowrap">
+                                                {idx + 1}. {item.label}
+                                            </span>
+                                            <span className="text-gray-400">-</span>
+                                            <span className="text-gray-400">
+                                                 {item.description}
+                                            </span>
                                         </div>
                                     ))}
                                 </div>

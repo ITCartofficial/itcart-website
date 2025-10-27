@@ -12,7 +12,7 @@ function JoinSection({ className }: { className: string }) {
                 <div
                     className={`rounded-xl w-full h-[300px] md:h-[400px] bg-cover bg-center flex items-end justify-center ${"md:order-2"}`}
                     style={{
-                        backgroundImage: `url(${"/images/solutions/about-image.png"})`,
+                        backgroundImage: `url(${"/images/csr/csr-aboutfinal.png"})`,
                     }}
                 >
 

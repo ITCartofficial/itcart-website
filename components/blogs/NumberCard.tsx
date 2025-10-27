@@ -34,7 +34,7 @@ const NumberedCard: React.FC<NumberedCardProps> = ({
           <HeadingText 
             text={title}
             fontWeight="semibold"
-            className="text-base leading-tight mb-3 group-hover:text-[#45c2cc]"
+            className="text-base leading-tight mb-3 text-[16px] font-bold group-hover:text-[#45c2cc]"
           />
 
           {/* Author and date info */}

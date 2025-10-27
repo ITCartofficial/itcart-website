@@ -75,7 +75,7 @@ function ImplementationStratogy() {
                         {(serviceCardItems ?? []).map((feature, index) => (
                             <div
                                 key={index}
-                                className={`rounded-lg p-8 bg-zinc-900 text-[#FFFFFF] hover:text-white`}
+                                className={`rounded-lg p-8 bg-zinc-900  text-[#2BADB7] hover:text-[#FFFFFF] hover:bg-[#2BADB7]`}
                             >
                                 <div className="mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[#2BADB7] overflow-hidden">
                                     <Image
@@ -87,12 +87,12 @@ function ImplementationStratogy() {
                                     />
                                 </div>
                                 <h3
-                                    className={`mb-2 text-xl font-semibold text-[18px] text-[#2BADB7]`}
+                                    className={`mb-2 text-xl font-semibold text-[18px]`}
                                 >
                                     {feature.title}
                                 </h3>
                                 <p
-                                    className={`text-sm leading-relaxed  `}
+                                    className={`text-sm leading-relaxed text-[#FFFFFF] `}
                                 >
                                     {feature.description}
                                 </p>

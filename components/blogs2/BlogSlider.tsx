@@ -27,10 +27,10 @@ const BlogSlider = ({ posts }: { posts: Post[] }) => {
 
     // 🔹 Filter 5 Editor's Pick blogs
     const editorsPickPosts = posts.slice(0, 5);
-        // .filter((blog) => blog.category === "Editor's Pick")
+    // .filter((blog) => blog.category === "Editor's Pick")
 
     return (
-        <div className="w-full flex flex-col items-center space-y-6">
+        <div className="w-full flex flex-col items-center space ">
             <div className="container relative">
                 <Swiper
                     modules={[Navigation, Autoplay]}
@@ -48,14 +48,14 @@ const BlogSlider = ({ posts }: { posts: Post[] }) => {
             </div>
 
             {/* Custom Pagination */}
-            <div className="flex space-x-2">
+            <div className="flex space-x-2 my-3">
                 {editorsPickPosts.map((_, index) => (
                     <button
                         key={index}
                         onClick={() => setCurrent(index)}
                         className={`h-2 rounded-full transition-all duration-300 ease-in-out cursor-pointer ${index === current
-                                ? 'w-8'
-                                : 'w-2 bg-transparent outline outline-gray-200'
+                            ? 'w-8'
+                            : 'w-2 bg-transparent outline outline-gray-200'
                             }`}
                         style={
                             index === current

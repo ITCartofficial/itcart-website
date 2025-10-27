@@ -108,7 +108,6 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
 
     return (
         <section className={`w-full bg-black text-white px-6 py-0 ${className}`}>
-            {/* Section Title */}
             <div className="max-w-5xl mx-auto text-center mb-16">
                 <GradientTitle
                     text={skillGapSectionHeading ?? ''}
@@ -123,13 +122,13 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
                 />
             </div>
 
-            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:flex-nowrap gap-10 justify-center">
+            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:flex-nowrap gap-10 mt-20 justify-center">
                 {(skillGapSection ?? []).map((item, index) => (
                     <div
                         key={index}
                         className={`relative w-full sm:w-[300px] md:w-[320px] lg:w-[360px] rounded-xl p-10 pt-16 flex flex-col items-center text-center space-y-4 
         transition-all duration-300
-       bg-gradient-to-b from-gray-800 via-gray-1000 to-black
+        bg-gradient-to-b from-[#1B1B1B] via-gray-1000 to-black
         ${showShadedBackground
                                 ? "shadow-lg "
                                 : "border border-cyan-500/40 hover:shadow-lg hover:shadow-cyan-500/20"
@@ -137,7 +136,7 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
                     >
                         {/* Floating Icon */}
                         <div className="absolute -top-10 flex justify-center w-full">
-                            <div className="flex justify-center items-center w-20 h-20 rounded-full bg-cyan-500 shadow-lg">
+                            <div className="flex justify-center items-center w-20 h-20 rounded-full bg-[#2BADB7] shadow-lg">
                                 <Image
                                     src={item?.icon || ""}
                                     alt={item?.title || "icon"}
@@ -149,21 +148,21 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
                         </div>
 
                         {/* Title */}
-                        <h3 className="text-[16px] md:text-[15px] font-bold text-cyan-400">
+                        <h3 className="text-[16px] md:text-[18px] font-bold text-[#45C2CC]">
                             {item.title}
                         </h3>
 
 
                         {/* Description */}
                         <p className=" text-gray-300">
-                            <span className={`${showShadedBackground ? '' : 'font-semibold'} text-white  md:text-[13px]`}>{item.highlight}</span>{" "}
+                            <span className={`${showShadedBackground ? '' : 'font-semibold'} text-white  md:text-[14px]`}>{item.highlight}</span>{" "}
                             {item.description && '–'}   {item.description}
                         </p>
                     </div>
                 ))}
             </div>
             {/* CTA Button */}
-            <div className="w-full flex justify-center mt-12">
+            <div className="w-full flex justify-center mt-4">
                 <OutlineBtn
                     url="/"
                     text="Start your upgrade today"

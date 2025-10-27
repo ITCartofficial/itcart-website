@@ -32,7 +32,7 @@ const TextRevealSection: React.FC<TextRevealSectionProps> = ({
                     dimmedTextColor="text-grey-200"
                     revealedTextColor="text-white"
                     spotlightSize={300}
-                    textSize="text-4xl md:text-6xl"
+                    textSize="text-4xl md:text-[70px]"
                     defaultHighlightSize={470}
                 />
             </div>

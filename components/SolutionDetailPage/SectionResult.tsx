@@ -42,7 +42,7 @@ function divResult({ resultHeading, results,
                 </div>
             </div>
 
-            <div className=" bg-black text-white mt-10 sm:py-15 md:py-25 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
+            <div className=" bg-black text-white mt-10 mt-15 md:mt-25 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
                 <div className="max-w-4xl mx-auto w-full">
                     <div className="relative border border-[#45C2CC] rounded-3xl p-8 sm:p-12 lg:p-16 bg-gradient-to-br from-gray-900/50 to-black/50 backdrop-blur-sm">
                         <div className="absolute top-0 left-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl"></div>

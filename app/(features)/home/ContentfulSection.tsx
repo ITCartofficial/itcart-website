@@ -12,8 +12,6 @@ const ContentfulSection: React.FC<ContentfulSectionProps> = ({ title, descriptio
 
     const descriptions = description.split('<br>');
 
-    // console.log(descriptions);
-
 
     return (
         <div className='w-full h-max bg-cover bg-no-repeat px-10 lg:rounded-[48px] overflow-hidden' style={{ backgroundImage: `url(${bgImage})` }}>
@@ -24,7 +22,7 @@ const ContentfulSection: React.FC<ContentfulSectionProps> = ({ title, descriptio
                     <div className="flex flex-col gap-2 lg:w-2/3">
                         {
                             descriptions && descriptions.map((text, i) => (
-                                <BodyText key={i} text={text.trim()} className='text-[16px] lg:text-[18px] font-normal text-white' />
+                                <BodyText key={i} text={text.trim()} className={`text-[16px] lg:text-[18px] font-normal text-white my-1 ${descriptions?.length-1 == i && 'font-bold leading-tight'}`} />
                             )) || <BodyText text={description} className='text-[16px] lg:text-[18px] font-normal text-white' />
                         }
                     </div>

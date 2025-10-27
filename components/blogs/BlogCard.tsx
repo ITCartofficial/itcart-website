@@ -20,7 +20,6 @@ const BlogCard: React.FC<BlogCardProps> = ({
   title,
   description,
   date,
-  linkUrl = "#",
 }) => {
   let formattedDate = "Unknown date";
   if (date) {
@@ -31,40 +30,44 @@ const BlogCard: React.FC<BlogCardProps> = ({
   }
 
   return (
-    <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-black text-white">
-      {imageUrl ? (
-        <div className="relative h-48 w-full">
+    <div className="flex flex-col h-full max-w-sm rounded-lg overflow-hidden shadow-lg bg-black text-white">
+      {imageUrl && (
+        <div className="relative h-70 w-full flex-shrink-0">
           <Image
             src={imageUrl}
             alt={title}
             fill
-            className="object-cover rounded-lg"
+            className="object-cover rounded-md"
             loading="lazy"
           />
         </div>
-      ) : null}
+      )}
 
-      <div className="space-y-3 pt-6">
+      {/* Content */}
+      <div className="flex flex-col flex-1 space-y-4 mt-2 p-2 ">
         <HeadingText
           text={title}
           fontWeight="bold"
-          className="text-xl leading-tight"
+          className="text-[24px] leading-tight"
         />
 
-        <p
-          className="text-sm text-gray-300 line-clamp-3"
-          dangerouslySetInnerHTML={{ __html: description }}
-        />
+        <div>
+          <p
+            className="text-[18px] text-gray-300 line-clamp-3 flex-1"
+            dangerouslySetInnerHTML={{ __html: description }}
+          />
 
-        <div className="flex items-center pt-3 text-xs text-gray-400">
-          {/* <span>by {author}</span> */}
-          <span className="mx-2">•</span>
-          <span>{formattedDate}</span>
+          <div className=" w-full items-center justify-between mt-4 text-xs text-gray-400">
+            <span>{"By Ather name" + "-" + formattedDate}</span>
+            <div className="mt-6">
+              <LinkButton textColor={"white"}  text={"Continue Reading"} url={"buttonUrl"} />
+            </div>
+          </div>
         </div>
 
-        <LinkButton text="Continue Reading" url={linkUrl} className="pt-2" />
       </div>
     </div>
+
   );
 };
 

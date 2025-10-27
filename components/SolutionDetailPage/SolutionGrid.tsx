@@ -20,7 +20,7 @@ function SolutionGrid({ futurSectionHeading, solutionItems }: SolutionGridProps)
 
         <div className="bg-black text-white px-4">
             {/* Section Title */}
-            <div className="max-w-5xl mx-auto text-center mb-16">
+            <div className="max-w-5xl mx-auto text-center mb-8 lg:mb-14">
                 <GradientTitle
                     text={futurSectionHeading || "Collaboration Excellence"}
                     theme="dark"

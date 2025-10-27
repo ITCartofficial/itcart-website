@@ -1,37 +1,37 @@
-import Image from "next/image"
+    import Image from "next/image"
 
-type ImageContainerProps = {
-    src: string;
-    alt: string;
-    width?: number;
-    height?: number;
-    className?: string;
-}
+    type ImageContainerProps = {
+        src: string;
+        alt: string;
+        width?: number;
+        height?: number;
+        className?: string;
+    }
 
-const ImageContainer = ({ src, alt, width, height, className }: ImageContainerProps) => {
-    return (
-        <>
-            {
-                (width && height) ? (
-                    <Image
-                        src={src}
-                        alt={alt}
-                        width={width || 400}
-                        height={height || 300}
-                        className={`object-cover ${className}`}
-                        loading="lazy"
-                    />
-                ) : (
-                    <Image
-                        src={src}
-                        alt={alt}
-                        fill
-                        className={`object-cover ${className}`}
-                    />
-                )
-            }
-        </>
-    )
-}
+    const ImageContainer = ({ src, alt, width, height, className }: ImageContainerProps) => {
+        return (
+            <>
+                {
+                    (width && height) ? (
+                        <Image
+                            src={src}
+                            alt={alt}
+                            width={width || 400}
+                            height={height || 300}
+                            className={`object-cover ${className}`}
+                            loading="lazy"
+                        />
+                    ) : (
+                        <Image
+                            src={src}
+                            alt={alt}
+                            fill
+                            className={`object-cover ${className}`}
+                        />
+                    )
+                }
+            </>
+        )
+    }
 
-export default ImageContainer
+    export default ImageContainer

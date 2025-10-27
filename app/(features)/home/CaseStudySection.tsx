@@ -51,7 +51,7 @@ const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => 
         />
         <BodyText
           text="Explore our case studies for in-depth insights, expert analyses, and success stories."
-          className="text-black sm:text-[16px] text-center lg:text-left"
+          className="text-white sm:text-[16px] text-center lg:text-left"
         />
         <div className="flex justify-center lg:justify-start">
           <OutlineBtn url='/case-study' text="Explore More" textColor="#01FFFF" theme="dark" className=""/>

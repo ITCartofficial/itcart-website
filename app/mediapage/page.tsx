@@ -51,10 +51,11 @@ function MediaPage() {
                 isCunsultNow={true}
             />
 
-            <div className="bg-black py-8">
+            <div className="bg-black">
                 <SectionTeam
                     heading=""
                     discription=""
+                    removeBorder={true}
                 />
 
             </div>
