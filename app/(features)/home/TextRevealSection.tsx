@@ -15,10 +15,10 @@ const TextRevealSection: React.FC<TextRevealSectionProps> = ({
             <GradientTitle
                 text={title}
                 lineHeight="1.2"
-                className="max-w-[800px] text-[24px] lg:text-[50px] mb-6"
+                className="max-w-[800px] text-[30px] lg:text-[50px] mb-6"
                 theme='dark'
             />
-            <div>
+            <div className='md:px-0 px-2'>
                 <TextReveal
                     text={
                         <>

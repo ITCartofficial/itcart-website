@@ -17,7 +17,7 @@ function OurPartners() {
                 isCunsultNow={false}
             />
 
-            <div className="bg-black md:py-8">
+            <div className="bg-black md:py-4">
                 <SectionContact showContent={"noShow"} image="" />
             </div>
 

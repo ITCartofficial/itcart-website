@@ -12,25 +12,25 @@ interface IconCardProps {
 
 const IconCard = ({ icon, title, description, className, theme }: IconCardProps) => {
     return (
-        <div className={`w-full p-6 border border-[#303030] rounded-2xl flex flex-col gap-3 ${className}`}>
+        <div className={`w-full p-6 border border-[#303030] rounded-2xl flex flex-col md:gap-2 md:my-2 ${className}`}>
             <Image
                 src={icon || ""}
                 alt={title}
                 height={64}
                 width={64}
-                className="h-12 w-auto object-contain"
+                className="h-14 w-auto object-contain"
                 loading="lazy"
             />
             <GradientTitle
-                    text={title}
-                    theme={theme}
-                    className="text-[24px] lg:text-3xl text-center"
-                />
-                <BodyText
-                    text={description}
-                    theme={theme}
-                    className="text-white text-[16px] lg:text-[18px] text-center"
-                />
+                text={title}
+                theme={theme}
+                className="text-[24px] lg:text-3xl text-center md:mt-0 mt-4"
+            />
+            <BodyText
+                text={description}
+                theme={theme}
+                className="text-white text-[16px] lg:text-[18px] text-center"
+            />
         </div>
     )
 }

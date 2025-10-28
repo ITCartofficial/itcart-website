@@ -167,7 +167,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react"
 import CaseStudyCard from "../cards/CaseStudyCard"
-import type {CaseStudyItem } from "@/types/PropsTypes"
+import type { CaseStudyItem } from "@/types/PropsTypes"
 
 export default function CaseStudiesSlider({ caseStudies }: { caseStudies: CaseStudyItem[] }) {
   // Create a truly infinite loop by duplicating the entire set multiple times
@@ -184,6 +184,9 @@ export default function CaseStudiesSlider({ caseStudies }: { caseStudies: CaseSt
   const cardWidth = 320
   const cardGap = 20
   const totalWidth = cardWidth + cardGap
+
+  console.log("caseStudies", caseStudies);
+
 
   // Initialize the slider
   useEffect(() => {
@@ -286,9 +289,12 @@ export default function CaseStudiesSlider({ caseStudies }: { caseStudies: CaseSt
                 onClick={() => goToSlide(index)}
               >
                 <div
-                  className={`h-[450px] rounded-[30px] overflow-hidden ${isFocused ? "border border-blue-500" : "bg-gray-100"} transition-all duration-600`}
+                  className={`h-[450px] rounded-[30px] overflow-hidden ${isFocused ? "border " : "bg-gray-100"} transition-all duration-600`}
                 >
-                  <CaseStudyCard card={study} />
+                  <CaseStudyCard
+                    isFocused={isFocused}
+                    forSlide={true}
+                    card={study} />
                 </div>
               </div>
             )
@@ -303,7 +309,7 @@ export default function CaseStudiesSlider({ caseStudies }: { caseStudies: CaseSt
             <button
               key={index}
               onClick={() => goToSlide(startIndex + index)} // Go to the corresponding slide in the middle set
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${index === realIndex ? "w-8 bg-gradient-to-r from-[#29C1E2] to-black" : "bg-gray-300 hover:bg-gray-400"
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${index === realIndex ? "w-8 bg-gradient-to-r from-[#29C1E2] to-white" : "bg-gray-300 hover:bg-gray-400"
                 }`}
               aria-label={`Go to slide ${index + 1}`}
             />

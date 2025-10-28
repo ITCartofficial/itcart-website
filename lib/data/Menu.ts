@@ -11,7 +11,7 @@ export const navItems = [
   },
   { label: "Media", href: "/mediapage" },
   // mediapage
-  { label: "Cunsult Now", href: "/cunsultnow" },
+  { label: "Consult Now", href: "/cunsultnow" },
   { label: "CSR", href: "/csr" },
 
   // {
@@ -36,7 +36,7 @@ export const navItems = [
     submenu: [
       { label: "About Us", href: "/about-us" },
       { label: "Our Blogs", href: "/blogs" },
-      { label: "Case Studies", href: "/#case-studies" },
+      { label: "Case Studies", href: "/case-study" },
       { label: "Our Partners", href: "/ourpatners" },
     ],
   },

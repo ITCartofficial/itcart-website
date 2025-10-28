@@ -4,6 +4,7 @@ export interface Post {
   excerpt: string;
   date: string;
   id: string;
+  author?: string;
   featuredImage?: {
     node: {
       sourceUrl: string;

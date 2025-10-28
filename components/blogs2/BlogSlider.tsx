@@ -30,7 +30,7 @@ const BlogSlider = ({ posts }: { posts: Post[] }) => {
     // .filter((blog) => blog.category === "Editor's Pick")
 
     return (
-        <div className="w-full flex flex-col items-center space ">
+        <div className="w-full flex flex-col items-center">
             <div className="container relative">
                 <Swiper
                     modules={[Navigation, Autoplay]}
@@ -48,7 +48,7 @@ const BlogSlider = ({ posts }: { posts: Post[] }) => {
             </div>
 
             {/* Custom Pagination */}
-            <div className="flex space-x-2 my-3">
+            <div className="flex">
                 {editorsPickPosts.map((_, index) => (
                     <button
                         key={index}

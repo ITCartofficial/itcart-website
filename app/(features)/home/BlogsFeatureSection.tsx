@@ -16,25 +16,22 @@ import { Post } from "@/types/wordpress";
 
 export default function BlogsFeatureSection({posts}: {posts: Post[]}) {
 
-  //   const featured = posts.find((p) => p.featured) || posts[0];
-  //   const recent = posts.filter((p) => !p.featured);
-
   const featured: Post = posts[0];
     const recent: Post[] = posts?.slice(1, 5);
 
   return (
-    <div className="bg-black lg:rounded-tl-[85px] lg:rounded-tr-[85px] overflow-hidden pt-4">
-      <section className="bg-black text-white container mx-auto lg:px-10 py-16">
+    <div className="bg-black lg:rounded-tl-[85px] lg:rounded-tr-[85px] overflow-hidden md:pt-4">
+      <section className="bg-black text-white container mx-auto lg:px-10 md:py-16">
         <div className="flex flex-col gap-2 mb-8">
           <BodyText
             text="News & Blogs"
-            className="text-[24px] font-semibold"
+            className="text-[24px] font-semibold text-center md:text-start"
             color="#ffffff"
           />
           <GradientTitle
             text="Insights & Thought Leadership"
             theme="dark"
-            className="text-[30px] lg:text-[50px] leading-tight w-full md:w-full"
+            className="text-[30px] lg:text-[50px] leading-[1.3] w-full md:w-full text-center md:text-start"
           />
         </div>
         <PostHighlights featured={featured} recent={recent} />

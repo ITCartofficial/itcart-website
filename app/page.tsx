@@ -82,14 +82,14 @@ const HomeTemplate = () => {
           logos={logos}
         />
       </div>
-      <div className="bg-black py-16 container mx-auto lg:px-10">
+      <div className="bg-black md:py-16 container mx-auto lg:px-10">
         <AboutInfoSection
           title="About Us - Creating Impact with a Clear Vision"
           cardDetails={aboutBrief}
         />
       </div>
 
-      <div className="bg-black py-16 container mx-auto lg:px-10">
+      <div className="bg-black container mx-auto lg:px-10">
         <AiSection
           title="Our AI-powered Solutions for Intelligent Automation"
           cardDetails={aboutBrief}
@@ -119,7 +119,7 @@ const HomeTemplate = () => {
           title={missionContent.title || ""}
         />
       </div>
-      <div id="case-studies" className="bg-black pt-16">
+      <div id="case-studies" className="bg-black md:pt-16">
         <CaseStudySection caseStudies={caseStudyData} />
       </div>
       <div className="bg-black py-16">

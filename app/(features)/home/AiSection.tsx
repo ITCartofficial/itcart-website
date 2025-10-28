@@ -23,7 +23,7 @@ const AiSection: React.FC<AiSectionProps> = ({ title }) => {
         <div className="w-full h-max flex flex-col justify-center items-center text-center ">
             <GradientTitle text={title} className="text-[30px] lg:text-[48px] lg:w-[70%] leading-tight  text- lg:text-center" theme="dark" />
 
-            <div className="flex flex-col items-center w-full py-5">
+            <div className="flex flex-col items-center w-full py-5 md:py-10">
                 {AiSectionData.map((item, index) => (
                     <div key={index} onClick={() => setClickedId(item?.id)} className="w-full flex justify-between py-3 border-b border-[#333333] cursor-pointer">
                         <div key={item.id} className="flex flex-col items-center justify-center  sm:text-[#2BADB7] text-white">

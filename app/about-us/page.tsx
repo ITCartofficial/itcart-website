@@ -57,14 +57,14 @@ const AboutUs = () => {
             <div className="bg-black py-10 md:py-16">
                 <CoreValueSection coreValues={coreValues} />
             </div>
-            <div className="bg-black md:py-16">
+            <div className="bg-black py-16">
                 <MissionVisionSection
                     missionVision={missionVisionData}
                     theme={'dark'}
                 />
             </div>
 
-            <div className="bg-black py:10 md:py-16">
+            <div className="bg-black py:10 py-16">
                 <AIFrameworkSection
                     aixFramework={PatientSectionData}
                     theme={'dark'}
@@ -82,7 +82,7 @@ const AboutUs = () => {
                 />
             </div>
 
-            <div className="bg-white py-16 rounded-bl-[85px] rounded-br-[85px]">
+            <div className="bg-white py-6 rounded-bl-[85px] rounded-br-[85px]">
                 <ExecutiveLeadersSection bgColor={""} execLeaders={executiveLeadership} />
             </div>
 

@@ -11,7 +11,7 @@ const PatentPendingSection = () => {
             <GradientTitle
                 text="Our Patent-Pending AI framework"
                 lineHeight="1.2"
-                className="text-2xl sm:text-3xl md:text-4xl lg:text-[50px] mb-2 sm:mb-6 text-left w-[60%]"
+                className="text-2xl sm:text-3xl md:text-4xl lg:text-[50px] mb-2 sm:mb-6 md:text-left text-center md:w-[60%]"
                 theme='dark'
             />
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:mt-10'>

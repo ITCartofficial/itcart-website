@@ -14,7 +14,7 @@ const HorizontalSliderSection: React.FC<HorizontalSliderSectionProps> = ({ text,
 
     return (
         <div className="flex flex-col gap-8">
-            <div className="container flex justify-between mx-auto lg:px-10 items-center">
+            <div className="container flex md:flex-row flex-col justify-between mx-auto lg:px-10 items-center">
                 <GradientTitle
                     text={text}
                     className="text-[30px] lg:text-[50px] lg:w-[60%] leading-tight md:text-center lg:text-left"
@@ -22,10 +22,10 @@ const HorizontalSliderSection: React.FC<HorizontalSliderSectionProps> = ({ text,
                 />
 
                 {/* Navigation Buttons */}
-                <div className="flex items-center justify-center gap-4">
+                <div className="flex items-center md:justify-center ml-auto md:ml-0 mt-4 md:mt-0 gap-2 md:gap-4">
                     <button
                         onClick={() => sliderRef.current?.slidePrev()}
-                        className="flex items-center justify-center w-12 h-12 rounded-full bg-[#2BADB7] border border-transparent text-white hover:bg-transparent hover:border-[#2BADB7] hover:text-[#2BADB7] transition-all duration-300 shadow-md"
+                        className="flex items-center justify-center md:w-12 md:h-12 w-10 h-10 rounded-full bg-[#2BADB7] border border-transparent text-white hover:bg-transparent hover:border-[#2BADB7] hover:text-[#2BADB7] transition-all duration-300 shadow-md"
                         aria-label="Previous slide"
                     >
                         <FaArrowLeft className="text-lg" />
@@ -33,7 +33,7 @@ const HorizontalSliderSection: React.FC<HorizontalSliderSectionProps> = ({ text,
 
                     <button
                         onClick={() => sliderRef.current?.slideNext()}
-                        className="flex items-center justify-center w-12 h-12 rounded-full bg-[#2BADB7] border border-transparent text-white hover:bg-transparent hover:border-[#2BADB7] hover:text-[#2BADB7] transition-all duration-300 shadow-md"
+                        className="flex items-center justify-center md:w-12 md:h-12 w-10 h-10 rounded-full bg-[#2BADB7] border border-transparent text-white hover:bg-transparent hover:border-[#2BADB7] hover:text-[#2BADB7] transition-all duration-300 shadow-md"
                         aria-label="Next slide"
                     >
                         <FaArrowRight className="text-lg" />
@@ -41,7 +41,9 @@ const HorizontalSliderSection: React.FC<HorizontalSliderSectionProps> = ({ text,
                 </div>
             </div>
 
-            <CardSlider ref={sliderRef} cardLists={cardLists} />
+            <div className="md:mt-4 mt-2">
+                <CardSlider ref={sliderRef} cardLists={cardLists} />
+            </div>
         </div>
     );
 };

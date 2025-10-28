@@ -112,12 +112,12 @@ const Footer = () => {
     const verticalMenus = footerMenus.find(menus => menus.title == "Our Verticals")?.navigations;
 
     return (
-        <footer className="bg-black  text-white py-4 md:py-10 lg:py-12 relative overflow-none">
-            <div className="flex flex-col lg:flex-row">
+        <footer className="bg-black  text-white py-4 md:py-10 lg:py-12 relative overflow-none border-t border-[#424242]">
+            <div className="flex flex-col lg:flex-row ">
                 {/* Left Side – Logo, Title, Image */}
                 <div className="w-full lg:w-1/2 flex flex-col justify-between items-center lg:items-start">
                     {/* Logo */}
-                    <div className="flex justify-center lg:justify-start w-full mb-5 md:ml-20">
+                    <div className="flex justify-center lg:justify-start w-full mb-5 md:ml-20 mt-5 md:mt-0">
                         <Logo />
                     </div>
 
@@ -125,13 +125,13 @@ const Footer = () => {
                     <GradientTitle
                         text="Smart Solutions for a Smarter Tomorrow"
                         lineHeight="1.2"
-                        className="max-w-lg text-[28px] sm:text-[32px] lg:text-[45px] text-center lg:text-left mt-3 md:ml-20"
+                        className="max-w-lg text-[28px] sm:text-[32px] lg:text-[45px] text-center lg:text-left mt-3 md:ml-20 md:px-0 px-10"
                         theme="dark"
                     />
 
                     <div className="relative w-full max-w-[1200px] mx-auto mt-4 overflow-hidden rounded-lg">
                         <Image
-                            src="/images/two-hands.png"
+                            src="/images/footer/two-hands.jpg"
                             alt="hands Image"
                             width={1200}
                             height={500}
@@ -165,7 +165,7 @@ const Footer = () => {
             </div>
 
             {/* Bottom Disclaimer + Certifications */}
-            <div className="border-t border-white/10 mt-12 pt-6">
+            <div className="border-t border-[#424242] mt-12 pt-6">
                 <div className="container mx-auto px-4 lg:px-10 flex flex-col lg:flex-row items-center justify-between gap-6 text-center lg:text-left">
                     <BodyText
                         text="The Privacy Policy, Terms and Conditions will be applied fully and affect to your use of this Website. By using this website, you agreed to accept all terms and conditions."

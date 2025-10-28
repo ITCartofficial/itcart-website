@@ -133,10 +133,11 @@ export default function SolutionGrid({
                 {CapabilitySections.map((service, index) => (
                     <div
                         key={index}
-                        className="rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-[#45C2CC] bg-[#1B1B1B]"
+                        className="rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-[#45C2CC] text-[#45C2CC] 
+                        bg-[#1B1B1B] hover:text-white hover:bg-[#45C2CC]"
                     >
                         <div className="flex flex-col sm:flex-row h-full">
-                            <div className="relative w-full sm:w-[45%] h-64 sm:h-auto flex-shrink-0 overflow-hidden bg-red-400">
+                            <div className="relative w-full sm:w-[45%] h-64 sm:h-auto flex-shrink-0 overflow-hidden ">
                                 <Image
                                     src={service.image}
                                     alt={service.title}
@@ -158,7 +159,7 @@ export default function SolutionGrid({
                                     />
                                 </div>
 
-                                <h3 className="text-xl sm:text-2xl font-semibold text-[#45C2CC] mb-4 leading-tight">
+                                <h3 className="text-xl sm:text-2xl font-semibold  mb-4 leading-tight">
                                     {service.title}
                                 </h3>
 

@@ -26,7 +26,7 @@
                             src={src}
                             alt={alt}
                             fill
-                            className={`object-cover ${className}`}
+                            className={`object-cover object-center ${className}`}
                         />
                     )
                 }

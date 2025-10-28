@@ -18,13 +18,13 @@ const NewsletterSubscription = ({ theme }: { theme: "dark" | "light" }) => {
 
   return (
     <div className="bg-black flex items-center justify-center">
-      <div className="w-full rounded-xl border border-[#45C2CC] bg-gray-950 px-8 lg:px-20 py-12">
+      <div className="w-full rounded-xl border border-[#45C2CC] bg-gray-950 px-8 lg:px-20 py-8 md:py-12">
         <div className="text-center md:text-left mb-6">
           <div className="flex justify-center items-baseline flex-wrap md:justify-start">
-            <span className="text-white text-3xl font-bold mr-2">Subscribe To</span>
+            {/* <span className="text-white text-3xl font-bold mr-2">Subscribe To</span> */}
             <GradientTitle
-              text="News"
-              className="text-3xl"
+              text=" Subscribe To News"
+              className="md:text-[50px] text-[30px] "
               fontWeight="bold"
             />
           </div>
@@ -80,7 +80,7 @@ const NewsletterSubscription = ({ theme }: { theme: "dark" | "light" }) => {
             </label>
           </div>
 
-          <div className="pt-6">
+          <div className="md:pt-6 pt-0 flex md:justify-start justify-center ">
             <button
               onClick={handleSubscribe}
               className="bg-gradient-to-r from-white to-cyan-400 cursor-pointer text-black font-semibold py-3 px-6 rounded-lg flex items-center justify-center gap-2 hover:opacity-90 transition">

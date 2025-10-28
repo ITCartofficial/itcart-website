@@ -15,9 +15,9 @@ const JobSection = () => {
             <BodyText
                 text="At iTCart, we believe in empowering individuals to play to their strengths. Explore what each team excels at and discover where you fit best."
                 lineHeight="1.2"
-                className="text-base pb-12 text-center"
+                className="text-base pb-4 md:pb-12 text-center"
             />
-            <JobListings/>
+            <JobListings />
         </div>
     )
 }

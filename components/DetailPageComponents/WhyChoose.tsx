@@ -41,7 +41,7 @@ const WhyChoose: React.FC<WhyChooseProps> = ({ whyChooseUsHeading, className, wh
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {/* Tailored Solutions Card */}
                         {whyChooseUsCards?.map((data, index) => (
-                            <div key={index} className=" rounded-2xl overflow-hidden border border-zinc-800 bg-[#1B1B1B]">
+                            <div key={index} className=" rounded-2xl overflow-hidden border border-zinc-800">
                                 <div className="relative h-64 w-full">
                                     <Image src={data.image} alt={data.title} fill className="object-cover" />
                                 </div>

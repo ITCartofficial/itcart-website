@@ -36,8 +36,8 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
   isCunsultNow
 }) => {
   return (
-    <section className={`relative w-full bg-black text-white overflow-hidden ${className}`}>
-      <div className="relative h-[60vh] sm:h-[60vh] md:h-[60vh] lg:h-[60vh] bg-gradient-to-t from-black/100 bg-green-400">
+    <section className={`relative w-full bg-black text-white overflow-hidden mt-7 ${className} `}>
+      <div className="relative h-[60vh] sm:h-[60vh] md:h-[76vh] lg:h-[75vh] bg-gradient-to-t ">
         <div
           className="absolute inset-0 z-0 "
           style={{
@@ -48,12 +48,31 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
         />
 
         {/* Title and Breadcrumb Container */}
-        <div className="container mx-auto px-4 relative z-10 pt-30 md:pt-35">
+        <div className="container mx-auto px-4 relative z-10 pt-25 md:pt-30 ">
+
+          <nav className="flex items-center justify-center text-[20px] ">
+            <ul className="flex items-center">
+              {breadcrumbItems.map((item, index) => (
+                <React.Fragment key={index}>
+                  <li>
+                    <Link href={item.url} className="text-gray-300 hover:text-cyan-400 transition-colors">
+                      {item.label}
+                    </Link>
+                  </li>
+                  {index < breadcrumbItems.length - 1 && (
+                    <li className="mx-2 text-gray-400">
+                      /
+                    </li>
+                  )}
+                </React.Fragment>
+              ))}
+            </ul>
+          </nav>
           {/* Title */}
           <GradientTitle
             text={title}
             theme="dark"
-            className="text-3xl sm:text-4xl md:text-[64px] text-center"
+            className="text-3xl sm:text-4xl md:text-[64px] text-center py-4 "
           />
 
           {
@@ -81,28 +100,6 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
               </div>
             )
           }
-
-          {
-            !isCunsultNow &&
-            <nav className="flex items-center justify-center text-[20px]">
-              <ul className="flex items-center">
-                {breadcrumbItems.map((item, index) => (
-                  <React.Fragment key={index}>
-                    <li>
-                      <Link href={item.url} className="text-gray-300 hover:text-cyan-400 transition-colors">
-                        {item.label}
-                      </Link>
-                    </li>
-                    {index < breadcrumbItems.length - 1 && (
-                      <li className="mx-2 text-gray-400">
-                        /
-                      </li>
-                    )}
-                  </React.Fragment>
-                ))}
-              </ul>
-            </nav>
-          }
           {/* Breadcrumb Navigation */}
 
         </div>
@@ -126,7 +123,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                   icon={<FaArrowRight size={16} />}
                   url={ctaUrl}
                   theme="dark"
-                  className="mt-2"
+                  className="mt-0"
                 />
               )}
             </div>

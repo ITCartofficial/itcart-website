@@ -8,13 +8,28 @@ import CaseStudy from '@/components/cards/CaseStudy';
 import { caseStudyData } from '@/lib/data/caseStudyData';
 import OutlineBtn from '@/components/buttons/OutlineBtn';
 import { FaArrowRight } from 'react-icons/fa6';
-import Link from 'next/link';
+import HeroBanner from '@/components/HeroBanner';
+
+
 
 const CaseStudiesPage: React.FC = () => {
+
     return (
         <div className="min-h-screen bg-black text-white">
+            <HeroBanner
+                title="Case Studies"
+                description="Explore our case studies for in-depth insights, expert analyses, and success stories. Stay informed on how we're driving digital transformation with our comprehensive collection of client success stories."
+                ctaText="Connect with Us"
+                ctaUrl="/contact"
+                breadcrumbItems={[
+                    { label: 'Home', url: '/' },
+                    { label: 'Case Studies', url: '/case-study' }
+                ]}
+                backgroundImage="/images/case_studies/case-study-banner.png"
+            />
+
             {/* Hero Section */}
-            <section className="py-20 px-4 sm:px-6 lg:px-8">
+            {/* <section className="py-20 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto text-center pt-16 lg:pt-24">
                     <GradientTitle
                         text="Our Case Studies"
@@ -26,7 +41,7 @@ const CaseStudiesPage: React.FC = () => {
                         className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto"
                     />
                 </div>
-            </section>
+            </section> */}
 
             {/* Case Studies Grid */}
             <section className="py-16 px-4 sm:px-6 lg:px-8">
@@ -48,7 +63,7 @@ const CaseStudiesPage: React.FC = () => {
             </section>
 
             {/* Call to Action Section */}
-            <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#131313]">
+            <section className="md:py-20 py-10 px-4 sm:px-6 lg:px-8 bg-[#131313]">
                 <div className="max-w-4xl mx-auto text-center">
                     <GradientTitle
                         text="Ready to Start Your Success Story?"
@@ -59,22 +74,37 @@ const CaseStudiesPage: React.FC = () => {
                         text="Let's discuss how we can help transform your business with innovative technology solutions."
                         className="text-lg text-gray-300 mb-8"
                     />
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link
+                    <div className="flex  sm:flex-row gap-4 justify-center">
+                        {/* <Link
                             href="/contact-us"
                             className="bg-gradient-to-r fbg-gradient-to-r from-[#29C1E2] to-white text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-white hover:to-[#29C1E2] transition-all duration-300">
                             Get Started
-                        </Link>
-                        <OutlineBtn
-                            text="Our Services"
-                            textColor="#FFFFFF"
-                            icon={<FaArrowRight size={16} color="#FFFFFF" />}
-                            url='/services'
-                        />
+                        </Link> */}
+                        <div>
+                            <OutlineBtn
+                                // showBorderaButton={changgeBtn}
+                                text="Our Services"
+                                textColor="#FFFFFF"
+                                icon={<FaArrowRight size={16} color="#FFFFFF" />}
+                                url='/services'
+                            />
+                        </div>
+
+                        <div
+                           
+                        >
+                            <OutlineBtn
+                                // showBorderaButton={changgeBtn}
+                                text="Our Services"
+                                textColor="#FFFFFF"
+                                icon={<FaArrowRight size={16} color="#FFFFFF" />}
+                                url='/services'
+                            />
+                        </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </section >
+        </div >
     );
 };
 

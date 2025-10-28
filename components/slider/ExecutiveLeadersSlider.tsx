@@ -110,17 +110,17 @@ const ExecutiveLeadersSlider = ({
       <div className="absolute z-10 flex gap-4 bottom-0 right-0">
         <button
           onClick={handlePrev}
-          className="bg-[#2BADB7] p-4 rounded-full cursor-pointer hover:bg-transparent border hover:border-white transition-colors"
+          className="bg-[#2BADB7] p-4 rounded-full cursor-pointer  border hover:bg-transparent hover:border-[#2BADB7] hover:text-[#2BADB7] text-white transition-colors 0"
           aria-label="Previous slide"
         >
-          <FaArrowLeft className="text-base font-semibold text-white" />
+          <FaArrowLeft className="text-base font-semibold  " />
         </button>
         <button
           onClick={handleNext}
-          className="bg-[#2BADB7] p-4 rounded-full cursor-pointer hover:bg-transparent border hover:border-white transition-colors"
+          className="bg-[#2BADB7] p-4 rounded-full cursor-pointer  border hover:bg-transparent hover:border-[#2BADB7] hover:text-[#2BADB7] text-white transition-colors 0"
           aria-label="Next slide"
         >
-          <FaArrowRight className="text-base font-semibold text-white" />
+          <FaArrowRight className="text-base font-semibold" />
         </button>
       </div>
 
@@ -130,11 +130,11 @@ const ExecutiveLeadersSlider = ({
         slidesPerView={1}
         loop={true}
         autoplay={{
-          delay: 3000, 
+          delay: 3000,
           disableOnInteraction: false,
         }}
-        speed={800} 
-        className="flex items-center justify-center mb-2"
+        speed={800}
+        className="flex items-center justify-center"
       >
         {execLeaders.map((execLeader, i) => (
           <SwiperSlide key={i}>

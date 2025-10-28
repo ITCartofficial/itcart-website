@@ -35,7 +35,7 @@ const CapabilitySection: React.FC<CapabilitySectionProps> = ({
         >
             <section className="w-full text-white px-6">
                 {/* Section Heading */}
-                <div className="max-w-7xl mx-auto text-center mb-12">
+                <div className="max-w-7xl mx-auto text-center mb-7 md:mb-12">
                     <GradientTitle
                         text={capabilitiSectionHeading ?? ""}
                         theme="dark"
@@ -53,12 +53,12 @@ const CapabilitySection: React.FC<CapabilitySectionProps> = ({
 
                 {/* Capability Cards Grid */}
                 <div
-                    className={`grid grid-cols-1 sm:grid-cols-${itemePerRow} gap-6 md:gap-8 max-w-7xl mx-auto`}
+                    className={`grid grid-cols-1 sm:grid-cols-${itemePerRow} gap-6 md:gap-8 max-w-7xl md:mx-10 `}
                 >
                     {CapabilitySections?.map((cap, index) => (
                         <div
                             key={index}
-                            className="relative rounded-xl p-6 md:p-8 border text-[#45C2CC] hover:text-white border-[#45C2CC] hover:border-white shadow-lg overflow-hidden group transition-all duration-500 bg-[#151515]"
+                            className="relative rounded-xl p-6 md:p-8 border  text-[#45C2CC] hover:text-white border-[#45C2CC] hover:border-white shadow-lg overflow-hidden group transition-all duration-500 bg-[#151515]"
                         >
                             {/* Hover Gradient Overlay (FULL HEIGHT) */}
                             <div

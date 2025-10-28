@@ -17,16 +17,16 @@ const FoundingMembersSection = ({ members, theme, direction }: {
 
 }) => {
     return (
-        <div className='container mx-auto lg:px-10 lg:py-16'>
-            <div className="flex flex-col w-1/2 mb-10 container">
+        <div className='container mx-auto lg:px-10 '>
+            <div className=" mb-10">
                 <GradientTitle
                     text='Founding Members'
                     theme='light'
-                    className='text-[30px] lg:text-[48px] '
+                    className='text-[30px] lg:text-[48px]'
                 />
                 <BodyText
                     text={"Meet our visionary founding members: Driving leadership, innovation and strategic excellence in IT."}
-                    className={"text-[16px] lg:text-[20px]  lg:text-left"}
+                    className={"text-[16px] lg:text-[20px]  lg:text-left w-[70%]"}
                     theme={theme}
                 />
             </div>

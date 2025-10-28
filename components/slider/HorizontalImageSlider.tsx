@@ -27,7 +27,7 @@ const HorizontalImageSlider: React.FC<HorizontalImageSliderProps> = ({ images })
   const slideImages = images || defaultImages;
 
   return (
-    <div className="w-full mx-auto px-4 py-8 relative">
+    <div className="w-full mx-auto px-4 mt-[-10px] relative">
       <style jsx global>{`
         .swiper-slide {
           transition: transform 0.3s ease-in-out !important;

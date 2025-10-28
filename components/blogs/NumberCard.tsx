@@ -1,6 +1,7 @@
 import BodyText from '@/components/typography/BodyText';
 import HeadingText from '@/components/typography/HeadingText';
 import React from 'react';
+import GradientTitle from '../typography/GradientTitle';
 
 interface NumberedCardProps {
   number: string;
@@ -18,20 +19,22 @@ const NumberedCard: React.FC<NumberedCardProps> = ({
   onClick
 }) => {
   return (
-    <div 
+    <div
       className="bg-black text-white pb-2 rounded-lg w-full max-w-sm cursor-pointer group"
       onClick={onClick}
     >
       <div className="flex gap-3">
         {/* Left column - Number */}
-        <div className="text-2xl font-bold text-gray-400 group-hover:text-[#45c2cc]">
-          {number}
-        </div>
+        <GradientTitle
+          text={number}
+          theme="dark"
+          className="text-2xl font-bold"
+        />
 
         {/* Right column - Title, Author, Date */}
         <div className="flex-1">
           {/* Title */}
-          <HeadingText 
+          <HeadingText
             text={title}
             fontWeight="semibold"
             className="text-base leading-tight mb-3 text-[16px] font-bold group-hover:text-[#45c2cc]"

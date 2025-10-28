@@ -5,7 +5,7 @@ import BodyText from '@/components/typography/BodyText'
 
 const WhoWeAreSection = () => {
     return (
-        <div className='container mx-auto lg:px-10 flex flex-col gap-16'>
+        <div className='container mx-auto lg:px-10 flex flex-col gap-10 md:gap-16'>
             <div className="flex flex-col">
                 <GradientTitle
                     text='Who We Are?'

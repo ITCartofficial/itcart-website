@@ -108,11 +108,11 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
 
     return (
         <section className={`w-full bg-black text-white px-6 py-0 ${className}`}>
-            <div className="max-w-5xl mx-auto text-center mb-16">
+            <div className="md:w-[60%] w-[100%] mx-auto text-center mb-16">
                 <GradientTitle
                     text={skillGapSectionHeading ?? ''}
                     theme="dark"
-                    className="text-[28px] sm:text-[36px] md:text-[48px] font-bold leading-tight"
+                    className="text-[28px] sm:text-[36px] md:text-[48px] font-bold  leading-tight"
                 />
 
                 <BodyText
@@ -122,7 +122,7 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
                 />
             </div>
 
-            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:flex-nowrap gap-10 mt-20 justify-center">
+            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:flex-nowrap gap-10 md:mt-20 justify-center">
                 {(skillGapSection ?? []).map((item, index) => (
                     <div
                         key={index}
@@ -133,9 +133,10 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
                                 ? "shadow-lg "
                                 : "border border-cyan-500/40 hover:shadow-lg hover:shadow-cyan-500/20"
                             }`}
+
                     >
                         {/* Floating Icon */}
-                        <div className="absolute -top-10 flex justify-center w-full">
+                        <div className="absolute -top-10 flex justify-center w-full ">
                             <div className="flex justify-center items-center w-20 h-20 rounded-full bg-[#2BADB7] shadow-lg">
                                 <Image
                                     src={item?.icon || ""}

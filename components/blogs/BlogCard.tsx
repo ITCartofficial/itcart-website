@@ -30,9 +30,9 @@ const BlogCard: React.FC<BlogCardProps> = ({
   }
 
   return (
-    <div className="flex flex-col h-full max-w-sm rounded-lg overflow-hidden shadow-lg bg-black text-white">
+    <div className="flex flex-col h-full max-w-sm rounded-lg overflow-hidden shadow-lg bg-black text-white w-full">
       {imageUrl && (
-        <div className="relative h-70 w-full flex-shrink-0">
+        <div className="relative h-45 w-full flex-shrink-0">
           <Image
             src={imageUrl}
             alt={title}
@@ -58,9 +58,11 @@ const BlogCard: React.FC<BlogCardProps> = ({
           />
 
           <div className=" w-full items-center justify-between mt-4 text-xs text-gray-400">
-            <span>{"By Ather name" + "-" + formattedDate}</span>
-            <div className="mt-6">
-              <LinkButton textColor={"white"}  text={"Continue Reading"} url={"buttonUrl"} />
+            {/* <span>{"By Ather name" + "-" + formattedDate}</span> */}
+            <span>{formattedDate}</span>
+            <div className="mt-3">
+              {/* <p className="text-[#45C2CC] cursor-pointer font-semibold lg:text-[18px]">Read More...</p> */}
+              <LinkButton textColor={"white"} text={"Continue Reading"} url={"buttonUrl"} />
             </div>
           </div>
         </div>

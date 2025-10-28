@@ -60,16 +60,16 @@ function ImplementationStratogy() {
             <GradientTitle
                 text={'Successful AI Implementation Strategy Roadmap'}
                 theme="dark"
-                className="text-[22px] sm:text-[25px] md:text-[44px] w-[60%] text-center  mx-auto"
+                className="text-[25px] lg:text-[48px] md:text-[44px]  md:w-[70%] w-[90%] text-center mx-auto  leading-[1.2]"
             />
 
             <BodyText
                 text={"Enterprise AI success requires systematic transformation through proven phases.Our ai consulting services enable generative ai for business across enterprise functions."}
                 color="#ffffff"
-                className="text-sm sm:text-base md:text-lg my-2 text-center w-[70%] mx-auto"
+                className="text-sm sm:text-base md:text-lg my-2 text-center md:w-[70%] w-[90%] mx-auto"
             />
 
-            <main className="bg-black px-4 py-1">
+            <main className="bg-black px-4 mt-1">
                 <div className="mx-auto w-full">
                     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 my-10">
                         {(serviceCardItems ?? []).map((feature, index) => (

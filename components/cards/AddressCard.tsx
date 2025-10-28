@@ -27,7 +27,9 @@ const AddressCard: React.FC<AddressCardProps> = ({ country, phone, email, locati
                     alt={country + " flag"}
                 />
             </div>
-            <div className="address_details border rounded-2xl border-[#45C2CC] flex flex-col gap-2 p-6 h-full grow bg-[#1d1d1dc6]">
+            <div className="address_details border rounded-2xl border-[#45C2CC] flex flex-col gap-2 p-6  grow 
+            bg-[#1d1d1dc6] 
+            ">
                 <Link href={`tel:${phone && phone.trim().split(' ').join('')}`} className="flex gap-2 items-stretch">
                     <FiPhoneCall className="text-white" />
                     <span className="text-sm text-white">{phone}</span>

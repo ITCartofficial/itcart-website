@@ -15,7 +15,7 @@ const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ about
     return (
         <section className="w-full bg-black text-white px-6 py-1">
             <div
-                className={`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center ${className}`}
+                className={`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-10 items-center ${className}`}
             >
                 {/* Left Content */}
                 <div className={`space-y-6 ${aboutProduct ? "md:order-2" : "md:order-1"}`}>
@@ -25,17 +25,17 @@ const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ about
                     <GradientTitle
                         text={VerticalContentSection2Heading ?? ''}
                         theme="dark"
-                        className="text-[22px] sm:text-[25px] md:text-[30px] w-full"
+                        className="text-[30px] sm:text-[25px] md:text-[38px] md:text-[30px] w-full text-center md:text-start"
                     />
 
 
-                    <p className="text-[16px] leading-relaxed">
+                    <p className="text-[16px] leading-relaxed  text-center md:text-start">
                         {contentOne}
                     </p>
-                    <p className="text-[16px] leading-relaxed">
+                    <p className="text-[16px] leading-relaxed  text-center md:text-start">
                         {contenttwo}
                     </p>
-                    <p className="text-[16px] leading-relaxed">
+                    <p className="text-[16px] leading-relaxed  text-center md:text-start">
                         {contentthree}
                     </p>
                     {/* contentthree */}

@@ -22,11 +22,11 @@ const ServicesDetailPage = () => {
     return (
         <>
 
-            <div className='bg-black space-y-15 lg:space-y-25'>
+            <div className='bg-black space-y-15 lg:space-y-25 '>
 
                 <VerticalHeroBanner
                     serviceName={filterdItem?.detailPage?.serviceName ?? ""}
-                    bannerButtonText={filterdItem?.detailPage?.bannerButtonText ?? ""}
+                    bannerButtonText={"Get In Touch"}
                     title={filterdItem?.detailPage?.bannerTitle ?? ""}
                     description={filterdItem?.detailPage?.bannerDescription ?? ""}
                     ctaText="Connect with Us"
@@ -108,7 +108,7 @@ const ServicesDetailPage = () => {
 
                 </div>
 
-                <div className=" border-b-2 border-b-zinc-600">
+                <div className=" border-b-2 border-b-zinc-600 pb-7">
                     <FutureSection
                         futurSectionHeading={filterdItem?.detailPage?.futurSectionHeading ?? ""}
                         futurSectionDescription={filterdItem?.detailPage?.futurSectionDescription ?? ""}
@@ -116,7 +116,7 @@ const ServicesDetailPage = () => {
                 </div>
 
             </div>
-            <div className="bg-[#131313] border-b-2 border-b-zinc-600">
+            <div className="bg-[#131313] border-b-2 border-b-zinc-600 -10">
                 <HomeFaqSection
                     FAQsHeading={filterdItem?.detailPage?.FAQsHeading}
                     faqs={filterdItem?.detailPage?.FAQs ?? []} />

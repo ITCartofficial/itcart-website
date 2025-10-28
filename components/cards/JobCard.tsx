@@ -28,7 +28,7 @@ const JobCard: React.FC<JobCardProps> = ({
     btnName
 }) => {
     return (
-        <div className={`flex flex-col lg:flex-row justify-between items-center w-full p-4 border border-gray-700 rounded-lg bg-black ${className}`}>
+        <div className={`flex flex-col lg:flex-row justify-between items-center w-full p-4 border border-gray-700 rounded-lg bg-black my-6 md:my-0 ${className}`}>
             <div>
                 <GradientTitle
                     text={title}
@@ -58,7 +58,7 @@ const JobCard: React.FC<JobCardProps> = ({
                 icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                 textColor="#ffffff"
                 showBorderaButton={true}
-                className="mt-3 md:mt-0"
+                className="mt-5 md:mt-0 md:mt-0 mb-2 md:mb-0"
             />
 
         </div>

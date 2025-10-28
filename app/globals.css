@@ -38,6 +38,15 @@ Link, a {
   scroll-behavior: smooth!important;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
 
 /* Headings */
 /* h1 {
