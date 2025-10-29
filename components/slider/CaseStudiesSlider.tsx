@@ -261,16 +261,22 @@ export default function CaseStudiesSlider({ caseStudies }: { caseStudies: CaseSt
   }, [activeIndex, totalItems, caseStudies.length])
 
   return (
-    <div className="relative w-full pl-4 overflow-hidden">
-      <div className="relative w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden">
+      <div className="relative w-full overflow-hidden ">
         <div
           ref={sliderRef}
           className="flex"
           style={{
-            transform: `translateX(-${activeIndex * totalWidth}px)`,
+            transform: `translateX(calc(-${activeIndex * totalWidth}px + ${window.innerWidth < 768 ? "50vw - 160px" : "0px"
+              }))`,
             transition: isTransitioning ? "transform 0.8s cubic-bezier(0.25, 1, 0.5, 1)" : "none",
-            visibility: isInitialized ? "visible" : "hidden", // Hide until initialized
+            visibility: isInitialized ? "visible" : "hidden",
           }}
+          // style={{
+          //   transform: `translateX(-${activeIndex * totalWidth}px)`,
+          //   transition: isTransitioning ? "transform 0.8s cubic-bezier(0.25, 1, 0.5, 1)" : "none",
+          //   visibility: isInitialized ? "visible" : "hidden", // Hide until initialized
+          // }}
           onTransitionEnd={handleTransitionEnd}
         >
           {items.map((study, index) => {

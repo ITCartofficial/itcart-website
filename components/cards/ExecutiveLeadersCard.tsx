@@ -4,18 +4,16 @@ import HeadingText from "@/components/typography/HeadingText"
 import StatCounter from "../common/StatCounter"
 import { ExecutiveLeader } from "@/types/PropsTypes"
 import OutlineBtn from "@/components/buttons/OutlineBtn"
+import { FaArrowRight } from "react-icons/fa6"
 
 
-const ExecutiveLeadersCard = ({ executiveLeader, theme, bgColor }: { executiveLeader: ExecutiveLeader, theme: 'dark' | 'light', bgColor: string }) => {
-
-
-
+const ExecutiveLeadersCard = ({ executiveLeader, theme }: { executiveLeader: ExecutiveLeader, theme: 'dark' | 'light', bgColor: string }) => {
 
     return (
         <div className={`flex flex-col lg:flex-row items-center gap-8 relative h-250 lg:h-[400px]  ${theme === 'dark' ? 'bg-black' : ''}`}
         >
             {/* image container */}
-            <div className="relative md:h-full w-full max-w-[360px]  rounded-3xl shadow-md overflow-hidden">
+            <div className="relative md:h-full bg-[#F2F2F2]  w-full max-w-[360px]  rounded-3xl shadow-md overflow-hidden">
                 <ImageContainer
                     src={executiveLeader.image}
                     alt=""
@@ -54,8 +52,15 @@ const ExecutiveLeadersCard = ({ executiveLeader, theme, bgColor }: { executiveLe
                             ))
                         }
                     </div>
-                    <div className="w-full">
-                        <OutlineBtn text="Know More" icon={'default'} textColor={bgColor ? "white" : "#000000"} theme={theme} url={executiveLeader.profileRef} />
+                    <div className="w-full flex justify-center md:justify-start">
+                        <OutlineBtn
+                            text="Know More"
+                            url="/"
+                            textColor='#ffffff'
+                            icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+                        />
+                        {/* <OutlineBtn text="Know More" icon={'default'} textColor={bgColor ? "white" : "#000000"} theme={theme} url={executiveLeader.profileRef} /> */}
+
                     </div>
                 </div>
             </div>

@@ -11,6 +11,7 @@ import SolutionAboutSection from "@/components/SolutionDetailPage/SolutionAboutS
 import SectionContact from "@/components/CunsultNow/SectionContact";
 import HomeFaqSection from "@/app/(features)/home/HomeFaqSection";
 import FutureSectionSolution from "@/components/SolutionDetailPage/FutureSection";
+import { useLayoutEffect, useState } from "react";
 
 // import CollaburationSection from "@/components/SolutionDetailPage/sectionCollab";
 // import FutureSection from "@/components/DetailPageComponents/FutureSection";
@@ -31,6 +32,26 @@ function SolutionDetailPage() {
     console.log("filterdItem", filterdItem?.detailPage);
 
 
+    const [bgImage, setBgImage] = useState<string | null>(null);
+
+    useLayoutEffect(() => {
+        const updateBg = () => {
+            if (window.innerWidth < 640) {
+                setBgImage(filterdItem?.detailPage?.mobileBannerImage ?? "");
+            } else {
+                setBgImage(filterdItem?.detailPage?.bannerImage ?? "");
+            }
+        };
+        updateBg();
+
+        window.addEventListener("resize", updateBg);
+        return () => window.removeEventListener("resize", updateBg);
+    });
+
+
+    if (!bgImage) return null;
+
+
     return (
         <>
 
@@ -45,7 +66,7 @@ function SolutionDetailPage() {
                         { label: 'Home', url: '/' },
                         { label: 'Our Verticals', url: '/services' }
                     ]}
-                    backgroundImage={filterdItem?.detailPage?.bannerImage ?? ""}
+                    backgroundImage={bgImage ?? ""}
                     className="mt-10"
                 />
 

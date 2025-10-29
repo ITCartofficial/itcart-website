@@ -8,9 +8,14 @@ import { FaArrowRight } from "react-icons/fa6"
 
 const ImageInfoCard: React.FC<ImageInfoCardProps> = ({ bgImage, title, description, descriptionSize, className, showBtn }) => {
     return (
-        <div style={{ backgroundImage: `url(${bgImage})` }} className={`bg-cover min-h-[100vh] lg:min-h-[580px] bg-center w-full rounded-2xl overflow-hidden group hover:-translate-y-4 transition-all duration-500 ease-in-out ${className && className}`}>
+        <div
+            style={{ backgroundImage: `url(${bgImage})` }}
+            className={`bg-cover bg-center w-full rounded-2xl overflow-hidden group hover:-translate-y-2 transition-all duration-500 ease-in-out 
+  min-h-[400px] sm:min-h-[400px] md:min-h-[480px] lg:min-h-[580px] ${className || ""}`}
+        >
+
             <div className="wrapper flex flex-col gap-4 justify-end p-8 w-full h-full" style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85%)' }}>
-                <GradientTitle text={title} className="text-[24px] lg:text-[48px]" theme="dark" />
+                <GradientTitle text={title} className="text-[24px] lg:text-[48px] pt-14" theme="dark" />
                 <BodyText text={description} color="#ffffff" fontSize={descriptionSize || "18px"} />
 
                 {

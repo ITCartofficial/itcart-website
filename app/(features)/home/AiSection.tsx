@@ -26,7 +26,7 @@ const AiSection: React.FC<AiSectionProps> = ({ title }) => {
             <div className="flex flex-col items-center w-full py-5 md:py-10">
                 {AiSectionData.map((item, index) => (
                     <div key={index} onClick={() => setClickedId(item?.id)} className="w-full flex justify-between py-3 border-b border-[#333333] cursor-pointer">
-                        <div key={item.id} className="flex flex-col items-center justify-center  sm:text-[#2BADB7] text-white">
+                        <div key={item.id} className="flex  flex-col items-center justify-center  sm:text-[#2BADB7] text-white">
                             <span className="lg:text-[20px] md:text-[20px] sm:text-[18px] text-[18px] text-[#2BADB7] font-bold sm:mb-auto mb-auto">{item.id}</span>
                         </div>
 
@@ -45,13 +45,13 @@ const AiSection: React.FC<AiSectionProps> = ({ title }) => {
 
                         }
 
-                        <div className="flex flex-col items-start justify-center sm:justify-start text-right w-150 ml-5 cursor-pointer">
+                        <div className="flex flex-col items-start justify-center sm:justify-start text-right w-150 md:mr-0 mr-4 ml-4 cursor-pointer">
                             <h3 style={{ color: clickedId == item.id ? '#2BADB7' : 'white' }} className="font-semibold md:text-[30px] sm:text-[18px] text-[18px]">{item.title}</h3>
 
                             {
 
                                 clickedId == item.id &&
-                                <div className="lg:hidden block rounded-[40px] overflow-hidden w-full h-[250px] sm:h-[300px] text-[#2BADB7] font-bold my-3 border-[#2BADB7]">
+                                <div className="lg:hidden block rounded-[20px] border border-[#2BADB7] md:rounded-[40px] overflow-hidden w-full h-[160px] sm:h-[300px] text-[#2BADB7] font-bold my-3 border-[#2BADB7]">
                                     <Image
                                         src={item?.image}
                                         alt={item?.image}
@@ -104,12 +104,11 @@ export default AiSection
 //                     <Image
 //                         src={item.image}
 //                         alt={item.title}
-//                         width={600}
-//                         height={400}
+//                         width={600}}
 //                         className="rounded-lg object-cover"
 //                     />
 //                     <div>
-//                         <h2 className="text-2xl lg:text-3xl font-bold text-teal-400">
+//                         <h2 className="text-2xl lg:text-3xl font-bold">
 //                             {item.title}
 //                         </h2>
 //                         <p className="text-gray-300 mt-2 text-base lg:text-lg">

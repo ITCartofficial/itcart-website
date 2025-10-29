@@ -49,7 +49,7 @@ const AddressSection = ({ addressList }: { addressList: AddressCardProps[] }) =>
         return () => window.removeEventListener("resize", updateBg);
     }, []);
 
-    // 🧩 Don’t render until bgImage is known (avoids flicker)
+   
     if (!bgImage) return null;
 
     return (

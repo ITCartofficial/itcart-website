@@ -53,17 +53,15 @@ const HomeTemplate = () => {
   const [posts, setPosts] = useState<Post[]>([]);
 
   useEffect(() => {
-    // This effect runs only once when the component mounts
     const fetchPosts = async () => {
       const fetchedPosts = await getBlogs();
       if (fetchedPosts.length === 0) {
-        notFound(); // If no posts are found, trigger a 404 page
+        notFound(); 
       } else {
         setPosts(fetchedPosts);
       }
     };
     fetchPosts();
-    // console.log("Fetching posts...");
   }, []);
 
   return (
@@ -76,27 +74,27 @@ const HomeTemplate = () => {
         videoSrc={videoSrc}
         poster={poster}
       />
-      <div className="bg-black py-16">
+      <div className="bg-black md:py-16">
         <ClientsSection
           title="Trusted by these amazing companies"
           logos={logos}
         />
       </div>
-      <div className="bg-black md:py-16 container mx-auto lg:px-10">
+      <div className="bg-black py-10 md:py-1 container mx-auto lg:px-10">
         <AboutInfoSection
           title="About Us - Creating Impact with a Clear Vision"
           cardDetails={aboutBrief}
         />
       </div>
 
-      <div className="bg-black container mx-auto lg:px-10">
+      <div className="bg-black container mx-auto py-5 lg:px-10">
         <AiSection
           title="Our AI-powered Solutions for Intelligent Automation"
           cardDetails={aboutBrief}
         />
       </div>
 
-      <div className="bg-black">
+      <div className="bg-black px-4 md:px-0">
         <PatentPendingSection />
       </div>
 
@@ -112,17 +110,18 @@ const HomeTemplate = () => {
       <div className="bg-black pb-16">
         <TextRevealSection />
       </div>
-      <div className="bg-black">
+      <div className="bg-black ">
         <ContentfulSection
           bgImage={missionContent.bgImage}
           description={missionContent.description}
           title={missionContent.title || ""}
+          bgImageMobile={missionContent.bgImageMobile}
         />
       </div>
       <div id="case-studies" className="bg-black md:pt-16">
         <CaseStudySection caseStudies={caseStudyData} />
       </div>
-      <div className="bg-black py-16">
+      <div className="bg-black py-8">
         <TestimonialSection bgColor={"true"} testimonialsData={testimonialsData} />
       </div>
       <div className="bg-black">
@@ -134,7 +133,7 @@ const HomeTemplate = () => {
       <div className="bg-black ">
         <BusinessTransformSection />
       </div>
-      <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
+      <div className="bg-[#131313] md:py-10 border-b-2 border-b-zinc-600">
         <HomeFaqSection faqs={homeFAQs} />
       </div>
     </div>

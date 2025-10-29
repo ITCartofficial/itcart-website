@@ -9,7 +9,7 @@ interface CoreValues {
 
 const CoreValueSection = ({ coreValues }: { coreValues: CoreValues[] }) => {
     return (
-        <div className='container mx-auto lg:px-10 flex flex-col gap-14 '>
+        <div className='container mx-auto lg:px-10 flex flex-col gap-10 '>
             <GradientTitle
                 text='Our Core Values'
                 theme='dark'

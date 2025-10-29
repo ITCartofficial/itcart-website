@@ -37,7 +37,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
 }) => {
   return (
     <section className={`relative w-full bg-black text-white overflow-hidden mt-7 ${className} `}>
-      <div className="relative h-[60vh] sm:h-[60vh] md:h-[76vh] lg:h-[75vh] bg-gradient-to-t ">
+      <div className="relative h-[60vh] sm:h-[60vh] md:h-[vh] lg:h-[75vh] bg-gradient-to-t ">
         <div
           className="absolute inset-0 z-0 "
           style={{
@@ -100,8 +100,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
               </div>
             )
           }
-          {/* Breadcrumb Navigation */}
-
+       
         </div>
       </div>
 

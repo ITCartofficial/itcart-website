@@ -12,7 +12,7 @@ interface IconCardProps {
 
 const IconCard = ({ icon, title, description, className, theme }: IconCardProps) => {
     return (
-        <div className={`w-full p-6 border border-[#303030] rounded-2xl flex flex-col md:gap-2 md:my-2 ${className}`}>
+        <div className={`w-full p-6 border border-[#303030] rounded-2xl flex flex-col md:gap-2 md:my-1 ${className}`}>
             <Image
                 src={icon || ""}
                 alt={title}

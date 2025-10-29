@@ -15,7 +15,7 @@ const WhoWeAreSection = () => {
                 <BodyText
                     text='We are industry trailblazers, revolutionizing the technology landscape by pioneering accessible and innovative technology solutions.'
                     theme='dark'
-                    className='text-[16px] lg:text-[20px] text-white text-center md:w-[80%] mx-auto'
+                    className='text-[16px] lg:text-[20px] text-white text-center md:w-[70%] mx-auto'
                 />
             </div>
             <MasonaryGrid />

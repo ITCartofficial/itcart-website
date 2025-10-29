@@ -3,6 +3,8 @@ import { Post } from "@/types/wordpress";
 import { format } from "date-fns";
 import Image from "next/image";
 import React from "react";
+import OutlineBtn from "../buttons/OutlineBtn";
+import { FaArrowRight } from "react-icons/fa6";
 
 // interface Post {
 //   title: string;
@@ -12,7 +14,7 @@ import React from "react";
 //   featured?: boolean;
 // }
 
-const PostLists = ({ posts, items = 3 }: { posts: Post[]; items: number }) => {
+const  PostLists = ({ posts, items = 3 }: { posts: Post[]; items: number }) => {
   return (
     <div className="flex flex-col gap-3 flex-grow-0">
       {posts?.slice(0, items).map((post, idx) => (
@@ -45,6 +47,16 @@ const PostLists = ({ posts, items = 3 }: { posts: Post[]; items: number }) => {
           </div>
         </a>
       ))}
+
+      <div className="md:mt-4 mt-3  flex md:justify-start justify-center">
+        <OutlineBtn
+          text="See all posts"
+          url="/"
+          textColor='#ffffff'
+          icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+        />
+      </div>
+
     </div>
   );
 };
