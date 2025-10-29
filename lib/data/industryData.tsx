@@ -153,7 +153,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your airline operations with comprehensive digital transformation solutions ",
-      FAQsHeading: 'FAQs - Everything you need to know about Airlines',
+      FAQsHeading: ' Everything you need to know about Airlines',
       FAQs: [
         {
           id: '1',
@@ -1185,7 +1185,7 @@ export const industryData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "AI-powered F&B Automation Excellence",
       bannerDescription: "Empowering modern food and beverage through comprehensive food and beverage ERP solutions and automation in food and beverage industry",
-      bannerImage: "/images/industries/Engineering-&-Construction-Banner.jpg",
+      bannerImage: "/images/industries/Food-&-Beverages-Banner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -2937,7 +2937,7 @@ export const industryData = [
       bannerButtonText: "Get in touch",
       bannerTitle: "Retail Digital Transformation Excellence",
       bannerDescription: "Empowering digital transformation for retail through comprehensive omnichannel retail solution technologies",
-      bannerImage: "/images/industries/Retail-&-Ecommerce-Banner.jpg",
+      bannerImage: "/images/industries/Retail-&-Ecommerce-Banner.png",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -3701,6 +3701,214 @@ export const industryData = [
           content: "Yes, our travel technology solutions feature robust APIs and pre-built integrations ensuring seamless connectivity with existing booking engines, tour management software, and travel industry software platforms without disrupting operations."
         },
       ]
+    }
+  },
+  {
+    title: "Hospitality",
+    description: "Empowering modern hotels through comprehensive hotel software solutions and hospitality management software",
+    linkUrl: "/services/startup-services",
+    imageSrc: "/images/industries/Hospitality.png",
+    detailPage: {
+      serviceName: 'Cybersecurity Services',
+      bannerButtonText: "Get in touch",
+      bannerTitle: "Hospitality Technology Solutions Excellence",
+      bannerDescription: "Empowering modern hotels through comprehensive hotel software solutions and hospitality management software",
+      bannerImage: "/images/industries/Hospitality-banner.png",
+      VerticalContentSection2Heading: 'The Digital Workspace Challenge',
+      aboutSectionHeading: 'What We Think And Do ',
+      aboutSection: {
+        aboutImage: '/images/industries/Hospitality-section.png',
+        logo: '/images/verticalLogos/AiXQP.png',
+        contentOne: "The hospitality sector faces complex challenges including guest experience optimization, operational efficiency, and technology integration demands. Modern hospitality companies require robust hospitality technology solutions infrastructure enabling comprehensive hotel software systems. iTCart delivers intelligent hospitality solutions through innovative automation frameworks and comprehensive guest service management methodologies. ",
+        contenttwo: ""
+      },
+      skillGapSectionHeading: 'Hospitality Technology Excellence ',
+      skillGapHeadingDescription: 'Accelerating hospitality technology solutions through comprehensive innovation platforms ',
+      skillGapSection: [
+        {
+          icon: '/images/vertical/icons/manicon.png',
+          title: "Smart Hotel Operations",
+          highlight: "Advanced hotel operations automation systems with integrated hotel operations and analytics platform, AI in guest experience for hotels, and comprehensive operational coordination. ",
+          description: "",
+          gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+        },
+        {
+          icon: '/images/vertical/icons/handicons.png',
+          title: "Enterprise Service Intelligence",
+          highlight: "Comprehensive enterprise hospitality services featuring automated workflows, multi property management system integration, and continuous operational advancement through technology. ",
+          description: "",
+          gradient: "from-[#222222] to-[#111111]",   // add gradient
+        },
+        {
+          icon: '/images/vertical/icons/handicons.png',
+          title: "Hotel Management Innovation",
+          highlight: "Real-time hospitality management software utilizing intelligent algorithms for property management and proactive operational optimization strategies. ",
+          description: "",
+          gradient: "from-[#222222] to-[#111111]",   // add gradient
+        },
+        {
+          icon: '/images/vertical/icons/handicons.png',
+          title: "Connected Hospitality Ecosystem",
+          highlight: "Advanced hospitality integration platform enabling seamless integration through hotel software solutions excellence and hotel automation software services. ",
+          description: "",
+          gradient: "from-[#222222] to-[#111111]",   // add gradient
+        },
+      ],
+      solutionGridHeading: 'Our Hospitality Software Solutions ',
+      solutionGridHeadingDiscription: 'Explore our comprehensive suite of hospitality technology solutions ',
+      solutionGridItems: [
+        {
+          title: "Hotel Management Platform",
+          description: "Comprehensive hospitality management software with reservation processing, guest services, operational coordination, and performance monitoring systems optimizing hotel operations through advanced hotel software solutions. ",
+          icon: '/images/vertical/icons/manicon.png',
+          image: '/images/industries/Hospitality-solution1.png'
+        },
+        {
+          title: "Property Management Suite",
+          description: "Advanced multi property management system featuring centralized operations, cross-property analytics, revenue optimization, and unified management systems enhancing efficiency through hospitality technology solutions. ",
+          icon: '/images/vertical/icons/manicon.png',
+          image: '/images/industries/Hospitality-solution2.png'
+        },
+        {
+          title: "Hotel Automation Engine",
+          description: "Integrated hotel automation software with smart controls through AI in guest experience for hotels applications and intelligent service delivery optimizing guest satisfaction. ",
+          icon: '/images/vertical/icons/manicon.png',
+          image: '/images/industries/Hospitality-solution3.png'
+        },
+        {
+          title: "Operations Analytics System",
+          description: "Dynamic integrated hotel operations and analytics platform utilizing predictive insights for performance monitoring, operational intelligence, and comprehensive business analytics supporting data-driven decisions. ",
+          icon: '/images/vertical/icons/manicon.png',
+          image: '/images/industries/Hospitality-solution4.png'
+        },
+        {
+          title: "Guest Experience Platform",
+          description: "Automated AI in guest experience for hotels featuring personalized services, preference tracking, satisfaction monitoring, and guest journey optimization through comprehensive hotel operations automation solutions. ",
+          icon: '/images/vertical/icons/manicon.png',
+          image: '/images/industries/Hospitality-solution5.png'
+        },
+        {
+          title: "Integration Management Hub",
+          description: "Connected hospitality integration platform with enterprise hospitality services coordination, system interoperability, workflow automation, and operational excellence management. ",
+          icon: '/images/vertical/icons/manicon.png',
+          image: '/images/industries/Hospitality-solution6.png'
+        }
+      ],
+      whyChooseUsHeading: 'Why choose us',
+      whyChooseUsHeadingDescription: '',
+      whyChooseUsCards: [
+        {
+          image: '/images/industries/service1.png',
+          title: 'Tailored Solutions',
+          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+        },
+        {
+          image: '/images/industries/service2.png',
+          title: 'Proactive Threat',
+          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+        },
+        {
+          image: '/images/industries/service3.png',
+          title: 'Customer-Centric',
+          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+        }
+      ],
+      capabilitiSectionHeading: 'Our Additional Solutions',
+      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
+      CapabilitySections: [
+        {
+          title: "Business Process Automation ",
+          description: "Intelligent workflow automation for hospitality guest service processing, reservation coordination procedures, housekeeping management, and administrative operations through automated business workflows. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Enterprise Resource Planning ",
+          description: "Comprehensive integrated hospitality operations management including financial planning, resource allocation, revenue management, strategic planning, and enterprise-wide hotel coordination solutions. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Customer Relationship Management ",
+          description: "Advanced guest relationship management with personalized communications, preference tracking, loyalty rewards, and enhanced experiences through comprehensive hospitality integration platform solutions. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Human Resource Management ",
+          description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for hospitality and hotel operations. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Document Management System ",
+          description: "Secure digital document storage for hospitality records, guest documentation, compliance reports, regulatory filings, and hotel documentation management systems. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Learning Management System ",
+          description: "Training modules for hospitality teams, certification tracking, service assessments, skills development, and immersive hotel operations automation experiences. ",
+          icon: '/images/vertical/icons/manicon.png'
+        }
+      ],
+      showShadedBackground: true,
+      aboutSection2Heading: 'Our Proprietary AI Engine',
+      aboutSection2: {
+        aboutImage: '/images/vertical/section2Image.png',
+        logo: '/images/verticalLogos/AiXQP.png',
+        contentOne: '',
+        contenttwo: ""
+      },
+      futurSectionHeading: "Ready to get started?",
+      futurSectionDescription: "Transform your hospitality operations with comprehensive automation solutions ",
+      FAQsHeading: 'Everything you need to know about Hospitality',
+      FAQs: [
+        {
+          id: '1',
+          title: "What makes iTCart's hospitality technology solutions different?",
+          content:
+            "Our comprehensive approach integrates hotel software solutions capabilities with proven hospitality management software methodologies, delivering measurable results through advanced hotel automation software, multi property management system, and AI in guest experience for hotels ensuring competitive advantage in hospitality."
+        },
+        {
+          id: '2',
+          title: "How do hotel software solutions improve operations?",
+          content:
+            "Hotel software solutions applications optimize reservation processing, enhance operational workflows, streamline guest services coordination, and improve efficiency through hospitality technology solutions services and real-time operational insights delivering hotel excellence."
+        },
+        {
+          id: '3',
+          title: "What hospitality management software features are included?",
+          content:
+            "Our hospitality management software platform includes property management, guest service automation, revenue optimization, operational analytics, staff coordination, and comprehensive dashboard with real-time monitoring capabilities through integrated hotel operations and analytics platform."
+        },
+        {
+          id: '4',
+          title: "How does hotel automation software enhance guest experiences?",
+          content:
+            "Hotel automation software solutions streamline check-in processes, smart room controls, service requests, guest communications, and comfort optimization through intelligent automation and AI in guest experience for hotels improving satisfaction levels."
+        },
+        {
+          id: '5',
+          title: "What enterprise hospitality services do you offer?",
+          content:
+            "Our enterprise hospitality services encompass multi property management system capabilities, hospitality integration platform solutions, operational consulting, technology implementation, and comprehensive support through hotel operations automation delivering business improvements."
+        },
+        {
+          id: '6',
+          title: "How long does hospitality technology solutions implementation take?",
+          content:
+            "Hospitality technology solutions typically require nine to twelve months for comprehensive implementation, including system integration, staff training, and optimization phases ensuring minimal operational disruption while maximizing investment returns."
+        },
+        {
+          id: '7',
+          title: "Can your solutions integrate with existing hotel systems?",
+          content:
+            "Yes, our hospitality integration platform features robust APIs and pre-built integrations ensuring seamless connectivity with existing PMS systems, booking engines, and hotel software solutions without disrupting operations."
+        },
+        {
+          id: '8',
+          title: "What support is provided during implementation?",
+          content:
+            "We provide dedicated project management, comprehensive training, twenty-four seven technical support, and ongoing optimization ensuring successful integrated hotel operations and analytics platform deployment with sustained operational excellence and measurable returns."
+        }
+      ]
+
     }
   },
 ];

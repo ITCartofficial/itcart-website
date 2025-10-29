@@ -1,51 +1,72 @@
 "use client";
-
-import IconInfoCard from '../cards/IconInfoCard'
-
+import React, { forwardRef, useImperativeHandle, useRef } from "react";
+import IconInfoCard from "../cards/IconInfoCard";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
-import { IconInfoCardProps } from '@/types/PropsTypes';
+import { IconInfoCardProps } from "@/types/PropsTypes";
+import type { Swiper as SwiperType } from "swiper";
+import "swiper/css/pagination";
+
+export type CardSliderRef = {
+    slidePrev: () => void;
+    slideNext: () => void;
+};
 
 type CardSliderProps = {
-    cardLists: IconInfoCardProps[]
-}
+    cardLists: IconInfoCardProps[];
+};
 
-const CardSlider: React.FC<CardSliderProps> = ({ cardLists }) => {
-    return (
-        <div className='w-full overflow-hidden'>
-            <Swiper
-                modules={[Autoplay]}
-                slidesPerView={4}
-                loop={true}
-                autoplay={{ delay: 0, disableOnInteraction: false }}
-                speed={3000}
-                spaceBetween={20}
-                breakpoints={{
-                    320: { slidesPerView: 1 },
-                    640: { slidesPerView: 2 },
-                    1024: { slidesPerView: 3 },
-                    1440: { slidesPerView: 4 },
-                }}
-                className="flex items-center justify-center"
-            >
-                {
-                    cardLists.map((card, i) => (
-                        <SwiperSlide key={i}>
-                            <IconInfoCard
-                                bgImage={card.bgImage}
-                                title={card.title}
-                                description={card.description}
-                                buttonUrl={card.buttonUrl}
-                                logo={card.logo}
-                                logoBg={card.logoBg}
-                            />
+const CardSlider = forwardRef<CardSliderRef, CardSliderProps>(
+    ({ cardLists }, ref) => {
+        const swiperRef = useRef<SwiperType | null>(null);
+
+        useImperativeHandle(ref, () => ({
+            slidePrev: () => swiperRef.current?.slidePrev(),
+            slideNext: () => swiperRef.current?.slideNext(),
+        }));
+
+        return (
+            <div className="relative w-full overflow-hidden pl-5">
+                <Swiper
+                    modules={[Autoplay, Pagination]}
+                    onSwiper={(swiper) => (swiperRef.current = swiper)}
+                    slidesPerView={1.3}
+                    slidesPerGroup={1}
+                    loop={true}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    spaceBetween={16}
+                    centeredSlides={false}
+                    pagination={{
+                        el: ".custom-pagination",
+                        clickable: true,
+                    }}
+                    breakpoints={{
+                        320: { slidesPerView: 1.3, spaceBetween: 16 },
+                        480: { slidesPerView: 1.5, spaceBetween: 16 },
+                        640: { slidesPerView: 2, spaceBetween: 20 },
+                        1024: { slidesPerView: 3, spaceBetween: 20 },
+                        1440: { slidesPerView: 4, spaceBetween: 20 },
+                    }}
+                    className="py-8 px-4"
+                >
+                    {cardLists.map((card, index) => (
+                        <SwiperSlide key={index}>
+                            <IconInfoCard {...card} />
                         </SwiperSlide>
-                    ))
-                }
-            </Swiper>
-        </div>
-    )
-}
+                    ))}
+                </Swiper>
 
-export default CardSlider
+                <div className="custom-pagination flex justify-center gap-2 md:mt-10 mt-5" />
+
+            </div>
+        );
+    }
+);
+
+CardSlider.displayName = "CardSlider";
+
+export default CardSlider;

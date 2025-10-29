@@ -47,23 +47,23 @@ function EnterPriceGrid() {
             <GradientTitle
                 text={'AiXHub Framework - The Unified Solution for All Your Enterprise Issues'}
                 theme="dark"
-                className="text-[22px] sm:text-[25px] md:text-[44px] w-[70%] text-center  mx-auto"
+                className="text-[25px] lg:text-[48px] md:text-[44px] w-[90%] md:w-[60%] text-center  mx-auto leading-[1.2]"
             />
 
             <BodyText
                 text={"The world's first AI-native Enterprise Operating System replacing fragmented software stacks with patent-protected unified intelligent execution. Our ai powered digital transformation platform represents the next evolution beyond traditional solutions offered by other artificial intelligence consulting companies."}
                 color="#ffffff"
-                className="text-sm sm:text-base md:text-lg my-2 text-center w-[70%] mx-auto"
+                className="text-sm sm:text-base md:text-lg my-2 text-center  md:w-[70%] w-[90%] mx-auto"
             />
 
-            <section className="bg-black text-white py-12 px-6 md:px-12">
+            <section className="bg-black text-white mt-12 px-6 md:px-12">
                 <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {capabilities.map((cap, index) => (
                         <div
                             key={index}
                             className="relative rounded-2xl overflow-hidden h-[400px] flex items-end p-6 bg-cover bg-center group transition-all duration-300"
                             style={{
-                                backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.25)), url(${cap.image})`,
+                                backgroundImage: ` url(${cap.image})`,
                             }}
                         >
                             <div className="z-10">
@@ -79,10 +79,7 @@ function EnterPriceGrid() {
                     ))}
                 </div>
             </section>
-
-
-
-
+            
         </div>
     )
 }

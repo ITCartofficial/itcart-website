@@ -7,11 +7,11 @@ const ExecutiveLeadersSection = ({ execLeaders, bgColor }: { execLeaders: Execut
 
   return (
     <div className={`container mx-auto lg:px-10 ${bgColor ? 'bg-black' : ''}`}>
-      <div className="w-full lg:w-1/2 mb-10 lg:mb-0 lg:mx-0 mx-auto text-left">
+      <div className="w-full lg:w-1/2 mb-10 lg:mb-0 lg:mx-0 mx-auto md:text-left text-center">
         <GradientTitle
           text='Meet Our Executive Leadership'
           theme={bgColor == 'dark' ? 'dark' : 'light'}
-          className='block w-full text-[30px] lg:text-[48px] leading-tight pb-10'
+          className='block w-full text-[30px] lg:text-[48px] leading-tight md:pb-10 pb-2'
         />
       </div>
       <ExecutiveLeadersSlider execLeaders={execLeaders} bgColor={bgColor} theme={bgColor == 'dark' ? 'dark' : 'light'} />

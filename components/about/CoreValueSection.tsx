@@ -9,13 +9,13 @@ interface CoreValues {
 
 const CoreValueSection = ({ coreValues }: { coreValues: CoreValues[] }) => {
     return (
-        <div className='container mx-auto lg:px-10 flex flex-col gap-14'>
+        <div className='container mx-auto lg:px-10 flex flex-col gap-10 '>
             <GradientTitle
                 text='Our Core Values'
                 theme='dark'
                 className='text-center text-[30px] lg:text-[64px]'
             />
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 md:mx-15">
                 {
                     coreValues && coreValues.map((card, i) => (
                         <IconCard

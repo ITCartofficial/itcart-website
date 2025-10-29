@@ -18,25 +18,25 @@ const SlideCard: React.FC<SlideCardProps> = ({
   description,
 }) => {
   const positionClasses = {
-    left: "transform scale-90 rotate-[-6deg] -translate-x-[115%] translate-y-4 opacity-60 z-0",
+    left: "transform scale-90 rotate-[-6deg] -translate-x-[115%] translate-y-4 opacity-60 z-0 w-[70%] md:w-[40%] w-[300px]",
     center:
-      "transform scale-100 rotate-0 translate-x-0 translate-y-0 opacity-100 z-10",
+      "transform scale-110 rotate-0 translate-x-0 translate-y-0 opacity-100 z-10 w-[70%] md:w-[40%] py-3",
     right:
-      "transform scale-90 rotate-[6deg] translate-x-[115%] translate-y-4 opacity-60 z-0",
+      "transform scale-90 rotate-[6deg] translate-x-[115%] translate-y-4 opacity-60 z-0  w-[70%] md:w-[40%] w-[300px]",
     hidden: "hidden",
   };
 
   return (
     <div
-      className={`absolute top-0 transition-all duration-500 ease-in-out w-[70%] md:w-[40%] ${positionClasses[position]}`}
+      className={`absolute top-0 transition-all duration-500 ease-in-out  ${positionClasses[position]}`}
     >
-      <div className="relative rounded-xl overflow-hidden shadow-xl">
+      <div className="relative rounded-3xl overflow-hidden shadow-xl border border-[#2BADB7]">
         <Image
           src={imgSrc}
           alt={altText}
           width={800}
-          height={400}
-          className="w-full h-auto object-cover"
+          height={200}
+          className="w-full h-70 object-cover rounded "
           loading="lazy"
         />
       </div>
@@ -47,11 +47,6 @@ const SlideCard: React.FC<SlideCardProps> = ({
               {description.title}
             </h3>
           )}
-          {/* {description.text && (
-            <p className="text-white text-sm line-clamp-3">
-              {description.text}
-            </p>
-          )} */}
         </div>
       )}
     </div>
@@ -59,12 +54,3 @@ const SlideCard: React.FC<SlideCardProps> = ({
 };
 
 export default SlideCard;
-
-
-
-
-
-
-
-
-

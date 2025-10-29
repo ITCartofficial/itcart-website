@@ -21,13 +21,15 @@ const AddressCard: React.FC<AddressCardProps> = ({ country, phone, email, locati
 
     return (
         <div className="relative w-full h-full mt-6 md:mt-6 lg:mt-0 sm:mt-6 mt-6 ">
-            <div className="national_flag rounded-full w-8 h-8 absolute -top-4 -left-4 overflow-hidden">
+            <div className="national_flag rounded-full w-10 h-10 absolute -top-4 -left-4 overflow-hidden">
                 <ImageContainer
                     src={national_flag}
                     alt={country + " flag"}
                 />
             </div>
-            <div className="address_details border rounded-2xl border-[#45C2CC] flex flex-col gap-2 p-6 h-full grow bg-[#1d1d1dc6]">
+            <div className="address_details border rounded-2xl border-[#45C2CC] flex flex-col gap-2 p-6  grow 
+            bg-[#1d1d1dc6] 
+            ">
                 <Link href={`tel:${phone && phone.trim().split(' ').join('')}`} className="flex gap-2 items-stretch">
                     <FiPhoneCall className="text-white" />
                     <span className="text-sm text-white">{phone}</span>

@@ -20,7 +20,9 @@ interface HorizontalCardProps {
     buttonUrl?: string;
     buttonText?: string;
 
-    showColumn?:boolean
+    showColumn?: boolean
+    classNameTwo?: string
+
 }
 
 const HorizontalCard: React.FC<HorizontalCardProps> = ({
@@ -35,36 +37,36 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({
     showButton = false,
     buttonUrl = '#',
     buttonText = 'Continue Reading',
-    showColumn
+    showColumn,
+    classNameTwo
 }) => {
     return (
-        <div className={`w-full ${showColumn ? 'lg:flex' : "flex"} overflow-hidden p-2 text-white shadow-lg ${showColumn} ${className}`}>
+        <div className={`w-full ${showColumn ? 'lg:flex' : "flex"} items-center overflow-hidden px-2 py-4 text-white shadow-lg ${showColumn} ${className}`}>
             {/* Image Section */}
             <div className={`relative ${imageWidth} ${imageHeight}`}>
                 <Image
                     src={imageUrl}
                     alt={title}
                     fill
-                    className={`object-cover rounded-sm`}
+                    className="object-cover rounded-lg"
                     loading="lazy"
                 />
             </div>
 
             {/* Content Section */}
-            <div className={`flex-1 ${showColumn ? "lg:px-4 lg:mt-0 mt-4 md:mt-0" : "px-4"} flex flex-col justify-center`}>
+            <div className={`flex-1 md:ml-4 ${showColumn ? "lg:px-4 lg:mt-0 mt-4 md:mt-0" : "px-4"} flex flex-col justify-center `}>
                 <HeadingText
                     text={title}
-                    className={`${titleSize} leading-tight mb-1 hover:text-[#45c2cc]`}
+                    className={`${titleSize} leading-tight mb-1 text-[14px] hover:text-[#45c2cc] w-[90%]`}
                 />
 
-                <div className="text-xs text-gray-400">
-                    <p>{author + "-" + date}</p>
-                    {/* <p>{date}</p> */}
+                <div className={`text-xs text-gray-400 ${classNameTwo}`}>
+                    <p>{author + " - " + date} </p>
                 </div>
 
                 {/* Optional Button */}
                 {showButton && (
-                    <div className="mt-2">
+                    <div className="mt-4">
                         <LinkButton text={buttonText} url={buttonUrl} />
                     </div>
                 )}

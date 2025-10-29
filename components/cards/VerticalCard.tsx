@@ -2,8 +2,8 @@
 import React from 'react';
 import BodyText from '@/components/typography/BodyText';
 import { FaArrowRight } from 'react-icons/fa6';
-import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import OutlineBtn from '../buttons/OutlineBtn';
 
 interface VerticalCardProps {
     title: string;
@@ -25,7 +25,7 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
     compenyLogo
 }) => {
 
-    const router = useRouter();
+    // const router = useRouter();
 
     return (
         <div className="flex justify-center items-center  bg-black min-h-[420px]">
@@ -54,7 +54,7 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
                         </div>
 
                         {/* Company logo */}
-                        <div className="w-30 h-20 mx-auto mb-3 relative">
+                        <div className="w-30 h-20 mx-auto mb-1 relative">
                             <Image
                                 src={compenyLogo ? compenyLogo : ''}
                                 alt="Logo"
@@ -69,7 +69,17 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
                         </p>
                     </div>
 
-                    <button onClick={() => router.push(`our-verticals/${compenyName}`)} className="mt-6 inline-block mx-auto group cursor-pointer" aria-label="Learn more">
+                    <div className='w-full flex justify-center mt-6 mb-4'>
+                        <OutlineBtn
+                            url={`our-verticals/${compenyName}`}
+                            text={"View More"}
+                            textColor='#ffffff'
+                            icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+                        />
+                    </div>
+
+
+                    {/* <button onClick={() => router.push(`our-verticals/${compenyName}`)} className="mt-6 mb-4 inline-block mx-auto group cursor-pointer" aria-label="Learn more">
                         <span className="inline-flex rounded-lg p-[1px] bg-gradient-to-r from-black to-[#2ac4c9]">
                             <span className="flex items-center gap-3 bg-white rounded-lg px-6 py-2 text-black font-medium">
                                 <span>Learn More</span>
@@ -79,7 +89,7 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
                                 />
                             </span>
                         </span>
-                    </button>
+                    </button> */}
 
                 </div>
             </div>

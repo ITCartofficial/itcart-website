@@ -19,7 +19,7 @@ const IconCard = ({ icon, title, description, className, theme }: IconCardProps)
           alt={title}
           height={24}
           width={24}
-          className="h-6 w-6 object-contain"
+          className="md:h-6 md:w-6 h-10 w-10 object-contain"
           loading="lazy"
         />
         <GradientTitle

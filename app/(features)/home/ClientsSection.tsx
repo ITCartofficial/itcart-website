@@ -9,8 +9,8 @@ type ClientsSectionProps = {
 const ClientsSection: React.FC<ClientsSectionProps> = ({ title, logos }) => {
     return (
         <div>
-            <div className="container mx-auto lg:px-10">
-                <BodyText text={title} className="text-[#B6B6B6] text-[14px] text-center lg:text-left" />
+            <div className="container flex md:justify-start justify-center lg:px-10">
+                <BodyText text={title} className="text-[#B6B6B6] text-[14px] font-semibold text-left" />
             </div>
             <LogoSlider logos={logos} />
         </div>

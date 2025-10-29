@@ -32,7 +32,7 @@ const AboutItCart = ({ impactImage }: { impactImage: string }) => {
                     <GradientTitle
                         text="Why choose iTCart?  "
                         theme='dark'
-                        className="text-[22px] sm:text-[25px] md:text-[30px] w-full"
+                        className="text-[30px] sm:text-[25px] md:text-[38px] w-full"
                     />
                 </div>
 
@@ -41,7 +41,7 @@ const AboutItCart = ({ impactImage }: { impactImage: string }) => {
                         {stats.map((stat, index) => (
                             <div
                                 key={index}
-                                className="bg-teal-500 text-white rounded-xl p-2 flex flex-col justify-center items-center"
+                                className="bg-[linear-gradient(to_right,#117f98,#2aadb7)] text-white rounded-xl p-2 flex flex-col justify-center items-center"
                             >
                                 <h3 className="text-[20px] md:text-[30px] font-bold">{stat.value}</h3>
                                 <p className="text-sm md:text-base font-medium">{stat.label}</p>
@@ -50,9 +50,13 @@ const AboutItCart = ({ impactImage }: { impactImage: string }) => {
                     </div>
                 </div>
 
-                <div className="w-full px-6 py-16">
-                    <div className="max-w-5xl mx-auto text-center mb-5">
-                        <h2 className="text-[38px] md:text-[48px] font-bold text-white">Impact</h2>
+                <div className="w-full md:px-6 py-16">
+                    <div className="w-full flex justify-center text-center mb-5">
+                        <GradientTitle
+                            text="Impact"
+                            theme="dark"
+                            className="text-[28px] sm:text-[36px] md:text-[48px] text-center"
+                        />
                     </div>
 
                     <div className="w-full mx-auto mb-10">
@@ -71,7 +75,7 @@ const AboutItCart = ({ impactImage }: { impactImage: string }) => {
                         {impacts.map((item, index) => (
                             <div
                                 key={index}
-                                className="flex items-center rounded-lg"
+                                className="flex items-center rounded-lg "
                             >
 
                                 <div className="text-teal-500 mr-3 flex-shrink-0 text-xl font-bold">
@@ -86,8 +90,8 @@ const AboutItCart = ({ impactImage }: { impactImage: string }) => {
 
 
                                 {/* Text */}
-                                <p className="text-white p-2 shadow-sm bg-[#151515] font-medium text-base text-[17px] sm:text-[20px] md:text-[20px] leading-relaxed w-full rounded-lg">
-                                    {item}
+                                <p className="text-white p-2 shadow-sm bg-[#151515] font-medium text-base text-[14px] md:text-[20px] pl-2 leading-relaxed w-full rounded-lg">
+                                    <p className="ml-2 md:ml-0">{item}</p>
                                 </p>
                             </div>
                         ))}
@@ -107,7 +111,7 @@ const AboutItCart = ({ impactImage }: { impactImage: string }) => {
                             <GradientTitle
                                 text="Our Proprietary AI Engine "
                                 theme="dark"
-                                className="text-[22px] sm:text-[25px] md:text-[30px] w-[50%] lg:w-[50%]"
+                                className="text-[30px] sm:text-[25px] md:text-[38px]  text-center lg:w-[90%]"
                             />
 
                             <p className="text-white text-base md:text-lg leading-relaxed">

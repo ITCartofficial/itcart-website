@@ -4,7 +4,7 @@ import GradientTitle from "../typography/GradientTitle"
 
 function JoinSection({ className }: { className: string }) {
     return (
-        <section className="w-full bg-black text-white px-6 py-1">
+        <section className="w-full bg-black text-white px-6">
             <div
                 className={`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center ${className}`}
             >
@@ -12,7 +12,7 @@ function JoinSection({ className }: { className: string }) {
                 <div
                     className={`rounded-xl w-full h-[300px] md:h-[400px] bg-cover bg-center flex items-end justify-center ${"md:order-2"}`}
                     style={{
-                        backgroundImage: `url(${"/images/solutions/about-image.png"})`,
+                        backgroundImage: `url(${"/images/csr/csr-aboutfinal.png"})`,
                     }}
                 >
 
@@ -24,7 +24,7 @@ function JoinSection({ className }: { className: string }) {
                     <GradientTitle
                         text={"Join hands with ITCart to Create a Lasting Impact."}
                         theme="dark"
-                        className="text-[22px] sm:text-[25px] md:text-[48px] w-full "
+                        className="text-[22px] sm:text-[25px] md:text-[48px] w-full leading-[1.2]"
                     />
 
 
@@ -41,10 +41,6 @@ function JoinSection({ className }: { className: string }) {
                     />
 
                 </div>
-
-
-
-
 
             </div>
         </section>

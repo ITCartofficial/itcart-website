@@ -34,8 +34,20 @@ body {
   color: var(--foreground);
 }
 
-Link, a {
-  scroll-behavior: smooth!important;
+Link,
+a {
+  scroll-behavior: smooth !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 
@@ -113,13 +125,13 @@ h6 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
- 
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
   }
 }
- 
+
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -127,7 +139,7 @@ h6 {
     padding-right: 1.5rem;
   }
 }
- 
+
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
@@ -135,7 +147,7 @@ h6 {
     padding-right: 2rem;
   }
 }
- 
+
 @media (min-width: 1280px) {
   .container {
     max-width: 1150px;
@@ -143,11 +155,11 @@ h6 {
     padding-right: 0rem;
   }
 }
- 
+
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
-    padding-left: 6rem;  
+    padding-left: 6rem;
     padding-right: 6rem;
   }
 }
@@ -159,4 +171,21 @@ h6 {
 
 .custom-pagination .swiper-pagination-bullet-active {
   @apply w-8 bg-gradient-to-r from-[#29C1E2] to-white;
+}
+
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #d1d5db;
+  /* light gray */
+  opacity: 1;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  width: 40px;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #2BADB7, #6BE0E9);
 }

@@ -121,8 +121,8 @@ const SuggestedBlogSection = () => {
         title: "Experience a multi-functional AI-powered platform",
         author: "ITCart Team",
         date: "2024-06-01",
-        imageUrl: "/images/blogs/blog-featured-14.jpg",
-        bannerImage: "/images/blogs/blog-featured-14-banner.jpg",
+        imageUrl: "/images/blogs/blog-featured-14.png",
+        bannerImage: "/images/blogs/blog-featured-14-banner.png",
         description: "Discover how our AI-powered platform transforms your business.",
         link: "/contact-us",
         linkText: "Contact us",
@@ -136,7 +136,7 @@ const SuggestedBlogSection = () => {
     }
 
     return (
-        <div>
+        <div className=''>
 
             <div className='container grid grid-cols-1 md:grid-cols-3 gap-8 mb-3'>
                 <GradientTitle
@@ -147,7 +147,7 @@ const SuggestedBlogSection = () => {
                 />
             </div>
 
-            <div className='container grid grid-cols-1 md:grid-cols-3 gap-8'>
+            <div className='container grid grid-cols-1 md:grid-cols-3 md:gap-8 '>
                 {/* Left: Blog Cards */}
                 <div className='col-span-2'>
 
@@ -158,25 +158,24 @@ const SuggestedBlogSection = () => {
                                 title={post.title}
                                 author={post.author}
                                 date={post.date}
-                                imageHeight='h-50'
-                                imageWidth='md:w-80 w-full'
+                                imageHeight='h-60'
+                                imageWidth='md:w-100 w-full'
                                 titleSize="lg:text-[24px] text-[20px]"
                                 showButton={true}
                                 buttonUrl={`/blog/${post.slug}`}
                                 buttonText="Continue Reading"
                                 showColumn={true}
+                                classNameTwo='py-4'
                             />
                         ))}
                     </div>
                 </div>
 
                 {/* Right: Sidebar */}
-                <div className='col-span-1 flex md:flex-col gap-6 flex-col-reverse '>
-
+                <div className='col-span-1 flex md:flex-col gap-6 flex-col-reverse w-full'>
 
                     <>
-                        <div className="w-full max-w-md relative ">
-                            <SearchInput value={search} onChange={handleSearchChange} />
+                        <div className="w-full max-w-md relative">
 
                             {/* Search Results Dropdown */}
                             {showDropdown && searchResults.length > 0 && (
@@ -203,7 +202,7 @@ const SuggestedBlogSection = () => {
                                                 )}
                                                 <div>
                                                     <h4 className="text-white font-medium line-clamp-1">
-                                                        {post.title}
+                                                        {post.title} -  {post.author} • {post.date}
                                                     </h4>
                                                     <p className="text-gray-400 text-sm">
                                                         {post.author} • {post.date}
@@ -219,20 +218,45 @@ const SuggestedBlogSection = () => {
                                     )}
                                 </div>
                             )}
+
                         </div>
                     </>
 
                     <>
-                        <GradientTitle
-                            text="Stay Connected"
-                            fontWeight="bold"
-                            theme='dark'
-                            className="text-[20px] md:text-[24px] leading-tight text-center"
-                        />
-                        <SocialIcons size={21} color="#ffffff" className='flex md:justify-center' socialMedia={socialLinks} />
+
+                        <div className='md:block hidden space-y-7'>
+                            <div className=''>
+                                <SearchInput value={search} onChange={handleSearchChange} />
+                            </div>
+                            <GradientTitle
+                                text="Stay Connected"
+                                fontWeight="bold"
+                                theme='dark'
+                                className="text-[20px] md:text-[24px] text-center leading-[1]"
+                            />
+                            <SocialIcons size={21} color="#ffffff" className='flex md:justify-center' socialMedia={socialLinks} />
+
+                        </div>
+
+
+                        <div className='block md:hidden space-y-10 mt-10'>
+                            <div className=''>
+                                <SearchInput value={search} onChange={handleSearchChange} />
+                            </div>
+                            <GradientTitle
+                                text="Stay Connected"
+                                fontWeight="bold"
+                                theme='dark'
+                                className="text-[36px] md:text-[36px] text-center leading-[1]"
+                            />
+                            <SocialIcons size={21} color="#ffffff" className='flex md:justify-center' socialMedia={socialLinks} />
+                        </div>
+
                         <div className='h-[350px] md:h-[450px]'>
                             <CaseStudyCard card={caseStudyData} />
                         </div>
+
+
                     </>
 
                 </div>

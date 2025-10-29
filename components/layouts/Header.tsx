@@ -51,7 +51,7 @@ const Header: React.FC = () => {
   }, [isMenuOpen])
 
   return (
-    <header className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${scrollPosition > 30 ? 'bg-black/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+    <header className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${scrollPosition > 30 ? 'bg-black backdrop-blur-sm shadow-lg' : 'bg-black'
       }`}>
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-10">
         <div className="flex items-center justify-between py-3 sm:py-4">

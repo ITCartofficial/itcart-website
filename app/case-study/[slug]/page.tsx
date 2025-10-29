@@ -65,34 +65,18 @@ const CaseStudyDetailPage: React.FC = () => {
     return (
         <div className="min-h-screen bg-black text-white">
             {/* Banner Section */}
-            <section className="relative h-96 md:h-[550px] w-full">
+            <section className="relative h-46 md:h-[450px] mx-10 md:mx-34 md:mt-30 mt-20 md:p-10 overflow-hidden rounded-2xl">
                 <Image
                     src={caseStudy.bannerImage}
                     alt={caseStudy.title}
                     fill
-                    className="object-cover"
+                    className="object-cover"    
                     priority
                 />
-                {/* <div className="absolute inset-0 bg-black bg-opacity-50"></div> */}
-
-                {/* Breadcrumb */}
-                {/* <div className="absolute top-8 left-4 sm:left-8 z-10">
-                    <nav className="flex items-center space-x-2 text-sm text-gray-300">
-                        <Link href="/" className="hover:text-white transition-colors">
-                            Home
-                        </Link>
-                        <span>/</span>
-                        <Link href="/case-studies" className="hover:text-white transition-colors">
-                            Case Studies
-                        </Link>
-                        <span>/</span>
-                        <span className="text-white">{caseStudy.title}</span>
-                    </nav>
-                </div> */}
             </section>
 
             {/* Title and Meta Section */}
-            <section className="py-16 px-4 sm:px-6 lg:px-8">
+            <section className="md:py-16 py-10 px-4 sm:px-6 lg:px-8">
                 <div className="container mx-auto">
                     <GradientTitle
                         text={caseStudy.title}

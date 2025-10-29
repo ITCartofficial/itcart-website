@@ -39,22 +39,24 @@ function MediaPage() {
 
     return (
         <div className='bg-black'>
-            <HeroBanner title="Technology Transforms Lives."
-                description="At iTCart, innovation is a responsibility, not just advancement. Through our CSR initiatives, we drive change in healthcare, education, sustainability, and community empowerment. By supporting critical sectors and ethical innovation, we use technology as a force for good, making impact central to our mission."
+            <HeroBanner
+                title="Visual Mosaic of Our Journey"
+                description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
                 ctaText=""
                 ctaUrl="/contact"
                 breadcrumbItems={[
                     { label: 'Home', url: '/' },
                     { label: 'Our Industry', url: '/industry' }
                 ]}
-                backgroundImage="/images/csr/banner-image.png"
+                backgroundImage="/images/media/media-banner.jpg"
                 isCunsultNow={true}
             />
 
-            <div className="bg-black py-8">
+            <div className="bg-red-400">
                 <SectionTeam
                     heading=""
                     discription=""
+                    removeBorder={true}
                 />
 
             </div>

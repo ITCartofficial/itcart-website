@@ -1,6 +1,6 @@
 export const solutionData = [
   {
-    title: "AiXHub™ Intranet",
+    title: "AiXHub™ Internet",
     description: "Consolidates resources, cultivates seamless collaboration and amplifies productivity via integrated tools, elevating communication, security, and organizational efficiency.",
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/solutions/ai_image.png",
@@ -9,6 +9,7 @@ export const solutionData = [
       bannerTitle: "Best Digital Workplace Software for Enterprises",
       bannerDescription: "Transform workplace through comprehensive enterprise collaboration platform excellence",
       bannerImage: "/images/solutions/AiXHub-banner.png",
+      mobileBannerImage: "/images/solutions/AiXHub-mobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary Digital Transformation',
       aboutSection: {
         aboutImage: '/images/solutions/AiXHub-about.png',

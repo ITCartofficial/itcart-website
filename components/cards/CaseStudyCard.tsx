@@ -6,26 +6,54 @@ import React from 'react'
 
 interface CaseStudyCardProps {
     card: CaseStudyItem
+    forSlide?: boolean
+    isFocused?: boolean
 }
 
-const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card}) => {
+const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card, forSlide, isFocused }) => {
+
     return (
         <div className="relative h-full">
-            <div className="absolute inset-0 rounded-[30px] overflow-hidden">
-                <Image
-                    src={card.imageUrl}
-                    alt={card.title}
-                    fill
-                    className="object-cover"
-                    sizes="380px"
-                    loading='lazy'
-                />
+
+            {
+                forSlide ?
+                    <div className="absolute inset-0 rounded-[30px] overflow-hidden">
+                        <Image
+                            src={card.imageUrl}
+                            alt={card.title}
+                            fill
+                            className="object-cover"
+                            sizes="380px"
+                            loading='lazy'
+                        />
+                    </div>
+                    :
+                    <div
+                        className="absolute inset-0 rounded-[30px] bg-cover bg-center"
+                        style={{
+                            backgroundImage: `url(${card.imageUrl})`
+                        }}
+                    />
+
+            }
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent z-10" />
+
+
+            <div className={`absolute inset-0 z-20 p-6 flex flex-col justify-end rounded-[30px]`}>
+
+                {
+                    forSlide ?
+                        <p className={`${isFocused ? "text-[25px]" : "text-[20px]"} font-bold text-white mb-2`}>{card.title}</p>
+                        :
+                        <GradientTitle text={card.title} theme="dark" lineHeight="35px" className={`${isFocused ? "text-[25px]" : "text-[20px]"} font-bold text-white mb-2`} />
+                }
+                <div className='md:mt-0 mt-3'>
+                    <LinkButton url={`/case-study/${card.slug}`} text="Read Case Study" textColor='#ffffff' />
+                </div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-gray-900/10 to-gray-900/90 z-10 rounded-[30px]" />
-            <div className="absolute inset-0 z-20 p-6 flex flex-col justify-end rounded-[30px]">
-                <GradientTitle text={card.title} theme="dark" className="text-xl font-bold text-white mb-2" />
-                <LinkButton url={`/case-study/${card.slug}`} text="Read More" textColor='#ffffff' />
-            </div>
+
+
+
         </div>
     )
 }

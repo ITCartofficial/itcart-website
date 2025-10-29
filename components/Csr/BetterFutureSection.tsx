@@ -41,7 +41,7 @@ function BetterFutureSection() {
             <div className="bg-black flex items-center justify-center p-6 py-10">
                 <div className="max-w-7xl w-full grid md:grid-cols-2 gap-8 md:gap-12 items-center">
                     {/* Left side - Image */}
-                    <div className="relative w-full h-[400px]">
+                    <div className="relative w-full h-[300px] md:h-[400px]">
                         <div className="relative w-full h-full overflow-hidden rounded-2xl">
                             <Image
                                 src="/images/csr/future-image.png"
@@ -57,13 +57,13 @@ function BetterFutureSection() {
                     {/* Right side - Content */}
                     <div className="text-white">
                         <GradientTitle
-                            text={'Our core values'}
+                            text={'Our Core Values'}
                             theme="dark"
                             className="text-[22px] sm:text-[25px] md:text-[35px] w-[60%]"
                         />
 
 
-                        <div className="space-y-6">
+                        <div className="space-y-6 mt-5">
                             {values.map((value, index) => (
                                 <div key={index} className="flex gap-4 items-start">
                                     <div className="flex-shrink-0 mt-1">

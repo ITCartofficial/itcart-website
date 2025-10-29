@@ -20,7 +20,7 @@ function SolutionGrid({ futurSectionHeading, solutionItems }: SolutionGridProps)
 
         <div className="bg-black text-white px-4">
             {/* Section Title */}
-            <div className="max-w-5xl mx-auto text-center mb-16">
+            <div className="max-w-5xl mx-auto text-center mb-8 lg:mb-14">
                 <GradientTitle
                     text={futurSectionHeading || "Collaboration Excellence"}
                     theme="dark"
@@ -30,7 +30,7 @@ function SolutionGrid({ futurSectionHeading, solutionItems }: SolutionGridProps)
 
             <div className="min-h-screen bg-black text-white px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-15">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-15">
                         {solutionItems && solutionItems?.map((industry, index) => (
                             <div
                                 key={index}
@@ -49,7 +49,7 @@ function SolutionGrid({ futurSectionHeading, solutionItems }: SolutionGridProps)
 
                                 {/* Content Container */}
                                 <div className="relative z-20 mt-5">
-                                    <h2 className="text-3xl font-bold mb-2 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                                    <h2 className="text-[20px] md:text-3xl font-bold mb-2 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
                                         {industry.title}
                                     </h2>
                                     <p className="text-gray-300 leading-relaxed text-base">

@@ -1,24 +1,22 @@
+"use client"
 import CoreValueSection from "../../components/about/CoreValueSection"
 import WhoWeAreSection from "../../components/about/WhoWeAreSection"
 import HeroBanner from "../../components/HeroBanner"
 
-import { coreValues, foundingMembers, executiveLeadership, globalStrategists, ambassadorsList, historyData } from '@/lib/data/aboutPageData'
+import { coreValues, foundingMembers, executiveLeadership, ambassadorsList, historyData } from '@/lib/data/aboutPageData'
 
 import MissionVisionSection from "../../components/about/MissionVisionSection"
 import AIFrameworkSection from "../../components/about/AIFrameworkSection"
 import FoundingMembersSection from "../../components/about/FoundingMembersSection"
 import ExecutiveLeadersSection from "../../components/about/ExecutiveLeadersSection"
-import GlobalStrategistsSection from "../../components/about/GlobalStrategistsSection"
+// import GlobalStrategistsSection from "../../components/about/GlobalStrategistsSection"
 import AmbassadorSection from "@/components/about/AmbassadorSection"
 import HistorySection from "@/components/about/HistorySection"
 import BannerContainer from "@/components/common/BannerContainer"
 import GradientTitle from "@/components/typography/GradientTitle"
 import MultiParagraphs from "@/components/common/MultiParagraphs"
-// import AmbassadorSection from "../../components/about/AmbassadorSection"
-// import HistorySection from "../../components/about/HistorySection"
-// import BannerContainer from "../../components/common/BannerContainer"
-// import GradientTitle from "../../components/typography/GradientTitle"
-// import MultiParagraphs from "../../components/common/MultiParagraphs"
+import { useLayoutEffect, useState } from "react"
+
 
 
 const missionVisionData = {
@@ -41,6 +39,25 @@ const globalExpansionData = {
 
 
 const AboutUs = () => {
+
+    const [bgImage, setBgImage] = useState<string | null>(null);
+
+    useLayoutEffect(() => {
+        const updateBg = () => {
+            if (window.innerWidth < 640) {
+                setBgImage("/images/contact/contact-bg-small.jpg");
+            } else {
+                setBgImage("/images/contact/contact-bg.jpg");
+            }
+        };
+        updateBg();
+
+        window.addEventListener("resize", updateBg);
+        return () => window.removeEventListener("resize", updateBg);
+    }, []);
+
+    if (!bgImage) return null;
+
     return (
         <div className="bg-black">
             <HeroBanner title="About Us"
@@ -51,20 +68,20 @@ const AboutUs = () => {
                 backgroundImage="/images/about/about-hero-bg.jpg"
                 className="bg-no-repeat lg:max-h-[400px]"
             />
-            <div className="bg-black py-16">
+            <div className="bg-black md:py-16">
                 <WhoWeAreSection />
             </div>
-            <div className="bg-black py-16">
+            <div className="bg-black py-10 md:py-10">
                 <CoreValueSection coreValues={coreValues} />
             </div>
-            <div className="bg-black py-16">
+            <div className="bg-black md:py-16">
                 <MissionVisionSection
                     missionVision={missionVisionData}
                     theme={'dark'}
                 />
             </div>
 
-            <div className="bg-black py-16">
+            <div className="bg-black py-16 pb-30">
                 <AIFrameworkSection
                     aixFramework={PatientSectionData}
                     theme={'dark'}
@@ -74,7 +91,7 @@ const AboutUs = () => {
                 />
             </div>
 
-            <div className="bg-white py-16 rounded-tl-[85px] rounded-tr-[85px]">
+            <div className="bg-white py-16 md:rounded-tl-[85px] rounded-tl-[25px] md:rounded-tr-[85px] rounded-tr-[25px]">
                 <FoundingMembersSection
                     direction="row"
                     members={foundingMembers}
@@ -82,24 +99,27 @@ const AboutUs = () => {
                 />
             </div>
 
-            <div className="bg-white py-16 rounded-bl-[85px] rounded-br-[85px]">
+            <div className="bg-white py-6 rounded-bl-[30px] md:rounded-bl-[85px] md:rounded-br-[85px] rounded-br-[25px]">
                 <ExecutiveLeadersSection bgColor={""} execLeaders={executiveLeadership} />
             </div>
 
-            <div className="bg-black py-16">
+            {/* <div className="bg-black py-16">
                 <GlobalStrategistsSection globalStrategists={globalStrategists} />
-            </div>
+            </div> */}
 
             <div className="bg-black py-16">
                 <AmbassadorSection ambassador={ambassadorsList} />
             </div>
 
-            <div className="bg-black py-16">
-                <HistorySection className="border-2 border-[#565656] bg-[#181818] py-5 px-5 lg:py-10 lg:px-8 rounded-2xl" bgImage={historyData.bgImage} title={historyData.title} description={historyData.description} />
+            <div className="bg-black md:py-16">
+                <HistorySection className="border-2 border-[#565656] bg-[#181818] py-5 lg:py-10 lg:px-10 rounded-2xl" bgImage={historyData.bgImage} title={historyData.title} description={historyData.description} />
             </div>
 
             <div className="bg-black pt-16">
-                <BannerContainer bgImage="/images/contact/contact-bg.jpg" className="lg:h-[90vh]">
+                <BannerContainer
+                    bgImage={bgImage}
+                    className="bg-bottom bg-no-repeat bg-contain sm:bg-cover sm:bg-center pb-30 md:pb-0"
+                >
                     <div className="container flex flex-col items-center gap-4">
                         <GradientTitle text={globalExpansionData.title} className="text-[30px] lg:text-[48px] text-center" theme="dark" />
                         <MultiParagraphs description={globalExpansionData.description} className="text-center" />

@@ -12,11 +12,14 @@ const OurVerticals = () => {
                 ctaUrl="/contact"
                 breadcrumbItems={[
                     { label: 'Home', url: '/' },
-                    { label: 'Our Verticals', url: '/services' }
+                    { label: 'Our Verticals', url: '/our-verticals' }
                 ]}
                 backgroundImage="/images/vertical/vertical-bg.png"
             />
-            <OurVwerticalGrid className='container' />
+            <div className='bg-black'>
+
+                <OurVwerticalGrid className='container' />
+            </div>
         </div>
     )
 }

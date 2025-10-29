@@ -12,17 +12,18 @@ interface SectionAboutProps {
     contentfour?: string;
     aboutSectionHeading?: string;
     showLogo?: boolean;
+    classNameTwo?: string
 }
 
 const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, contentOne, contenttwo, image, logo, contentthree, contentfour,
     aboutSectionHeading,
-    showLogo
+    showLogo, classNameTwo
 }) => {
 
     return (
-        <section className="w-full bg-black text-white px-6 py-1">
+        <section className="w-full bg-black text-white px-6">
             <div
-                className={`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center ${className}`}
+                className={`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-6 lg:gap-10 items-center ${className}`}
             >
                 {/* Left Content */}
                 <div className={`space-y-6 ${aboutProduct ? "md:order-2" : "md:order-1"}`}>
@@ -30,20 +31,20 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, co
                         <GradientTitle
                             text={aboutSectionHeading ?? ''}
                             theme="dark"
-                            className="text-[22px] sm:text-[25px] md:text-[30px] w-full "
+                            className={`${classNameTwo ? classNameTwo : "text-[30px] sm:text-[25px] md:text-[38px] text-center md:text-start"}  w-full `}
                         />
                     }
 
-                    <p className="text-[16px] leading-relaxed">
+                    <p className="text-[16px] leading-relaxed text-center md:text-start">
                         {contentOne}
                     </p>
-                    <p className="text-[16px] leading-relaxed">
+                    <p className="text-[16px] leading-relaxed text-center md:text-start">
                         {contenttwo}
                     </p>
-                    <p className="text-[16px] leading-relaxed">
+                    <p className="text-[16px] leading-relaxed text-center md:text-start">
                         {contentthree}
                     </p>
-                    <p className="text-[16px] leading-relaxed">
+                    <p className="text-[16px] leading-relaxed ">
                         {contentfour}
                     </p>
 
@@ -52,7 +53,7 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, co
 
 
                 <div
-                    className={`rounded-xl w-full h-[300px] md:h-[350px] bg-cover bg-center flex items-end justify-center ${aboutProduct ? "md:order-1" : "md:order-2"}`}
+                    className={`rounded-xl w-full h-[200px] md:h-[350px] bg-cover bg-center flex items-end justify-center ${aboutProduct ? "md:order-1" : "md:order-2"}`}
                     style={{
                         backgroundImage: `url(${image})`,
                     }}

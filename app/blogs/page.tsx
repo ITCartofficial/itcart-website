@@ -44,7 +44,7 @@ const BlogsTemplate = () => {
   }, []);
 
   return (
-    <section className="w-full bg-black text-white pt-32 pb-20 px-4 border-b-2 border-[#525252]">
+    <section className="w-full bg-black text-white pt-32 pb-20 md:px-4 border-b-2 border-[#525252] space-y-15 lg:space-y-25">
       <div className="pb-20">
         <BlogsHero
           title="Blogs"
@@ -53,13 +53,15 @@ const BlogsTemplate = () => {
             { label: "Home", url: "/" },
             { label: "Blogs", url: "/blogs" },
           ]}
-          className="pb-20"
+          reduceTitle={true}
+          className="pb-20 w-[80%]"
         />
       </div>
       <BlogSlider posts={posts} />
       <BlogGridLayout posts={posts} />
       <NewsletterSection />
       <TechnologySection />
+
       <SuggestedBlogSection />
 
     </section>

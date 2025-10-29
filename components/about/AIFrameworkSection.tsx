@@ -1,4 +1,4 @@
-import OutlineBtn from "@/components/buttons/OutlineBtn"
+// import OutlineBtn from "@/components/buttons/OutlineBtn"
 import InfoShowcase from "../InfoShowcase"
 
 interface InfoShowcaseProps {
@@ -12,7 +12,7 @@ type Button = {
     path: string,
 }
 
-const AIFrameworkSection = ({ aixFramework, className, reverse, theme, button }: {
+const AIFrameworkSection = ({ aixFramework, className, reverse, theme }: {
     aixFramework: InfoShowcaseProps,
     className?: string,
     reverse?: boolean,
@@ -28,14 +28,9 @@ const AIFrameworkSection = ({ aixFramework, className, reverse, theme, button }:
                     imageUrl={aixFramework.imageUrl}
                     theme={theme}
                     reverse={reverse}
+                    showButton={true}
                 />
-                {
-                    button.text && (
-                        <div className="w-full flex justify-center">
-                            <OutlineBtn text={button.text} icon="default" theme={theme} url={button.path} className={`${theme == "dark" && "text-white"}`} />
-                        </div>
-                    )
-                }
+
             </div>
         </div>
     )

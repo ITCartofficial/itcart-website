@@ -49,59 +49,60 @@ function CunsultNow() {
     ];
 
     return (
-        <div className='bg-black'>
-            <HeroBanner title="Artificially Intelligent Digital Transformation (AiX)"
-                description="World's first AI-native operating system replacing 342 fragmented applications with unified intelligent execution."
-                ctaText="Connect with Us"
-                ctaUrl="/contact"
-                breadcrumbItems={[
-                    { label: 'Home', url: '/' },
-                    { label: 'Our Industry', url: '/industry' }
-                ]}
-                backgroundImage="/images/cunsultnow/cunsultnow-banner.png"
-                isCunsultNow={true}
-            />
-
-            <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <WhyImplementation />
-            </div>
-
-            <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <ImplementationStratogy />
-            </div>
-
-            <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <EnterPriceGrid />
-            </div>
-
-            <div className="bg-black py-8 rounded-bl-[85px] rounded-br-[85px] lg:px-10">
-                <ExecutiveLeadersSection
-                    execLeaders={executiveLeadership}
-                    bgColor="dark"
+        <>
+            <div className='bg-black space-y-15 lg:space-y-25'>
+                <HeroBanner title="Artificially Intelligent Digital Transformation (AiX)"
+                    description="World's first AI-native operating system replacing 342 fragmented applications with unified intelligent execution."
+                    ctaText="Connect with Us"
+                    ctaUrl="/contact"
+                    breadcrumbItems={[
+                        { label: 'Home', url: '/' },
+                        { label: 'Consult Now', url: '/' }
+                    ]}
+                    backgroundImage="/images/cunsultnow/cunsultnow-banner.jpg"
+                    isCunsultNow={true}
                 />
-            </div>
 
-            <div className="bg-black py-16">
-                <AwardsSection />
-            </div>
+                <div className='bg-black container mx-auto lg:px-10'>
+                    <WhyImplementation />
+                </div>
 
-            <div className="bg-black py-8">
-                <TestimonialSection bgColor={"dark"} testimonialsData={testimonialsData} />
-            </div>
+                <div className='bg-black container mx-auto lg:px-10 '>
+                    <ImplementationStratogy />
+                </div>
 
-            <div className="bg-black py-8">
-                <AboutSection />
-            </div>
+                <div className='bg-black container mx-auto lg:px-10 '>
+                    <EnterPriceGrid />
+                </div>
 
-            <div className="bg-black py-8">
-                <SectionContact showContent={""} image=""/>
-            </div>
+                <div className="bg-black rounded-bl-[85px] rounded-br-[85px] lg:px-10 ">
+                    <ExecutiveLeadersSection
+                        execLeaders={executiveLeadership}
+                        bgColor="dark"
+                    />
+                </div>
 
-            <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
+                <div className="bg-black ">
+                    <AwardsSection />
+                </div>
+
+                <div className="bg-black">
+                    <TestimonialSection bgColor={"dark"} testimonialsData={testimonialsData} />
+                </div>
+
+                <div className="bg-black">
+                    <AboutSection />
+                </div>
+
+                <div className="bg-black">
+                    <SectionContact showContent={""} image="/images/contact/contact-form-img.png" />
+                </div>
+
+            </div>
+            <div className="bg-[#131313] my-10 py-5 border-b-2 border-b-zinc-600">
                 <HomeFaqSection faqs={homeFAQs} />
             </div>
-
-        </div>
+        </>
     )
 }
 export default CunsultNow

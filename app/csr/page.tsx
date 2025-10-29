@@ -43,49 +43,52 @@ function Csr() {
     ];
 
     return (
-        <div className='bg-black'>
-            <HeroBanner title="Visual Mosaic of Our Journey"
-                description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
-                ctaText="Book a Free Session Now"
-                ctaUrl="/contact"
-                breadcrumbItems={[
-                    { label: 'Home', url: '/' },
-                    { label: 'Our Industry', url: '/industry' }
-                ]}
-                backgroundImage="/images/csr/banner-image.png"
-                isCunsultNow={true}
-            />
-
-            <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <BetterFutureSection />
-            </div>
-
-
-            <div className='bg-black py-10 container mx-auto lg:px-10'>
-                <ShappingSection />
-            </div>
-
-            <div className="bg-black py-8">
-                <TestimonialSection bgColor={"dark"} testimonialsData={testimonialsData} />
-            </div>
-
-            <div className="bg-black py-8">
-                <SectionTeam
-                    heading="Witness Our Commitment To Change"
-                    discription="Explore moments from our CSR initiatives, showcasing our commitment to education, healthcare, sustainability and community development through impactful efforts."
+        <>
+            <div className='bg-black space-y-15 lg:space-y-25'>
+                <HeroBanner title="Visual Mosaic o f Our Journey"
+                    description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
+                    ctaText="Book a Free Session Now"
+                    ctaUrl="/contact"
+                    breadcrumbItems={[
+                        { label: 'Home', url: '/' },
+                        { label: 'Our CSR', url: '/' }
+                    ]}
+                    backgroundImage="/images/csr/banner-image.jpg"
+                    isCunsultNow={true}
                 />
+
+                <div className='bg-black container mx-auto lg:px-10'>
+                    <BetterFutureSection />
+                </div>
+
+
+                <div className='bg-black container mx-auto lg:px-10'>
+                    <ShappingSection />
+                </div>
+
+                <div className="bg-black">
+                    <TestimonialSection bgColor={"dark"} testimonialsData={testimonialsData} />
+                </div>
+
+                <div className="bg-black">
+                    <SectionTeam
+                        removeBorder={false}
+                        heading="Witness Our Commitment To Change"
+                        discription="Explore moments from our CSR initiatives, showcasing our commitment to education, healthcare, sustainability and community development through impactful efforts."
+                    />
+                </div>
+
+                <div className="bg-black">
+                    <JoinSection className="" />
+                </div>
+
             </div>
 
-            <div className="bg-black py-8">
-                <JoinSection className="" />
-            </div>
-
-
-            <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
+            <div className="bg-[#131313] border-b-2 border-b-zinc-600 mt-15 md:mt-10">
                 <HomeFaqSection faqs={homeFAQs} />
             </div>
 
-        </div>
+        </>
     )
 }
 export default Csr

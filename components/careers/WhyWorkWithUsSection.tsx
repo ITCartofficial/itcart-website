@@ -27,14 +27,14 @@ const workWithUsCard = [
 
 const WhyWorkWithUsSection = () => {
     return (
-        <div className='container pt-10 pb-20'>
+        <div className='container'>
             <GradientTitle
                 text='Why Work with Us?'
                 lineHeight="1.2"
                 className="text-3xl md:text-[50px] pb-6 text-center"
                 theme='dark'
             />
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:mx-15 mt-5 md:mt-10">
                 {
                     workWithUsCard.map((card, i) => (
                         <IconCard

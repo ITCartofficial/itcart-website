@@ -101,7 +101,7 @@ function Partners() {
                                     className="object-contain"
                                 />
                             </div>
-                            <div className="p-5 text-center">
+                            <div className="p-5">
                                 <p className="text-gray-300 text-sm leading-relaxed">
                                     {partner.description}
                                 </p>

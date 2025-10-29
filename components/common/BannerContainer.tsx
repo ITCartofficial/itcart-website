@@ -10,7 +10,8 @@ const BannerContainer = ({ children, bgImage, className }:
             style={{
                 backgroundImage: `url(${bgImage})`,
                 backgroundSize: 'cover',
-                backgroundPosition: 'center',
+                backgroundPosition: 'bottom !import',
+                
             }}
         >
             {children}

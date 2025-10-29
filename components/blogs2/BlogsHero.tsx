@@ -14,19 +14,14 @@ interface BlogsHeroProps {
     description: string;
     breadcrumbItems: BreadcrumbItem[];
     className?: string;
+    reduceTitle?: boolean;
 }
 const BlogsHero: React.FC<BlogsHeroProps> = ({ title,
     description,
-    breadcrumbItems, }) => {
+    breadcrumbItems, reduceTitle }) => {
     return (
-        <div className="container mx-auto text-center max-w-4xl">
-            <GradientTitle
-                text={title}
-                theme="dark"
-                className="text-4xl md:text-5xl lg:text-[64px] mb-4"
-            />
-
-            <nav className="flex justify-center text-sm mb-6">
+        <div className="container mx-auto text-center">
+            <nav className="flex justify-center text-sm mb-3">
                 <ul className="flex items-center flex-wrap gap-2">
                     {breadcrumbItems.map((item, index) => (
                         <React.Fragment key={index}>
@@ -42,12 +37,32 @@ const BlogsHero: React.FC<BlogsHeroProps> = ({ title,
                     ))}
                 </ul>
             </nav>
-            <BodyText
-                text={description}
-                color="white"
-                textAlign="center"
-                className="text-lg"
+            <GradientTitle
+                text={title}
+                theme="dark"
+                className="text-4xl text-5xl md:text-[64px] mb-4"
             />
+
+            {
+                reduceTitle ?
+                    <div className='w-full flex justify-center'>
+                        <BodyText
+                            text={description}
+                            color="white"
+                            textAlign="center"
+                            className="text-lg w-[90%] lg:w-[70%] text-[16px] md:text-[20px]"
+                        />
+                    </div>
+                    :
+                    <BodyText
+                        text={description}
+                        color="white"
+                        textAlign="center"
+                        className="text-lg"
+                    />
+            }
+
+
         </div>
     )
 }

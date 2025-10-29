@@ -3,8 +3,9 @@ import React from 'react';
 import Image from 'next/image';
 import GradientTitle from '@/components/typography/GradientTitle';
 import BodyText from '@/components/typography/BodyText';
-import LinkButton from '@/components/buttons/LinkButton';
 import { usePathname, useRouter } from 'next/navigation';
+import OutlineBtn from '../buttons/OutlineBtn';
+import { FaArrowRight } from 'react-icons/fa6';
 
 
 interface ServiceCardProps {
@@ -22,8 +23,6 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     description,
     imageSrc = "/images/default-service.jpg",
     imageAlt = "Service illustration",
-    linkText = "Learn More",
-    linkUrl = "#",
     className = "",
 }) => {
 
@@ -32,9 +31,6 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     const pathName = usePathname().split('/')[1]
 
     const formattedTitle = title.replace(/\s+/g, '-').replace(/&/g, '&');
-
-    console.log("pathName", pathName);
-
 
     return (
         <div
@@ -73,10 +69,11 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
                 />
 
                 <div className="mt-auto">
-                    <LinkButton
-                        text={linkText}
-                        url={linkUrl}
-                        textColor="#ffffff"
+                    <OutlineBtn
+                        url={`${pathName}/${formattedTitle}`}
+                        text={"View More"}
+                        textColor='#ffffff'
+                        icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                     />
                 </div>
             </div>
