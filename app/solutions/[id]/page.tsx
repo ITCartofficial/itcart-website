@@ -66,7 +66,7 @@ function SolutionDetailPage() {
                         { label: 'Home', url: '/' },
                         { label: 'Our Verticals', url: '/services' }
                     ]}
-                    backgroundImage={bgImage ?? ""}
+                    backgroundImage={bgImage ? filterdItem?.detailPage?.bannerImage : "" }
                     className="mt-10"
                 />
 
