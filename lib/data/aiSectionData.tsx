@@ -4,7 +4,7 @@ export const AiSectionData = [
         title: "Digital Transformation",
         description: "Leverage our AI-powered solutions to streamline key decisions and drive digital transformation through smart automation.",
        
-        image: "/images/aiSection/AiXHub.png",
+        image: "/images/aiSection/Digital-Transformationone.png",
         // image: "/images/aiSection/digital-transformation.png",
     },
     {
