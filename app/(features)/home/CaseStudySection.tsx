@@ -46,10 +46,10 @@ const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => 
   return (
     <>
 
-      <div className="flex flex-col lg:flex-row gap-4 justify-end items-center py-6 relative">
+      <div className="container mx-auto flex flex-col lg:flex-row gap-4 items-center py-6 relative">
         {/* Left Text Section */}
         {/* px-4 lg:pl-24 */}
-        <div className="flex flex-col gap-4 w-full lg:w-[40%] ">
+        <div className="flex flex-col gap-4 w-full lg:w-[40%] lg:min-w-[410px]">
           <GradientTitle
             theme="dark"
             text="Case Studies That Inspire Digital Change"
@@ -73,7 +73,7 @@ const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => 
         </div>
 
         {/* Slider Section */}
-        <div className="w-screen lg:w-[60%] md:mt-0 mt-6">
+        <div className="w-screen lg:w-[60%] md:mt-0 mt-6 xl:min-w-[70%]">
           <CaseStudiesSlider
             caseStudies={caseStudies}
             onSlideChange={(i) => setActiveIndex(i)}

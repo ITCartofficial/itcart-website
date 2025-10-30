@@ -120,13 +120,13 @@ const HomeTemplate = () => {
         />
       </div>
       {/* lg:!max-w-[1875px] */}
-      <div id="case-studies" className="container mx-auto bg-black md:pt-16 md:my-2">
+      <div id="case-studies" className="bg-black md:pt-16 md:my-2">
         <CaseStudySection caseStudies={caseStudyData} />
       </div>
       {/* <div className="bg-black py-8">
         <TestimonialSection bgColor={"true"} testimonialsData={testimonialsData} />
       </div> */}
-      <div className="bg-black">
+      <div className="bg-black mt-4">
         <BlogsFeatureSection posts={posts} />
       </div>
       <div className="bg-black py-16">
