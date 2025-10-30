@@ -14,7 +14,7 @@ type AiSectionProps = {
 }
 
 const AiSection: React.FC<AiSectionProps> = ({ title }) => {
-    const [clickedImage, setClickedImage] = useState("/images/aiSection/AiXHub.png")
+    const [clickedImage, setClickedImage] = useState("/images/aiSection/digital-transformation.png")
 
     return (
         <section className="w-full flex flex-col items-center text-center px-4 sm:px-8 md:px-12 lg:px-20 py-10 lg:py-20">
