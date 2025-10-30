@@ -45,9 +45,9 @@ function Csr() {
     return (
         <>
             <div className='bg-black space-y-15 lg:space-y-25'>
-                <HeroBanner title="Visual Mosaic o f Our Journey"
+                <HeroBanner title="Visual Mosaic of Our Journey"
                     description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
-                    ctaText="Book a Free Session Now"
+                    // ctaText="Book a Free Session Now"
                     ctaUrl="/contact"
                     breadcrumbItems={[
                         { label: 'Home', url: '/' },

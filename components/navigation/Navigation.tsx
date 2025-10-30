@@ -44,18 +44,15 @@ const Navigation: React.FC<NavigationProps> = ({
   return (
     <nav className={className || ""}>
       <ul
-        className={`flex ${isMobile ? "flex-col" : "flex-row"} items-start ${
-          isMobile ? "" : "lg:items-center"
-        } ${isMobile ? "gap-0" : "gap-2 lg:gap-3"} relative z-50 ${
-          isMobile ? "" : "whitespace-nowrap"
-        }`}
+        className={`flex ${isMobile ? "flex-col" : "flex-row"} items-start ${isMobile ? "" : "lg:items-center"
+          } ${isMobile ? "gap-0" : "gap-2 lg:gap-3"} relative z-50 ${isMobile ? "" : "whitespace-nowrap"
+          }`}
       >
         {navItems.map((item, i) => (
           <li
             key={i}
-            className={`relative group w-full ${
-              isMobile ? "border-b border-slate-700 last:border-b-0" : ""
-            }`}
+            className={`relative group w-full ${isMobile ? "border-b border-slate-700 last:border-b-0" : ""
+              }`}
             onMouseEnter={() => handleDesktopHover(item.label)}
             onMouseLeave={() => handleDesktopHover(null)}
           >
@@ -75,14 +72,13 @@ const Navigation: React.FC<NavigationProps> = ({
             {/* Desktop Dropdown */}
             {item.submenu && !isMobile && (
               <ul
-                className={`absolute left-0 top-full mt-2 w-56 bg-white dark:bg-slate-800 shadow-xl rounded-lg py-2 transition-all duration-300 ease-in-out border border-gray-200 dark:border-slate-600 ${
-                  activeMenu === item.label
-                    ? "opacity-100 visible transform translate-y-0"
-                    : "opacity-0 invisible transform -translate-y-2"
-                }`}
+                className={`absolute left-0 top-full mt-2 w-56 bg-white dark:bg-slate-800 shadow-xl rounded-lg py-2 transition-all duration-300 ease-in-out border border-gray-200 dark:border-slate-600 ${activeMenu === item.label
+                  ? "opacity-100 visible transform translate-y-0"
+                  : "opacity-0 invisible transform -translate-y-2"
+                  }`}
               >
                 {item.submenu.map((subItem, idx) => (
-                  <li key={idx}>
+                  <li key={idx} className="bg-red-400">
                     <a
                       href={subItem.href}
                       style={{ scrollBehavior: "smooth" }}
@@ -96,14 +92,15 @@ const Navigation: React.FC<NavigationProps> = ({
               </ul>
             )}
 
+
+
             {/* Mobile Dropdown */}
             {item.submenu && isMobile && (
               <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out bg-slate-800 ${
-                  openMobileSubmenu === item.label
-                    ? "max-h-96 opacity-100"
-                    : "max-h-0 opacity-0"
-                }`}
+                className={`overflow-hidden transition-all duration-300 ease-in-out bg-slate-800 ${openMobileSubmenu === item.label
+                  ? "max-h-96 opacity-100"
+                  : "max-h-0 opacity-0"
+                  }`}
               >
                 <ul className="py-2 pl-4 space-y-1">
                   {item.submenu.map((subItem, idx) => (
@@ -124,6 +121,10 @@ const Navigation: React.FC<NavigationProps> = ({
           </li>
         ))}
       </ul>
+
+      <div className="bg-green-400">
+        AAAAAAAAAAA
+      </div>
     </nav>
   );
 };

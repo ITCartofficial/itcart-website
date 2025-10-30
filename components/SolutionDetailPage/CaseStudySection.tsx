@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from 'react';
-// import { Button } from "@/components/ui/button";
-// import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 interface CaseStudySectionProps {
   className?: string;
@@ -41,14 +41,13 @@ const CaseStudySection = ({
   ]
 }: CaseStudySectionProps) => {
   return (
-    <section className={className}>
-      {/* cn("py-12 md:py-20 bg-black text-white" */}
+    <section className={cn("py-12 md:py-20 bg-black text-white", className)}>
       <div className="container mx-auto px-4 lg:px-8">
         {/* ITCart Logo Header */}
         <div className="flex justify-center mb-12">
           <div className="relative w-40 h-16 md:w-48 md:h-20">
-            <Image
-              src="/images/logo/logo-white.svg"
+            <Image 
+              src="/images/logo/logo-white.svg" 
               alt="ITCart Logo"
               fill
               className="object-contain"
@@ -84,20 +83,20 @@ const CaseStudySection = ({
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{item.title}</h3>
                 <p className="text-gray-400 mb-4">{item.description}</p>
-                {/* <Button variant="outline" className="w-full">
+                <Button variant="outline" className="w-full">
                   View Case Study
-                </Button> */}
+                </Button>
               </div>
             </div>
           ))}
         </div>
 
         {/* CTA Button */}
-        {/* <div className="text-center mt-12">
+        <div className="text-center mt-12">
           <Button size="lg" className="px-8 py-6 text-lg">
             View All Case Studies
           </Button>
-        </div> */}
+        </div>
       </div>
     </section>
   );

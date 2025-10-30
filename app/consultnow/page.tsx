@@ -6,10 +6,11 @@ import HeroBanner from "@/components/HeroBanner"
 import { executiveLeadership } from '@/lib/data/aboutPageData'
 import AwardsSection from "../(features)/home/AwardsSection"
 import TestimonialSection from "../(features)/home/TestimonialSection"
-import { testimonialsData } from "@/lib/data/homePageData"
+import { logos, testimonialsData } from "@/lib/data/homePageData"
 import AboutSection from "@/components/CunsultNow/AboutSection"
 import SectionContact from "@/components/CunsultNow/SectionContact"
 import HomeFaqSection from "../(features)/home/HomeFaqSection"
+import ClientsSection from "../(features)/home/ClientsSection"
 
 
 function CunsultNow() {
@@ -71,9 +72,7 @@ function CunsultNow() {
                     <ImplementationStratogy />
                 </div>
 
-                <div className='bg-black container mx-auto lg:px-10 '>
-                    <EnterPriceGrid />
-                </div>
+
 
                 <div className="bg-black rounded-bl-[85px] rounded-br-[85px] lg:px-10 ">
                     <ExecutiveLeadersSection
@@ -87,8 +86,14 @@ function CunsultNow() {
                 </div>
 
                 <div className="bg-black">
-                    <TestimonialSection bgColor={"dark"} testimonialsData={testimonialsData} />
+                    <ClientsSection
+                        title="Trusted by these amazing companies"
+                        logos={logos}
+                    />
                 </div>
+                {/* <div className="bg-black">
+                    <TestimonialSection bgColor={"dark"} testimonialsData={testimonialsData} />
+                </div> */}
 
                 <div className="bg-black">
                     <AboutSection />

@@ -43,7 +43,8 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: 'cover',
-            backgroundPosition: 'center'
+            backgroundPosition: 'center',
+            // background:'red'
           }}
         />
 
@@ -55,12 +56,12 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
               {breadcrumbItems.map((item, index) => (
                 <React.Fragment key={index}>
                   <li>
-                    <Link href={item.url} className="text-gray-300 hover:text-cyan-400 transition-colors">
+                    <Link href={item.url} className="text-gray-300 text-[14px] hover:text-cyan-400 transition-colors">
                       {item.label}
                     </Link>
                   </li>
                   {index < breadcrumbItems.length - 1 && (
-                    <li className="mx-2 text-gray-400">
+                    <li className="mx-2 text-[14px] text-gray-400">
                       /
                     </li>
                   )}
@@ -74,6 +75,32 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
             theme="dark"
             className="text-3xl sm:text-4xl md:text-[64px] text-center py-4 "
           />
+
+          {
+            !isCunsultNow && description && (
+              <div className="container mx-auto px-4">
+                <div className="flex flex-col items-center mt-[200px] text-center max-w-5xl mx-auto">
+                  {/* Description */}
+                  <BodyText
+                    text={description}
+                    color="#ffffff"
+                    className="text-sm sm:text-base md:text-lg mb-6 md:mb-4 lg:mb-4"
+                  />
+
+                  {/* CTA Button */}
+                  {ctaText && (
+                    <OutlineBtn
+                      text={ctaText}
+                      icon={<FaArrowRight size={16} />}
+                      url={ctaUrl}
+                      theme="dark"
+                      className="mt-0"
+                    />
+                  )}
+                </div>
+              </div>
+            )
+          }
 
           {
             isCunsultNow && description && (
@@ -100,35 +127,13 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
               </div>
             )
           }
-       
+
+
+
         </div>
       </div>
 
-      {
-        !isCunsultNow && description && (
-          <div className="container mx-auto px-4">
-            <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
-              {/* Description */}
-              <BodyText
-                text={description}
-                color="#ffffff"
-                className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 lg:mb-10"
-              />
 
-              {/* CTA Button */}
-              {ctaText && (
-                <OutlineBtn
-                  text={ctaText}
-                  icon={<FaArrowRight size={16} />}
-                  url={ctaUrl}
-                  theme="dark"
-                  className="mt-0"
-                />
-              )}
-            </div>
-          </div>
-        )
-      }
     </section>
   )
 }
