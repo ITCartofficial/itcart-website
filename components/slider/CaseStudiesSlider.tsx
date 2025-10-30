@@ -267,14 +267,14 @@ export default function CaseStudiesSlider({
       const realIndex = (activeIndex % totalItems) % caseStudies.length;
       onSlideChange(realIndex);
     }
-  }, [activeIndex, totalItems, caseStudies.length, onSlideChange, goToSlide, startIndex]);
+  }, [activeIndex, totalItems, caseStudies.length, onSlideChange]);
 
 
   useEffect(() => {
     if (activeExternalIndex !== undefined && isInitialized) {
       goToSlide(startIndex + activeExternalIndex);
     }
-  }, [activeExternalIndex, isInitialized, goToSlide, startIndex]);
+  }, [activeExternalIndex, isInitialized]);
   return (
     <div className="relative w-full overflow-hidden">
       <div
