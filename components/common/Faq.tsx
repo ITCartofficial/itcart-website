@@ -78,7 +78,7 @@ const Faq: React.FC<FaqSectionProps> = ({
 
   return (
     <section
-      className={`w-full h-full ${className}`}
+      className={`w-full h-full border-t-[.2px] border-zinc-600 md:py-10 border-b-zinc-600 ${className} `}
       style={{ backgroundColor }}
     >
       {/* Title Section */}
@@ -87,7 +87,7 @@ const Faq: React.FC<FaqSectionProps> = ({
           <div className='pt-2'>
             <BodyText text={label} className='text-2xl pb-4' color='#ffffff' fontWeight='600' />
           </div>
-          <GradientTitle text={FAQsHeading ? FAQsHeading : mainTitle} lineHeight="1.2" className="w-[90%] text-[30px] sm:text-[38px] md:text-[45px] lg:text-[50px]" theme='dark' />
+          <GradientTitle text={FAQsHeading ? FAQsHeading : mainTitle} lineHeight="1.2" className="w-[90%] text-[30px] lg:text-[48px]" theme='dark' />
         </div>
         <button
           onClick={toggleExpansion}

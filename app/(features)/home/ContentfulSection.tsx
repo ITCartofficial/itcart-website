@@ -97,16 +97,13 @@ const ContentfulSection: React.FC<ContentfulSectionProps> = ({ title, descriptio
 
     const activeBg = isMobile && bgImageMobile ? bgImageMobile : bgImage
 
-    console.log("activeBg", activeBg);
-
     const descriptions = description.split('<br>');
 
     return (
         <div
-            className="relative w-full min-h-[800px] md:min-h-[400px] bg-cover bg-center bg-no-repeat md:px-10 px-4 lg:py-0 lg:rounded-[48px] overflow-hidden"
+            className="relative w-full min-h-[800px] md:min-h-[400px] bg-cover bg-center bg-no-repeat md:px-0 px-4 lg:py-0 lg:rounded-[48px] overflow-hidden"
             style={{ backgroundImage: `url(${activeBg})` }}
         >
-            {/* ✅ Gradient Overlay covering entire section */}
             <div
                 className="absolute inset-0"
                 style={{
@@ -117,11 +114,14 @@ const ContentfulSection: React.FC<ContentfulSectionProps> = ({ title, descriptio
             {/* ✅ Content on top of the gradient */}
             <div className="relative z-10 w-full h-full flex items-center py-6 md:py-0">
                 <div className="container mx-auto lg:px-10 lg:py-16 flex flex-col gap-4 justify-center">
-                    <GradientTitle
-                        text={title}
-                        theme="dark"
-                        className="text-[24px] lg:text-[30px] leading-tight lg:w-2/4 px-4"
-                    />
+                    <div className=''>
+                        <GradientTitle
+                            text={title}
+                            theme="dark"
+                            className="text-[24px] lg:text-[48px] leading-[1.3] md:w-[70%] w-[100%]"
+                        />
+                    </div>
+
 
                     <div className="flex flex-col gap-2 lg:w-[50%]">
                         {descriptions && descriptions.length > 0 ? (

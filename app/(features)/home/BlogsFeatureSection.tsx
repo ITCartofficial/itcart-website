@@ -31,7 +31,7 @@ export default function BlogsFeatureSection({posts}: {posts: Post[]}) {
           <GradientTitle
             text="Insights & Thought Leadership"
             theme="dark"
-            className="text-[30px] lg:text-[50px] leading-[1.3] w-full md:w-full text-center md:text-start"
+            className="text-[30px] lg:text-[48px]leading-[1.3] w-full md:w-full text-center md:text-start"
           />
         </div>
         <PostHighlights featured={featured} recent={recent} />

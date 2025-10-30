@@ -1,5 +1,6 @@
 export const navItems = [
   { label: "Home", href: "/" },
+  { label: "Consult Now", href: "/consultnow" },
   {
     label: "Our Verticals",
     href: "/our-verticals",
@@ -9,10 +10,36 @@ export const navItems = [
     //   { label: "Cloud Solutions", href: "#" },
     // ],
   },
-  { label: "Media", href: "/mediapage" },
+  { label: "Solutions", href: "/solutions" },
+  { label: "Industry", href: "/industry" },
+  { label: "Services", href: "/services" },
+  {
+    label: "Company",
+    href: "",
+    submenu: [
+      { label: "About Us", href: "/about-us" },
+      { label: "CSR", href: "/csr" },
+      { label: "Our Partners", href: "/ourpatners" },
+      { label: "Media", href: "/mediapage" },
+      // { label: "Our Blogs", href: "/blogs" },
+      // { label: "Case Studies", href: "/case-study" },
+    ],
+  },
+  {
+    label: "Resources",
+    href: "",
+    submenu: [
+      { label: "Our Blogs", href: "/blogs" },
+      { label: "Case Studies", href: "/case-study" },
+    ],
+  },
+
+
+
+
   // mediapage
-  { label: "Consult Now", href: "/cunsultnow" },
-  { label: "CSR", href: "/csr" },
+
+
 
   // {
   //   label: "Our Solutions",
@@ -30,19 +57,10 @@ export const navItems = [
   //   //   { label: "Finance", href: "#" },
   //   // ],
   // },
-  {
-    label: "Company",
-    href: "",
-    submenu: [
-      { label: "About Us", href: "/about-us" },
-      { label: "Our Blogs", href: "/blogs" },
-      { label: "Case Studies", href: "/case-study" },
-      { label: "Our Partners", href: "/ourpatners" },
-    ],
-  },
-  { label: "Solutions", href: "/solutions" },
+
+
   { label: "Careers", href: "/careers" },
-  { label: "Industry", href: "/industry" },
-  { label: "Services", href: "/services" },
-  { label: "Contact Us", href: "/contact-us" },
+
+  // { label: "Services", href: "/services" },
+  // { label: "Contact Us", href: "/contact-us" },
 ];

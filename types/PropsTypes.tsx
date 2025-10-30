@@ -24,6 +24,7 @@ export interface TypographyProps {
   hoverColor?: string;
   className?: string;
   theme?: Theme;
+  cursor?:string   
 }
 
 export interface LogoBadgeProps {

@@ -11,7 +11,7 @@ const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => 
         <GradientTitle
           theme="dark"
           text="Case Studies That Inspire Digital Change"
-          className="text-[30px] text-center lg:text-left lg:text-[50px] leading-tight"
+          className="text-[30px] lg:text-[48px] text-center lg:text-left leading-tight"
         />
         <BodyText
           text="Explore our case studies for in-depth insights, expert analyses, and success stories."

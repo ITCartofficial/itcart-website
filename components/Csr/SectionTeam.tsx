@@ -21,6 +21,12 @@ export default function SectionTeam({
 
     const [current, setCurrent] = useState(0);
 
+    useEffect(() => {
+        if ("scrollRestoration" in history) {
+            history.scrollRestoration = "manual";
+        }
+    }, []);
+
     // 🌀 Autoplay effect
     useEffect(() => {
         const interval = setInterval(() => {
@@ -79,16 +85,6 @@ export default function SectionTeam({
                                         : "border-gray-700 hover:border-cyan-400/40"
                                         }`}
                                     onClick={() => setCurrent(index)}
-                                    ref={(el) => {
-                                        // 👇 Auto-scroll the selected image into view
-                                        if (index === current && el) {
-                                            el.scrollIntoView({
-                                                behavior: "smooth",
-                                                inline: "center",
-                                                block: "nearest",
-                                            });
-                                        }
-                                    }}
                                 >
                                     <Image
                                         src={thumb.mainImg}

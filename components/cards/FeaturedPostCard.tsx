@@ -19,7 +19,7 @@ const FeaturedPostCard = ({ featuredImage = "", title, slug, date, author }: Fea
   return (
     <a
       href={`/blogs/${slug}`}
-      className="rounded-2xl overflow-hidden shadow-lg relative group min-h-[260px] grow"
+      className=" overflow-hidden shadow-lg relative group min-h-[260px] grow"
     >
       {featuredImage?.trim() && (
         <Image
@@ -27,7 +27,7 @@ const FeaturedPostCard = ({ featuredImage = "", title, slug, date, author }: Fea
           alt={title || "Featured Post"}
           fill
           loading="lazy"
-          className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-64 rounded-2xl group-hover:scale-105 transition-transform duration-300 border border-[#2BADB7]"
         />
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">

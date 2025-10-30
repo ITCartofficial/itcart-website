@@ -15,7 +15,7 @@ type AboutInfoSectionProps = {
 const AboutInfoSection: React.FC<AboutInfoSectionProps> = ({ title, cardDetails }) => {
     return (
         <div className="flex flex-col gap-10">
-            <GradientTitle text={title} className="text-[30px] lg:text-[50px] lg:w-[60%] leading-[1.3] lg:text-left text-center ml-3" theme="dark" />
+            <GradientTitle text={title} className="text-[30px] lg:text-[48px] lg:w-[60%] leading-[1.3] lg:text-left text-center ml-3" theme="dark" />
             <div
                 style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85%)' }}
                 className="grid grid-cols-1 lg:grid-cols-2 gap-8 min-h-[100px] md:min-h-[500px] lg:px-24">

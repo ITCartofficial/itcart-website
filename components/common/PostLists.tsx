@@ -51,7 +51,7 @@ const  PostLists = ({ posts, items = 3 }: { posts: Post[]; items: number }) => {
       <div className="md:mt-4 mt-3  flex md:justify-start justify-center">
         <OutlineBtn
           text="See all posts"
-          url="/"
+          url="/blogs"
           textColor='#ffffff'
           icon={<FaArrowRight className="text-sm font-semibold text-white" />}
         />

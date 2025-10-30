@@ -7,6 +7,8 @@ import "swiper/css";
 import { IconInfoCardProps } from "@/types/PropsTypes";
 import type { Swiper as SwiperType } from "swiper";
 import "swiper/css/pagination";
+import OutlineBtn from "../buttons/OutlineBtn";
+import { FaArrowRight } from "react-icons/fa6";
 
 export type CardSliderRef = {
     slidePrev: () => void;
@@ -60,7 +62,15 @@ const CardSlider = forwardRef<CardSliderRef, CardSliderProps>(
                     ))}
                 </Swiper>
 
-                <div className="custom-pagination flex justify-center gap-2 md:mt-10 mt-5" />
+                <div className="flex justify-center mt-10">
+                    <OutlineBtn
+                        url="/our-verticals"
+                        text="Show More"
+                        textColor="#ffffff"
+                        icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+                    />
+                </div>
+                {/* <div className="custom-pagination flex justify-center gap-2 md:mt-10 mt-5" /> */}
 
             </div>
         );

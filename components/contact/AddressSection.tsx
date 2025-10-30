@@ -49,7 +49,7 @@ const AddressSection = ({ addressList }: { addressList: AddressCardProps[] }) =>
         return () => window.removeEventListener("resize", updateBg);
     }, []);
 
-   
+
     if (!bgImage) return null;
 
     return (
@@ -57,14 +57,16 @@ const AddressSection = ({ addressList }: { addressList: AddressCardProps[] }) =>
             bgImage={bgImage}
             className="bg-bottom bg-no-repeat bg-contain sm:bg-cover sm:bg-center pb-30 md:pb-0"
         >
-            <div className="px-6 sm:px-10 lg:px-16 py-10 lg:py-16 h-full grid grid-cols-1 lg:grid-cols-4 gap-6 sm:gap-8 max-w-7xl mx-auto">
-                {addressList.map((address, i) => (
-                    <AddressCard
-                        key={i}
-                        {...address}
-                        mapUrl={address.mapUrl || ""}
-                    />
-                ))}
+            <div className="">
+                <div className="px-6 h-full grid  grid-cols-1 lg:grid-cols-4 md:gap-10 gap-10 sm:gap-8 max-w-7xl mx-auto">
+                    {addressList.map((address, i) => (
+                        <AddressCard
+                            key={i}
+                            {...address}
+                            mapUrl={address.mapUrl || ""}
+                        />
+                    ))}
+                </div>
             </div>
         </BannerContainer>
     );
