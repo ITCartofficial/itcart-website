@@ -4,7 +4,7 @@ import GradientTitle from "../typography/GradientTitle"
 
 function JoinSection({ className }: { className: string }) {
     return (
-        <section className="w-full bg-black text-white px-6">
+        <section className="w-full bg-black text-white px-6 pb-10 md:pb-20">
             <div
                 className={`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center ${className}`}
             >

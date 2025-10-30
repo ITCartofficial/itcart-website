@@ -21,7 +21,7 @@ const ImageInfoCard: React.FC<ImageInfoCardProps> = ({ bgImage, title, descripti
                 {
                     showBtn &&
                     <OutlineBtn
-                        url='/'
+                        url='/about-us'
                         text="Read More"
                         textColor='#ffffff'
                         icon={<FaArrowRight className="text-sm font-semibold text-white" />}

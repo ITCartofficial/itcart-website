@@ -11,12 +11,10 @@ import SolutionAboutSection from "@/components/SolutionDetailPage/SolutionAboutS
 import SectionContact from "@/components/CunsultNow/SectionContact";
 import HomeFaqSection from "@/app/(features)/home/HomeFaqSection";
 import FutureSectionSolution from "@/components/SolutionDetailPage/FutureSection";
-import { useLayoutEffect, useState } from "react";
+import MobileVerticalHeroBanner from "@/components/verticalDetailPage/MobileVerticalHeroBanner";
 
 // import CollaburationSection from "@/components/SolutionDetailPage/sectionCollab";
 // import FutureSection from "@/components/DetailPageComponents/FutureSection";
-
-
 
 function SolutionDetailPage() {
     const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
@@ -31,45 +29,32 @@ function SolutionDetailPage() {
 
     console.log("filterdItem", filterdItem?.detailPage);
 
-
-    const [bgImage, setBgImage] = useState<string | null>(null);
-
-    useLayoutEffect(() => {
-        const updateBg = () => {
-            if (window.innerWidth < 640) {
-                setBgImage(filterdItem?.detailPage?.mobileBannerImage ?? "");
-            } else {
-                setBgImage(filterdItem?.detailPage?.bannerImage ?? "");
-            }
-        };
-        updateBg();
-
-        window.addEventListener("resize", updateBg);
-        return () => window.removeEventListener("resize", updateBg);
-    });
-
-
-    if (!bgImage) return null;
-
-
     return (
         <>
 
-
             <div className="space-y-15 lg:space-y-25">
-                <VerticalHeroBanner
-                    title={filterdItem?.detailPage?.bannerTitle ?? ""}
-                    description={filterdItem?.detailPage?.bannerDescription ?? ""}
-                    ctaText="Connect with Us"
-                    ctaUrl="/contact"
-                    breadcrumbItems={[
-                        { label: 'Home', url: '/' },
-                        { label: 'Our Verticals', url: '/services' }
-                    ]}
-                    backgroundImage={bgImage ? filterdItem?.detailPage?.bannerImage : "" }
-                    className="mt-10"
-                />
 
+                <div className="md:block hidden">
+                    <VerticalHeroBanner
+                        title={filterdItem?.detailPage?.bannerTitle ?? ""}
+                        description={filterdItem?.detailPage?.bannerDescription ?? ""}
+                        ctaText="Connect with Us"
+                        ctaUrl="/contact"
+                        breadcrumbItems={[
+                            { label: 'Home', url: '/' },
+                            { label: 'Our Verticals', url: '/services' }
+                        ]}
+                        backgroundImage={filterdItem?.detailPage?.bannerImage}
+                        className="mt-10"
+                    />
+
+                </div>
+
+                <div className="md:hidden block">
+                    <MobileVerticalHeroBanner
+                        bannerButtonText="Get Started"
+                    />
+                </div>
 
                 <div className='bg-black container mx-auto lg:px-10'>
                     <SectionAbout

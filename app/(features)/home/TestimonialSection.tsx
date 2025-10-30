@@ -10,7 +10,7 @@ type TestimonialSectionProps = {
 
 const TestimonialSection: React.FC<TestimonialSectionProps> = ({ testimonialsData, bgColor }) => {
     return (
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col  gap-10">
             <GradientTitle text='What People Say About Us'
                 theme={bgColor ? "dark" : "light"}
                 className='text-[32px] lg:text-[50px] text-center md:mx-0 px-10'

@@ -165,7 +165,7 @@
 
 "use client"
 
-import { useState, useEffect, useRef, useCallback } from "react"
+import { useState, useEffect, useRef, useCallback, useLayoutEffect } from "react"
 import CaseStudyCard from "../cards/CaseStudyCard"
 import type { CaseStudyItem } from "@/types/PropsTypes"
 
@@ -260,23 +260,33 @@ export default function CaseStudiesSlider({ caseStudies }: { caseStudies: CaseSt
     return (activeIndex % totalItems) % caseStudies.length
   }, [activeIndex, totalItems, caseStudies.length])
 
+  const [isMobile, setIsMobile] = useState(false)
+
+  useLayoutEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 1024);
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div className="relative w-full overflow-hidden">
       <div className="relative w-full overflow-hidden ">
         <div
           ref={sliderRef}
           className="flex"
-          // style={{
-          //   // transform: `translateX(calc(-${activeIndex * totalWidth}px + ${window.innerWidth < 768 ? "50vw - 160px" : "0px"
-          //   //   }))`,
-          //   transition: isTransitioning ? "transform 0.8s cubic-bezier(0.25, 1, 0.5, 1)" : "none",
-          //   visibility: isInitialized ? "visible" : "hidden",
-          // }}
           style={{
-            transform: `translateX(-${activeIndex * totalWidth}px)`,
+            transform: `translateX(calc(-${activeIndex * totalWidth}px + ${isMobile ? "50vw - 160px" : "0px"
+              }))`,
             transition: isTransitioning ? "transform 0.8s cubic-bezier(0.25, 1, 0.5, 1)" : "none",
-            visibility: isInitialized ? "visible" : "hidden", // Hide until initialized
+            visibility: isInitialized ? "visible" : "hidden",
           }}
+          // style={{
+          //   transform: `translateX(-${activeIndex * totalWidth}px)`,
+          //   transition: isTransitioning ? "transform 0.8s cubic-bezier(0.25, 1, 0.5, 1)" : "none",
+          //   visibility: isInitialized ? "visible" : "hidden", // Hide until initialized
+          // }}
           onTransitionEnd={handleTransitionEnd}
         >
           {items.map((study, index) => {

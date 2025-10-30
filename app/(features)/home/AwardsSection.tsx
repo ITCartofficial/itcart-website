@@ -10,13 +10,13 @@ interface AwardsSectionProps {
   className?: string;
 }
 
-const AwardsSection: React.FC<AwardsSectionProps> = ({}) => {
+const AwardsSection: React.FC<AwardsSectionProps> = ({ }) => {
   return (
     <div className="">
       <GradientTitle
         text={"AI Entrepreneur Of The Year 2024"}
         lineHeight="1.2"
-        className="text-[32px] px-4  lg:text-[50px] mb-6 text-center leading-[1.2]"
+        className=" px-4  text-[30px] lg:text-[48px] mb-6 text-center leading-[1.2]"
         theme="dark"
       />
       <div className="flex justify-center">

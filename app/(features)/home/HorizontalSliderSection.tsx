@@ -17,7 +17,7 @@ const HorizontalSliderSection: React.FC<HorizontalSliderSectionProps> = ({ text,
             <div className="container flex md:flex-row flex-col justify-between mx-auto lg:px-10 items-center">
                 <GradientTitle
                     text={text}
-                    className="text-[30px] lg:text-[50px] lg:w-[60%] leading-tight md:text-center lg:text-left  pl-4 md:pl-0"
+                    className="text-[30px] lg:text-[48px] lg:w-[60%] leading-tight md:text-center lg:text-left  pl-4 md:pl-0"
                     theme="dark"
                 />
 

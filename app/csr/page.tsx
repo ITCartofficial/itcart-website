@@ -61,7 +61,6 @@ function Csr() {
                     <BetterFutureSection />
                 </div>
 
-
                 <div className='bg-black container mx-auto lg:px-10'>
                     <ShappingSection />
                 </div>
@@ -78,7 +77,7 @@ function Csr() {
                     />
                 </div>
 
-                <div className="bg-black">
+                <div className="bg-black ">
                     <JoinSection className="" />
                 </div>
 

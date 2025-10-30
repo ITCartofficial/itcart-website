@@ -32,8 +32,6 @@ import { GET_ALL_POST_SLUGS } from "@/lib/wp/queries";
 import { caseStudyData } from '@/lib/data/caseStudyData';
 import AiSection from "./(features)/home/AiSection";
 
-
-
 const { videoSrc, poster, heading, description, buttonText } = homeBannerData;
 
 const HomeTemplate = () => {
@@ -56,13 +54,14 @@ const HomeTemplate = () => {
     const fetchPosts = async () => {
       const fetchedPosts = await getBlogs();
       if (fetchedPosts.length === 0) {
-        notFound(); 
+        notFound();
       } else {
         setPosts(fetchedPosts);
       }
     };
     fetchPosts();
   }, []);
+  
 
   return (
     <div className="flex flex-col h-full bg-black">
@@ -73,6 +72,8 @@ const HomeTemplate = () => {
         buttonText={buttonText}
         videoSrc={videoSrc}
         poster={poster}
+        gradiuntClass="text-[30px] lg:text-[64px] w-[90%]"
+        
       />
       <div className="bg-black md:py-16">
         <ClientsSection
@@ -82,7 +83,7 @@ const HomeTemplate = () => {
       </div>
       <div className="bg-black py-10 md:py-1 container mx-auto lg:px-10">
         <AboutInfoSection
-          title="About Us - Creating Impact with a Clear Vision"
+          title="Creating Impact with a Clear Vision"
           cardDetails={aboutBrief}
         />
       </div>
@@ -114,7 +115,7 @@ const HomeTemplate = () => {
         <ContentfulSection
           bgImage={missionContent.bgImage}
           description={missionContent.description}
-          title={missionContent.title || ""}
+          title={"At iTCart, we empower businesses with intelligent automation and data-driven decisions."}
           bgImageMobile={missionContent.bgImageMobile}
         />
       </div>
@@ -133,7 +134,7 @@ const HomeTemplate = () => {
       <div className="bg-black ">
         <BusinessTransformSection />
       </div>
-      <div className="bg-[#131313] md:py-10 border-b-2 border-b-zinc-600">
+      <div className="">
         <HomeFaqSection faqs={homeFAQs} />
       </div>
     </div>

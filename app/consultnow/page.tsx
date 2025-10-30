@@ -99,7 +99,7 @@ function CunsultNow() {
                 </div>
 
             </div>
-            <div className="bg-[#131313] my-10 py-5 border-b-2 border-b-zinc-600">
+            <div className="">
                 <HomeFaqSection faqs={homeFAQs} />
             </div>
         </>
