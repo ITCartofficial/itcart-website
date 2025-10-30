@@ -63,22 +63,22 @@ export const verticalData = [
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/manicon.png',
-                    title: "Enterprise Leaders ",
-                    highlight: "Strategic decision-makers seeking operational excellence through AI solutions",
+                    title: "Smart Automation",
+                    highlight: "AI-powered workflows with predictive triggers through comprehensive digital workplace automation systems. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
-                    title: "IT Managers ",
-                    highlight: "Technology teams managing software consolidation and digital transformation",
+                    title: "Intelligent Analytics",
+                    highlight: "Data-driven insights with personalized dashboards via advanced enterprise intranet solutions technology. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
-                    title: "HR Professionals  ",
-                    highlight: "Employee engagement and workflow optimization through intelligent automation",
+                    title: "AI IoT Integration",
+                    highlight: "Enterprise AIoT for predictive maintenance through AI workplace automation solution capabilities. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -130,77 +130,83 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXBFS.png',
         compenyLogo: '/images/verticalLogos/AiXBFS.png',
         detailPage: {
-            bannerTitle: 'AI-Powered Social Intranet That Works Smart',
-            bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform",
+            bannerTitle: 'AI-Powered Banking & Financial Services Platform',
+            bannerDescription: "Transform BFSI operations through intelligent ai in banking and financial services",
             bannerImage: "/images/vertical/AiXBFS-banner.jpg",
-            VerticalContentSection2Heading: 'Digital Workspace Challenge ',
-            aboutSectionHeading: 'Revolutionary AI-Native Workplace',
-            capabilitiSectionHeading: 'AI-Powered Core Capabilities',
-            skillGapSectionHeading: 'Built For Financial Innovators ',
+            VerticalContentSection2Heading: 'Banking Financial Services Revolution ',
+            aboutSectionHeading: 'Complete Banking Ecosystem Transformation',
+            capabilitiSectionHeading: 'AI-Powered Banking Capabilities',
+            skillGapSectionHeading: 'Built For Banking Leaders ',
             impactImage: '/images/vertical/AiXBFS-impact.png',
             VerticalContentSection2: {
-                contentOne: "Modern organizations struggle with fragmented digital workspaces requiring comprehensive enterprise intranet solutions, AI workplace automation solution, and digital workplace automation. Traditional systems lack intelligent enterprise intranet platform capabilities and AI digital workplace transformation features needed for unified enterprise intranet portal operations. ",
+                contentOne: "Modern banking institutions face unprecedented challenges requiring comprehensive ai in banking and financial services, banking automation software, digital lending platform, ai debt collection software, financial risk management software, predictive analytics in banking, digital banking platform, and ai in bfsi solutions for operational excellence. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXBFS-section.png"
             },
             aboutSection: {
                 aboutImage: '/images/vertical/AiXBFS-about.png',
                 logo: '/images/vertical/AiXBFS-darklogo.png',
-                contentOne: "AiXHub transforms organizations through the world's first AI-native operating system featuring enterprise intranet solutions, digital workplace automation, AI workplace automation solution, and comprehensive enterprise intranet platform capabilities. Built on patent-protected architecture delivering autonomous decision execution and AI digital workplace transformation through unified enterprise intranet portal intelligence. ",
+                contentOne: "AiXBFS revolutionizes banking operations through comprehensive ai in banking and financial services featuring advanced banking automation software, digital lending platform, ai debt collection software, financial risk management software, predictive analytics in banking, digital banking platform, and ai in bfsi capabilities. Built on revolutionary AIX Framework delivering end-to-end automation from loan origination to debt recovery transforming traditional operations into intelligent, data-driven ecosystems. ",
                 contenttwo: "",
                 contentthree: ''
             },
             CapabilitySections: [
                 {
-                    title: "Smart Automation",
-                    description: "AI-powered workflows with predictive triggers through comprehensive digital workplace automation systems.  ",
+                    title: "Digital Lending",
+                    description:
+                        "Comprehensive digital lending platform with automated loan origination and intelligent processing capabilities.",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
-                    title: "Intelligent Analytics",
-                    description: "Data-driven insights with personalized dashboards via advanced enterprise intranet solutions technology.  ",
+                    title: "Banking Automation",
+                    description:
+                        "Advanced banking automation software streamlining operations and reducing manual intervention significantly.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "AI IoT Integration",
-                    description: "Enterprise AIoT for predictive maintenance through AI workplace automation solution capabilities.   ",
+                    title: "Debt Collection",
+                    description:
+                        "AI-powered debt collection software with predictive analytics and smart outreach automation.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Advanced Security",
-                    description: "Anomaly detection with Microsoft's AI stack via secure enterprise intranet platform architecture. ",
+                    title: "Risk Management",
+                    description:
+                        "Intelligent financial risk management software providing real-time assessment and mitigation strategies.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Conversational Interfaces",
-                    description: "AI bots for surveys and engagement through intelligent AI digital workplace transformation. ",
+                    title: "Predictive Analytics",
+                    description:
+                        "Advanced predictive analytics in banking enabling data-driven decisions and strategic planning.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Cross-System Orchestration",
-                    description: "Unified execution across ERP, CRM, HRMS through comprehensive enterprise intranet portal connectivity. ",
+                    title: "Digital Platform",
+                    description:
+                        "Comprehensive digital banking platform supporting omnichannel experiences and customer engagement optimization.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/manicon.png',
-                    title: "Enterprise Leaders  ",
-                    highlight: "Strategic decision-makers seeking operational excellence through AI solutions",
+                    title: "Banks NBFCs",
+                    highlight: " Digital transformation and lending automation through comprehensive ai in banking solutions",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
-                    title: "IT Managers",
-                    highlight: "Technology teams managing software consolidation and digital transformation",
+                    title: "Fintech Companies",
+                    highlight: " Scalable digital lending platform with API-first architecture for innovation",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/handicons.png',
-                    title: "HR Professionals",
-                    highlight: "Employee engagement and workflow optimization through intelligent automation",
+                    title: "Collection Agencies",
+                    highlight: "Optimized recovery operations through intelligent ai debt collection software automation",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
