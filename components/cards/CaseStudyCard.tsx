@@ -52,8 +52,6 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card, forSlide, isFocused
                 </div>
             </div>
 
-
-
         </div>
     )
 }

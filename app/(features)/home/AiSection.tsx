@@ -15,8 +15,6 @@ type AiSectionProps = {
 
 const AiSection: React.FC<AiSectionProps> = ({ title }) => {
 
-    console.log("AiSectionData", AiSectionData[0]?.image);
-
 
     const [clickedImage, setClickedImage] = useState(AiSectionData[0]?.image)
 

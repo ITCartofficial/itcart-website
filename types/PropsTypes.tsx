@@ -111,7 +111,7 @@ export interface ExecutiveLeader {
   designation: string;
   desciption: string;
   matrics: {
-    numericValue: number;
+    numericValue: number | string;
     title: string;
   }[];
   profileRef: string;

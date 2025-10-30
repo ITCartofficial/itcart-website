@@ -6,12 +6,12 @@ import VideoHeroBanner from "./(features)/home/VideoHeroBanner";
 import { homeFAQs } from "../lib/data/faqsData";
 import ClientsSection from "./(features)/home/ClientsSection";
 import AboutInfoSection from "./(features)/home/AboutInfoSection";
-import TestimonialSection from "./(features)/home/TestimonialSection";
+// import TestimonialSection from "./(features)/home/TestimonialSection";
 import HorizontalSliderSection from "./(features)/home/HorizontalSliderSection";
 
 import {
   keyVerticalsData,
-  testimonialsData,
+  // testimonialsData,
   aboutBrief,
   logos,
   homeBannerData,
@@ -61,19 +61,19 @@ const HomeTemplate = () => {
     };
     fetchPosts();
   }, []);
-  
+
 
   return (
     <div className="flex flex-col h-full bg-black">
       <VideoHeroBanner
-        className="h-full md:h-[750px] lg:py-20"
+        className="h-full mt-20"
         heading={heading}
         description={description}
         buttonText={buttonText}
         videoSrc={videoSrc}
         poster={poster}
         gradiuntClass="text-[30px] lg:text-[64px] w-[90%]"
-        
+
       />
       <div className="bg-black md:py-16">
         <ClientsSection
@@ -88,7 +88,7 @@ const HomeTemplate = () => {
         />
       </div>
 
-      <div className="bg-black container mx-auto py-5 lg:px-10">
+      <div className="bg-black container mx-auto  lg:px-10">
         <AiSection
           title="Our AI-powered Solutions for Intelligent Automation"
           cardDetails={aboutBrief}
@@ -119,12 +119,13 @@ const HomeTemplate = () => {
           bgImageMobile={missionContent.bgImageMobile}
         />
       </div>
-      <div id="case-studies" className="bg-black md:pt-16">
+      {/* lg:!max-w-[1875px] */}
+      <div id="case-studies" className="container mx-auto bg-black md:pt-16 md:my-2">
         <CaseStudySection caseStudies={caseStudyData} />
       </div>
-      <div className="bg-black py-8">
+      {/* <div className="bg-black py-8">
         <TestimonialSection bgColor={"true"} testimonialsData={testimonialsData} />
-      </div>
+      </div> */}
       <div className="bg-black">
         <BlogsFeatureSection posts={posts} />
       </div>

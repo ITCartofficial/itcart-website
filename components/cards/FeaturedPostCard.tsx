@@ -27,7 +27,7 @@ const FeaturedPostCard = ({ featuredImage = "", title, slug, date, author }: Fea
           alt={title || "Featured Post"}
           fill
           loading="lazy"
-          className="w-full h-64 rounded-2xl group-hover:scale-105 transition-transform duration-300 border border-[#2BADB7]"
+          className="w-full h-64 rounded-2xl  transition-transform duration-300 border-1 border-[#2BADB7]"
         />
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">

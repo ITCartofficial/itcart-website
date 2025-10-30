@@ -56,13 +56,15 @@ export const foundingMembers = [
   },
 ];
 
+
+
 export const executiveLeadership = [
   {
-    image: "/images/founders/rohimuddin.jpg",
+    image: "/images/founders/rohimuddin-executiveLeadership.png",
     title: "Rohim uddin",
     designation: "Founder & Global CTO, COO",
     desciption:
-      "A visionary and a globally acclaimed cross functional technocrat, the driving force behind iTCart's technological vision. With over two decades of experience in building enterprise solutions across 32+ industries, Rohim brings unparalleled expertise in software development, Al integration, and digital transformation.",
+      "A visionary and a globally acclaimed cross functional technocrat, the driving force behind iTCart's technological vision. With over two decades of experience in building enterprise solutions across 40+ industries, Rohim brings unparalleled expertise in software development, Al integration, and digital transformation.",
     matrics: [
       {
         numericValue: 22,
@@ -72,7 +74,7 @@ export const executiveLeadership = [
         numericValue: 40,
         title: "Industry Expertise",
       },
-      { 
+      {
         numericValue: 500,
         title: "Solutions Expertise",
       },
@@ -83,7 +85,7 @@ export const executiveLeadership = [
       {
         numericValue: 100,
         title: "Global Customers",
-      },  
+      },
       {
         numericValue: 24,
         title: "Noteworthy Innovations",
@@ -92,7 +94,7 @@ export const executiveLeadership = [
     profileRef: "#", //button link
   },
   {
-    image: "/images/founders/jeffreyhubbard.jpg",
+    image: "/images/founders/jeffreyhubbard-executiveLeadership.png",
     title: "Jeffrey R. Hubbard",
     designation: "Co-Founder & Global CEO",
     desciption:
@@ -107,15 +109,15 @@ export const executiveLeadership = [
         title: "Years of Leadership Expertise",
       },
       {
-        numericValue: 7,
+        numericValue: "$7B",
         title: "Enterprise Value Created",
       },
       {
-        numericValue: 50,
+        numericValue: "50k+",
         title: "Employees Managed Globally",
       },
       {
-        numericValue: 1.5,
+        numericValue: "1.5k",
         title: "Strategic Partnerships Formed",
       },
       {
@@ -156,7 +158,7 @@ export const executiveLeadership = [
   //   profileRef: "#", //button link
   // },
   {
-    image: "/images/founders/aabidmohammedajmal.jpg",
+    image: "/images/founders/aabidmohammedajmal-executiveLeadership.png",
     title: "Aabid Mohammed Ajmal",
     designation: "Co-Founder & Director",
     desciption:
@@ -288,7 +290,7 @@ export const ambassadorsList = [
     ],
   },
   {
-    image: "/images/ambassador/Jeramey Peters.jpg",
+    image: "/images/ambassador/JerameyPeters.png",
     title: "Jeremy Peters",
     designation:
       "VP - BD Law Enforcement, Security, Investigations Development",
@@ -309,7 +311,7 @@ export const ambassadorsList = [
     ],
   },
   {
-    image: "/images/ambassador/John Hennessey.jpg",
+    image: "/images/ambassador/John Hennessey.png",
     title: "John Hennessey",
     designation: "Structural & Infrastructure Engineering Ambassador",
     profileRef: "#", //button link
@@ -350,7 +352,7 @@ export const ambassadorsList = [
     ],
   },
   {
-    image: "/images/ambassador/toddh.jpg",
+    image: "/images/ambassador/toddh.png",
     title: "Todd R. Hubbard",
     designation: "Global AiX Ambassador for Automotive & EV",
     profileRef: "#", //button link
@@ -390,7 +392,7 @@ export const ambassadorsList = [
   //   ],
   // },
   {
-    image: "/images/ambassador/Joan Hennessey.jpg",
+    image: "/images/ambassador/Joan Hennessey.png",
     title: "Joan Hennessey ",
     designation: "Philanthropy of the State of Michigan Ambassador",
     profileRef: "#", //button link
@@ -409,7 +411,7 @@ export const ambassadorsList = [
       },
     ],
   },
-   {
+  {
     image: "/images/ambassador/Rob Haynie.png",
     title: "Rob Haynie",
     designation: "Global Ambassador Life insurance Settlements",

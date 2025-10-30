@@ -18,7 +18,7 @@
                             alt={alt}
                             width={width || 400}
                             height={height || 300}
-                            className={`object-cover ${className}`}
+                            className={`object-cover  ${className}`}
                             loading="lazy"
                         />
                     ) : (

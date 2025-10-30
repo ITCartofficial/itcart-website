@@ -13,7 +13,7 @@ const ExecutiveLeadersCard = ({ executiveLeader, theme }: { executiveLeader: Exe
         <div className={`flex flex-col lg:flex-row items-center gap-8 relative h-250 lg:h-[400px]  ${theme === 'dark' ? 'bg-black' : ''}`}
         >
             {/* image container */}
-            <div className="relative md:h-full bg-[#F2F2F2]  w-full max-w-[360px]  rounded-3xl shadow-md overflow-hidden">
+            <div className="relative md:h-full bg-red-400 w-full max-w-[360px]  rounded-3xl shadow-md overflow-hidden">
                 <ImageContainer
                     src={executiveLeader.image}
                     alt=""

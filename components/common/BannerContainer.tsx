@@ -6,7 +6,7 @@ const BannerContainer = ({ children, bgImage, className }:
         className?: string;
     }) => {
     return (
-        <div className={`lg:min-h-[560px] w-full relative ${className}`}
+        <div className={`lg:min-h-[660px] w-full relative ${className}`}
             style={{
                 backgroundImage: `url(${bgImage})`,
                 backgroundSize: 'cover',

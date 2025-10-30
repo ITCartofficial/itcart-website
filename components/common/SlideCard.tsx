@@ -30,7 +30,7 @@ const SlideCard: React.FC<SlideCardProps> = ({
     <div
       className={`absolute top-0 transition-all duration-500 ease-in-out  ${positionClasses[position]}`}
     >
-      <div className="relative rounded-3xl overflow-hidden shadow-xl border border-[#2BADB7]">
+      <div className="relative rounded-3xl overflow-hidden shadow-xl ">
         <Image
           src={imgSrc}
           alt={altText}

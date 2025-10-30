@@ -61,17 +61,17 @@ const IconInfoCard: React.FC<IconInfoCardProps> = ({
   logo,
   logoBg,
 }) => {
+
+  console.log("description", description);
+
   return (
     <div
-      className="w-full h-[400px]  lg:w-[350px] lg:h-[460px] rounded-[20px] sm:rounded-[30px] lg:rounded-[40px] overflow-hidden bg-center bg-no-repeat bg-cover"
+      className="w-full h-[400px] lg:w-[350px] lg:h-[460px] rounded-[25px] overflow-hidden bg-center bg-no-repeat bg-cover"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div
         className="wrapper flex flex-col gap-2 sm:gap-3 lg:gap-4 justify-end p-4 sm:p-5 lg:p-6 w-full h-full relative"
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85%)",
-        }}
+        style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000000df 85%)' }}
       >
         <FillLogoBadge
           bgColor={logoBg}
@@ -85,8 +85,8 @@ const IconInfoCard: React.FC<IconInfoCardProps> = ({
         />
         <BodyText
           text={description}
-          lineClamp={2}
-          className="text-[12px] sm:text-[14px] lg:text-base hidden sm:block"
+          lineClamp={6}
+          className="text-[12px] md:text-[14px]  hidden sm:block"
           color="#ffffff"
         />
       </div>
