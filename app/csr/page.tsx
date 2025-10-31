@@ -1,8 +1,8 @@
 import BetterFutureSection from "@/components/Csr/BetterFutureSection"
 import ShappingSection from "@/components/Csr/ShappingSection"
 import HeroBanner from "@/components/HeroBanner"
-import TestimonialSection from "../(features)/home/TestimonialSection"
-import { testimonialsData } from "@/lib/data/homePageData"
+// import TestimonialSection from "../(features)/home/TestimonialSection"
+// import { testimonialsData } from "@/lib/data/homePageData"
 import SectionTeam from "@/components/Csr/SectionTeam"
 import JoinSection from "@/components/Csr/JoinSection"
 import HomeFaqSection from "../(features)/home/HomeFaqSection"
@@ -65,9 +65,9 @@ function Csr() {
                     <ShappingSection />
                 </div>
 
-                <div className="bg-black">
+                {/* <div className="bg-black">
                     <TestimonialSection bgColor={"dark"} testimonialsData={testimonialsData} />
-                </div>
+                </div> */}
 
                 <div className="bg-black">
                     <SectionTeam

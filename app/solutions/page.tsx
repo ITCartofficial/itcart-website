@@ -11,9 +11,10 @@ export default function page() {
                 ctaUrl="/contact"
                 breadcrumbItems={[
                     { label: 'Home', url: '/' },
-                    { label: 'Our Solutions', url: '/services' }
+                    { label: 'Our Solutions', url: '/solutions' }
                 ]}
-                backgroundImage="/images/solutions/solutions-bg.png"
+                backgroundImage="/images/vertical/vertical-bg.jpg"
+                // backgroundImage="/images/solutions/solutions-bg.png"
             />
             <SolutionGrid className='container'/>
         </div>

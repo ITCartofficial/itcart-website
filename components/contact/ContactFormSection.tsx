@@ -11,9 +11,9 @@ const ContactFormSection = ({ image }: { image: string }) => {
                 <div className="flex flex-col gap-8">
                     <div className="flex flex-col gap- ">
                         <GradientTitle
-                            text="Let&apos;s Connect With Us"
+                            text="Let's Connect "
                             lineHeight="1.2"
-                            className="text-[35px]  text-center md:text-start whitespace-pre-line leading-[1.3]"
+                            className="text-[48px]  text-center md:text-start whitespace-pre-line leading-[1.3]"
                             theme="dark"
                         />
                         {/* <HeadingText
@@ -21,7 +21,7 @@ const ContactFormSection = ({ image }: { image: string }) => {
                             theme="dark"
                             className="text-[40px] whitespace-pre-line" /> */}
                         <BodyText
-                            text="Discover the transformative power of AiX and unlock a future brimming with infinite possibilities."
+                            text="Accelerate enterprise operations with  AiX-intelligent automation that scales  your business & drives measurable ROI."
                             theme="dark"
                             className="text-base text-center md:text-start text-white mt-2" />
                     </div>

@@ -36,14 +36,14 @@ export const foundingMembers = [
   {
     image: "/images/founders/rohimuddin.png",
     title: "Rohim Uddin",
-    designation: "Founder & Global CTO, COO",
+    designation: "Founder, Global CTO & COO",
     description:
       "A visionary and a globally acclaimed cross functional technocrat with expertise spanning over 2 decades building solutions, patented products for small, medium & large enterprises globally.",
   },
   {
     image: "/images/founders/jeffreyhubbard.png",
     title: "Jeffrey R. Hubbard",
-    designation: "Co-Founder",
+    designation: "Co-Founder & Global CEO",
     description:
       "A globally recognized leader in multiple industries with nearly 3 decades of expertise transforming operations through innovative solutions in technology, healthcare, and manufacturing.",
   },
@@ -62,7 +62,8 @@ export const executiveLeadership = [
   {
     image: "/images/founders/rohimuddin-executiveLeadership.png",
     title: "Rohim uddin",
-    designation: "Founder & Global CTO, COO",
+    designation: "Founder, Global CTO & COO",
+    linkedIn: 'https://www.linkedin.com/in/rohimyasin/',
     desciption:
       "A visionary and a globally acclaimed cross functional technocrat, the driving force behind iTCart's technological vision. With over two decades of experience in building enterprise solutions across 40+ industries, Rohim brings unparalleled expertise in software development, Al integration, and digital transformation.",
     matrics: [
@@ -97,6 +98,8 @@ export const executiveLeadership = [
     image: "/images/founders/jeffreyhubbard-executiveLeadership.png",
     title: "Jeffrey R. Hubbard",
     designation: "Co-Founder & Global CEO",
+    linkedIn: 'https://www.linkedin.com/in/jeffrey-r-hubbard/',
+    // https://www.linkedin.com/in/jeffrey-r-hubbard/
     desciption:
       "A globally recognized leader with decades of experience leading multinational corporations and growing startups into global enterprises make him a pivotal figure in iTCart’s future. His vision for iTCart centers around scalable growth, operational excellence, and AI-driven transformation across sectors like healthcare, education, real estate, manufacturing and others.",
     matrics: [

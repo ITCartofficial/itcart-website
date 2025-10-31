@@ -56,7 +56,7 @@ const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => 
             className="text-[30px] lg:text-[48px] text-center lg:text-left leading-tight"
           />
           <BodyText
-            text="Explore our case studies for in-depth insights, expert analyses, and success stories."
+            text="Explore our case studies for in-depth insights, expert analysis, and success stories."
             className="text-white sm:text-[16px] text-center lg:text-left"
           />
           <div className="flex justify-center lg:justify-start">

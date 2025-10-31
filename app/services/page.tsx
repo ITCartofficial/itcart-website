@@ -13,7 +13,8 @@ const Services = () => {
                     { label: 'Home', url: '/' },
                     { label: 'Our Services', url: '/services' }
                 ]}
-                backgroundImage="/images/services/service-bg.png"
+                backgroundImage="/images/vertical/vertical-bg.jpg"
+                // backgroundImage="/images/services/service-bg.png"
             />
             <ServicesGrid className='container' />
         </div>

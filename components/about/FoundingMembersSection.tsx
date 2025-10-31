@@ -89,7 +89,7 @@ const FoundingMembersSection = ({
     theme: "dark" | "light"
 }) => {
     return (
-        <div className="container mx-auto lg:px-10">
+        <div className="container mx-auto lg:px-10  pb-20 border-b-[.2px] border-zinc-600">
             {/* ===== Header ===== */}
             <div className="mb-10">
                 <GradientTitle

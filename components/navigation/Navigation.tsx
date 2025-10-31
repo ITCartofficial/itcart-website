@@ -78,7 +78,7 @@ const Navigation: React.FC<NavigationProps> = ({
                   }`}
               >
                 {item.submenu.map((subItem, idx) => (
-                  <li key={idx} className="bg-red-400">
+                  <li key={idx} className="">
                     <a
                       href={subItem.href}
                       style={{ scrollBehavior: "smooth" }}
@@ -122,9 +122,7 @@ const Navigation: React.FC<NavigationProps> = ({
         ))}
       </ul>
 
-      <div className="bg-green-400">
-        AAAAAAAAAAA
-      </div>
+      
     </nav>
   );
 };

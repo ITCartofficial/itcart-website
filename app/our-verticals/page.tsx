@@ -14,7 +14,7 @@ const OurVerticals = () => {
                     { label: 'Home', url: '/' },
                     { label: 'Our Verticals', url: '/our-verticals' }
                 ]}
-                backgroundImage="/images/vertical/vertical-bg.png"
+                backgroundImage="/images/vertical/vertical-bg.jpg"
             />
             <div className='bg-black'>
 

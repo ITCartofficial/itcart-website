@@ -188,9 +188,8 @@ const MasonaryGrid = () => {
                         </p>
                     </div>
                     <p className="text-[16px] md:text-[18px] text-white/80 leading-relaxed mb-3">
-                        Our diversified clientele base has helped us deliver exceptional
-                        quality at all times. As we move forward, we look to introduce new
-                        technologies that will help us target a new audience.
+                        Our diverse clientele has been the driving force behind our commitment to excellence. As we grow, we continue to embrace cutting-edge technologies that expand our reach and connect us with new audiences worldwide.
+ 
                     </p>
                 </div>
             </div>

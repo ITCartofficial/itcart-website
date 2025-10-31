@@ -13,7 +13,8 @@ export default function page() {
                     { label: 'Home', url: '/' },
                     { label: 'Our Industry', url: '/industry' }
                 ]}
-                backgroundImage="/images/industries/industry-bg.png"
+                backgroundImage="/images/vertical/vertical-bg.jpg"
+                // backgroundImage="/images/industries/industry-bg.png"
             />
             <IndustryGrid className='container' />
         </div>
