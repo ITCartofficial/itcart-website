@@ -27,7 +27,6 @@ function SolutionDetailPage() {
         pathName.toLowerCase().replace(/™/g, '').trim()
     ) || solutionData[0]
 
-    console.log("filterdItem", filterdItem?.detailPage);
 
     return (
         <>

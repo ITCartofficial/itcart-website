@@ -36,7 +36,7 @@ const SlideCard: React.FC<SlideCardProps> = ({
           alt={altText}
           width={800}
           height={200}
-          className="w-full h-70 object-cover rounded "
+          className="w-full h-50 md:h-70 object-cover rounded "
           loading="lazy"
         />
       </div>

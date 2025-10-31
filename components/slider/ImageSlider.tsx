@@ -74,7 +74,7 @@ const ImageSlider: React.FC = () => {
   };
 
   return (
-    <div className="relative w-full h-[350px] flex items-center justify-center overflow-hidden ">
+    <div className="relative w-full h-[200px] md:h-[350px] flex items-center justify-center overflow-hidden ">
       <div className="relative w-full max-w-6xl h-full flex items-center justify-center">
         {slides.map((slide, index) => (
           <SlideCard

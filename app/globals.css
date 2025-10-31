@@ -51,6 +51,19 @@ a {
 }
 
 
+/* Hide scrollbar but keep scroll functionality */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+}
+
+
 /* Headings */
 /* h1 {
   @apply text-[64px] leading-[80px] font-bold;
@@ -189,7 +202,3 @@ h6 {
   border-radius: 9999px;
   background: linear-gradient(to right, #2BADB7, #6BE0E9);
 }
-
-
-
-

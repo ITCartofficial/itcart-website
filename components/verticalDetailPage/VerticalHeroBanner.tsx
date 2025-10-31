@@ -64,7 +64,6 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                             </div>
                         }
 
-
                         {/* Title */}
                         <GradientTitle
                             text={title}
