@@ -9,6 +9,7 @@ export interface OutlineBtnProps {
   theme?: Theme;
   onClick?: () => void;
   showBorderaButton?: boolean
+  width?: string
 }
 
 export interface TypographyProps {

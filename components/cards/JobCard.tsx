@@ -23,12 +23,12 @@ const JobCard: React.FC<JobCardProps> = ({
     location,
     employmentType,
     jobCategory,
-    jobDescriptionUrl,
+    // jobDescriptionUrl,
     className = '',
     btnName
 }) => {
     return (
-        <div className={`flex flex-col lg:flex-row justify-between items-center w-full p-4 border border-gray-700 rounded-lg bg-black my-6 md:my-0 ${className}`}>
+        <div className={`flex flex-col lg:flex-row justify-between items-center w-full p-4 border border-gray-700 rounded-lg bg-black my-6 md:my-3 ${className}`}>
             <div>
                 <GradientTitle
                     text={title}
@@ -54,7 +54,7 @@ const JobCard: React.FC<JobCardProps> = ({
 
             <OutlineBtn
                 text={btnName ?? ''}
-                url={`${jobDescriptionUrl}`}
+                url={`/careers/13`}
                 icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                 textColor="#ffffff"
                 showBorderaButton={true}

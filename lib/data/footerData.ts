@@ -56,7 +56,7 @@ export const footerMenus = [
       { label: "AiXQP", href: "/" },
       { label: "AiXHealthcare", href: "/" },
       { label: "AiXFinance", href: "/" },
-      { label: "All Verticals →", href: "/#our-verticals" },
+      { label: "All Verticals →", href: "/our-verticals" },
     ],
   }
 ];
