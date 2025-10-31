@@ -61,7 +61,7 @@ const IconInfoCard: React.FC<IconInfoCardProps> = ({
   description,
   logo,
   logoBg,
-  buttonUrl
+  // buttonUrl
 }) => {
 
 
