@@ -1,11 +1,13 @@
 import BetterFutureSection from "@/components/Csr/BetterFutureSection"
 import ShappingSection from "@/components/Csr/ShappingSection"
-import HeroBanner from "@/components/HeroBanner"
+// import HeroBanner from "@/components/HeroBanner"
 // import TestimonialSection from "../(features)/home/TestimonialSection"
 // import { testimonialsData } from "@/lib/data/homePageData"
 import SectionTeam from "@/components/Csr/SectionTeam"
 import JoinSection from "@/components/Csr/JoinSection"
-import HomeFaqSection from "../(features)/home/HomeFaqSection"
+import HomeFaqSection from "../(features)/home/HomeFaqSection";
+import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
+
 
 function Csr() {
 
@@ -45,7 +47,8 @@ function Csr() {
     return (
         <>
             <div className='bg-black space-y-15 lg:space-y-25'>
-                <HeroBanner title="Visual Mosaic of Our Journey"
+                {/* <HeroBanner 
+                title="Visual Mosaic of Our Journey"
                     description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
                     // ctaText="Book a Free Session Now"
                     ctaUrl="/contact"
@@ -55,6 +58,22 @@ function Csr() {
                     ]}
                     backgroundImage="/images/csr/banner-image.jpg"
                     isCunsultNow={true}
+                /> */}
+
+
+
+                <VerticalHeroBanner
+                    title="Visual Mosaic of Our Journey"
+                    description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
+                    // ctaText="Book a Free Session Now"
+                    ctaUrl="/contact"
+                    breadcrumbItems={[
+                        { label: 'Home', url: '/' },
+                        { label: 'Our CSR', url: '/' }
+                    ]}
+                    backgroundImage="/images/csr/banner-image.jpg"
+                    // isCunsultNow={true}
+                    contentClass="lg:items-center lg:text-center"
                 />
 
                 <div className='bg-black container mx-auto lg:px-10'>

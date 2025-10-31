@@ -176,6 +176,7 @@ interface HeroBannerProps {
   backgroundImage?: string
   className?: string
   isCunsultNow?: boolean
+  height?: boolean
 }
 
 const HeroBanner: React.FC<HeroBannerProps> = ({
@@ -186,13 +187,20 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
   breadcrumbItems,
   backgroundImage = '/images/services/service-bg.png',
   className = '',
-  isCunsultNow
+  isCunsultNow,
+  height
 }) => {
+
+  console.log("height", height);
+
+
   return (
     <section
       className={`relative w-full bg-black text-white overflow-hidden mt-7 ${className}`}
     >
-      <div className="relative h-[60vh] sm:h-[60vh] md:h-[70vh] lg:h-[75vh] bg-gradient-to-t">
+      <div className={`relative h-[60vh] sm:h-[60vh]  ${height ? "lg:h-[40vh] md:h-[40vh]" : "lg:h-[70vh] md:h-[70vh]"}  bg-gradient-to-t`}>
+
+        {/* <div className={`relative h-[60vh] sm:h-[60vh]  ${height ? height : "lg:h-[75vh] md:h-[70vh]"}  bg-gradient-to-t`}> */}
         {/* Background Image */}
         <div
           className="absolute inset-0 z-0"
@@ -236,7 +244,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
 
           {/* Description + CTA at the Bottom */}
           {!isCunsultNow && description && (
-            <div className="pb-12 ">
+            <div className=" ">
               <div className="flex flex-col items-center text-center max-w-5xl mx-auto mb-20">
                 <BodyText
                   text={description}

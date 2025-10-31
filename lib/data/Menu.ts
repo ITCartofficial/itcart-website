@@ -1,8 +1,8 @@
 export const navItems = [
-  // { label: "Home", href: "/" },
+  { label: "Home", href: "/" },
   { label: "Consult Now", href: "/consultnow" },
   {
-    label: "Our Verticals",
+    label: "Verticals",
     href: "/our-verticals",
     // submenu: [
     // { label: "Web Development", href: "#" },
@@ -34,10 +34,10 @@ export const navItems = [
     submenu: [
       { label: "Our Blogs", href: "/blogs" },
       { label: "Case Studies", href: "/case-study" },
-      // { label: "Careers", href: "/careers" },
+      { label: "Careers", href: "/careers" },
     ],
   },
-  { label: "Careers", href: "/careers" },
+  // { label: "Careers", href: "/careers" },
 
 
 

@@ -48,6 +48,7 @@ const Navigation: React.FC<NavigationProps> = ({
           } ${isMobile ? "gap-0" : "gap-2 lg:gap-3"} relative z-50 ${isMobile ? "" : "whitespace-nowrap"
           }`}
       >
+        {/* hover:text-cyan-300 */}
         {navItems.map((item, i) => (
           <li
             key={i}

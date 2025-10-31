@@ -1,6 +1,8 @@
 import SectionTeam from "@/components/Csr/SectionTeam"
-import HeroBanner from "@/components/HeroBanner"
+// import HeroBanner from "@/components/HeroBanner"
 import HomeFaqSection from "../(features)/home/HomeFaqSection"
+import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
+
 
 function MediaPage() {
 
@@ -39,7 +41,7 @@ function MediaPage() {
 
     return (
         <div className='bg-black'>
-            <HeroBanner
+            {/* <HeroBanner
                 title="Visual Mosaic of Our Journey"
                 description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
                 ctaText=""
@@ -50,6 +52,21 @@ function MediaPage() {
                 ]}
                 backgroundImage="/images/media/media-banner.jpg"
                 isCunsultNow={true}
+            /> */}
+
+            <VerticalHeroBanner
+                title="Visual Mosaic of Our Journey"
+                description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
+                ctaText=""
+                ctaUrl="/contact"
+                breadcrumbItems={[
+                    { label: 'Home', url: '/' },
+                    { label: 'Our Industry', url: '/industry' }
+                ]}
+                backgroundImage="/images/media/media-banner.jpg"
+                isCunsultNow={true}
+                // height={true}
+                contentClass="lg:items-center lg:text-center"
             />
 
             <div className="">
@@ -61,12 +78,9 @@ function MediaPage() {
 
             </div>
 
-
-            <div className="bg-[#131313] py-10 border-b-2 border-b-zinc-600">
+            <div className="bg-[#131313]  border-b-2 border-b-zinc-600">
                 <HomeFaqSection faqs={homeFAQs} />
             </div>
-
-
 
         </div>
     )

@@ -2965,7 +2965,7 @@ export const industryData = [
         },
         {
           icon: '/images/vertical/icons/handicons.png',
-          title: "ntelligent Analytics",
+          title: "Intelligent Analytics",
           highlight: "Real-time data analysis utilizing predictive insights for customer behavior monitoring and proactive business optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient

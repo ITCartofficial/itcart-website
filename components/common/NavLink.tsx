@@ -44,7 +44,7 @@ const NavLink: React.FC<NavLinkProps> = ({
     ${
       isMobile
         ? "text-white text-base hover:text-blue-200 hover:bg-slate-800 rounded-md w-full"
-        : "px-2 py-1 lg:py-2 text-white text-sm hover:text-blue-200 whitespace-nowrap flex-shrink-0"
+        : "px-2 py-1 lg:py-2 text-white text-sm hover:text-cyan-300 whitespace-nowrap flex-shrink-0"
     }
     ${isActive ? "text-blue-200" : ""}
   `;
@@ -65,7 +65,7 @@ const NavLink: React.FC<NavLinkProps> = ({
         {/* Separate dropdown toggle button */}
         <button
           onClick={handleDropdownToggle}
-          className="px-4 py-4 hover:bg-slate-700 rounded-r-md transition-colors duration-200 flex-shrink-0"
+          className="px-4 py-4 hover:text-cyan-300 rounded-r-md transition-colors duration-200 flex-shrink-0"
           type="button"
           aria-label={`Toggle ${children} submenu`}
         >
@@ -86,7 +86,7 @@ const NavLink: React.FC<NavLinkProps> = ({
         isMobile ? "justify-between w-full" : "gap-1"
       }`}
     >
-      <div className="flex items-center gap-1">{children}</div>
+      <div className="flex items-center gap-1 text-red">{children}</div>
       {hasDropdown && (
         <FiChevronDown
           className={`w-4 h-4 transition-transform duration-300 flex-shrink-0 ${

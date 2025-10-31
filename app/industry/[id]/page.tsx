@@ -21,7 +21,7 @@ const IndustryDetailPage = () => {
     return (
         <>
 
-            <div className='bg-black space-y-15 lg:space-y-25'>
+            <div className='bg-black space-y-15 lg:space-y-25  mt-10'>
                 <VerticalHeroBanner
                     title={filterdItem?.detailPage?.bannerTitle ?? ""}
                     description={filterdItem?.detailPage?.bannerDescription ?? ""}

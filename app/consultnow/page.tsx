@@ -1,16 +1,18 @@
-import ExecutiveLeadersSection from "@/components/about/ExecutiveLeadersSection"
+// import ExecutiveLeadersSection from "@/components/about/ExecutiveLeadersSection"
 // import EnterPriceGrid from "@/components/CunsultNow/EnterPriceGrid"
 import ImplementationStratogy from "@/components/CunsultNow/ImplementationStratogy"
 import WhyImplementation from "@/components/CunsultNow/WhyImplementation"
-import HeroBanner from "@/components/HeroBanner"
-import { executiveLeadership } from '@/lib/data/aboutPageData'
-import AwardsSection from "../(features)/home/AwardsSection"
+// import HeroBanner from "@/components/HeroBanner"
+// import { executiveLeadership } from '@/lib/data/aboutPageData'
+// import AwardsSection from "../(features)/home/AwardsSection"
 // import TestimonialSection from "../(features)/home/TestimonialSection"
 import { logos } from "@/lib/data/homePageData"
 import AboutSection from "@/components/CunsultNow/AboutSection"
 import SectionContact from "@/components/CunsultNow/SectionContact"
 import HomeFaqSection from "../(features)/home/HomeFaqSection"
 import ClientsSection from "../(features)/home/ClientsSection"
+import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
+
 
 
 function CunsultNow() {
@@ -52,16 +54,20 @@ function CunsultNow() {
     return (
         <>
             <div className='bg-black space-y-15 lg:space-y-25'>
-                <HeroBanner title="Artificially Intelligent Digital Transformation (AiX)"
-                    description="World's first AI-native operating system replacing 342 fragmented applications with unified intelligent execution."
+
+                <VerticalHeroBanner
+                    title={"AI Transformation"}
+                    description={"World's first AI-native operating system replacing fragmented applications with unified intelligent execution."}
                     ctaText="Connect with Us"
                     ctaUrl="/contact"
                     breadcrumbItems={[
                         { label: 'Home', url: '/' },
-                        { label: 'Consult Now', url: '/' }
+                        { label: 'Consult Now', url: '/services' }
                     ]}
                     backgroundImage="/images/cunsultnow/cunsultnow-banner.jpg"
-                    isCunsultNow={true}
+                    contentClass="lg:items-center lg:text-center"
+                    backgroundPosition="center 10px"
+                // backgroundPosition: "center 20px",
                 />
 
                 <div className='bg-black container mx-auto lg:px-10'>
@@ -74,16 +80,16 @@ function CunsultNow() {
 
 
 
-                <div className="bg-black rounded-bl-[85px] rounded-br-[85px] lg:px-10 ">
+                {/* <div className="bg-black rounded-bl-[85px] rounded-br-[85px] lg:px-10 ">
                     <ExecutiveLeadersSection
                         execLeaders={executiveLeadership}
                         bgColor="dark"
                     />
-                </div>
+                </div> */}
 
-                <div className="bg-black ">
+                {/* <div className="bg-black ">
                     <AwardsSection />
-                </div>
+                </div> */}
 
                 <div className="bg-black">
                     <ClientsSection

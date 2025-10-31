@@ -25,7 +25,7 @@ const ServicesDetailPage = () => {
     return (
         <>
 
-            <div className='bg-black space-y-15 lg:space-y-25 '>
+            <div className='bg-black space-y-15 lg:space-y-25  mt-10 '>
 
                 <VerticalHeroBanner
                     serviceName={filterdItem?.detailPage?.serviceName ?? ""}
