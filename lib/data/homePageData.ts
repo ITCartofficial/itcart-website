@@ -1,7 +1,7 @@
 export const missionContent = {
   title: "At iTCart, we empower businesses to reimagine operations and accelerate decision-making through intelligent automation and data-driven insights.",
-  description: "Our approach centers on automation integration minimizing manual effort, reducing errors, and freeing teams to focus on strategic goals.<br>From AI-driven HR and document management systems to agile business process automation, our solutions boost efficiency and productivity.<br>With the AiXHub Framework, we deliver AI-powered decision making, personalized customer experiences, and scalable cloud solutions to keep you ahead of the curve.<br>Partner with iTCart to drive your Digital Transformation and succeed in the AI era.",
-  bgImage: "/images/home/background-section2.png",
+  description: "Our approach centers on automation integration minimizing manual effort, reducing errors, and freeing teams to focus on strategic goals.From AI-driven HR and document management systems to agile business process automation, our solutions boost efficiency and productivity.<br>With the AiXHub Framework, we deliver AI-powered decision making, personalized customer experiences, and scalable cloud solutions to keep you ahead of the curve.<br>Partner with iTCart to drive your Digital Transformation and succeed in the AI era.",
+  bgImage: "/images/home/background-section2.jpg",
   bgImageMobile: '/images/home/mobilebackground-section2.jpg'
 };
 

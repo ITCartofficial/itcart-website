@@ -28,6 +28,7 @@ const CardSlider = forwardRef<CardSliderRef, CardSliderProps>(
             slideNext: () => swiperRef.current?.slideNext(),
         }));
 
+
         return (
             <div className="relative w-full overflow-hidden pl-5">
                 <Swiper

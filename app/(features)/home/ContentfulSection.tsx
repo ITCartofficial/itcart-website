@@ -101,15 +101,10 @@ const ContentfulSection: React.FC<ContentfulSectionProps> = ({ title, descriptio
 
     return (
         <div
-            className="relative w-full min-h-[800px] md:min-h-[400px] bg-cover bg-center bg-no-repeat md:px-0 px-4 lg:py-0 lg:rounded-[48px] overflow-hidden"
+            className="relative w-full min-h-[800px] md:min-h-[400px] bg-cover bg-center bg-no-repeat md:px-0 px-4 lg:py-0  overflow-hidden"
             style={{ backgroundImage: `url(${activeBg})` }}
         >
-            <div
-                className="absolute inset-0"
-                style={{
-                    background: 'linear-gradient(-90deg, rgba(0, 0, 0, 0.00) 0%, #000 85%)',
-                }}
-            ></div>
+          
 
             {/* ✅ Content on top of the gradient */}
             <div className="relative z-10 w-full h-full flex items-center py-6 md:py-0">
@@ -118,7 +113,7 @@ const ContentfulSection: React.FC<ContentfulSectionProps> = ({ title, descriptio
                         <GradientTitle
                             text={title}
                             theme="dark"
-                            className="text-[24px] lg:text-[48px] leading-[1.3] md:w-[70%] w-[100%]"
+                            className="text-[24px] md:text-[35px] leading-[1.3] md:w-[50%] w-[100%]"
                         />
                     </div>
 

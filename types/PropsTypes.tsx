@@ -24,7 +24,7 @@ export interface TypographyProps {
   hoverColor?: string;
   className?: string;
   theme?: Theme;
-  cursor?:string   
+  cursor?: string
 }
 
 export interface LogoBadgeProps {
@@ -110,8 +110,9 @@ export interface ExecutiveLeader {
   title: string;
   designation: string;
   desciption: string;
+  linkedIn?: string;
   matrics: {
-    numericValue: number;
+    numericValue: number | string;
     title: string;
   }[];
   profileRef: string;

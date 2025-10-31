@@ -89,7 +89,7 @@ const FoundingMembersSection = ({
     theme: "dark" | "light"
 }) => {
     return (
-        <div className="container mx-auto lg:px-10">
+        <div className="container mx-auto lg:px-10  pb-20 border-b-[.2px] border-zinc-600">
             {/* ===== Header ===== */}
             <div className="mb-10">
                 <GradientTitle
@@ -99,7 +99,7 @@ const FoundingMembersSection = ({
                 />
                 <BodyText
                     text="Meet our visionary founding members: Driving leadership, innovation and strategic excellence in IT."
-                    className="text-[16px] lg:text-[20px] lg:text-left w-[90%] md:w-[70%]"
+                    className="text-[16px] lg:text-[20px] lg:text-left w-[90%] md:w-[90%]"
                     theme={theme}
                 />
             </div>

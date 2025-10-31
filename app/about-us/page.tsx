@@ -6,7 +6,7 @@ import HeroBanner from "../../components/HeroBanner"
 import { coreValues, foundingMembers, executiveLeadership, ambassadorsList, historyData } from '@/lib/data/aboutPageData'
 
 import MissionVisionSection from "../../components/about/MissionVisionSection"
-import AIFrameworkSection from "../../components/about/AIFrameworkSection"
+// import AIFrameworkSection from "../../components/about/AIFrameworkSection"
 import FoundingMembersSection from "../../components/about/FoundingMembersSection"
 import ExecutiveLeadersSection from "../../components/about/ExecutiveLeadersSection"
 // import GlobalStrategistsSection from "../../components/about/GlobalStrategistsSection"
@@ -25,11 +25,11 @@ const missionVisionData = {
     imageUrl: "/images/about-card-1.jpg",
 
 }
-const PatientSectionData = {
-    title: "Patent-Pending AI Framework",
-    description: "AiXHub is a patent-pending AI orchestration framework that unifies governance, automation, and human oversight to help enterprises build secure, scalable, and responsible AI systems. <br>We are industry trailblazers, revolutionizing the technology landscape by pioneering accessible and innovative technology solutions.",
-    imageUrl: "/images/about-card-2.jpg",
-}
+// const PatientSectionData = {
+//     title: "Patent-Pending AI Framework",
+//     description: "AiXHub is a patent-pending AI orchestration framework that unifies governance, automation, and human oversight to help enterprises build secure, scalable, and responsible AI systems. <br>We are industry trailblazers, revolutionizing the technology landscape by pioneering accessible and innovative technology solutions.",
+//     imageUrl: "/images/about-card-2.jpg",
+// }
 
 const globalExpansionData = {
     title: "ITCart's Global Expansions",
@@ -66,9 +66,9 @@ const AboutUs = () => {
                     { label: 'About Us', url: '/about-us' }
                 ]}
                 backgroundImage="/images/about/about-hero-bg.jpg"
-                className="bg-no-repeat lg:max-h-[400px]"
+                className="bg-no-repeat h-[600px] "
             />
-            <div className="bg-black md:py-16">
+            <div className="bg-black ">
                 <WhoWeAreSection />
             </div>
             <div className="bg-black py-10 md:py-10">
@@ -81,15 +81,15 @@ const AboutUs = () => {
                 />
             </div>
 
-            <div className="bg-black py-16 pb-30">
+            {/* <div className="bg-black py-16 pb-30">
                 <AIFrameworkSection
                     aixFramework={PatientSectionData}
                     theme={'dark'}
                     reverse
-                    className="border-2 border-[#565656] bg-[#181818] py-5 px-5 lg:py-10 lg:px-8 rounded-2xl"
+                    className=" border-[#565656] bg-[#181818] py-5 px-5 lg:py-10 lg:px-8 rounded-[25px]"
                     button={{ text: "Read More", path: "/about-us" }}
                 />
-            </div>
+            </div> */}
 
             <div className="bg-white py-16 md:rounded-tl-[85px] rounded-tl-[25px] md:rounded-tr-[85px] rounded-tr-[25px]">
                 <FoundingMembersSection
@@ -112,7 +112,7 @@ const AboutUs = () => {
             </div>
 
             <div className="bg-black md:py-16">
-                <HistorySection className="border-2 border-[#565656] bg-[#181818] py-5 lg:py-10 lg:px-10 rounded-2xl" bgImage={historyData.bgImage} title={historyData.title} description={historyData.description} />
+                <HistorySection className="border-2  bg-[#181818] py-5 lg:py-10 lg:px-10 rounded-2xl" bgImage={historyData.bgImage} title={historyData.title} description={historyData.description} />
             </div>
 
             <div className="bg-black pt-16">
@@ -120,7 +120,7 @@ const AboutUs = () => {
                     bgImage={bgImage}
                     className="bg-bottom bg-no-repeat bg-contain sm:bg-cover sm:bg-center pb-30 md:pb-0"
                 >
-                    <div className="container flex flex-col items-center gap-4">
+                    <div className="container flex flex-col items-center gap-1 mb-[-20px]">
                         <GradientTitle text={globalExpansionData.title} className="text-[30px] lg:text-[48px] text-center" theme="dark" />
                         <MultiParagraphs description={globalExpansionData.description} className="text-center" />
                     </div>

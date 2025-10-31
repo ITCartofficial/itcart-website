@@ -52,7 +52,7 @@ function MediaPage() {
                 isCunsultNow={true}
             />
 
-            <div className="bg-red-400">
+            <div className="">
                 <SectionTeam
                     heading=""
                     discription=""

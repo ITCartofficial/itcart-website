@@ -12,6 +12,9 @@ type HorizontalSliderSectionProps = {
 const HorizontalSliderSection: React.FC<HorizontalSliderSectionProps> = ({ text, cardLists }) => {
     const sliderRef = useRef<CardSliderRef>(null);
 
+    
+
+
     return (
         <div className="flex flex-col gap-8">
             <div className="container flex md:flex-row flex-col justify-between mx-auto lg:px-10 items-center">

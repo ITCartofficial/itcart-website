@@ -25,13 +25,13 @@ export default function BlogsFeatureSection({posts}: {posts: Post[]}) {
         <div className="flex flex-col gap-2 mb-8">
           <BodyText
             text="News & Blogs"
-            className="text-[24px] font-semibold text-center md:text-start"
+            className="text-[18px] font-semibold text-center md:text-start"
             color="#ffffff"
           />
           <GradientTitle
             text="Insights & Thought Leadership"
             theme="dark"
-            className="text-[30px] lg:text-[48px]leading-[1.3] w-full md:w-full text-center md:text-start"
+            className="text-[30px] lg:text-[48px] leading-[1.3] w-full md:w-full text-center md:text-start"
           />
         </div>
         <PostHighlights featured={featured} recent={recent} />

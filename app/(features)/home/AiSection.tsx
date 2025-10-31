@@ -15,8 +15,6 @@ type AiSectionProps = {
 
 const AiSection: React.FC<AiSectionProps> = ({ title }) => {
 
-    console.log("AiSectionData", AiSectionData[0]?.image);
-
 
     const [clickedImage, setClickedImage] = useState(AiSectionData[0]?.image)
 
@@ -25,7 +23,7 @@ const AiSection: React.FC<AiSectionProps> = ({ title }) => {
             {/* Section Title */}
             <GradientTitle
                 text={title}
-                className="text-[28px] sm:text-[36px] lg:text-[48px] leading-tight max-w-[90%] md:max-w-[70%] mb-8 lg:mb-12"
+                className="text-[28px] sm:text-[36px] lg:text-[48px] leading-tight max-w-[90%] md:max-w-[70%] mb-8 lg:mb-8"
                 theme="dark"
             />
 
@@ -66,7 +64,7 @@ const AiSection: React.FC<AiSectionProps> = ({ title }) => {
                                         <h2 className="text-[20px] sm:text-[24px] md:text-[26px] lg:text-[30px] whitespace-nowrap text-[#2BADB7] font-bold ">
                                             {item.title}
                                         </h2>
-                                        <p className="text-white text-[15px] sm:text-[16px] md:text-[17px] leading-relaxed opacity-90 max-w-[700px] lg:max-w-none mt-2 lg:mt-0">
+                                        <p className="text-white text-[15px] sm:text-[16px] md:text-[18px] leading-relaxed opacity-90 max-w-[700px] lg:max-w-none mt-2 lg:mt-0">
                                             {item.description}
                                         </p>
                                     </div>
