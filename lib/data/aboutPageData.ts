@@ -216,7 +216,7 @@ export const ambassadorsList = [
     image: "/images/ambassador/Randall.png",
     title: "Randall D. Oostra",
     designation: "Global Business Ambassador",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/randy-oostra-4348286/", //button link
     matrics: [
       {
         numericValue: 40,
@@ -236,7 +236,7 @@ export const ambassadorsList = [
     image: "/images/ambassador/scottsebastian.png",
     title: "Scott Sebastian",
     designation: "Global Director - GTM Strategy",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/scott-sebastian-5160337/", //button link
     matrics: [
       {
         numericValue: 30,
@@ -276,7 +276,7 @@ export const ambassadorsList = [
     image: "/images/ambassador/bryongough.jpg",
     title: "Bryon Gough",
     designation: "AI Real Estate Ambassador",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/bryongough/", //button link
     matrics: [
       {
         numericValue: 10,
@@ -297,7 +297,7 @@ export const ambassadorsList = [
     title: "Jeremy Peters",
     designation:
       "VP - BD Law Enforcement, Security, Investigations Development",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/jerameypeters/", //button link
     matrics: [
       {
         numericValue: 30,
@@ -317,7 +317,7 @@ export const ambassadorsList = [
     image: "/images/ambassador/John Hennessey.png",
     title: "John Hennessey",
     designation: "Structural & Infrastructure Engineering Ambassador",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/john-hennessey-pe-9a3a8a9/", //button link
     matrics: [
       {
         numericValue: 30,
@@ -338,7 +338,7 @@ export const ambassadorsList = [
     title: "John Kuehn",
     designation:
       "Senior Enterprise Supply Chain Advisor - Healthcare & Markets",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/john-kuehn-78b917124/", //button link
     matrics: [
       {
         numericValue: 35,
@@ -358,7 +358,7 @@ export const ambassadorsList = [
     image: "/images/ambassador/toddh.png",
     title: "Todd R. Hubbard",
     designation: "Global AiX Ambassador for Automotive & EV",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/todd-hubbard-b9958491/", //button link
     matrics: [
       {
         numericValue: 20,
@@ -398,7 +398,7 @@ export const ambassadorsList = [
     image: "/images/ambassador/Joan Hennessey.png",
     title: "Joan Hennessey ",
     designation: "Philanthropy of the State of Michigan Ambassador",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/joan-hennessey-cpa-a84962a/", //button link
     matrics: [
       {
         numericValue: 30,
@@ -418,7 +418,7 @@ export const ambassadorsList = [
     image: "/images/ambassador/Rob Haynie.png",
     title: "Rob Haynie",
     designation: "Global Ambassador Life insurance Settlements",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/rob-haynie-08656b9/", //button link
     matrics: [
       {
         numericValue: 31,
@@ -438,7 +438,7 @@ export const ambassadorsList = [
     image: "/images/ambassador/davebarr.png",
     title: "Dave Barr",
     designation: "Global Steel Industry Ambassador",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/dave-barr-541039138/", //button link
     matrics: [
       {
         numericValue: 30,
@@ -458,7 +458,7 @@ export const ambassadorsList = [
     image: "/images/ambassador/mrtim.png",
     title: "Tim Schlachter ",
     designation: "Global Commercial Real Estate (CRE) Ambassador ",
-    profileRef: "#", //button link
+    profileRef: "https://www.linkedin.com/in/timothy-schlachter-ccim-11a60833/", //button link
     matrics: [
       {
         numericValue: 30,

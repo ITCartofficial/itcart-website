@@ -5,7 +5,7 @@ export const serviceData = [
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/services/ai-ml-automation.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
+      serviceName: 'AI & ML Automations',
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Your Business Operations with Advanced AI & ML Automation",
       bannerDescription: "Unlock the power of comprehensive AI & ML consulting services to streamline operations, eliminate manual bottlenecks, and gain predictive insights that drive business innovation through advanced artificial intelligence integration services.",
@@ -397,7 +397,7 @@ export const serviceData = [
     linkUrl: "/services/business-intelligence",
     imageSrc: "/images/services/business-intelligence.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
+      serviceName: 'Business Intelligence',
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Data into Scalable Business Intelligence with Experts",
       bannerDescription: "Partner with iTCart's business intelligence consultants to turn your data into scalable business intelligence solutions.",
@@ -591,7 +591,7 @@ export const serviceData = [
     linkUrl: "/services/cloud-computing",
     imageSrc: "/images/services/cloud-computing.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
+      serviceName: 'CloudOps Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Experience CloudOps that Deliver Uptime, Agility and Business Resilience",
       bannerDescription: "End-to-end cloud operations services to manage, monitor, optimize, and secure your multi-cloud infrastructure.",
@@ -979,7 +979,7 @@ export const serviceData = [
     linkUrl: "/services/data-analytics",
     imageSrc: "/images/services/data-analytics.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
+      serviceName: 'Data Analytics',
       bannerButtonText: "Get in touch",
       bannerTitle: "Turn Data into Decisions. Faster. Smarter. Scalable",
       bannerDescription: "From real-time dashboards to predictive insights, our Ai- Powered data analytics services help you extract, visualize, and act on business-critical intelligence. ",
@@ -1173,7 +1173,7 @@ export const serviceData = [
     linkUrl: "/services/devops-services",
     imageSrc: "/images/services/DevOps.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
+      serviceName: 'DevOps Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Experience Top-Notch DevOps Services that Drive Reliable Software Releases",
       bannerDescription: " Transform your software delivery and operational efficiency with one of the best DevOps service providers in the industry delivering faster releases and continuous innovation.",
@@ -1367,7 +1367,7 @@ export const serviceData = [
     linkUrl: "/services/digital-commerce",
     imageSrc: "/images/services/digital-commerce.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
+      serviceName: 'Digital Commerce',
       bannerButtonText: "Get in touch",
       bannerTitle: "Experience Digital Commerce Excellence with iTCart",
       bannerDescription: "Our digital commerce services empower you to thrive by combining advanced technologies, secure payment systems, and seamless channel integration for lasting customer loyalty.",
@@ -1561,7 +1561,7 @@ export const serviceData = [
     linkUrl: "/services/digital-transformation",
     imageSrc: "/images/services/digital-transformation.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
+      serviceName: 'Digital Transformation',
       bannerButtonText: "Get in touch",
       bannerTitle: "Propel Your Business Forward with Next-Gen Digital Transformation Services ",
       bannerDescription: "Scale your organization's full potential with iTCart's expert-led digital transformation services designed for sustainable growth and competitive advantage.",
@@ -1755,11 +1755,11 @@ export const serviceData = [
     linkUrl: "/services/iot-services",
     imageSrc: "/images/services/IoT-service.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
+      serviceName: 'IoT Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Power Intelligent Insights and Automation with IoT Services",
       bannerDescription: "From device connectivity to cloud analytics, our IoT development services help you design, deploy, and scale intelligent IoT ecosystems.",
-      bannerImage: "/images/services/iot-services-banner.png",
+      bannerImage: "/images/services/ioT-Services-bannerone.png",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
@@ -1956,7 +1956,7 @@ export const serviceData = [
     linkUrl: "/services/managed-it-services",
     imageSrc: "/images/services/managed-it-service.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
+      serviceName: 'Managed IT Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Empower Your Business with Expertly Crafted Managed IT Services",
       bannerDescription: "Achieve peak efficiency, robust security, and business growth with managed IT designed for seamless performance and continuous innovation. ",
@@ -2150,7 +2150,7 @@ export const serviceData = [
     linkUrl: "/services/startup-services",
     imageSrc: "/images/services/startup-service.png",
     detailPage: {
-      serviceName: 'Cybersecurity Services',
+      serviceName: 'Startup Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "You Have Vision. We Bring It to Life",
       bannerDescription: "Transform ideas into scalable startup success today",

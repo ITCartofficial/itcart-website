@@ -17,6 +17,9 @@ const ServicesDetailPage = () => {
 
     const filterdItem = serviceData.find(item => item.title === pathName);
 
+    console.log("filterdItem", filterdItem);
+
+
 
     //  bg-gradient-to-b from-gray-900 via-gray-1000 to-black
     return (
