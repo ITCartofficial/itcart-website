@@ -47,24 +47,10 @@ function Csr() {
     return (
         <>
             <div className='bg-black space-y-15 lg:space-y-25'>
-                {/* <HeroBanner 
-                title="Visual Mosaic of Our Journey"
-                    description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
-                    // ctaText="Book a Free Session Now"
-                    ctaUrl="/contact"
-                    breadcrumbItems={[
-                        { label: 'Home', url: '/' },
-                        { label: 'Our CSR', url: '/' }
-                    ]}
-                    backgroundImage="/images/csr/banner-image.jpg"
-                    isCunsultNow={true}
-                /> */}
-
-
-
+            
                 <VerticalHeroBanner
-                    title="Visual Mosaic of Our Journey"
-                    description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
+                    title="Technology transforms lives."
+                    description="At iTCart, innovation is our responsibility. Through focused CSR initiatives in healthcare, education, sustainability, and community empowerment, we use technology as a force for good."
                     // ctaText="Book a Free Session Now"
                     ctaUrl="/contact"
                     breadcrumbItems={[

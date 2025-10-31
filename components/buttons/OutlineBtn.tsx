@@ -5,7 +5,7 @@ import { OutlineBtnProps } from '@/types/PropsTypes'
 import { FaArrowRight } from 'react-icons/fa6'
 
 
-const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, icon, textColor, className, url, theme = "dark", onClick }) => {
+const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, icon, width, textColor, className, url, theme = "dark", onClick }) => {
 
     const iconColor = theme === 'dark' ? 'text-[#ffffff]' : "text-[#2BADB7]";
 
@@ -20,13 +20,13 @@ const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, icon, textColor, classNam
 
                         href={url || ""}
                         // onClick={onClick}
-                         className={`decoration-0  min-w-[160px] py-3 px-4 w-max  group w-max  ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`} onClick={onClick}
-            //             className={`decoration-0 py-3 anim-outline-btn
-            //              px-7 group w-max flex items-center justify-center gap-2 cursor-pointer
-            //    rounded transition-all duration-300 ease-in-out
-            //   bg-[#01FFFF] hover:bg-cyan-300 
-            //   border-1 border-white
-            //   ${theme} ${className}`}
+                        className={`decoration-0  ${width ? "min-w-full" : "min-w-[160px]"} py-3 px-4 w-max  group w-max  ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`} onClick={onClick}
+                        //             className={`decoration-0 py-3 anim-outline-btn
+                        //              px-7 group w-max flex items-center justify-center gap-2 cursor-pointer
+                        //    rounded transition-all duration-300 ease-in-out
+                        //   bg-[#01FFFF] hover:bg-cyan-300 
+                        //   border-1 border-white
+                        //   ${theme} ${className}`}
 
                         style={{
                             border: '.5px solid transparent',
@@ -54,7 +54,7 @@ const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, icon, textColor, classNam
                         onMouseEnter={() => setChangeBtn(true)}
                         onMouseLeave={() => setChangeBtn(false)}
                         href={url || ""}
-                        className={`decoration-0 anim-outline-btn  min-w-[160px] py-3 px-4 w-max  group w-max  ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`} onClick={onClick}
+                        className={`decoration-0 anim-outline-btn ${width ? "min-w-full" : "min-w-[160px]"} py-3 px-4 w-max  group w-max  ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`} onClick={onClick}
                         // className={`decoration-0 
                         //      px-7
                         //     py-3  w-max group ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`}

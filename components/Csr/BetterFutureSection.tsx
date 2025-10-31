@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BodyText from "../typography/BodyText"
+// import BodyText from "../typography/BodyText"
 import GradientTitle from "../typography/GradientTitle"
 import { FaCheck } from "react-icons/fa6";
 
@@ -26,7 +26,7 @@ function BetterFutureSection() {
 
     return (
         <div>
-            <GradientTitle
+            {/* <GradientTitle
                 text={'Building a Better Future,Together'}
                 theme="dark"
                 className="text-[22px] sm:text-[25px] md:text-[44px] w-[60%] text-center  mx-auto"
@@ -36,7 +36,7 @@ function BetterFutureSection() {
                 text={"At iTCart, innovation is a responsibility, not just advancement. Through CSR, we drive change in healthcare, education, sustainability, and community empowerment. By promoting ethical innovation and green initiatives, we use technology as a force for good."}
                 color="#ffffff"
                 className="text-sm sm:text-base md:text-lg my-2 text-center w-[70%] mx-auto"
-            />
+            /> */}
 
             <div className="bg-black flex items-center justify-center p-6 py-10">
                 <div className="max-w-7xl w-full grid md:grid-cols-2 gap-8 md:gap-12 items-center">

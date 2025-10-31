@@ -85,7 +85,7 @@ const JobListings = () => {
 
             {/* Right Content */}
             <div className="space-y-4 px-6 md:block hidden">
-                <div className="space-y-4 max-h-[500px] overflow-y-auto px-6">
+                <div className="space-y-4 max-h-[500px] overflow-y-auto px-6 scrollbar-hide">
                     {filteredJobs.map((job) => (
                         <JobCard
                             btnName="Read More"
