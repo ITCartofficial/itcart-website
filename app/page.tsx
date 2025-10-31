@@ -126,7 +126,7 @@ const HomeTemplate = () => {
       {/* <div className="bg-black py-8">
         <TestimonialSection bgColor={"true"} testimonialsData={testimonialsData} />
       </div> */}
-      <div className="bg-black mt-4">
+      <div className="bg-black md:mt-4  mt-10">
         <BlogsFeatureSection posts={posts} />
       </div>
       <div className="bg-black py-16">

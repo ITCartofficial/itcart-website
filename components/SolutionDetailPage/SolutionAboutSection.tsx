@@ -27,7 +27,7 @@ function SolutionAboutSection({ className, aboutSolutionHeading, aboutSolutionDi
                         <OutlineBtn
                             text={"Start Transformation"}
                             icon={<FaArrowRight size={16} />}
-                            url={"contact-us"}
+                            url={"/contact-us"}
                             theme="dark"
                             className="mt-2"
                         />

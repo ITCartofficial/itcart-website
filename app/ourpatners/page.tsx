@@ -22,13 +22,15 @@ function OurPartners() {
                 contentClass="lg:items-center lg:text-center"
             />
 
-            <div className="bg-black md:py-4">
-                <SectionContact showContent={"noShow"} image="" />
-            </div>
 
             <div className="bg-black md:py-8">
                 <Partners />
             </div>
+
+            <div className="bg-black md:py-4">
+                <SectionContact showContent={"noShow"} image="" />
+            </div>
+
 
         </div>
     )

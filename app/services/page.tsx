@@ -8,7 +8,7 @@ const Services = () => {
             <HeroBanner title="Our Services"
                 description="IT Cart offers a wide range of carefully curated services designed to empower businesses across industries. From advanced application development to robust cybersecurity solutions, we help unlock your enterprise's full potential. With a focus on innovation, efficiency, and security, we enable businesses to thrive in today's dynamic market."
                 ctaText="Connect with Us"
-                ctaUrl="/contact"
+                ctaUrl="/contact-us"
                 breadcrumbItems={[
                     { label: 'Home', url: '/' },
                     { label: 'Our Services', url: '/services' }

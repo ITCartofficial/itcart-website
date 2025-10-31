@@ -49,7 +49,7 @@ function divResult({ resultHeading, results,
                 </div>
             </div>
 
-            <div className=" bg-black text-white mt-10 mt-15 md:mt-25   flex items-center justify-center">
+            {/* <div className=" bg-black text-white mt-10 mt-15 md:mt-25   flex items-center justify-center">
                 <div className=" mx-auto w-full">
                     <div className="relative border border-[#45C2CC] rounded-3xl p-8 sm:p-12 lg:p-16 bg-gradient-to-br from-gray-900/50 to-black/50 backdrop-blur-sm">
                         <div className="absolute top-0 left-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl"></div>
@@ -63,12 +63,12 @@ function divResult({ resultHeading, results,
                                 />
                             </div>
 
-                            <p className="text-gray-300 text-base sm:text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto mb-8 sm:mb-16 lg:mb-12">
+                            <p className="text-gray-300 text-base sm:text-lg lg:text-xl leading-relaxed w-[100%] mx-auto mb-8 sm:mb-16 lg:mb-12">
                                 Built by iTCart, ISO-certified leaders in digital transformation delivering enterprise-grade digital workplace solution that drives organizational excellence and measurable business success.
                             </p>
 
                             <div className="flex sm:flex-row items-center justify-center gap-8 sm:gap-12 lg:gap-16">
-                                <div className="group relative w-25 h-25 sm:w-48 sm:h-48 lg:w-56 lg:h-56">
+                                <div className="group relative w-25 h-25 sm:w-48 sm:h-48 lg:w-25 lg:h-25">
                                     <Image
                                         src="/images/solutions/logo-01.png"
                                         alt="Team collaboration..."
@@ -91,7 +91,7 @@ function divResult({ resultHeading, results,
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
