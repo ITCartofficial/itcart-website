@@ -5,6 +5,8 @@ import { FaCheck } from "react-icons/fa6";
 
 function BetterFutureSection() {
 
+    
+
     const values = [
         {
             title: "Innovation with Responsibility",
