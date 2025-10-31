@@ -32,6 +32,10 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
     serviceName,
     bannerButtonText
 }) => {
+
+    console.log("serviceName", serviceName);
+
+
     return (
         <section className={`relative w-full bg-black text-white overflow-hidden ${className}`}>
             <div className="relative h-[80vh] sm:h-[80vh] md:h-[50vh] lg:h-[60vh] bg-gradient-to-t from-black/100">

@@ -1,13 +1,16 @@
 export const navItems = [
-  { label: "Home", href: "/" },
+  // { label: "Home", href: "/" },
   { label: "Consult Now", href: "/consultnow" },
   {
     label: "Our Verticals",
     href: "/our-verticals",
     // submenu: [
-    //   { label: "Web Development", href: "#" },
-    //   { label: "Mobile Apps", href: "#" },
-    //   { label: "Cloud Solutions", href: "#" },
+    // { label: "Web Development", href: "#" },
+    // { label: "Mobile Apps", href: "#" },
+    // { label: "Cloud Solutions", href: "#" },
+    // { label: "Web Development", href: "#" },
+    // { label: "Mobile Apps", href: "#" },
+    // { label: "Cloud Solutions", href: "#" },
     // ],
   },
   { label: "Solutions", href: "/solutions" },
@@ -31,9 +34,10 @@ export const navItems = [
     submenu: [
       { label: "Our Blogs", href: "/blogs" },
       { label: "Case Studies", href: "/case-study" },
+      // { label: "Careers", href: "/careers" },
     ],
   },
-
+  { label: "Careers", href: "/careers" },
 
 
 
@@ -59,7 +63,7 @@ export const navItems = [
   // },
 
 
-  { label: "Careers", href: "/careers" },
+  // { label: "Careers", href: "/careers" },
 
   // { label: "Services", href: "/services" },
   // { label: "Contact Us", href: "/contact-us" },

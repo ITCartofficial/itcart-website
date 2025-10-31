@@ -3,7 +3,9 @@ import { Ambassador, Theme } from "@/types/PropsTypes"
 import StatCounter from "../common/StatCounter"
 import HeadingText from "@/components/typography/HeadingText"
 import BodyText from "@/components/typography/BodyText"
-import LinkButton from "@/components/buttons/LinkButton"
+// import LinkButton from "@/components/buttons/LinkButton"
+import OutlineBtn from "../buttons/OutlineBtn"
+import { FaArrowRight } from "react-icons/fa6"
 
 const InformaticImageCard = ({ user, theme }: { user: Ambassador, theme: Theme }) => {
   const textColor = theme == "dark" ? "text-white" : "text-black";
@@ -34,7 +36,7 @@ const InformaticImageCard = ({ user, theme }: { user: Ambassador, theme: Theme }
       </div>
 
       {/* Text & Button Section */}
-      <div className="w-full flex flex-col items-center text-center lg:items-start lg:text-left gap-1 p-2">
+      <div className="w-full flex flex-col items-center text-center lg:items-start lg:text-left gap-1 p-2 md:h-40">
         <HeadingText
           text={user.title}
           className={`text-[20px] lg:text-2xl ${textColor}`}
@@ -43,12 +45,25 @@ const InformaticImageCard = ({ user, theme }: { user: Ambassador, theme: Theme }
           text={user.designation}
           className={`text-[14px] lg:text-[18px] ${designationColor}`}
         />
-        <LinkButton
+        {
+          user.title != "Dr. Prasanta Kumar Ghosh" &&
+          <div className="md:mt-auto mt-4">
+            <OutlineBtn
+              text="Know More"
+              url={user?.profileRef}
+              textColor='#ffffff'
+              icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+            />
+          </div>
+        }
+
+
+        {/* <LinkButton
           text="Know More"
           theme={theme}
           className={`mt-3 ${textColor}`}
           url={user.profileRef}
-        />
+        /> */}
       </div>
     </div>
   );

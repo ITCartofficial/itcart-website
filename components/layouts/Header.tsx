@@ -72,7 +72,7 @@ const Header: React.FC = () => {
           </div>
 
           {/* Search and Contact Button (Right - Desktop) */}
-          <div className="hidden lg:flex items-center gap-4 flex-shrink-0 min-w-[200px] justify-end">
+          <div className="hidden lg:flex items-center gap-4 flex-shrink-0  justify-end">
             {/* <SearchButton /> */}
             <OutlineBtn
               text="Contact us"

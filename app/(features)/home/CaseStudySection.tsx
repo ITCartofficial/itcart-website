@@ -39,6 +39,7 @@ import BodyText from "@/components/typography/BodyText"
 import GradientTitle from "@/components/typography/GradientTitle"
 import CaseStudiesSlider from "@/components/slider/CaseStudiesSlider"
 import { CaseStudyItem } from "@/types/PropsTypes"
+import { FaArrowRight } from "react-icons/fa6"
 
 const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -60,12 +61,21 @@ const CaseStudySection = ({ caseStudies }: { caseStudies: CaseStudyItem[] }) => 
             className="text-white sm:text-[16px] text-center lg:text-left"
           />
           <div className="flex justify-center lg:justify-start">
+
+            {/* <SearchButton /> */}
             <OutlineBtn
+              text="Explore More"
+              url="/case-study"
+              textColor='#ffffff'
+              icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+            />
+
+            {/* <OutlineBtn
               url="/case-study"
               text="Explore More"
               textColor="#01FFFF"
               theme="dark"
-            />
+            /> */}
           </div>
 
           {/* ✅ Pagination Dots */}

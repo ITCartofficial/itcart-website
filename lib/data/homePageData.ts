@@ -10,7 +10,7 @@ export const keyVerticalsData = [
     bgImage: "/images/home/aixbfs-bg.jpg",
     title: "AiXBFS",
     description: "Experience banking efficiency with our AI-powered solutions, including fraud detection, debt recovery, and compliance management.",
-    buttonUrl: "/vertical",
+    buttonUrl: "/verticall",
     logoBg: "light",
     logo: "/logos/vertical-logos/aixbfs.png",
   },
