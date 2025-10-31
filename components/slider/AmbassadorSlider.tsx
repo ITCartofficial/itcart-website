@@ -28,7 +28,7 @@ const AmbassadorSlider = ({ ambassadorList }: { ambassadorList: Ambassador[] }) 
                 // slidesPerView={1}
                 loop={true}
                 autoplay={{ delay: 0, disableOnInteraction: false }}
-                speed={4000}
+                speed={5000}
                 spaceBetween={20}
                 className="flex items-center justify-center mb-2"
             >

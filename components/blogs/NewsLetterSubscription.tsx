@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import GradientTitle from '@/components/typography/GradientTitle';
 import BodyText from '@/components/typography/BodyText';
 import { FaArrowRight } from 'react-icons/fa6';
+import emailjs from "emailjs-com";
 
 const NewsletterSubscription = ({ theme }: { theme: "dark" | "light" }) => {
   const [name, setName] = useState('');
@@ -14,6 +15,32 @@ const NewsletterSubscription = ({ theme }: { theme: "dark" | "light" }) => {
   const handleSubscribe = () => {
     console.log('Subscribing:', { name, email });
     // Add your subscription logic here
+    // e.preventDefault();
+
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+    };
+
+    emailjs
+      .send(
+        'service_kgq4rqu',   // ✅ Your EmailJS Service ID
+        'template_kkv0q6h',  // ✅ Your Template ID
+        templateParams,      // ✅ Send this object
+        'ujKXlFsvgAhXEPwRy'  // ✅ Your Public Key (NOT private)
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("✅ Subscription sent successfully!");
+          setName("");
+          setEmail("");
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          alert("❌ Something went wrong!");
+        }
+      );
   };
 
   return (

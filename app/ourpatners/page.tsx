@@ -1,20 +1,25 @@
 import SectionContact from "@/components/CunsultNow/SectionContact"
-import HeroBanner from "@/components/HeroBanner"
+// import HeroBanner from "@/components/HeroBanner"
 import Partners from "@/components/OurPartners/Partners.tsx"
+// import BodyText from "@/components/typography/BodyText";
+import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
+
 
 function OurPartners() {
     return (
         <div className='bg-black'>
-            <HeroBanner title="Our Partners"
-                description=""
-                ctaText="Book a Free Session Now"
-                ctaUrl="/contact"
+
+            <VerticalHeroBanner
+                title="Our Partners"
+                description={"Collaborating with top IT service and solution providers to fuel your business growth."}
                 breadcrumbItems={[
                     { label: 'Home', url: '/' },
                     { label: 'Our Partners', url: '/industry' }
                 ]}
-                backgroundImage="/images/ourpartners/outpartners-bgimage.png"
-                isCunsultNow={false}
+                backgroundImage="/images/ourpartners/outpartners-bgimage.jpg"
+                isCunsultNow={true}
+                // height={true}
+                contentClass="lg:items-center lg:text-center"
             />
 
             <div className="bg-black md:py-4">

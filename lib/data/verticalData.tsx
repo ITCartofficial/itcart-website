@@ -6,7 +6,8 @@ export const verticalData = [
         imageSrc: "/images/vertical/AiXHub.png",
         compenyName: 'AiXHub',
         verticalCompenyLogo: '/images/vertical/AiXHub.png/images/verticalLogos/AiXHub.png',
-        compenyLogo: '/images/verticalLogos/AiXHub.png',
+        //  compenyLogo: '/images/verticalLogos/AiXBFS.png',
+        compenyLogo: '/images/verticalLogos/aixhub.png',
         detailPage: {
             bannerTitle: "AI-Powered Social Intranet That Works Smart ",
             bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform ",
@@ -62,21 +63,21 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixhub-icon1.svg',
                     title: "Smart Automation",
                     highlight: "AI-powered workflows with predictive triggers through comprehensive digital workplace automation systems. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixhub-icon2.svg',
                     title: "Intelligent Analytics",
                     highlight: "Data-driven insights with personalized dashboards via advanced enterprise intranet solutions technology. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixhub-icon3.svg',
                     title: "AI IoT Integration",
                     highlight: "Enterprise AIoT for predictive maintenance through AI workplace automation solution capabilities. ",
                     description: "",
@@ -190,21 +191,21 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixbfs-icon1.svg',
                     title: "Banks NBFCs",
                     highlight: " Digital transformation and lending automation through comprehensive ai in banking solutions",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixbfs-icon2.svg',
                     title: "Fintech Companies",
                     highlight: " Scalable digital lending platform with API-first architecture for innovation",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixbfs-icon3.svg',
                     title: "Collection Agencies",
                     highlight: "Optimized recovery operations through intelligent ai debt collection software automation",
                     description: "",
@@ -302,21 +303,21 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixerp-icon1.svg',
                     title: "Growing Enterprises",
                     highlight: "Startups to global organizations seeking scalable AI-powered ERP platform solutions.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixerp-icon2.svg',
                     title: "Finance Teams",
                     highlight: "Professionals requiring automated accounting, compliance, and cash flow management through intelligent systems.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixerp-icon3.svg',
                     title: "Operations Managers",
                     highlight: "Leaders streamlining workflows and improving efficiency with comprehensive erp automation software capabilities.",
                     description: "",
@@ -410,14 +411,14 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixqp-icon1.svg',
                     title: "Students and Graduates",
                     highlight: "Bridge classroom-to-career gap with practical AI-enhanced learning",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixqp-icon2.svg',
                     title: "Working Professionals   ",
                     highlight: "Upskill on schedule with adaptive personalized learning paths",
                     description: "",
@@ -556,21 +557,21 @@ export const verticalData = [
 
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixgrc-icon1.svg',
                     title: "Leadership & Officers",
                     highlight: "Ensure enterprise-wide policy enforcement and strategic governance oversight through comprehensive compliance management software capabilities. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixgrc-icon2.svg',
                     title: "Internal Auditors",
                     highlight: "Automate audit lifecycles and control testing with intelligent automation via advanced risk and compliance software systems. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixgrc-icon3.svg',
                     title: "IT & Security Teams",
                     highlight: "Manage data governance, cybersecurity policies, and real-time risk events through integrated compliance monitoring software platforms. ",
                     description: "",

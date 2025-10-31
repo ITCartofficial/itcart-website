@@ -3,14 +3,15 @@ import BodyText from "@/components/typography/BodyText"
 import HeadingText from "@/components/typography/HeadingText"
 import StatCounter from "../common/StatCounter"
 import { ExecutiveLeader } from "@/types/PropsTypes"
-import OutlineBtn from "@/components/buttons/OutlineBtn"
+// import OutlineBtn from "@/components/buttons/OutlineBtn"
 import { FaArrowRight } from "react-icons/fa6"
+import WhiteButton from "../buttons/WhiteButton"
 
 
 const ExecutiveLeadersCard = ({ executiveLeader, theme }: { executiveLeader: ExecutiveLeader, theme: 'dark' | 'light', bgColor: string }) => {
 
     return (
-        <div className={`flex flex-col lg:flex-row items-center gap-8 relative h-250 lg:h-[400px]  ${theme === 'dark' ? 'bg-black' : ''}`}
+        <div className={`flex flex-col lg:flex-row items-center gap-8 relative h-250 lg:h-[430px]  ${theme === 'dark' ? 'bg-black' : ''}`}
         >
             {/* image container */}
             <div className="relative md:h-full w-full max-w-[360px]  rounded-3xl overflow-hidden">
@@ -58,10 +59,10 @@ const ExecutiveLeadersCard = ({ executiveLeader, theme }: { executiveLeader: Exe
                         executiveLeader.title != "Aabid Mohammed Ajmal" &&
 
                         <a href="" className="w-full flex justify-center md:justify-start">
-                            <OutlineBtn
+                            <WhiteButton
                                 text="Know More"
                                 url={executiveLeader?.linkedIn}
-                                textColor='#ffffff'
+                                
                                 icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                             />
                             {/* <OutlineBtn text="Know More" icon={'default'} textColor={bgColor ? "white" : "#000000"} theme={theme} url={executiveLeader.profileRef} /> */}

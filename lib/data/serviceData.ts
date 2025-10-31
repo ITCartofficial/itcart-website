@@ -2148,7 +2148,7 @@ export const serviceData = [
     title: "Startup Services",
     description: "Offering expert consultation, product development  and customized IT services to nurture innovation, security, and growth in a competitive business landscape.",
     linkUrl: "/services/startup-services",
-    imageSrc: "/images/services/startup-service.png",
+    imageSrc: "/images/services/Startup-Service.png",
     detailPage: {
       serviceName: 'Startup Services',
       bannerButtonText: "Get in touch",

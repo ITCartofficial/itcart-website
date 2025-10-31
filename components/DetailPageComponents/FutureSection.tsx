@@ -29,7 +29,7 @@ const FutureSection: React.FC<FutureSectionProps> = ({
 
             <div className="w-full flex justify-center my-10">
                 <OutlineBtn
-                    url="/"
+                    url="/contact-us"
                     text="Start your upgrade today"
                     textColor="#ffffff"
                     icon={<FaArrowRight className="text-sm font-semibold text-white" />}

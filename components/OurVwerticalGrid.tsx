@@ -9,7 +9,7 @@ interface OurVwerticalGridProps {
 const OurVwerticalGrid: React.FC<OurVwerticalGridProps> = ({ className = "" }) => {
 
     return (
-        <section className={`w-full flex py-16 bg-black container ${className}`}>
+        <section className={`w-full   container mb-16  ${className}`}>
             <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:gap-12 gap-8 place-items-center">
                 {verticalData.map((service, index) => {
 

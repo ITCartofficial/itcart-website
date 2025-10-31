@@ -22,6 +22,9 @@ interface HeroBannerProps {
     text?: string;
     serviceName?: string;
     bannerButtonText?: string;
+    contentClass?: string
+    backgroundPosition?: string
+    isCunsultNow?: boolean
 }
 
 const HeroBanner: React.FC<HeroBannerProps> = ({
@@ -30,15 +33,17 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
     backgroundImage = '/images/services/service-bg.png',
     className = '',
     serviceName,
-    bannerButtonText
+    bannerButtonText,
+    contentClass,
+    isCunsultNow
+    // backgroundPosition
 }) => {
 
-    console.log("serviceName", serviceName);
 
 
     return (
         <section className={`relative w-full bg-black text-white overflow-hidden ${className}`}>
-            <div className="relative h-[80vh] sm:h-[80vh] md:h-[50vh] lg:h-[60vh] bg-gradient-to-t from-black/100">
+            <div className="relative h-[80vh] sm:h-[80vh] md:h-[60vh] lg:h-[60vh] bg-gradient-to-t from-black/100">
                 <div
                     className="absolute inset-0 z-0"
                     style={{
@@ -49,12 +54,12 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                 />
 
                 {/* Flexbox wrapper */}
-                <div className="container relative z-10 h-full flex items-center justify-center text-center lg:justify-start lg:text-left my-6">
-                    <div className="w-full flex flex-col items-center lg:items-start">
+                <div className="container relative  z-10 h-full flex items-center justify-center text-center lg:justify-start lg:text-left my-6">
+                    <div className={`w-full flex flex-col items-center ${contentClass ? contentClass : "lg:items-start"} `}>
 
                         {
                             serviceName &&
-                            <div className="bg-white w-fit py-1 px-4 rounded-full my-1">
+                            <div className="bg-white w-fit py-1 px-4 rounded-full my-1 bg-red-400">
                                 <p className='text-black text-[8px] sm:text-[10px] md:text-[14px]'>{serviceName}</p>
                             </div>
                         }
@@ -64,23 +69,27 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                         <GradientTitle
                             text={title}
                             theme="dark"
-                            className="text-[26px] sm:text-[32px] md:text-[48px] w-full lg:w-[60%] leading-[1.2]"
+                            className={`text-[26px] ${contentClass ? contentClass : "lg:items-start"} sm:text-[32px] md:text-[48px]  w-full lg:w-[60%] leading-[1.2]`}
                         />
 
                         <BodyText
                             text={description ?? ""}
                             color="#ffffff"
-                            className="text-sm sm:text-[15px] md:text-[18px] mt-3 w-[60%]"
+                            className={`text-sm sm:text-[15px] ${contentClass ? contentClass : "lg:items-start"} md:text-[18px] mt-3 w-[80%]`}
                         />
 
-                        <div className="mt-8">
-                            <OutlineBtn
-                                url="/"
-                                text={bannerButtonText ? bannerButtonText : "Book Free Demo"}
-                                textColor="#ffffff"
-                                icon={<FaArrowRight className="text-sm font-semibold text-white" />}
-                            />
-                        </div>
+                        {
+                            !isCunsultNow &&
+                            <div className="mt-8">
+                                <OutlineBtn
+                                    url="/contact-us"
+                                    text={bannerButtonText ? bannerButtonText : "Book Free Demo"}
+                                    textColor="#ffffff"
+                                    icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+                                />
+                            </div>
+                        }
+
                     </div>
                 </div>
             </div>

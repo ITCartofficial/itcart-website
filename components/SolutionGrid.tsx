@@ -10,7 +10,7 @@ interface SolutionGrid {
 const SolutionGrid: React.FC<SolutionGrid> = ({ className = "" }) => {
 
     return (
-        <section className={`w-full flex py-16 bg-black container ${className}`}>
+        <section className={`w-full flex pb-16 bg-black container ${className}`}>
             <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                 {solutionData.map((service, index) => (
                     <ServiceCard

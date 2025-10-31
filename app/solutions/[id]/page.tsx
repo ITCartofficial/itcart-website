@@ -32,7 +32,7 @@ function SolutionDetailPage() {
     return (
         <>
 
-            <div className="space-y-15 lg:space-y-25">
+            <div className="space-y-15 lg:space-y-25  mt-10">
 
                 <div className="md:block hidden">
                     <VerticalHeroBanner

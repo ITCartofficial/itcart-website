@@ -66,9 +66,9 @@ const AboutUs = () => {
                     { label: 'About Us', url: '/about-us' }
                 ]}
                 backgroundImage="/images/about/about-hero-bg.jpg"
-                className="bg-no-repeat h-[600px] "
+                className="bg-no-repeat h-[400px] "
             />
-            <div className="bg-black ">
+            <div className="bg-black md:mt-10">
                 <WhoWeAreSection />
             </div>
             <div className="bg-black py-10 md:py-10">

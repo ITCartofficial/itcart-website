@@ -3,7 +3,8 @@ import React from 'react';
 import BodyText from '@/components/typography/BodyText';
 import { FaArrowRight } from 'react-icons/fa6';
 import Image from 'next/image';
-import OutlineBtn from '../buttons/OutlineBtn';
+// import OutlineBtn from '../buttons/OutlineBtn';
+import WhiteButton from '../buttons/WhiteButton';
 
 interface VerticalCardProps {
     title: string;
@@ -70,12 +71,14 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
                     </div>
 
                     <div className='w-full flex justify-center mt-6 mb-4'>
-                        <OutlineBtn
+
+                        <WhiteButton
                             url={`our-verticals/${compenyName}`}
                             text={"View More"}
                             textColor='#ffffff'
                             icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                         />
+                        
                     </div>
 
 

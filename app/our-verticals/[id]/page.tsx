@@ -19,13 +19,13 @@ const OurVerticalsDetailPage = () => {
 
     return (
         <>
-            <div className='bg-black space-y-15 lg:space-y-25'>
+            <div className='bg-black space-y-15 lg:space-y-25 mt-10'>
                 <VerticalHeroBanner
                     title={filterdItem?.detailPage?.bannerTitle ?? ""}
                     description={filterdItem?.detailPage?.bannerDescription ?? ""}
                     ctaText="Connect with Us"
-                    ctaUrl="/contact"
-                    breadcrumbItems={[
+                    ctaUrl="/contact-us"
+                    breadcrumbItems={[  
                         { label: 'Home', url: '/' },
                         { label: 'Our Verticals', url: '/services' }
                     ]}

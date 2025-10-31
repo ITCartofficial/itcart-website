@@ -35,7 +35,7 @@ function JoinSection({ className }: { className: string }) {
                     <OutlineBtn
                         text={"Get Involved"}
                         icon={<FaArrowRight size={16} />}
-                        url={"ctaUrl"}
+                        url={"/contact-us"}
                         theme="dark"
                         className="mt-2"
                     />
