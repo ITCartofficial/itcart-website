@@ -598,7 +598,7 @@ export const industryData = [
     title: "Digital Marketing",
     description: "Revolutionizing digital marketing with our software solutions, driving online growth through data-driven strategies and engagement",
     linkUrl: "/services/cloud-computing",
-    imageSrc: "/images/industries/Digital-Marketing.png",
+    imageSrc: "/images/industries/DigitalMarketing.png",
     detailPage: {
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
