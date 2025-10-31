@@ -14,7 +14,6 @@ const NewsletterSubscription = ({ theme }: { theme: "dark" | "light" }) => {
 
   const handleSubscribe = () => {
     console.log('Subscribing:', { name, email });
-    // Add your subscription logic here
     // e.preventDefault();
 
     const templateParams = {

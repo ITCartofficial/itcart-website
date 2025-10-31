@@ -75,7 +75,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                         <BodyText
                             text={description ?? ""}
                             color="#ffffff"
-                            className={`text-sm sm:text-[15px] ${contentClass ? contentClass : "lg:items-start"} md:text-[18px] mt-3 w-[80%]`}
+                            className={`text-sm sm:text-[15px] ${contentClass ? contentClass : "lg:items-start"} md:text-[18px] mt-3 w-full lg:w-[50%]`}
                         />
 
                         {
