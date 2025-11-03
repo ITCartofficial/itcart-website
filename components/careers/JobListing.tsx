@@ -6,18 +6,20 @@ import JobCard from "@/components/cards/JobCard";
 import { FaArrowRight } from "react-icons/fa6";
 import { SlArrowDown } from "react-icons/sl";
 
-const categories = [
-    "All Position",
-    "Executive Assistant",
-    "Information technology & Engineering",
-    "Insurance",
-    "Marketing & Sales",
-    "Product Development",
-    "Sales",
-];
+
 
 const JobListings = () => {
     const [selectedCategory, setSelectedCategory] = useState<string | null>("All Position");
+
+    const uniqueCategories = [...new Set(jobs.map(job => job.jobCategory))];
+
+    console.log("uniqueCategories", uniqueCategories);
+
+    const categories = [
+        "All Position",
+        ...uniqueCategories
+    ];
+
 
     const filteredJobs =
         selectedCategory === "All Position"
@@ -29,10 +31,8 @@ const JobListings = () => {
                         job.jobCategory === "Product Development")
             );
 
-    // 🟢 Click handler that toggles open/close on mobile
     const handleCategoryClick = (category: string) => {
         if (selectedCategory === category) {
-            // close if same category clicked again
             setSelectedCategory(null);
         } else {
             setSelectedCategory(category);
@@ -84,7 +84,7 @@ const JobListings = () => {
             </div>
 
             {/* Right Content */}
-            <div className="space-y-4 px-6 md:block hidden">
+            <div className="space-y-4 px-6 md:block hidden md:w-[70%]">
                 <div className="space-y-4 max-h-[500px] overflow-y-auto px-6 scrollbar-hide">
                     {filteredJobs.map((job) => (
                         <JobCard

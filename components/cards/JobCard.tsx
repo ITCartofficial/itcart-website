@@ -23,7 +23,7 @@ const JobCard: React.FC<JobCardProps> = ({
     location,
     employmentType,
     jobCategory,
-    // jobDescriptionUrl,
+     jobDescriptionUrl,
     className = '',
     btnName
 }) => {
@@ -54,7 +54,7 @@ const JobCard: React.FC<JobCardProps> = ({
 
             <OutlineBtn
                 text={btnName ?? ''}
-                url={`/careers/13`}
+                url={`careers/${jobDescriptionUrl}`}
                 icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                 textColor="#ffffff"
                 showBorderaButton={true}

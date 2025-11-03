@@ -20,8 +20,6 @@ const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ about
                 {/* Left Content */}
                 <div className={`space-y-6 ${aboutProduct ? "md:order-2" : "md:order-1"}`}>
 
-                    {/* VerticalContentSection2Heading */}
-
                     <GradientTitle
                         text={VerticalContentSection2Heading ?? ''}
                         theme="dark"
@@ -38,10 +36,8 @@ const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ about
                     <p className="text-[16px] leading-relaxed  text-center md:text-start">
                         {contentthree}
                     </p>
-                    {/* contentthree */}
                 </div>
 
-                {/* Right Image */}
                 <div className={`flex justify-center ${aboutProduct ? "md:order-1" : "md:order-2"}`}>
                     <Image
                         src={image || "/placeholder.png"} // fallback in case image is undefined
@@ -51,16 +47,11 @@ const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ about
                         className="rounded-xl w-full max-w-md md:max-w-full object-cover"
                     />
                 </div>
-                {/* <div className={`flex justify-center ${aboutProduct ? "md:order-1" : "md:order-2"}`}>
-                    <img
-                        src={image}
-                        alt="VR Learning"
-                        className="rounded-xl w-full max-w-md md:max-w-full"
-                    />
-                </div> */}
             </div>
         </section>
     );
 };
 
 export default VerticalContentSection2;
+
+
