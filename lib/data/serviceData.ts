@@ -63,25 +63,25 @@ export const serviceData = [
           title: "Discovery & Assessment",
           description: "Identify business challenges and automation potential through comprehensive evaluation of current systems and strategic AI integration services planning. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Discovery & Assessment Icon.svg'
         },
         {
           title: "Design & Modeling",
           description: "Build custom AI/ML models based on specific data requirements and business objectives through advanced AI development services methodologies. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Design & Modeling Icon.svg'
         },
         {
           title: "Integration & Testing ",
           description: "Seamlessly deploy and validate AI & ML solutions and services within existing infrastructure with minimal disruption and comprehensive testing protocols. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Process Automation & Optimization Icon.svg'
         },
         {
           title: "Monitoring & Optimization",
           description: "Continuously track performance and refine models through ongoing AI and ML consulting services ensuring sustained business value and growth. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Monitoring & Optimization Icon.svg'
         }
       ],
 
@@ -120,28 +120,28 @@ export const serviceData = [
       ],
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/Process Automation & Optimization Icon.svg',
           title: "Process Automation & Optimization",
           highlight: "Streamline workflows with advanced AI and ML automation services reducing manual intervention by 40-70% through self-optimizing business processes. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Advanced Data Analytics Icon.svg',
           title: "Advanced Data Analytics",
           highlight: "Leverage comprehensive AI development services for predictive insights enabling real-time decision-making capabilities and actionable business intelligence solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/System Integration & Deployment Icon.svg',
           title: "System Integration & Deployment ",
           highlight: "Seamless artificial intelligence integration services connecting CRM, ERP, and legacy systems with minimal disruption implementation and optimal connectivity. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Industry-Specific Solutions Icon.svg',
           title: "Industry-Specific Solutions",
           highlight: "Customized AI & ML solutions and services focused on healthcare, finance, and manufacturing with compliance-ready architecture and industry expertise. ",
           description: "",
@@ -222,28 +222,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent application development and seamless enterprise integration ensuring optimal performance. ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/Custom Application Development Icon.svg',
           title: "Custom Application Development ",
           highlight: "Build modern, scalable applications from the ground up using our web application development services tailored to your business needs. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Application Modernization Services Icon.svg',
           title: "Application Modernization Services",
           highlight: "Transform legacy systems into competitive advantages through our application outsourcing services and modernization expertise without business disruption. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Enterprise Application Integration Icon.svg',
           title: "Enterprise Application Integration",
           highlight: "Seamlessly connect AI systems with CRMs, ERPs, and legacy infrastructure through our specialized integration services. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Application Performance Monitoring Icon.svg',
           title: "Application Performance Monitoring",
           highlight: "Ensure reliability, security, and uptime with 24/7 application performance monitoring solutions and proactive system management. ",
           description: "",
@@ -291,25 +291,25 @@ export const serviceData = [
           title: "Discovery & Planning",
           description: "We begin by understanding your business goals, technical requirements, and user needs through comprehensive stakeholder workshops. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Discovery & Planning Icon.svg'
         },
         {
           title: "Architecture & Design",
           description: "We architect scalable, secure, and high-performance systems tailored to your long-term needs with intuitive user experiences.",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Architecture & Design Icon.svg'
         },
         {
           title: "Agile Development",
           description: "We use agile development models ensuring fast iterations, transparent progress, and early value delivery through sprint cycles. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Agile Development Icon.svg'
         },
         {
           title: "QA & Security Testing",
           description: "Every application is tested rigorously for performance, security, and functionality with vulnerability and penetration testing protocols. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/QA & Security Testing Icon.svg'
         }
       ],
       whyChooseUsHeading: 'WHY CHOOSE US',
@@ -416,28 +416,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for unified data integration and intelligent analytics ensuring optimal business performance. ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/Data Warehousing Integration Icon.svg',
           title: "Data Warehousing Integration",
           highlight: "Consolidate, organize and create accessible data environments through comprehensive business intelligence data integration services for unified information management. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Real-Time Reporting Analytics Icon.svg',
           title: "Real-Time Reporting Analytics",
           highlight: "Monitor performance through BI solutions delivering data visualization and interactive dashboards that update instantly with actionable insights. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Self-Service Business Intelligence Icon.svg',
           title: "Self-Service Business Intelligence",
           highlight: "Empower non-technical users to create custom reports and dashboards without relying on IT support through intuitive self-service capabilities. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Advanced Analytics Forecasting Icon.svg',
           title: "Advanced Analytics Forecasting",
           highlight: "Predict trends, sales, and risks before they happen using advanced analytics and BI software enabling proactive business decisions. ",
           description: "",
@@ -485,25 +485,27 @@ export const serviceData = [
           title: "Discovery & Assessment ",
           description: "We understand your data landscape, business objectives, and pain points through comprehensive analysis and stakeholder consultations. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Discovery & Assessment Icon.svg'
+
+          // Discovery & Assessment Icon
         },
         {
           title: "Design & Planning",
           description: "Develop solution roadmap, select technology stack, and outline integration strategy customized for your business intelligence services requirements. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Design & Planning Icon.svg'
         },
         {
           title: "Business Intelligence Implementation",
           description: "Build data pipelines, dashboards, and custom reports designed for your team through systematic business intelligence implementation processes. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Business Intelligence Implementation Icon.svg'
         },
         {
           title: "Enablement & Training",
           description: "Ensure all users are equipped to leverage BI tools effectively through comprehensive training and ongoing support programs.",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Enablement & Training Icon.svg'
         }
       ],
       whyChooseUsHeading: 'Why Choose iTCart for Business Intelligence',
@@ -610,28 +612,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent cloud infrastructure management and automated monitoring ensuring optimal performance. ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/Cloud Infrastructure Management Icon.svg',
           title: "Cloud Infrastructure Management",
           highlight: "Provisioning, scaling, and patch management across multi-cloud and hybrid environments with role-based access and comprehensive policy controls. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/AI-Powered Monitoring & Observability Icon.svg',
           title: "AI-Powered Monitoring & Observability",
           highlight: "Real-time log analysis, alerting, anomaly detection, synthetic monitoring, and APM with auto-healing scripts and predictive alerting capabilities. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Cloud Security & Governance Icon.svg',
           title: "Cloud Security & Governance",
           highlight: "Vulnerability scanning, patching, compliance audits through cloud performance management solutions with IAM management and data encryption enforcement. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Cloud Monitoring Services Icon.svg',
           title: "24/7 Cloud Monitoring Services",
           highlight: "Always-on support, remediation, incident response, and proactive maintenance ensuring maximum uptime and optimal cloud infrastructure performance. ",
           description: "",
@@ -679,25 +681,25 @@ export const serviceData = [
           title: "Cloud Assessment",
           description: "Comprehensive evaluation of existing infrastructure, workloads, and requirements to develop tailored cloud operations services and migration strategies. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Cloud Assessment Icon.svg'
         },
         {
           title: "Strategy & Planning",
           description: "Design optimal cloud architecture with security, compliance, and performance considerations integrated throughout the cloud infrastructure management services framework through expert cloud strategy consulting services.. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Strategy & Planning Icon.svg'
         },
         {
           title: "Implementation & Migration",
           description: "Seamless deployment of cloudops automation solutions with minimal disruption, comprehensive testing, and validated performance benchmarks. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Implementation & Migration Icon.svg'
         },
         {
           title: "Monitoring & Optimization",
           description: "Continuous cloud monitoring services with real-time alerting, performance tuning, and proactive optimization for sustained operational excellence. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Cloud Monitoring Services Icon.svg'
         }
       ],
       whyChooseUsHeading: 'Why Choose US ',
@@ -804,28 +806,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent threat identification and seamless security integration ensuring optimal digital protection. ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/AI Driven Threat Detection and Response Icon.svg',
           title: "AI Driven Threat Detection and Response",
           highlight: "Advanced AI driven threat detection and response solutions providing real-time alerting, forensics, root cause analysis, and post-incident recovery planning for comprehensive protection. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Next Generation Endpoint Protection Icon.svg',
           title: "Next Generation Endpoint Protection",
           highlight: "Superior Next Generation Endpoint Protection securing every device across your organization through end point detection, response capabilities, antivirus, and remote device control. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Cybersecurity Compliance Solutions Icon.svg',
           title: "Cybersecurity Compliance Solutions",
           highlight: "Comprehensive cybersecurity compliance solutions ensuring adherence to GDPR, ISO 27001, PCI-DSS, HIPAA regulatory frameworks and industry-specific standards. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Cybersecurity Risk Management Services Icon.svg',
           title: "Cybersecurity Risk Management Services",
           highlight: "Strategic cybersecurity risk management services including proactive threat assessments, continuous monitoring, and comprehensive risk mitigation strategies for organizational resilience. ",
           description: "",
@@ -873,25 +875,25 @@ export const serviceData = [
           title: "Comprehensive Assessment",
           description: "Conducting thorough organizational security evaluations to establish current cybersecurity posture and identify vulnerabilities through comprehensive risk analysis. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Comprehensive Assessment Icon.svg'
         },
         {
           title: "Strategic Design Plannin",
           description: "Building tailored cybersecurity architectures and governance frameworks aligned with organizational goals and risk tolerance levels for optimal protection. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Strategic Design Plannin Icon.svg'
         },
         {
           title: "Implementation Deployment",
           description: "Executing designed security controls, technologies, and processes across organizational infrastructure ensuring comprehensive cyber security management coverage. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Implementation Deployment Icon.svg'
         },
         {
           title: "Continuous Monitoring Optimization",
           description: "Real-time threat identification and intelligence gathering maintaining optimal protection against evolving cyber threats through advanced monitoring capabilities. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Continuous Monitoring Optimization Icon.svg'
         }
       ],
       whyChooseUsHeading: 'Why Choose iTCart?',
@@ -998,28 +1000,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent data processing and seamless analytics integration ensuring optimal business intelligence. ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/Data Integration and Management Services Icon.svg',
           title: "Data Integration and Management Services",
           highlight: "Real-time and batch data ingestion with comprehensive data cleansing, deduplication, and transformation processes for unified data environments. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Business Intelligence & Dashboards Icon.svg',
           title: "Business Intelligence & Dashboards",
           highlight: "Executive dashboards with KPIs and drilldowns, departmental analytics for Finance, Sales, HR, Operations with interactive self-service capabilities.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Predictive & Advanced Analytics Icon.svg',
           title: "Predictive & Advanced Analytics",
           highlight: "Forecasting, clustering, regression modeling with customer churn prediction, sales forecasting, and sophisticated anomaly detection algorithms. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/AI & ML-Powered Decision Intelligence Icon.svg',
           title: "AI & ML-Powered Decision Intelligence",
           highlight: "Model training, validation, and deployment with AI-driven what-if analysis, scoring engines, and real-time recommendation systems. ",
           description: "",
@@ -1067,25 +1069,25 @@ export const serviceData = [
           title: "Data Discovery & Assessment",
           description: "Comprehensive analysis of existing data landscape, identifying common challenges in data analytics and analytics opportunities aligned with business objectives. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Data Discovery & Assessment Icon.svg'
         },
         {
           title: "Architecture & Design",
           description: "Design scalable data architecture with appropriate technology stack selection, integration strategies, and governance frameworks for long-term success. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Architecture & Design Icon.svg'
         },
         {
           title: "Implementation & Integration",
           description: "Deploy data pipelines, analytics platforms, and visualization tools with seamless integration across existing enterprise systems and workflows. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Implementation & Integration Icon.svg'
         },
         {
           title: "Model Development & Training",
           description: "Build and validate predictive models using advanced machine learning techniques tailored to specific business use cases and requirements. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Model Development & Training Icon.svg'
         }
       ],
       whyChooseUsHeading: 'Why Choose iTCart for Data Analytics Services',
@@ -1192,28 +1194,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent development automation and seamless deployment integration ensuring optimal software delivery performance. ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/DevOps Implementation Services Icon.svg',
           title: "DevOps Implementation Services",
           highlight: "Complete DevOps implementation services from assessment to deployment, ensuring seamless integration with existing systems through proven methodologies and frameworks. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/DevOps Automation Services Icon.svg',
           title: "DevOps Automation Services",
           highlight: "Advanced DevOps automation services including CI/CD pipeline automation, infrastructure as code, and continuous monitoring for rapid, error-free software releases. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Azure DevOps Services Icon.svg',
           title: "Azure DevOps Services",
           highlight: "Comprehensive Azure DevOps services leveraging Microsoft's platform for seamless cloud transitions, automation, and enterprise-grade DevOps infrastructure management. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/DevOps Containerization Service Icon.svg',
           title: "DevOps Containerization Service",
           highlight: "Expert DevOps containerization services implementing Docker, Kubernetes orchestration, and microservices architecture for scalable, portable applications and enhanced deployment flexibility. ",
           description: "",
@@ -1261,25 +1263,25 @@ export const serviceData = [
           title: "Assessment & Roadmap Development",
           description: "Thorough evaluation of existing software development lifecycles, identifying bottlenecks and defining clear DevOps vision aligned with organizational objectives. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Assessment & Roadmap Development Icon.svg'
         },
         {
           title: "Cross-Functional Team Building",
           description: "Assembling diverse stakeholder teams with unique skills maximizing implementation outcomes and ensuring buy-in across development, operations, and business units. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Cross-Functional Team Building Icon.svg'
         },
         {
           title: "Measurable KPI-Driven Strategy",
           description: "Establishing specific targets for deployment frequency, lead time, and mean time to recovery while tracking continuous improvement metrics. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Measurable KPI-Driven Strategy Icon.svg'
         },
         {
           title: "Phased Implementation Approach",
           description: "Starting with less critical applications to build confidence and refine processes before tackling mission-critical systems ensuring scalable adoption. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Phased Implementation Approach Icon.svg'
         }
       ],
       whyChooseUsHeading: 'Why Choose iTCart?',
@@ -1386,28 +1388,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent commerce management and seamless multi-channel integration ensuring optimal business performance. ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/Comprehensive E-Commerce Solutions Icon.svg',
           title: "Comprehensive E-Commerce Solutions",
           highlight: "Launch and scale your business with e-commerce platform services supporting product management, order fulfillment, inventory synchronization, and Advanced Ecommerce Analytics for real-time insights. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/B2B E-Commerce Solutions Icon.svg',
           title: "B2B E-Commerce Solutions",
           highlight: "Specialized B2B e-commerce solutions designed for wholesale operations including custom pricing, bulk ordering, account management, and enterprise-level integration capabilities. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Multi-Channel Retail Integration Icon.svg',
           title: "Multi-Channel Retail Integration",
           highlight: "Connect your store with ERPs, CRMs, POS platforms, and marketplaces through our E-commerce integration services creating unified, efficient multi-channel retail solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Advanced Ecommerce Analytics Icon.svg',
           title: "Advanced Ecommerce Analytics",
           highlight: "Actionable insights through comprehensive Advanced Ecommerce Analytics platform delivering real-time performance data and predictive intelligence for smarter decision-making. ",
           description: "",
@@ -1455,25 +1457,25 @@ export const serviceData = [
           title: "Discovery & Consultation",
           description: "Understand your vision, customers, and goals to deliver tailored digital commerce consulting services aligned with business objectives. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Discovery & Consultation Icon.svg'
         },
         {
           title: "Solution Design Architecture",
           description: "Architecting B2B e-commerce solutions and affordable e-commerce solutions suited to your business model and technical requirements. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Solution Design Architecture Icon.svg'
         },
         {
           title: "Development & Integration",
           description: "Implement, customize, and connect systems through comprehensive E-commerce integration services for smooth operations and optimal performance. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Development & Integration Icon.svg'
         },
         {
           title: "Launch & Training Support",
           description: "Go live with confidence—your team receives full onboarding and comprehensive training for managing e-commerce platform services. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Launch & Training Support Icon.svg'
         }
       ],
       whyChooseUsHeading: 'Why Choose iTCart?',
@@ -1580,28 +1582,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent business modernization and seamless digital integration ensuring optimal transformation performance. ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/Strategic Digital Consulting Icon.svg',
           title: "Strategic Digital Consulting",
           highlight: "Expert digital transformation consulting guidance aligning digital initiatives with business objectives through comprehensive enterprise digital transformation strategy development and implementation. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Technology Integration Architecture.svg',
           title: "Technology Integration Architecture",
           highlight: "Advanced digital transformation technologies evaluation, selection, and implementation ensuring seamless integration with existing systems while scaling for future growth. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Business Process Automation Icon.svg',
           title: "Business Process Automation",
           highlight: "Intelligent process automation through digital transformation solutions eliminating manual inefficiencies and optimizing workflows for enhanced operational excellence. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Data Analytics Foundation Icon.svg',
           title: "Data Analytics Foundation",
           highlight: "Comprehensive data analytics integration transforming raw organizational data into actionable business intelligence through advanced digital modernization services platforms. ",
           description: "",
@@ -1649,25 +1651,25 @@ export const serviceData = [
           title: "Strategic Assessment Planning",
           description: "Comprehensive business assessment identifying transformation opportunities and developing strategic roadmaps aligned with organizational objectives and market positioning. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Strategic Assessment Planning Icon.svg'
         },
         {
           title: "Technology Integration Architecture",
           description: "Systematic evaluation and implementation of digital transformation technologies ensuring seamless integration with existing systems while enabling future scalability. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Technology Integration Architecture.svg'
         },
         {
           title: "Implementation Change Execution",
           description: "Agile project management combined with comprehensive change management ensuring successful technology adoption and organizational transformation. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Implementation Change Execution Icon.svg'
         },
         {
           title: "Continuous Monitoring Optimization",
           description: "Ongoing performance monitoring and optimization through digital transformation consulting services ensuring sustained value delivery and competitive advantage. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Continuous Monitoring Optimization Icon.svg'
         }
       ],
       whyChooseUsHeading: 'WHY CHOOSE US? ',
@@ -1753,7 +1755,7 @@ export const serviceData = [
     title: "IoT Services",
     description: "IoT implementation, connected device management, and smart solution development for enhanced automation and operational visibility. ",
     linkUrl: "/services/iot-services",
-    imageSrc: "/images/services/IoT-service.png",
+    imageSrc: "/images/services/managed-it-serviceBanner.png",
     detailPage: {
       serviceName: 'IoT Services',
       bannerButtonText: "Get in touch",
@@ -1774,28 +1776,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent device connectivity and seamless IoT integration ensuring optimal business performance. ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/IoT Device Management Solutions Icon.svg',
           title: "IoT Device Management Solutions",
           highlight: "Comprehensive device monitoring, security management, and remote configuration capabilities enabling seamless IoT connectivity services across all connected ecosystems. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Custom IoT Solutions Icon.svg',
           title: "Custom IoT Solutions",
           highlight: "Tailored IoT development services including sensor integration, cloud telemetry, and AI-driven analytics designed specifically for your industry requirements. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/IoT Connectivity Services Icon.svg',
           title: "IoT Connectivity Services",
           highlight: "Advanced communication protocols and network management ensuring reliable, secure connectivity across all IoT devices and enterprise systems integration",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Internet of Things Consulting Services Icon.svg',
           title: "Internet of Things Consulting Services",
           highlight: "Strategic IoT technology services planning from initial assessment to full deployment, optimizing IoT in business operations for maximum ROI. ",
           description: "",
@@ -1843,25 +1845,25 @@ export const serviceData = [
           title: "Strategic Assessment & Planning",
           description: "Comprehensive business evaluations identifying specific IoT objectives and high-impact use cases tailored to your industry through expert consulting. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Strategic Assessment & Planning Icon.svg'
         },
         {
           title: "Component Selection & Integration",
           description: "Optimal IoT hardware and software selection ensuring seamless interoperability with existing systems through comprehensive technology assessment. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Component Selection & Integration Icon.svg'
         },
         {
           title: "Prototype Development & Testing",
           description: "Controlled pilot implementations validating IoT solutions before full-scale deployment, including real-time testing under varying operational conditions. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Prototype Development & Testing Icon.svg'
         },
         {
           title: "Security-First Deployment & Monitoring",
           description: "Enterprise-grade security measures including encryption, authentication, and continuous monitoring embedded throughout IoT ecosystem implementation and operations. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Security-First Deployment & Monitoring Icon.svg'
         }
       ],
       whyChooseUsHeading: 'Why Choose iTCart',
@@ -1975,28 +1977,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent IT management and seamless infrastructure optimization ensuring optimal business performance. ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/images/services/icons/Network Management Services Icon.svg',
           title: "Network Management Services",
           highlight: "Comprehensive monitoring, maintenance, and optimization of all network devices through our managed IT services ensuring maximum uptime and performance. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Cybersecurity Solutions Icon.svg',
           title: "Cybersecurity Solutions",
           highlight: "Advanced protection against viruses, malware, phishing, and cyber threats through comprehensive managed technology services and proactive security monitoring. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Cloud Infrastructure Solutions Icon.svg',
           title: "Cloud Infrastructure Solutions",
           highlight: "Complete cloud management services including migration, optimization, and ongoing support across AWS, Azure, and GCP platforms. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Remote Monitoring and Management Icon.svg',
           title: "Remote Monitoring and Management",
           highlight: "Proactive monitoring approach preventing downtime through real-time issue detection, instant resolutions, and automated maintenance protocols. ",
           description: "",
@@ -2044,25 +2046,25 @@ export const serviceData = [
           title: "Discovery & Assessment",
           description: "We analyze your technology landscape, pain points, security posture, and business objectives through comprehensive IT consulting services evaluation. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Discovery & Assessment Icon.svg'
         },
         {
           title: "Strategy Design & Onboarding",
           description: "Develop comprehensive IT roadmap and seamless onboarding with minimal disruption through our managed IT services implementation methodology. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Strategy Design & Onboarding Icon.svg'
         },
         {
           title: "Implementation & Integration",
           description: "Deploy security solutions, network updates, and cloud infrastructure solutions as needed with complete systems integration and optimization. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Implementation & Integration Icon.svg'
         },
         {
           title: "Remote Monitoring & Support",
           description: "Continuous remote monitoring and management with proactive maintenance, 24/7 IT support and maintenance services ensuring optimal performance. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Remote Monitoring and Management Icon.svg'
         }
       ],
       whyChooseUsHeading: 'Why Choose iTCart for Managed IT Services',
@@ -2148,7 +2150,7 @@ export const serviceData = [
     title: "Startup Services",
     description: "Offering expert consultation, product development  and customized IT services to nurture innovation, security, and growth in a competitive business landscape.",
     linkUrl: "/services/startup-services",
-    imageSrc: "/images/services/Startup-Service.png",
+    imageSrc: "/images/services/startup-servicebanner.png",
     detailPage: {
       serviceName: 'Startup Services',
       bannerButtonText: "Get in touch",
@@ -2169,28 +2171,28 @@ export const serviceData = [
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent startup development and seamless market entry ensuring optimal business growth.',
       skillGapSection: [
         {
-          icon: '/images/services/icons/manicon.png',
+          icon: '/images/services/icons/Startup Consulting Services Strategy Icon.svg',
           title: "Startup Consulting Services Strategy",
           highlight: "Comprehensive startup consulting services including idea validation, market research, competitor benchmarking, and feasibility studies through expert startup business consultants. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Custom Software Development for Startups Icon.svg',
           title: "Custom Software Development for Startups",
           highlight: "Specialized custom software development for startups offering cost-effective, scalable development teams tailored to your tech stack from frontend to backend solutions.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/Digital Transformation for Startups Icon.svg',
           title: "Digital Transformation for Startups",
           highlight: "Complete digital transformation for startups including cloud-native architecture, automation, and modern technology integration ensuring competitive advantage and scalability. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/images/services/icons/AI Integration for Startups Icon.svg',
           title: "AI Integration for Startups",
           highlight: "Cutting-edge AI integration for startups including machine learning, automation, and intelligent analytics ensuring competitive advantage through advanced technology adoption.",
           description: "",
@@ -2238,25 +2240,25 @@ export const serviceData = [
           title: "Discovery & Validation",
           description: "Comprehensive market research, idea validation, and feasibility analysis through expert startup business consultants ensuring strong foundation for startup success.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Discovery & Validation Icon.svg'
         },
         {
           title: "Design & Prototyping",
           description: "Rapid prototyping and MVP development with custom software development for startups enabling quick market testing and feedback integration.",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Design & Prototyping Icon.svg'
         },
         {
           title: "Development & Integration",
           description: "Agile development methodologies with AI integration for startups and digital transformation ensuring efficient product delivery and market readiness. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Development & Integration Icon.svg'
         },
         {
           title: "Launch & Scale",
           description: "Product launch support with branding solutions for startups, affordable SaaS backup software, and comprehensive analytics ensuring sustained growth. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/vertical/icons/manicon.png'
+          icon: '/images/services/icons/Launch & Scale Icon.svg'
         }
       ],
       whyChooseUsHeading: 'Why Choose iTCart?',

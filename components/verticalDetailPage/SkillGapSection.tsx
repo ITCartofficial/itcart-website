@@ -122,7 +122,7 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
                 />
             </div>
 
-            <div className="max-w-7xl mx-auto flex flex-col items-center lg:flex-row lg:flex-nowrap gap-10 md:mt-20 justify-center">
+            <div className="max-w-7xl mx-auto flex flex-col items-center lg:items-start lg:flex-row lg:flex-nowrap gap-10 md:mt-20 justify-center">
                 {(skillGapSection ?? []).map((item, index) => (
                     <div
                         key={index}
@@ -141,7 +141,7 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
                                 <Image
                                     src={item?.icon || ""}
                                     alt={item?.title || "icon"}
-                                    className="w-15 h-15 text-white hover:invert brightness-0 "
+                                    className="w-10 h-10 invert brightness-0 "
                                     width={600}
                                     height={400}
                                 />

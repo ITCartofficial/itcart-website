@@ -37,16 +37,6 @@ function JobForm({ filteredJob }: { filteredJob: Job }) {
         e.preventDefault();
         setLoading(true);
 
-        // const formData = {
-        //     fullName: name,
-        //     email,
-        //     phone,
-        //     coverLetter,
-        //     resumeLink,
-        //     jobTitle: filteredJob?.title,
-        //     jobId: filteredJob?.jobId,
-        // };
-
         try {
             const scriptURL = "https://script.google.com/macros/s/AKfycbz1Vye7oexocmXMKWXMd_fUztNPBcjPEnAUu__hY5UTeTkNz5A0kHblIZ7sjlxHDu2o/exec";
 
