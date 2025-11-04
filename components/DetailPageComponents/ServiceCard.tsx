@@ -36,25 +36,21 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ className, serviceCardHeading
                         {(serviceCardItems ?? []).map((feature, index) => (
                             <div
                                 key={index}
-                                className={`rounded-3xl p-8 bg-zinc-900 hover:bg-[#2BADB7]  text-[#2BADB7] hover:text-white`}
+                                className={`group rounded-3xl p-8 bg-zinc-900 hover:bg-[#2BADB7] text-[#2BADB7] hover:text-white transition-colors duration-300`}
                             >
-                                <div className="mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[#2BADB7] overflow-hidden">
+                                <div className="mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[#2BADB7] group-hover:bg-white transition-colors duration-300 overflow-hidden">
                                     <Image
                                         src={feature?.icon || "/fallback-icon.png"}
                                         alt={feature?.title || "icon"}
                                         width={32}
                                         height={32}
-                                        className="object-contain"
+                                        className="object-contain transition-all duration-300 invert group-hover:invert-0"
                                     />
                                 </div>
-                                <h3
-                                    className={`mb-2 text-xl font-semibold `}
-                                >
+                                <h3 className="mb-2 text-xl font-semibold">
                                     {feature.title}
                                 </h3>
-                                <p
-                                    className={`text-sm leading-relaxed text-[#FFFFFF] `}
-                                >
+                                <p className="text-sm leading-relaxed text-[#FFFFFF]">
                                     {feature.description}
                                 </p>
                             </div>
