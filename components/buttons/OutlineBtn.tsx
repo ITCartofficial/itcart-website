@@ -18,15 +18,21 @@ const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, icon, width, textColor, c
                     <a
                         onMouseLeave={() => setChangeBtn(false)}
 
-                        href={url || ""}
+                        href={url || "#"}
+                        onClick={(e) => {
+                            if (!url) e.preventDefault(); // stop reload
+                            onClick?.();
+                        }}
                         // onClick={onClick}
-                        className={`decoration-0  ${width == "full" ? "min-w-full" : "min-w-[160px]"} py-3 px-4 w-max  group w-max  ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`} onClick={onClick}
                         //             className={`decoration-0 py-3 anim-outline-btn
                         //              px-7 group w-max flex items-center justify-center gap-2 cursor-pointer
                         //    rounded transition-all duration-300 ease-in-out
                         //   bg-[#01FFFF] hover:bg-cyan-300 
                         //   border-1 border-white
                         //   ${theme} ${className}`}
+                        className={`decoration-0  ${width == "full" ? "min-w-full" : "min-w-[160px]"} py-3 px-4 w-max  group w-max  ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`}
+                        // onClick={onClick}
+
 
                         style={{
                             border: '.5px solid transparent',
@@ -53,8 +59,13 @@ const OutlineBtn: React.FC<OutlineBtnProps> = ({ text, icon, width, textColor, c
                     <a
                         onMouseEnter={() => setChangeBtn(true)}
                         onMouseLeave={() => setChangeBtn(false)}
-                        href={url || ""}
-                        className={`decoration-0 anim-outline-btn ${width ? "min-w-full" : "min-w-[160px]"} py-3 px-4 w-max  group w-max  ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`} onClick={onClick}
+                        href={url || "#"}
+                        onClick={(e) => {
+                            if (!url) e.preventDefault(); // stop reload
+                            onClick?.();
+                        }}
+                        className={`decoration-0 anim-outline-btn ${width ? "min-w-full" : "min-w-[160px]"} py-3 px-4 w-max  group w-max  ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`}
+                        // onClick={onClick}
                         // className={`decoration-0 
                         //      px-7
                         //     py-3  w-max group ${theme} flex items-center justify-center gap-2 cursor-pointer ${className}`}
