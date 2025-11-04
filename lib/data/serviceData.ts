@@ -1755,7 +1755,7 @@ export const serviceData = [
     title: "IoT Services",
     description: "IoT implementation, connected device management, and smart solution development for enhanced automation and operational visibility. ",
     linkUrl: "/services/iot-services",
-    imageSrc: "/images/services/managed-it-serviceBanner.png",
+    imageSrc: "/images/services/iot-services-image.png",
     detailPage: {
       serviceName: 'IoT Services',
       bannerButtonText: "Get in touch",
@@ -1928,9 +1928,6 @@ export const serviceData = [
         }
       ],
 
-
-
-
       showShadedBackground: true,
       VerticalContentSection2: {
         contentOne: "Transform your organization's fragmented digital workspace into an intelligent, unified platform that eliminates software sprawl while boosting productivity through AI-driven automation and seamless Microsoft 365 integration. ",
@@ -1956,7 +1953,7 @@ export const serviceData = [
     title: "Managed IT Services",
     description: "Comprehensive IT infrastructure management, 24/7 monitoring, help desk support, and proactive maintenance ensuring optimal technology performance reliability. ",
     linkUrl: "/services/managed-it-services",
-    imageSrc: "/images/services/managed-it-service.png",
+    imageSrc: "/images/services/Managed IT Services-image.png",
     detailPage: {
       serviceName: 'Managed IT Services',
       bannerButtonText: "Get in touch",
