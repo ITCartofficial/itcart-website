@@ -6,9 +6,18 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 
+interface Employee {
+    name: string;
+    email: string;
+    phone: string;
+    department: string;
+    employeeId: string;
+    image: string;
+}
+
 function EmployeePage() {
 
-    const [employeeData, setEmployeeData] = useState();
+    const [employeeData, setEmployeeData] = useState<Employee | null>(null);
 
     const pathName = usePathname()
 
@@ -59,7 +68,17 @@ END:VCARD
             <div className="bg-[#1a1a1a] text-white p-6 rounded-2xl mx-auto flex flex-col space-y-5 mt-10">
                 {/* Image */}
                 <div className="w-full h-[250px] overflow-hidden rounded-xl mt-4">
-                    <Image
+                    {employeeData?.image && (
+                        <Image
+                            src={employeeData.image}
+                            alt={employeeData.name || "Employee Image"}
+                            width={400}
+                            height={400}
+                            className="w-full h-full object-cover"
+                            priority
+                        />
+                    )}
+                    {/* <Image
                         // image
                         src={employeeData?.image}
                         alt="Digital Workplace"
@@ -67,13 +86,13 @@ END:VCARD
                         height={400}
                         className="w-full h-full object-cover"
                         priority
-                    />
+                    /> */}
                 </div>
 
                 {/* Heading */}
                 <div>
                     <GradientTitle
-                        text={employeeData?.name}
+                        text={employeeData?.name ?? ""}
                         theme="dark"
                         className="text-[34px] sm:text-[32px] md:text-[38px] leading-[1.2]"
                     />
