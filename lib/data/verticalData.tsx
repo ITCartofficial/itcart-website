@@ -7,7 +7,7 @@ export const verticalData = [
         compenyName: 'AiXHub',
         verticalCompenyLogo: '/images/vertical/AiXHub.png/images/verticalLogos/AiXHub.png',
         //  compenyLogo: '/images/verticalLogos/AiXBFS.png',
-        compenyLogo: '/images/verticalLogos/aixhub.png',
+        compenyLogo: '/images/verticalLogos/aixhublogo.png',
         detailPage: {
             bannerTitle: "AI-Powered Social Intranet That Works Smart ",
             bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform ",
@@ -1481,7 +1481,6 @@ export const verticalData = [
             about2SecondParagraph: 'Powered by the proprietary AiXHub™ engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
-
     {
         title: "IoT Services",
         description: "IoT-powered platform optimizing fuel efficiency, asset lifecycle, and safety for heavy vehicles and machinery operations.",
@@ -1622,7 +1621,6 @@ export const verticalData = [
             about2SecondParagraph: 'Powered by the proprietary AiXHub™ engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
-
     {
         title: "Startup Services",
         description: "Real estate solutions digitizing property lifecycles with smart documentation, CRM, dashboards, and immersive virtual tours.",
