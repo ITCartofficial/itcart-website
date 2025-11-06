@@ -25,7 +25,7 @@ const OurVerticalsDetailPage = () => {
                     description={filterdItem?.detailPage?.bannerDescription ?? ""}
                     ctaText="Connect with Us"
                     ctaUrl="/contact-us"
-                    breadcrumbItems={[  
+                    breadcrumbItems={[
                         { label: 'Home', url: '/' },
                         { label: 'Our Verticals', url: '/services' }
                     ]}
@@ -75,6 +75,9 @@ const OurVerticalsDetailPage = () => {
                 <div className='bg-black container mx-auto lg:px-10'>
                     <AboutItCart
                         impactImage={filterdItem?.detailPage?.impactImage ?? ""}
+                        apropriectContentOne={filterdItem?.detailPage?.apropriectContentOne ?? ""}
+                        apropriectContenTwo={filterdItem?.detailPage?.apropriectContenTwo ?? ""}
+                        apropriectContentThree={""}
                     />
                 </div>
 
