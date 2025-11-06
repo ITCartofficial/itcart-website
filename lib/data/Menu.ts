@@ -27,7 +27,7 @@ export const navItems = [
   {
     label: "Solutions", href: "/solutions",
     submenu: [
-      { label: "AiXHub™ Internet", href: "/solutions/AiXHub™-Internet" },
+      { label: "AiXHubtm internet", href: "/solutions/AiXHub™-Internet" },
       { label: "Document Management System", href: "/solutions/Document-Management-System" },
       { label: "Digital Transformation Suite", href: "/solutions/Digital-Transformation-Suite" },
       { label: "Business Process Automation", href: "/solutions/Business-Process-Automation" },
