@@ -8,9 +8,27 @@ import OutlineBtn from '@/components/buttons/OutlineBtn'
 import { FaArrowRight } from 'react-icons/fa6'
 import MobileMenuButton from '@/components/buttons/MobileMenuButton'
 
+type SubMenuItem = {
+  label: string;
+  href: string;
+};
+
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [scrollPosition, setScrollPosition] = useState(0)
+  const [subMenu, setSubMenu] = useState<SubMenuItem[] | undefined>(undefined);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (target.closest('header')) return;
+      setSubMenu(undefined);
+    };
+    document.addEventListener('click', handleClickOutside);
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
 
   const handleScroll = () => {
     setScrollPosition(window.scrollY)
@@ -51,72 +69,97 @@ const Header: React.FC = () => {
   }, [isMenuOpen])
 
   return (
-    <header className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${scrollPosition > 30 ? 'bg-black backdrop-blur-sm shadow-lg' : 'bg-black '
-      }`}>
-      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-10">
-        <div className="flex items-center justify-between py-3 sm:py-3.5">
-          {/* Logo (Left) */}
-          <div className="flex-shrink-0 z-60">
-            <Logo />
+    <>
+
+      <header className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${scrollPosition > 30 ? 'bg-black backdrop-blur-sm shadow-lg' : 'bg-black '
+        }`}>
+        <div>
+          <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-10">
+            <div className="flex items-center justify-between py-3 sm:py-3.5">
+              {/* Logo (Left) */}
+              <div className="flex-shrink-0 z-60">
+                <Logo />
+              </div>
+
+              {/* Mobile Menu Button and Search */}
+              <div className="flex items-center gap-2 lg:hidden">
+                {/* <SearchButton /> */}
+                <MobileMenuButton isOpen={isMenuOpen} onClick={toggleMenu} />
+              </div>
+
+              {/* Desktop Navigation (Center) */}
+              <div className="hidden lg:flex justify-center flex-1">
+                <Navigation
+                  isMobile={false}
+                  subMenu={subMenu}
+                  setSubMenu={setSubMenu}
+                />
+              </div>
+
+              {/* Search and Contact Button (Right - Desktop) */}
+              <div className="hidden lg:flex items-center gap-4 flex-shrink-0  justify-end">
+                {/* <SearchButton /> */}
+                <OutlineBtn
+                  text="Contact us"
+                  url="/contact-us"
+                  textColor='#ffffff'
+                  icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+                />
+              </div>
+            </div>
           </div>
 
-          {/* Mobile Menu Button and Search */}
-          <div className="flex items-center gap-2 lg:hidden">
-            {/* <SearchButton /> */}
-            <MobileMenuButton isOpen={isMenuOpen} onClick={toggleMenu} />
-          </div>
+          {/* Mobile Menu Overlay */}
+          <div
+            className={`lg:hidden fixed inset-0 top-[60px] sm:top-[68px] bg-black/50 backdrop-blur-sm transition-all duration-300 ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+              }`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            {/* Mobile Menu Content */}
+            <div
+              className={`bg-slate-900/95 backdrop-blur-md w-full min-h-[calc(100vh-60px)] sm:min-h-[calc(100vh-68px)] transition-transform duration-300 ease-out ${isMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'
+                }`}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="container mx-auto px-4 sm:px-6 py-6">
+                {/* Mobile Navigation */}
+                <Navigation
+                  isMobile={true}
+                  className="mb-6"
+                  onLinkClick={() => setIsMenuOpen(false)}
+                />
 
-          {/* Desktop Navigation (Center) */}
-          <div className="hidden lg:flex justify-center flex-1">
-            <Navigation isMobile={false} />
-          </div>
-
-          {/* Search and Contact Button (Right - Desktop) */}
-          <div className="hidden lg:flex items-center gap-4 flex-shrink-0  justify-end">
-            {/* <SearchButton /> */}
-            <OutlineBtn
-              text="Contact us"
-              url="/contact-us"
-              textColor='#ffffff'
-              icon={<FaArrowRight className="text-sm font-semibold text-white" />}
-            />
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile Menu Overlay */}
-      <div
-        className={`lg:hidden fixed inset-0 top-[60px] sm:top-[68px] bg-black/50 backdrop-blur-sm transition-all duration-300 ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
-          }`}
-        onClick={() => setIsMenuOpen(false)}
-      >
-        {/* Mobile Menu Content */}
-        <div
-          className={`bg-slate-900/95 backdrop-blur-md w-full min-h-[calc(100vh-60px)] sm:min-h-[calc(100vh-68px)] transition-transform duration-300 ease-out ${isMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'
-            }`}
-          onClick={(e) => e.stopPropagation()}
-        >
-          <div className="container mx-auto px-4 sm:px-6 py-6">
-            {/* Mobile Navigation */}
-            <Navigation
-              isMobile={true}
-              className="mb-6"
-              onLinkClick={() => setIsMenuOpen(false)}
-            />
-
-            {/* Mobile Contact Button */}
-            <div className="pt-4 border-t border-slate-700">
-              <OutlineBtn
-                url='/contact-us'
-                text="Contact us"
-                textColor='#ffffff'
-                icon={<FaArrowRight className="text-sm font-semibold text-white" />}
-              />
+                {/* Mobile Contact Button */}
+                <div className="pt-4 border-t border-slate-700">
+                  <OutlineBtn
+                    url='/contact-us'
+                    text="Contact us"
+                    textColor='#ffffff'
+                    icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+        {Array.isArray(subMenu) && subMenu.length > 0 && (
+          <div className="w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-10 bg-[#151515] md:block hidden">
+            <div className="py-3 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+              {subMenu?.map((item, index) => (
+                <a
+                  key={index}
+                  href={item.href}
+                  className="text-white text-sm font-medium hover:text-cyan-300 transition-colors px-4 py-2 rounded-md text-center"
+                >
+                  {item.label}
+                </a>
+              ))}
+            </div>
+
+          </div>
+        )}
+      </header>
+    </>
   )
 }
 
