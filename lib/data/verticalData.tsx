@@ -1749,7 +1749,7 @@ export const verticalData = [
         description: "Motorsport analytics delivering vehicle diagnostics, telemetry, and race strategies for competitive edge and driver performance.",
         linkUrl: "/services/startup-services",
         imageSrc: "/images/services/startup-service.png",
-        compenyName: 'AiXMotersports',
+        compenyName: 'AiXMotorsports',
         verticalCompenyLogo: '/images/verticalLogos/AiXMotersports.png',
         compenyLogo: '/images/verticalLogos/AiXMotersports.png',
         detailPage: {

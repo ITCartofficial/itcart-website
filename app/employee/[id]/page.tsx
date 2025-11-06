@@ -37,9 +37,6 @@ function EmployeePage() {
         fetchEmployeeData();
     }, []); // runs once when page loads
 
-    console.log("employeeData", employeeData);
-
-
     const hanfleSaveContact = () => {
         const contact = {
             name: "Abhinav",
