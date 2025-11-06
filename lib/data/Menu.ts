@@ -11,6 +11,7 @@ export const navItems = [
       { label: "AiXBFS", href: "/our-verticals/AiXBFS" },
       { label: "AiXQP", href: "/our-verticals/AiXQP" },
       { label: "InsureAiX", href: "/our-verticals/InsureAiX" },
+      { label: "AiXDesk", href: "/our-verticals/AiXDesk" },
       { label: "AiXFintech", href: "/our-verticals/AiXFintech" },
       { label: "AiXHealthcare", href: "/our-verticals/AiXHealthcare" },
       { label: "AiXLifeCare", href: "/our-verticals/AiXLifeCare" },

@@ -2,7 +2,17 @@ import React from "react";
 import GradientTitle from "../typography/GradientTitle";
 import Image from "next/image";
 
-const AboutItCart = ({ impactImage }: { impactImage: string }) => {
+const AboutItCart = ({ impactImage,
+    apropriectContentOne,
+    apropriectContenTwo,
+    apropriectContentThree
+}:
+    {
+        impactImage: string,
+        apropriectContentOne: string,
+        apropriectContenTwo: string,
+        apropriectContentThree: string
+    }) => {
     const impacts = [
         "Achieve 76% higher learning efficiency compared to traditional platforms through personalized AI",
         "Increase course completion rates from industry average 15% to 85% using engagement",
@@ -106,7 +116,7 @@ const AboutItCart = ({ impactImage }: { impactImage: string }) => {
                         className={`w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center`}
                     >
                         {/* Left Content */}
-                        <div className={`space-y-6 md:order-1`}>
+                        <div className={`space-y-3 md:order-1`}>
 
                             <GradientTitle
                                 text="Our Proprietary AI Engine "
@@ -115,17 +125,15 @@ const AboutItCart = ({ impactImage }: { impactImage: string }) => {
                             />
 
                             <p className="text-white text-base md:text-lg leading-relaxed">
-                                AiXQP runs on <span className="font-bold">AiXHub™</span>, the core of the{" "}
-                                <span className="font-bold">AiX Framework</span>—bringing{" "}
-                                <span className="font-bold">deep AI automation</span>,{" "}
-                                <span className="font-bold">intelligent decision-making</span>, and{" "}
-                                <span className="font-bold">scalable performance</span> to your learning
-                                experience.
+                                {apropriectContentOne}
                             </p>
 
                             <p className="text-white text-base md:text-lg leading-relaxed">
-                                Whether you're a solo learner, training a team, or scaling an
-                                institution-wide learning program, AiXQP is ready to grow with you.
+                                {apropriectContenTwo}
+                            </p>
+
+                            <p className="text-white text-base md:text-lg leading-relaxed">
+                                {apropriectContentThree}
                             </p>
                         </div>
 
