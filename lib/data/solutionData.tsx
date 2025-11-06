@@ -1,6 +1,6 @@
 export const solutionData = [
   {
-    title: "AiXHub™ Internet",
+    title: "AiXHub Internet",
     description: "Consolidates resources, cultivates seamless collaboration and amplifies productivity via integrated tools, elevating communication, security, and organizational efficiency.",
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/solutions/ai_image.png",
@@ -13,7 +13,7 @@ export const solutionData = [
       aboutSectionHeading: 'Revolutionary Digital Transformation',
       aboutSection: {
         aboutImage: '/images/solutions/AiXHub-about.png',
-        contentOne: "Modern organizations need comprehensive enterprise collaboration platform featuring digital workplace solution, modern workplace transformation, business communication software, employee experience platform, workplace automation software enabling how AI transforms enterprise collaboration through intelligent intranet platforms. ",
+        contentOne: "Modern organizations demand an intelligent digital workplace that goes beyond basic communication — one that unifies automation, collaboration, and governance. AiXHub’s enterprise collaboration environment integrates AI decision execution, workflow automation, and adaptive intelligence to transform modern workplaces into connected, efficient, and compliant ecosystems. ",
         contenttwo: "",
         logo: ""
       },
@@ -22,32 +22,32 @@ export const solutionData = [
       futureItems: [
         {
           title: "Smart Collaboration",
-          description: "AI-enhanced communication tools to improve employee engagement and communication through comprehensive business communication software. ",
+          description: "AI-driven communication and project orchestration tools enhance engagement, transparency, and decision flow across departments through an intelligent collaboration framework. ",
           icon: "/images/solutions/futureSectionIcon.png",
         },
         {
           title: "Intelligent Automation",
-          description: "Benefits of intelligent intranet platforms via advanced workplace automation software reducing manual tasks. ",
+          description: "Workflows are automated through SLA-governed processes, adaptive routing, and decision intelligence — reducing manual interventions and ensuring accuracy at scale. ",
           icon: "/images/solutions/futureSectionIcon.png",
         },
         {
           title: "Employee Experience",
-          description: "Tools to improve employee engagement and communication through comprehensive employee experience platform capabilities. ",
+          description: "Personalized dashboards and contextual task automation empower employees through real-time feedback, recognition, and transparent performance tracking. ",
           icon: "/images/solutions/futureSectionIcon.png",
         },
         {
           title: "Modern Transformation",
-          description: "Complete modern workplace transformation supporting modern intranet for remote teams operations. ",
+          description: "Empowers distributed teams through secure, AI-orchestrated collaboration supporting hybrid and remote work environments. ",
           icon: "/images/solutions/futureSectionIcon.png",
         },
         {
           title: "AI Integration",
-          description: "How AI transforms enterprise collaboration through intelligent features and automated workflows. ",
+          description: "Leverages the AiXHub Enterprise Operating System to enable AI-native task execution, smart recommendations, and predictive process optimization.  ",
           icon: "/images/solutions/futureSectionIcon.png",
         },
         {
           title: "Microsoft 365",
-          description: "Seamless digital workplace integrated with Microsoft 365 providing unified productivity experiences. ",
+          description: "Seamless integration with Microsoft 365 delivers unified productivity — connecting Teams, SharePoint, Power Platform, and Azure AI for a single intelligent workplace.  ",
           icon: "/images/solutions/futureSectionIcon.png",
         },
       ],
@@ -56,19 +56,19 @@ export const solutionData = [
         {
           id: 1,
           title: "Collaboration Excellence",
-          description: "Complete enterprise collaboration platform solution featuring AI-powered user profiling, adaptive workspace arrangement, autonomous task automation, personalized recommendations, and comprehensive analytics capabilities. This integrated approach demonstrates how AI transforms enterprise collaboration through streamlined workflows while maintaining organized digital environments via comprehensive digital workplace solution. The system provides benefits of intelligent intranet platforms including scheduling, alerts, document management, and performance tracking with advanced business communication software supporting modern workplace transformation initiatives across departments. ",
+          description: "AiXHub unifies people, processes, and systems within a single AI-powered ecosystem that eliminates silos and enhances visibility across departments. Intelligent collaboration tools streamline task execution, automate approvals, and maintain SLA compliance. Teams can communicate in real time, co-author securely through Microsoft 365, and manage documents with embedded governance. The result is faster decisions, stronger accountability, and seamless teamwork across distributed environments.  ",
           imageSrc: "/images/solutions/AiXHub-collab1.png",
         },
         {
           id: 2,
           title: "Employee Empowerment ",
-          description: "Advanced employee experience platform delivering personalized dashboards, intelligent task management, real-time notifications, leadership directives, and comprehensive self-service capabilities. Our intelligent digital workplace solution provides transparent, measurable employee outcomes supporting organizational requirements through workplace automation software integration. The platform includes tools to improve employee engagement and communication through automated attendance tracking, leave management, feedback systems, and comprehensive milestone celebrations specifically designed as best digital workplace software for enterprises ensuring optimal user experiences. ",
+          description: "AiXHub delivers an adaptive employee experience through AI-personalized dashboards, smart task prioritization, and contextual recommendations. Employees gain real-time visibility into performance metrics, pending tasks, and achievements. Automated feedback loops and recognition systems improve engagement, while workflow transparency fosters accountability and trust. By merging automation with intuitive design, AiXHub ensures every employee contributes efficiently to organizational success while staying aligned with enterprise goals and values. ",
           imageSrc: "/images/solutions/AiXHub-collab2.png",
         },
         {
           id: 3,
           title: "AI-Powered Intelligence",
-          description: "Comprehensive connectivity supporting ERP, CRM, and business systems through robust APIs, digital workplace integrated with Microsoft 365, AI coaching capabilities, and enterprise-grade security controls ensuring seamless data flow. The integrated enterprise collaboration platform demonstrates benefits of intelligent intranet platforms including reporting, synchronization, predictive analytics, and comprehensive workflow management. Advanced workplace automation software includes emergency support systems, document management, and comprehensive collaboration supporting enhanced productivity delivery across diverse organizational requirements with modern intranet for remote teams capabilities. ",
+          description: "Built on AiXHub’s Enterprise Operating System, this layer powers real-time decision-making and execution intelligence. AI personas such as Workflow_AI and Governance_AI analyze context, predict risks, and enforce compliance autonomously. The system connects seamlessly with ERP, CRM, and Microsoft 365 to deliver predictive insights and SLA-driven automation. Organizations gain measurable improvements in speed, compliance, and decision accuracy, transforming their operations into intelligent, self-governing digital ecosystems. ",
           imageSrc: "/images/solutions/AiXHub-collab3.png",
         },
       ],
@@ -77,22 +77,22 @@ export const solutionData = [
       solutionGridItems: [
         {
           title: "Technology Companies",
-          description: "Modern intranet for remote teams with advanced collaboration tools, AI coaching, and comprehensive project management through enterprise intranet with workflow automation. ",
+          description: "Enable agile collaboration and project governance through AI-driven task orchestration and cross-department workflow automation. ",
           image: "/images/solutions/AiXHub-solution1.png"
         },
         {
           title: "Financial Services",
-          description: "Secure employee experience platform with regulatory compliance, document management, and comprehensive communication systems via best digital workplace software for enterprises.",
+          description: "Ensure compliant, SLA-governed communication, audit-ready documentation, and AI-assisted reporting across enterprise operations. ",
           image: "/images/solutions/AiXHub-solution2.png"
         },
         {
           title: "Healthcare Organizations",
-          description: "Digital workplace solution supporting patient data security, staff coordination, and comprehensive training management platforms with intelligent automation capabilities. ",
+          description: "Coordinate multidisciplinary teams with SLA-bound task automation, compliance logging, and AI-driven patient-flow collaboration. ",
           image: "/images/solutions/AiXHub-solution3.png"
         },
         {
           title: "Manufacturing Enterprises",
-          description: "Workplace automation software enabling shift management, safety protocols, and comprehensive operational coordination through enterprise intranet with workflow automation systems. ",
+          description: "Automate production communication, quality tracking, and shift coordination through a unified, AI-governed workplace. ",
           image: "/images/solutions/AiXHub-solution4.png"
         }
       ],
@@ -139,28 +139,28 @@ export const solutionData = [
       resultImage: '/images/solutions/AiXHub-result.png',
       results: [
         {
-          percentage: "89%",
-          label: "Employee satisfaction improvement rates",
+          percentage: "85%",
+          label: "Collaboration efficiency improvement",
         },
         {
-          percentage: "67%",
-          label: "Reduction in operational inefficiency",
+          percentage: "70%",
+          label: "Reduction in manual workflows ",
         },
         {
-          percentage: "78%",
-          label: "Increase in workflow productivity",
+          percentage: "92%",
+          label: "Increase in decision-making accuracy",
         },
         {
-          percentage: "86%",
-          label: "Faster task completion rates",
+          percentage: "95%",
+          label: "SLA compliance rates ",
         },
         {
-          percentage: "73%",
-          label: "Enhancement in customer experience engagement",
+          percentage: "88%",
+          label: "Employee engagement improvement",
         },
       ],
       aboutSolutionHeading: 'Transform Your Digital Workplace',
-      aboutSolutionDiscription: 'Revolutionize organizational productivity with intelligent enterprise collaboration platform delivering comprehensive transformation capabilities. ',
+      aboutSolutionDiscription: 'Reimagine productivity through the world’s first AI-Native Enterprise Operating System delivering unified collaboration, automation, and governance. ',
       aboutSolutionImage: '/images/solutions/AiXHub-aboutfinal.png',
       futurSectionHeading: "",
       futurSectionDescription: "",
@@ -169,37 +169,37 @@ export const solutionData = [
         {
           id: '1',
           title: 'What makes AiXHub different from other digital workplace solutions?',
-          content: "AiXHub integrates comprehensive AI transforms enterprise collaboration platform capabilities with Microsoft 365, delivering superior employee experience platform outcomes through intelligent automation and personalized interfaces."
+          content: " AiXHub is the world’s first AI-Native Enterprise Operating System integrating workflow automation, compliance, and Microsoft 365 — delivering real-time decision execution and intelligent collaboration.."
         },
         {
           id: '2',
           title: 'How does the modern workplace transformation process work?',
-          content: 'Our modern workplace transformation includes assessment, customization, training, and optimization phases typically completed within 8-16 weeks ensuring minimal disruption and maximum adoption.'
+          content: 'It follows iTCart’s UNITE framework: Unify systems, Navigate compliance, Integrate personas, Transform workflows, and Evolve through learning — completed within 8–16 weeks.'
         },
         {
           id: '3',
           title: 'Can AiXHub integrate with existing systems?',
-          content: 'Absolutely. Our digital workplace solution features robust APIs and pre-built integrations ensuring seamless connectivity with existing ERP, CRM, and business systems. '
+          content: ' Yes. AiXHub’s orchestration engine connects with ERP, CRM, HRMS, and legacy tools through secure APIs and Microsoft 365 integration.'
         },
         {
           id: '4',
-          title: 'What workplace automation software features are included?',
-          content: 'Our platform includes intelligent task management, automated notifications, workflow optimization, document management, and comprehensive performance tracking capabilities.'
+          title: 'What automation features are included?',
+          content: ' Intelligent workflow execution, SLA tracking, adaptive routing, and compliance-embedded task automation.'
         },
         {
           id: '5',
-          title: "How does the employee experience platform improve engagement?",
-          content: "Our employee experience platform delivers personalized dashboards, AI coaching, recognition systems, and comprehensive self-service capabilities enhancing satisfaction and productivity."
+          title: "How does AiXHub improve employee engagement?",
+          content: "By unifying communication, performance analytics, and recognition systems — enabling transparent and motivating workplace experiences."
         },
         {
           id: '6',
-          title: "What are the benefits of intelligent intranet platforms?",
-          content: "Benefits of intelligent intranet platforms include automated workflows, predictive analytics, personalized experiences, enhanced collaboration, and comprehensive performance insights. "
+          title: "What are the benefits of an AI-Native workplace platform?",
+          content: " Reduced manual work, predictive analytics, governed workflows, and measurable productivity improvement across all departments. "
         },
         {
           id: '7',
-          title: "How does AI transform enterprise collaboration?",
-          content: "How AI transforms enterprise collaboration through intelligent user profiling, automated task assignments, predictive recommendations, and adaptive workspace arrangements."
+          title: "How does AI enhance collaboration?",
+          content: "Through decision intelligence — automating task assignments, predicting bottlenecks, and providing context-aware recommendations."
         },
       ]
     }
