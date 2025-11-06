@@ -9,7 +9,7 @@ const slides = [
     imgSrc: "/images/home/awards/awards-2.png",
     altText: "Beautiful interactive p5js with fish and nebulae",
     description: {
-      title: "AI Entrepreneur Of The Year 2024",
+      title: "Most Innovative Use of AI in Digital Transformation",
       text: "Our visionary leader has been honoured with the 'AI Entrepreneur of The Year' award at the Bharat Leadership Excellence Award 2024, hosted by Leadership Federation at Delhi.",
     },
   },
@@ -17,32 +17,32 @@ const slides = [
     imgSrc: "/images/home/awards/awards-3.png",
     altText: "Make me an endless dinosaur runner game",
     description: {
-      title: "Most Innovative Use of AI in Digital Transformation",
-      text: "At the prestigious India AI Summit 2024, hosted by the Government of Karnataka, iTCart was honored with the award for “Most Innovative Use of AI in Digital Transformation.",
+      title: "AI Entrepreneur Of The Year 2024",
+      text: "",
     },
   },
   {
     imgSrc: "/images/home/awards/awards-1.png",
     altText: "p5js to explore a Mandelbrot set",
     description: {
-      title: "Most Innovative Use of AI in Digital Transformation",
-      text: "At the prestigious India AI Summit 2024, hosted by the Government of Karnataka, iTCart was honored with the award for “Most Innovative Use of AI in Digital Transformation.",
+      title: "Most Innovative AI-Driven Company of the Year 2024",
+      text: "",
     },
   },
+  // {
+  //   imgSrc: "/images/home/awards/awards-3.png",
+  //   altText: "Make me an endless dinosaur runner game",
+  //   description: {
+  //     title: "",
+  //     text: "",
+  //   },
+  // },
   {
-    imgSrc: "/images/home/awards/awards-3.png",
-    altText: "Make me an endless dinosaur runner game",
-    description: {
-      title: "Most Innovative Use of AI in Digital Transformation",
-      text: "At the prestigious India AI Summit 2024, hosted by the Government of Karnataka, iTCart was honored with the award for “Most Innovative Use of AI in Digital Transformation.",
-    },
-  },
-   {
     imgSrc: "/images/home/awards/awards-4.png",
     altText: "Make me an endless dinosaur runner game",
     description: {
       title: "Mission Viksit Bharat CTO of the Year 2025",
-      text: "At the prestigious India AI Summit 2024, hosted by the Government of Karnataka, iTCart was honored with the award for “Most Innovative Use of AI in Digital Transformation.",
+      text: "",
     },
   },
 ];

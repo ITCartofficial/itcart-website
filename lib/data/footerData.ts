@@ -10,24 +10,18 @@ export const footerMenus = [
   {
     title: "Services",
     navigations: [
-      {
-        label: "Digital Transformation",
-        href: "/services/digital-transformation",
-      },
-      { label: "Application Services", href: "/services/application" },
-      { label: "Cloud Ops Services", href: "/services/cloud-ops" },
-      {
-        label: "Business Intelligence",
-        href: "/services/business-intelligence",
-      },
-      { label: "Digital Commerce", href: "/services/digital-commerce" },
-      { label: "DevOps Services", href: "/services/devops" },
-      { label: "Cyber Security", href: "/services/cybersecurity" },
-      { label: "Data Analytics", href: "/services/data-analytics" },
-      { label: "Managed IT Services", href: "/services/managed-it" },
-      { label: "AI & ML Automations", href: "/services/ai-ml" },
-      { label: "Startup Services", href: "/services/startup" },
-      { label: "IoT Services", href: "/services/iot" },
+      { label: "AI & ML Automations", href: "/services/AI-&-ML-Automations" },
+      { label: "Application Services", href: "/services/Application-Services" },
+      { label: "Business Intelligence", href: "/services/Business-Intelligence" },
+      { label: "CloudOps Services", href: "/services/CloudOps-Services" },
+      { label: "Cybersecurity Services", href: "/services/Cybersecurity-Services" },
+      { label: "Data Analytics", href: "/services/Data-Analytics" },
+      { label: "DevOps Services", href: "/services/DevOps-Services" },
+      { label: "Digital Commerce", href: "/services/Digital-Commerce" },
+      { label: "Digital Transformation", href: "/services/Digital-Transformation" },
+      { label: "IoT Services", href: "/services/IoT-Services" },
+      { label: "Managed IT Services", href: "/services/Managed-IT-Services" },
+      { label: "Startup Services", href: "/services/Startup-Services" },
     ],
   },
   {
@@ -53,10 +47,10 @@ export const footerMenus = [
   {
     title: "Our Verticals",
     navigations: [
-      { label: "AiXQP", href: "/" },
-      { label: "AiXHealthcare", href: "/" },
-      { label: "AiXFinance", href: "/" },
-      { label: "All Verticals →", href: "/our-verticals" },
+      { label: "AiXHub", href: "/our-verticals/AiXHub" },
+      { label: "AiXBFS", href: "/our-verticals/AiXBFS" },
+      { label: "AiXQP", href: "/our-verticals/AiXQP" },
+      { label: "InsureAiX", href: "/our-verticals/InsureAiX" },
     ],
   }
 ];

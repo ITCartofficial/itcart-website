@@ -20,12 +20,15 @@ const FooterSection: React.FC<FooterSectionProps> = ({ title, items }) => {
         {items.map((item, index) => (
           <li key={index}>
             {title === "Services" ? (
-              <BodyText
-                text={item.label}
-                lineHeight="32px"
-                cursor="pointer"
-                className="text-sm text-white hover:text-cyan-300 cursor-default transition"
-              />
+              <a href={item.href}>
+                <BodyText
+                  text={item.label}
+                  lineHeight="32px"
+                  cursor="pointer"
+                  className="text-sm text-white hover:text-cyan-300 cursor-default transition"
+                />
+              </a>
+
             ) : (
               <a href={item.href}>
                 <BodyText

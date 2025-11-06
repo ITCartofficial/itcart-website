@@ -53,7 +53,7 @@ const BlogSlider = ({ posts }: { posts: Post[] }) => {
                     <button
                         key={index}
                         onClick={() => setCurrent(index)}
-                        className={`h-2 rounded-full transition-all duration-300 ease-in-out cursor-pointer ${index === current
+                        className={`h-2 rounded-full transition-all duration-300 mx-1 ease-in-out cursor-pointer ${index === current
                             ? 'w-8'
                             : 'w-2 bg-transparent outline outline-gray-200'
                             }`}

@@ -23,27 +23,7 @@ function EmployeePage() {
 
     const id = pathName.split("/")[2];
 
-    useEffect(() => {
-        const fetchEmployeeData = async () => {
-            try {
-                const res = await fetch(`https://employee365-aqese4eecvfbdxd8.westus2-01.azurewebsites.net/api/employee/${id}`);
-                const data = await res.json();
-                setEmployeeData(data);
-            } catch (err) {
-                console.error("API Error:", err);
-            }
-        };
-
-        fetchEmployeeData();
-    }, []); // runs once when page loads
-
-    const hanfleSaveContact = () => {
-        const contact = {
-            name: "Abhinav",
-            phone: "8129887972",
-            email: "abc.b@gmail.com",
-        };
-
+    const handleSaveContact = (contact: { name: string; phone: number; email: string }) => {
         const vcfData = `
 BEGIN:VCARD
 VERSION:3.0
@@ -51,15 +31,128 @@ FN:${contact.name}
 TEL;TYPE=CELL:${contact.phone}
 EMAIL:${contact.email}
 END:VCARD
-  `.trim();
+    `.trim();
 
-        // Encode the vCard as a data URI
-        const encodedVcf = encodeURIComponent(vcfData);
-        const dataUri = `data:text/vcard;charset=utf-8,${encodedVcf}`;
+        const blob = new Blob([vcfData], { type: "text/vcard;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
 
-        // Open in a new tab/window
-        window.open(dataUri, "_blank");
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `${contact.name}.vcf`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
     };
+
+    useEffect(() => {
+        const fetchEmployeeData = async () => {
+            try {
+                const res = await fetch(
+                    `https://employee365-aqese4eecvfbdxd8.westus2-01.azurewebsites.net/api/employee/${id}`
+                );
+                const data = await res.json();
+                setEmployeeData(data);
+
+                // Trigger contact save after fetching employee data
+                handleSaveContact(
+                    {
+                        name: data.name,
+                        phone: 8129887972,
+                        email: "abhinavtv6028@gmail.com",
+                    });
+            } catch (err) {
+                console.error("API Error:", err);
+            }
+        };
+
+        fetchEmployeeData();
+    }, [id]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //     const vcfData = `
+    // BEGIN:VCARD
+    // VERSION:3.0
+    // FN:${'Abhinav Tv'}
+    // TEL;TYPE=CELL:${812988792}
+    // EMAIL:${"abhinavtv6028@gmail.com"}
+    // END:VCARD
+    //     `.trim();
+
+    //     const blob = new Blob([vcfData], { type: "text/vcard;charset=utf-8" });
+    //     const url = URL.createObjectURL(blob);
+
+    //     const a = document.createElement("a");
+    //     a.href = url;
+    //     a.download = `${"Abhinav TV"}.vcf`;
+    //     document.body.appendChild(a);
+    //     a.click();
+    //     document.body.removeChild(a);
+    //     URL.revokeObjectURL(url);
+    // };
+
+
+
+
+
+
+
+
+    // const hanfleSaveContact = () => {
+    //     const contact = {
+    //         name: "Abhinav",
+    //         phone: "8129887972",
+    //         email: "abc.b@gmail.com",
+    //     };
+
+    //     const vcfData = `
+    // BEGIN:VCARD
+    // VERSION:3.0
+    // FN:${contact.name}
+    // TEL;TYPE=CELL:${contact.phone}
+    // EMAIL:${contact.email}
+    // END:VCARD
+    //   `.trim();
+
+    //     // Encode the vCard as a data URI
+    //     const encodedVcf = encodeURIComponent(vcfData);
+    //     const dataUri = `data:text/vcard;charset=utf-8,${encodedVcf}`;
+
+    //     // Open in a new tab/window
+    //     window.open(dataUri, "_blank");
+    // };
+
+    // useEffect(() => {
+    //     const fetchEmployeeData = async () => {
+    //         try {
+    //             const res = await fetch(`https://employee365-aqese4eecvfbdxd8.westus2-01.azurewebsites.net/api/employee/${id}`);
+    //             const data = await res.json();
+    //             setEmployeeData(data);
+    //         } catch (err) {
+    //             console.error("API Error:", err);
+    //         }
+    //     };
+
+    //     fetchEmployeeData();
+    //     hanfleSaveContact();
+    // }, []); // runs once when page loads
+
+
     return (
         <>
             <div className="bg-[#1a1a1a] text-white p-6 rounded-2xl mx-auto flex flex-col space-y-5 mt-10">
@@ -120,7 +213,7 @@ END:VCARD
 
                 {/* Button */}
                 <OutlineBtn
-                    onClick={() => hanfleSaveContact()}
+                    // onClick={() => hanfleSaveContact()}
                     // url="/"
                     text={"Save Contact"}
                     textColor="#ffffff"
