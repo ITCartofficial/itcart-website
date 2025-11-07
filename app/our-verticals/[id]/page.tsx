@@ -76,7 +76,6 @@ const OurVerticalsDetailPage = () => {
 
                 </div>
 
-
                 <div className='bg-black container'>
                     <CapabilitySection
                         capabilitiSectionHeading={filterdItem?.detailPage?.capabilitiSectionHeading ?? ""}

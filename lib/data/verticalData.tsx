@@ -941,7 +941,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXLifeCare-about.png',
                 logo: '/images/vertical/AiXLifeCare-darklogo.png',
-                contentOne: "AiXLifeCare is iTCart's revolutionary ai healthcare platform that transforms patient care through intelligent healthcare automation software and healthcare predictive analytics software. Built on the proprietary AiX Framework, this comprehensive medical automation system delivers AI clinical decision support, automated diagnostics, and patient engagement platform capabilities through workflow automation in healthcare environments with HIPAA-compliant AI architecture and seamless integration capabilities. ",
+                contentOne: "AiXLifeCare is iTCart's revolutionary Ai healthcare platform that transforms patient care through intelligent healthcare automation software and healthcare predictive analytics software. Built on the proprietary AiX Framework, this comprehensive medical automation system delivers AI clinical decision support, automated diagnostics, and patient engagement platform capabilities through workflow automation in healthcare environments with HIPAA-compliant AI architecture and seamless integration capabilities. ",
                 contenttwo: "",
                 contentthree: ''
             },
@@ -972,7 +972,7 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixlifecare-icon1.svg',
                     title: "Hospitals & Clinics ",
-                    highlight: " Streamline operations with comprehensive ai healthcare platform for multispecialty healthcare environments.",
+                    highlight: " Streamline operations with comprehensive Ai healthcare platform for multispecialty healthcare environments.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },

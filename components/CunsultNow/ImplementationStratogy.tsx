@@ -64,9 +64,9 @@ function ImplementationStratogy() {
             />
 
             <BodyText
-                text={"Enterprise AI success requires systematic transformation through proven phases.Our ai consulting services enable generative ai for business across enterprise functions."}
+                text={"Enterprise AI success requires systematic transformation through proven phases. Our AI consulting services enable generative AI for business across enterprise functions."}
                 color="#ffffff"
-                className="text-sm sm:text-base md:text-lg my-2 text-center  w-[90%] mx-auto"
+                className="text-sm sm:text-base md:text-lg my-2 text-center  w-[70%] mx-auto"
             />
 
             <main className="bg-black px-4 mt-1">

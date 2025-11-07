@@ -58,7 +58,7 @@ function WhyImplementation() {
 
             <BodyText
                 text={
-                    "Enterprise AI failure rates reach 95% due to integration issues. Unlike other artificial intelligence consulting companies, iTCart addresses root causes through AI business consulting."
+                    "Enterprise AI failure rates reach up to 95% due to integration challenges. Unlike most artificial intelligence consulting companies, iTCart addresses the root causes through comprehensive AI business consulting."
                 }
                 color="#ffffff"
                 className="text-sm sm:text-base md:text-lg  text-center w-[100%] md:w-[70%] mx-auto mt-3"

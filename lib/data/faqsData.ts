@@ -96,12 +96,12 @@ export const careersFaqs = [
   {
     id: '4',
     title: 'Can I apply for internships or fresh graduate roles at iTCart?',
-    content: 'Yes, we have opportunities for interns and fresh graduates, especially through initiatives like AiX QP, where you can work on live projects and gain hands-on experience.'
+    content: 'Yes, we have opportunities for interns and fresh graduates, especially through initiatives like AiXQP, where you can work on live projects and gain hands-on experience.'
   },
   {
     id: '5',
     title: 'How does iTCart support professional development?',
-    content: 'We provide access to certifications, training programs, and live project experience through platforms like AiX QP.'
+    content: 'We provide access to certifications, training programs, and live project experience through platforms like AiXQP.'
   }
 ];
   

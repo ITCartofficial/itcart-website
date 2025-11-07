@@ -8,7 +8,7 @@ const GlobalStrategistsSection = ({ globalStrategists }: { globalStrategists: Gl
         <div className="container bg-black flex flex-col gap-8">
             <div className="lg:w-2/3">
                 <GradientTitle
-                    text="ITCart’s Global Leadership & Strategists"
+                    text="iTCart’s Global Leadership & Strategists"
                     className="text-center lg:text-left text-[30px] lg:text-[48px] leading-tight"
                 />
             </div>

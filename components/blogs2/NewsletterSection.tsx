@@ -10,7 +10,7 @@ const NewsletterSection = () => {
         title: "Experience a multi-functional AI-powered platform",
         image: "/images/blogs/blog-featured-2.png",
         link: "/contact",
-        linkText: "Contact us",
+        linkText: "Contact Us",
         author: "John Doe",
         date: "2024-06-01",
         imageUrl: "/images/blogs/blog-featured-2.png",

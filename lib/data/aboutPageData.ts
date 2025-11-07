@@ -7,7 +7,7 @@ export const coreValues = [
   },
   {
     icon: "/icons/exceptional.png",
-    title: "Exceptional value",
+    title: "Exceptional Value",
     description:
       "With AI automation and digital transformation services, we deliver value by exceeding customer expectations all the time.",
   },
@@ -31,7 +31,7 @@ export const foundingMembers = [
     title: "Abdur Rehman Ajmal",
     designation: "Founder & Chairman",
     description:
-      "A true philanthropist & an extraordinary multipreneur, forging multiple successful businesses across diverse industries over the past 2 decades with extreme focus on nation building",
+      "A true philanthropist and an extraordinary multipreneur, forging multiple successful businesses across diverse industries over the past 2 decades with extreme focus on nation building",
   },
   {
     image: "/images/founders/rohimuddin.png",
@@ -61,11 +61,11 @@ export const foundingMembers = [
 export const executiveLeadership = [
   {
     image: "/images/founders/rohimuddin-executiveLeadership.png",
-    title: "Rohim uddin",
+    title: "Rohim Uddin",
     designation: "Founder, Global CTO & COO",
     linkedIn: 'https://www.linkedin.com/in/rohimyasin/',
     desciption:
-      "A visionary and a globally acclaimed cross functional technocrat, the driving force behind iTCart's technological vision. With over two decades of experience in building enterprise solutions across 40+ industries, Rohim brings unparalleled expertise in software development, Al integration, and digital transformation.",
+      "A visionary and a globally acclaimed cross functional technocrat, the driving force behind iTCart's technological vision. With over two decades of experience in building enterprise solutions across 40+ industries, Rohim brings unparalleled expertise in software development, AI integration, and digital transformation.",
     matrics: [
       {
         numericValue: 22,
@@ -101,7 +101,7 @@ export const executiveLeadership = [
     linkedIn: 'https://www.linkedin.com/in/jeffrey-r-hubbard/',
     // https://www.linkedin.com/in/jeffrey-r-hubbard/
     desciption:
-      "A globally recognized leader with decades of experience leading multinational corporations and growing startups into global enterprises make him a pivotal figure in iTCart’s future. His vision for iTCart centers around scalable growth, operational excellence, and AI-driven transformation across sectors like healthcare, education, real estate, manufacturing and others.",
+      "A globally recognized leader with decades of experience leading multinational corporations and growing startups into global enterprises makes him a pivotal figure in iTCart’s future. His vision for iTCart centers around scalable growth, operational excellence, and AI-driven transformation across sectors like healthcare, education, real estate, manufacturing and others.",
     matrics: [
       {
         numericValue: 80,
@@ -362,11 +362,11 @@ export const ambassadorsList = [
     matrics: [
       {
         numericValue: 20,
-        title: "Industry of Expertise",
+        title: "Years of Expertise",
       },
       {
-        numericValue: 1,
-        title: "Hours of Off-Road Testing & Dev",
+        numericValue: 1000,
+        title: "Hours of Off-Road Testing & Development",
       },
       {
         numericValue: 500,
@@ -417,7 +417,7 @@ export const ambassadorsList = [
   {
     image: "/images/ambassador/Rob Haynie.png",
     title: "Rob Haynie",
-    designation: "Global Ambassador Life insurance Settlements",
+    designation: "Global Ambassador – Life Insurance Settlements",
     profileRef: "https://www.linkedin.com/in/rob-haynie-08656b9/", //button link
     matrics: [
       {

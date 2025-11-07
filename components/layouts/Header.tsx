@@ -100,7 +100,7 @@ const Header: React.FC = () => {
               <div className="hidden lg:flex items-center gap-4 flex-shrink-0  justify-end">
                 {/* <SearchButton /> */}
                 <OutlineBtn
-                  text="Contact us"
+                  text="Contact Us"
                   url="/contact-us"
                   textColor='#ffffff'
                   icon={<FaArrowRight className="text-sm font-semibold text-white" />}

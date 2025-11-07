@@ -22,7 +22,7 @@ function JoinSection({ className }: { className: string }) {
                 <div className={`space-y-6 ${"md:order-1"}`}>
 
                     <GradientTitle
-                        text={"Join hands with ITCart to Create a Lasting Impact."}
+                        text={"Join hands with iTCart to Create a Lasting Impact."}
                         theme="dark"
                         className="text-[22px] sm:text-[25px] md:text-[48px] w-full leading-[1.2]"
                     />

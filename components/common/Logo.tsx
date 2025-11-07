@@ -7,7 +7,7 @@ const Logo: React.FC = () => {
     <Link href="/" className="flex justify-center lg:justify-start">
       <Image 
         src="/IT Cart Logo Transparent.svg" 
-        alt="ITCart Logo" 
+        alt="iTCart Logo" 
         width={120} 
         height={32} 
         className="h-8 w-auto"

@@ -5,7 +5,7 @@ export const serviceData = [
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/services/ai-ml-automation.png",
     detailPage: {
-      serviceName: 'AI & ML Automations',
+      serviceName: 'AI and ML Automations',
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Your Business Operations with Advanced AI & ML Automation",
       bannerDescription: "Unlock the power of comprehensive AI & ML consulting services to streamline operations, eliminate manual bottlenecks, and gain predictive insights that drive business innovation through advanced artificial intelligence integration services.",
