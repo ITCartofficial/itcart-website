@@ -53,7 +53,7 @@ function FutureSectionSolution({
                                 alt={feature.title}
                                 width={100}
                                 height={100}
-                                className="w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[80px] md:h-[80px] lg:w-[80px] lg:h-[80px] object-contain brightness-125 transition-transform duration-300 ease-in-out group-hover:scale-105"
+                                className="w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[70px] md:h-[80px] lg:w-[60px] lg:h-[60px] object-contain brightness-125 transition-transform duration-300 ease-in-out group-hover:scale-105 invert"
                             />
                         </div>
 

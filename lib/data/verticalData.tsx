@@ -12,6 +12,7 @@ export const verticalData = [
             bannerTitle: "AI-Powered Social Intranet That Works Smart",
             bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform",
             bannerImage: "/images/vertical/AiXHub-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXHub-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Digital Workspace Challenge',
             aboutSectionHeading: 'Revolutionary AI-Native Workplace',
             capabilitiSectionHeading: 'AI-Powered Core Capabilities ',
@@ -135,6 +136,7 @@ export const verticalData = [
             bannerTitle: 'AI-Powered Banking & Financial Services Platform',
             bannerDescription: "Transform BFSI operations through intelligent ai in banking and financial services",
             bannerImage: "/images/vertical/AiXBFS-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXBFS-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Banking Financial Services Revolution ',
             aboutSectionHeading: 'Complete Banking Ecosystem Transformation',
             capabilitiSectionHeading: 'AI-Powered Banking Capabilities',
@@ -269,6 +271,7 @@ export const verticalData = [
             bannerTitle: "The Future of Intelligent Learning Starts Here",
             bannerDescription: "Experience Personalized Learning that adapts to your environment",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            mobileBannerImage: "/images/vertical/AiXQP-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Traditional Education Platform Crisis',
             aboutSectionHeading: 'Revolutionary AI Learning Platform',
             capabilitiSectionHeading: 'Intelligent Learning Core Capabilities',
@@ -405,6 +408,7 @@ export const verticalData = [
             bannerTitle: "Smart Insurance for Secure Future",
             bannerDescription: "Personalized coverage adapting to your lifestyle ",
             bannerImage: "/images/vertical/InsureAiX-banner.jpg",
+            mobileBannerImage: "/images/vertical/InsureAiX-MobileBanner.jpg",
             VerticalContentSection2Heading: 'The Insurance Revolution Crisis',
             aboutSectionHeading: 'Revolutionary AI-Native Insurance Excellence',
             capabilitiSectionHeading: 'Advanced Insurance AI Technology',
@@ -457,21 +461,21 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/insureaix-icon1.svg',
                     title: "Insurance Carriers",
                     highlight: "Precision underwriting with genomic analysis and behavioral intelligence through comprehensive artificial intelligence in insurance and advanced risk assessment. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/insureaix-icon2.svg',
                     title: "Healthcare Organizations",
                     highlight: "Integrated health insurance solutions with real-time monitoring and personalized coverage via ai in health insurance and predictive analytics capabilities. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/insureaix-icon3.svg',
                     title: "Individual Consumers",
                     highlight: "Personalized insurance coverage with dynamic premiums and lifestyle rewards through intelligent digital insurance platform and AI insurance automation. ",
                     description: "",
@@ -534,6 +538,7 @@ export const verticalData = [
             bannerTitle: "Intelligent IT Support & Asset Management Platform",
             bannerDescription: "Smart IT Service Management Made Simple through comprehensive it service management software and advanced asset management platform capabilities.",
             bannerImage: "/images/vertical/AiXDesk-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXDesk-MobileBanner.jpg",
             VerticalContentSection2Heading: 'The IT Support Challenge',
             aboutSectionHeading: 'Revolutionary IT Service Management Excellence',
             impactImage: '/images/vertical/AiXDesk-impact.png',
@@ -584,21 +589,21 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixdesck-icon1.svg',
                     title: "IT Administrators",
                     highlight: "Complete system oversight with centralized management and automated reporting through comprehensive it service management software and intelligent monitoring. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixdesck-icon2.svg',
                     title: "HR Teams",
                     highlight: "Streamlined onboarding processes with automated access provisioning via advanced asset management platform and digital asset management software capabilities. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixdesck-icon3.svg',
                     title: "Finance Departments",
                     highlight: "Comprehensive license tracking with automated compliance monitoring through intelligent it asset management system and smart asset tracking solutions. ",
                     description: "",
@@ -656,6 +661,7 @@ export const verticalData = [
             bannerTitle: "Transforming Financial Services Through AI-Powered Automation",
             bannerDescription: "Experience digitalized financial services with our AiXHub Framework ",
             bannerImage: "/images/vertical/AiXFintech-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXFinTech-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Financial Services Digital Revolution',
             aboutSectionHeading: 'Revolutionary AI-Native Financial Excellence ',
             capabilitiSectionHeading: 'Advanced FinTech AI Capabilities ',
@@ -708,21 +714,21 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/fintech-icon1.svg',
                     title: "Chief Financial Officers",
                     highlight: "Cost optimization through 30-50% operational expense reduction and 75% total ownership cost savings via comprehensive financial automation software capabilities. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/fintech-icon2.svg',
                     title: "Chief Risk Officers",
                     highlight: "Enhanced risk management with 90-98% error reduction and 93% faster threat detection through advanced predictive analytics for finance systems. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/fintech-icon3.svg',
                     title: "Chief Technology Officers ",
                     highlight: "Infrastructure consolidation replacing 5-10 fragmented tools with unified AI-powered financial automation platform and intelligent automation financial services. ",
                     description: "",
@@ -780,6 +786,7 @@ export const verticalData = [
             bannerTitle: "Advanced Artificial Intelligence in Healthcare and Patient Management ",
             bannerDescription: "Intelligent healthcare automation for better outcomes ",
             bannerImage: "/images/vertical/AiXHealthcare-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXHealthcare-MobileBanner.jpg",
             VerticalContentSection2Heading: "Healthcare's Digital Transformation Challenge  ",
             aboutSectionHeading: 'Introducing AiXHealthcare  ',
             capabilitiSectionHeading: 'Advanced Healthcare AI Capabilities',
@@ -830,21 +837,21 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixhealthcare-icon1.svg',
                     title: "Hospitals ",
                     highlight: "Large healthcare networks optimizing patient flow through artificial intelligence in healthcare solutions. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixhealthcare-icon2.svg',
                     title: "Clinics ",
                     highlight: "Mid-size providers enhancing workflows with smart care solutions and AI in telemedicine. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixhealthcare-icon3.svg',
                     title: "Healthcare Administrators ",
                     highlight: "Executives implementing healthcare AI solutions for governance automation and compliance documentation. ",
                     description: "",
@@ -902,6 +909,7 @@ export const verticalData = [
             bannerTitle: 'Reimagine Patient Care with AiXLifeCare That Thinks Ahead',
             bannerDescription: 'Transform clinical operations through intelligent automation software and advanced workflow optimization systems.',
             bannerImage: "/images/vertical/AiXLifeCare-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXLifeCare-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Healthcare Crisis Demands Intelligent Solutions',
             aboutSectionHeading: 'Revolutionary AI-Native Healthcare Excellence',
             capabilitiSectionHeading: 'Advanced Healthcare AI Capabilities',
@@ -944,21 +952,21 @@ export const verticalData = [
 
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixlifecare-icon1.svg',
                     title: "Hospitals & Clinics ",
                     highlight: " Streamline operations with comprehensive ai healthcare platform for multispecialty healthcare environments.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixlifecare-icon2.svg',
                     title: "Healthcare Administrators ",
                     highlight: " Optimize workflows and ensure compliance with intelligent healthcare automation software capabilities.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixlifecare-icon3.svg',
                     title: "Doctors & Nurses",
                     highlight: "Enhanced diagnostic accuracy through AI clinical decision support and medical automation system integration.",
                     description: "",
@@ -1016,6 +1024,7 @@ export const verticalData = [
             bannerTitle: "Transform Healthcare Revenue with AI-Powered RCM",
             bannerDescription: "Streamline billing processes with intelligent automation",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            mobileBannerImage: "/images/vertical/AiXRCM-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Healthcare Revenue Challenges & AI Solutions',
             aboutSectionHeading: 'Next-Generation Revenue Cycle Management Excellence',
             capabilitiSectionHeading: 'AI-Powered Revenue Cycle Capabilities ',
@@ -1066,21 +1075,21 @@ export const verticalData = [
             ,
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/rcmaix-icon1.svg',
                     title: "Healthcare Providers",
                     highlight: "Independent practices, hospitals, specialty clinics optimizing billing and revenue realization through comprehensive ai revenue cycle management solutions. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/rcmaix-icon2.svg',
                     title: "Financial Institutions ",
                     highlight: "Banks requiring streamlined workflows for loans, underwriting, payment reconciliation via advanced cloud based medical billing software capabilities. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/rcmaix-icon3.svg',
                     title: "Insurance Companies",
                     highlight: "Organizations needing improved claim settlement accuracy and reduced fraudulent transactions through intelligent healthcare revenue cycle management software.  ",
                     description: "",
@@ -1139,6 +1148,7 @@ export const verticalData = [
             bannerTitle: "The Smart ERP Platform for Intelligent Agile Enterprises ",
             bannerDescription: "Transform operations through AI-powered ERP platform featuring cloud based ERP solution and intelligent erp system automation. ",
             bannerImage: "/images/vertical/AiXERP-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXERP-MobileBanner.jpg",
             VerticalContentSection2Heading: 'ERP Market Demands AI-Native Solutions',
             aboutSectionHeading: 'Next-Generation AI-Native ERP Excellence',
             capabilitiSectionHeading: 'Advanced AI-Driven ERP Capabilities',
@@ -1247,6 +1257,7 @@ export const verticalData = [
             bannerTitle: "AiXGRC: AI-Powered Compliance Management Platform",
             bannerDescription: "AI-powered compliance management ensuring regulatory adherence for enterprises ",
             bannerImage: "/images/vertical/AiXGRC-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXGRC-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Transform Risk Into Competitive Advantage',
             aboutSectionHeading: 'Revolutionary AI-Native GRC Excellence',
             capabilitiSectionHeading: 'Six Pillars of Intelligent Compliance',
@@ -1385,6 +1396,7 @@ export const verticalData = [
             bannerTitle: "Safeguard Your Enterprise with Advanced AI Cybersecurity Solutions",
             bannerDescription: " Transform security operations through AI powered cybersecurity platform featuring zero trust architecture, threat intelligence automation, and comprehensive enterprise cybersecurity platform capabilities.",
             bannerImage: "/images/vertical/CyberAiX-banner.jpg",
+            mobileBannerImage: "/images/vertical/cyberAIX-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Cybersecurity Crisis Demands AI Solutions',
             aboutSectionHeading: 'AI-Driven Cybersecurity Excellence    ',
             capabilitiSectionHeading: 'Navigate the Future of Cyber Defense',
@@ -1437,21 +1449,21 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/cyberaix-icon1.svg',
                     title: "Healthcare & Life Sciences",
                     highlight: "Enhanced patient data protection with HIPAA-compliant security monitoring, automated threat detection, and comprehensive healthcare cybersecurity through ai security platform solutions. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/cyberaix-icon2.svg',
                     title: "Banking & Financial Services",
                     highlight: "Optimized financial security operations with automated fraud detection, regulatory compliance monitoring, and comprehensive financial cybersecurity through advanced protection systems.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 },
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/cyberaix-icon3.svg',
                     title: "Manufacturing & Industrial",
                     highlight: "Comprehensive industrial cybersecurity with OT/IT security integration, automated threat detection, and critical infrastructure protection through enterprise cybersecurity platform capabilities. ",
                     description: "",
@@ -1516,6 +1528,7 @@ export const verticalData = [
             bannerTitle: "AI-Native HVAC Operations Platform",
             bannerDescription: "Cut energy costs by 40% and prevent 95% of equipment failures with intelligent maintenance scheduling software and AI predictive maintenance software.",
             bannerImage: "/images/vertical/AiXHEAT-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXHeat-MobileBanner.jpg",
             VerticalContentSection2Heading: 'HVAC Operations Crisis Demands AI Solutions',
             aboutSectionHeading: 'Revolutionary AI-Native HVAC Excellence',
             capabilitiSectionHeading: 'Advanced Real Estate AI Capabilities',
@@ -1570,21 +1583,21 @@ export const verticalData = [
             ,
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixheat-icon1.svg',
                     title: "Property Managers",
                     highlight: "Streamline portfolio operations and tenant relationships through comprehensive ai property management solutions and smart property management systems.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixheat-icon2.svg',
                     title: "Real Estate Agents",
                     highlight: "Enhance client matching and transaction efficiency with advanced ai real estate software and integrated real estate crm capabilities for complete lead management.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixheat-icon3.svg',
                     title: "Property Investors",
                     highlight: "Optimize investment decisions with predictive analytics for real estate and intelligent market forecasting systems powered by ai in property management.",
                     description: "",
@@ -1658,6 +1671,7 @@ export const verticalData = [
             bannerTitle: "AI-Native Real Estate Operating System",
             bannerDescription: " Revolutionize property management and real estate operations through comprehensive AI-native platform.",
             bannerImage: "/images/vertical/AiXReality-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXRealty-MobileBanner.jpg",
             impactImage: '/images/vertical/AiXReality-impact.png',
             VerticalContentSection2Heading: 'Real Estate Digital Transformation Crisis ',
             aboutSectionHeading: 'Revolutionary AI-Native Real Estate Excellence',
@@ -1709,21 +1723,21 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixreality-icon1.svg',
                     title: "Property Managers",
                     highlight: "Streamline portfolio operations and tenant relationships ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixreality-icon2.svg',
                     title: "Real Estate Agents",
                     highlight: "Enhance client matching and transaction efficiency",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixreality-icon3.svg',
                     title: "Property Investors",
                     highlight: "Optimize investment decisions with predictive analytics ",
                     description: "",
@@ -1781,6 +1795,7 @@ export const verticalData = [
             bannerTitle: "AI-Based Racing Performance Platform ",
             bannerDescription: "Transforming Racing Performance Through AI-Powered Intelligence and real-time telemetry analysis for motorsports.",
             bannerImage: "/images/vertical/AiXMotersports-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXMotorsports-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Motorsports Digital Revolution Crisis',
             aboutSectionHeading: 'Revolutionary AI-Native Racing Excellence',
             capabilitiSectionHeading: 'Advanced Racing AI Capabilities',
@@ -1833,21 +1848,21 @@ export const verticalData = [
             ],
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixmotersports-icon1.svg',
                     title: "Team Principals",
                     highlight: "30-50% operational cost reduction through unified platform consolidation and automated workflow orchestration via comprehensive racing operations platform.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixmotersports-icon2.svg',
                     title: "Race Engineers",
                     highlight: "Enhanced performance analysis with 90-98% data accuracy and 75% faster decision-making through advanced motorsport performance analytics AI capabilities.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixmotersports-icon3.svg',
                     title: "Chief Technology Officers",
                     highlight: "Infrastructure consolidation replacing 5-10 specialized racing tools with single AI-native AI racing performance software platform.",
                     description: "",
@@ -1899,7 +1914,8 @@ export const verticalData = [
         detailPage: {
             bannerTitle: "Powering Energy Intelligence with AI Innovation ",
             bannerDescription: "Next-generation AI in energy management platform transforming energy operations through comprehensive energy management software and renewable energy solutions.",
-            bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
+            bannerImage: "/images/vertical/AiXEnergy.jpg",
+            mobileBannerImage: "/images/vertical/AiXEnergy-MobileBanner.jpg",
             VerticalContentSection2Heading: "Energy Revolution & Innovation Crisis",
             aboutSectionHeading: 'Smart Energy Transformation Excellence',
             capabilitiSectionHeading: 'Core Energy Intelligence Capabilities',
@@ -1951,21 +1967,21 @@ export const verticalData = [
 
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/manicon.png',
+                    icon: '/images/vertical/icons/aixenergy-icon1.svg',
                     title: "Power Utilities",
                     highlight: "Grid optimization and distribution intelligence through comprehensive energy management software and ai in energy management platforms. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixenergy-icon2.svg',
                     title: "Renewable Providers ",
                     highlight: "Solar and wind farm performance maximization via advanced renewable energy solutions and intelligent energy monitoring software systems. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 },
                 {
-                    icon: '/images/vertical/icons/handicons.png',
+                    icon: '/images/vertical/icons/aixenergy-icon3.svg',
                     title: "Energy Enterprises",
                     highlight: "Pipeline monitoring and field asset optimization through ai based energy management system and comprehensive energy data management software",
                     description: "",
