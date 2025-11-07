@@ -19,9 +19,6 @@ const IndustryDetailPage = () => {
 
     const filterdItem = industryData.find(item => item.title.toLowerCase() === pathName);
 
-    console.log("filterdItem", filterdItem?.detailPage?.bannerImage);
-
-
     return (
         <>
 
@@ -49,10 +46,6 @@ const IndustryDetailPage = () => {
                         description={filterdItem?.detailPage?.bannerDescription ?? ""}
                         ctaText="Connect with Us"
                         ctaUrl="/contact-us"
-                        // breadcrumbItems={[
-                        //     { label: 'Home', url: '/' },
-                        //     { label: 'Our Verticals', url: '/services' }
-                        // ]}
                         mobileBanner={filterdItem?.detailPage?.mobileBannerImage ?? ""}
                         bannerButtonText="Get Started"
                     />

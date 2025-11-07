@@ -10,6 +10,7 @@ import ServiceCard from '@/components/DetailPageComponents/ServiceCard';
 import WhyChoose from '@/components/DetailPageComponents/WhyChoose';
 import HomeFaqSection from '@/app/(features)/home/HomeFaqSection';
 import FutureSection from '@/components/DetailPageComponents/FutureSection';
+import MobileVerticalHeroBanner from '@/components/verticalDetailPage/MobileVerticalHeroBanner';
 
 const ServicesDetailPage = () => {
 
@@ -27,26 +28,47 @@ const ServicesDetailPage = () => {
             pathName.toLowerCase().replace(/™/g, '').trim()
     })
 
+     console.log("filterdItem",filterdItem);
+
+
     //  bg-gradient-to-b from-gray-900 via-gray-1000 to-black
     return (
         <>
 
             <div className='bg-black space-y-15 lg:space-y-25  mt-10 '>
+                <div className="md:block hidden">
 
-                <VerticalHeroBanner
-                    serviceName={filterdItem?.detailPage?.serviceName ?? ""}
-                    bannerButtonText={"Get In Touch"}
-                    title={filterdItem?.detailPage?.bannerTitle ?? ""}
-                    description={filterdItem?.detailPage?.bannerDescription ?? ""}
-                    ctaText="Connect with Us"
-                    ctaUrl="/contact"
-                    breadcrumbItems={[
-                        { label: 'Home', url: '/' },
-                        { label: 'Our Verticals', url: '/services' }
-                    ]}
-                    backgroundImage={filterdItem?.detailPage?.bannerImage ?? ""}
-                    className="mt-10"
-                />
+                    <VerticalHeroBanner
+                        serviceName={filterdItem?.detailPage?.serviceName ?? ""}
+                        bannerButtonText={"Get In Touch"}
+                        title={filterdItem?.detailPage?.bannerTitle ?? ""}
+                        description={filterdItem?.detailPage?.bannerDescription ?? ""}
+                        ctaText="Connect with Us"
+                        ctaUrl="/contact"
+                        breadcrumbItems={[
+                            { label: 'Home', url: '/' },
+                            { label: 'Our Verticals', url: '/services' }
+                        ]}
+                        backgroundImage={filterdItem?.detailPage?.bannerImage ?? ""}
+                        className="mt-10"
+                    />
+                </div>
+
+                <div className="md:hidden block">
+                    <MobileVerticalHeroBanner
+                        title={filterdItem?.detailPage?.bannerTitle ?? ""}
+                        description={filterdItem?.detailPage?.bannerDescription ?? ""}
+                        ctaText="Connect with Us"
+                        ctaUrl="/contact-us"
+                        // breadcrumbItems={[
+                        //     { label: 'Home', url: '/' },
+                        //     { label: 'Our Verticals', url: '/services' }
+                        // ]}
+                        mobileBanner={filterdItem?.detailPage?.mobileBannerImage ?? ""}
+                        bannerButtonText="Get Started"
+                    />
+
+                </div>
 
                 <div className='bg-black container mx-auto lg:px-10'>
                     <SectionAbout
