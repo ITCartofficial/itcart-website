@@ -85,6 +85,15 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
+            impacts: [
+                "Achieve 76% higher learning efficiency compared to traditional platforms through personalized AI",
+                "Increase course completion rates from industry average 15% to 85% using engagement",
+                "Reduce training time by 50% through adaptive learning paths and intelligent content.",
+                "Enable 24/7 learning access with real-time AI tutoring across multiple languages",
+                "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends",
+                "Enhance learner engagement through gamified elements and interactive AI-powered learning experiences",
+                "Streamline content creation for educators with automated lesson generation and assessment tools",
+            ],
             FAQs: [
                 {
                     id: '1',
@@ -214,6 +223,15 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
+            ],
+            impacts: [
+                "Achieve 76% higher learning efficiency compared to traditional platforms through personalized AI",
+                "Increase course completion rates from industry average 15% to 85% using engagement",
+                "Reduce training time by 50% through adaptive learning paths and intelligent content.",
+                "Enable 24/7 learning access with real-time AI tutoring across multiple languages",
+                "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends",
+                "Enhance learner engagement through gamified elements and interactive AI-powered learning experiences",
+                "Streamline content creation for educators with automated lesson generation and assessment tools",
             ],
             FAQs: [
                 {
