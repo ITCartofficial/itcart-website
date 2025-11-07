@@ -138,17 +138,17 @@ export const verticalData = [
             VerticalContentSection2Heading: 'Banking Financial Services Revolution ',
             aboutSectionHeading: 'Complete Banking Ecosystem Transformation',
             capabilitiSectionHeading: 'AI-Powered Banking Capabilities',
-            skillGapSectionHeading: 'Built For Banking Leaders ',
+            skillGapSectionHeading: 'Real-World Banking Applications',
             impactImage: '/images/vertical/AiXBFS-impact.png',
             VerticalContentSection2: {
-                contentOne: "Modern banking institutions face unprecedented challenges requiring comprehensive ai in banking and financial services, banking automation software, digital lending platform, ai debt collection software, financial risk management software, predictive analytics in banking, digital banking platform, and ai in bfsi solutions for operational excellence. ",
+                contentOne: "Modern banking institutions face unprecedented challenges requiring comprehensive AI in banking and financial services, banking automation software, digital lending platform, AI debt collection software, financial risk management software, predictive analytics in banking, digital banking platform, and AI in BFSI solutions for operational excellence. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXBFS-section.png"
             },
             aboutSection: {
                 aboutImage: '/images/vertical/AiXBFS-about.png',
                 logo: '/images/vertical/AiXBFS-darklogo.png',
-                contentOne: "AiXBFS revolutionizes banking operations through comprehensive ai in banking and financial services featuring advanced banking automation software, digital lending platform, ai debt collection software, financial risk management software, predictive analytics in banking, digital banking platform, and ai in bfsi capabilities. Built on revolutionary AIX Framework delivering end-to-end automation from loan origination to debt recovery transforming traditional operations into intelligent, data-driven ecosystems. ",
+                contentOne: "AiXBFS revolutionizes banking operations through comprehensive AI in banking and financial services featuring advanced banking automation software, digital lending platform, AI debt collection software, financial risk management software, predictive analytics in banking, digital banking platform, and AI in BFSI capabilities. Built on revolutionary AiX Framework delivering end-to-end automation from loan origination to debt recovery transforming traditional operations into intelligent, data-driven ecosystems. ",
                 contenttwo: "",
                 contentthree: ''
             },
@@ -156,7 +156,7 @@ export const verticalData = [
                 {
                     title: "Digital Lending",
                     description:
-                        "Comprehensive digital lending platform with automated loan origination and intelligent processing capabilities.",
+                        "Comprehensive digital lending platform with automated loan origination and intelligent processing capabilities. ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
@@ -193,22 +193,22 @@ export const verticalData = [
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/aixbfs-icon1.svg',
-                    title: "Banks NBFCs",
-                    highlight: " Digital transformation and lending automation through comprehensive ai in banking solutions",
+                    title: "Banking Operations",
+                    highlight: " Automated routine tasks improving efficiency Read Case Study",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixbfs-icon2.svg',
-                    title: "Fintech Companies",
-                    highlight: " Scalable digital lending platform with API-first architecture for innovation",
+                    title: "Lending Automation",
+                    highlight: "Digital credit processing with intelligence Read Case Study",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixbfs-icon3.svg',
-                    title: "Collection Agencies",
-                    highlight: "Optimized recovery operations through intelligent ai debt collection software automation",
+                    title: "Collection Management",
+                    highlight: "Predictive AI for optimized recovery Read Case Study",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },

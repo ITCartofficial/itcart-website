@@ -11,7 +11,7 @@ export const footerMenus = [
     title: "Services",
     navigations: [
       { label: "AI & ML Automations", href: "/services/ai-and-ml-automations" },
-      { label: "Application Services", href: "/services/Application-Services" },
+      { label: "Application Services", href: "/services/application-services" },
       { label: "Business Intelligence", href: "/services/Business-Intelligence" },
       { label: "CloudOps Services", href: "/services/CloudOps-Services" },
       { label: "Cybersecurity Services", href: "/services/Cybersecurity-Services" },
