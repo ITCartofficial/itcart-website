@@ -21,7 +21,7 @@ import { useLayoutEffect, useState } from "react"
 
 const missionVisionData = {
     title: "Our Mission & Vision",
-    description: "To become a global AI industry disruptor who transforms businesses with proprietary AI solutions, helping streamline operations, reduce risks, and drive scalable growth. iTCart harnesses AI that transforms enterprises with future-ready technology.<br>To revolutionize industries and deliver scalable and adaptive AI-powered solutions that shape the digital economy. ITCart's commitment extends beyond transformation, offering sustainable AI systems that redefine business success.",
+    description: "To become a global AI industry disruptor who transforms businesses with proprietary AI solutions, helping streamline operations, reduce risks, and drive scalable growth. iTCart harnesses AI that transforms enterprises with future-ready technology.<br>To revolutionize industries and deliver scalable and adaptive AI-powered solutions that shape the digital economy. iTCart's commitment extends beyond transformation, offering sustainable AI systems that redefine business success.",
     imageUrl: "/images/about-card-1.jpg",
 
 }
@@ -32,8 +32,8 @@ const missionVisionData = {
 // }
 
 const globalExpansionData = {
-    title: "ITCart's Global Expansions",
-    description: "The IT industry is not only central to modern businesses but also influences society as a whole. iTCart is designed to offer firms with a journey that goes beyond the ordinary. <br> We are dedicated to transforming lives through innovative IT solutions, improving the lives of millions globally. iTCart, an AI automation company known for its global expansion has its footprints in UAE, KSA, USA, and UK along with other APAC and European regions.",
+    title: "iTCart's Global Expansions",
+    description: "The IT industry is not only central to modern businesses but also influences society as a whole. iTCart is designed to offer firms a journey that goes beyond the ordinary. <br> We are dedicated to transforming lives through innovative IT solutions, improving the lives of millions globally. iTCart, an AI automation company known for its global expansion has its footprints in UAE, KSA, USA, and UK along with other APAC and European regions.",
     bgImage: "/images/contact/contact-bg.jpg",
 }
 

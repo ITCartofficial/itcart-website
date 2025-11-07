@@ -48,7 +48,7 @@ const CaseStudySection = ({
           <div className="relative w-40 h-16 md:w-48 md:h-20">
             <Image
               src="/images/logo/logo-white.svg"
-              alt="ITCart Logo"
+              alt="iTCart Logo"
               fill
               className="object-contain"
               priority

@@ -317,7 +317,7 @@ function Partners() {
             logo: "/images/ourpartners/YelloStack.png",
             alt: "yelloStack logo",
             description:
-                "Yello Stack innovates with responsive tech solutions, ethical practices, and a dedicated client growth focus, ensuring transformative experience in every interaction."
+                "YelloStack innovates with responsive tech solutions, ethical practices, and a dedicated client growth focus, ensuring transformative experience in every interaction."
         },
         
     ];

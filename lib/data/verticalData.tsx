@@ -85,6 +85,15 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
+            impacts: [
+                "Achieve 76% higher learning efficiency compared to traditional platforms through personalized AI",
+                "Increase course completion rates from industry average 15% to 85% using engagement",
+                "Reduce training time by 50% through adaptive learning paths and intelligent content.",
+                "Enable 24/7 learning access with real-time AI tutoring across multiple languages",
+                "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends",
+                "Enhance learner engagement through gamified elements and interactive AI-powered learning experiences",
+                "Streamline content creation for educators with automated lesson generation and assessment tools",
+            ],
             FAQs: [
                 {
                     id: '1',
@@ -214,6 +223,15 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
+            ],
+            impacts: [
+                "Achieve 76% higher learning efficiency compared to traditional platforms through personalized AI",
+                "Increase course completion rates from industry average 15% to 85% using engagement",
+                "Reduce training time by 50% through adaptive learning paths and intelligent content.",
+                "Enable 24/7 learning access with real-time AI tutoring across multiple languages",
+                "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends",
+                "Enhance learner engagement through gamified elements and interactive AI-powered learning experiences",
+                "Streamline content creation for educators with automated lesson generation and assessment tools",
             ],
             FAQs: [
                 {
@@ -923,7 +941,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXLifeCare-about.png',
                 logo: '/images/vertical/AiXLifeCare-darklogo.png',
-                contentOne: "AiXLifeCare is iTCart's revolutionary ai healthcare platform that transforms patient care through intelligent healthcare automation software and healthcare predictive analytics software. Built on the proprietary AiX Framework, this comprehensive medical automation system delivers AI clinical decision support, automated diagnostics, and patient engagement platform capabilities through workflow automation in healthcare environments with HIPAA-compliant AI architecture and seamless integration capabilities. ",
+                contentOne: "AiXLifeCare is iTCart's revolutionary Ai healthcare platform that transforms patient care through intelligent healthcare automation software and healthcare predictive analytics software. Built on the proprietary AiX Framework, this comprehensive medical automation system delivers AI clinical decision support, automated diagnostics, and patient engagement platform capabilities through workflow automation in healthcare environments with HIPAA-compliant AI architecture and seamless integration capabilities. ",
                 contenttwo: "",
                 contentthree: ''
             },
@@ -954,7 +972,7 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixlifecare-icon1.svg',
                     title: "Hospitals & Clinics ",
-                    highlight: " Streamline operations with comprehensive ai healthcare platform for multispecialty healthcare environments.",
+                    highlight: " Streamline operations with comprehensive Ai healthcare platform for multispecialty healthcare environments.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },

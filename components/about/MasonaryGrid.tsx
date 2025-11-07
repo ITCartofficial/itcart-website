@@ -134,7 +134,7 @@ const MasonaryGrid = () => {
                             6 countries
                         </p>
                         <p className="text-[16px] md:text-[35px] text-white/80">
-                            85 employees
+                            85 Employees
                         </p>
                     </div>
                 </div>
@@ -184,7 +184,7 @@ const MasonaryGrid = () => {
                     <div>
                         <p className="ttext-[32px] md:text-[54px] font-semibold">490+</p>
                         <p className="text-[16px] md:text-[35px] text-white/80">
-                            Trusted clients
+                            Trusted Clients
                         </p>
                     </div>
                     <p className="text-[16px] md:text-[18px] text-white/80 leading-relaxed mb-3">

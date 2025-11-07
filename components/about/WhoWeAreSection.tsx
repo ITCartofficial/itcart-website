@@ -8,7 +8,7 @@ const WhoWeAreSection = () => {
         <div className='container mx-auto lg:px-10 flex flex-col gap-10 md:gap-16'>
             <div className="flex flex-col">
                 <GradientTitle
-                    text='Who We Are?'
+                    text='Who We Are'
                     theme='dark'
                     className='text-[30px] lg:text-[64px] text-center'
                 />

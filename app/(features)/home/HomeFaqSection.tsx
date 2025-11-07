@@ -18,7 +18,7 @@ export interface HomeFaqSectionProps {
 const HomeFaqSection: React.FC<HomeFaqSectionProps> = ({
   faqs,
   label = "FAQs",
-  mainTitle = "Everything you need to know about",
+  mainTitle = "Everything You Need to Know About",
   titleColor = "white",
   accentColor = "#ffffff",
   backgroundColor = "#131313",

@@ -88,6 +88,9 @@ const FoundingMembersSection = ({
     direction: "row" | "col"
     theme: "dark" | "light"
 }) => {
+
+
+
     return (
         <div className="container mx-auto lg:px-10  pb-20 border-b-[.2px] border-zinc-600">
             {/* ===== Header ===== */}

@@ -5,7 +5,7 @@ import React from 'react'
 const workWithUsCard = [
     {
         title: 'Best Environment',
-        description: 'Work on transformative projects like AiX Hub, revolutionizing industries with AI.',
+        description: 'Work on transformative projects like AiXHub, revolutionizing industries with AI.',
         icon: '/icons/work-environment.png',
     },
     {

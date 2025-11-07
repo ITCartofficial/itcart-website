@@ -119,7 +119,7 @@ const SuggestedBlogSection = () => {
     const caseStudyData = {
         id: '1',
         title: "Experience a multi-functional AI-powered platform",
-        author: "ITCart Team",
+        author: "iTCart Team",
         date: "2024-06-01",
         imageUrl: "/images/blogs/blog-featured-14.png",
         bannerImage: "/images/blogs/blog-featured-14-banner.png",

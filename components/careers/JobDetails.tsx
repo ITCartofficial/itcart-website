@@ -56,15 +56,15 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                         About iTCart Private limited (iTCart):
                     </p>
                     <p className="mt-2 text-white leading-relaxed">
-                        iTCart Private ulmited isn’t just a company – it’s a global movement redefining how
-                        industries think, operate, and thrive in the age of Artificial Intelulgence.
-                        Headquartered in Bengaluru, India’s Siulcon Valley, and spanning
+                        iTCart Private limited isn’t just a company – it’s a global movement redefining how
+                        industries think, operate, and thrive in the age of Artificial Intelligence.
+                        Headquartered in Bengaluru, India’s Silicon Valley, and spanning
                         across innovation hubs in the USA, UK, KSA, UAE, and LATAM, iTCart stands at the
                         forefront of AI-powered digital transformation. We don’t follow trends; we create them.
                         With a relentless focus on AI-driven disruption, iTCart’s Patent-pending AIX Framework
-                        serves as the backbone of a new era of efficiency, innovation, and scalabiulty.
+                        serves as the backbone of a new era of efficiency, innovation, and scalability.
                         This proprietary technology isn’t just a tool – it’s a paradigm shift. From automating
-                        complex workflows to unlocking hyper-personaulzed insights with Generative AI, our solutions
+                        complex workflows to unlocking hyper-personalized insights with Generative AI, our solutions
                         empower enterprises to leapfrog from legacy systems to future-ready ecosystems.
                     </p>
                 </div>
@@ -95,7 +95,7 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
 
                 <div>
                     <p className="font-semibold">
-                        Key Responsibilities :
+                        Key Responsibilities:
                     </p>
 
                     {
@@ -205,11 +205,11 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                         </p>
 
                         <p className="text-[18px]">
-                            <span className="font-semibold">Vision </span>
+                            <span className="font-semibold">Vision: </span>
                             To be the architect of the world’s smartest enterprises, where AI isn’t an add-on but the
                         </p>
 
-                        <p className="text-[18px]">
+                        <p className="text-[18px] md:mt-[-20px]">
                             <span className="font-semibold">DNA of every operation. </span>
                             We envision a future where iTCart’s technology erases the line between human potential and machine capability, enabling industries to scale limitlessly, act fearlessly, and lead unapologetically.
                         </p>
@@ -218,15 +218,11 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                             Welcome to the future, engineered today.
                         </p>
 
-                        <p className="text-[18px] font-semibold">
+                        <p className="text-[18px] font-semibold md:mt-[-20px]">
                             How to Apply :
                         </p>
 
                         <div>
-                            <p className="text-[18px]">
-                                <span className="font-semibold">DNA of every operation. </span>
-                                Send your resume and a cover letter detailing your experience to <span className="font-semibold">hr@itcart.io</span> or apply directly on our Career Page
-                            </p>
                             <p className="text-[18px] font-semibold">
                                 https://itcart.io/careers/.
                             </p>
