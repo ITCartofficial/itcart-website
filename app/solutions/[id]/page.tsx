@@ -27,10 +27,10 @@ function SolutionDetailPage() {
         pathName.toLowerCase().replace(/™/g, '').trim()
     ) || solutionData[0]
 
+    console.log("filterdItem",filterdItem);
 
     return (
         <>
-
             <div className="space-y-15 lg:space-y-25  mt-10">
 
                 <div className="md:block hidden">
@@ -51,8 +51,18 @@ function SolutionDetailPage() {
 
                 <div className="md:hidden block">
                     <MobileVerticalHeroBanner
+                        title={filterdItem?.detailPage?.bannerTitle ?? ""}
+                        description={filterdItem?.detailPage?.bannerDescription ?? ""}
+                        ctaText="Connect with Us"
+                        ctaUrl="/contact-us"
+                        // breadcrumbItems={[
+                        //     { label: 'Home', url: '/' },
+                        //     { label: 'Our Verticals', url: '/services' }
+                        // ]}
+                        mobileBanner={filterdItem?.detailPage?.mobileBannerImage ?? ""}
                         bannerButtonText="Get Started"
                     />
+
                 </div>
 
                 <div className='bg-black container mx-auto lg:px-10'>

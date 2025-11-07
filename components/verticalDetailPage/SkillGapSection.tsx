@@ -137,11 +137,11 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
                     >
                         {/* Floating Icon */}
                         <div className="absolute -top-10 flex justify-center w-full ">
-                            <div className="flex justify-center items-center w-20 h-20 rounded-full bg-[#2BADB7] shadow-lg">
+                            <div className="flex justify-center items-center w-20 h-20 rounded-full bg-[#2BADB7] shadow-lg object-contain text-white">
                                 <Image
                                     src={item?.icon || ""}
                                     alt={item?.title || "icon"}
-                                    className="w-10 h-10"
+                                    className="w-10 h-10 object-contain invert"
                                     width={600} // set explicit width
                                     height={400} // and height for layout stability
                                 />

@@ -65,7 +65,7 @@ const AboutItCart = ({ impactImage }: { impactImage: string }) => {
                             alt="Students learning"
                             width={800}
                             height={400}
-                            className="w-full rounded-xl md:h-[400px] h-[160px] object-cover"
+                            className="w-full rounded-xl md:h-[400px] h-[160px] object-cover "
                             priority
                         />
                     </div>

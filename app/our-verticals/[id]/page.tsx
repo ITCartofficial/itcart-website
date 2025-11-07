@@ -2,6 +2,7 @@
 import HomeFaqSection from '@/app/(features)/home/HomeFaqSection'
 import AboutItCart from '@/components/verticalDetailPage/AboutItCart'
 import CapabilitySection from '@/components/verticalDetailPage/CapabilitySection'
+import MobileVerticalHeroBanner from '@/components/verticalDetailPage/MobileVerticalHeroBanner'
 import SectionAbout from '@/components/verticalDetailPage/SectionAbout'
 import SkillGapSection from '@/components/verticalDetailPage/SkillGapSection'
 import VerticalContentSection2 from '@/components/verticalDetailPage/verticalContentSection2'
@@ -17,20 +18,42 @@ const OurVerticalsDetailPage = () => {
 
     const filterdItem = verticalData.find(item => item.compenyName === pathName);
 
+    console.log("filterdItem", filterdItem?.detailPage?.bannerImage);
+
+
     return (
         <>
             <div className='bg-black space-y-15 lg:space-y-25 mt-10'>
-                <VerticalHeroBanner
-                    title={filterdItem?.detailPage?.bannerTitle ?? ""}
-                    description={filterdItem?.detailPage?.bannerDescription ?? ""}
-                    ctaText="Connect with Us"
-                    ctaUrl="/contact-us"
-                    breadcrumbItems={[  
-                        { label: 'Home', url: '/' },
-                        { label: 'Our Verticals', url: '/services' }
-                    ]}
-                    backgroundImage={filterdItem?.detailPage?.bannerImage ?? ""}
-                />
+
+                <div className='md:block hidden'>
+                    <VerticalHeroBanner
+                        title={filterdItem?.detailPage?.bannerTitle ?? ""}
+                        description={filterdItem?.detailPage?.bannerDescription ?? ""}
+                        ctaText="Connect with Us"
+                        ctaUrl="/contact-us"
+                        breadcrumbItems={[
+                            { label: 'Home', url: '/' },
+                            { label: 'Our Verticals', url: '/services' }
+                        ]}
+                        backgroundImage={filterdItem?.detailPage?.bannerImage ?? ""}
+                    />
+                </div>
+
+                <div className="md:hidden block">
+                    <MobileVerticalHeroBanner
+                        title={filterdItem?.detailPage?.bannerTitle ?? ""}
+                        description={filterdItem?.detailPage?.bannerDescription ?? ""}
+                        ctaText="Connect with Us"
+                        ctaUrl="/contact-us"
+                        // breadcrumbItems={[
+                        //     { label: 'Home', url: '/' },
+                        //     { label: 'Our Verticals', url: '/services' }
+                        // ]}
+                        mobileBanner={filterdItem?.detailPage?.mobileBannerImage ?? ""}
+                        bannerButtonText="Get Started"
+                    />
+                </div>
+
 
                 <div className='bg-black container mx-auto lg:px-10'>
                     <VerticalContentSection2

@@ -59,7 +59,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
 
                         {
                             serviceName &&
-                            <div className="bg-white w-fit py-1 px-4 rounded-full my-1 bg-red-400">
+                            <div className="bg-white w-fit py-1 px-4 rounded-full my-1 ">
                                 <p className='text-black text-[8px] sm:text-[10px] md:text-[14px]'>{serviceName}</p>
                             </div>
                         }

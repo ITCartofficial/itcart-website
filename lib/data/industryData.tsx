@@ -22,28 +22,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Elevating aviation operations through comprehensive artificial intelligence solutions',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Airlines-icon1.svg',
           title: "Operational Excellence",
           highlight: "Advanced flight operation management systems with crew coordination, route optimization, and comprehensive resource allocation. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Airlines-icon2.svg',
           title: "Safety Management",
           highlight: "Comprehensive airport operations management featuring risk assessment automation, incident reporting systems, and continuous improvement. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Airlines-icon3.svg',
           title: "Weather Analytics",
           highlight: "Real-time weather data analysis utilizing artificial intelligence in airline industry for forecasting and mitigating adverse conditions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Airlines-icon4.svg',
           title: "Biometric Authentication",
           highlight: "Advanced biometric systems for seamless passenger authentication through airline digital transformation solutions elevating safety experiences. ",
           description: "",
@@ -209,6 +209,7 @@ export const industryData = [
       bannerTitle: "Automotive Digital Transformation Excellence",
       bannerDescription: "Elevating innovation in automotive industry through comprehensive automotive manufacturing solutions",
       bannerImage: "/images/industries/Automotive-Industry-Banner.jpg",
+      mobileBannerImage: "/images/industru/Automotive-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think and Do',
       aboutSection: {
@@ -221,28 +222,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating automotive digitalization through comprehensive innovation solutions ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Automotive-icon1.svg',
           title: "Smart Manufacturing",
           highlight: "Advanced robotics in automotive manufacturing with IoT integration, real-time monitoring, and comprehensive production optimization. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Automotive-icon2.svg',
           title: "Digital Innovation",
           highlight: "Comprehensive innovation in automotive industry featuring connected vehicles, software platforms, and continuous technological advancement. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Automotive-icon3.svg',
           title: "Predictive Intelligence",
           highlight: "Real-time data analysis utilizing predictive analytics for automotive quality control and proactive maintenance optimization. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Automotive-icon4.svg',
           title: "Connected Vehicles ",
           highlight: "Advanced automotive manufacturing solutions for seamless connectivity through automotive digital transformation services elevating mobility experiences. ",
           description: "",
@@ -410,6 +411,7 @@ export const industryData = [
       bannerTitle: "Banking Automation Solutions Excellence",
       bannerDescription: "Empowering modern finance through comprehensive digital banking transformation services and artificial intelligence in banking",
       bannerImage: "/images/industries/Banking-and-finance-Banner.jpg",
+      mobileBannerImage: "/images/industries/BankingFinance-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -422,28 +424,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating banking automation solutions through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Banking-icon1.svg',
           title: "Smart Banking",
           highlight: "Advanced artificial intelligence in banking systems with fraud detection, customer analytics, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Banking-icon2.svg',
           title: "Digital Transformation",
           highlight: "Comprehensive digital banking transformation services featuring core modernization, process automation, and continuous technological advancement through solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Banking-icon3.svg',
           title: "AI Intelligence",
           highlight: "Real-time artificial intelligence in financial services utilizing machine learning for risk assessment and proactive financial optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Banking-icon4.svg',
           title: "Connected Operations",
           highlight: "Advanced automation in banking and financial services enabling seamless integration through AI for commercial banking solutions excellence and cloud-based AI solutions for banking operations. ",
           description: "",
@@ -605,6 +607,7 @@ export const industryData = [
       bannerTitle: "Marketing Automation Solutions Excellence",
       bannerDescription: "Empowering enterprise marketing automation through comprehensive digital marketing software solutions",
       bannerImage: "/images/industries/Digital-marketing-Banner.jpg",
+      mobileBannerImage: "/images/industries/DigitalMarketing-MobileBanner.jpg",
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
         aboutImage: '/images/industries/digitalmarketing-section.png',
@@ -616,28 +619,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating marketing automation solutions through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Digital-icon1.svg',
           title: "Campaign Intelligence",
           highlight: "Advanced campaign management software systems with automated workflows, audience segmentation, and comprehensive performance optimization. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Digital-icon2.svg',
           title: "Automation Innovation",
           highlight: "Comprehensive marketing automation software featuring customer journey automation, lead nurturing, and continuous technological advancement through solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Digital-icon3.svg',
           title: "Journey Optimization",
           highlight: "Real-time customer journey automation utilizing predictive analytics for personalized experiences and proactive engagement optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Digital-icon4.svg',
           title: "Connected Marketing",
           highlight: "Advanced omnichannel marketing automation enabling seamless integration through digital marketing software solutions excellence and automation services. ",
           description: "",
@@ -798,6 +801,7 @@ export const industryData = [
       bannerTitle: "AI Learning Platform Excellence",
       bannerDescription: "Empowering best online edtech solution providers through comprehensive education technology solutions and services",
       bannerImage: "/images/industries/Education-Banner.jpg",
+      mobileBannerImage: "/images/industries/Education-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think and Do',
       aboutSection: {
@@ -810,28 +814,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating digital transformation in education through comprehensive innovation solutions ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Education-icon1.svg',
           title: "Smart Learning",
           highlight: "Advanced AI learning platform systems with personalized content delivery, adaptive assessments, and comprehensive student progress tracking. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Education-icon2.svg',
           title: "Digital Innovation",
           highlight: "Comprehensive digital learning platforms featuring interactive content, virtual classrooms, and continuous technological advancement through best solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Education-icon3.svg',
           title: "Educational Analytics",
           highlight: "Real-time data analysis utilizing predictive insights for academic performance monitoring and proactive intervention optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Education-icon4.svg',
           title: "Connected Education",
           highlight: "Advanced education technology solutions and services enabling seamless collaboration through digital transformation in education excellence methodologies. ",
           description: "",
@@ -992,6 +996,7 @@ export const industryData = [
       bannerTitle: "Automation in Construction Industry Excellence",
       bannerDescription: "Empowering modern construction through comprehensive construction management solutions and engineering process automation with AI",
       bannerImage: "/images/industries/Engineering-&-Construction-Banner.jpg",
+      mobileBannerImage: "/images/industries/Engineering-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -1004,28 +1009,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating automation in construction industry through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Engineering-icon1.svg',
           title: "Smart Construction",
           highlight: "Advanced automation in construction industry systems with project monitoring, resource allocation, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Engineering-icon2.svg',
           title: "Management Intelligence",
           highlight: "Comprehensive construction management solutions featuring project planning, cost control, and continuous operational advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Engineering-icon3.svg',
           title: "Predictive Analytics",
           highlight: "Real-time predictive analytics for construction utilizing AI algorithms for risk assessment and proactive project optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Engineering-icon4.svg',
           title: "Connected Operations",
           highlight: "Advanced engineering resource management solutions enabling seamless integration through engineering process automation with AI excellence and automation services. ",
           description: "",
@@ -1186,6 +1191,7 @@ export const industryData = [
       bannerTitle: "AI-powered F&B Automation Excellence",
       bannerDescription: "Empowering modern food and beverage through comprehensive food and beverage ERP solutions and automation in food and beverage industry",
       bannerImage: "/images/industries/Food-&-Beverages-Banner.jpg",
+      mobileBannerImage: "/images/industries/Food-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -1198,28 +1204,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating AI-powered F&B automation through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Food-icon1.svg',
           title: "Smart Food Production",
           highlight: "Advanced AI-powered F&B automation systems with quality monitoring, production control, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Food-icon2.svg',
           title: "ERP Intelligence",
           highlight: "Comprehensive food and beverage ERP solutions featuring supply chain management, financial control, and continuous operational advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Food-icon3.svg',
           title: "Inventory Optimization",
           highlight: "Real-time F&B inventory automation utilizing predictive analytics for stock management and proactive supply planning strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Food-icon4.svg',
           title: "Connected Operations",
           highlight: "Advanced automation in food and beverage industry enabling seamless integration through product lifecycle management food industry excellence and F&B demand forecasting with AI services. ",
           description: "",
@@ -1380,6 +1386,7 @@ export const industryData = [
       bannerTitle: "Digital Transformation in FMCG Excellence",
       bannerDescription: "Empowering modern consumer goods through comprehensive AI solutions for FMCG companies and digital consumer experiences",
       bannerImage: "/images/industries/FMCG-Banner.jpg",
+      mobileBannerImage: "/images/industries/FMCG-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -1392,28 +1399,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating digital transformation in FMCG through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/FMCG-icon1.svg',
           title: "Smart Consumer Goods",
           highlight: "Advanced AI solutions for FMCG companies systems with demand forecasting, consumer analytics, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/FMCG-icon2.svg',
           title: "Digital Experience Innovation",
           highlight: "Comprehensive digital consumer experiences featuring personalized marketing, omnichannel engagement, and continuous consumer satisfaction advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/FMCG-icon3.svg',
           title: "Supply Chain Intelligence",
           highlight: "Real-time FMCG supply chain automation utilizing predictive analytics for distribution planning and proactive logistics optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/FMCG-icon4.svg',
           title: "Connected Operations",
           highlight: "Advanced FMCG digital transformation services enabling seamless integration through retail analytics for FMCG brands excellence and smart inventory management for FMCG services. ",
           description: "",
@@ -1574,6 +1581,7 @@ export const industryData = [
       bannerTitle: "Industrial Automation Solutions Excellence",
       bannerDescription: " Empowering digital transformation in manufacturing through comprehensive predictive maintenance in manufacturing technologies",
       bannerImage: "/images/industries/Industrial-&-Manufacturing-Banner.jpg",
+      mobileBannerImage: "/images/industries/Industrial-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -1586,28 +1594,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating digital manufacturing transformation through comprehensive automation solutions   ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Industrial-icon1.svg',
           title: "Smart Manufacturing",
           highlight: "Advanced industrial automation solutions systems with production optimization, quality control integration, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Industrial-icon2.svg',
           title: "Predictive Intelligence",
           highlight: "Comprehensive predictive maintenance in manufacturing featuring equipment monitoring, failure prediction, and continuous technological advancement through solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Industrial-icon3.svg',
           title: "Digital Innovation",
           highlight: "Real-time digital twin in manufacturing utilizing advanced modeling for process simulation and proactive optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Industrial-icon4.svg',
           title: "Connected Operations",
           highlight: "Advanced manufacturing operations management enabling seamless integration through digital transformation in manufacturing excellence, IoT in industrial automation connectivity, and AI in industrial automation services. ",
           description: "",
@@ -1768,6 +1776,7 @@ export const industryData = [
       bannerTitle: "Healthcare Digital Transformation Solutions Excellence",
       bannerDescription: "Empowering modern healthcare through comprehensive electronic health records management and AI automation in healthcare industry",
       bannerImage: "/images/industries/Healthcare-Banner.jpg",
+      mobileBannerImage: "/images/industries/Healthcare-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think and Do',
       aboutSection: {
@@ -1780,28 +1789,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating healthcare digital transformation solutions through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Healthcare-icon1.svg',
           title: "Smart Healthcare",
           highlight: "Advanced AI automation in healthcare industry systems with patient monitoring, clinical decision support, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Healthcare-icon2.svg',
           title: "EHR Intelligence",
           highlight: "Comprehensive electronic health records management featuring patient data integration, clinical workflows, and continuous care advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Healthcare-icon3.svg',
           title: "Remote Care",
           highlight: "Real-time remote patient monitoring services utilizing IoT devices for patient tracking and proactive healthcare coordination strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Healthcare-icon4.svg',
           title: "Connected Operations",
           highlight: "Advanced revenue cycle management in healthcare enabling seamless integration through automate claim processing insurance excellence and financial optimization services. ",
           description: "",
@@ -1962,6 +1971,7 @@ export const industryData = [
       bannerTitle: "AI in Information Technology Excellence",
       bannerDescription: "Empowering IT digital transformation services through comprehensive application modernization services technologies",
       bannerImage: "/images/industries/Information-Technology-Banner.jpg",
+      mobileBannerImage: "/images/industries/Information-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -1974,28 +1984,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating IT digital transformation services through comprehensive automation solutions ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+         icon: '/icons/Industry-icons/Information-icon1.svg',
           title: "Smart IT Operations",
           highlight: "Advanced AI in information technology systems with intelligent monitoring, automated responses, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Information-icon2.svg',
           title: "Modernization Innovation",
           highlight: "Comprehensive application modernization services featuring legacy system transformation, cloud migration, and continuous technological advancement through solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Information-icon3.svg',
           title: "Workflow Intelligence",
           highlight: "Real-time IT workflow automation utilizing predictive analytics for process optimization and proactive infrastructure management strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Information-icon4.svg',
           title: "Connected Infrastructure",
           highlight: "Advanced IT infrastructure optimization enabling seamless integration through IT digital transformation services excellence and get AI-powered IT automation services. ",
           description: "",
@@ -2162,6 +2172,7 @@ export const industryData = [
       bannerTitle: "Media Operations Platform Excellence",
       bannerDescription: "Empowering digital media transformation through comprehensive media infrastructure modernization solutions",
       bannerImage: "/images/industries/Media-&-Telecommunications-Banner.jpg",
+      mobileBannerImage: "/images/industries/Media-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -2174,28 +2185,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating media infrastructure modernization through comprehensive innovation solutions ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Media-icon1.svg',
           title: "Vontent Management",
           highlight: "Advanced media operations platform systems with content lifecycle management, distribution optimization, and comprehensive workflow coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Media-icon2.svg',
           title: "Infrastructure Innovation",
           highlight: "Comprehensive media infrastructure modernization featuring scalable architecture, cloud integration, and continuous technological advancement through solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Media-icon3.svg',
           title: "Workflow Intelligence",
           highlight: "Real-time process analysis utilizing media workflow automation for content processing and proactive operational optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Media-icon4.svg',
           title: "Connected Media",
           highlight: "Advanced digital media transformation enabling seamless integration through media content delivery optimization excellence and automation services. ",
           description: "",
@@ -2356,6 +2367,7 @@ export const industryData = [
       bannerTitle: "Oil and Gas Digital Transformation Solutions Excellence",
       bannerDescription: "Empowering modern energy through comprehensive oil and gas industry solutions and advanced technology in oil and gas industry ",
       bannerImage: "/images/industries/Oil-&-Gas-Banner.jpg",
+      mobileBannerImage: "/images/industries/OilGas-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -2368,28 +2380,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating oil and gas digital transformation solutions through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/OilGas-icon1.svg',
           title: "Smart Energy Operations",
           highlight: "Advanced AI in oil and gas industry systems with predictive analytics, production optimization, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/OilGas-icon2.svg',
           title: "Process Automation",
           highlight: "Comprehensive oil and gas process automation featuring drilling optimization, production control, and continuous operational advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/OilGas-icon3.svg',
           title: "Digital Twin Technology",
           highlight: "Real-time digital twin for oil and gas utilizing simulation modeling for asset monitoring and proactive operational optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/OilGas-icon4.svg',
           title: "Connected Infrastructure",
           highlight: "Advanced energy sector AI solutions enabling seamless integration through digital oilfield automation services excellence and oil and gas remote monitoring",
           description: "",
@@ -2550,6 +2562,7 @@ export const industryData = [
       bannerTitle: "Public Sector Technology Excellence",
       bannerDescription: "Empowering modern governance through comprehensive digital government transformation and AI solutions for government sector",
       bannerImage: "/images/industries/Public-Sector-Banner.jpg",
+      mobileBannerImage: "/images/industries/PublicSector-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -2562,28 +2575,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating automation for public sector through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Public-icon1.svg',
           title: "Smart Governance",
           highlight: "Advanced AI solutions for government sector systems with citizen engagement, service delivery optimization, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Public-icon2.svg',
           title: "Digital Transformation",
           highlight: "Comprehensive digital government transformation featuring process modernization, citizen portals, and continuous service advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Public-icon3.svg',
           title: "Workforce Development",
           highlight: "Real-time government workforce development utilizing training platforms for skill enhancement and proactive capability building strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Public-icon4.svg',
           title: "Connected Operations",
           highlight: "Advanced digital technology in public sector enabling seamless integration through automation in public sector excellence and operational optimization services. ",
           description: "",
@@ -2744,6 +2757,7 @@ export const industryData = [
       bannerTitle: "Professional Services Automation Excellence",
       bannerDescription: "Empowering modern service firms through comprehensive professional services digital transformation and AI in professional services",
       bannerImage: "/images/industries/Professional-Services-Banner.jpg",
+      mobileBannerImage: "/images/industries/ProfessionalServices-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -2756,28 +2770,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating professional services automation through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Professional-icon1.svg',
           title: "Smart Service Operations",
           highlight: "Advanced AI in professional services systems with intelligent workflows, client analytics, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Professional-icon2.svg',
           title: "Digital Transformation",
           highlight: "Comprehensive professional services digital transformation featuring process modernization, automation tools, and continuous service advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Professional-icon3.svg',
           title: "Managed Services",
           highlight: "Real-time managed professional services utilizing expert support for infrastructure management and proactive service optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Professional-icon4.svg',
           title: "Connected Workflows",
           highlight: "Advanced task management solutions enabling seamless integration through professional custom desk services excellence and workforce productivity analytics. ",
           description: "",
@@ -2938,6 +2952,7 @@ export const industryData = [
       bannerTitle: "Retail Digital Transformation Excellence",
       bannerDescription: "Empowering digital transformation for retail through comprehensive omnichannel retail solution technologies",
       bannerImage: "/images/industries/Retail-&-Ecommerce-Banner.png",
+      mobileBannerImage: "/images/industries/Retail-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -2950,28 +2965,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating digital transformation for retail through comprehensive innovation solutions ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Retail-icon1.svg',
           title: "Smart Commerce",
           highlight: "Advanced retail digital transformation systems with omnichannel integration, real-time analytics, and comprehensive customer experience optimization. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Retail-icon2.svg',
           title: "Digital Innovation",
           highlight: "Comprehensive retail technology solutions featuring AI-powered personalization, automated workflows, and continuous technological advancement through solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Retail-icon3.svg',
           title: "Intelligent Analytics",
           highlight: "Real-time data analysis utilizing predictive insights for customer behavior monitoring and proactive business optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Retail-icon4.svg',
           title: "Connected Retail",
           highlight: "Advanced retail IT solutions enabling seamless integration through digital transformation in retail industry excellence and automation services. ",
           description: "",
@@ -3132,6 +3147,7 @@ export const industryData = [
       bannerTitle: "Digital Transformation in Real Estate Excellence",
       bannerDescription: "Empowering modern property businesses through comprehensive real estate services and AI real estate solutions",
       bannerImage: "/images/industries/Real-Estate-Banner.jpg",
+      mobileBannerImage: "/images/industries/RealEstate-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think and Do',
       aboutSection: {
@@ -3144,28 +3160,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating digital transformation in real estate through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/RealEstate-icon1.svg',
           title: "Smart Property Operations",
           highlight: "Advanced AI real estate solutions systems with automated property management, tenant engagement, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+           icon: '/icons/Industry-icons/RealEstate-icon2.svg',
           title: "Transaction Intelligence",
           highlight: "Comprehensive real estate transaction management featuring document automation, contract processing, and continuous deal advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/RealEstate-icon3.svg',
           title: "Marketing Automation",
           highlight: "Real-time real estate marketing automation utilizing digital campaigns for lead generation and proactive customer engagement strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/RealEstate-icon4.svg',
           title: "Connected Management",
           highlight: "Advanced property management solutions enabling seamless integration through smart property management excellence and real estate automation services. ",
           description: "",
@@ -3326,6 +3342,7 @@ export const industryData = [
       bannerTitle: "Logistics Automation Solutions Excellence",
       bannerDescription: "Empowering modern transportation through comprehensive warehouse management solutions and route optimization solutions ",
       bannerImage: "/images/industries/Transportations-&-Logistics-Banner.jpg",
+      mobileBannerImage: "/images/industries/Transportations-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -3338,28 +3355,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating logistics automation solutions through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/RealEstate-icon1.svg',
           title: "Smart Logistics",
           highlight: "Advanced logistics automation solutions systems with fleet management, cargo tracking, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/RealEstate-icon2.svg',
           title: "Warehouse Intelligence",
           highlight: "Comprehensive warehouse management solutions featuring inventory optimization, automated sorting, and continuous operational advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/RealEstate-icon3.svg',
           title: "Route Optimization",
           highlight: "Real-time route optimization solutions utilizing AI algorithms for delivery planning and proactive logistics coordination strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/RealEstate-icon4.svg',
           title: "Connected Operations",
           highlight: "Advanced delivery monitoring system enabling seamless integration through dispatch automation solution excellence and predictive logistics optimization services. ",
           description: "",
@@ -3520,6 +3537,7 @@ export const industryData = [
       bannerTitle: "Travel Technology Solutions Excellence",
       bannerDescription: "Empowering modern tourism through comprehensive travel industry digital transformation and AI travel automation software for hotels",
       bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
+      mobileBannerImage: "/images/industries/travel-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -3532,28 +3550,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating travel technology solutions through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Travel-icon1.svg',
           title: "Smart Tourism Operations",
           highlight: "Advanced travel operations software systems with tour operator management software, guest experience automation, and comprehensive operational coordination across all tourism touchpoints. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Travel-icon2.svg',
           title: "Digital Travel Intelligence ",
           highlight: "Comprehensive travel industry digital transformation featuring AI travel automation software for hotels, seamless booking flows, and continuous guest satisfaction advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Travel-icon3.svg',
           title: "Tour Management Innovation",
           highlight: "Real-time tour management software utilizing smart algorithms for itinerary management and proactive travel optimization through tourism intelligence platform strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+          icon: '/icons/Industry-icons/Travel-icon4.svg',
           title: "Connected Travel Ecosystem",
           highlight: "Advanced travel agency automation software enabling seamless integration through travel industry software excellence and guest experience automation services. ",
           description: "",
@@ -3714,6 +3732,7 @@ export const industryData = [
       bannerTitle: "Hospitality Technology Solutions Excellence",
       bannerDescription: "Empowering modern hotels through comprehensive hotel software solutions and hospitality management software",
       bannerImage: "/images/industries/Hospitality-banner.png",
+      mobileBannerImage: "/images/industries/Hospitality-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do ',
       aboutSection: {
@@ -3726,28 +3745,28 @@ export const industryData = [
       skillGapHeadingDescription: 'Accelerating hospitality technology solutions through comprehensive innovation platforms ',
       skillGapSection: [
         {
-          icon: '/images/vertical/icons/manicon.png',
+          icon: '/icons/Industry-icons/Hospitality-icon1.svg',
           title: "Smart Hotel Operations",
           highlight: "Advanced hotel operations automation systems with integrated hotel operations and analytics platform, AI in guest experience for hotels, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+           icon: '/icons/Industry-icons/Hospitality-icon2.svg',
           title: "Enterprise Service Intelligence",
           highlight: "Comprehensive enterprise hospitality services featuring automated workflows, multi property management system integration, and continuous operational advancement through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+           icon: '/icons/Industry-icons/Hospitality-icon3.svg',
           title: "Hotel Management Innovation",
           highlight: "Real-time hospitality management software utilizing intelligent algorithms for property management and proactive operational optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
-          icon: '/images/vertical/icons/handicons.png',
+           icon: '/icons/Industry-icons/Hospitality-icon4.svg',
           title: "Connected Hospitality Ecosystem",
           highlight: "Advanced hospitality integration platform enabling seamless integration through hotel software solutions excellence and hotel automation software services. ",
           description: "",
