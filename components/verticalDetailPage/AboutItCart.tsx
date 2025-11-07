@@ -5,23 +5,26 @@ import Image from "next/image";
 const AboutItCart = ({ impactImage,
     apropriectContentOne,
     apropriectContenTwo,
-    apropriectContentThree
+    apropriectContentThree,
+    impacts
 }:
     {
         impactImage: string,
         apropriectContentOne: string,
         apropriectContenTwo: string,
-        apropriectContentThree: string
+        apropriectContentThree: string,
+        impacts: string[]
     }) => {
-    const impacts = [
-        "Achieve 76% higher learning efficiency compared to traditional platforms through personalized AI",
-        "Increase course completion rates from industry average 15% to 85% using engagement",
-        "Reduce training time by 50% through adaptive learning paths and intelligent content.",
-        "Enable 24/7 learning access with real-time AI tutoring across multiple languages",
-        "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends",
-        "Enhance learner engagement through gamified elements and interactive AI-powered learning experiences",
-        "Streamline content creation for educators with automated lesson generation and assessment tools",
-    ];
+
+    // const impacts = [
+    //     "Achieve 76% higher learning efficiency compared to traditional platforms through personalized AI",
+    //     "Increase course completion rates from industry average 15% to 85% using engagement",
+    //     "Reduce training time by 50% through adaptive learning paths and intelligent content.",
+    //     "Enable 24/7 learning access with real-time AI tutoring across multiple languages",
+    //     "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends",
+    //     "Enhance learner engagement through gamified elements and interactive AI-powered learning experiences",
+    //     "Streamline content creation for educators with automated lesson generation and assessment tools",
+    // ];
 
     const stats = [
         { value: "40+", label: "Industries" },

@@ -18,9 +18,6 @@ const OurVerticalsDetailPage = () => {
 
     const filterdItem = verticalData.find(item => item.compenyName.toLowerCase() === pathName);
 
-    console.log("filterdItem", filterdItem?.detailPage?.bannerImage);
-
-
     return (
         <>
             <div className='bg-black space-y-15 lg:space-y-25 mt-10'>
@@ -97,6 +94,7 @@ const OurVerticalsDetailPage = () => {
 
                 <div className='bg-black container mx-auto lg:px-10'>
                     <AboutItCart
+                        impacts={filterdItem?.detailPage?.impacts ?? []}
                         impactImage={filterdItem?.detailPage?.impactImage ?? ""}
                         apropriectContentOne={filterdItem?.detailPage?.apropriectContentOne ?? ""}
                         apropriectContenTwo={filterdItem?.detailPage?.apropriectContenTwo ?? ""}
