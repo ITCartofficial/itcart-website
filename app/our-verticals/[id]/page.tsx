@@ -15,7 +15,7 @@ const OurVerticalsDetailPage = () => {
 
     const pathName = usePathname().split('/')[2]
 
-    const filterdItem = verticalData.find(item => item.compenyName === pathName);
+    const filterdItem = verticalData.find(item => item.compenyName.toLowerCase() === pathName);
 
     return (
         <>

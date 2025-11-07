@@ -16,7 +16,7 @@ const IndustryDetailPage = () => {
 
     const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
 
-    const filterdItem = industryData.find(item => item.title === pathName);
+    const filterdItem = industryData.find(item => item.title.toLowerCase() === pathName);
 
     return (
         <>

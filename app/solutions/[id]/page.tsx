@@ -19,13 +19,11 @@ import MobileVerticalHeroBanner from "@/components/verticalDetailPage/MobileVert
 function SolutionDetailPage() {
     const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
 
-    // const filterdItem = solutionData.find(item => item.title === pathName);
+    const filterdItem = solutionData.find(item => {
 
-    // console.log("filterdItem", filterdItem);x
-    const filterdItem = solutionData.find(item =>
-        item.title.toLowerCase().replace(/™/g, '').trim() ===
-        pathName.toLowerCase().replace(/™/g, '').trim()
-    ) || solutionData[0]
+        return item.title.toLowerCase().replace(/™/g, '').trim() ==
+            pathName.toLowerCase().replace(/™/g, '').trim()
+    })
 
 
     return (

@@ -73,12 +73,12 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
                     <div className='w-full flex justify-center mt-6 mb-4'>
 
                         <WhiteButton
-                            url={`our-verticals/${compenyName}`}
+                            url={`our-verticals/${compenyName?.toLowerCase()}`}
                             text={"View More"}
                             textColor='#ffffff'
                             icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                         />
-                        
+
                     </div>
 
 

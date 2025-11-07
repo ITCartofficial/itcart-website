@@ -34,38 +34,26 @@ async function getBlogPosts() {
 }
 
 // Function to fetch employee profiles
-async function getEmployeeProfiles() {
-  try {
-    const res = await fetch('https://employee365-aqese4eecvfbdxd8.westus2-01.azurewebsites.net/api/employee');
-    if (!res.ok) throw new Error('Failed to fetch employees');
-    const data = await res.json();
-    return Array.isArray(data) ? data : [];
-  } catch (error) {
-    console.error('Error fetching employee profiles for sitemap:', error);
-    return [];
-  }
-}
+// async function getEmployeeProfiles() {
+//   try {
+//     const res = await fetch('https://employee365-aqese4eecvfbdxd8.westus2-01.azurewebsites.net/api/employee');
+//     if (!res.ok) throw new Error('Failed to fetch employees');
+//     const data = await res.json();
+//     return Array.isArray(data) ? data : [];
+//   } catch (error) {
+//     console.error('Error fetching employee profiles for sitemap:', error);
+//     return [];
+//   }
+// }
 
-// Get services from local data
-function getServices() {
-  try {
-    return serviceData.map(service => ({
-      id: service.title.toLowerCase().replace(/\s+/g, '-'),
-      slug: service.linkUrl.split('/').pop(),
-      updatedAt: new Date().toISOString()
-    }));
-  } catch (error) {
-    console.error('Error getting services for sitemap:', error);
-    return [];
-  }
-}
+
 
 // Get verticals from local data
 function getVerticals() {
   try {
     return verticalData.map(vertical => ({
       id: vertical.title.toLowerCase().replace(/\s+/g, '-'),
-      slug: vertical.linkUrl.split('/').pop(),
+      slug: vertical.compenyName.split('/').pop()?.toLowerCase(),
       updatedAt: new Date().toISOString()
     }));
   } catch (error) {
@@ -74,33 +62,81 @@ function getVerticals() {
   }
 }
 
+// Get solutions from local data
+function getSolutions() {
+  try {
+    return solutionData.map(solution => {
+
+      const slug = solution.title
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, '')
+        .trim()
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-');
+
+      return {
+        id: slug,
+        title: solution.title,
+        slug: slug.toLowerCase(),
+        updatedAt: new Date().toISOString()
+      };
+    });
+  } catch (error) {
+    console.error('Error getting solutions for sitemap:', error);
+    return [];
+  }
+}
+
 // Get industries from local data
 function getIndustries() {
   try {
-    return industryData.map(industry => ({
-      id: industry.title.toLowerCase().replace(/\s+/g, '-'),
-      slug: industry.linkUrl?.split('/').pop() || industry.title.toLowerCase().replace(/\s+/g, '-'),
-      updatedAt: new Date().toISOString()
-    }));
+    return industryData.map(industry => {
+
+      const slug = industry.title
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, '')
+        .trim()
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-');
+
+      return {
+        id: slug,
+        title: industry.title,
+        slug: slug,
+        updatedAt: new Date().toISOString()
+      };
+    });
   } catch (error) {
     console.error('Error getting industries for sitemap:', error);
     return [];
   }
 }
 
-// Get solutions from local data
-function getSolutions() {
+// Get services from local data
+function getServices() {
   try {
-    return solutionData.map(solution => ({
-      id: solution.title.toLowerCase().replace(/\s+/g, '-'),
-      slug: solution.linkUrl?.split('/').pop() || solution.title.toLowerCase().replace(/\s+/g, '-'),
-      updatedAt: new Date().toISOString()
-    }));
+    return serviceData.map(service => {
+
+      const slug = service.title
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, '')
+        .trim()
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-');
+
+      return {
+        id: slug,
+        title: service.title,
+        slug: slug.toLowerCase(),
+        updatedAt: new Date().toISOString()
+      };
+    });
   } catch (error) {
-    console.error('Error getting solutions for sitemap:', error);
+    console.error('Error getting services for sitemap:', error);
     return [];
   }
 }
+
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://itcart.ai';
@@ -115,7 +151,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     'consultnow',
     'contact-us',
     'csr',
-    'employee',
+    // 'employee',
     'industry',
     'mediapage',
     'our-verticals',
@@ -141,13 +177,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   // Dynamic employee profile routes
-  const employees = await getEmployeeProfiles();
-  const employeeRoutes = employees.map((employee: { id: string; updatedAt?: string }) => ({
-    url: `${baseUrl}/employee/${employee.id}`,
-    lastModified: employee.updatedAt ? new Date(employee.updatedAt).toISOString().split('T')[0] : new Date().toISOString().split('T')[0],
-    changeFrequency: 'monthly' as const,
-    priority: 0.6,
-  }));
+  // const employees = await getEmployeeProfiles();
+  // const employeeRoutes = employees.map((employee: { id: string; updatedAt?: string }) => ({
+  //   url: `${baseUrl}/employee/${employee.id}`,
+  //   lastModified: employee.updatedAt ? new Date(employee.updatedAt).toISOString().split('T')[0] : new Date().toISOString().split('T')[0],
+  //   changeFrequency: 'monthly' as const,
+  //   priority: 0.6,
+  // }));
 
   // Dynamic service routes
   const services = await getServices();
@@ -188,7 +224,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     ...routes,
     ...blogRoutes,
-    ...employeeRoutes,
+    // ...employeeRoutes,
     ...serviceRoutes,
     ...verticalRoutes,
     ...industryRoutes,

@@ -2,7 +2,7 @@ export const solutionData = [
   {
     title: "AiXHub Internet",
     description: "Consolidates resources, cultivates seamless collaboration and amplifies productivity via integrated tools, elevating communication, security, and organizational efficiency.",
-    linkUrl: "/services/ai-ml-automations",
+    linkUrl: "/solutions/aixhub-internet",
     imageSrc: "/images/solutions/ai_image.png",
     detailPage: {
       bannerButtonText: "Get in touch",
@@ -207,7 +207,7 @@ export const solutionData = [
   {
     title: "Document Management System",
     description: "Master document organization, fortify collaboration and safeguard security, ensuring seamless compliance for an unparalleled, streamlined operation.",
-    linkUrl: "/services/application-services",
+    linkUrl: "/solutions/document-management-system",
     imageSrc: "/images/solutions/Document_Management_System.png",
     detailPage: {
       serviceName: 'Cybersecurity Services',
@@ -408,7 +408,7 @@ export const solutionData = [
   {
     title: "Digital Transformation Suite",
     description: "Amplify efficiency, marketing, and service. Tailored for quality and real-time visibility, empowering your data-driven success through business intelligence.",
-    linkUrl: "/services/business-intelligence",
+    linkUrl: "/solutions/digital-transformation-suite",
     imageSrc: "/images/solutions/DigitalTransformationSuite.png",
     detailPage: {
       serviceName: 'Cybersecurity Services',
@@ -608,7 +608,7 @@ export const solutionData = [
   {
     title: "Business Process Automation",
     description: "Enhance business efficiency, streamline workflows, reduce manual tasks and boost productivity, paving the way for agile and optimized operations.",
-    linkUrl: "/services/cloud-computing",
+    linkUrl: "/solutions/business-process-automation",
     imageSrc: "/images/solutions/Business-Process-Automation.png",
     detailPage: {
       serviceName: 'Cybersecurity Services',
@@ -808,7 +808,7 @@ export const solutionData = [
   {
     title: "Human Resource Management",
     description: "Optimize your workforce, streamline operations, empower teams and foster a productive, engaged workforce through innovative HR management tools.",
-    linkUrl: "/services/cybersecurity-services",
+    linkUrl: "/solutions/Human Resource-anagement",
     imageSrc: "/images/solutions/HR_management.png",
     detailPage: {
       serviceName: 'Cybersecurity Services',
@@ -2046,7 +2046,7 @@ export const solutionData = [
     }
   },
   {
-    title: "Governance, Risk& Compliance",
+    title: "Governance Risk Compliance",
     description: "Strengthen enterprise, enhance transparency, manage risks and uphold regulatory standards for a compliant and resilient business framework.",
     linkUrl: "/services/managed-it-services",
     imageSrc: "/images/solutions/Governance-Risk-Compliance.png",

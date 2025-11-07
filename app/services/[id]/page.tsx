@@ -13,13 +13,19 @@ import FutureSection from '@/components/DetailPageComponents/FutureSection';
 
 const ServicesDetailPage = () => {
 
+    // const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
+
+    // const filterdItem = serviceData.find(item => item.title.toLowerCase() === pathName);
+
+    // console.log("filterdItem", filterdItem);
+
     const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
 
-    const filterdItem = serviceData.find(item => item.title === pathName);
+    const filterdItem = serviceData.find(item => {
 
-    console.log("filterdItem", filterdItem);
-
-
+        return item.title.toLowerCase().replace(/™/g, '').trim() ==
+            pathName.toLowerCase().replace(/™/g, '').trim()
+    })
 
     //  bg-gradient-to-b from-gray-900 via-gray-1000 to-black
     return (
