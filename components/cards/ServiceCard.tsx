@@ -30,11 +30,15 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 
     const pathName = usePathname().split('/')[1]
 
-    const formattedTitle = title.replace(/\s+/g, '-').replace(/&/g, '&');
+    const formattedTitle = title
+        .toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/[&,]/g, '');
+    // const formattedTitle = title.replace(/\s+/g, '-').replace(/&/g, '&');
 
     return (
         <div
-            onClick={() => router.push(`${pathName}/${formattedTitle}`)}
+            onClick={() => router.push(`${pathName}/${formattedTitle.toLowerCase()}`)}
             className={`flex flex-col w-full max-w-max overflow-hidden rounded-3xl bg-black cursor-pointer ${className}`}>
             <div className="relative h-96">
                 {imageSrc ? (

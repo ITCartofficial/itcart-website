@@ -400,7 +400,7 @@ export const industryData = [
     }
   },
   {
-    title: "Banking & Finance",
+    title: "Banking and Finance",
     description: "Revolutionizing the finance industry with cutting-edge software solutions for enhanced efficiency and financial innovation",
     linkUrl: "/services/business-intelligence",
     imageSrc: "/images/industries/Banking-Finance.png",
@@ -982,7 +982,7 @@ export const industryData = [
     }
   },
   {
-    title: "Engineering & Construction",
+    title: "Engineering and Construction",
     description: "Engineering the future of construction with software solutions, optimizing projects, efficiency, and innovation in the industry",
     linkUrl: "/services/data-analytics",
     imageSrc: "/images/industries/Engineering-Construction.png",
@@ -1176,7 +1176,7 @@ export const industryData = [
     }
   },
   {
-    title: "Food & Beverages",
+    title: "Food and Beverages",
     description: "Enhancing the food and beverage industry with software solutions, optimizing operations and enriching customer experiences",
     linkUrl: "/services/devops-services",
     imageSrc: "/images/industries/Food-Beverages.png",
@@ -1564,7 +1564,7 @@ export const industryData = [
     }
   },
   {
-    title: "Industrial & Manufacturing",
+    title: "Industrial and Manufacturing",
     description: "Optimizing industrial and manufacturing processes with tailored software solutions, enhancing efficiency, productivity, and innovation",
     linkUrl: "/services/digital-transformation",
     imageSrc: "/images/industries/Industrial-Manufacturing.png",
@@ -2152,7 +2152,7 @@ export const industryData = [
   //   imageSrc: "/images/industries/Insurance.png"
   // },
   {
-    title: "Media & Telecommunications",
+    title: "Media and Telecommunications",
     description: "Empowering media and telecommunications with innovative software solutions, enhancing connectivity, content delivery and user experiences",
     linkUrl: "/services/startup-services",
     imageSrc: "/images/industries/Media-Telecommunications.png",
@@ -2346,7 +2346,7 @@ export const industryData = [
     }
   },
   {
-    title: "Oil & Gas",
+    title: "Oil and Gas",
     description: "Fueling the oil and gas industry with specialized software solutions for enhanced exploration, production, and efficiency",
     linkUrl: "/services/startup-services",
     imageSrc: "/images/industries/Oil-Gas.png",
@@ -2928,7 +2928,7 @@ export const industryData = [
     }
   },
   {
-    title: "Retail & Ecommerce",
+    title: "Retail and Ecommerce",
     description: "Transforming the pre-tail and e-commerce landscape with innovative software solutions, enhancing customer experiences and growth",
     linkUrl: "/services/startup-services",
     imageSrc: "/images/industries/Retail-Ecommerce.png",
@@ -3316,7 +3316,7 @@ export const industryData = [
     }
   },
   {
-    title: "Transportations & Logistics",
+    title: "Transportations and Logistics",
     description: "Revolutionizing transportation and logistics with tailored software solutions, optimizing supply chains and efficiency",
     linkUrl: "/services/startup-services",
     imageSrc: "/images/industries/transportation.png",
@@ -3510,7 +3510,7 @@ export const industryData = [
     }
   },
   {
-    title: "Travel & Tourism",
+    title: "Travel and Tourism",
     description: "Elevating the travel and tourism sector with software solutions, enhancing bookings, guest experiences, and efficiency",
     linkUrl: "/services/startup-services",
     imageSrc: "/images/industries/Travel-Tourism.png",

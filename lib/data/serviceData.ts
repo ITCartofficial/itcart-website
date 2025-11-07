@@ -1,6 +1,6 @@
 export const serviceData = [
   {
-    title: "AI & ML Automations",
+    title: "AI and ML Automations",
     description: "Intelligent machine learning automation services that streamline workflows, reduce manual tasks, and boost operational efficiency significantly.",
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/services/ai-ml-automation.png",

@@ -114,7 +114,7 @@ export const verticalData = [
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: "iTCart's AiXHub is the foundation of our enterprise intranet solutions, delivering AI-powered digital workplace transformation through an intelligent, unified intranet platform. ",
-            apropriectContenTwo: "Whether you are automating workflows, enhancing employee engagement, or integrating diverse business systems, AiXHub empowers your organization with seamless collaboration, advanced analytics, and secure, scalable operations. ",
+            apropriectContenTwo: "Whether you are automating workflows, enhancing employee engagement, or integrating diverse business systems, AiXHub™ empowers your organization with seamless collaboration, advanced analytics, and secure, scalable operations. ",
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
