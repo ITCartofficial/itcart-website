@@ -148,7 +148,7 @@ export const industryData = [
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: 'AiXQP runs on AiXHub™, the core of the AiX Framework—bringing deep AI automation, intelligent decision-making, and scalable performance to your learning experience.',
+        contentOne: 'AiXQP runs on AiXHub, the core of the AiX Framework—bringing deep AI automation, intelligent decision-making, and scalable performance to your learning experience.',
         contenttwo: "Whether you're a solo learner, training a team, or scaling an institution-wide learning program, AiXQP is ready to grow with you."
       },
       futurSectionHeading: "Ready to get started?",

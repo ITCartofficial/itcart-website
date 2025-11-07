@@ -2,11 +2,13 @@
   "name": "itcart-website",
   "version": "0.1.0",
   "private": true,
+   "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sitemap": "node ./scripts/generate-sitemap.js"
   },
   "dependencies": {
     "@apollo/client": "^3.13.8",
@@ -21,6 +23,7 @@
     "react": "^19.0.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
+    "sitemap-generator": "^8.5.1",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
