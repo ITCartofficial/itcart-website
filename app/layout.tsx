@@ -29,6 +29,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
+        <meta name="google-site-verification" content="EiiZ4vW05H-lFA-UxhWR58tkbzRGzWOanciSP24li0U" />
       </head>
       <body
         className={`w-full overflow-x-hidden ${montserrat.variable} font-sans antialiased relative`}
