@@ -196,7 +196,7 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
 
                         <p className="text-[18px]">
                             <span className="font-semibold">The AIX Ecosystem : </span>
-                            Our suite of cutting-edge platforms (AIX HUB, AIX Desk, RCM AIX, Insure AIX, and more) acts as the central nervous system for businesses, transforming raw data into strategic mastery.
+                            Our suite of cutting-edge platforms (AIX HUB, AIX Desk, RCMAiX, Insure AIX, and more) acts as the central nervous system for businesses, transforming raw data into strategic mastery.
                         </p>
 
                         <p className="text-[18px]">

@@ -1117,18 +1117,18 @@ export const verticalData = [
             FAQs: [
                 {
                     id: '1',
-                    title: 'How quickly can RCM AIX be implemented? ',
+                    title: 'How quickly can RCMAiX be implemented? ',
                     content: "Implementation typically takes 2-4 weeks with zero disruption to existing systems through our seamless RCM automation and cloud-based billing solutions integration approach."
                 },
                 {
                     id: '2',
                     title: 'What specialties does the platform support?',
-                    content: "RCM AIX supports all medical specialties with customized workflows for hospitals, independent practices, diagnostic labs, and telemedicine platforms through comprehensive RCM for hospitals and end-to-end revenue cycle solutions. "
+                    content: "RCMAiX supports all medical specialties with customized workflows for hospitals, independent practices, diagnostic labs, and telemedicine platforms through comprehensive RCM for hospitals and end-to-end revenue cycle solutions. "
                 },
                 {
                     id: '3',
                     title: 'Is the platform compliant with healthcare regulations?',
-                    content: "Yes, RCM AIX maintains 100% compliance with HIPAA, ICD-10, CPT, and all payer regulations through continuous monitoring via AI-driven revenue management and RCM automation. "
+                    content: "Yes, RCMAiX maintains 100% compliance with HIPAA, ICD-10, CPT, and all payer regulations through continuous monitoring via AI-driven revenue management and RCM automation. "
                 },
                 {
                     id: '4',
@@ -1180,7 +1180,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXERP-aboutimage.png',
                 logo: '/images/vertical/AiXERP-darklogo.png',
-                contentOne: "AiXERP transforms traditional enterprise resource planning through iTCart's revolutionary AiXHub Framework, delivering the world's first truly AI-powered ERP platform. Built from the ground up with ai in erp systems at its core, AiXERP provides comprehensive erp automation software capabilities across cloud based ERP solution architecture that fundamentally reimagines enterprise operations through intelligent erp system technology. ",
+                contentOne: "AiXERP transforms traditional enterprise resource planning through iTCart's revolutionary AiXHub Framework, delivering the world's first truly AI-powered ERP platform. Built from the ground up with Ai in erp systems at its core, AiXERP provides comprehensive erp automation software capabilities across cloud based ERP solution architecture that fundamentally reimagines enterprise operations through intelligent erp system technology. ",
                 contenttwo: "",
                 contentthree: ""
             },
@@ -1197,7 +1197,7 @@ export const verticalData = [
                 },
                 {
                     title: "Human Resource Management",
-                    description: "Digitize payroll, recruitment, and performance tracking leveraging ai in erp systems for comprehensive workforce management. ",
+                    description: "Digitize payroll, recruitment, and performance tracking leveraging Ai in erp systems for comprehensive workforce management. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -1765,18 +1765,18 @@ export const verticalData = [
             FAQs: [
                 {
                     id: '1',
-                    title: 'How quickly can RCM AIX be implemented? ',
+                    title: 'How quickly can RCMAiX be implemented? ',
                     content: "Implementation typically takes 2-4 weeks with zero disruption to existing systems through our seamless RCM automation and cloud-based billing solutions integration approach."
                 },
                 {
                     id: '2',
                     title: 'What specialties does the platform support?',
-                    content: "RCM AIX supports all medical specialties with customized workflows for hospitals, independent practices, diagnostic labs, and telemedicine platforms through comprehensive RCM for hospitals and end-to-end revenue cycle solutions. "
+                    content: "RCMAiX supports all medical specialties with customized workflows for hospitals, independent practices, diagnostic labs, and telemedicine platforms through comprehensive RCM for hospitals and end-to-end revenue cycle solutions. "
                 },
                 {
                     id: '3',
                     title: 'Is the platform compliant with healthcare regulations?',
-                    content: "Yes, RCM AIX maintains 100% compliance with HIPAA, ICD-10, CPT, and all payer regulations through continuous monitoring via AI-driven revenue management and RCM automation. "
+                    content: "Yes, RCMAiX maintains 100% compliance with HIPAA, ICD-10, CPT, and all payer regulations through continuous monitoring via AI-driven revenue management and RCM automation. "
                 },
                 {
                     id: '4',

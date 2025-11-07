@@ -25,8 +25,6 @@ function SolutionDetailPage() {
             pathName.toLowerCase().replace(/™/g, '').trim()
     })
 
-    console.log("filterdItem",filterdItem);
-
     return (
         <>
             <div className="space-y-15 lg:space-y-25  mt-10">
@@ -84,7 +82,7 @@ function SolutionDetailPage() {
                         futureItems={filterdItem?.detailPage?.futureItems ?? []}
                     />
                 </div>
-                {/* collaburationItems */}
+
                 <div className='bg-black  container mx-auto lg:px-10'>
                     <CollaburationSection
                         futurSectionHeading={filterdItem?.detailPage?.collabSectionHeading ?? ''}
