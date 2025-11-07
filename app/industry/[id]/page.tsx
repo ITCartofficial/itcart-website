@@ -10,6 +10,7 @@ import { industryData } from '@/lib/data/industryData'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 import WhyChoose from '@/components/DetailPageComponents/WhyChoose'
+import MobileVerticalHeroBanner from '@/components/verticalDetailPage/MobileVerticalHeroBanner'
 
 
 const IndustryDetailPage = () => {
@@ -18,22 +19,45 @@ const IndustryDetailPage = () => {
 
     const filterdItem = industryData.find(item => item.title.toLowerCase() === pathName);
 
+    console.log("filterdItem", filterdItem?.detailPage?.bannerImage);
+
+
     return (
         <>
 
             <div className='bg-black space-y-15 lg:space-y-25  mt-10'>
-                <VerticalHeroBanner
-                    title={filterdItem?.detailPage?.bannerTitle ?? ""}
-                    description={filterdItem?.detailPage?.bannerDescription ?? ""}
-                    ctaText="Connect with Us"
-                    ctaUrl="/contact"
-                    breadcrumbItems={[
-                        { label: 'Home', url: '/' },
-                        { label: 'Our Verticals', url: '/services' }
-                    ]}
-                    backgroundImage={filterdItem?.detailPage?.bannerImage ?? ""}
-                    className="mt-10"
-                />
+
+                <div className='md:block hidden'>
+                    <VerticalHeroBanner
+                        title={filterdItem?.detailPage?.bannerTitle ?? ""}
+                        description={filterdItem?.detailPage?.bannerDescription ?? ""}
+                        ctaText="Connect with Us"
+                        ctaUrl="/contact"
+                        breadcrumbItems={[
+                            { label: 'Home', url: '/' },
+                            { label: 'Our Verticals', url: '/services' }
+                        ]}
+                        backgroundImage={filterdItem?.detailPage?.bannerImage ?? ""}
+                        className="mt-10"
+                    />
+                </div>
+
+
+                <div className="md:hidden block">
+                    <MobileVerticalHeroBanner
+                        title={filterdItem?.detailPage?.bannerTitle ?? ""}
+                        description={filterdItem?.detailPage?.bannerDescription ?? ""}
+                        ctaText="Connect with Us"
+                        ctaUrl="/contact-us"
+                        // breadcrumbItems={[
+                        //     { label: 'Home', url: '/' },
+                        //     { label: 'Our Verticals', url: '/services' }
+                        // ]}
+                        mobileBanner={filterdItem?.detailPage?.mobileBannerImage ?? ""}
+                        bannerButtonText="Get Started"
+                    />
+
+                </div>
 
                 <div className='bg-black container mx-auto lg:px-10'>
                     <SectionAbout

@@ -41,7 +41,7 @@ function divResult({ resultHeading, results,
                             {results.map((stat, index) => (
                                 <div key={index} className="space-y-2 flex flex-col items-center md:items-start">
                                     <div className="text-5xl md:text-[30px] font-bold text-cyan-400">{stat.percentage}</div>
-                                    <p style={{ lineHeight: '18px' }} className="md:text-start text-[14px] text-gray-300 leading-relaxed text-center md:text-start">{stat.label}</p>
+                                    <p style={{ lineHeight: '18px' }} className="text-[14px] text-gray-300 leading-relaxed text-center md:text-start">{stat.label}</p>
                                 </div>
                             ))}
                         </div>

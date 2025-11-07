@@ -9,7 +9,7 @@ export const solutionData = [
       bannerTitle: "Best Digital Workplace Software for Enterprises",
       bannerDescription: "Transform workplace through comprehensive enterprise collaboration platform excellence",
       bannerImage: "/images/solutions/AiXHub-banner.png",
-      mobileBannerImage: "/images/solutions/AiXHub-mobileBanner.jpg",
+      mobileBannerImage: "/images/solutions/AiXHub-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary Digital Transformation',
       aboutSection: {
         aboutImage: '/images/solutions/AiXHub-about.png',
@@ -22,33 +22,33 @@ export const solutionData = [
       futureItems: [
         {
           title: "Smart Collaboration",
-          description: "AI-driven communication and project orchestration tools enhance engagement, transparency, and decision flow across departments through an intelligent collaboration framework. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          description: "AI-enhanced communication tools to improve employee engagement and communication through comprehensive business communication software. ",
+          icon: "/icons/Documents/DocumentManagement-icon1.svg",
         },
         {
           title: "Intelligent Automation",
-          description: "Workflows are automated through SLA-governed processes, adaptive routing, and decision intelligence — reducing manual interventions and ensuring accuracy at scale. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          description: "Benefits of intelligent intranet platforms via advanced workplace automation software reducing manual tasks. ",
+          icon: "/icons/AiXHub/AiXHubFuture-icon2.svg",
         },
         {
           title: "Employee Experience",
-          description: "Personalized dashboards and contextual task automation empower employees through real-time feedback, recognition, and transparent performance tracking. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          description: "Tools to improve employee engagement and communication through comprehensive employee experience platform capabilities. ",
+          icon: "/icons/AiXHub/AiXHubFuture-icon3.svg",
         },
         {
           title: "Modern Transformation",
-          description: "Empowers distributed teams through secure, AI-orchestrated collaboration supporting hybrid and remote work environments. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          description: "Complete modern workplace transformation supporting modern intranet for remote teams operations. ",
+          icon: "/icons/AiXHub/AiXHubFuture-icon4.svg",
         },
         {
           title: "AI Integration",
-          description: "Leverages the AiXHub Enterprise Operating System to enable AI-native task execution, smart recommendations, and predictive process optimization.  ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          description: "How AI transforms enterprise collaboration through intelligent features and automated workflows. ",
+          icon: "/icons/AiXHub/AiXHubFuture-icon5.svg",
         },
         {
           title: "Microsoft 365",
-          description: "Seamless integration with Microsoft 365 delivers unified productivity — connecting Teams, SharePoint, Power Platform, and Azure AI for a single intelligent workplace.  ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          description: "Seamless digital workplace integrated with Microsoft 365 providing unified productivity experiences. ",
+          icon: "/icons/AiXHub/AiXHubFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Workplace',
@@ -102,37 +102,37 @@ export const solutionData = [
           title: "AI-Powered Innovation",
           description: "Revolutionary how AI transforms enterprise collaboration operations through intelligent user profiling, predictive analytics, and comprehensive automation capabilities delivering measurable transformation outcomes. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/AiXHub/AiXHubChooseUs-icon1.svg'
         },
         {
           title: "Microsoft 365 Integration",
           description: "Seamless digital workplace integrated with Microsoft 365 providing unified productivity, enhanced functionality, and comprehensive system interoperability with advanced collaboration features. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/AiXHub/AiXHubChooseUs-icon2.svg'
         },
         {
           title: "Employee-Centric Design",
           description: "Comprehensive employee experience platform delivering personalized interfaces, intelligent recommendations, and enhanced engagement through modern workplace transformation and intuitive user experiences. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/AiXHub/AiXHubChooseUs-icon3.svg'
         },
         {
           title: "Security Excellence",
           description: "Enterprise-grade security with ISO certifications, comprehensive data protection, and secure business communication software ensuring organizational safety and regulatory compliance. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/AiXHub/AiXHubChooseUs-icon4.svg'
         },
         {
           title: "Proven Results",
           description: "Demonstrated success with 89% employee satisfaction, reduced frustration, faster task completion through best digital workplace software for enterprises implementations. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/AiXHub/AiXHubChooseUs-icon5.svg'
         },
         {
           title: "Global Expertise",
           description: "International presence with 300+ clients, 22+ industries served, and comprehensive support ensuring successful digital workplace solution deployment and sustained value. ",
           gradient: "from-[#222222] to-[#111111]", // dark
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/AiXHub/AiXHubChooseUs-icon6.svg'
         }
       ],
       resultHeading: "Proven Digital Workplace Results",
@@ -215,6 +215,7 @@ export const solutionData = [
       bannerTitle: "Modernize Document Management for Tomorrow's Challenges",
       bannerDescription: "Transform information handling through best document management software featuring secure document management and automated document processing solutions.",
       bannerImage: "/images/solutions/Document-Management-System-banner.png",
+      mobileBannerImage: "/images/solutions/Document-MobileBanner.jpg",
       aboutSectionHeading: 'Intelligent Document Management Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Document-Management-System-about.png',
@@ -228,32 +229,32 @@ export const solutionData = [
         {
           title: "Seamless File Organization",
           description: "Effortlessly categorize and structure documents with intuitive folder management through best document management software capabilities. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Documents/DocumentManagement-icon1.svg",
         },
         {
           title: "Advanced Version Control",
           description: "Protect document integrity with automated version histories enabling secure document management and edit tracking functionality. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Documents/DocumentManagement-icon2.svg",
         },
         {
           title: "Next-Level Security",
           description: "Shield sensitive data with encryption and granular access controls through comprehensive secure document management architecture. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Documents/DocumentManagement-icon3.svg",
         },
         {
           title: "Collaborative Workspaces",
           description: "Foster real-time collaboration with shared editing tools and team folders enhancing productivity across locations. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Documents/DocumentManagement-icon4.svg",
         },
         {
           title: "Smart Accurate Search",
           description: "Locate documents instantly using advanced algorithms and full-text indexing powered by automated document processing technology. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Documents/DocumentManagement-icon5.svg",
         },
         {
           title: "Cloud-First Accessibility",
           description: "Store document libraries securely with scalable cloud document management system enabling anywhere access and editing. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Documents/DocumentManagement-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Document Solutions',
@@ -307,37 +308,37 @@ export const solutionData = [
           title: "AiXHub Framework Integration",
           description: "Built on proprietary AiXHub Framework delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced document management system architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Documents/DocumentChooseUs-icon1.svg'
         },
         {
           title: "Seamless Implementation",
           description: "Minimal disruption deployment with comprehensive migration support, best document management software integration expertise, and dedicated project management ensuring smooth transition. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Documents/DocumentChooseUs-icon2.svg'
         },
         {
           title: "Scalable Growth Architecture",
           description: "Future-ready infrastructure adapting to evolving business needs supporting organizational growth requirements through cloud document management system and automated document processing capabilities. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Documents/DocumentChooseUs-icon3.svg'
         },
         {
           title: "Expert Support Excellence",
           description: "24/7 professional assistance with dedicated document specialists, comprehensive training programs, continuous optimization support, and secure document management consulting services. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Documents/DocumentChooseUs-icon4.svg'
         },
         {
           title: "Proven Success Record",
           description: "Trusted by enterprise clients worldwide with demonstrated ROI, measurable business impact, consistent performance across industries, and validated document management outcomes. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Documents/DocumentChooseUs-icon5.svg'
         },
         {
           title: "Innovation Leadership",
           description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready automated document processing solutions for sustained growth. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Documents/DocumentChooseUs-icon6.svg'
         }
 
       ],
@@ -416,6 +417,7 @@ export const solutionData = [
       bannerTitle: "Build Future-Ready Business with Enterprise Automation Platform",
       bannerDescription: "Transform operations through AI for digital transformation, predictive analytics suite, and intelligent digital integration platform solutions.",
       bannerImage: "/images/solutions/Digital-banner.png",
+      mobileBannerImage: "/images/solutions/Digital-MobileBanner.jpg",
       aboutSectionHeading: 'Transform. Innovate. Scale. Lead.',
       aboutSection: {
         aboutImage: '/images/solutions/Digital-about.png',
@@ -428,32 +430,32 @@ export const solutionData = [
         {
           title: "Unified Data Integration",
           description: "Bridge siloed systems effortlessly through comprehensive digital integration platform consolidating multiple data sources effectively. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Digital/DigitalFuture-icon1.svg",
         },
         {
           title: "Cloud-Native Scalability",
           description: "Leverage elastic cloud infrastructure with enterprise automation platform supporting seamless scaling without performance compromise. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Digital/DigitalFuture-icon2.svg",
         },
         {
           title: "AI-Enabled Insights",
           description: "Uncover hidden trends through predictive analytics suite featuring anomaly detection and strategic decision-making capabilities. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Digital/DigitalFuture-icon3.svg",
         },
         {
           title: "Agile Development Deployment",
           description: "Stay adaptive with rapid iteration support enabling continuous improvement and accelerated ROI through process automation platform. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Digital/DigitalFuture-icon4.svg",
         },
         {
           title: "Proactive Cybersecurity",
           description: "AI-powered security safeguards protecting infrastructure and data from evolving cyber threats with built-in defense systems. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Digital/DigitalFuture-icon5.svg",
         },
         {
           title: "Remote Collaboration",
           description: "Enable effective distributed teams with secure tools driving productivity anywhere through intelligent collaboration frameworks. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Digital/DigitalFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Transformation',
@@ -507,37 +509,37 @@ export const solutionData = [
           title: "AiXHub Framework Integration",
           description: "Built on proprietary AiXHub Framework delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI for digital transformation architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Digital/DigitalChooseUs-icon1.svg'
         },
         {
           title: "Seamless Implementation",
           description: "Minimal disruption deployment with comprehensive change management support, cultural adoption guidance, and dedicated project management ensuring smooth digital transformation journey. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Digital/DigitalChooseUs-icon2.svg'
         },
         {
           title: "Scalable Growth Architecture",
           description: "Future-ready infrastructure adapting to evolving business needs supporting organizational growth requirements through enterprise automation platform and digital integration platform capabilities. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Digital/DigitalChooseUs-icon3.svg'
         },
         {
           title: "Expert Support Excellence",
           description: "24/7 professional assistance with dedicated transformation specialists, comprehensive training programs, continuous optimization support, and predictive analytics suite consulting services. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Digital/DigitalChooseUs-icon4.svg'
         },
         {
           title: "Proven Success Record",
           description: "Trusted by enterprise clients worldwide with demonstrated ROI, measurable business impact, consistent performance across industries, and validated digital transformation outcomes. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Digital/DigitalChooseUs-icon5.svg'
         },
         {
           title: "Innovation Leadership",
           description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready process automation platform solutions for sustained growth. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Digital/DigitalChooseUs-icon6.svg'
         }
 
       ],
@@ -616,6 +618,7 @@ export const solutionData = [
       bannerTitle: "Supercharge Operations with Smart BPA Solutions",
       bannerDescription: "Transform manual workflows into intelligent, AI-powered business process automation systems.",
       bannerImage: "/images/solutions/Business-Process-Automation-banner.png",
+      mobileBannerImage: "/images/solutions/Business-MobileBanner.jpg",
       aboutSectionHeading: 'Automate. Optimize. Accelerate. Transform.',
       aboutSection: {
         aboutImage: '/images/solutions/Business-Process-Automation-about.png',
@@ -628,32 +631,32 @@ export const solutionData = [
         {
           title: "Adaptive Workflow Automation",
           description: "End-to-end AI-powered workflows eliminating manual errors through advanced business process optimization capabilities.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Busines/BussinessFuture-icon1.svg",
         },
         {
           title: "Predictive Analytics Intelligenc",
           description: "Advanced analytics driving proactive decision-making supported by comprehensive smart operations management practices.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Busines/BussinessFuture-icon2.svg",
         },
         {
           title: "Cloud Integration Platfor",
           description: "Seamless integration with existing systems using flexible cloud-based automation tools for scalable operations.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Busines/BussinessFuture-icon3.svg",
         },
         {
           title: "Governance & Complianc",
           description: "Built-in traceability and risk mitigation aligned with professional BPA implementation services best practices.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Busines/BussinessFuture-icon4.svg",
         },
         {
           title: "Enhanced Collaboratio",
           description: "Real-time teamwork facilitation using best workflow automation software for streamlined financial and operational processes.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Busines/BussinessFuture-icon5.svg",
         },
         {
           title: "Continuous Optimization",
           description: "Monitor and refine capabilities using AI-driven insights and intelligent process enhancement through enterprise automation platform.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Busines/BussinessFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Automation',
@@ -707,37 +710,37 @@ export const solutionData = [
           title: "AiXHub Framework Integration",
           description: "Built on proprietary AiXHub Framework delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced enterprise automation platform architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Busines/BussinesChooseUs-icon1.svg'
         },
         {
           title: "Seamless Implementation",
           description: "Minimal disruption deployment with comprehensive BPA implementation services, system integration expertise, and dedicated project management ensuring smooth business transition.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Busines/BussinesChooseUs-icon2.svg'
         },
         {
           title: "Scalable Growth Architecture",
           description: "Future-ready infrastructure adapting to evolving business needs supporting organizational growth requirements through best workflow automation software and cloud-based automation tools.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Busines/BussinesChooseUs-icon3.svg'
         },
         {
           title: "Expert Support Excellence",
           description: "24/7 professional assistance with dedicated success managers, comprehensive training programs, continuous optimization support, and smart operations management consulting services.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Busines/BussinesChooseUs-icon4.svg'
         },
         {
           title: "Proven Success Record",
           description: "Trusted by enterprise clients worldwide with demonstrated ROI, measurable business impact, consistent performance across industries, and validated business process optimization outcomes.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Busines/BussinesChooseUs-icon5.svg' 
         },
         {
           title: "Innovation Leadership",
           description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready AI-powered workflows for sustained growth.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Busines/BussinesChooseUs-icon6.svg'
         }
 
       ],
@@ -816,6 +819,7 @@ export const solutionData = [
       bannerTitle: "Intelligent Human Resource Management",
       bannerDescription: "Transform workforce operations through cloud-based HR software excellence ",
       bannerImage: "/images/solutions/Human-Resource-Management-banner.png",
+      mobileBannerImage: "/images/solutions/Human-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary Workforce Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Human-Resource-Management-about.png',
@@ -828,32 +832,32 @@ export const solutionData = [
         {
           title: "Digital Records",
           description: "Secure digital employee records management with searchable, organized workforce data systems. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Human-Resource/Human-icon1.svg",
         },
         {
           title: "Smart Payroll",
           description: "Automated payroll management software with tax calculations and comprehensive compliance reporting capabilities. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Human-Resource/Human-icon2.svg",
         },
         {
           title: "Performance Analytics",
           description: "Real-time feedback tools powered by predictive analytics in human resources for decision-making. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Human-Resource/Human-icon3.svg",
         },
         {
           title: "Workflow Automation",
           description: "Streamlined HR workflow automation reducing manual processes and operational overhead significantly. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Human-Resource/Human-icon4.svg",
         },
         {
           title: "Employee Experience",
           description: "Appreciation programs and wellness initiatives through intelligent cloud-based HR software automation. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Human-Resource/Human-icon5.svg",
         },
         {
           title: "Communication Hub",
           description: "Centralized messaging channels optimizing transparency through comprehensive HR digital transformation systems. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Human-Resource/Human-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Solutions',
@@ -907,37 +911,37 @@ export const solutionData = [
           title: "AI-Powered Innovation",
           description: "Proprietary AiXHub Framework delivering intelligent HR digital transformation with advanced automation capabilities, predictive insights, and comprehensive workforce analytics. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Human-Resource/HumanChooseUs-icon1.svg'
         },
         {
           title: "Comprehensive Security",
           description: "Enterprise-grade security with GDPR compliance, secure digital employee records management, comprehensive audit trails, and advanced data protection protocols. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Human-Resource/HumanChooseUs-icon2.svg'
         },
         {
           title: "Seamless Integration",
           description: "Cloud based HR software supporting integration with existing systems through robust APIs, standard protocols, and comprehensive connectivity options. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Human-Resource/HumanChooseUs-icon3.svg'
         },
         {
           title: "Proven Expertise",
           description: "20+ years experience in workforce management with comprehensive payroll management software implementation across industries and proven success. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Human-Resource/HumanChooseUs-icon4.svg'
         },
         {
           title: "Scalable Architecture",
           description: "Future-ready HR workflow automation adapting to organizational growth with modular expansion capabilities, flexible configurations, and unlimited scalability. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Human-Resource/HumanChooseUs-icon5.svg'
         },
         {
           title: "Predictive Capabilities ",
           description: "Advanced predictive analytics in human resources enabling strategic workforce planning through intelligent data analysis and comprehensive reporting capabilities. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Human-Resource/HumanChooseUs-icon6.svg'
         }
       ],
       resultHeading: "Proven Impact Results ",
@@ -1015,6 +1019,7 @@ export const solutionData = [
       bannerTitle: "Best Learning Management Solutions",
       bannerDescription: "Elevate education through best learning management system features excellence",
       bannerImage: "/images/solutions/lms-banner.png",
+      mobileBannerImage: "/images/solutions/Learning-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary Learning Management Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/lms-about.png',
@@ -1027,32 +1032,32 @@ export const solutionData = [
         {
           title: "Content Creation",
           description: "Build engaging courses with intuitive tools through comprehensive learning management system features. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/learning-Management/LearningFuture-icon1.svg",
         },
         {
           title: "Progress Tracking",
           description: "Monitor learner performance with real-time dashboards via cloud based learning management system capabilities. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/learning-Management/LearningFuture-icon2.svg",
         },
         {
           title: "Secure Environment",
           description: "Protect sensitive data with enterprise-grade security through enterprise learning management system architecture. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/learning-Management/LearningFuture-icon3.svg",
         },
         {
           title: "Personalized Paths",
           description: "Deliver tailored educational journeys adapting to individual needs and skill levels",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/learning-Management/LearningFuture-icon4.svg",
         },
         {
           title: "Real-World Scenarios",
           description: "Incorporate practical simulations bridging theory with hands-on experience through cloud learning management system. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/learning-Management/LearningFuture-icon5.svg",
         },
         {
           title: "Multimedia Integration",
           description: "Embed videos and interactive modules creating dynamic learning experiences for comprehensive education delivery. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/learning-Management/LearningFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Learning',
@@ -1106,37 +1111,37 @@ export const solutionData = [
           title: "Scalable Growth",
           description: "Future-ready best learning management system architecture handling increasing users, courses, and content without compromising performance supporting organizational expansion requirements and changing educational demands effectively. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Learning-Management/LearningChooseUs-icon1.svg'
         },
         {
           title: "Dedicated Support ",
           description: "Experienced team providing onboarding, customization, and ongoing support ensuring comprehensive learning management system features deliver measurable value and sustained educational excellence. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Learning-Management/LearningChooseUs-icon2.svg'
         },
         {
           title: "Smart Technologies",
           description: "Latest advancements in AI, adaptive learning, and automation delivering modern cloud based learning management system solutions with enhanced effectiveness and engagement. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Learning-Management/LearningChooseUs-icon3.svg'
         },
         {
           title: "Data Security",
           description: "Industry-leading security protocols and compliance with regulations ensuring confidentiality and integrity through comprehensive enterprise learning management system protection measures. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Learning-Management/LearningChooseUs-icon4.svg'
         },
         {
           title: "Continuous Innovation",
           description: "Committed to evolving platform with new learning management system features, integrations, and enhancements ensuring organizations stay ahead in digital learning. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Learning-Management/LearningChooseUs-icon5.svg'
         },
         {
           title: "Global Expertise",
           description: "Comprehensive enterprise solutions complying with international standards while supporting localized requirements and cloud learning management system capabilities. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Learning-Management/LearningChooseUs-icon6.svg'
         },
 
       ],
@@ -1215,6 +1220,7 @@ export const solutionData = [
       bannerTitle: "Reimagine Control with iTCart's AI-Powered ERP Solutions",
       bannerDescription: "Transform business operations through cloud ERP platform for enterprises and comprehensive ERP software for businesses.",
       bannerImage: "/images/solutions/erp-banner.png",
+      mobileBannerImage: "/images/solutions/Enterprise-MobileBanner.jpg",
       aboutSectionHeading: 'Enterprise Resource Planning Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/erp-about.png',
@@ -1227,32 +1233,32 @@ export const solutionData = [
         {
           title: "AI at the Core",
           description: "Make smarter decisions faster with AI-powered ERP solutions featuring demand forecasting, risk alerts, and real-time adaptive learning. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Enterprise/EnterpriseFuture-icon1.svg",
         },
         {
           title: "Modular and Scalable ",
           description: "Start small, scale wide with cloud ERP platform for enterprises supporting flexible deployment and seamless business growth. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Enterprise/EnterpriseFuture-icon2.svg",
         },
         {
           title: "Industry-Agnostic Architecture",
           description: "Comprehensive ERP software for businesses spanning manufacturing, retail, BFSI, and healthcare with pre-built modules and deep customization. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Enterprise/EnterpriseFuture-icon3.svg",
         },
         {
           title: "Real-Time Analytics Dashboards",
           description: "Track KPIs, monitor costs, and manage workflows through centralized AI-augmented views and intelligent reporting systems. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Enterprise/EnterpriseFuture-icon4.svg",
         },
         {
           title: "Cloud-Native Security",
           description: "Access ERP anytime, anywhere with enterprise-grade encryption, compliance, and secure ERP system integration capabilities. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Enterprise/EnterpriseFuture-icon5.svg",
         },
         {
           title: "Custom Development Services",
           description: "Tailored custom ERP development delivering robust technical solutions and specialized configurations for unique business requirements. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Enterprise/EnterpriseFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Enterprise Solutions',
@@ -1306,37 +1312,37 @@ export const solutionData = [
           title: "AiX Framework Integration",
           description: "Built on proprietary AiXHub Framework delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP solutions architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Enterprise/EnterpriseChooseUs-icon1.svg'
         },
         {
           title: "Custom Development Excellence",
           description: "Comprehensive custom ERP development services with dedicated technical teams, specialized configurations, and tailored business solutions ensuring perfect fit. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Enterprise/EnterpriseChooseUs-icon2.svg'
         },
         {
           title: "Expert Consulting Services ",
           description: "Professional ERP consulting for SMEs with experienced specialists, implementation guidance, change management support, and optimization strategies. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Enterprise/EnterpriseChooseUs-icon3.svg'
         },
         {
           title: "Seamless Implementation ",
           description: "Comprehensive ERP implementation services with minimal disruption deployment, data migration expertise, user training programs, and ongoing support. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Enterprise/EnterpriseChooseUs-icon4.svg'
         },
         {
           title: "Scalable Growth Architecture",
           description: "Future-ready cloud ERP platform for enterprises adapting to evolving business needs supporting organizational growth through modular expansion capabilities. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Enterprise/EnterpriseChooseUs-icon5.svg'
         },
         {
           title: "Integration Expertise",
           description: "Advanced ERP system integration connecting existing tools, legacy systems, and third-party applications through robust business process automation software connectivity. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/Enterprise/EnterpriseChooseUs-icon6.svg'
         }
 
       ],
@@ -1415,6 +1421,7 @@ export const solutionData = [
       bannerTitle: "Transform Customer Relationships with Intelligent CRM",
       bannerDescription: "Convert conversations into conversions through intelligent customer relationship management system. ",
       bannerImage: "/images/solutions/crm-Banner.png",
+      mobileBannerImage: "/images/solutions/Customer-MobileBanner.jpg",
       aboutSectionHeading: 'Intelligent CRM for Modern Businesses',
       aboutSection: {
         aboutImage: '/images/solutions/crm-about.png',
@@ -1427,32 +1434,32 @@ export const solutionData = [
         {
           title: "AI-Powered Intelligence",
           description: "360° customer visibility with predictive customer analytics enabling proactive issue resolution and automated lead nurturing. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon:"/icons/Customer/CustomerFuture-icon1.svg",
         },
         {
           title: "Unified Sales Marketing",
           description: "Synchronized pipeline management with intelligent dashboards powered by comprehensive marketing automation and CRM integration capabilities. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Customer/CustomerFuture-icon2.svg",
         },
         {
           title: "Real-Time Engagement",
           description: "Complete interaction tracking with advanced customer journey analysis enabling optimized engagement strategies and conversions. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Customer/CustomerFuture-icon3.svg",
         },
         {
           title: "Lead Scoring Automation",
           description: "AI-based prioritization systems with automated follow-ups using cutting-edge lead nurturing marketing automation workflow technologies. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Customer/CustomerFuture-icon4.svg",
         },
         {
           title: "Cloud-First Security",
           description: "Enterprise-grade mobile-ready platform ensuring real-time data access with comprehensive compliance and security frameworks. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Customer/CustomerFuture-icon5.svg",
         },
         {
           title: "Lifecycle Management",
           description: "End-to-end customer lifecycle management with predictive analytics supporting sustainable growth and retention strategies. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Customer/CustomerFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Customer Relationships',
@@ -1506,37 +1513,37 @@ export const solutionData = [
           title: "AiXHub Framework Integration",
           description: "Built on proprietary AiXHub Framework delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced customer relationship management system architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon:'/icons/Customer/CustomerChooseUs-icon1.svg'
         },
         {
           title: "Seamless Implementation",
           description: "Minimal disruption deployment with comprehensive migration support, marketing automation and CRM integration expertise, and dedicated project management ensuring smooth business transition. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon:'/icons/Customer/CustomerChooseUs-icon2.svg'
         },
         {
           title: "Scalable Growth Architecture",
           description: "Future-ready infrastructure adapting to evolving business needs supporting organizational growth requirements through automated lead nurturing and customer lifecycle management capabilities. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon:'/icons/Customer/CustomerChooseUs-icon3.svg'
         },
         {
           title: "Expert Support Excellence",
           description: "24/7 professional assistance with dedicated success managers, comprehensive training programs, continuous optimization support, and predictive customer analytics consulting services. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon:'/icons/Customer/CustomerChooseUs-icon4.svg'
         },
         {
           title: "Proven Success Record",
           description: "Trusted by enterprise clients worldwide with demonstrated ROI, measurable business impact, consistent performance across industries, and validated customer journey analysis outcomes. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon:'/icons/Customer/CustomerChooseUs-icon5.svg'
         },
         {
           title: "Innovation Leadership",
           description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready lead nurturing marketing automation for sustained growth. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon:'/icons/Customer/CustomerChooseUs-icon1.svg'
         }
       ],
       resultHeading: "Proven Impact Across Implementations",
@@ -1614,6 +1621,7 @@ export const solutionData = [
       bannerTitle: "Next-Generation Supply Chain Management Platform Solutions",
       bannerDescription: " Orchestrate precision through advanced supply chain management solutions excellence",
       bannerImage: "/images/solutions/Supply-Chain-Management-banner.png",
+      mobileBannerImage: "/images/solutions/Supply-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary Supply Chain Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Supply-Chain-Management-about.png',
@@ -1626,32 +1634,32 @@ export const solutionData = [
         {
           title: "Demand Forecasting",
           description: "Advanced demand forecasting software with predictive analytics minimizing overstock and stockouts effectively. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/SupplyChain/SupplyFuture-icon1.svg",
         },
         {
           title: "Inventory Optimization",
           description: "AI-powered warehouse management software balancing cost, capacity, and customer demand intelligently. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/SupplyChain/SupplyFuture-icon2.svg",
         },
         {
           title: "Supplier Intelligence",
           description: "Centralized supplier relationship management software managing vendor performance and compliance efficiently. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/SupplyChain/SupplyFuture-icon3.svg",
         },
         {
           title: "Logistics Automation",
           description: "Smart routing through logistics automation software enhancing distribution efficiency supporting supply chain transformation. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/SupplyChain/SupplyFuture-icon4.svg",
         },
         {
           title: "End-to-End Visibility",
           description: "Unified supply chain management platform tracking every link with real-time alerts and monitoring. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/SupplyChain/SupplyFuture-icon5.svg",
         },
         {
           title: "Compliance Management",
           description: "Intelligent risk detection through supply chain automation software ensuring regulatory compliance with comprehensive audits. ",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/SupplyChain/SupplyFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Operations',
@@ -1706,37 +1714,37 @@ export const solutionData = [
           title: "AiXHub Integration",
           description: "Built on proprietary AiXHub Framework delivering intelligent automation, predictive insights, and adaptive capabilities through comprehensive supply chain management solutions architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/SupplyChain/SupplyChooseUs-icon1.svg'
         },
         {
           title: "Seamless Implementation",
           description: "Minimal disruption deployment with comprehensive migration support, system integration expertise, and dedicated project management ensuring smooth business transition and continuity. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/SupplyChain/SupplyChooseUs-icon2.svg'
         },
         {
           title: "Scalable Growth",
           description: "Future-ready supply chain management platform architecture that adapts to evolving business needs supporting organizational growth requirements and changing operational demands effectively. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/SupplyChain/SupplyChooseUs-icon3.svg'
         },
         {
           title: "Expert Support",
           description: "24/7 professional assistance with dedicated success managers, comprehensive training programs, continuous optimization support, and immediate technical resolution for sustained performance excellence. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/SupplyChain/SupplyChooseUs-icon4.svg'
         },
         {
           title: "Proven Success",
           description: "Trusted by enterprise clients worldwide with demonstrated ROI, measurable business impact, consistent performance across diverse industries, and validated transformation outcomes. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/SupplyChain/SupplyChooseUs-icon5.svg'
         },
         {
           title: "Innovation Leadership",
           description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready technology solutions for sustained growth. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-          icon: '/images/solutions/futureSectionIcon.png'
+          icon: '/icons/SupplyChain/SupplyChooseUs-icon6.svg'
         }
 
       ],
@@ -1828,6 +1836,7 @@ export const solutionData = [
       bannerTitle: "AI-Powered Logistics Management Solutions",
       bannerDescription: "Deliver smarter through comprehensive logistics digital transformation solutions excellence",
       bannerImage: "/images/solutions/Logistics-Management-banner.png",
+      mobileBannerImage: "/images/solutions/Logistics-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary Logistics Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Logistics-Management-about.png',
@@ -1841,37 +1850,37 @@ export const solutionData = [
           title: "Route Optimization",
           description:
             "AI-generated shortest delivery paths through comprehensive logistics process automation software technology.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsFuture-icon1.svg",
         },
         {
           title: "Real-Time Tracking",
           description:
             "GPS-enabled shipment monitoring via advanced logistics management system with instant alerts.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsFuture-icon2.svg",
         },
         {
           title: "Order Management",
           description:
             "End-to-end lifecycle tracking through a centralized logistics system with automated carrier assignment.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsFuture-icon3.svg",
         },
         {
           title: "Fleet Management",
           description:
             "Smart vehicle optimization using AI fleet management solutions with performance analytics.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsFuture-icon4.svg",
         },
         {
           title: "Data Analytics",
           description:
             "Comprehensive logistics data analytics and insights providing predictive planning and optimization.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsFuture-icon5.svg",
         },
         {
           title: "Warehouse Integration",
           description:
             "Advanced warehouse management system connectivity supporting inventory and distribution coordination.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Operations',
@@ -1931,42 +1940,42 @@ export const solutionData = [
           description:
             "Revolutionary artificial intelligence capabilities transforming logistics operations through comprehensive AI in logistics industry solutions with predictive analytics and intelligent automation.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsChooseUs-icon1.svg",
         },
         {
           title: "End-to-End Visibility",
           description:
             "Complete transparency across shipments, vehicles, and orders through an advanced logistics management system with real-time tracking and comprehensive monitoring capabilities.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsChooseUs-icon2.svg",
         },
         {
           title: "Scalable Architecture",
           description:
             "Future-ready logistics digital transformation solutions handling increasing delivery volumes with equal efficiency, supporting organizational growth and operational expansion requirements.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsChooseUs-icon3.svg",
         },
         {
           title: "Customer Experience",
           description:
             "Enhanced customer satisfaction through accurate ETAs, proactive updates, and seamless delivery experiences via comprehensive logistics process automation software capabilities.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsChooseUs-icon4.svg",
         },
         {
           title: "Compliance & Safety",
           description:
             "Comprehensive audit trails, driver safety monitoring, and cargo condition logging ensuring regulatory compliance through warehouse management system documentation.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsChooseUs-icon5.svg",
         },
         {
           title: "Predictive Intelligence",
           description:
             "Advanced logistics data analytics and insights enabling demand surge anticipation, fleet utilization optimization, and sustainability tracking through AI fleet management solutions.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Logistics/LogisticsChooseUs-icon6.svg",
         }
       ],
       resultHeading: "Proven Logistics Impact Results",
@@ -2056,6 +2065,7 @@ export const solutionData = [
       bannerTitle: "AI-Powered Enterprise GRC Solutions",
       bannerDescription: "Empower governance through comprehensive ai powered grc platform excellence",
       bannerImage: "/images/solutions/Governance-banner.png",
+      mobileBannerImage: "/images/solutions/Governance-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary GRC Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Governance-about.png',
@@ -2069,37 +2079,37 @@ export const solutionData = [
           title: "Risk Assessment",
           description:
             "Holistic enterprise-wide risk identification through comprehensive operational risk management platform technology.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceFuture-icon1.svg",
         },
         {
           title: "Compliance Management",
           description:
             "Strategic automation with evolving regulations via comprehensive compliance management solutions and tools.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceFuture-icon2.svg",
         },
         {
           title: "Security Controls",
           description:
             "AI-enhanced security measures integrated within enterprise GRC solutions for proactive threat detection and mitigation.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceFuture-icon3.svg",
         },
         {
           title: "Automated Workflows",
           description:
             "Streamlined GRC functions through comprehensive compliance automation tools and workflow optimization systems.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceFuture-icon4.svg",
         },
         {
           title: "Real-Time Analytics",
           description:
             "Up-to-the-minute data dashboards powered by advanced cloud GRC platform intelligence and monitoring capabilities.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceFuture-icon5.svg",
         },
         {
           title: "Compliance Reporting",
           description:
             "Comprehensive audit trails generated instantly via audit management software and regulatory submission tools.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Governance',
@@ -2159,42 +2169,42 @@ export const solutionData = [
           description:
             "Confident compliance posture across GDPR, HIPAA, SOX, and major frameworks through comprehensive GRC software solutions architecture ensuring regulatory adherence and audit readiness.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceChooseUs-icon1.svg",
         },
         {
           title: "Efficiency Gains",
           description:
             "Automated routine processes eliminating manual bottlenecks and reducing operational overhead through advanced compliance automation tool capabilities and workflow optimization supporting enhanced productivity.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceChooseUs-icon2.svg",
         },
         {
           title: "Insightful Governance",
           description:
             "Full visibility into policies, risks, and controls supporting strategic decisions through comprehensive cloud GRC platform analytics and KPIs enabling informed management.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceChooseUs-icon3.svg",
         },
         {
           title: "Cost Reduction",
           description:
             "Early issue detection avoiding fines, eliminating process duplication, and scaling compliance governance through operational risk management platform efficiency at minimal incremental cost.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceChooseUs-icon4.svg",
         },
         {
           title: "Scalable Solutions",
           description:
             "Designed for organizational growth by adding new regulations, business units, or controls through enterprise GRC solutions architecture without disruption or performance impact.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceChooseUs-icon5.svg",
         },
         {
           title: "AI-Powered Innovation",
           description:
             "Cutting-edge AI-powered GRC platform automation streamlining data collection, risk assessment, and compliance workflows through audit management software boosting speed and accuracy.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/GovernanceRisk/GovernanceChooseUs-icon6.svg",
         },
       ],
       resultHeading: "Proven GRC Impact Results",
@@ -2278,6 +2288,7 @@ export const solutionData = [
       bannerTitle: "Enterprise Financial Business Intelligence Solutions for Data-Driven Decisions",
       bannerDescription: "Transform operations through advanced business intelligence software excellence. ",
       bannerImage: "/images/solutions/Financial-Business-Intelligence-banner.png",
+      mobileBannerImage: "/images/solutions/Financial-MobileBanner.jpg",
       aboutSectionHeading: 'Financial Business Intelligence Solution Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Financial-Business-Intelligence-about.png',
@@ -2291,37 +2302,37 @@ export const solutionData = [
           title: "Live Dashboards & Reporting",
           description:
             "Monitor KPIs across finance, sales, and operations through our financial performance dashboard with real-time analysis and trend visualization powered by advanced business intelligence software.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialFuture-icon1.svg",
         },
         {
           title: "Ad-hoc & Drill-down Analysis",
           description:
             "Empower users with flexible reports requiring no coding expertise through our financial analytics software, enabling transaction drilling, time series analysis, and segment comparisons.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialFuture-icon2.svg",
         },
         {
           title: "Predictive Analytics & Forecasting",
           description:
             "Leverage machine learning through our AI business intelligence tools to project revenue, expenses, and cash flow with comprehensive scenario modelling for investment impact assessment.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialFuture-icon3.svg",
         },
         {
           title: "Multi-entity Consolidation",
           description:
             "Aggregate financials across regions and business units with automatic FX conversion, intercompany eliminations, and consolidation logic through our enterprise business intelligence solutions.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialFuture-icon4.svg",
         },
         {
           title: "Budgeting Planning & Collaboration",
           description:
             "Streamline planning cycles with our financial planning and analysis software featuring budget templates, task workflows, version control, commentary, and comprehensive audit trails.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialFuture-icon5.svg",
         },
         {
           title: "Data Integration & Governance",
           description:
             "Unify data from ERP, CRM, payroll, and banking systems through our cloud-based BI platform, accessing cleansed, governed data in one trusted source of truth.",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Financial Analytics',
@@ -2381,42 +2392,42 @@ export const solutionData = [
           description:
             "Cut through complexity focusing on metrics that matter with fast, intelligent analytics through our financial analytics software and comprehensive business intelligence software capabilities.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialChooseUs-icon1.svg",
         },
         {
           title: "Augmented Intelligence",
           description:
             "Advanced algorithms highlight trends providing comprehensive insights explaining both 'why' and 'what' through intelligent financial analysis powered by AI business intelligence tools.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialChooseUs-icon2.svg",
         },
         {
           title: "Scalable & Secure",
           description:
             "Built for enterprise-grade performance with our cloud-based BI platform architecture, comprehensive compliance, and secure financial data governance through enterprise business intelligence solutions.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialChooseUs-icon3.svg",
         },
         {
           title: "User-First Design",
           description:
             "Intuitive UX loved by finance executives, operations managers, and data analysts, enabling seamless adoption and productivity through our financial performance dashboard interface.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialChooseUs-icon4.svg",
         },
         {
           title: "Measurable ROI",
           description:
             "Faster close cycles, fewer reporting bottlenecks, and improved profit margins backed by comprehensive client case studies and proven results through financial planning and analysis software implementation.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialChooseUs-icon5.svg",
         },
         {
           title: "Expert Implementation",
           description:
             "Professional financial transformation consulting services with data connection expertise, dashboard configuration, team training, and continuous optimization support for successful business intelligence software deployment.",
           gradient: "from-[#45C2CC] to-[#181919]",
-          icon: "/images/solutions/futureSectionIcon.png",
+          icon: "/icons/Financial-Business/FinancialChooseUs-icon6.svg",
         },
       ],
       resultHeading: "Proven Financial Intelligence Results",

@@ -6,18 +6,27 @@ import OutlineBtn from "../buttons/OutlineBtn";
 import { FaArrowRight } from "react-icons/fa6";
 
 interface MobileVerticalHeroBannerProps {
-    bannerButtonText: string;
+    title: string;
+    description?: string;
+    ctaText?: string;
+    ctaUrl?: string;
+    bannerButtonText?: string;
+    mobileBanner?: string;
 }
 
 const MobileVerticalHeroBanner: FC<MobileVerticalHeroBannerProps> = ({
-    bannerButtonText,
+    title, description, ctaText, mobileBanner, ctaUrl
 }) => {
+
+    console.log("mobileBannerImage", mobileBanner);
+
+
     return (
         <div className="bg-[#1a1a1a] text-white p-6 rounded-2xl mx-auto flex flex-col space-y-5 mt-10">
             {/* Image */}
             <div className="w-full overflow-hidden rounded-xl mt-4">
                 <Image
-                    src="/images/solutions/AiXHub-about.png"
+                    src={mobileBanner ?? ""}
                     alt="Digital Workplace"
                     width={400}
                     height={200}
@@ -28,21 +37,21 @@ const MobileVerticalHeroBanner: FC<MobileVerticalHeroBannerProps> = ({
 
             {/* Heading */}
             <GradientTitle
-                text="Best Digital Workplace Software for Enterprises"
+                text={title}
                 theme="dark"
                 className="text-[28px] sm:text-[32px] md:text-[38px] leading-[1.2]"
             />
 
             <BodyText
-                text="Transform workplace through comprehensive enterprise collaboration platform excellence"
+                text={description ?? ''}
                 color="#ffffff"
                 className="text-sm text-[15px] w-[90%]"
             />
 
             {/* Button */}
             <OutlineBtn
-                url="/"
-                text={bannerButtonText || "Book Free Demo"}
+                url={ctaUrl}
+                text={ctaText ?? "Learn More"}
                 textColor="#ffffff"
                 icon={<FaArrowRight className="text-sm font-semibold text-white" />}
             />
