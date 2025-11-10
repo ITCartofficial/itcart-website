@@ -9,6 +9,8 @@ export const verticalData = [
         //  compenyLogo: '/images/verticalLogos/AiXBFS.png',
         compenyLogo: '/images/verticalLogos/aixhublogo.png',
         detailPage: {
+            metaTitle: 'metaTitle',
+            metaDescription: 'metaDescription',
             bannerTitle: "AI-Powered Social Intranet That Works Smart",
             bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform",
             bannerImage: "/images/vertical/AiXHub-banner.jpg",
@@ -1330,8 +1332,6 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
-<<<<<<< HEAD
-=======
             impacts: [
                 "90% Regulatory change identification accuracy with AI-powered analysis and intelligent compliance monitoring software ",
                 "75% Reduction in compliance-related mistakes through intelligent automation and risk and compliance software optimization ",
@@ -1340,7 +1340,6 @@ export const verticalData = [
                 "Continuous Compliance monitoring ensuring regulatory adherence across all frameworks via automated compliance software",
                 "Automated Audit trails satisfying stringent regulatory requirements through intelligent compliance automation platform",
             ],
->>>>>>> 138ea0cce0e7fc7a8bcb5bf6006d63add5dcc0b0
             FAQs: [
                 {
                     id: '1',
