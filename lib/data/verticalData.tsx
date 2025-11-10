@@ -9,6 +9,8 @@ export const verticalData = [
         //  compenyLogo: '/images/verticalLogos/AiXBFS.png',
         compenyLogo: '/images/verticalLogos/aixhublogo.png',
         detailPage: {
+            metaTitle: 'metaTitle',
+            metaDescription: 'metaDescription',
             bannerTitle: "AI-Powered Social Intranet That Works Smart",
             bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform",
             bannerImage: "/images/vertical/AiXHub-banner.jpg",
@@ -19,7 +21,7 @@ export const verticalData = [
             skillGapSectionHeading: 'Built For Modern Teams',
             impactImage: '/images/vertical/AiXHub-impact.png',
             VerticalContentSection2: {
-                contentOne: "Modern enterprises face growing inefficiencies from disconnected systems, manual workflows, and limited visibility across teams. AiXHub eliminates these barriers by replacing traditional enterprise intranet models with an AI-native digital workplace platform built for decision execution. It unifies communication, compliance, and automation into one intelligent ecosystem—empowering distributed teams through contextual workflows, predictive collaboration, and SLA-driven execution intelligence.",
+                contentOne: "Modern enterprises face growing inefficiencies from disconnected systems, manual workflows, and limited visibility across teams. AiXHub eliminates these barriers by replacing traditional enterprise intranet models with an AI-native digital workplace platform built for decision execution. It unifies communication, compliance, and automation into one intelligent ecosystem—empowering distributed teams through contextual workflows, predictive collaboration, and SLA-driven execution intelligence. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXHub-section.png"
             },
@@ -33,21 +35,21 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "Smart Automation",
-                    description: " AI-governed workflows automate repetitive tasks through SLA-bound execution and intelligent process orchestration, ensuring precision and efficiency across all enterprise operations. ",
+                    description: "AI-governed workflows automate repetitive tasks through SLA-bound execution and intelligent process orchestration, ensuring precision and efficiency across all enterprise operations. ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
-                    title: "Intelligent Analytics ",
+                    title: "Intelligent Analytics",
                     description: " Real-time dashboards and predictive analytics empower business leaders with contextual insights, driving performance improvements and data-backed strategic decisions.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "AI IoT Integration ",
-                    description: " Seamless connectivity with AIoT devices enables predictive maintenance, automated alerts, and optimized resource utilization across enterprise environments.",
+                    title: "AI IoT Integration",
+                    description: "Seamless connectivity with AIoT devices enables predictive maintenance, automated alerts, and optimized resource utilization across enterprise environments.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Advanced Security ",
+                    title: "Advanced Security",
                     description: "AiXHub embeds Microsoft’s enterprise security stack, offering adaptive threat detection, compliance enforcement, and zero-trust protection for critical digital assets.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
@@ -57,8 +59,8 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Cross-System Orchestration ",
-                    description: "Unified interoperability across ERP, CRM, HRMS, and Microsoft 365 ecosystems enables cohesive, real-time decision-making and governed data exchange.",
+                    title: "Cross-System Orchestration",
+                    description: "Unified interoperability across ERP, CRM, HRMS, and Microsoft 365 ecosystems enables cohesive, real-time decision-making and governed data exchange. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
@@ -66,34 +68,24 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixhub-icon1.svg',
                     title: "Enterprise Leaders",
-                    highlight: " Strategic decision-makers seeking intelligent automation, compliance, and operational excellence powered by AI-native transformation.",
+                    highlight: "Strategic decision-makers seeking intelligent automation, compliance, and operational excellence powered by AI-native transformation.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixhub-icon2.svg',
                     title: "IT Managers",
-                    highlight: " Technology leaders driving modernization through consolidated platforms and cross-system orchestration for enterprise-scale efficiency. ",
+                    highlight: " Technology leaders driving modernization through consolidated platforms and cross-system orchestration for enterprise-scale efficiency.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixhub-icon3.svg',
                     title: "HR Professionals",
-                    highlight: "Enhance workforce engagement and transparency with adaptive AI dashboards, recognition systems, and automated employee lifecycle management. ",
+                    highlight: " Enhance workforce engagement and transparency with adaptive AI dashboards, recognition systems, and automated employee lifecycle management.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
-            ],
-            impacts: [
-                "Organizations reduce manual processing time by seventy-five percent through intelligent automation systems.",
-                "Achieve seventy percent decrease in operational overhead expenses through comprehensive workflow optimization.",
-                "Reach ninety percent improvement in compliance documentation accuracy through automated monitoring systems. ",
-                "Reduce software license expenses by eighty-five percent through intelligent platform consolidation.",
-                "Respond to business opportunities sixty percent faster than competitors through AI-powered insights.",
-                "Achieve ninety-five percent user adoption rates across all enterprise implementations. ",
-                "Improve collaboration visibility by fifty percent across departments through unified communication platforms.",
-                "Eliminate eighty percent of time wasted switching between tools through integrated workflows. ",
             ],
             FAQs: [
                 {
@@ -103,8 +95,8 @@ export const verticalData = [
                 },
                 {
                     id: '2',
-                    title: 'What makes AiXHub different from traditional intranet tools? ',
-                    content: ' AiXHub replaces static intranets with an AI-native execution system that automates workflows, enforces SLAs, and learns continuously across departments. '
+                    title: 'What makes AiXHub different from traditional intranet tools?',
+                    content: ' AiXHub replaces static intranets with an AI-native execution system that automates workflows, enforces SLAs, and learns continuously across departments.'
                 },
                 {
                     id: '3',
@@ -114,7 +106,7 @@ export const verticalData = [
                 {
                     id: '4',
                     title: 'Is AiXHub suitable for regulated industries?',
-                    content: 'Yes. AiXHub enforces GDPR, HIPAA, and DPDP compliance through embedded governance and AI-driven audit trails.'
+                    content: ' Yes. AiXHub enforces GDPR, HIPAA, and DPDP compliance through embedded governance and AI-driven audit trails.'
                 },
                 {
                     id: '5',
@@ -224,16 +216,6 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
-            ],
-            impacts: [
-                "Achieve forty to sixty percent reduction in loan approval time through automation ",
-                "Increase field agent productivity by thirty percent with optimized digital workflows ",
-                "Reduce delinquency rates by twenty to forty percent using predictive AI ",
-                "Ensure complete regulatory compliance from day one with built-in monitoring ",
-                "Enhance borrower satisfaction through personalized digital banking platform experiences significantly ",
-                "Accelerate partner onboarding with automated KYC and document verification processes ",
-                "Enable real-time risk assessment using alternative data and bureau integration",
-                "Optimize collection efficiency with geo-smart routing and priority case allocation",
             ],
             FAQs: [
                 {
@@ -351,17 +333,6 @@ export const verticalData = [
                 //     description: "",
                 //     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 // },
-            ],
-            impacts: [
-                "Achieve seventy-six percent higher learning efficiency compared to traditional educational platforms",
-                "Increase course completion rates from industry average fifteen percent to eighty-five percent",
-                "Reduce training time by fifty percent through adaptive learning paths and content ",
-                "Enable twenty-four hour learning access with real-time AI tutoring across languages ",
-                "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends ",
-                "Enhance learner engagement through gamified elements and interactive AI-powered learning experiences significantly",
-                "Streamline content creation for educators with automated lesson generation and assessment tools",
-                "Improve knowledge retention by sixty percent through personalized study paths and reinforcement",
-               "Reduce dropout rates by forty percent through continuous engagement monitoring and intervention"
             ],
             FAQs: [
                 {
@@ -513,14 +484,6 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
-            impacts: [
-                "100+ Global customers across 25+ industries worldwide utilizing artificial intelligence in insurance solutions and advanced analytics ",
-                "$3 Trillion Insurance market transformation with AI-driven insights enabling predictive analytics in insurance optimization ",
-                "Real-time Premium adjustments through behavioral intelligence platforms and comprehensive digital insurance platform capabilities",
-                "Advanced Fraud reduction through biometric signal detection and ai in insurance industry monitoring systems",
-                "Dynamic Wellness reward programs empowering healthier lives through ai in health insurance and lifestyle optimization",
-                "Biological Age calculations transforming traditional actuarial science via AI insurance automation and precision underwriting",
-            ],
             FAQs: [
                 {
                     id: '1',
@@ -649,15 +612,6 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
-            impacts: [
-                "40% Faster issue processing through AI-powered routing intelligence and comprehensive it service management software optimization ",
-                "60% Fewer repetitive queries through intelligent helpdesk automation and proactive issue prevention systems",
-                "90% Higher employee satisfaction ratings via enhanced service delivery and asset management platform capabilities ",
-                "100% Asset visibility through comprehensive digital asset management software and intelligent tracking systems",
-                "75% Reduction in manual administrative overhead through automated workflows and smart asset tracking optimization ",
-                "50% Lower IT operational expenses while maintaining service quality via ai in it service management efficiency",
-                "95% SLA adherence across all critical service categories through it asset management system automation"
-            ],
             FAQs: [
                 {
                     id: '1',
@@ -783,15 +737,6 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
-            impacts: [
-                "70-85% Reduction in manual processing time through intelligent AI-powered financial automation platform and automated workflow optimization",
-                "60-90% Improvement in accuracy and quality via advanced predictive analytics for finance and intelligent error prevention systems",
-                "80-95% Increase in SLA compliance rates through comprehensive regulatory compliance automation and intelligent monitoring capabilities",
-                "82% Reduction in policy review time enabling faster decision-making through financial automation software optimization100% Asset visibility through comprehensive digital asset management software and intelligent tracking systems",
-                "91% Predictive accuracy in risk assessment via advanced intelligent automation financial services and machine learning algorithms 75% Reduction in manual administrative overhead through automated workflows and smart asset tracking optimization ",
-                "94% SLA compliance rates across all financial operations through digital transformation in financial services excellence 0% Lower IT operational expenses while maintaining service quality via ai in it service management efficiency",
-                "9380-487% ROI within 12-24 months through comprehensive AI-powered financial automation platform implementation 5% SLA adherence across all critical service categories through it asset management system automation"
-            ],
             FAQs: [
                 {
                     id: '1',
@@ -915,16 +860,6 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",
                 },
             ],
-            impacts: [
-                "Emergency room wait times reduced by 69% through intelligent smart care solutions",
-                "AI in telemedicine processing 75% faster with automated virtual consultation workflows",
-                "Diagnostic accuracy improved by 25% with healthcare ai solutions powered clinical decision support",
-                "Hospital readmission rates decreased by 47% through predictive discharge planning via digital healthcare solutions",
-                "Bed turnover efficiency increased 60-70% enabling higher patient capacity through digital health platform",
-                "Administrative overhead costs reduced by 40% through ai healthcare platform workflow automation",
-                "Patient satisfaction scores improved by 50% with streamlined care delivery using smart care solutions",
-                "100% audit-ready compliance documentation with immutable logging across digital health and wellness platforms"
-            ],
             FAQs: [
                 {
                     id: '1',
@@ -990,7 +925,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXLifeCare-about.png',
                 logo: '/images/vertical/AiXLifeCare-darklogo.png',
-                contentOne: "AiXLifeCare is iTCart's revolutionary Ai healthcare platform that transforms patient care through intelligent healthcare automation software and healthcare predictive analytics software. Built on the proprietary AiX Framework, this comprehensive medical automation system delivers AI clinical decision support, automated diagnostics, and patient engagement platform capabilities through workflow automation in healthcare environments with HIPAA-compliant AI architecture and seamless integration capabilities. ",
+                contentOne: "AiXLifeCare is iTCart's revolutionary ai healthcare platform that transforms patient care through intelligent healthcare automation software and healthcare predictive analytics software. Built on the proprietary AiX Framework, this comprehensive medical automation system delivers AI clinical decision support, automated diagnostics, and patient engagement platform capabilities through workflow automation in healthcare environments with HIPAA-compliant AI architecture and seamless integration capabilities. ",
                 contenttwo: "",
                 contentthree: ''
             },
@@ -1021,7 +956,7 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixlifecare-icon1.svg',
                     title: "Hospitals & Clinics ",
-                    highlight: " Streamline operations with comprehensive Ai healthcare platform for multispecialty healthcare environments.",
+                    highlight: " Streamline operations with comprehensive ai healthcare platform for multispecialty healthcare environments.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
@@ -1039,14 +974,6 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
-            ],
-            impacts: [
-                "Reduce diagnostic delays by 40% through AI-powered pattern recognition and healthcare predictive analytics software capabilities ",
-                "Improve patient safety scores by 35% using real-time monitoring and early warning systems",
-                "Decrease operational costs by 30% through intelligent healthcare automation software and workflow optimization systems",
-                "Enhance clinical decision accuracy by 50% with evidence-based AI recommendations and protocols",
-                "Accelerate treatment planning by 60% using personalized care pathways and clinical templates",
-                "Boost regulatory compliance rates to 99.5% with automated auditing and policy enforcement through medical automation system",
             ],
             FAQs: [
                 {
@@ -1171,30 +1098,21 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
-            impacts: [
-                "30-40% Faster claims turnaround through predictive analytics and ai revenue cycle management optimization algorithms ",
-                "99% Coding accuracy with AI-powered automation and comprehensive healthcare revenue cycle management software",
-                "15-20% Increase in collections and revenue optimization via end-to-end revenue cycle management solutions and intelligent processing",
-                "100% Regulatory compliance with government standards through cloud based medical billing software and automated monitoring",
-                "85% Reduction in claim denials through intelligent ai revenue cycle management and proactive error prevention ",
-                "95% Fraud detection accuracy improvement through advanced revenue cycle analytics software and pattern recognition ",
-                "Zero Disruption to existing operational systems with seamless healthcare workflow automation integration ",
-            ],
             FAQs: [
                 {
                     id: '1',
-                    title: 'How quickly can RCMAiX be implemented? ',
+                    title: 'How quickly can RCM AIX be implemented? ',
                     content: "Implementation typically takes 2-4 weeks with zero disruption to existing systems through our seamless RCM automation and cloud-based billing solutions integration approach."
                 },
                 {
                     id: '2',
                     title: 'What specialties does the platform support?',
-                    content: "RCMAiX supports all medical specialties with customized workflows for hospitals, independent practices, diagnostic labs, and telemedicine platforms through comprehensive RCM for hospitals and end-to-end revenue cycle solutions. "
+                    content: "RCM AIX supports all medical specialties with customized workflows for hospitals, independent practices, diagnostic labs, and telemedicine platforms through comprehensive RCM for hospitals and end-to-end revenue cycle solutions. "
                 },
                 {
                     id: '3',
                     title: 'Is the platform compliant with healthcare regulations?',
-                    content: "Yes, RCMAiX maintains 100% compliance with HIPAA, ICD-10, CPT, and all payer regulations through continuous monitoring via AI-driven revenue management and RCM automation. "
+                    content: "Yes, RCM AIX maintains 100% compliance with HIPAA, ICD-10, CPT, and all payer regulations through continuous monitoring via AI-driven revenue management and RCM automation. "
                 },
                 {
                     id: '4',
@@ -1246,7 +1164,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXERP-aboutimage.png',
                 logo: '/images/vertical/AiXERP-darklogo.png',
-                contentOne: "AiXERP transforms traditional enterprise resource planning through iTCart's revolutionary AiXHub Framework, delivering the world's first truly AI-powered ERP platform. Built from the ground up with Ai in erp systems at its core, AiXERP provides comprehensive erp automation software capabilities across cloud based ERP solution architecture that fundamentally reimagines enterprise operations through intelligent erp system technology. ",
+                contentOne: "AiXERP transforms traditional enterprise resource planning through iTCart's revolutionary AiXHub Framework, delivering the world's first truly AI-powered ERP platform. Built from the ground up with ai in erp systems at its core, AiXERP provides comprehensive erp automation software capabilities across cloud based ERP solution architecture that fundamentally reimagines enterprise operations through intelligent erp system technology. ",
                 contenttwo: "",
                 contentthree: ""
             },
@@ -1263,7 +1181,7 @@ export const verticalData = [
                 },
                 {
                     title: "Human Resource Management",
-                    description: "Digitize payroll, recruitment, and performance tracking leveraging Ai in erp systems for comprehensive workforce management. ",
+                    description: "Digitize payroll, recruitment, and performance tracking leveraging ai in erp systems for comprehensive workforce management. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -1294,14 +1212,6 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 }
-            ],
-            impacts: [
-                "Streamlines core business functions across all departments and operations ",
-                "Provides unified data visibility eliminating information silos between teams ",
-                "Enhances strategic decision-making with real-time analytics capabilities ",
-                "Reduces manual work eliminating redundant systems improving operational efficiencies ",
-                "Scales with business growth without creating operational bottlenecks ",
-                "Automates invoicing, payments, and compliance reducing processing time significantly ",
             ],
             FAQs: [
                 {
@@ -1356,7 +1266,7 @@ export const verticalData = [
             skillGapSectionHeading: 'Real-World Compliance Applications',
             impactImage: '/images/vertical/AiXGRC-impact.png',
             VerticalContentSection2: {
-                contentOne: "In today's high-stakes regulatory landscape, managing governance, risk, and compliance isn't just about ticking boxes—it's about building trust and ensuring resilience. Traditional GRC approaches fall short in the face of evolving regulations requiring advanced compliance management systems, automated compliance software, and intelligent grc automation platform capabilities. ",
+                contentOne: "In today's high-stakes regulatory landscape, managing governance, risk, and compliance isn't just about ticking boxes—it's about building trust and ensuring resilience. Traditional GRC approaches fall short in the face of evolving regulations requiring advanced compliance management systems, automated compliance software, and intelligent GRC automation platform capabilities. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXGRC-section.png"
             },
@@ -1426,7 +1336,7 @@ export const verticalData = [
                 "90% Regulatory change identification accuracy with AI-powered analysis and intelligent compliance monitoring software ",
                 "75% Reduction in compliance-related mistakes through intelligent automation and risk and compliance software optimization ",
                 "Real-time Risk monitoring enabling proactive threat mitigation through comprehensive compliance management systems ",
-                "375+ Business applications seamlessly integrated through advanced grc system connectivity and automation",
+                "375+ Business applications seamlessly integrated through advanced GRC system connectivity and automation",
                 "Continuous Compliance monitoring ensuring regulatory adherence across all frameworks via automated compliance software",
                 "Automated Audit trails satisfying stringent regulatory requirements through intelligent compliance automation platform",
             ],
@@ -1570,13 +1480,6 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",
                 }
             ],
-            impacts: [
-                "$2.8M Average Annual savings through intelligent threat detection and automated incident response reducing security operational costs significantly",
-                "10X Faster Threat detection with AI-powered correlation engines and threat intelligence automation enabling rapid security response capabilities ",
-                "95% Reduction In false positives through advanced ai security platform algorithms and behavioral analytics minimizing security team alert fatigue",
-                "25X Improvement In incident response time enabling comprehensive threat containment through zero trust architecture and automated security orchestration",
-                "Zero Security Breaches Across all enterprise implementations with ai powered cybersecurity platform protection and proactive threat prevention systems ",
-            ],
             FaqHeading: 'Everything You Need to Know About AI Powered Cybersecurity Platform',
             FAQs: [
                 {
@@ -1710,14 +1613,6 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
-            ],
-            impacts: [
-                "35-40% Reduction in HVAC energy consumption and operational costs through AI predictive maintenance software automation ",
-                "95% Prevention of equipment failures through comprehensive IoT equipment monitoring system and predictive analytics ",
-                "50% Improvement in occupant comfort scores and environmental satisfaction via intelligent climate control systems",
-                "70-85% Decrease in manual monitoring and adjustment requirements through asset lifecycle management platform automation",
-                "380-487% ROI achieved within 12-24 months through intelligent maintenance scheduling software and operational optimization",
-                "Complete replacement of fragmented HVAC management tools with unified AI-powered asset performance management platform"
             ],
             FAQs: [
                 {
@@ -1859,30 +1754,21 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
-            impacts: [
-                "70-85% Reduction in manual processing time across all property operations through ai real estate software automation ",
-                "380-487% ROI achieved within 12-24 months through smart property management and operational optimization",
-                "94% Accuracy in automated property valuations and market predictions via predictive analytics for real estate",
-                "60-90% Improvement in operational quality and tenant satisfaction through ai property management systems",
-                "95%+ User adoption rates across all real estate implementations with comprehensive ai in property management",
-                "30-50% Operational cost reduction through intelligent maintenance orchestration and resource optimization",
-                "40% Faster decision-making with real-time market analytics and property management crm integration",
-            ],
             FAQs: [
                 {
                     id: '1',
-                    title: 'How quickly can RCMAiX be implemented? ',
+                    title: 'How quickly can RCM AIX be implemented? ',
                     content: "Implementation typically takes 2-4 weeks with zero disruption to existing systems through our seamless RCM automation and cloud-based billing solutions integration approach."
                 },
                 {
                     id: '2',
                     title: 'What specialties does the platform support?',
-                    content: "RCMAiX supports all medical specialties with customized workflows for hospitals, independent practices, diagnostic labs, and telemedicine platforms through comprehensive RCM for hospitals and end-to-end revenue cycle solutions. "
+                    content: "RCM AIX supports all medical specialties with customized workflows for hospitals, independent practices, diagnostic labs, and telemedicine platforms through comprehensive RCM for hospitals and end-to-end revenue cycle solutions. "
                 },
                 {
                     id: '3',
                     title: 'Is the platform compliant with healthcare regulations?',
-                    content: "Yes, RCMAiX maintains 100% compliance with HIPAA, ICD-10, CPT, and all payer regulations through continuous monitoring via AI-driven revenue management and RCM automation. "
+                    content: "Yes, RCM AIX maintains 100% compliance with HIPAA, ICD-10, CPT, and all payer regulations through continuous monitoring via AI-driven revenue management and RCM automation. "
                 },
                 {
                     id: '4',
@@ -1992,14 +1878,6 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
-            ],
-            impacts: [
-                "70-85% Reduction in data processing time through intelligent AI racing performance software and automated analytics workflows",
-                "60-90% Improvement in strategy accuracy via comprehensive motorsport performance analytics AI and predictive modeling systems ",
-                "80-95% Increase in operational efficiency during race weekends through AI telemetry data analysis tool and intelligent automation",
-                "82% Faster simulation processing enabling rapid strategy optimization through AI-driven race optimization system capabilities ",
-                "91% Predictive accuracy in performance optimization via advanced racing operations platform and machine learning algorithms ",
-                "94% Improvement in real-time decision execution through intelligent pit stop management software and automated workflows",
             ],
             FAQs: [
                 {
@@ -2119,14 +1997,6 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 },
-            ],
-            impacts: [
-                "85% Faster grid performance analysis through intelligent energy management software automation and ai in energy management optimization",
-                "90% Improvement in renewable forecasting accuracy via advanced renewable energy solutions and predictive analytics systems ",
-                "50% Reduction in energy waste across operations through ai based energy management system and intelligent optimization algorithms ",
-                "75% Decrease in unplanned equipment failures through comprehensive energy monitoring software and predictive maintenance protocols ",
-                "60% Acceleration in regulatory submissions via automated compliance reporting and energy management platform integration",
-                "70% Operational efficiency improvement through AI-native architecture and intelligent energy data management software optimization"
             ],
             FAQs: [
                 {

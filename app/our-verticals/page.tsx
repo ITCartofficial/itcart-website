@@ -3,7 +3,6 @@ import OurVwerticalGrid from '@/components/OurVwerticalGrid'
 import React from 'react'
 
 const OurVerticals = () => {
-
     return (
         <div className='bg-black'>
             <HeroBanner title="Our Verticals"

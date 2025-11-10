@@ -41,8 +41,8 @@
 // }
 
 // export default TextRevealSection
-'use client'
 
+'use client'
 import TextReveal from '@/components/common/TextReveal'
 import GradientTitle from '@/components/typography/GradientTitle'
 import React, { useState } from 'react'

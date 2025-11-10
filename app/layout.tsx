@@ -77,12 +77,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>Best AI Automation Services & IT Solutions for Enterprises | itcart</title>
+        <meta name="description" content="Scale faster with AI automation, RPA services, IT solutions, intelligent process automation, cloud migration, AI consulting, software development & managed IT services globally" />
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
         <meta
           name="google-site-verification"
           content="EiiZ4vW05H-lFA-UxhWR58tkbzRGzWOanciSP24li0U"
         />
+
       </head>
       <body
         className={`w-full overflow-x-hidden ${montserrat.variable} font-sans antialiased relative`}
