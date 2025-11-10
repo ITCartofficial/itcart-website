@@ -64,6 +64,7 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
+            
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/aixhub-icon1.svg',
