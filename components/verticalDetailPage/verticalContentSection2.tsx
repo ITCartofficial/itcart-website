@@ -23,7 +23,7 @@ const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ about
                     <GradientTitle
                         text={VerticalContentSection2Heading ?? ''}
                         theme="dark"
-                        className="text-[30px] sm:text-[25px] md:text-[38px] md:text-[30px] w-full text-center md:text-start"
+                        className="text-[30px] sm:text-[25px] md:text-[30px] w-full text-center md:text-start"
                     />
 
 

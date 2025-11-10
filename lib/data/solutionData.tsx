@@ -5,6 +5,8 @@ export const solutionData = [
     linkUrl: "/solutions/aixhub-internet",
     imageSrc: "/images/solutions/ai_image.png",
     detailPage: {
+      metaTitle: 'Enterprise AI Workplace Automation & Unified Collaboration | AiXHub',
+      metaDescription: ' Experience enterprise transformation with AiXHub — the AI-powered digital workplace platform that unifies collaboration, automation, and decision intelligence for modern organizations.',
       bannerButtonText: "Get in touch",
       bannerTitle: "Best Digital Workplace Software for Enterprises",
       bannerDescription: "Transform workplace through comprehensive enterprise collaboration platform excellence",
@@ -210,6 +212,8 @@ export const solutionData = [
     linkUrl: "/solutions/document-management-system",
     imageSrc: "/images/solutions/Document_Management_System.png",
     detailPage: {
+      metaTitle: 'Document Management System | Secure, Smart & AI-Powered DMS',
+      metaDescription: 'Join the future of document handling! Secure, cloud-based DMS solutions. Streamline your workflow and boost efficiency now!',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Modernize Document Management for Tomorrow's Challenges",
@@ -412,6 +416,8 @@ export const solutionData = [
     linkUrl: "/solutions/digital-transformation-suite",
     imageSrc: "/images/solutions/DigitalTransformationSuite.png",
     detailPage: {
+      metaTitle: 'Digital Transformation solutions | Enterprise Automation Platform  ',
+      metaDescription: 'Elevate your business with iTCart’s AI suite for digital transformation—a powerful platform featuring cloud-native scalability, predictive analytics, and secure automation ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Build Future-Ready Business with Enterprise Automation Platform",
@@ -613,6 +619,8 @@ export const solutionData = [
     linkUrl: "/solutions/business-process-automation",
     imageSrc: "/images/solutions/Business-Process-Automation.png",
     detailPage: {
+      metaTitle: 'Business Process Automation | BPA Solutions  ',
+      metaDescription: 'Increase efficiency with iTCart’s Business Process Automation, AI-powered workflows, cloud tools & BPA services for more innovative, faster business processes. ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Supercharge Operations with Smart BPA Solutions",
@@ -814,6 +822,8 @@ export const solutionData = [
     linkUrl: "/solutions/Human Resource-anagement",
     imageSrc: "/images/solutions/HR_management.png",
     detailPage: {
+      metaTitle: 'HR Digital Transformation with Cloud Based HR Software | iTCart ',
+      metaDescription: 'Transform HR with iTCart’s cloud-based HR software. Automate HR processes, streamline payroll, and boost engagement through AI-driven HR digital transformation.  ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Intelligent Human Resource Management",
@@ -1014,6 +1024,8 @@ export const solutionData = [
     linkUrl: "/services/data-analytics",
     imageSrc: "/images/solutions/Learning-Management-System.png",
     detailPage: {
+      metaTitle: 'AI-Powered LMS for Digital Learning Transformation | iTCart',
+      metaDescription: 'Transform training into a strategic advantage with an LMS designed for personalization, automation, analytics, and enterprise scalability',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Best Learning Management Solutions",
@@ -1215,6 +1227,8 @@ export const solutionData = [
     linkUrl: "/services/devops-services",
     imageSrc: "/images/solutions/Enterprise-Resource.png",
     detailPage: {
+      metaTitle: '',
+      metaDescription: '',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Reimagine Control with iTCart's AI-Powered ERP Solutions",
@@ -1416,6 +1430,8 @@ export const solutionData = [
     linkUrl: "/services/digital-commerce",
     imageSrc: "/images/solutions/Customer-Relationship-Management.png",
     detailPage: {
+      metaTitle: '',
+      metaDescription: '',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Customer Relationships with Intelligent CRM",
@@ -1616,6 +1632,8 @@ export const solutionData = [
     linkUrl: "/services/digital-transformation",
     imageSrc: "/images/solutions/Supply-Chain-Management.png",
     detailPage: {
+      metaTitle: 'AI-Powered Supply Chain Management Solutions | iTCart',
+      metaDescription: 'Optimize logistics and operations with iTCart’s AI-powered supply chain management solutions. Achieve real-time visibility, predictive analytics, and automation.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Next-Generation Supply Chain Management Platform Solutions",
@@ -1831,6 +1849,8 @@ export const solutionData = [
     linkUrl: "/services/iot-services",
     imageSrc: "/images/solutions/Logistics-Management.png",
     detailPage: {
+      metaTitle: 'AI-Powered Logistics Management Solution | iTCart ',
+      metaDescription: 'Cut costs, optimize routes, and scale faster with iTCart’s AI logistics solution. Smarter transport and delivery management starts',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "AI-Powered Logistics Management Solutions",
@@ -2060,6 +2080,8 @@ export const solutionData = [
     linkUrl: "/services/managed-it-services",
     imageSrc: "/images/solutions/Governance-Risk-Compliance.png",
     detailPage: {
+      metaTitle: 'Your Trusted GRC Solution Platform | iTCart  ',
+      metaDescription: 'Empower your enterprise with iTCart’s AI-powered GRC platform. Streamline governance, manage risks, ensure compliance with GDPR, HIPAA, SOX, and more ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "AI-Powered Enterprise GRC Solutions",
@@ -2283,6 +2305,7 @@ export const solutionData = [
     linkUrl: "/services/startup-services",
     imageSrc: "/images/solutions/Financial-Business-Intelligence.png",
     detailPage: {
+      metaTitle: 'Financial Business Intelligence Solutions | Enterprise BI Software',metaDescription: 'Transform financial operations with iTCart enterprise business intelligence solutions. Advanced financial analytics software, AI business intelligence tools & cloud-based BI platform.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Enterprise Financial Business Intelligence Solutions for Data-Driven Decisions",
