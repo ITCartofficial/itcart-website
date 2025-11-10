@@ -5,6 +5,8 @@ export const serviceData = [
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/services/ai-ml-automation.png",
     detailPage: {
+      metaTitle: ' Expert AI & ML Consulting and Automation Services ',
+      metaDescription: 'Streamline processes, boost efficiency, and gain predictive insights with iTCart’s AI & ML consulting, integration, and automation solutions. ',
       serviceName: 'AI and ML Automations',
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Your Business Operations with Advanced AI & ML Automation",
@@ -204,6 +206,8 @@ export const serviceData = [
     linkUrl: "/services/application-services",
     imageSrc: "/images/services/application-service.png",
     detailPage: {
+      metaTitle: 'AI Application Development Services | Enterprise Integration – iTCart ',
+      metaDescription: 'Build smarter, scalable apps with iTCart’s AI Application Development Services. From modernization to integration, we deliver innovation, security, and agility. ',
       serviceName: 'Application Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Innovative Application Services Tailored for Your Business Success",
@@ -399,6 +403,8 @@ export const serviceData = [
     linkUrl: "/services/business-intelligence",
     imageSrc: "/images/services/business-intelligence.png",
     detailPage: {
+      metaTitle: 'AI-Driven Business Intelligence Services | Data Analytics Experts – iTCart ',
+      metaDescription: 'Empower your enterprise with AI-powered business intelligence services. iTCart helps integrate, analyse, and visualize data to deliver smarter business outcomes.  ',
       serviceName: 'Business Intelligence',
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Data into Scalable Business Intelligence with Experts",
@@ -596,6 +602,8 @@ export const serviceData = [
     linkUrl: "/services/cloud-computing",
     imageSrc: "/images/services/cloud-computing.png",
     detailPage: {
+      metaTitle: 'AI-Powered CloudOps Services for Enterprises – iTCart ',
+      metaDescription: 'Boost agility and uptime with iTCart’s CloudOps Services. Automate multi-cloud operations with AI-powered monitoring, cost optimization, and security. ',
       serviceName: 'CloudOps Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Experience CloudOps that Deliver Uptime, Agility and Business Resilience",
@@ -791,6 +799,8 @@ export const serviceData = [
     linkUrl: "/services/cybersecurity-services",
     imageSrc: "/images/services/cybersecurity.png",
     detailPage: {
+      metaTitle: 'Secure Your Business with Expert Cyber Security Services ',
+      metaDescription: 'Safeguard your data with cyber security services tailored to your industry—threat detection, endpoint protection, and compliance made easy. ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Future-Proof Your Business with Top-Notch Cyber Security Services",
@@ -986,6 +996,8 @@ export const serviceData = [
     linkUrl: "/services/data-analytics",
     imageSrc: "/images/services/data-analytics.png",
     detailPage: {
+      metaTitle: 'AI-Powered Data Analytics Services | Business Intelligence by iTCart ',
+      metaDescription: 'Empower your business with AI-powered data analytics. iTCart delivers real-time insights, predictive intelligence, and enterprise-grade business analytics solutions.',
       serviceName: 'Data Analytics',
       bannerButtonText: "Get in touch",
       bannerTitle: "Turn Data into Decisions. Faster. Smarter. Scalable",
@@ -1181,6 +1193,8 @@ export const serviceData = [
     linkUrl: "/services/devops-services",
     imageSrc: "/images/services/DevOps.png",
     detailPage: {
+      metaTitle: 'AI DevOps Services | Fast Delivery & Cloud Automation – iTCart ',
+      metaDescription: 'Accelerate innovation with iTCart’s AI-powered DevOps services. Automate cloud workflows, boost release speed, and secure, scalable delivery for modern enterprises. ',
       serviceName: 'DevOps Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Experience Top-Notch DevOps Services that Drive Reliable Software Releases",
@@ -1376,6 +1390,8 @@ export const serviceData = [
     linkUrl: "/services/digital-commerce",
     imageSrc: "/images/services/digital-commerce.png",
     detailPage: {
+      metaTitle: 'End-to-End Digital Commerce Services for Your Business ',
+      metaDescription: 'iTCart delivers expert digital commerce services with secure payments, multi-channel retail solutions, and ongoing optimization for your business.  ',
       serviceName: 'Digital Commerce',
       bannerButtonText: "Get in touch",
       bannerTitle: "Experience Digital Commerce Excellence with iTCart",
@@ -1571,6 +1587,8 @@ export const serviceData = [
     linkUrl: "/services/digital-transformation",
     imageSrc: "/images/services/digital-transformation.png",
     detailPage: {
+      metaTitle: 'Digital Transformation Services | AI-Powered Enterprise Solution',
+      metaDescription: ' With iTCart’s digital transformation services, we help you adopt modern technologies, enhance productivity, and stay ahead of the competition. ',
       serviceName: 'Digital Transformation',
       bannerButtonText: "Get in touch",
       bannerTitle: "Propel Your Business Forward with Next-Gen Digital Transformation Services ",
@@ -1766,6 +1784,8 @@ export const serviceData = [
     linkUrl: "/services/iot-services",
     imageSrc: "/images/services/iot-services-image.png",
     detailPage: {
+      metaTitle: ' Smart Internet on Things (IoT) Development Services ',
+      metaDescription: 'From IoT managed service to AI-driven analytics, we help you design, deploy, and optimize connected ecosystems for smarter business decisions.',
       serviceName: 'IoT Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Power Intelligent Insights and Automation with IoT Services",
@@ -1965,6 +1985,8 @@ export const serviceData = [
     linkUrl: "/services/managed-it-services",
     imageSrc: "/images/services/Managed IT Services-image.png",
     detailPage: {
+      metaTitle: 'Managed IT Services | Cloud, Security & Monitoring – iTCart ',
+      metaDescription: 'Simplify IT operations with iTCart’s Managed IT Services, secure cloud solutions, advanced monitoring, and end-to-end support for scalable business success. ',
       serviceName: 'Managed IT Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Empower Your Business with Expertly Crafted Managed IT Services",
@@ -2160,6 +2182,8 @@ export const serviceData = [
     linkUrl: "/services/startup-services",
     imageSrc: "/images/services/startup-servicebanner.png",
     detailPage: {
+      metaTitle: 'Expert Startup Consulting Services & Software Solutions ',
+      metaDescription: 'Build, launch, and scale with iTCart’s startup consulting services, affordable SaaS backup, branding solutions, and expert business consultants.',
       serviceName: 'Startup Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "You Have Vision. We Bring It to Life",
