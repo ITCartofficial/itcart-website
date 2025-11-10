@@ -87,6 +87,16 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
+            impacts: [
+                "Organizations reduce manual processing time by seventy-five percent through intelligent automation systems.",
+                "Achieve seventy percent decrease in operational overhead expenses through comprehensive workflow optimization.",
+                "Reach ninety percent improvement in compliance documentation accuracy through automated monitoring systems. ",
+                "Reduce software license expenses by eighty-five percent through intelligent platform consolidation.",
+                "Respond to business opportunities sixty percent faster than competitors through AI-powered insights.",
+                "Achieve ninety-five percent user adoption rates across all enterprise implementations. ",
+                "Improve collaboration visibility by fifty percent across departments through unified communication platforms.",
+                "Eliminate eighty percent of time wasted switching between tools through integrated workflows. ",
+            ],
             FAQs: [
                 {
                     id: '1',
@@ -217,6 +227,16 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
+            impacts: [
+                "Achieve forty to sixty percent reduction in loan approval time through automation ",
+                "Increase field agent productivity by thirty percent with optimized digital workflows ",
+                "Reduce delinquency rates by twenty to forty percent using predictive AI ",
+                "Ensure complete regulatory compliance from day one with built-in monitoring ",
+                "Enhance borrower satisfaction through personalized digital banking platform experiences significantly ",
+                "Accelerate partner onboarding with automated KYC and document verification processes ",
+                "Enable real-time risk assessment using alternative data and bureau integration",
+                "Optimize collection efficiency with geo-smart routing and priority case allocation",
+            ],
             FAQs: [
                 {
                     id: '1',
@@ -333,6 +353,17 @@ export const verticalData = [
                 //     description: "",
                 //     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 // },
+            ],
+            impacts: [
+                "Achieve seventy-six percent higher learning efficiency compared to traditional educational platforms",
+                "Increase course completion rates from industry average fifteen percent to eighty-five percent",
+                "Reduce training time by fifty percent through adaptive learning paths and content ",
+                "Enable twenty-four hour learning access with real-time AI tutoring across languages ",
+                "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends ",
+                "Enhance learner engagement through gamified elements and interactive AI-powered learning experiences significantly",
+                "Streamline content creation for educators with automated lesson generation and assessment tools",
+                "Improve knowledge retention by sixty percent through personalized study paths and reinforcement",
+                "Reduce dropout rates by forty percent through continuous engagement monitoring and intervention"
             ],
             FAQs: [
                 {
@@ -484,6 +515,12 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
+            impacts: ["100+ Global customers across 25+ industries worldwide utilizing artificial intelligence in insurance solutions and advanced analytics ",
+                "$3 Trillion Insurance market transformation with AI-driven insights enabling predictive analytics in insurance optimization ",
+                "Real-time Premium adjustments through behavioral intelligence platforms and comprehensive digital insurance platform capabilities",
+                "Advanced Fraud reduction through biometric signal detection and ai in insurance industry monitoring systems",
+                "Dynamic Wellness reward programs empowering healthier lives through ai in health insurance and lifestyle optimization",
+                "Biological Age calculations transforming traditional actuarial science via AI insurance automation and precision underwriting",],
             FAQs: [
                 {
                     id: '1',
@@ -589,6 +626,15 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
+            impacts: [
+                "40% Faster issue processing through AI-powered routing intelligence and comprehensive it service management software optimization ",
+                "60% Fewer repetitive queries through intelligent helpdesk automation and proactive issue prevention systems",
+                "90% Higher employee satisfaction ratings via enhanced service delivery and asset management platform capabilities ",
+                "100% Asset visibility through comprehensive digital asset management software and intelligent tracking systems",
+                "75% Reduction in manual administrative overhead through automated workflows and smart asset tracking optimization ",
+                "50% Lower IT operational expenses while maintaining service quality via ai in it service management efficiency",
+                "95% SLA adherence across all critical service categories through it asset management system automation"
+            ],
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/aixdesck-icon1.svg',
@@ -669,6 +715,15 @@ export const verticalData = [
             capabilitiSectionHeading: 'Advanced FinTech AI Capabilities ',
             skillGapSectionHeading: 'Built For Financial Leadership',
             impactImage: '/images/vertical/AiXFintech-impact.png',
+            impacts: [
+                "70-85% Reduction in manual processing time through intelligent AI-powered financial automation platform and automated workflow optimization",
+                "60-90% Improvement in accuracy and quality via advanced predictive analytics for finance and intelligent error prevention systems",
+                "80-95% Increase in SLA compliance rates through comprehensive regulatory compliance automation and intelligent monitoring capabilities",
+                "82% Reduction in policy review time enabling faster decision-making through financial automation software optimization100% Asset visibility through comprehensive digital asset management software and intelligent tracking systems",
+                "91% Predictive accuracy in risk assessment via advanced intelligent automation financial services and machine learning algorithms 75% Reduction in manual administrative overhead through automated workflows and smart asset tracking optimization ",
+                "94% SLA compliance rates across all financial operations through digital transformation in financial services excellence 0% Lower IT operational expenses while maintaining service quality via ai in it service management efficiency",
+                "9380-487% ROI within 12-24 months through comprehensive AI-powered financial automation platform implementation 5% SLA adherence across all critical service categories through it asset management system automation"
+            ],
             VerticalContentSection2: {
                 contentOne: "The global AI in fintech market is experiencing exponential growth, valued at $17.79 billion in 2025 and projected to reach $52.19 billion by 2029. Financial institutions manage 342 applications on average, with 42% of software licenses going unused, representing $127 million in annual waste requiring advanced financial automation software, predictive analytics for finance, and comprehensive digital transformation in financial services solutions to eliminate $10 million in annual losses per 1,000 employees. ",
                 contenttwo: "",
@@ -799,6 +854,16 @@ export const verticalData = [
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXHealthcare-section.png"
             },
+            impacts: [
+                "Emergency room wait times reduced by 69% through intelligent smart care solutions",
+                "AI in telemedicine processing 75% faster with automated virtual consultation workflows",
+                "Diagnostic accuracy improved by 25% with healthcare ai solutions powered clinical decision support",
+                "Hospital readmission rates decreased by 47% through predictive discharge planning via digital healthcare solutions",
+                "Bed turnover efficiency increased 60-70% enabling higher patient capacity through digital health platform",
+                "Administrative overhead costs reduced by 40% through ai healthcare platform workflow automation",
+                "Patient satisfaction scores improved by 50% with streamlined care delivery using smart care solutions",
+                "100% audit-ready compliance documentation with immutable logging across digital health and wellness platforms"
+            ],
             aboutSection: {
                 aboutImage: '/images/vertical/AiXHealthcare-about.png',
                 logo: '/images/vertical/AiXHealthcare-darklogo.png',
@@ -922,6 +987,14 @@ export const verticalData = [
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXLifeCare-section2.png"
             },
+            impacts: [
+                "Reduce diagnostic delays by 40% through AI-powered pattern recognition and healthcare predictive analytics software capabilities ",
+                "Improve patient safety scores by 35% using real-time monitoring and early warning systems",
+                "Decrease operational costs by 30% through intelligent healthcare automation software and workflow optimization systems",
+                "Enhance clinical decision accuracy by 50% with evidence-based AI recommendations and protocols",
+                "Accelerate treatment planning by 60% using personalized care pathways and clinical templates",
+                "Boost regulatory compliance rates to 99.5% with automated auditing and policy enforcement through medical automation system",
+            ],
             aboutSection: {
                 aboutImage: '/images/vertical/AiXLifeCare-about.png',
                 logo: '/images/vertical/AiXLifeCare-darklogo.png',
@@ -1098,6 +1171,15 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
+            impacts: [
+                "30-40% Faster claims turnaround through predictive analytics and ai revenue cycle management optimization algorithms ",
+                "99% Coding accuracy with AI-powered automation and comprehensive healthcare revenue cycle management software",
+                "15-20% Increase in collections and revenue optimization via end-to-end revenue cycle management solutions and intelligent processing",
+                "100% Regulatory compliance with government standards through cloud based medical billing software and automated monitoring",
+                "85% Reduction in claim denials through intelligent ai revenue cycle management and proactive error prevention ",
+                "95% Fraud detection accuracy improvement through advanced revenue cycle analytics software and pattern recognition ",
+                "Zero Disruption to existing operational systems with seamless healthcare workflow automation integration ",
+            ],
             FAQs: [
                 {
                     id: '1',
@@ -1212,6 +1294,14 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 }
+            ],
+            impacts: [
+                "Streamlines core business functions across all departments and operations ",
+                "Provides unified data visibility eliminating information silos between teams ",
+                "Enhances strategic decision-making with real-time analytics capabilities ",
+                "Reduces manual work eliminating redundant systems improving operational efficiencies ",
+                "Scales with business growth without creating operational bottlenecks ",
+                "Automates invoicing, payments, and compliance reducing processing time significantly ",
             ],
             FAQs: [
                 {
@@ -1514,6 +1604,13 @@ export const verticalData = [
                 }
 
             ],
+            impacts: [
+                "$2.8M Average Annual savings through intelligent threat detection and automated incident response reducing security operational costs significantly",
+                "10X Faster Threat detection with AI-powered correlation engines and threat intelligence automation enabling rapid security response capabilities ",
+                "95% Reduction In false positives through advanced ai security platform algorithms and behavioral analytics minimizing security team alert fatigue",
+                "25X Improvement In incident response time enabling comprehensive threat containment through zero trust architecture and automated security orchestration",
+                "Zero Security Breaches Across all enterprise implementations with ai powered cybersecurity platform protection and proactive threat prevention systems ",
+            ],
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: 'CyberAiX platform runs on AiXHub, the core of the AiX Framework—delivers AI-powered cybersecurity with real-time threat detection, zero trust architecture, and intelligent automated response. ',
@@ -1692,6 +1789,15 @@ export const verticalData = [
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXReality-section.png"
             },
+            impacts: [
+                "70-85% Reduction in manual processing time across all property operations through ai real estate software automation ",
+                "380-487% ROI achieved within 12-24 months through smart property management and operational optimization",
+                "94% Accuracy in automated property valuations and market predictions via predictive analytics for real estate",
+                "60-90% Improvement in operational quality and tenant satisfaction through ai property management systems",
+                "95%+ User adoption rates across all real estate implementations with comprehensive ai in property management",
+                "30-50% Operational cost reduction through intelligent maintenance orchestration and resource optimization",
+                "40% Faster decision-making with real-time market analytics and property management crm integration",
+            ],
             aboutSection: {
                 aboutImage: '/images/vertical/AiXReality-about.png',
                 logo: '/images/vertical/AiXReality-darkLogo.png',
@@ -1856,6 +1962,14 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
+            impacts: [
+                "70-85% Reduction in data processing time through intelligent AI racing performance software and automated analytics workflows",
+                "60-90% Improvement in strategy accuracy via comprehensive motorsport performance analytics AI and predictive modeling systems ",
+                "80-95% Increase in operational efficiency during race weekends through AI telemetry data analysis tool and intelligent automation",
+                "82% Faster simulation processing enabling rapid strategy optimization through AI-driven race optimization system capabilities ",
+                "91% Predictive accuracy in performance optimization via advanced racing operations platform and machine learning algorithms ",
+                "94% Improvement in real-time decision execution through intelligent pit stop management software and automated workflows",
+            ],
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/aixmotersports-icon1.svg',
@@ -1997,6 +2111,14 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 },
+            ],
+            impacts: [
+                "85% Faster grid performance analysis through intelligent energy management software automation and ai in energy management optimization",
+                "90% Improvement in renewable forecasting accuracy via advanced renewable energy solutions and predictive analytics systems ",
+                "50% Reduction in energy waste across operations through ai based energy management system and intelligent optimization algorithms ",
+                "75% Decrease in unplanned equipment failures through comprehensive energy monitoring software and predictive maintenance protocols ",
+                "60% Acceleration in regulatory submissions via automated compliance reporting and energy management platform integration",
+                "70% Operational efficiency improvement through AI-native architecture and intelligent energy data management software optimization"
             ],
             FAQs: [
                 {
