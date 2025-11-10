@@ -21,7 +21,7 @@ export const verticalData = [
             skillGapSectionHeading: 'Built For Modern Teams',
             impactImage: '/images/vertical/AiXHub-impact.png',
             VerticalContentSection2: {
-                contentOne: "Modern enterprises face growing inefficiencies from disconnected systems, manual workflows, and limited visibility across teams. AiXHub eliminates these barriers by replacing traditional enterprise intranet models with an AI-native digital workplace platform built for decision execution. It unifies communication, compliance, and automation into one intelligent ecosystem—empowering distributed teams through contextual workflows, predictive collaboration, and SLA-driven execution intelligence.",
+                contentOne: "Modern enterprises face growing inefficiencies from disconnected systems, manual workflows, and limited visibility across teams. AiXHub eliminates these barriers by replacing traditional enterprise intranet models with an AI-native digital workplace platform built for decision execution. It unifies communication, compliance, and automation into one intelligent ecosystem—empowering distributed teams through contextual workflows, predictive collaboration, and SLA-driven execution intelligence. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXHub-section.png"
             },
@@ -35,21 +35,21 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "Smart Automation",
-                    description: " AI-governed workflows automate repetitive tasks through SLA-bound execution and intelligent process orchestration, ensuring precision and efficiency across all enterprise operations. ",
+                    description: "AI-governed workflows automate repetitive tasks through SLA-bound execution and intelligent process orchestration, ensuring precision and efficiency across all enterprise operations. ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
-                    title: "Intelligent Analytics ",
+                    title: "Intelligent Analytics",
                     description: " Real-time dashboards and predictive analytics empower business leaders with contextual insights, driving performance improvements and data-backed strategic decisions.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "AI IoT Integration ",
-                    description: " Seamless connectivity with AIoT devices enables predictive maintenance, automated alerts, and optimized resource utilization across enterprise environments.",
+                    title: "AI IoT Integration",
+                    description: "Seamless connectivity with AIoT devices enables predictive maintenance, automated alerts, and optimized resource utilization across enterprise environments.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Advanced Security ",
+                    title: "Advanced Security",
                     description: "AiXHub embeds Microsoft’s enterprise security stack, offering adaptive threat detection, compliance enforcement, and zero-trust protection for critical digital assets.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
@@ -59,8 +59,8 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Cross-System Orchestration ",
-                    description: "Unified interoperability across ERP, CRM, HRMS, and Microsoft 365 ecosystems enables cohesive, real-time decision-making and governed data exchange.",
+                    title: "Cross-System Orchestration",
+                    description: "Unified interoperability across ERP, CRM, HRMS, and Microsoft 365 ecosystems enables cohesive, real-time decision-making and governed data exchange. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
@@ -68,21 +68,21 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixhub-icon1.svg',
                     title: "Enterprise Leaders",
-                    highlight: " Strategic decision-makers seeking intelligent automation, compliance, and operational excellence powered by AI-native transformation.",
+                    highlight: "Strategic decision-makers seeking intelligent automation, compliance, and operational excellence powered by AI-native transformation.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixhub-icon2.svg',
                     title: "IT Managers",
-                    highlight: " Technology leaders driving modernization through consolidated platforms and cross-system orchestration for enterprise-scale efficiency. ",
+                    highlight: " Technology leaders driving modernization through consolidated platforms and cross-system orchestration for enterprise-scale efficiency.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixhub-icon3.svg',
                     title: "HR Professionals",
-                    highlight: "Enhance workforce engagement and transparency with adaptive AI dashboards, recognition systems, and automated employee lifecycle management. ",
+                    highlight: " Enhance workforce engagement and transparency with adaptive AI dashboards, recognition systems, and automated employee lifecycle management.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -95,8 +95,8 @@ export const verticalData = [
                 },
                 {
                     id: '2',
-                    title: 'What makes AiXHub different from traditional intranet tools? ',
-                    content: ' AiXHub replaces static intranets with an AI-native execution system that automates workflows, enforces SLAs, and learns continuously across departments. '
+                    title: 'What makes AiXHub different from traditional intranet tools?',
+                    content: ' AiXHub replaces static intranets with an AI-native execution system that automates workflows, enforces SLAs, and learns continuously across departments.'
                 },
                 {
                     id: '3',
@@ -106,7 +106,7 @@ export const verticalData = [
                 {
                     id: '4',
                     title: 'Is AiXHub suitable for regulated industries?',
-                    content: 'Yes. AiXHub enforces GDPR, HIPAA, and DPDP compliance through embedded governance and AI-driven audit trails.'
+                    content: ' Yes. AiXHub enforces GDPR, HIPAA, and DPDP compliance through embedded governance and AI-driven audit trails.'
                 },
                 {
                     id: '5',

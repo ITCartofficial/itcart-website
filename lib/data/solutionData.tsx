@@ -22,32 +22,32 @@ export const solutionData = [
       futureItems: [
         {
           title: "Smart Collaboration",
-          description: "AI-enhanced communication tools to improve employee engagement and communication through comprehensive business communication software. ",
+          description: "AI-driven communication and project orchestration tools enhance engagement, transparency, and decision flow across departments through an intelligent collaboration framework. ",
           icon: "/icons/Documents/DocumentManagement-icon1.svg",
         },
         {
           title: "Intelligent Automation",
-          description: "Benefits of intelligent intranet platforms via advanced workplace automation software reducing manual tasks. ",
+          description: "Workflows are automated through SLA-governed processes, adaptive routing, and decision intelligence — reducing manual interventions and ensuring accuracy at scale.  ",
           icon: "/icons/AiXHub/AiXHubFuture-icon2.svg",
         },
         {
           title: "Employee Experience",
-          description: "Tools to improve employee engagement and communication through comprehensive employee experience platform capabilities. ",
+          description: "Personalized dashboards and contextual task automation empower employees through real-time feedback, recognition, and transparent performance tracking. ",
           icon: "/icons/AiXHub/AiXHubFuture-icon3.svg",
         },
         {
           title: "Modern Transformation",
-          description: "Complete modern workplace transformation supporting modern intranet for remote teams operations. ",
+          description: "Empowers distributed teams through secure, AI-orchestrated collaboration supporting hybrid and remote work environments. ",
           icon: "/icons/AiXHub/AiXHubFuture-icon4.svg",
         },
         {
           title: "AI Integration",
-          description: "How AI transforms enterprise collaboration through intelligent features and automated workflows. ",
+          description: "Leverages the AiXHub Enterprise Operating System to enable AI-native task execution, smart recommendations, and predictive process optimization. ",
           icon: "/icons/AiXHub/AiXHubFuture-icon5.svg",
         },
         {
           title: "Microsoft 365",
-          description: "Seamless digital workplace integrated with Microsoft 365 providing unified productivity experiences. ",
+          description: "Seamless integration with Microsoft 365 delivers unified productivity — connecting Teams, SharePoint, Power Platform, and Azure AI for a single intelligent workplace.  ",
           icon: "/icons/AiXHub/AiXHubFuture-icon6.svg",
         },
       ],
@@ -100,37 +100,37 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AI-Powered Innovation",
-          description: "Revolutionary how AI transforms enterprise collaboration operations through intelligent user profiling, predictive analytics, and comprehensive automation capabilities delivering measurable transformation outcomes. ",
+          description: "AiXHub transforms enterprise collaboration with AI-native decision execution, SLA enforcement, and real-time automation intelligence. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/AiXHub/AiXHubChooseUs-icon1.svg'
         },
         {
           title: "Microsoft 365 Integration",
-          description: "Seamless digital workplace integrated with Microsoft 365 providing unified productivity, enhanced functionality, and comprehensive system interoperability with advanced collaboration features. ",
+          description: "Delivers a unified digital experience through full Microsoft 365 integration — merging productivity, data governance, and automation. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon2.svg'
         },
         {
           title: "Employee-Centric Design",
-          description: "Comprehensive employee experience platform delivering personalized interfaces, intelligent recommendations, and enhanced engagement through modern workplace transformation and intuitive user experiences. ",
+          description: "AI-personalized dashboards, engagement insights, and contextual nudges make every interaction meaningful and data-driven. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon3.svg'
         },
         {
           title: "Security Excellence",
-          description: "Enterprise-grade security with ISO certifications, comprehensive data protection, and secure business communication software ensuring organizational safety and regulatory compliance. ",
+          description: "Enterprise-grade encryption, identity governance, and ISO-certified security protocols protect organizational data at every layer. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon4.svg'
         },
         {
           title: "Proven Results",
-          description: "Demonstrated success with 89% employee satisfaction, reduced frustration, faster task completion through best digital workplace software for enterprises implementations. ",
+          description: "Organizations report 85% faster collaboration cycles, 70% reduction in manual tasks, and 95% audit-ready compliance through AiXHub deployments. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon5.svg'
         },
         {
           title: "Global Expertise",
-          description: "International presence with 300+ clients, 22+ industries served, and comprehensive support ensuring successful digital workplace solution deployment and sustained value. ",
+          description: "With 300+ enterprise clients across 22 industries, iTCart delivers domain-driven deployment and ongoing value optimization. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon6.svg'
         }

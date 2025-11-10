@@ -15,9 +15,30 @@ import React from 'react'
 
 const OurVerticalsDetailPage = () => {
 
-    const pathName = usePathname().split('/')[2]
+    const pathName = usePathname()?.split('/')[2] || '';
+    const [isClient, setIsClient] = React.useState(false);
 
-    const filterdItem = verticalData.find(item => item.compenyName.toLowerCase() === pathName);
+    React.useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    const filterdItem = verticalData.find(item =>
+        item.compenyName.toLowerCase() === pathName.toLowerCase()
+    );
+
+    if (!isClient) {
+        return null; // or a loading spinner
+    }
+
+    if (!filterdItem) {
+        return <div className="min-h-screen flex items-center justify-center">
+            <div>Vertical not found</div>
+        </div>;
+    }
+
+    // const pathName = usePathname().split('/')[2]
+
+    // const filterdItem = verticalData.find(item => item.compenyName.toLowerCase() === pathName.toLowerCase());
 
     return (
         <html lang="en">
