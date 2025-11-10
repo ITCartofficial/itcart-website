@@ -5,6 +5,8 @@ export const industryData = [
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/industries/Airlines.png",
     detailPage: {
+      metaTitle: 'AI-Powered Digital Transformation for Airlines | iTCart',
+      metaDescription: 'Transform airline operations with iTCart’s AI-powered aviation solutions. Optimize routes, enhance safety, improve CX, and achieve digital excellence.  ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Digital Transformation in Aviation Excellence ",
@@ -204,6 +206,8 @@ export const industryData = [
     linkUrl: "/services/application-services",
     imageSrc: "/images/industries/Automotive.png",
     detailPage: {
+      metaTitle: 'Smart Automotive Transformation Solutions | iTCart ',
+      metaDescription: 'Revolutionize automotive manufacturing and mobility with iTCart’s digital transformation solutions—enhancing efficiency, safety, and innovation.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Automotive Digital Transformation Excellence",
@@ -406,6 +410,8 @@ export const industryData = [
     linkUrl: "/services/business-intelligence",
     imageSrc: "/images/industries/Banking-Finance.png",
     detailPage: {
+      metaTitle: 'Smart Automotive Transformation Solutions | iTCart ',
+      metaDescription: 'Revolutionize automotive manufacturing and mobility with iTCart’s digital transformation solutions—enhancing efficiency, safety, and innovation.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Banking Automation Solutions Excellence",
