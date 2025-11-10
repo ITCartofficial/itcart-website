@@ -1356,7 +1356,7 @@ export const verticalData = [
             skillGapSectionHeading: 'Real-World Compliance Applications',
             impactImage: '/images/vertical/AiXGRC-impact.png',
             VerticalContentSection2: {
-                contentOne: "In today's high-stakes regulatory landscape, managing governance, risk, and compliance isn't just about ticking boxes—it's about building trust and ensuring resilience. Traditional GRC approaches fall short in the face of evolving regulations requiring advanced compliance management systems, automated compliance software, and intelligent grc automation platform capabilities. ",
+                contentOne: "In today's high-stakes regulatory landscape, managing governance, risk, and compliance isn't just about ticking boxes—it's about building trust and ensuring resilience. Traditional GRC approaches fall short in the face of evolving regulations requiring advanced compliance management systems, automated compliance software, and intelligent GRC automation platform capabilities. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXGRC-section.png"
             },
@@ -1426,7 +1426,7 @@ export const verticalData = [
                 "90% Regulatory change identification accuracy with AI-powered analysis and intelligent compliance monitoring software ",
                 "75% Reduction in compliance-related mistakes through intelligent automation and risk and compliance software optimization ",
                 "Real-time Risk monitoring enabling proactive threat mitigation through comprehensive compliance management systems ",
-                "375+ Business applications seamlessly integrated through advanced grc system connectivity and automation",
+                "375+ Business applications seamlessly integrated through advanced GRC system connectivity and automation",
                 "Continuous Compliance monitoring ensuring regulatory adherence across all frameworks via automated compliance software",
                 "Automated Audit trails satisfying stringent regulatory requirements through intelligent compliance automation platform",
             ],

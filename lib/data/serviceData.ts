@@ -796,7 +796,7 @@ export const serviceData = [
       bannerTitle: "Future-Proof Your Business with Top-Notch Cyber Security Services",
       bannerDescription: " Protect your organization from sophisticated cyber threats with cyber security services combining AI driven threat detection and response, expert guidance, and industry-specific strategies.",
       bannerImage: "/images/services/Cybersecurity-Services-banner.png",
-      mobileBannerImage: "/images/services/DataAnalytics-MobileBanner.jpg",
+      mobileBannerImage: "/images/services/CyberSecurity-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
