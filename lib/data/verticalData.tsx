@@ -635,6 +635,7 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
+            
             impacts: [
                 "40% Faster issue processing through AI-powered routing intelligence and comprehensive it service management software optimization ",
                 "60% Fewer repetitive queries through intelligent helpdesk automation and proactive issue prevention systems",
