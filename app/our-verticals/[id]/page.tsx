@@ -8,7 +8,7 @@ import SkillGapSection from '@/components/verticalDetailPage/SkillGapSection'
 import VerticalContentSection2 from '@/components/verticalDetailPage/verticalContentSection2'
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
 import { verticalData } from '@/lib/data/verticalData'
-import Head from 'next/head'
+
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
