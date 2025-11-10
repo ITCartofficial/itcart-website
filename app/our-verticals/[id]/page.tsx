@@ -8,7 +8,7 @@ import SkillGapSection from '@/components/verticalDetailPage/SkillGapSection'
 import VerticalContentSection2 from '@/components/verticalDetailPage/verticalContentSection2'
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
 import { verticalData } from '@/lib/data/verticalData'
-import Head from 'next/head'
+
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
@@ -17,28 +17,28 @@ const OurVerticalsDetailPage = () => {
 
     const pathName = usePathname()?.split('/')[2] || '';
     const [isClient, setIsClient] = React.useState(false);
- 
+
     React.useEffect(() => {
         setIsClient(true);
     }, []);
- 
+
     const filterdItem = verticalData.find(item =>
         item.compenyName.toLowerCase() === pathName.toLowerCase()
     );
- 
+
     if (!isClient) {
         return null; // or a loading spinner
     }
- 
+
     if (!filterdItem) {
         return <div className="min-h-screen flex items-center justify-center">
             <div>Vertical not found</div>
         </div>;
     }
- 
+
     // const pathName = usePathname().split('/')[2]
 
-    // const filterdItem = verticalData.find(item => item.compenyName.toLowerCase() === pathName);
+    // const filterdItem = verticalData.find(item => item.compenyName.toLowerCase() === pathName.toLowerCase());
 
     return (
         <html lang="en">
