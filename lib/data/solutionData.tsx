@@ -2085,13 +2085,13 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "AI-Powered Enterprise GRC Solutions",
-      bannerDescription: "Empower governance through comprehensive ai powered grc platform excellence",
+      bannerDescription: "Empower governance through comprehensive ai powered GRC platform excellence",
       bannerImage: "/images/solutions/Governance-banner.png",
       mobileBannerImage: "/images/solutions/Governance-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary GRC Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Governance-about.png',
-        contentOne: "Modern enterprises need comprehensive GRC software solutions featuring enterprise GRC solutions, cloud GRC platform, compliance management solutions, operational risk management platform, ai powered grc platform, audit management software, and compliance automation tool capabilities. ",
+        contentOne: "Modern enterprises need comprehensive GRC software solutions featuring enterprise GRC solutions, cloud GRC platform, compliance management solutions, operational risk management platform, ai powered GRC platform, audit management software, and compliance automation tool capabilities. ",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of GRC Excellence',
@@ -2146,7 +2146,7 @@ export const solutionData = [
         {
           id: 2,
           title: "Compliance Excellence",
-          description: "Advanced compliance management solutions delivering strategic automation, regulatory adherence, audit readiness, and stakeholder trust building through comprehensive compliance automation tool capabilities. Our intelligent cloud GRC platform provides transparent, measurable compliance outcomes supporting regulatory requirements through ai powered grc platform integration. The platform ensures accuracy through automated policy approval, regulatory updates, compliance tracking, and comprehensive audit trails specifically designed for multi-framework compliance including GDPR, HIPAA, and Sarbanes-Oxley standards. ",
+          description: "Advanced compliance management solutions delivering strategic automation, regulatory adherence, audit readiness, and stakeholder trust building through comprehensive compliance automation tool capabilities. Our intelligent cloud GRC platform provides transparent, measurable compliance outcomes supporting regulatory requirements through ai powered GRC platform integration. The platform ensures accuracy through automated policy approval, regulatory updates, compliance tracking, and comprehensive audit trails specifically designed for multi-framework compliance including GDPR, HIPAA, and Sarbanes-Oxley standards. ",
           imageSrc: "/images/solutions/Governance-collab2.png",
         },
         {
