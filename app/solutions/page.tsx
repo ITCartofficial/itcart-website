@@ -3,7 +3,7 @@ import HeroBanner from "@/components/HeroBanner";
 import SolutionGrid from "@/components/SolutionGrid";
 import { useEffect, useState } from "react";
 
-export default function page() {
+export default function Page() {
 
     const [isClient, setIsClient] = useState(false);
 

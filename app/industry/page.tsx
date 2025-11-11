@@ -1,11 +1,10 @@
-"use client"
+"use client";
+
 import HeroBanner from "@/components/HeroBanner";
 import IndustryGrid from "@/components/IndustryGrid";
 import { useEffect, useState } from "react";
 
-export default function page() {
-
-
+export default function Page() {
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
@@ -15,8 +14,6 @@ export default function page() {
     if (!isClient) {
         return null;
     }
-
-
     return (
 
         <html lang="en">
