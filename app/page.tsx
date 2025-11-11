@@ -64,81 +64,100 @@ const HomeTemplate = () => {
 
 
   return (
-    <div className="flex flex-col h-full bg-black">
-      <VideoHeroBanner
-        className="h-full mt-20"
-        heading={heading}
-        description={description}
-        buttonText={buttonText}
-        videoSrc={videoSrc}
-        poster={poster}
-        gradiuntClass="text-[30px] lg:text-[64px] w-[90%]"
 
-      />
-      <div className="bg-black md:py-16">
-        <ClientsSection
-          title="Trusted by these amazing companies"
-          logos={logos}
-        />
-      </div>
-      <div className="bg-black py-10 md:py-1 container mx-auto lg:px-10">
-        <AboutInfoSection
-          title="Creating Impact with a Clear Vision"
-          cardDetails={aboutBrief}
-        />
-      </div>
+    <html lang="en">
+      <head>
+        <title>Best AI Automation Services & IT Solutions for Enterprises | itcart</title>
+        <meta name="description" content="Scale faster with AI automation, RPA services, IT solutions, intelligent process automation, cloud migration, AI consulting, software development & managed IT services globally" />
+        {/* <title></title>
+        <meta name="description" content={""} />
+        <meta property="og:title" content={""} />
+        <meta property="og:description" content={""} />
+        <meta property="og:type" content="website" /> */}
+        <meta property="og:url" content={`https://itcart.ai`} />
+      </head>
 
-      <div className="bg-black container mx-auto  lg:px-10">
-        <AiSection
-          title="Our AI-powered Solutions for Intelligent Automation"
-          cardDetails={aboutBrief}
-        />
-      </div>
+      <body>
+        <div className="flex flex-col h-full bg-black">
+          <VideoHeroBanner
+            className="h-full mt-20"
+            heading={heading}
+            description={description}
+            buttonText={buttonText}
+            videoSrc={videoSrc}
+            poster={poster}
+            gradiuntClass="text-[30px] lg:text-[64px] w-[90%]"
 
-      <div className="bg-black px-4 md:px-0">
-        <PatentPendingSection />
-      </div>
+          />
+          <div className="bg-black md:py-16">
+            <ClientsSection
+              title="Trusted by these amazing companies"
+              logos={logos}
+            />
+          </div>
+          <div className="bg-black py-10 md:py-1 container mx-auto lg:px-10">
+            <AboutInfoSection
+              title="Creating Impact with a Clear Vision"
+              cardDetails={aboutBrief}
+            />
+          </div>
 
-      <div id="our-verticals" className="bg-black py-16 pt-20">
-        <HorizontalSliderSection
-          text="Driving Innovation Across Our Key Verticals"
-          cardLists={keyVerticalsData.map((card) => ({
-            ...card,
-            logoBg: card.logoBg === "dark" ? "dark" : "light",
-          }))}
-        />
-      </div>
-      <div className="bg-black pb-16">
-        <TextRevealSection />
-      </div>
-      <div className="bg-black ">
-        <ContentfulSection
-          bgImage={missionContent.bgImage}
-          description={missionContent.description}
-          title={"At iTCart, we empower businesses with intelligent automation and data-driven decisions."}
-          bgImageMobile={missionContent.bgImageMobile}
-        />
-      </div>
-      {/* lg:!max-w-[1875px] */}
-      <div id="case-studies" className="bg-black md:pt-16 md:my-2">
-        <CaseStudySection caseStudies={caseStudyData} />
-      </div>
-      {/* <div className="bg-black py-8">
+          <div className="bg-black container mx-auto  lg:px-10">
+            <AiSection
+              title="Our AI-powered Solutions for Intelligent Automation"
+              cardDetails={aboutBrief}
+            />
+          </div>
+
+          <div className="bg-black px-4 md:px-0">
+            <PatentPendingSection />
+          </div>
+
+          <div id="our-verticals" className="bg-black py-16 pt-20">
+            <HorizontalSliderSection
+              text="Driving Innovation Across Our Key Verticals"
+              cardLists={keyVerticalsData.map((card) => ({
+                ...card,
+                logoBg: card.logoBg === "dark" ? "dark" : "light",
+              }))}
+            />
+          </div>
+          <div className="bg-black pb-16">
+            <TextRevealSection />
+          </div>
+          <div className="bg-black ">
+            <ContentfulSection
+              bgImage={missionContent.bgImage}
+              description={missionContent.description}
+              title={"At iTCart, we empower businesses with intelligent automation and data-driven decisions."}
+              bgImageMobile={missionContent.bgImageMobile}
+            />
+          </div>
+          {/* lg:!max-w-[1875px] */}
+          <div id="case-studies" className="bg-black md:pt-16 md:my-2">
+            <CaseStudySection caseStudies={caseStudyData} />
+          </div>
+          {/* <div className="bg-black py-8">
         <TestimonialSection bgColor={"true"} testimonialsData={testimonialsData} />
       </div> */}
-      <div className="bg-black md:mt-4  mt-10">
-        <BlogsFeatureSection posts={posts} />
-      </div>
-      <div className="bg-black py-16">
-        <AwardsSection />
-      </div>
-      <div className="bg-black ">
-        <BusinessTransformSection />
-      </div>
-      <div className="">
-        <HomeFaqSection faqs={homeFAQs} />
-      </div>
-    </div>
+          <div className="bg-black md:mt-4  mt-10">
+            <BlogsFeatureSection posts={posts} />
+          </div>
+          <div className="bg-black py-16">
+            <AwardsSection />
+          </div>
+          <div className="bg-black ">
+            <BusinessTransformSection />
+          </div>
+          <div className="">
+            <HomeFaqSection faqs={homeFAQs} />
+          </div>
+        </div>
+      </body>
+    </html>
+
+
+
   );
 };
 

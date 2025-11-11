@@ -75,49 +75,49 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <head>
-        <title>Best AI Automation Services & IT Solutions for Enterprises | itcart</title>
-        <meta name="description" content="Scale faster with AI automation, RPA services, IT solutions, intelligent process automation, cloud migration, AI consulting, software development & managed IT services globally" />
+    // <html lang="en">
+    //   <head>
+    //     <title>Best AI Automation Services & IT Solutions for Enterprises | itcart</title>
+    //     <meta name="description" content="Scale faster with AI automation, RPA services, IT solutions, intelligent process automation, cloud migration, AI consulting, software development & managed IT services globally" />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-        <meta
-          name="google-site-verification"
-          content="EiiZ4vW05H-lFA-UxhWR58tkbzRGzWOanciSP24li0U"
-        />
+    //     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    //     <link rel="icon" href="/favicon.png" />
+    //     <meta
+    //       name="google-site-verification"
+    //       content="EiiZ4vW05H-lFA-UxhWR58tkbzRGzWOanciSP24li0U"
+    //     />
 
-      </head>
-      <body
-        className={`w-full overflow-x-hidden ${montserrat.variable} font-sans antialiased relative`}
-      >
-        {/* Header */}
-        <Header />
+    //   </head>
+    <body
+      className={`w-full overflow-x-hidden ${montserrat.variable} font-sans antialiased relative`}
+    >
+      {/* Header */}
+      <Header />
 
-        {/* Main Content */}
-        <main>{children}</main>
+      {/* Main Content */}
+      <main>{children}</main>
 
-        {/* Footer */}
-        <Footer />
+      {/* Footer */}
+      <Footer />
 
-        {/* Analytics */}
-        <Analytics />
-        <SpeedInsights />
+      {/* Analytics */}
+      <Analytics />
+      <SpeedInsights />
 
-        {/* ✅ Google Analytics Scripts */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-WGD87T7WM1"
-        />
-        <Script id="google-analytics">
-          {`
+      {/* ✅ Google Analytics Scripts */}
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-WGD87T7WM1"
+      />
+      <Script id="google-analytics">
+        {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-WGD87T7WM1');
           `}
-        </Script>
-      </body>
-    </html>
+      </Script>
+    </body>
+    // </html>
   );
 }
