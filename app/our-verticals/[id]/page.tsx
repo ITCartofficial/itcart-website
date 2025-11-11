@@ -48,12 +48,11 @@ const OurVerticalsDetailPage = () => {
                 <meta property="og:title" content={filterdItem?.detailPage?.metaTitle} />
                 <meta property="og:description" content={filterdItem?.detailPage?.metaDescription ?? ""} />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content={`https://itcart.ai/verticals/${pathName}`} />
+                <meta property="og:url" content={`https://itcart.ai/our-verticals/${pathName}`} />
             </head>
 
             <body>
                 <>
-
                     <div className='bg-black space-y-15 lg:space-y-25 mt-10'>
 
                         <div className='md:block hidden'>
