@@ -1,3 +1,4 @@
+"use client"
 // import ExecutiveLeadersSection from "@/components/about/ExecutiveLeadersSection"
 // import EnterPriceGrid from "@/components/CunsultNow/EnterPriceGrid"
 import ImplementationStratogy from "@/components/CunsultNow/ImplementationStratogy"
@@ -12,10 +13,21 @@ import SectionContact from "@/components/CunsultNow/SectionContact"
 import HomeFaqSection from "../(features)/home/HomeFaqSection"
 import ClientsSection from "../(features)/home/ClientsSection"
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
+import { useEffect, useState } from "react"
 
 
 
 function CunsultNow() {
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
 
 
     const homeFAQs = [

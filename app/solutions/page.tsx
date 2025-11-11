@@ -1,7 +1,20 @@
+"use client"
 import HeroBanner from "@/components/HeroBanner";
 import SolutionGrid from "@/components/SolutionGrid";
+import { useEffect, useState } from "react";
 
 export default function page() {
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
+
 
     return (
 

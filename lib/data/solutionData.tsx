@@ -1,6 +1,6 @@
 export const solutionData = [
   {
-    title: "AiXHub Internet",
+    title: "AiXHub",
     description: "Consolidates resources, cultivates seamless collaboration and amplifies productivity via integrated tools, elevating communication, security, and organizational efficiency.",
     linkUrl: "/solutions/aixhub-internet",
     imageSrc: "/images/solutions/ai_image.png",

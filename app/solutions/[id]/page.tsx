@@ -12,6 +12,7 @@ import SectionContact from "@/components/CunsultNow/SectionContact";
 import HomeFaqSection from "@/app/(features)/home/HomeFaqSection";
 import FutureSectionSolution from "@/components/SolutionDetailPage/FutureSection";
 import MobileVerticalHeroBanner from "@/components/verticalDetailPage/MobileVerticalHeroBanner";
+import { useEffect, useState } from "react";
 
 // import CollaburationSection from "@/components/SolutionDetailPage/sectionCollab";
 // import FutureSection from "@/components/DetailPageComponents/FutureSection";
@@ -24,6 +25,17 @@ function SolutionDetailPage() {
         return item.title.toLowerCase().replace(/™/g, '').trim() ==
             pathName.toLowerCase().replace(/™/g, '').trim()
     })
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
+
 
     return (
 
