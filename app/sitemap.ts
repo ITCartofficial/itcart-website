@@ -148,7 +148,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     'blogs',
     'careers',
     'case-study',
-    'consultnow',
+    'consult-now',
     'contact-us',
     'csr',
     // 'employee',
