@@ -28,21 +28,20 @@ export default function Page() {
                 <meta property="og:url" content={`https://itcart.ai/solutions`} />
             </head>
 
-            <body>
-                <div className='bg-black'>
-                    <HeroBanner title="Our Solutions"
-                        description="At iTCart, our suite of solutions is tailored to optimize operations, supercharge productivity and propel client growth across varied industries. Explore our precision-crafted solutions, driven by an unwavering commitment to excellence, meticulous attention to detail and a transparent privacy policy governing data collection and usage for diverse purposes."
-                        ctaText="Connect with Us"
-                        ctaUrl="/contact-us"
-                        breadcrumbItems={[
-                            { label: 'Home', url: '/' },
-                            { label: 'Our Solutions', url: '/solutions' }
-                        ]}
-                        backgroundImage="/images/vertical/vertical-bg.jpg"
-                    />
-                    <SolutionGrid className='container' />
-                </div>
-            </body>
+            <div className='bg-black'>
+                <HeroBanner title="Our Solutions"
+                    description="At iTCart, our suite of solutions is tailored to optimize operations, supercharge productivity and propel client growth across varied industries. Explore our precision-crafted solutions, driven by an unwavering commitment to excellence, meticulous attention to detail and a transparent privacy policy governing data collection and usage for diverse purposes."
+                    ctaText="Connect with Us"
+                    ctaUrl="/contact-us"
+                    breadcrumbItems={[
+                        { label: 'Home', url: '/' },
+                        { label: 'Our Solutions', url: '/solutions' }
+                    ]}
+                    backgroundImage="/images/vertical/vertical-bg.jpg"
+                />
+                <SolutionGrid className='container' />
+            </div>
+
         </html>
 
 
