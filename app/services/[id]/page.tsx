@@ -28,131 +28,143 @@ const ServicesDetailPage = () => {
             pathName.toLowerCase().replace(/™/g, '').trim()
     })
 
-     console.log("filterdItem",filterdItem);
-
-
-    //  bg-gradient-to-b from-gray-900 via-gray-1000 to-black
     return (
-        <>
+        <html lang="en">
 
-            <div className='bg-black space-y-15 lg:space-y-25  mt-10 '>
-                <div className="md:block hidden">
+            <head>
+                <title>{filterdItem?.detailPage?.metaTitle ?? ""}</title>
+                <meta name="description" content={filterdItem?.detailPage?.metaDescription ?? ""} />
+                <meta property="og:title" content={filterdItem?.detailPage?.metaTitle} />
+                <meta property="og:description" content={filterdItem?.detailPage?.metaDescription ?? ""} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={`https://itcart.ai/services/${pathName}`} />
+            </head>
 
-                    <VerticalHeroBanner
-                        serviceName={filterdItem?.detailPage?.serviceName ?? ""}
-                        bannerButtonText={"Get In Touch"}
-                        title={filterdItem?.detailPage?.bannerTitle ?? ""}
-                        description={filterdItem?.detailPage?.bannerDescription ?? ""}
-                        ctaText="Connect with Us"
-                        ctaUrl="/contact"
-                        breadcrumbItems={[
-                            { label: 'Home', url: '/' },
-                            { label: 'Our Verticals', url: '/services' }
-                        ]}
-                        backgroundImage={filterdItem?.detailPage?.bannerImage ?? ""}
-                        className="mt-10"
-                    />
-                </div>
 
-                <div className="md:hidden block">
-                    <MobileVerticalHeroBanner
-                        title={filterdItem?.detailPage?.bannerTitle ?? ""}
-                        description={filterdItem?.detailPage?.bannerDescription ?? ""}
-                        ctaText="Connect with Us"
-                        ctaUrl="/contact-us"
-                        // breadcrumbItems={[
-                        //     { label: 'Home', url: '/' },
-                        //     { label: 'Our Verticals', url: '/services' }
-                        // ]}
-                        mobileBanner={filterdItem?.detailPage?.mobileBannerImage ?? ""}
-                        bannerButtonText="Get Started"
-                    />
+            <body>
+                <>
 
-                </div>
+                    <div className='bg-black space-y-15 lg:space-y-25  mt-10 '>
+                        <div className="md:block hidden">
 
-                <div className='bg-black container mx-auto lg:px-10'>
-                    <SectionAbout
-                        showLogo={true}
-                        aboutProduct={true}
-                        contentOne={filterdItem?.detailPage?.aboutSection?.contentOne ?? ""}
-                        contenttwo={filterdItem?.detailPage?.aboutSection?.contenttwo ?? ""}
-                        image={filterdItem?.detailPage?.aboutSection?.aboutImage ?? ""}
-                        logo={filterdItem?.detailPage?.aboutSection?.logo ?? ""}
-                        contentthree={(filterdItem?.detailPage?.aboutSection as unknown as { contentthree?: string })?.contentthree ?? ""}
-                        contentfour={(filterdItem?.detailPage?.aboutSection as unknown as { contentfour?: string })?.contentfour ?? ""}
-                        aboutSectionHeading={filterdItem?.detailPage?.aboutSectionHeading ?? ""}
-                    />
-                </div>
+                            <VerticalHeroBanner
+                                serviceName={filterdItem?.detailPage?.serviceName ?? ""}
+                                bannerButtonText={"Get In Touch"}
+                                title={filterdItem?.detailPage?.bannerTitle ?? ""}
+                                description={filterdItem?.detailPage?.bannerDescription ?? ""}
+                                ctaText="Connect with Us"
+                                ctaUrl="/contact"
+                                breadcrumbItems={[
+                                    { label: 'Home', url: '/' },
+                                    { label: 'Our Verticals', url: '/services' }
+                                ]}
+                                backgroundImage={filterdItem?.detailPage?.bannerImage ?? ""}
+                                className="mt-10"
+                            />
+                        </div>
 
-                <div className='bg-black container mx-auto lg:px-10'>
-                    <SkillGapSection
-                        showShadedBackground={filterdItem?.detailPage?.showShadedBackground ?? false}
-                        showDescription={true}
-                        skillGapHeadingDescription={filterdItem?.detailPage?.skillGapHeadingDescription ?? ""}
-                        skillGapSection={filterdItem?.detailPage?.skillGapSection ?? []}
-                        skillGapSectionHeading={filterdItem?.detailPage?.skillGapSectionHeading ?? ""}
-                    />
-                </div>
+                        <div className="md:hidden block">
+                            <MobileVerticalHeroBanner
+                                title={filterdItem?.detailPage?.bannerTitle ?? ""}
+                                description={filterdItem?.detailPage?.bannerDescription ?? ""}
+                                ctaText="Connect with Us"
+                                ctaUrl="/contact-us"
+                                // breadcrumbItems={[
+                                //     { label: 'Home', url: '/' },
+                                //     { label: 'Our Verticals', url: '/services' }
+                                // ]}
+                                mobileBanner={filterdItem?.detailPage?.mobileBannerImage ?? ""}
+                                bannerButtonText="Get Started"
+                            />
 
-                <div className='bg-black container'>
-                    <CapabilitySection
-                        isBackgroundImage={false}
-                        textColor='#45C2CC'
-                        itemePerRow={3}
-                        capabilitiSectionDescription={filterdItem?.detailPage?.capabilitiSectionDescription ?? ""}
-                        capabilitiSectionHeading={filterdItem?.detailPage?.capabilitiSectionHeading ?? ""}
-                        CapabilitySections={filterdItem?.detailPage?.CapabilitySections ?? []}
-                    />
-                </div>
+                        </div>
 
-                <div className='bg-black container'>
-                    <ServiceCard
-                        itemePerRow={4}
-                        serviceCardItems={(filterdItem?.detailPage)?.serviceCardItems ?? []}
-                        serviceCardHeading={(filterdItem?.detailPage)?.serviceCardHeading ?? ""}
-                    />
-                </div>
+                        <div className='bg-black container mx-auto lg:px-10'>
+                            <SectionAbout
+                                showLogo={true}
+                                aboutProduct={true}
+                                contentOne={filterdItem?.detailPage?.aboutSection?.contentOne ?? ""}
+                                contenttwo={filterdItem?.detailPage?.aboutSection?.contenttwo ?? ""}
+                                image={filterdItem?.detailPage?.aboutSection?.aboutImage ?? ""}
+                                logo={filterdItem?.detailPage?.aboutSection?.logo ?? ""}
+                                contentthree={(filterdItem?.detailPage?.aboutSection as unknown as { contentthree?: string })?.contentthree ?? ""}
+                                contentfour={(filterdItem?.detailPage?.aboutSection as unknown as { contentfour?: string })?.contentfour ?? ""}
+                                aboutSectionHeading={filterdItem?.detailPage?.aboutSectionHeading ?? ""}
+                            />
+                        </div>
 
-                <div className='bg-black container'>
-                    <WhyChoose
-                        whyChooseUsHeading={filterdItem?.detailPage?.whyChooseUsHeading ?? ""}
-                        whyChooseUsHeadingDescription={filterdItem?.detailPage?.whyChooseUsHeadingDescription ?? ""}
-                        whyChooseUsCards={Array.isArray(filterdItem?.detailPage?.whyChooseUsCards) ? filterdItem.detailPage.whyChooseUsCards : []}
-                    />
-                </div>
+                        <div className='bg-black container mx-auto lg:px-10'>
+                            <SkillGapSection
+                                showShadedBackground={filterdItem?.detailPage?.showShadedBackground ?? false}
+                                showDescription={true}
+                                skillGapHeadingDescription={filterdItem?.detailPage?.skillGapHeadingDescription ?? ""}
+                                skillGapSection={filterdItem?.detailPage?.skillGapSection ?? []}
+                                skillGapSectionHeading={filterdItem?.detailPage?.skillGapSectionHeading ?? ""}
+                            />
+                        </div>
 
-                <div className='bg-black container mx-auto lg:px-10'>
-                    <SectionAbout
+                        <div className='bg-black container'>
+                            <CapabilitySection
+                                isBackgroundImage={false}
+                                textColor='#45C2CC'
+                                itemePerRow={3}
+                                capabilitiSectionDescription={filterdItem?.detailPage?.capabilitiSectionDescription ?? ""}
+                                capabilitiSectionHeading={filterdItem?.detailPage?.capabilitiSectionHeading ?? ""}
+                                CapabilitySections={filterdItem?.detailPage?.CapabilitySections ?? []}
+                            />
+                        </div>
 
-                        classNameTwo='md:text-[48px] text-[30px]'
-                        showLogo={true}
-                        aboutProduct={true}
-                        contentOne={filterdItem?.detailPage?.aboutSection2?.contentOne ?? ""}
-                        contenttwo={filterdItem?.detailPage?.aboutSection2?.contenttwo ?? ""}
-                        contentthree={(filterdItem?.detailPage?.aboutSection2 as unknown as { contentthree?: string })?.contentthree ?? ""}
-                        contentfour={(filterdItem?.detailPage?.aboutSection2 as unknown as { contentfour?: string })?.contentfour ?? ""}
-                        aboutSectionHeading={filterdItem?.detailPage?.aboutSection2Heading ?? ""}
-                        image={"/images/services/serviceaboutfinal.png"}
-                        logo={filterdItem?.detailPage?.aboutSection?.logo ?? ""}
-                    // contentfour={(filterdItem?.detailPage?.aboutSection as any)?.contentfour ?? ""}
-                    />
+                        <div className='bg-black container'>
+                            <ServiceCard
+                                itemePerRow={4}
+                                serviceCardItems={(filterdItem?.detailPage)?.serviceCardItems ?? []}
+                                serviceCardHeading={(filterdItem?.detailPage)?.serviceCardHeading ?? ""}
+                            />
+                        </div>
 
-                </div>
+                        <div className='bg-black container'>
+                            <WhyChoose
+                                whyChooseUsHeading={filterdItem?.detailPage?.whyChooseUsHeading ?? ""}
+                                whyChooseUsHeadingDescription={filterdItem?.detailPage?.whyChooseUsHeadingDescription ?? ""}
+                                whyChooseUsCards={Array.isArray(filterdItem?.detailPage?.whyChooseUsCards) ? filterdItem.detailPage.whyChooseUsCards : []}
+                            />
+                        </div>
 
-                <div className=" border-b-2 border-b-zinc-600 pb-7">
-                    <FutureSection
-                        futurSectionHeading={filterdItem?.detailPage?.futurSectionHeading ?? ""}
-                        futurSectionDescription={filterdItem?.detailPage?.futurSectionDescription ?? ""}
-                    />
-                </div>
+                        <div className='bg-black container mx-auto lg:px-10'>
+                            <SectionAbout
 
-            </div>
-            <div className="bg-[#131313] border-b-2 border-b-zinc-600 -10">
-                <HomeFaqSection
-                    FAQsHeading={filterdItem?.detailPage?.FAQsHeading}
-                    faqs={filterdItem?.detailPage?.FAQs ?? []} />
-            </div>
-        </>
+                                classNameTwo='md:text-[48px] text-[30px]'
+                                showLogo={true}
+                                aboutProduct={true}
+                                contentOne={filterdItem?.detailPage?.aboutSection2?.contentOne ?? ""}
+                                contenttwo={filterdItem?.detailPage?.aboutSection2?.contenttwo ?? ""}
+                                contentthree={(filterdItem?.detailPage?.aboutSection2 as unknown as { contentthree?: string })?.contentthree ?? ""}
+                                contentfour={(filterdItem?.detailPage?.aboutSection2 as unknown as { contentfour?: string })?.contentfour ?? ""}
+                                aboutSectionHeading={filterdItem?.detailPage?.aboutSection2Heading ?? ""}
+                                image={"/images/services/serviceaboutfinal.png"}
+                                logo={filterdItem?.detailPage?.aboutSection?.logo ?? ""}
+                            // contentfour={(filterdItem?.detailPage?.aboutSection as any)?.contentfour ?? ""}
+                            />
+
+                        </div>
+
+                        <div className=" border-b-2 border-b-zinc-600 pb-7">
+                            <FutureSection
+                                futurSectionHeading={filterdItem?.detailPage?.futurSectionHeading ?? ""}
+                                futurSectionDescription={filterdItem?.detailPage?.futurSectionDescription ?? ""}
+                            />
+                        </div>
+
+                    </div>
+                    <div className="bg-[#131313] border-b-2 border-b-zinc-600 -10">
+                        <HomeFaqSection
+                            FAQsHeading={filterdItem?.detailPage?.FAQsHeading}
+                            faqs={filterdItem?.detailPage?.FAQs ?? []} />
+                    </div>
+                </>
+            </body>
+        </html>
+
 
     )
 }

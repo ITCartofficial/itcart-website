@@ -9,8 +9,8 @@ export const verticalData = [
         //  compenyLogo: '/images/verticalLogos/AiXBFS.png',
         compenyLogo: '/images/verticalLogos/aixhublogo.png',
         detailPage: {
-            metaTitle: 'metaTitle',
-            metaDescription: 'metaDescription',
+            metaTitle: 'AI-Native Enterprise Operating System | Digital Workplace Transformation – AiXHub',
+            metaDescription: 'AiXHub redefines digital workplace transformation with AI-native automation, unified collaboration, and decision intelligence. Discover enterprise-grade platforms that elevate productivity, compliance, and engagement.',
             bannerTitle: "AI-Powered Social Intranet That Works Smart",
             bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform",
             bannerImage: "/images/vertical/AiXHub-banner.jpg",
@@ -64,6 +64,7 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
+            
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/aixhub-icon1.svg',
@@ -145,6 +146,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXBFS.png',
         compenyLogo: '/images/verticalLogos/AiXBFS.png',
         detailPage: {
+            metaTitle: 'AI-Powered Banking & Financial Services Platform | AiXBFS',
+            metaDescription: 'AiXBFS is an AI-powered banking and financial services platform that automates lending, collections, compliance, and risk management for modern BFSI leaders. ',
             bannerTitle: 'AI-Powered Banking & Financial Services Platform',
             bannerDescription: "Transform BFSI operations through intelligent ai in banking and financial services",
             bannerImage: "/images/vertical/AiXBFS-banner.jpg",
@@ -290,6 +293,8 @@ export const verticalData = [
         capabilitiSectionHeading: 'Core capabilities  ',
         skillGapSectionHeading: 'Bridge Skills Gaps with AI-Driven Education ',
         detailPage: {
+            metaTitle: 'metaTitle',
+            metaDescription: 'metaDescription',
             bannerTitle: "The Future of Intelligent Learning Starts Here",
             bannerDescription: "Experience Personalized Learning that adapts to your environment",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
@@ -438,6 +443,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/InsureAiX.png',
         compenyLogo: '/images/verticalLogos/InsureAiX.png',
         detailPage: {
+            metaTitle: 'AI-Powered Insurance Platform | InsureAiX ',
+            metaDescription: 'Transform your coverage with InsureAiX — the AI-powered insurance platform that uses genomics, behavior, and health data to deliver personalized, dynamic premiums. ',
             bannerTitle: "Smart Insurance for Secure Future",
             bannerDescription: "Personalized coverage adapting to your lifestyle ",
             bannerImage: "/images/vertical/InsureAiX-banner.jpg",
@@ -574,6 +581,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXDesk.png',
         compenyLogo: '/images/verticalLogos/AiXDesk.png',
         detailPage: {
+            metaTitle: ' AI IT Service Management Software | Smart Helpdesk Platform',
+            metaDescription: 'Reimagine IT operations with AiXDesk—an AI-powered ITSM platform that automates ticketing, manages assets, and boosts service delivery across your enterprise.',
             bannerTitle: "Intelligent IT Support & Asset Management Platform",
             bannerDescription: "Smart IT Service Management Made Simple through comprehensive it service management software and advanced asset management platform capabilities.",
             bannerImage: "/images/vertical/AiXDesk-banner.jpg",
@@ -591,7 +600,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXDesk-about.png',
                 logo: '/images/vertical/AiXDesk-darklogo.png',
-                contentOne: "AiXDesk transforms IT service management through intelligent automation, unifying ticketing systems with comprehensive asset tracking and seamless workflow management. Built on iTCart's patent-pending AiXFramework, this AI-powered platform streamlines enterprise IT operations featuring advanced it service management software, asset management platform capabilities, digital asset management software integration, and smart asset tracking that eliminates manual bottlenecks while accelerating issue resolution through comprehensive asset lifecycle management solutions. ",
+                contentOne: "AiXDesk transforms IT service management through intelligent automation, unifying ticketing systems with comprehensive asset tracking and seamless workflow management. Built on iTCart's patent-pending AiX Framework, this AI-powered platform streamlines enterprise IT operations featuring advanced it service management software, asset management platform capabilities, digital asset management software integration, and smart asset tracking that eliminates manual bottlenecks while accelerating issue resolution through comprehensive asset lifecycle management solutions. ",
                 contenttwo: ""
             },
             CapabilitySections: [
@@ -626,6 +635,7 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
+            
             impacts: [
                 "40% Faster issue processing through AI-powered routing intelligence and comprehensive it service management software optimization ",
                 "60% Fewer repetitive queries through intelligent helpdesk automation and proactive issue prevention systems",
@@ -706,6 +716,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXFintech.png',
         compenyLogo: '/images/verticalLogos/AiXFintech.png',
         detailPage: {
+            metaTitle: 'AI-Powered Financial Automation Platform | AiXFinTech ',
+            metaDescription: ' Automate risk, compliance, and credit scoring with AiXFinTech — an AI-powered financial automation platform built for intelligent banking and digital finance.',
             bannerTitle: "Transforming Financial Services Through AI-Powered Automation",
             bannerDescription: "Experience digitalized financial services with our AiXHub Framework ",
             bannerImage: "/images/vertical/AiXFintech-banner.jpg",
@@ -840,6 +852,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXHealthcare.png',
         compenyLogo: '/images/verticalLogos/AiXHealthcare.png',
         detailPage: {
+            metaTitle:'AI Healthcare Platform | Predictive & Automated Patient Care – AiXHealthcare',
+            metaDescription: 'Explore AI in healthcare with AiXHealthcare; smart care solutions, digital health platforms, and AI-powered patient engagement tools. ',
             bannerTitle: "Advanced Artificial Intelligence in Healthcare and Patient Management ",
             bannerDescription: "Intelligent healthcare automation for better outcomes ",
             bannerImage: "/images/vertical/AiXHealthcare-banner.jpg",
@@ -867,7 +881,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXHealthcare-about.png',
                 logo: '/images/vertical/AiXHealthcare-darklogo.png',
-                contentOne: "AiXHealthcare represents the next generation of artificial intelligence in healthcare, transforming hospitals, clinics, and healthcare networks into self-governing, patient-intelligent enterprises through comprehensive digital health platform orchestration. Built on iTCart's proprietary AiXFramework, our healthcare AI solutions deliver SLA-bound workflows, embedded compliance governance, and multi-agent AI orchestration across clinical, financial, and operational processes. From emergency triage to insurance approvals and discharge planning, AiXHealthcare ensures every patient journey is faster, safer, and fully compliant through advanced digital healthcare solutions and intelligent automation capabilities. ",
+                contentOne: "AiXHealthcare represents the next generation of artificial intelligence in healthcare, transforming hospitals, clinics, and healthcare networks into self-governing, patient-intelligent enterprises through comprehensive digital health platform orchestration. Built on iTCart's proprietary AiX Framework, our healthcare AI solutions deliver SLA-bound workflows, embedded compliance governance, and multi-agent AI orchestration across clinical, financial, and operational processes. From emergency triage to insurance approvals and discharge planning, AiXHealthcare ensures every patient journey is faster, safer, and fully compliant through advanced digital healthcare solutions and intelligent automation capabilities. ",
                 contenttwo: ""
             },
             CapabilitySections: [
@@ -973,6 +987,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXLifeCare.png',
         compenyLogo: '/images/verticalLogos/AiXLifeCare.png',
         detailPage: {
+            metaTitle: 'AI Lifecare Platform for Smarter Patient Outcomes – iTCart ',
+            metaDescription: 'Empower hospitals with AiXLifeCare — an AI lifecare platform built for predictive healthcare, real-time monitoring, and clinical decision intelligence.',
             bannerTitle: 'Reimagine Patient Care with AiXLifeCare That Thinks Ahead',
             bannerDescription: 'Transform clinical operations through intelligent automation software and advanced workflow optimization systems.',
             bannerImage: "/images/vertical/AiXLifeCare-banner.jpg",
@@ -1096,6 +1112,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/RCMAiX.png',
         compenyLogo: '/images/verticalLogos/RCMAiX.png',
         detailPage: {
+            metaTitle: 'AI Revenue Cycle Management Software for Healthcare | RCMAiX ',
+            metaDescription: 'Transform healthcare billing with RCM AiX—AI-powered revenue cycle management software that automates claims, reduces denials, and improves cash flow accuracy.',
             bannerTitle: "Transform Healthcare Revenue with AI-Powered RCM",
             bannerDescription: "Streamline billing processes with intelligent automation",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
@@ -1105,14 +1123,14 @@ export const verticalData = [
             capabilitiSectionHeading: 'AI-Powered Revenue Cycle Capabilities ',
             skillGapSectionHeading: 'Built For Healthcare Excellence',
             VerticalContentSection2: {
-                contentOne: "Healthcare providers face escalating billing inefficiencies, claim denials exceeding 15%, and administrative burdens that drain resources from patient care. With 40% of hospitals reporting negative margins and rising costs outpacing reimbursements, traditional systems lack intelligent automation requiring advanced ai revenue cycle management, healthcare revenue cycle management software, and cloud based medical billing software solutions to predict bottlenecks and optimize financial outcomes. ",
+                contentOne: "Healthcare providers face escalating billing inefficiencies, claim denials exceeding 15%, and administrative burdens that drain resources from patient care. With 40% of hospitals reporting negative margins and rising costs outpacing reimbursements, traditional systems lack intelligent automation requiring advanced AI revenue cycle management, healthcare revenue cycle management software, and cloud based medical billing software solutions to predict bottlenecks and optimize financial outcomes. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/section2Image.png"
             },
             aboutSection: {
                 aboutImage: '/images/vertical/section2Image.png',
                 logo: '/images/verticalLogos/AiXQP.png',
-                contentOne: "RCMAiX revolutionizes healthcare financial management by combining advanced AI algorithms with comprehensive revenue cycle expertise through intelligent ai revenue cycle management capabilities. Our platform automates claims processing, predicts cash flow patterns, and seamlessly integrates with existing hospital information systems featuring healthcare revenue cycle management software, revenue cycle management solutions, and healthcare workflow automation that reduce errors and accelerate payment cycles while maintaining regulatory compliance. ",
+                contentOne: "RCMAiX revolutionizes healthcare financial management by combining advanced AI algorithms with comprehensive revenue cycle expertise through intelligent AI revenue cycle management capabilities. Our platform automates claims processing, predicts cash flow patterns, and seamlessly integrates with existing hospital information systems featuring healthcare revenue cycle management software, revenue cycle management solutions, and healthcare workflow automation that reduce errors and accelerate payment cycles while maintaining regulatory compliance. ",
                 contenttwo: ""
             },
             CapabilitySections: [
@@ -1152,7 +1170,7 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/rcmaix-icon1.svg',
                     title: "Healthcare Providers",
-                    highlight: "Independent practices, hospitals, specialty clinics optimizing billing and revenue realization through comprehensive ai revenue cycle management solutions. ",
+                    highlight: "Independent practices, hospitals, specialty clinics optimizing billing and revenue realization through comprehensive AI revenue cycle management solutions. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
@@ -1172,29 +1190,29 @@ export const verticalData = [
                 },
             ],
             impacts: [
-                "30-40% Faster claims turnaround through predictive analytics and ai revenue cycle management optimization algorithms ",
+                "30-40% Faster claims turnaround through predictive analytics and AI revenue cycle management optimization algorithms ",
                 "99% Coding accuracy with AI-powered automation and comprehensive healthcare revenue cycle management software",
                 "15-20% Increase in collections and revenue optimization via end-to-end revenue cycle management solutions and intelligent processing",
                 "100% Regulatory compliance with government standards through cloud based medical billing software and automated monitoring",
-                "85% Reduction in claim denials through intelligent ai revenue cycle management and proactive error prevention ",
+                "85% Reduction in claim denials through intelligent AI revenue cycle management and proactive error prevention ",
                 "95% Fraud detection accuracy improvement through advanced revenue cycle analytics software and pattern recognition ",
                 "Zero Disruption to existing operational systems with seamless healthcare workflow automation integration ",
             ],
             FAQs: [
                 {
                     id: '1',
-                    title: 'How quickly can RCM AIX be implemented? ',
+                    title: 'How quickly can RCMAiX be implemented? ',
                     content: "Implementation typically takes 2-4 weeks with zero disruption to existing systems through our seamless RCM automation and cloud-based billing solutions integration approach."
                 },
                 {
                     id: '2',
                     title: 'What specialties does the platform support?',
-                    content: "RCM AIX supports all medical specialties with customized workflows for hospitals, independent practices, diagnostic labs, and telemedicine platforms through comprehensive RCM for hospitals and end-to-end revenue cycle solutions. "
+                    content: "RCMAiX supports all medical specialties with customized workflows for hospitals, independent practices, diagnostic labs, and telemedicine platforms through comprehensive RCM for hospitals and end-to-end revenue cycle solutions. "
                 },
                 {
                     id: '3',
                     title: 'Is the platform compliant with healthcare regulations?',
-                    content: "Yes, RCM AIX maintains 100% compliance with HIPAA, ICD-10, CPT, and all payer regulations through continuous monitoring via AI-driven revenue management and RCM automation. "
+                    content: "Yes, RCMAiX maintains 100% compliance with HIPAA, ICD-10, CPT, and all payer regulations through continuous monitoring via AI-driven revenue management and RCM automation. "
                 },
                 {
                     id: '4',
@@ -1229,6 +1247,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXERP.png',
         compenyLogo: '/images/verticalLogos/AiXERP.png',
         detailPage: {
+            metaTitle: 'Automate Operations with AI-Powered ERP Platform - AiXERP',
+            metaDescription: 'AiXERP by iTCart unifies finance, HR, and operations through an AI-powered ERP platform built for automation, analytics, and agile enterprise growth.',
             bannerTitle: "The Smart ERP Platform for Intelligent Agile Enterprises ",
             bannerDescription: "Transform operations through AI-powered ERP platform featuring cloud based ERP solution and intelligent erp system automation. ",
             bannerImage: "/images/vertical/AiXERP-banner.jpg",
@@ -1246,7 +1266,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXERP-aboutimage.png',
                 logo: '/images/vertical/AiXERP-darklogo.png',
-                contentOne: "AiXERP transforms traditional enterprise resource planning through iTCart's revolutionary AiXHub Framework, delivering the world's first truly AI-powered ERP platform. Built from the ground up with ai in erp systems at its core, AiXERP provides comprehensive erp automation software capabilities across cloud based ERP solution architecture that fundamentally reimagines enterprise operations through intelligent erp system technology. ",
+                contentOne: "AiXERP transforms traditional enterprise resource planning through iTCart's revolutionary AiXHub Framework, delivering the world's first truly AI-powered ERP platform. Built from the ground up with AI in ERP systems at its core, AiXERP provides comprehensive erp automation software capabilities across cloud based ERP solution architecture that fundamentally reimagines enterprise operations through intelligent erp system technology. ",
                 contenttwo: "",
                 contentthree: ""
             },
@@ -1263,7 +1283,7 @@ export const verticalData = [
                 },
                 {
                     title: "Human Resource Management",
-                    description: "Digitize payroll, recruitment, and performance tracking leveraging ai in erp systems for comprehensive workforce management. ",
+                    description: "Digitize payroll, recruitment, and performance tracking leveraging AI in ERP systems for comprehensive workforce management. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -1346,6 +1366,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXGRC.png',
         compenyLogo: '/images/verticalLogos/AiXGRC.png',
         detailPage: {
+            metaTitle: 'AI GRC Platform | Governance, Risk & Compliance Automation',
+            metaDescription: ' AiXGRC is an AI-powered compliance management platform automating risk, audit, and policy workflows, ensuring continuous governance and regulatory compliance',
             bannerTitle: "AiXGRC: AI-Powered Compliance Management Platform",
             bannerDescription: "AI-powered compliance management ensuring regulatory adherence for enterprises ",
             bannerImage: "/images/vertical/AiXGRC-banner.jpg",
@@ -1363,7 +1385,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXGRC-about.png',
                 logo: '/images/vertical/AiXGRC-darklogo.png',
-                contentOne: "AiXGRC is an AI-powered grc automation platform built on iTCart's patent-pending AiXHub framework that streamlines governance, simplifies risk management, and automates compliance workflows. This comprehensive compliance automation platform empowers organizations to navigate regulatory shifts through intelligent risk and compliance software, automated compliance software, and compliance monitoring software that transforms governance from reactive to predictive. ",
+                contentOne: "AiXGRC is an AI-powered GRC automation platform built on iTCart's patent-pending AiXHub framework that streamlines governance, simplifies risk management, and automates compliance workflows. This comprehensive compliance automation platform empowers organizations to navigate regulatory shifts through intelligent risk and compliance software, automated compliance software, and compliance monitoring software that transforms governance from reactive to predictive. ",
                 contenttwo: ""
             },
             CapabilitySections: [
@@ -1401,21 +1423,21 @@ export const verticalData = [
 
             skillGapSection: [
                 {
-                    icon: '/images/vertical/icons/aixgrc-icon1.svg',
+                    icon: '/images/vertical/icons/aixGRC-icon1.svg',
                     title: "Leadership & Officers",
                     highlight: "Ensure enterprise-wide policy enforcement and strategic governance oversight through comprehensive compliance management software capabilities. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/aixgrc-icon2.svg',
+                    icon: '/images/vertical/icons/aixGRC-icon2.svg',
                     title: "Internal Auditors",
                     highlight: "Automate audit lifecycles and control testing with intelligent automation via advanced risk and compliance software systems. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
-                    icon: '/images/vertical/icons/aixgrc-icon3.svg',
+                    icon: '/images/vertical/icons/aixGRC-icon3.svg',
                     title: "IT & Security Teams",
                     highlight: "Manage data governance, cybersecurity policies, and real-time risk events through integrated compliance monitoring software platforms. ",
                     description: "",
@@ -1423,12 +1445,12 @@ export const verticalData = [
                 },
             ],
             impacts: [
-                "90% Regulatory change identification accuracy with AI-powered analysis and intelligent compliance monitoring software ",
-                "75% Reduction in compliance-related mistakes through intelligent automation and risk and compliance software optimization ",
-                "Real-time Risk monitoring enabling proactive threat mitigation through comprehensive compliance management systems ",
-                "375+ Business applications seamlessly integrated through advanced GRC system connectivity and automation",
-                "Continuous Compliance monitoring ensuring regulatory adherence across all frameworks via automated compliance software",
-                "Automated Audit trails satisfying stringent regulatory requirements through intelligent compliance automation platform",
+                "90% regulatory change identification accuracy with AI-powered analysis and intelligent compliance monitoring software",
+                "75% reduction in compliance-related mistakes through intelligent automation and risk and compliance software optimization ",
+                "Real-time risk monitoring enabling proactive threat mitigation through comprehensive compliance management systems ",
+                "375+ business applications seamlessly integrated through advanced GRC system connectivity and automation ",
+                "Continuous compliance monitoring ensuring regulatory adherence across all frameworks via automated compliance software",
+                "Automated audit trails satisfying stringent regulatory requirements through intelligent compliance automation platform",
             ],
             FAQs: [
                 {
@@ -1493,8 +1515,10 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/CyberAiX.png',
         compenyLogo: '/images/verticalLogos/CyberAiX.png',
         detailPage: {
+            metaTitle: 'AI-Powered Cybersecurity Platform | Zero Trust Defense',
+            metaDescription: 'Safeguard your enterprise with CyberAiX — an AI-powered cybersecurity platform delivering real-time threat detection, automated response, and zero-trust protection.',
             bannerTitle: "Safeguard Your Enterprise with Advanced AI Cybersecurity Solutions",
-            bannerDescription: " Transform security operations through AI powered cybersecurity platform featuring zero trust architecture, threat intelligence automation, and comprehensive enterprise cybersecurity platform capabilities.",
+            bannerDescription: " Transform security operations through AI-powered cybersecurity platform featuring zero trust architecture, threat intelligence automation, and comprehensive enterprise cybersecurity platform capabilities.",
             bannerImage: "/images/vertical/CyberAiX-banner.jpg",
             mobileBannerImage: "/images/vertical/cyberAIX-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Cybersecurity Crisis Demands AI Solutions',
@@ -1512,7 +1536,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/aboutimage-CyberAiX.png',
                 logo: '/images/vertical/dark-logo.png',
-                contentOne: "CyberAiX transforms enterprise security through AI powered cybersecurity platform technology delivering real-time protection, zero trust architecture resilience, and comprehensive ai cybersecurity solutions. Built on iTCart's proprietary AiXFramework, this enterprise cybersecurity platform provides advanced ai security platform capabilities with automated threat intelligence automation and cybersecurity consulting services. ",
+                contentOne: "CyberAiX transforms enterprise security through AI-powered cybersecurity platform technology delivering real-time protection, zero trust architecture resilience, and comprehensive ai cybersecurity solutions. Built on iTCart's proprietary AiX Framework, this enterprise cybersecurity platform provides advanced ai security platform capabilities with automated threat intelligence automation and cybersecurity consulting services. ",
                 contenttwo: ""
             },
             CapabilitySections: [
@@ -1609,7 +1633,7 @@ export const verticalData = [
                 "10X Faster Threat detection with AI-powered correlation engines and threat intelligence automation enabling rapid security response capabilities ",
                 "95% Reduction In false positives through advanced ai security platform algorithms and behavioral analytics minimizing security team alert fatigue",
                 "25X Improvement In incident response time enabling comprehensive threat containment through zero trust architecture and automated security orchestration",
-                "Zero Security Breaches Across all enterprise implementations with ai powered cybersecurity platform protection and proactive threat prevention systems ",
+                "Zero Security Breaches Across all enterprise implementations with AI-powered cybersecurity platform platform protection and proactive threat prevention systems ",
             ],
             logo: 'AiXQP-whitelogo',
             section2Data: '',
@@ -1632,6 +1656,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXHEAT.png',
         compenyLogo: '/images/verticalLogos/AiXHEAT.png',
         detailPage: {
+            metaTitle: 'AI-Powered HVAC Operations Platform | Smart Energy Automation',
+            metaDescription:'Automate energy optimization and maintenance with our AI-powered HVAC platform. Reduce costs, improve efficiency, and achieve smart building performance.',
             bannerTitle: "AI-Native HVAC Operations Platform",
             bannerDescription: "Cut energy costs by 40% and prevent 95% of equipment failures with intelligent maintenance scheduling software and AI predictive maintenance software.",
             bannerImage: "/images/vertical/AiXHEAT-banner.jpg",
@@ -1775,6 +1801,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXReality.png',
         compenyLogo: '/images/verticalLogos/AiXReality.png',
         detailPage: {
+            metaTitle: 'AI Real Estate Platform | Smart Property Management – AiXRealty ',
+            metaDescription: 'AiXRealty transforms property management with AI automation, predictive analytics, and smart tenant matching to cut costs and boost efficiency.',
             bannerTitle: "AI-Native Real Estate Operating System",
             bannerDescription: " Revolutionize property management and real estate operations through comprehensive AI-native platform.",
             bannerImage: "/images/vertical/AiXReality-banner.jpg",
@@ -1908,6 +1936,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXMotersports.png',
         compenyLogo: '/images/verticalLogos/AiXMotersports.png',
         detailPage: {
+            metaTitle: 'Motorsport Data Analytics Platform | AI Race Optimization',
+            metaDescription: ' Optimize racing performance with AI motorsport analytics. Real-time telemetry, predictive race strategy, and intelligent data insights — all in one platform.',
             bannerTitle: "AI-Based Racing Performance Platform ",
             bannerDescription: "Transforming Racing Performance Through AI-Powered Intelligence and real-time telemetry analysis for motorsports.",
             bannerImage: "/images/vertical/AiXMotersports-banner.jpg",
@@ -2036,6 +2066,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXEnergy.png',
         compenyLogo: '/images/verticalLogos/AiXEnergy.png',
         detailPage: {
+            metaTitle: 'AI Energy Management Platform | Smart Grid & Renewable Analytics ',
+            metaDescription: 'Transform energy operations with AiXEnergy—AI-powered management software optimizing grids, renewables, and predictive maintenance for sustainable performance.',
             bannerTitle: "Powering Energy Intelligence with AI Innovation ",
             bannerDescription: "Next-generation AI in energy management platform transforming energy operations through comprehensive energy management software and renewable energy solutions.",
             bannerImage: "/images/vertical/AiXEnergy.jpg",
@@ -2053,7 +2085,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/section2Image.png',
                 logo: '/images/verticalLogos/AiXQP.png',
-                contentOne: "AiXEnergy revolutionizes energy operations through iTCart's patent-pending AiXFramework, delivering intelligent grid management, predictive asset optimization, and autonomous energy decision-making. Built for utilities, renewable providers, and energy enterprises facing the $110.98 billion digital power transformation market, AiXEnergy transforms fragmented operations into unified energy management platform capabilities featuring comprehensive ai energy management, solar crm systems integration, and advanced renewable energy solutions that reduce operational costs by 30-50%. ",
+                contentOne: "AiXEnergy revolutionizes energy operations through iTCart's patent-pending AiX Framework, delivering intelligent grid management, predictive asset optimization, and autonomous energy decision-making. Built for utilities, renewable providers, and energy enterprises facing the $110.98 billion digital power transformation market, AiXEnergy transforms fragmented operations into unified energy management platform capabilities featuring comprehensive ai energy management, solar crm systems integration, and advanced renewable energy solutions that reduce operational costs by 30-50%. ",
                 contentthree: ' '
             },
             CapabilitySections: [
