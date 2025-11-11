@@ -9,7 +9,7 @@ export const verticalData = [
         //  compenyLogo: '/images/verticalLogos/AiXBFS.png',
         compenyLogo: '/images/verticalLogos/aixhublogo.png',
         detailPage: {
-            metaTitle: 'AI-Native Enterprise Operating System | Digital Workplace Transformation – AiXHub',
+            metaTitle: 'AI-Native EOS | Digital Workplace Transformation - AiXHUB',
             metaDescription: 'AiXHub redefines digital workplace transformation with AI-native automation, unified collaboration, and decision intelligence. Discover enterprise-grade platforms that elevate productivity, compliance, and engagement.',
             bannerTitle: "AI-Powered Social Intranet That Works Smart",
             bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform",
