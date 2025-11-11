@@ -27,7 +27,7 @@ const OurVerticalsDetailPage = () => {
     );
 
     if (!isClient) {
-        return null; // or a loading spinner
+        return null; 
     }
 
     if (!filterdItem) {
@@ -35,10 +35,6 @@ const OurVerticalsDetailPage = () => {
             <div>Vertical not found</div>
         </div>;
     }
-
-    // const pathName = usePathname().split('/')[2]
-
-    // const filterdItem = verticalData.find(item => item.compenyName.toLowerCase() === pathName.toLowerCase());
 
     return (
         <html lang="en">
