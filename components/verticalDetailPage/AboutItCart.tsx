@@ -43,7 +43,7 @@ const AboutItCart = ({ impactImage,
                 {/* Added overlay (bg-black/80) to make text more readable */}
                 <div className="max-w-7xl mx-auto text-center mb-5">
                     <GradientTitle
-                        text="Why choose iTCart?  "
+                        text="Why Choose iTCart?"
                         theme='dark'
                         className="text-[30px] sm:text-[25px] md:text-[38px] w-full"
                     />

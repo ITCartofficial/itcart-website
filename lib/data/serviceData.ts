@@ -989,7 +989,7 @@ export const serviceData = [
       serviceName: 'Data Analytics',
       bannerButtonText: "Get in touch",
       bannerTitle: "Turn Data into Decisions. Faster. Smarter. Scalable",
-      bannerDescription: "From real-time dashboards to predictive insights, our Ai- Powered data analytics services help you extract, visualize, and act on business-critical intelligence. ",
+      bannerDescription: "From real-time dashboards to predictive insights, our AIai revenue cycle management- Powered data analytics services help you extract, visualize, and act on business-critical intelligence. ",
       bannerImage: "/images/services/Data-Analytics-banner.png",
       mobileBannerImage: "/images/services/DataAnalytics-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',

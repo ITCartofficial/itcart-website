@@ -82,7 +82,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                             <div className="mt-8">
                                 <OutlineBtn
                                     url="/contact-us"
-                                    text={bannerButtonText ? bannerButtonText : "Book Free Demo"}
+                                    text={bannerButtonText ? bannerButtonText : "Book a Free Demo"}
                                     textColor="#ffffff"
                                     icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                                 />
