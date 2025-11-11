@@ -1,5 +1,5 @@
 "use client";
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation';
 import { serviceData } from '@/lib/data/serviceData';
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
@@ -14,12 +14,6 @@ import MobileVerticalHeroBanner from '@/components/verticalDetailPage/MobileVert
 
 const ServicesDetailPage = () => {
 
-    // const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
-
-    // const filterdItem = serviceData.find(item => item.title.toLowerCase() === pathName);
-
-    // console.log("filterdItem", filterdItem);
-
     const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
 
     const filterdItem = serviceData.find(item => {
@@ -27,6 +21,17 @@ const ServicesDetailPage = () => {
         return item.title.toLowerCase().replace(/™/g, '').trim() ==
             pathName.toLowerCase().replace(/™/g, '').trim()
     })
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
+
 
     return (
         <html lang="en">

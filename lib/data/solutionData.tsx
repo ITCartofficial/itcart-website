@@ -1,6 +1,6 @@
 export const solutionData = [
   {
-    title: "AiXHub Internet",
+    title: "AiXHub",
     description: "Consolidates resources, cultivates seamless collaboration and amplifies productivity via integrated tools, elevating communication, security, and organizational efficiency.",
     linkUrl: "/solutions/aixhub-internet",
     imageSrc: "/images/solutions/ai_image.png",
@@ -1227,8 +1227,8 @@ export const solutionData = [
     linkUrl: "/services/devops-services",
     imageSrc: "/images/solutions/Enterprise-Resource.png",
     detailPage: {
-      metaTitle: '',
-      metaDescription: '',
+      metaTitle: 'Cloud Based ERP Platform for Enterprises | iTCart',
+      metaDescription: 'eimagine business control with iTCart’s AI-powered ERP. Cloud-based, secure, and scalable, built to streamline operations and boost growth.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Reimagine Control with iTCart's AI-Powered ERP Solutions",
@@ -1416,11 +1416,7 @@ export const solutionData = [
           title: "What industries do you serve with ERP solutions?",
           content: "Our ERP software for businesses spans manufacturing, financial services, healthcare, retail, and technology sectors with industry-specific modules and custom ERP development capabilities."
         },
-        {
-          id: '6',
-          title: "What ROI can we expect from ERP implementation?",
-          content: "Organizations typically achieve 60-80% operational efficiency improvements, reduced costs, enhanced decision-making, and measurable performance gains through AI-powered ERP solutions within 12-18 months. "
-        }
+        
       ]
     }
   },
@@ -1430,8 +1426,8 @@ export const solutionData = [
     linkUrl: "/services/digital-commerce",
     imageSrc: "/images/solutions/Customer-Relationship-Management.png",
     detailPage: {
-      metaTitle: '',
-      metaDescription: '',
+      metaTitle: 'Intelligent CRM Automation Platform for Enterprises | iTCart ',
+      metaDescription: 'Deliver personalized customer experiences with iTCart’s CRM automation platform integrating sales, marketing, and service to drive loyalty and growth.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Customer Relationships with Intelligent CRM",

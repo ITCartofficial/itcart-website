@@ -1,8 +1,20 @@
+"use client"
 import HeroBanner from '@/components/HeroBanner'
 import OurVwerticalGrid from '@/components/OurVwerticalGrid'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const OurVerticals = () => {
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
+
     return (
 
         <html lang="en">
@@ -12,7 +24,7 @@ const OurVerticals = () => {
                 <meta name="description" content="Explore AI-driven platforms for BFSI, healthcare, manufacturing, real estate, and more. iTCart’s vertical solutions are built to optimize operations and drive enterprise growth." />
                 <meta property="og:url" content={`https://itcart.ai/our-verticals`} />
             </head>
-  
+
             <body>
 
                 <div className='bg-black'>

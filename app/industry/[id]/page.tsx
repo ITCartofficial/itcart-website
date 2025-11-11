@@ -8,7 +8,7 @@ import SkillGapSection from '@/components/verticalDetailPage/SkillGapSection'
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
 import { industryData } from '@/lib/data/industryData'
 import { usePathname } from 'next/navigation'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import WhyChoose from '@/components/DetailPageComponents/WhyChoose'
 import MobileVerticalHeroBanner from '@/components/verticalDetailPage/MobileVerticalHeroBanner'
 
@@ -18,6 +18,17 @@ const IndustryDetailPage = () => {
     const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
 
     const filterdItem = industryData.find(item => item.title.toLowerCase() === pathName);
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
+
 
     return (
         <html lang="en">

@@ -1,8 +1,21 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useState } from 'react'
 import HeroBanner from '@/components/HeroBanner'
 import ServicesGrid from '@/components/ServiceGrid'
 
 const Services = () => {
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
+
+
     return (
 
         <html lang="en">
