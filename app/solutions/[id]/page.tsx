@@ -28,14 +28,7 @@ function SolutionDetailPage() {
     return (
 
         <html lang="en">
-            <head>
-                <title>{filterdItem?.detailPage?.metaTitle ?? ""}</title>
-                <meta name="description" content={filterdItem?.detailPage?.metaDescription ?? ""} />
-                <meta property="og:title" content={filterdItem?.detailPage?.metaTitle} />
-                <meta property="og:description" content={filterdItem?.detailPage?.metaDescription ?? ""} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={`https://itcart.ai/solutions/${pathName}`} />
-            </head>
+            
 
             <body>
                 <>
