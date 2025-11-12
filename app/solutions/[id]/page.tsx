@@ -99,7 +99,7 @@ function SolutionDetailPage() {
                     />
                 </div>
 
-                <div className='bg-black container'>
+                <div className='bg-black container mx-auto lg:px-10'>
                     <ServiceCard
                         serviceCardItems={(filterdItem?.detailPage)?.chooseItems ?? []}
                         serviceCardHeading={(filterdItem?.detailPage)?.chooseHeading ?? ""}

@@ -307,10 +307,10 @@ export const verticalData = [
             VerticalContentSection2: {
                 contentOne: " Traditional online education platforms suffer from generic content delivery requiring comprehensive AI learning experience platform, AI-powered education platform, intelligent learning management system, personalized AI learning system, adaptive learning technology, AI in student engagement, and AI certification programs for modern educational excellence. ",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXQP-section1.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
+                aboutImage: '/images/vertical/AiXQP-section2.png',
                 logo: '/images/verticalLogos/AiXQP.png',
                 contentOne: " AiXQP is iTCart's revolutionary AI learning experience platform featuring comprehensive AI-powered education platform, intelligent learning management system, personalized AI learning system, adaptive learning technology, AI in student engagement, and AI certification programs capabilities. Built ground-up with AiXHub engine delivering interactive AI tutors and continuous intelligence that evolves with learner needs ensuring faster skill development and industry relevance across multiple educational domains through intelligent automation.",
                 contenttwo: " "
@@ -599,7 +599,7 @@ export const verticalData = [
                 sectionTwoFirstImage: "/images/vertical/AiXDesk-section.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/AiXDesk-about.png',
+                aboutImage: '/images/vertical/AiXDesk-section2.png',
                 logo: '/images/vertical/AiXDesk-darklogo.png',
                 contentOne: "AiXDesk transforms IT service management through intelligent automation, unifying ticketing systems with comprehensive asset tracking and seamless workflow management. Built on iTCart's patent-pending AiX Framework, this AI-powered platform streamlines enterprise IT operations featuring advanced it service management software, asset management platform capabilities, digital asset management software integration, and smart asset tracking that eliminates manual bottlenecks while accelerating issue resolution through comprehensive asset lifecycle management solutions. ",
                 contenttwo: ""
@@ -1126,11 +1126,11 @@ export const verticalData = [
             VerticalContentSection2: {
                 contentOne: "Healthcare providers face escalating billing inefficiencies, claim denials exceeding 15%, and administrative burdens that drain resources from patient care. With 40% of hospitals reporting negative margins and rising costs outpacing reimbursements, traditional systems lack intelligent automation requiring advanced AI revenue cycle management, healthcare revenue cycle management software, and cloud based medical billing software solutions to predict bottlenecks and optimize financial outcomes. ",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXRCM-section1.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXRCM-section2.png',
+                logo: '/images/vertical/AiXRCM-darklogo.png',
                 contentOne: "RCMAiX revolutionizes healthcare financial management by combining advanced AI algorithms with comprehensive revenue cycle expertise through intelligent AI revenue cycle management capabilities. Our platform automates claims processing, predicts cash flow patterns, and seamlessly integrates with existing hospital information systems featuring healthcare revenue cycle management software, revenue cycle management solutions, and healthcare workflow automation that reduce errors and accelerate payment cycles while maintaining regulatory compliance. ",
                 contenttwo: ""
             },
@@ -2082,11 +2082,11 @@ export const verticalData = [
                 contentOne: "Modern energy enterprises face critical challenges from grid instability, asset failures, and renewable integration complexities. Traditional systems struggle with real-time optimization, predictive maintenance, and regulatory compliance demands requiring advanced ai based energy management system, energy monitoring software, and intelligent energy data management software solutions. These operational inefficiencies create massive energy value chain disruptions, with 31% of energy companies experiencing double-digit capital cost increases annually.",
                 contenttwo: "",
                 contentthree: "",
-                sectionTwoFirstImage: "/images/vertical/section2Image.png"
+                sectionTwoFirstImage: "/images/vertical/AiXEnergy-section1.png"
             },
             aboutSection: {
-                aboutImage: '/images/vertical/section2Image.png',
-                logo: '/images/verticalLogos/AiXQP.png',
+                aboutImage: '/images/vertical/AiXEnergy-section2.png',
+                logo: '/images/verticalLogos/aixenergy.png',
                 contentOne: "AiXEnergy revolutionizes energy operations through iTCart's patent-pending AiX Framework, delivering intelligent grid management, predictive asset optimization, and autonomous energy decision-making. Built for utilities, renewable providers, and energy enterprises facing the $110.98 billion digital power transformation market, AiXEnergy transforms fragmented operations into unified energy management platform capabilities featuring comprehensive AI energy management, solar CRM systems integration, and advanced renewable energy solutions that reduce operational costs by 30-50%. ",
                 contentthree: ' '
             },

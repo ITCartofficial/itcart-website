@@ -3,7 +3,6 @@ import BodyText from "@/components/typography/BodyText"
 import ContactForm from "@/components/forms/ContactForm"
 import GradientTitle from "../typography/GradientTitle"
 
-
 const ContactFormSection = ({ image }: { image: string }) => {
     return (
         <div className="w-full border-[1px] border-[#45C2CC] p-6 sm:p-8 lg:p-16 rounded-2xl bg-[#131313] mb-20">
