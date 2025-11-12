@@ -217,13 +217,13 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Modernize Document Management for Tomorrow's Challenges",
-      bannerDescription: "Transform information handling through best document management software featuring secure document management and automated document processing solutions.",
+      bannerDescription: "Transform information handling through the best document management software featuring secure document management and automated document processing solutions.",
       bannerImage: "/images/solutions/Document-Management-System-banner.png",
       mobileBannerImage: "/images/solutions/Document-MobileBanner.jpg",
       aboutSectionHeading: 'Intelligent Document Management Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Document-Management-System-about.png',
-        contentOne: "iTCart's cloud document management system transforms business document handling through best document management software capabilities, featuring secure document management protocols, advanced automated document processing, and comprehensive document management system solutions that organize, protect, and streamline information access. ",
+        contentOne: "iTCart's cloud document management system transforms business document handling through the best document management software capabilities, featuring secure document management protocols, advanced automated document processing, and comprehensive document management system solutions that organize, protect, and streamline information access. ",
         contenttwo: "",
         logo: ""
       },
@@ -232,12 +232,12 @@ export const solutionData = [
       futureItems: [
         {
           title: "Seamless File Organization",
-          description: "Effortlessly categorize and structure documents with intuitive folder management through best document management software capabilities. ",
+          description: "Effortlessly categorize and structure documents with intuitive folder management through the best document management software capabilities. ",
           icon: "/icons/Documents/DocumentManagement-icon1.svg",
         },
         {
           title: "Advanced Version Control",
-          description: "Protect document integrity with automated version histories enabling secure document management and edit tracking functionality. ",
+          description: "Protect document integrity with automated version histories, enabling secure document management and edit tracking functionality. ",
           icon: "/icons/Documents/DocumentManagement-icon2.svg",
         },
         {
@@ -247,7 +247,7 @@ export const solutionData = [
         },
         {
           title: "Collaborative Workspaces",
-          description: "Foster real-time collaboration with shared editing tools and team folders enhancing productivity across locations. ",
+          description: "Foster real-time collaboration with shared editing tools and team folders, enhancing productivity across locations. ",
           icon: "/icons/Documents/DocumentManagement-icon4.svg",
         },
         {
@@ -257,7 +257,7 @@ export const solutionData = [
         },
         {
           title: "Cloud-First Accessibility",
-          description: "Store document libraries securely with scalable cloud document management system enabling anywhere access and editing. ",
+          description: "Store document libraries securely with a scalable cloud document management system, enabling anywhere access and editing.",
           icon: "/icons/Documents/DocumentManagement-icon6.svg",
         },
       ],
@@ -273,7 +273,7 @@ export const solutionData = [
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Cutting-edge best document management software capabilities including AI-powered search algorithms, automated document processing engines, intelligent categorization systems, predictive filing recommendations, content analysis technologies, and workflow automation tools enabling proactive document management, strategic information governance, operational excellence, and productivity enhancement through secure document management and cloud document management system optimization. ",
+          description: "Cutting-edge the best document management software capabilities including AI-powered search algorithms, automated document processing engines, intelligent categorization systems, predictive filing recommendations, content analysis technologies, and workflow automation tools enabling proactive document management, strategic information governance, operational excellence, and productivity enhancement through secure document management and cloud document management system optimization. ",
           imageSrc: "/images/solutions/Document-Management-System-collab2.png",
         },
         {
@@ -316,7 +316,7 @@ export const solutionData = [
         },
         {
           title: "Seamless Implementation",
-          description: "Minimal disruption deployment with comprehensive migration support, best document management software integration expertise, and dedicated project management ensuring smooth transition. ",
+          description: "Minimal disruption deployment with comprehensive migration support, the best document management software integration expertise, and dedicated project management ensuring smooth transition. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon2.svg'
         },
@@ -395,7 +395,7 @@ export const solutionData = [
         {
           id: '4',
           title: 'What kind of support and training do you provide?',
-          content: 'We offer 24/7 expert support, dedicated document specialists, comprehensive user training, and continuous optimization assistance throughout your best document management software journey.'
+          content: 'We offer 24/7 expert support, dedicated document specialists, comprehensive user training, and continuous optimization assistance throughout your the best document management software journey.'
         },
         {
           id: '5',
@@ -633,7 +633,7 @@ export const solutionData = [
         contentOne: "iTCart's business process automation solution empowers teams to work smarter through best workflow automation software that eliminates manual bottlenecks and delivers AI-powered workflows for superior business outcomes and enterprise automation platform excellence.",
         contenttwo: ""
       },
-      futureGridHeading: 'Navigate the Future of Business Excellenc',
+      futureGridHeading: 'Navigate the Future of Business Excellence',
       futureGridDiscription: "Comprehensive capabilities designed for intelligent automation and seamless integration",
       futureItems: [
         {
@@ -642,22 +642,22 @@ export const solutionData = [
           icon: "/icons/Busines/BussinessFuture-icon1.svg",
         },
         {
-          title: "Predictive Analytics Intelligenc",
+          title: "Predictive Analytics Intelligence",
           description: "Advanced analytics driving proactive decision-making supported by comprehensive smart operations management practices.",
           icon: "/icons/Busines/BussinessFuture-icon2.svg",
         },
         {
-          title: "Cloud Integration Platfor",
+          title: "Cloud Integration Platform",
           description: "Seamless integration with existing systems using flexible cloud-based automation tools for scalable operations.",
           icon: "/icons/Busines/BussinessFuture-icon3.svg",
         },
         {
-          title: "Governance & Complianc",
-          description: "Built-in traceability and risk mitigation aligned with professional BPA implementation services best practices.",
+          title: "Governance & Compliance",
+          description: "Built-in traceability and risk mitigation aligned with professional BPA implementation best practices.",
           icon: "/icons/Busines/BussinessFuture-icon4.svg",
         },
         {
-          title: "Enhanced Collaboratio",
+          title: "Enhanced Collaboration",
           description: "Real-time teamwork facilitation using best workflow automation software for streamlined financial and operational processes.",
           icon: "/icons/Busines/BussinessFuture-icon5.svg",
         },
@@ -678,7 +678,7 @@ export const solutionData = [
         },
         {
           id: 2,
-          title: "Advanced Intelligenc",
+          title: "Advanced Intelligence",
           description: "Cutting-edge AI-powered workflows capabilities including machine learning algorithms, predictive analytics engines, intelligent decision-making systems, automated risk assessment, real-time process optimization, and smart operations management features enabling proactive business management, strategic planning, competitive advantage, and operational excellence through data-driven insights and cloud-based automation tools integration.",
           imageSrc: "/images/solutions/Business-Process-Automation-collab2.png",
         },
@@ -692,12 +692,12 @@ export const solutionData = [
       solutionGridHeading: 'Business Process Automation Across Industries',
       solutionGridItems: [
         {
-          title: "Finance & Bankin",
+          title: "Finance & Banking",
           description: "Automated compliance workflows with risk management, transaction processing optimization, and regulatory reporting through intelligent business process optimization solutions.",
           image: "/images/solutions/Business-Process-Automation-solution1.png"
         },
         {
-          title: "Healthcare & Life Science",
+          title: "Healthcare & Life Sciences",
           description: "Streamlined patient data management and regulatory compliance automation with secure workflow processing and clinical operations enhancement capabilities.",
           image: "/images/solutions/Business-Process-Automation-solution2.png"
         },
@@ -728,7 +728,7 @@ export const solutionData = [
         },
         {
           title: "Scalable Growth Architecture",
-          description: "Future-ready infrastructure adapting to evolving business needs supporting organizational growth requirements through best workflow automation software and cloud-based automation tools.",
+          description: "Future-ready infrastructure that adapts to evolving business needs, supporting organizational growth requirements through best workflow automation software and cloud-based automation tools",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Busines/BussinesChooseUs-icon3.svg'
         },

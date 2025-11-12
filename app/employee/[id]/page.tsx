@@ -10,9 +10,10 @@ interface Employee {
     name: string;
     email: string;
     phone: string;
-    department: string;
+    Department: string;
     employeeId: string;
     image: string;
+    designation: string;
 }
 
 function EmployeePage() {
@@ -69,90 +70,6 @@ END:VCARD
         fetchEmployeeData();
     }, [id]);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //     const vcfData = `
-    // BEGIN:VCARD
-    // VERSION:3.0
-    // FN:${'Abhinav Tv'}
-    // TEL;TYPE=CELL:${812988792}
-    // EMAIL:${"abhinavtv6028@gmail.com"}
-    // END:VCARD
-    //     `.trim();
-
-    //     const blob = new Blob([vcfData], { type: "text/vcard;charset=utf-8" });
-    //     const url = URL.createObjectURL(blob);
-
-    //     const a = document.createElement("a");
-    //     a.href = url;
-    //     a.download = `${"Abhinav TV"}.vcf`;
-    //     document.body.appendChild(a);
-    //     a.click();
-    //     document.body.removeChild(a);
-    //     URL.revokeObjectURL(url);
-    // };
-
-
-
-
-
-
-
-
-    // const hanfleSaveContact = () => {
-    //     const contact = {
-    //         name: "Abhinav",
-    //         phone: "8129887972",
-    //         email: "abc.b@gmail.com",
-    //     };
-
-    //     const vcfData = `
-    // BEGIN:VCARD
-    // VERSION:3.0
-    // FN:${contact.name}
-    // TEL;TYPE=CELL:${contact.phone}
-    // EMAIL:${contact.email}
-    // END:VCARD
-    //   `.trim();
-
-    //     // Encode the vCard as a data URI
-    //     const encodedVcf = encodeURIComponent(vcfData);
-    //     const dataUri = `data:text/vcard;charset=utf-8,${encodedVcf}`;
-
-    //     // Open in a new tab/window
-    //     window.open(dataUri, "_blank");
-    // };
-
-    // useEffect(() => {
-    //     const fetchEmployeeData = async () => {
-    //         try {
-    //             const res = await fetch(`https://employee365-aqese4eecvfbdxd8.westus2-01.azurewebsites.net/api/employee/${id}`);
-    //             const data = await res.json();
-    //             setEmployeeData(data);
-    //         } catch (err) {
-    //             console.error("API Error:", err);
-    //         }
-    //     };
-
-    //     fetchEmployeeData();
-    //     hanfleSaveContact();
-    // }, []); // runs once when page loads
-
-
     return (
         <>
             <div className="bg-[#1a1a1a] text-white p-6 rounded-2xl mx-auto flex flex-col space-y-5 mt-10">
@@ -168,15 +85,6 @@ END:VCARD
                             priority
                         />
                     )}
-                    {/* <Image
-                        // image
-                        src={employeeData?.image}
-                        alt="Digital Workplace"
-                        width={400}
-                        height={400}
-                        className="w-full h-full object-cover"
-                        priority
-                    /> */}
                 </div>
 
                 {/* Heading */}
@@ -187,7 +95,7 @@ END:VCARD
                         className="text-[34px] sm:text-[32px] md:text-[38px] leading-[1.2]"
                     />
 
-                    <h2 className=" w-fit text-white font-semibold text-[18px] mt-2">BRANCH MANAGER</h2>
+                    <h2 className=" w-fit text-white font-semibold text-[18px] mt-2">{employeeData?.designation}</h2>
                 </div>
 
 
@@ -198,7 +106,7 @@ END:VCARD
                             <p className="text-[16px] text-gray-100">Employee ID : <span className="font-semibold text-white mt-1 text-[18px]">{employeeData?.employeeId}</span></p>
                         </div>
                         <div className="">
-                            <p className="text-[16px] text-gray-100">Department : <span className="font-semibold text-white mt-1 text-[18px]">{employeeData?.name}</span></p>
+                            <p className="text-[16px] text-gray-100">Department : <span className="font-semibold text-white mt-1 text-[18px]">{employeeData?.Department}</span></p>
                         </div>
                         <div>
                             <p className="text-[16px] text-gray-100">Contact : <span className="font-semibold text-white mt-1 text-[18px]">{employeeData?.name}</span></p>

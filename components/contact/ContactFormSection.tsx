@@ -21,7 +21,7 @@ const ContactFormSection = ({ image }: { image: string }) => {
                             theme="dark"
                             className="text-[40px] whitespace-pre-line" /> */}
                         <BodyText
-                            text="Accelerate enterprise operations with  AiX-intelligent automation that scales  your business & drives measurable ROI."
+                            text="Accelerate enterprise operations with  AiX-intelligent automation that scales  your business and drives measurable ROI."
                             theme="dark"
                             className="text-base text-center md:text-start text-white mt-2" />
                     </div>
