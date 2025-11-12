@@ -1,6 +1,6 @@
 "use client";
 import { FaArrowRight } from "react-icons/fa6";
-import OutlineBtn from "../buttons/OutlineBtn";
+// import OutlineBtn from "../buttons/OutlineBtn";
 import { useState } from "react";
 
 interface Job {
@@ -24,21 +24,24 @@ interface Job {
     qualifications?: string[];
 }
 
-function JobForm({ filteredJob }: { filteredJob: Job }) {
+// { theme }: { theme: "dark" | "light" }
+
+function JobForm({ filteredJob, theme }: { filteredJob: Job, theme: "dark" | "light" }) {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
     const [coverLetter, setCoverLetter] = useState("");
     const [resumeLink, setResumeLink] = useState("");
     const [loading, setLoading] = useState(false);
-    const [success, setSuccess] = useState(false);
+    // const [success, setSuccess] = useState(false);
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setLoading(true);
 
         try {
-            const scriptURL = "https://script.google.com/macros/s/AKfycbz1Vye7oexocmXMKWXMd_fUztNPBcjPEnAUu__hY5UTeTkNz5A0kHblIZ7sjlxHDu2o/exec";
+
+            const scriptURL = "https://script.google.com/macros/s/AKfycbxW3Feg158cPZxJtQhkyQg4pFugoS8snhtx6LSxF5tyZEPZLNMj88Str8nF3vbmTAYT/exec";
 
             const formBody = new URLSearchParams({
                 JobTitle: filteredJob?.title || "",
@@ -58,7 +61,7 @@ function JobForm({ filteredJob }: { filteredJob: Job }) {
                 body: formBody,
             });
 
-            setSuccess(true);
+            // setSuccess(true);
             setName("");
             setEmail("");
             setPhone("");
@@ -144,9 +147,18 @@ function JobForm({ filteredJob }: { filteredJob: Job }) {
                 </div>
 
                 <div className="w-full">
-                    <button type="submit" className="w-full">
-                        <OutlineBtn
+
+                    <button
+                        type="submit"
+                        className="w-full bg-gradient-to-r from-white to-cyan-400 text-black font-semibold py-3 rounded-lg flex items-center justify-center gap-2 hover:opacity-90 transition cursor-pointer"
+                        disabled={loading}
+                    >
+                        {loading ? "Sending..." : <>Send Now <FaArrowRight className={`text-sm font-semibold ${theme == "dark" ? "text-[#000]" : "text-[#fff]"}`} /></>}
+                    </button>
+                    {/* <button type="submit" className="w-full bg-red-400"> */}
+                    {/* <OutlineBtn
                             // url='/contact-us'
+                            // onClick={() => handleSubmit}
                             text={loading ? "Submitting..." : "Submit Application"}
                             textColor='#ffffff'
                             width="full"
@@ -154,8 +166,8 @@ function JobForm({ filteredJob }: { filteredJob: Job }) {
                         />
                         {success && (
                             <p className="text-green-400 mt-2">Application submitted successfully!</p>
-                        )}
-                    </button>
+                        )} */}
+                    {/* </button> */}
 
                 </div>
 

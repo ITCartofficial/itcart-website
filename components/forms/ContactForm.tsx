@@ -2,7 +2,7 @@
 
 import React, { useState } from "react"
 import InputField from "@/components/form/InputField"
-import { FaArrowRight } from "react-icons/fa6"
+// import { FaArrowRight } from "react-icons/fa6"
 import { ContactFormData } from "@/lib/helper/sendContactEmail"
 import emailjs from "@emailjs/browser"
 
@@ -36,7 +36,6 @@ const ContactForm = ({ theme }: { theme: "dark" | "light" }) => {
     }
 
 
-    // https://script.google.com/macros/s/AKfycbxN4wCryADwei_ugP2BeqKCuFsAYm6YSFGCMYGtkrLEXfgJxtIvmheoLLDHOPSw56OvhA/exec
     try {
       const res = await emailjs.send(
         "service_fzjaga3", // replace with your EmailJS service ID
@@ -45,7 +44,7 @@ const ContactForm = ({ theme }: { theme: "dark" | "light" }) => {
         "ujKXlFsvgAhXEPwRy" // replace with your EmailJS public key
       )
 
-      const scriptURL = "https://script.google.com/macros/s/AKfycbxN4wCryADwei_ugP2BeqKCuFsAYm6YSFGCMYGtkrLEXfgJxtIvmheoLLDHOPSw56OvhA/exec";
+      const scriptURL = "https://script.google.com/macros/s/AKfycbyV-XxWQ-n3KC8-5mlyhBiaWyE00UdEd4GB6xC0w7Ax7w9pZoy3i2p2kbDzeUIywET_xw/exec";
 
       const formBody = new URLSearchParams(templateParams).toString();
 
@@ -134,7 +133,9 @@ const ContactForm = ({ theme }: { theme: "dark" | "light" }) => {
         className="w-full bg-gradient-to-r from-white to-cyan-400 text-black font-semibold py-3 rounded-lg flex items-center justify-center gap-2 hover:opacity-90 transition cursor-pointer"
         disabled={loading}
       >
-        {loading ? "Sending..." : <>Send Now <FaArrowRight className={`text-sm font-semibold ${theme == "dark" ? "text-[#000]" : "text-[#fff]"}`} /></>}
+        {loading ? "Sending..." : <>Send Now
+          {/* <FaArrowRight className={`text-sm font-semibold text-[#000] `} /> */}
+        </>}
       </button>
       {result && (
         <p className={`text-center text-sm ${result.includes("success") ? "text-green-500" : "text-red-500"}`}>{result}</p>
