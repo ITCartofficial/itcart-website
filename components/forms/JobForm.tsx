@@ -41,7 +41,7 @@ function JobForm({ filteredJob, theme }: { filteredJob: Job, theme: "dark" | "li
 
         try {
 
-            const scriptURL = "https://script.google.com/macros/s/AKfycbxW3Feg158cPZxJtQhkyQg4pFugoS8snhtx6LSxF5tyZEPZLNMj88Str8nF3vbmTAYT/exec";
+            const scriptURL = "https://script.google.com/macros/s/AKfycbxPt8KRX-4teiyFNIzo0TjOwTzgOg2QwIus7HLEqY-_DwRq3P7orFx67IFGybMny5jv/exec";
 
             const formBody = new URLSearchParams({
                 JobTitle: filteredJob?.title || "",

@@ -44,7 +44,7 @@ const ContactForm = ({ theme }: { theme: "dark" | "light" }) => {
         "ujKXlFsvgAhXEPwRy" // replace with your EmailJS public key
       )
 
-      const scriptURL = "https://script.google.com/macros/s/AKfycbyV-XxWQ-n3KC8-5mlyhBiaWyE00UdEd4GB6xC0w7Ax7w9pZoy3i2p2kbDzeUIywET_xw/exec";
+      const scriptURL = "https://script.google.com/macros/s/AKfycbxkSHfMOHA8egu7HXXcM3Mjk0gxla6UXdohgWED9HCpwoNBqU6xkxpDy0Tx7gFPdC0jRQ/exec";
 
       const formBody = new URLSearchParams(templateParams).toString();
 
