@@ -1044,7 +1044,7 @@ export const solutionData = [
         {
           title: "Content Creation",
           description: "Build engaging courses with intuitive tools through comprehensive learning management system features. ",
-          icon: "/icons/learning-Management/LearningFuture-icon1image.svg",
+          icon: "/icons/learning-Management/LearningFutureimage-iconone.svg",
         },
         {
           title: "Progress Tracking",
