@@ -167,4 +167,4 @@ function SolutionDetailPage() {
 
     )
 }
-export default SolutionDetailPage
+export default SolutionDetailPage 
