@@ -35,6 +35,8 @@ const ContactForm = ({ theme }: { theme: "dark" | "light" }) => {
       message: formData.message,
     }
 
+
+    // https://script.google.com/macros/s/AKfycbxN4wCryADwei_ugP2BeqKCuFsAYm6YSFGCMYGtkrLEXfgJxtIvmheoLLDHOPSw56OvhA/exec
     try {
       const res = await emailjs.send(
         "service_fzjaga3", // replace with your EmailJS service ID
@@ -42,6 +44,18 @@ const ContactForm = ({ theme }: { theme: "dark" | "light" }) => {
         templateParams,
         "ujKXlFsvgAhXEPwRy" // replace with your EmailJS public key
       )
+
+      const scriptURL = "https://script.google.com/macros/s/AKfycbxN4wCryADwei_ugP2BeqKCuFsAYm6YSFGCMYGtkrLEXfgJxtIvmheoLLDHOPSw56OvhA/exec";
+
+      const formBody = new URLSearchParams(templateParams).toString();
+
+      await fetch(scriptURL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: formBody,
+      });
 
       if (res.status === 200) {
         setResult("success: Your message has been sent successfully!")
