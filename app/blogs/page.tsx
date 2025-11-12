@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import BlogsHero from "@/components/blogs2/BlogsHero";
 import BlogSlider from "@/components/blogs2/BlogSlider";
 import NewsletterSection from "@/components/blogs2/NewsletterSection";
@@ -43,28 +43,50 @@ const BlogsTemplate = () => {
     // console.log("Fetching posts...");
   }, []);
 
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null;
+  }
+
   return (
-    <section className="w-full bg-black text-white pt-32 pb-20 md:px-4 border-b-2 border-[#525252] space-y-15 lg:space-y-25">
-      <div className="pb-20">
-        <BlogsHero
-          title="Blogs"
-          description="Explore our IT blog hub for cutting-edge insights, expert advice, and industry updates. Stay informed on the latest tech trends with our comprehensive collection of informative and engaging blog posts."
-          breadcrumbItems={[
-            { label: "Home", url: "/" },
-            { label: "Blogs", url: "/blogs" },
-          ]}
-          reduceTitle={true}
-          className="pb-20 w-[80%]"
-        />
-      </div>
-      <BlogSlider posts={posts} />
-      <BlogGridLayout posts={posts} />
-      <NewsletterSection />
-      <TechnologySection />
 
-      <SuggestedBlogSection />
+    <html lang="en">
 
-    </section>
+      <head>
+        <title>Explore Our Blogs – iTCart</title>
+        <meta name="description" content="Read insights, trends, and expert perspectives from the iTCart team on AI, automation, and digital innovation shaping the future of business." />
+        <meta property="og:url" content={`https://itcart.ai/blogs`} />
+      </head>
+
+      <section className="w-full bg-black text-white pt-32 pb-20 md:px-4 border-b-2 border-[#525252] space-y-15 lg:space-y-25">
+        <div className="pb-20">
+          <BlogsHero
+            title="Blogs"
+            description="Explore our IT blog hub for cutting-edge insights, expert advice, and industry updates. Stay informed on the latest tech trends with our comprehensive collection of informative and engaging blog posts."
+            breadcrumbItems={[
+              { label: "Home", url: "/" },
+              { label: "Blogs", url: "/blogs" },
+            ]}
+            reduceTitle={true}
+            className="pb-20 w-[80%]"
+          />
+        </div>
+        <BlogSlider posts={posts} />
+        <BlogGridLayout posts={posts} />
+        <NewsletterSection />
+        <TechnologySection />
+
+        <SuggestedBlogSection />
+
+      </section>
+    </html>
+
+
   );
 };
 

@@ -15,7 +15,7 @@ import HistorySection from "@/components/about/HistorySection"
 import BannerContainer from "@/components/common/BannerContainer"
 import GradientTitle from "@/components/typography/GradientTitle"
 import MultiParagraphs from "@/components/common/MultiParagraphs"
-import { useLayoutEffect, useState } from "react"
+import { useLayoutEffect, useState, useEffect } from "react"
 
 
 
@@ -40,6 +40,18 @@ const globalExpansionData = {
 
 const AboutUs = () => {
 
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
+
+
     const [bgImage, setBgImage] = useState<string | null>(null);
 
     useLayoutEffect(() => {
@@ -63,8 +75,8 @@ const AboutUs = () => {
         <html lang="en">
 
             <head>
-                <title>about us | iTCart</title>
-                <meta name="description" content="about-us" />
+                <title>About Us – iTCart</title>
+                <meta name="description" content="Learn about iTCart, a technology company building intelligent, AI-driven solutions that empower businesses to innovate, automate, and scale with confidence." />
                 <meta property="og:url" content={`https://itcart.ai/about-us`} />
             </head>
 
