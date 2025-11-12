@@ -9,7 +9,7 @@ function CareerDetailPage() {
     const pathName = usePathname().split("/")[2]
 
     const filteredJob = jobs.find((job) => job.jobId === pathName);
-    
+
     if (!filteredJob) {
         return (
             <section className="container mx-auto px-4 py-10 mt-20">
@@ -28,7 +28,7 @@ function CareerDetailPage() {
                 <JobDetails filteredJob={filteredJob} />
 
                 {/* RIGHT: Apply Form */}
-                <JobForm filteredJob={filteredJob} />
+                <JobForm theme="dark" filteredJob={filteredJob} />
             </div>
         </section>
     )
