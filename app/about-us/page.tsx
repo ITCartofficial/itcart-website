@@ -41,15 +41,6 @@ const globalExpansionData = {
 const AboutUs = () => {
 
 
-    const [isClient, setIsClient] = useState(false);
-
-    useEffect(() => {
-        setIsClient(true);
-    }, []);
-
-    if (!isClient) {
-        return null;
-    }
 
 
     const [bgImage, setBgImage] = useState<string | null>(null);
@@ -67,6 +58,17 @@ const AboutUs = () => {
         window.addEventListener("resize", updateBg);
         return () => window.removeEventListener("resize", updateBg);
     }, []);
+
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
 
     if (!bgImage) return null;
 
