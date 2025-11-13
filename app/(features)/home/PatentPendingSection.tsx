@@ -61,7 +61,7 @@ const PatentPendingSection = () => {
                 <div className="max-w-none lg:max-w-[540px] order-2 lg:order-1 flex flex-col items-center lg:items-start text-center lg:text-left">
                     {/* Heading */}
                     <GradientTitle
-                        text="Our Patent-Pending AI framework"
+                        text="Our Patent-Pending AiXHub"
                         className="text-[28px] sm:text-[36px] md:text-[44px] lg:text-[48px] mb-3 sm:mb-6 leading-[1.2]"
                         theme="dark"
                     />
@@ -79,7 +79,7 @@ const PatentPendingSection = () => {
 
                     {/* Content paragraphs */}
                     <p className="text-white text-[16px] sm:text-[18px] pb-3 sm:pb-4 leading-relaxed">
-                        <span className="font-semibold">AiXHub Framework</span> is iTCart's proprietary AI-native EOS (Enterprise Operating System), designed to unify data, human oversight, and automation into one adaptive, high-performance ecosystem to help enterprises build secure, scalable and responsible AI systems.
+                        <span className="font-semibold">AiXHub</span> is iTCart's proprietary AI-native EOS (Enterprise Operating System), designed to unify data, human oversight, and automation into one adaptive, high-performance ecosystem to help enterprises build secure, scalable and responsible AI systems.
                     </p>
 
                     <BodyText
