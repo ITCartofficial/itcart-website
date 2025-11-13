@@ -10,14 +10,14 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Digital Transformation in Aviation Excellence ",
-      bannerDescription: "Elevating artificial intelligence in airline industry through comprehensive aviation technology solutions",
+      bannerDescription: "Elevating artificial intelligence in the airline industry through comprehensive aviation technology solutions period",
       bannerImage: "/images/industries/Airline-Banner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
         aboutImage: '/images/industries/sectionabout.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The aviation industry faces complex challenges across operational efficiency, passenger experience, safety compliance, and digital innovation. Modern airlines require robust technological infrastructure ensuring seamless flight operation management and streamlined airport operations management. iTCart delivers comprehensive airline digital transformation solutions through AI-powered frameworks and advanced aviation technology solutions. ",
+        contentOne: "The aviation industry faces complex challenges across operational efficiency, passenger experience, safety compliance, and digital innovation. Modern airlines require robust technological infrastructure to ensure seamless flight operations and streamlined airport management. iTCart delivers comprehensive airline digital transformation solutions through AI-powered frameworks and advanced aviation technologies.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Airlines Digital Excellence',
@@ -26,7 +26,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Airlines-icon1.svg',
           title: "Operational Excellence",
-          highlight: "Advanced flight operation management systems with crew coordination, route optimization, and comprehensive resource allocation. ",
+          highlight: "Advanced flight operations management systems with crew coordination, route optimization, and comprehensive resource allocation. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
@@ -47,7 +47,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Airlines-icon4.svg',
           title: "Biometric Authentication",
-          highlight: "Advanced biometric systems for seamless passenger authentication through airline digital transformation solutions elevating safety experiences. ",
+          highlight: "Advanced biometric systems enabling seamless passenger authentication through airline digital transformation solutions, enhancing security and travel experience.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -57,7 +57,7 @@ export const industryData = [
       solutionGridItems: [
         {
           title: "Flight Management Platform",
-          description: "Comprehensive flight operation management with crew scheduling, route optimization, maintenance coordination, and resource allocation systems. ",
+          description: "Comprehensive flight operations management with crew scheduling, route optimization, maintenance coordination, and resource allocation systems. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/airline-solution1.png'
         },
@@ -69,7 +69,7 @@ export const industryData = [
         },
         {
           title: "Passenger Experience Engine",
-          description: "Integrated booking, check-in, boarding platforms with personalized services through artificial intelligence in airline industry applications. ",
+          description: "Integrated booking, check-in, and boarding platforms with personalized services powered by artificial intelligence applications in the airline industry.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/airline-solution3.png'
         },
@@ -92,56 +92,56 @@ export const industryData = [
           image: '/images/industries/airline-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why Choose Us',
-      whyChooseUsHeadingDescription: 'Explore robust cybersecurity solutions, safeguarding your digital assets with advanced protection.',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive aviation service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services ',
+          content: 'Enterprise-level security protecting passenger data, aircraft systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all aviation touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for booking engines, passenger management systems, and operational platforms through innovative aviation technology solutions enabling digital transformation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring artificial intelligence in airline industry applications for predictive maintenance, demand forecasting, and operational optimization delivering measurable performance improvements across aviation operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing operational insights, route efficiency analysis, maintenance optimization, and comprehensive performance tracking for strategic decision-making. ",
+          title: "Business Process Automation",
+          description: "Workflow automation for airline operations including passenger processing, baggage handling, maintenance scheduling, and compliance procedures through intelligent process optimization and aviation-specific automated workflows.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management ",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for airline digital transformation solutions and system reliability. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive supply chain optimization featuring vendor management, inventory control, procurement automation, and logistics coordination through intelligent aviation technology solutions. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Learning Management System",
-          description: "VR/AR training modules for pilots and crews, qualification tracking, periodic assessments, and recurrent training through immersive digital transformation experiences. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Loyalty CRM Systems",
-          description: "Passenger relationship management with personalized communications, loyalty tracking, preference-based offers, and enhanced engagement through comprehensive customer experience platforms. ",
+          title: "Enterprise Resource Planning",
+          description: "Integrated airline operations management including financial planning, resource allocation, inventory management, and strategic planning through comprehensive ERP solutions tailored for aviation industry requirements. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Human Resource Management ",
-          description: "Crew scheduling, certification management, labor regulation compliance, and workforce optimization through automated HR processes and artificial intelligence applications.",
+          description: "Crew scheduling, certification management, labor regulation compliance, and workforce optimization through automated HR processes and artificial intelligence applications for aviation personnel management. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Governance, Risk & Compliances ",
+          description: "Automated compliance management ensuring aviation regulatory adherence, risk assessment protocols, audit trail management, and governance framework implementation for airline safety and operational standards.",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Supply Chain Management",
+          description: "Aviation supply chain optimization featuring vendor management, inventory control, procurement automation, and logistics coordination through intelligent aviation technology solutions for parts and equipment management. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Learning Management System ",
+          description: "VR/AR training modules for pilots and crews, qualification tracking, periodic assessments, and recurrent training through immersive digital transformation experiences ensuring regulatory compliance and skill development. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -160,7 +160,7 @@ export const industryData = [
         {
           id: '1',
           title: "What makes iTCart's aviation technology solutions different?",
-          content: "Our comprehensive approach integrates artificial intelligence in airline industry operations with proven digital transformation in aviation methodologies, delivering measurable results through advanced flight operation management and airport operations management capabilities ensuring competitive advantage."
+          content: "Our comprehensive approach integrates artificial intelligence in airline industry operations with proven digital transformation in aviation methodologies, delivering measurable results through advanced flight and airport operations management capabilities ensuring a competitive advantage."
         },
         {
           id: '2',
@@ -175,12 +175,12 @@ export const industryData = [
         {
           id: '4',
           title: 'How does airport operations management enhance efficiency?',
-          content: 'Airport operations management solutions streamline gate assignments, baggage tracking, ground services coordination, passenger flow optimization, and resource allocation through intelligent automation and real-time operational visibility improving overall efficiency and passenger satisfaction.'
+          content: 'Airport operations management solutions streamline gate assignments, baggage tracking, ground services coordination, passenger flow optimization, and resource allocation through intelligent automation and real-time operational visibility,improving overall efficiency and passenger satisfaction.'
         },
         {
           id: '5',
           title: "What airline digital transformation solutions do you offer?",
-          content: "Our airline digital transformation solutions encompass passenger experience platforms, operational optimization systems, revenue management tools, safety compliance automation, and comprehensive analytics through aviation technology solutions delivering measurable business improvements and competitive advantages."
+          content: "Our airline digital transformation solutions encompass passenger experience platforms, operational optimization systems, revenue management tools, safety compliance automation, and comprehensive analytics through aviation technology solutions,delivering measurable business improvements and competitive advantages."
         },
         {
           id: '6',
@@ -219,7 +219,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/automotive-sectionabout.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The automotive industry faces profound transformation challenges including electrification, software-defined vehicles, and evolving consumer expectations. Modern manufacturers require robust technological infrastructure enabling automotive digitalization and streamlined robotics in automotive manufacturing. iTCart delivers comprehensive automotive digital transformation services through AI-powered frameworks and predictive analytics for automotive excellence. ",
+        contentOne: "AiXHub Enterprise Operating System brings deep AI automation, intelligent decision-making, and scalable performance to your aviation operations.Whether you’re managing single-aircraft operations, coordinating multi-fleet networks, or scaling enterprise-wide airline systems, AiXHub EOS optimizes flight operations, enhances passenger experiences, and streamlines aviation workflows through intelligent automation.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Automotive Manufacturing Excellence',
@@ -296,55 +296,55 @@ export const industryData = [
         }
       ],
       whyChooseUsHeading: 'Our Services',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive automotive service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services ',
+          content: 'Enterprise-level security protecting vehicle data, manufacturing systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all automotive touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for connected vehicle platforms, manufacturing management systems, and operational solutions through innovative automotive manufacturing solutions enabling digital transformation and enhanced efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring robotics in automotive manufacturing applications for predictive maintenance, quality forecasting, and operational optimization delivering measurable performance improvements across automotive operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing manufacturing insights, production efficiency analysis, quality optimization, and comprehensive performance tracking for strategic decision-making. ",
+          title: "Business Process Automation ",
+          description: "Intelligent workflow automation for automotive production scheduling, quality control processes, maintenance coordination, compliance procedures, and manufacturing-specific operational workflows.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for automotive digital transformation services and system reliability. ",
+          title: "Enterprise Resource Planning",
+          description: "Comprehensive integrated automotive operations management including financial planning, resource allocation, inventory management, strategic planning, and enterprise-wide business coordination solutions.    ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive supply chain optimization featuring vendor management, inventory control, procurement automation, and logistics coordination through intelligent automotive manufacturing solutions. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Learning Management System",
-          description: "VR/AR training modules for manufacturing teams, certification tracking, safety assessments, and skills development through immersive automotive digitalization experiences. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Loyalty CRM Systems",
-          description: "Customer relationship management with personalized communications, service tracking, preference-based offers, and enhanced engagement through comprehensive automotive experience platforms. ",
+          title: "Supply Chain Management",
+          description: "Advanced automotive supply chain optimization featuring vendor management, parts inventory control, procurement automation, logistics coordination, and intelligent manufacturing supply solutions.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Human Resource Management",
-          description: "Workforce scheduling, certification management, safety compliance, and optimization through automated HR processes and innovation in automotive industry applications. ",
+          description: "Complete workforce scheduling, certification management, safety compliance optimization, automated HR processes, and talent management solutions for automotive manufacturing operations. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Digital Transformation Suite ",
+          description: "Comprehensive digital modernization platform enabling automotive legacy system upgrades, process automation, technology integration, and enterprise-wide digital transformation services.",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Document Management System ",
+          description: "Secure digital document storage and retrieval for automotive compliance documentation, technical specifications, quality records, regulatory filings, and audit-ready accessibility.",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -499,56 +499,56 @@ export const industryData = [
           image: '/images/industries/banking-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive banking service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services',
+          content: 'Enterprise-level security protecting financial data, banking systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all banking touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services',
+          content: 'Custom development for banking platforms, financial systems, and trading solutions through innovative banking automation solutions enabling digital transformation and enhanced operational efficiency.'
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation ',
+          content: 'Intelligent automation featuring digital banking transformation services applications, artificial intelligence in banking capabilities, and automation in banking and financial services integration delivering measurable performance improvements across financial operations.'
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
-      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
+      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing banking insights, customer analysis, portfolio optimization, and comprehensive performance tracking for strategic financial decision-making. ",
+          title: "Business Process Automation",
+          description: "Intelligent workflow automation for banking transaction processing, regulatory compliance, customer onboarding procedures, and financial operations through automated business processes. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for digital banking transformation services and system reliability. ",
+          title: "Enterprise Resource Planning",
+          description: "Comprehensive integrated banking operations management including financial planning, resource allocation, regulatory compliance, strategic planning, and enterprise-wide coordination solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive vendor management featuring partner coordination, service tracking, procurement automation, and logistics coordination through intelligent AI for commercial banking solutions. ",
+          title: "Customer Relationship Management ",
+          description: "Advanced customer relationship management with personalized financial communications, account tracking, preference-based banking services, and enhanced customer experience platforms. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "Training modules for banking teams, certification tracking, compliance assessments, and skills development through immersive artificial intelligence in financial services experiences. ",
+          title: "Human Resource Management ",
+          description: "Complete staff scheduling, compliance management, performance tracking, workforce optimization, and automated HR processes for banking and financial services operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Customer relationship management with personalized communications, account tracking, preference-based services, and enhanced experiences through comprehensive banking platforms. ",
+          title: "Digital Transformation Suite ",
+          description: "Comprehensive digital modernization platform enabling banking legacy system upgrades, process automation, core system modernization, and enterprise-wide technology integration. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management",
-          description: "Staff scheduling, compliance management, performance tracking, and workforce optimization through automated HR processes and cloud-based AI solutions for banking operations applications. ",
+          title: "Financial Business Intelligence",
+          description: "Advanced financial analytics providing banking insights, risk analysis, portfolio optimization, regulatory reporting, and comprehensive performance tracking for strategic decision-making. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -695,56 +695,56 @@ export const industryData = [
           image: '/images/industries/digitalmarketing-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services ',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive digital marketing service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services ',
+          content: ' Enterprise-level security protecting customer data, marketing systems, and campaign infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all marketing touchpoints.'
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for marketing automation platforms, CRM systems, and campaign solutions through innovative digital marketing software solutions enabling automation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: ' Intelligent automation featuring marketing automation software applications for predictive analytics, customer segmentation, and campaign optimization delivering measurable performance improvements across marketing operations.'
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
-      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
+      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety  ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing marketing insights, campaign analysis, customer behavior optimization, and comprehensive performance tracking for strategic business decision-making. ",
+          title: "Business Process Automation ",
+          description: "Intelligent workflow automation for marketing campaign execution, content approval processes, lead qualification procedures, and customer engagement through automated business workflows. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for marketing automation solutions services and system reliability. ",
+          title: "Customer Relationship Management",
+          description: "Advanced customer relationship management with personalized marketing communications, lead tracking, preference-based content delivery, and enhanced customer experience platforms. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive resource optimization featuring vendor management, content tracking, procurement automation, and logistics coordination through intelligent integrated marketing software solutions. ",
+          title: "Human Resource Management ",
+          description: "Complete marketing team scheduling, project assignments, skill certification management, performance tracking, and automated HR processes for marketing operations.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "Training modules for marketing teams, certification tracking, platform skills assessments, and professional development through immersive enterprise marketing automation experiences. ",
+          title: "Digital Transformation Suite",
+          description: "Comprehensive digital modernization platform enabling marketing legacy system upgrades, process automation, technology integration, and enterprise-wide digital transformation services. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Customer relationship management with personalized communications, engagement tracking, preference-based content, and enhanced experiences through comprehensive b2b marketing automation platforms. ",
+          title: "Learning Management System ",
+          description: "Training modules for marketing teams, certification tracking, platform skills assessments, professional development, and immersive marketing automation learning experiences.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management",
-          description: "Team scheduling, project management, compliance tracking, and workforce optimization through automated HR processes and customer journey automation applications. ",
+          title: "Financial Business Intelligence",
+          description: "Advanced marketing analytics providing campaign ROI analysis, budget optimization, performance tracking, revenue attribution, and comprehensive financial reporting for strategic decisions. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -892,56 +892,56 @@ export const industryData = [
           image: '/images/industries/education-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'WHY CHOOSE US',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services ',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive educational service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services',
+          content: 'Enterprise-level security protecting student data, learning systems, and institutional infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all educational touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services',
+          content: 'Custom development for learning management platforms, student information systems, and educational solutions through innovative education technology solutions and services enabling digital transformation and enhanced efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring AI learning platform applications for predictive analytics, personalized learning, and operational optimization delivering measurable performance improvements across educational operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions ',
-      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
+      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing educational insights, enrollment analysis, performance optimization, and comprehensive tracking for strategic institutional decision-making. ",
+          title: "Business Process Automation ",
+          description: "Intelligent workflow automation for educational enrollment processing, student assessment coordination, grading procedures, and administrative operations through automated business workflows.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for digital transformation in education services and system reliability. ",
+          title: "Enterprise Resource Planning (",
+          description: "Comprehensive integrated educational operations management including financial planning, resource allocation, budget management, strategic planning, and enterprise-wide institutional coordination solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive resource optimization featuring vendor management, inventory control, procurement automation, and logistics coordination through intelligent education technology solutions. ",
+          title: "Customer Relationship Management ",
+          description: "Advanced student and parent relationship management with personalized communications, engagement tracking, preference-based content delivery, and enhanced educational experience platforms. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "AI-powered training modules for educators, certification tracking, professional development assessments, and skills enhancement through immersive digital learning experiences. ",
+          title: "Human Resource Management ",
+          description: "Complete faculty scheduling, performance management, compliance tracking, certification management, and automated HR processes for educational institutions and academic operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Student relationship management with personalized communications, engagement tracking, preference-based content, and enhanced experiences through comprehensive educational platforms. ",
+          title: "Document Management System",
+          description: "Secure digital document storage for academic records, educational documentation, compliance reports, accreditation files, and institutional educational documentation management systems.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management",
-          description: "Faculty scheduling, certification management, compliance tracking, and workforce optimization through automated HR processes and best online edtech solution providers applications. ",
+          title: "Learning Management System ",
+          description: "AI-powered training modules for educators, professional certification tracking, faculty development assessments, skills enhancement, and immersive digital learning experiences. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -1089,56 +1089,56 @@ export const industryData = [
           image: '/images/industries/engineering-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'WHY CHOOSE US',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive construction service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services',
+          content: 'Enterprise-level security protecting project data, construction systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all construction touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for construction management systems, project platforms, and engineering solutions through innovative construction management solutions enabling digital transformation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: ' Intelligent automation featuring automation in construction industry applications, predictive analytics for construction capabilities, and engineering process automation with AI integration delivering measurable performance improvements across construction operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions ',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing construction insights, project analysis, resource optimization, and comprehensive performance tracking for strategic construction decision-making. ",
+          title: "Business Process Automation",
+          description: "Intelligent workflow automation for construction project scheduling, permit processing, compliance documentation, approval workflows, and engineering-specific automated operational procedures.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for construction management solutions services and system reliability. ",
+          title: "Enterprise Resource Planning ",
+          description: "Comprehensive integrated construction operations management including financial planning, resource allocation, project budgeting, strategic planning, and enterprise-wide coordination solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive supply chain optimization featuring vendor management, material tracking, procurement automation, and logistics coordination through intelligent engineering resource management solutions. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Learning Management System",
-          description: "Training modules for construction teams, certification tracking, safety assessments, and skills development through immersive automation in construction industry experiences. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Loyalty CRM Systems",
-          description: "Customer relationship management with personalized communications, project tracking, preference-based solutions, and enhanced experiences through comprehensive construction platforms. ",
+          title: "Supply Chain Management (",
+          description: "Advanced construction supply chain optimization featuring vendor management, material tracking, procurement automation, logistics coordination, and intelligent engineering resource management.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Human Resource Management",
-          description: "Workforce scheduling, project assignments, compliance tracking, and optimization through automated HR processes and engineering process automation with AI applications. ",
+          description: "Complete workforce scheduling, project assignments, safety compliance tracking, certification management, and automated HR processes for construction and engineering operations. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Digital Transformation Suite",
+          description: "Comprehensive digital modernization platform enabling construction legacy system upgrades, process automation, BIM integration, and enterprise-wide technology transformation services. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Document Management System",
+          description: "Secure digital document storage for construction blueprints, engineering specifications, compliance records, project documentation, and regulatory filing management systems. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -1286,56 +1286,56 @@ export const industryData = [
           image: '/images/industries/fb-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive food & beverage service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services',
+          content: 'Enterprise-level security protecting production data, supply chain systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all food & beverage touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services',
+          content: ' Custom development for food manufacturing systems, production platforms, and quality solutions through innovative AI-powered F&B automation enabling digital transformation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation ',
+          content: 'Intelligent automation featuring food and beverage ERP solutions applications, F&B inventory automation capabilities, and automation in food and beverage industry integration delivering measurable performance improvements across manufacturing operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing F&B insights, production analysis, quality optimization, and comprehensive performance tracking for strategic manufacturing decision-making. ",
+          title: "Business Process Automation ",
+          description: "Intelligent workflow automation for food production scheduling, quality control processes, regulatory compliance procedures, and manufacturing-specific operational workflows optimization. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management ",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for AI-powered F&B automation services and system reliability. ",
+          title: "Enterprise Resource Planning ",
+          description: "Comprehensive integrated food manufacturing operations management including financial planning, resource allocation, regulatory compliance, strategic planning, and enterprise-wide coordination solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive supply chain optimization featuring vendor management, ingredient tracking, procurement automation, and logistics coordination through intelligent product lifecycle management food industry solutions. ",
+          title: "Supply Chain Management",
+          description: "Advanced food supply chain optimization featuring vendor management, ingredient tracking, procurement automation, logistics coordination, and intelligent manufacturing supply solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "Training modules for F&B teams, certification tracking, safety assessments, and skills development through immersive automation in food and beverage industry experiences. ",
+          title: "Human Resource Management ",
+          description: "Complete staff scheduling, safety training management, compliance tracking, certification management, and automated HR processes for food and beverage operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Customer relationship management with personalized communications, product tracking, preference-based marketing, and enhanced experiences through comprehensive food & beverage platforms. ",
+          title: "Digital Transformation Suite ",
+          description: "Comprehensive digital modernization platform enabling food manufacturing legacy system upgrades, process automation, technology integration, and enterprise-wide transformation services.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management",
-          description: "Staff scheduling, safety training, compliance tracking, and workforce optimization through automated HR processes and F&B demand forecasting with AI applications. ",
+          title: "Learning Management System ",
+          description: "Training modules for food manufacturing teams, safety certification tracking, compliance assessments, skills development, and immersive automation learning experiences.  ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -1483,56 +1483,56 @@ export const industryData = [
           image: '/images/industries/FMCG-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive FMCG service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services',
+          content: 'Enterprise-level security protecting consumer data, supply chain systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all FMCG touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for consumer goods platforms, supply chain systems, and retail solutions through innovative AI solutions for FMCG companies enabling digital transformation and enhanced operational efficiency.'
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring FMCG supply chain automation applications, smart inventory management for FMCG capabilities, and FMCG process optimization software integration delivering measurable performance improvements across consumer goods operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing FMCG insights, consumer analysis, supply chain optimization, and comprehensive performance tracking for strategic business decision-making. ",
+          title: "Business Process Automation (",
+          description: "Intelligent workflow automation for FMCG production scheduling, quality control processes, consumer engagement procedures, and supply chain through automated business workflows. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for FMCG digital transformation services and system reliability. ",
+          title: "Enterprise Resource Planning ",
+          description: "Comprehensive integrated FMCG operations management including financial planning, resource allocation, inventory management, strategic planning, and enterprise-wide coordination solutions.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive supply chain optimization featuring vendor management, inventory control, procurement automation, and logistics coordination through intelligent FMCG distribution optimization solutions. ",
+          title: "Supply Chain Management",
+          description: "Advanced FMCG supply chain optimization featuring vendor management, inventory control, procurement automation, logistics coordination, and intelligent distribution management solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "Training modules for FMCG teams, certification tracking, product knowledge assessments, and skills development through immersive digital consumer experiences. ",
+          title: "Customer Relationship Management",
+          description: "Advanced consumer relationship management with personalized marketing communications, purchase tracking, preference-based content delivery, and enhanced customer experience platforms. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Customer relationship management with personalized communications, purchase tracking, preference-based marketing, and enhanced experiences through comprehensive consumer goods platforms. ",
+          title: "Human Resource Management ",
+          description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for FMCG and consumer goods operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management",
-          description: "Team scheduling, performance management, compliance tracking, and workforce optimization through automated HR processes and retail analytics for FMCG brands applications. Shape ",
+          title: "Learning Management System ",
+          description: "Training modules for FMCG teams, certification tracking, product knowledge assessments, skills development, and immersive digital consumer experience learning platforms. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -1680,56 +1680,56 @@ export const industryData = [
           image: '/images/industries/industrial-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive manufacturing service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services ',
+          content: 'Enterprise-level security protecting production data, control systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all manufacturing touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for manufacturing execution systems, automation platforms, and industrial solutions through innovative industrial automation solutions enabling digital transformation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring predictive maintenance in manufacturing applications, AI in industrial automation capabilities, and IoT in industrial automation integration delivering measurable performance improvements across manufacturing operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing manufacturing insights, production analysis, equipment optimization, and comprehensive performance tracking for strategic operational decision-making. ",
+          title: "Business Process Automation",
+          description: "Intelligent workflow automation for manufacturing production scheduling, quality control processes, maintenance coordination procedures, and industrial operations through automated business workflows.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for digital transformation in manufacturing services and system reliability. ",
+          title: "Enterprise Resource Planning",
+          description: "Comprehensive integrated manufacturing operations management including financial planning, resource allocation, inventory management, strategic planning, and enterprise-wide industrial coordination solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive supply chain optimization featuring vendor management, inventory control, procurement automation, and logistics coordination through intelligent digital manufacturing transformation solutions. ",
+          title: "Supply Chain Management ",
+          description: "Advanced manufacturing supply chain optimization featuring vendor management, inventory control, procurement automation, logistics coordination, and intelligent industrial supply solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "Training modules for manufacturing teams, certification tracking, safety assessments, and skills development through immersive digital twin in manufacturing experiences. ",
+          title: "Human Resource Management ",
+          description: "Complete workforce scheduling, safety management, compliance tracking, certification management, and automated HR processes for manufacturing and industrial operations.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Customer relationship management with personalized communications, service tracking, preference-based solutions, and enhanced experiences through comprehensive manufacturing platforms. ",
+          title: "Document Management System",
+          description: "Secure digital document storage for manufacturing blueprints, quality records, compliance documentation, safety protocols, and regulatory filing management systems.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management",
-          description: "Workforce scheduling, safety management, compliance tracking, and optimization through automated HR processes and manufacturing operations management applications.",
+          title: "Learning Management System ",
+          description: "Training modules for manufacturing teams, safety certification tracking, industrial assessments, skills development, and immersive digital twin manufacturing learning experiences.",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -1877,55 +1877,55 @@ export const industryData = [
           image: '/images/industries/healthcare-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services ',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive healthcare service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services ',
+          content: 'Enterprise-level security protecting patient data, medical systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring HIPAA compliance and threat protection across all healthcare touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services',
+          content: ' Custom development for healthcare management systems, clinical platforms, and medical solutions through innovative healthcare digital transformation solutions enabling digital transformation and enhanced operational efficiency.'
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring electronic health records management applications, remote patient monitoring services capabilities, and AI automation in healthcare industry integration delivering measurable performance improvements across medical operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing healthcare insights, patient analysis, clinical optimization, and comprehensive performance tracking for strategic medical decision-making. ",
+          title: "Business Process Automation",
+          description: "Intelligent workflow automation for healthcare appointment scheduling, patient registration processes, clinical documentation procedures, and medical administrative through automated business workflows.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for healthcare digital transformation solutions services and system reliability. ",
+          title: "Enterprise Resource Planning",
+          description: "Comprehensive integrated healthcare operations management including financial planning, resource allocation, inventory management, strategic planning, and enterprise-wide medical coordination solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive supply chain optimization featuring vendor management, medical supply tracking, procurement automation, and logistics coordination through intelligent revenue cycle management in healthcare solutions. ",
+          title: "Customer Relationship Management ",
+          description: "Advanced patient relationship management with personalized healthcare communications, appointment tracking, preference-based care services, and enhanced patient experience platforms.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "Training modules for healthcare teams, certification tracking, medical assessments, and skills development through immersive remote patient monitoring services experiences. ",
+          title: "Human Resource Management",
+          description: "Complete staff scheduling, credential management, compliance tracking, workforce optimization, and automated HR processes for healthcare and medical practice operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Patient relationship management with personalized communications, care tracking, preference-based services, and enhanced experiences through comprehensive healthcare platforms. ",
+          title: "Learning Management System ",
+          description: "Training modules for healthcare teams, medical certification tracking, clinical assessments, continuing education, and immersive medical automation learning experiences.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management ",
+          title: "Document Management System (",
           description: "Staff scheduling, credential management, compliance tracking, and workforce optimization through automated HR processes and automate claim processing insurance applications. ",
           icon: '/images/vertical/icons/manicon.png'
         }
@@ -2074,56 +2074,56 @@ export const industryData = [
           image: '/images/industries/it-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services ',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive information technology service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services',
+          content: 'Enterprise-level security protecting IT infrastructure, application data, and operational systems through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all technology touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services',
+          content: ' Custom development for enterprise applications, legacy system modernization, and IT solutions through innovative application modernization services enabling digital transformation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation ',
+          content: 'Intelligent automation featuring AI in information technology applications for predictive maintenance, process optimization, and operational excellence delivering measurable performance improvements across IT operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing IT insights, system analysis, performance optimization, and comprehensive tracking for strategic technology decision-making. ",
+          title: "Business Process Automation ",
+          description: "Intelligent workflow automation for IT service delivery, incident management processes, change coordination procedures, and technical operations through automated business workflows. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for IT digital transformation services and system reliability. ",
+          title: "Enterprise Resource Planning",
+          description: "Comprehensive integrated IT operations management including financial planning, resource allocation, project management, strategic planning, and enterprise-wide technology coordination solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive resource optimization featuring vendor management, asset tracking, procurement automation, and logistics coordination through intelligent IT infrastructure optimization solutions. ",
+          title: "Customer Relationship Management ",
+          description: "Advanced client relationship management with personalized communications, service tracking, preference-based solutions, and enhanced customer experience platforms for IT services.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "Training modules for IT teams, certification tracking, technical skills assessments, and professional development through immersive IT workflow automation experiences. ",
+          title: "Human Resource Management ",
+          description: "Complete staff scheduling, project assignments, compliance tracking, certification management, and automated HR processes for IT and technology operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Customer relationship management with personalized communications, service tracking, preference-based solutions, and enhanced experiences through comprehensive technology platforms. ",
+          title: "Document Management System ",
+          description: "Secure digital document storage for technical documentation, system specifications, compliance records, project files, and regulatory IT documentation management systems.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management",
-          description: "Team scheduling, project management, compliance tracking, and workforce optimization through automated HR processes and get AI-powered IT automation services applications.  ",
+          title: "Learning Management System ",
+          description: "Training modules for IT teams, certification tracking, technical skills assessments, professional development, and immersive IT workflow automation learning experiences.  ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -2276,56 +2276,56 @@ export const industryData = [
           image: '/images/industries/media-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive media service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services',
+          content: ' Enterprise-level security protecting content assets, broadcasting systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all media touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for content management platforms, broadcasting systems, and media solutions through innovative media operations platform services enabling digital transformation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring media workflow automation applications for content processing, audience analytics, and operational optimization delivering measurable performance improvements across media operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing media insights, audience analysis, content performance optimization, and comprehensive tracking for strategic business decision-making. ",
+          title: "Business Process Automation (",
+          description: "Intelligent workflow automation for media content scheduling, production coordination processes, approval workflows, and administrative operations through automated business workflows.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for digital media transformation services and system reliability. ",
+          title: "Enterprise Resource Planning ",
+          description: "Comprehensive integrated media operations management including financial planning, resource allocation, project management, strategic planning, and enterprise-wide content coordination solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive resource optimization featuring vendor management, equipment tracking, procurement automation, and logistics coordination through intelligent media operations platform solutions. ",
+          title: "Customer Relationship Management ",
+          description: "Advanced audience relationship management with personalized communications, engagement tracking, preference-based content delivery, and enhanced viewer experience platforms.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "Training modules for media teams, certification tracking, technical skills assessments, and professional development through immersive media infrastructure modernization experiences. ",
+          title: "Human Resource Management ",
+          description: "Complete staff scheduling, project assignments, compliance tracking, certification management, and automated HR processes for media and telecommunications operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Audience relationship management with personalized communications, engagement tracking, preference-based content, and enhanced experiences through comprehensive media platforms. ",
+          title: "Document Management System",
+          description: "Secure digital document storage for media assets, legal documentation, compliance records, licensing agreements, and regulatory media documentation management systems. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management",
-          description: "Staff scheduling, project management, compliance tracking, and workforce optimization through automated HR processes and digital media transformation applications. ",
+          title: "Learning Management System ",
+          description: "Training modules for media teams, certification tracking, technical skills assessments, professional development, and immersive media infrastructure modernization learning experiences.",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -2473,56 +2473,56 @@ export const industryData = [
           image: '/images/industries/oilgas-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive oil & gas service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services',
+          content: 'Enterprise-level security protecting energy data, operational systems, and infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all oil & gas touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for energy management platforms, production systems, and oilfield solutions through innovative oil and gas digital transformation solutions enabling automation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring advanced technology in oil and gas industry applications, AI in oil and gas industry capabilities, and oil and gas process automation integration delivering measurable performance improvements across energy operations.'
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing energy insights, production analysis, reservoir optimization, and comprehensive performance tracking for strategic oil & gas decision-making. ",
+          title: "Business Process Automation",
+          description: "Intelligent workflow automation for oil and gas permit processing, safety compliance procedures, inspection coordination, and administrative operations through automated business workflows. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for oil and gas industry solutions services and system reliability. ",
+          title: "Enterprise Resource Planning",
+          description: "Comprehensive integrated energy operations management including financial planning, resource allocation, project management, strategic planning, and enterprise-wide oil and gas coordination solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive logistics optimization featuring vendor management, equipment tracking, procurement automation, and supply coordination through intelligent energy sector AI solutions. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Learning Management System",
-          description: "Training modules for oil & gas teams, certification tracking, safety assessments, and skills development through immersive digital twin for oil and gas experiences. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Loyalty CRM Systems",
-          description: "Client relationship management with personalized communications, service tracking, preference-based solutions, and enhanced experiences through comprehensive energy platforms. ",
+          title: "Supply Chain Management",
+          description: "Advanced energy supply chain optimization featuring vendor management, equipment tracking, procurement automation, logistics coordination, and intelligent energy sector supply solutions.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Human Resource Management",
-          description: "Staff scheduling, safety training, compliance tracking, and workforce optimization through automated HR processes and digital oilfield automation services applications. ",
+          description: "Complete staff scheduling, safety training management, compliance tracking, certification management, and automated HR processes for oil and gas operations. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Document Management System",
+          description: "Secure digital document storage for energy records, safety documentation, compliance reports, regulatory filings, and oil and gas documentation management systems.  ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Learning Management System",
+          description: "Training modules for oil and gas teams, safety certification tracking, technical assessments, skills development, and immersive digital twin learning experiences. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -2670,56 +2670,56 @@ export const industryData = [
           image: '/images/industries/publicsector-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive public sector service portfolio',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services',
+          content: 'Enterprise-level security protecting citizen data, government systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all public sector touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for government platforms, citizen service systems, and administrative solutions through innovative automation for public sector enabling digital transformation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation ',
+          content: 'Intelligent automation featuring digital government transformation applications, AI solutions for government sector capabilities, and automation in public sector integration delivering measurable performance improvements across government operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing government insights, citizen analysis, service optimization, and comprehensive performance tracking for strategic public sector decision-making. ",
+          title: "Business Process Automation",
+          description: "Intelligent workflow automation for government permit processing, regulatory compliance procedures, citizen request management, and administrative operations through automated business workflows. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management ",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for digital government transformation services and system reliability. ",
+          title: "Enterprise Resource Planning ",
+          description: "Comprehensive integrated government operations management including financial planning, resource allocation, budget management, strategic planning, and enterprise-wide public sector coordination solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions ",
-          description: "Comprehensive procurement optimization featuring vendor management, contract tracking, resource allocation, and logistics coordination through intelligent digital technology in public sector solutions. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Learning Management System",
-          description: "Training modules for government teams, certification tracking, compliance assessments, and skills development through immersive government workforce development experiences. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Loyalty CRM Systems",
-          description: "Citizen relationship management with personalized communications, service tracking, preference-based interactions, and enhanced experiences through comprehensive government platforms. ",
+          title: "Supply Chain Management ",
+          description: "Comprehensive government procurement optimization featuring vendor management, contract tracking, resource allocation, logistics coordination, and intelligent digital technology supply solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Human Resource Management",
-          description: "Staff scheduling, performance management, compliance tracking, and workforce optimization through automated HR processes and automation in public sector applications. ",
+          description: "Complete staff scheduling, performance management, compliance tracking, certification management, and automated HR processes for public sector and government operations.  ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Document Management System",
+          description: "Secure digital document storage for government records, legal documentation, compliance reports, regulatory filings, and public sector documentation management systems",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Learning Management System",
+          description: "Training modules for government teams, certification tracking, compliance assessments, skills development, and immersive government workforce development learning experiences. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -2867,56 +2867,56 @@ export const industryData = [
           image: '/images/industries/professional-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive professional services portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services',
+          content: 'Enterprise-level security protecting client data, business systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all professional service touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services',
+          content: 'Custom development for service management platforms, client systems, and business solutions through innovative professional services automation enabling digital transformation and enhanced operational efficiency.'
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring professional services digital transformation applications, AI in professional services capabilities, and task management solutions integration delivering measurable performance improvements across service operations.'
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing service insights, client analysis, performance optimization, and comprehensive tracking for strategic professional services decision-making. ",
+          title: "Business Process Automation",
+          description: "Intelligent workflow automation for professional service delivery, client onboarding processes, project coordination procedures, and administrative operations through automated business workflows.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for professional services automation and system reliability. ",
+          title: "Enterprise Resource Planning",
+          description: "Comprehensive integrated professional services operations management including financial planning, resource allocation, project management, strategic planning, and enterprise-wide service coordination solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive vendor management featuring service coordination, resource tracking, procurement automation, and logistics coordination through intelligent managed professional services solutions. ",
+          title: "Customer Relationship Management  ",
+          description: "Advanced client relationship management with personalized communications, service tracking, preference-based solutions, and enhanced client experience platforms for professional services. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Human Resource Management ",
+          description: "Complete staff scheduling, performance management, compliance tracking, certification management, and automated HR processes for professional services and consulting operations.  ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Document Management System",
+          description: "Secure digital document storage for professional records, client documentation, compliance reports, project files, and professional services documentation management systems. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Learning Management System",
-          description: "Training modules for professional teams, certification tracking, skills assessments, and development through immersive future of professional services industry experiences. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Loyalty CRM Systems",
-          description: "Client relationship management with personalized communications, service tracking, preference-based solutions, and enhanced experiences through comprehensive professional platforms. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Human Resource Management",
-          description: "Staff scheduling, performance management, compliance tracking, and workforce optimization through automated HR processes and workforce productivity analytics applications. ",
+          description: "Training modules for professional teams, certification tracking, skills assessments, professional development, and immersive professional services workforce learning experiences.",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -2971,8 +2971,8 @@ export const industryData = [
     }
   },
   {
-    title: "Retail and Ecommerce",
-    description: "Transforming the pre-tail and e-commerce landscape with innovative software solutions, enhancing customer experiences and growth",
+    title: "Retail and E-commerce",
+    description: "Transforming the retail and e-commerce landscape with innovative software solutions, enhancing customer experiences and growth",
     linkUrl: "/services/startup-services",
     imageSrc: "/images/industries/Retail-Ecommerce.png",
     detailPage: {
@@ -3064,56 +3064,56 @@ export const industryData = [
           image: '/images/industries/RetailEcommerce-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'WHY CHOOSE US',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive retail service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services ',
+          content: 'Enterprise-level security protecting customer data, payment systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all retail touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for e-commerce platforms, point-of-sale systems, and retail management solutions through innovative retail technology solutions enabling digital transformation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring retail automation services applications for predictive analytics, personalized recommendations, and operational optimization delivering measurable performance improvements across retail operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing retail insights, sales analysis, customer behavior optimization, and comprehensive performance tracking for strategic business decision-making. ",
+          title: "Business Process Automation",
+          description: "Intelligent workflow automation for retail order processing, inventory management procedures, customer service coordination, and administrative operations through automated business workflows. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for retail digital transformation services and system reliability. ",
+          title: "Enterprise Resource Planning ",
+          description: "Comprehensive integrated retail operations management including financial planning, resource allocation, budget management, strategic planning, and enterprise-wide retail coordination solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive supply chain optimization featuring vendor management, inventory control, procurement automation, and logistics coordination through intelligent retail technology solutions. ",
+          title: "Supply Chain Management ",
+          description: "Comprehensive supply chain optimization featuring vendor management, inventory control, procurement automation, logistics coordination, and intelligent retail technology solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "Staff training modules for retail teams, certification tracking, product knowledge assessments, and skills development through immersive digital transformation experiences. ",
+          title: "Human Resource Management ",
+          description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for retail and e-commerce operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Customer relationship management with personalized communications, purchase tracking, preference-based offers, and enhanced engagement through comprehensive retail experience platforms. ",
+          title: "Document Management System",
+          description: "Secure digital document storage for retail records, transaction documentation, compliance reports, supplier contracts, and retail documentation management systems.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management",
-          description: "Staff scheduling, performance management, compliance tracking, and workforce optimization through automated HR processes and digital transformation for retail applications. ",
+          title: "Learning Management System ",
+          description: "Staff training modules for retail teams, certification tracking, product knowledge assessments, skills development, and immersive digital transformation experiences. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -3363,7 +3363,7 @@ export const industryData = [
     }
   },
   {
-    title: "Transportations and Logistics",
+    title: "Transportation and Logistics",
     description: "Revolutionizing transportation and logistics with tailored software solutions, optimizing supply chains and efficiency",
     linkUrl: "/services/startup-services",
     imageSrc: "/images/industries/transportation.png",
@@ -3456,56 +3456,56 @@ export const industryData = [
           image: '/images/industries/TransportationsLogistics-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'WHY CHOOSE US',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive transportation service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services ',
+          content: 'Enterprise-level security protecting fleet data, logistics systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all transportation touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services',
+          content: 'Custom development for transportation management systems, logistics platforms, and fleet solutions through innovative logistics automation solutions enabling digital transformation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation',
+          content: 'Intelligent automation featuring warehouse management solutions applications, route optimization solutions capabilities, and dispatch automation solution integration delivering measurable performance improvements across logistics operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing logistics insights, fleet analysis, delivery optimization, and comprehensive performance tracking for strategic transportation decision-making. ",
+          title: "Business Process Automation ",
+          description: "Intelligent workflow automation for logistics order processing, shipment coordination procedures, compliance management, and administrative operations through automated business workflows.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for logistics automation solutions services and system reliability. ",
+          title: "Enterprise Resource Planning ",
+          description: "Comprehensive integrated logistics operations management including financial planning, resource allocation, fleet management, strategic planning, and enterprise-wide transportation coordination solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions",
-          description: "Comprehensive supply chain optimization featuring vendor management, inventory control, procurement automation, and logistics coordination through intelligent predictive logistics optimization solutions. ",
+          title: "Supply Chain Management ",
+          description: "Comprehensive supply chain optimization featuring vendor management, inventory control, procurement automation, logistics coordination, and intelligent predictive logistics optimization solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System",
-          description: "Training modules for logistics teams, certification tracking, safety assessments, and skills development through immersive delivery monitoring system experiences. ",
+          title: "Human Resource Management ",
+          description: "Complete driver scheduling, fleet management personnel, compliance tracking, certification management, and automated HR processes for transportation and logistics operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Loyalty CRM Systems",
-          description: "Customer relationship management with personalized communications, service tracking, preference-based solutions, and enhanced experiences through comprehensive logistics platforms. ",
+          title: "Document Management System ",
+          description: "Secure digital document storage for transportation records, shipping documentation, compliance reports, regulatory filings, and logistics documentation management systems. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management",
-          description: "Driver scheduling, fleet management, compliance tracking, and workforce optimization through automated HR processes and dispatch automation solution applications. ",
+          title: "Learning Management System ",
+          description: "Training modules for logistics teams, safety certification tracking, regulatory assessments, skills development, and immersive delivery monitoring system experiences. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -3653,56 +3653,56 @@ export const industryData = [
           image: '/images/industries/travelTourism-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive travel & tourism service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services ',
+          content: 'Enterprise-level security protecting guest data, booking systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all travel technology solutions touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for tourism platforms, booking systems, and travel solutions through innovative travel industry digital transformation enabling automation and enhanced operational efficiency with specialized travel industry software. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation ',
+          content: 'Intelligent automation featuring tour operator management software applications, guest experience automation capabilities, and travel agency automation software integration delivering measurable performance improvements across tourism operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Intelligence Systems",
-          description: "Advanced analytics platforms providing travel insights, guest behavior analysis, market optimization, and comprehensive performance tracking for strategic tourism decision-making through tourism intelligence platform capabilities. ",
+          title: "Business Process Automation ",
+          description: "Intelligent workflow automation for travel booking processing, guest service coordination, reservation management procedures, and administrative operations through automated business workflows.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "DevOps Management",
-          description: "Streamlined development operations enabling rapid deployment, continuous integration, and automated testing for travel technology solutions services and system reliability. ",
+          title: "Enterprise Resource Planning ",
+          description: "Comprehensive integrated travel operations management including financial planning, resource allocation, revenue management, strategic planning, and enterprise-wide tourism coordination solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Supply Chain Solutions ",
-          description: "Comprehensive vendor management featuring service coordination, inventory tracking, procurement automation, and logistics coordination through intelligent tour management software solutions. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Learning Management System",
-          description: "Training modules for tourism teams, certification tracking, service assessments, and skills development through immersive travel operations software experiences. ",
-          icon: '/images/vertical/icons/manicon.png'
-        },
-        {
-          title: "Loyalty CRM Systems",
-          description: "Guest relationship management with personalized communications, preference tracking, reward-based services, and enhanced experiences through comprehensive travel industry software platforms. ",
+          title: "Customer Relationship Management",
+          description: "Advanced guest relationship management with personalized communications, preference tracking, reward-based services, and enhanced experiences through comprehensive travel industry software platforms. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Human Resource Management ",
-          description: "Staff scheduling, performance management, compliance tracking, and workforce optimization through automated HR processes and AI travel automation software for hotels applications. ",
+          description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for travel and tourism operations. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Document Management System ",
+          description: "Secure digital document storage for travel records, booking documentation, compliance reports, regulatory filings, and tourism documentation management systems. ",
+          icon: '/images/vertical/icons/manicon.png'
+        },
+        {
+          title: "Learning Management System ",
+          description: "Training modules for tourism teams, certification tracking, service assessments, skills development, and immersive travel operations software experiences.  ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -3850,26 +3850,26 @@ export const industryData = [
           image: '/images/industries/Hospitality-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us',
-      whyChooseUsHeadingDescription: '',
+      whyChooseUsHeading: 'Our Services',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive hospitality service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
-          title: 'Tailored Solutions',
-          content: ' Customized cybersecurity strategies to fit unique business needs, ensuring maximum protection andresilience against evolving threats.'
+          title: 'Cybersecurity Services ',
+          content: ' Enterprise-level security protecting guest data, reservation systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all hospitality technology solutions touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Proactive Threat',
-          content: ' Early identification and mitigation of potential threats, preventing breaches and ensuring uninterrupted operations for your business.'
+          title: 'Application Services ',
+          content: 'Custom development for hotel platforms, guest service systems, and hospitality solutions through innovative hotel software solutions enabling automation and enhanced operational efficiency with specialized hospitality management software. '
         },
         {
           image: '/images/industries/service3.png',
-          title: 'Customer-Centric',
-          content: ' Prioritizing client needs, delivering top-notch service, and fostering lasting partnerships by ensuring client satisfaction and exceeding expectations consistently.'
+          title: 'AI ML Automation ',
+          content: 'Intelligent automation featuring hotel automation software applications, AI in guest experience for hotels capabilities, and enterprise hospitality services integration delivering measurable performance improvements across hospitality operations.'
         }
       ],
-      capabilitiSectionHeading: 'Our Additional Solutions',
+      capabilitiSectionHeading: 'Our Additional Solutions ',
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
@@ -3884,22 +3884,22 @@ export const industryData = [
         },
         {
           title: "Customer Relationship Management ",
-          description: "Advanced guest relationship management with personalized communications, preference tracking, loyalty rewards, and enhanced experiences through comprehensive hospitality integration platform solutions. ",
+          description: "Advanced guest relationship management with personalized communications, preference tracking, loyalty rewards, and enhanced experiences through comprehensive hospitality integration platform solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management ",
-          description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for hospitality and hotel operations. ",
+          title: "solutions Human Resource Management ",
+          description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for hospitality and hotel operations.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Document Management System ",
-          description: "Secure digital document storage for hospitality records, guest documentation, compliance reports, regulatory filings, and hotel documentation management systems. ",
+          description: "Secure digital document storage for hospitality records, guest documentation, compliance reports, regulatory filings, and hotel documentation management systems.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Learning Management System ",
-          description: "Training modules for hospitality teams, certification tracking, service assessments, skills development, and immersive hotel operations automation experiences. ",
+          description: "Training modules for hospitality teams, certification tracking, service assessments, skills development, and immersive hotel operations automation experiences.  ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],

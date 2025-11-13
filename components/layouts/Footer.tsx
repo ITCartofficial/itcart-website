@@ -75,7 +75,7 @@ const Footer = () => {
             <div className="border-t border-[#424242] mt-12 pt-6">
                 <div className="container mx-auto px-4 lg:px-10 flex flex-col lg:flex-row items-center justify-between gap-6 text-center lg:text-left">
                     <BodyText
-                        text="The Privacy Policy, Terms and Conditions will be applied fully and affect to your use of this Website. By using this website, you agreed to accept all terms and conditions."
+                        text="The Privacy Policy and Terms & Conditions apply fully and govern your use of this website. By using this website, you agree to all terms and conditions."
                         className="text-[12px] text-center lg:text-16px lg:text-start text-white/70 max-w-lg"
                     />
                     <div className="flex flex-wrap justify-center lg:justify-start items-center gap-3">

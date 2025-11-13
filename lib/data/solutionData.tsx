@@ -1029,46 +1029,46 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Best Learning Management Solutions",
-      bannerDescription: "Elevate education through best learning management system features excellence",
+      bannerDescription: "Elevate education with the best learning management solutions and feature-rich LMS capabilities. ",
       bannerImage: "/images/solutions/lms-banner.png",
       mobileBannerImage: "/images/solutions/Learning-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary Learning Management Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/lms-about.png',
-        contentOne: "Transform organizational education with iTCart's cutting-edge best learning management system featuring comprehensive learning management system features, cloud based learning management system, and enterprise learning management system capabilities designed for modern organizational requirements. ",
+        contentOne: "Transform organisational education with iTCart’s cutting-edge best learning management solutions. Our cloud-based LMS and enterprise learning management system capabilities support modern organisational learning requirements efficiently.  ",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Learning Excellence',
-      futureGridDiscription: "Comprehensive capabilities designed for intelligent learning and seamless integration ",
+      futureGridDiscription: "Comprehensive capabilities designed for intelligent learning and seamless LMS integration.",
       futureItems: [
         {
           title: "Content Creation",
-          description: "Build engaging courses with intuitive tools through comprehensive learning management system features. ",
+          description: "Build engaging courses with intuitive tools through our intelligent LMS suite. ",
           icon: "/icons/lm/LearningFuture-icon1.svg",
         },
         {
-          title: "Progress Tracking",
-          description: "Monitor learner performance with real-time dashboards via cloud based learning management system capabilities. ",
+          title: "Progress Tracking ",
+          description: "Monitor learner performance with real-time dashboards via cloud-based learning management system capabilities.",
           icon: "/icons/lm/LearningFuture-icon2.svg",
         },
         {
-          title: "Secure Environment",
-          description: "Protect sensitive data with enterprise-grade security through enterprise learning management system architecture. ",
+          title: "Secure Environment ",
+          description: "Protect sensitive data with enterprise-grade security through our enterprise learning management system architecture.",
           icon: "/icons/lm/LearningFuture-icon3.svg",
         },
         {
           title: "Personalized Paths",
-          description: "Deliver tailored educational journeys adapting to individual needs and skill levels",
+          description: "Deliver tailored educational journeys through our AI-driven LMS solution, adapting to each learner’s needs and skill levels.",
           icon: "/icons/lm/LearningFuture-icon4.svg",
         },
         {
           title: "Real-World Scenarios",
-          description: "Incorporate practical simulations bridging theory with hands-on experience through cloud learning management system. ",
+          description: "Incorporate practical simulations bridging theory with hands-on experience through our digital learning platform. ",
           icon: "/icons/lm/LearningFuture-icon5.svg",
         },
         {
           title: "Multimedia Integration",
-          description: "Embed videos and interactive modules creating dynamic learning experiences for comprehensive education delivery. ",
+          description: "Embed videos and interactive modules, creating dynamic learning experiences through our intelligent LMS suite.",
           icon: "/icons/lm/LearningFuture-icon6.svg",
         },
       ],
@@ -1078,19 +1078,19 @@ export const solutionData = [
         {
           id: 1,
           title: "Content Management",
-          description: "Complete best learning management system solution featuring effortless content creation, intuitive course building tools, multimedia integration capabilities, and automated progress tracking systems. This integrated approach ensures educators experience streamlined workflows while maintaining organized learning materials through comprehensive learning management system features. The platform supports real-time monitoring, visual dashboards, detailed reporting capabilities, completion rate tracking, engagement analytics, and skill development measurement supporting complete learning transformation initiatives across organizational levels. ",
+          description: "Complete best learning management solutions featuring effortless content creation, intuitive course building, multimedia integration, and automated progress tracking. This integrated approach ensures streamlined workflows while maintaining organised learning materials through our intelligent LMS suite. The platform supports real-time monitoring, visual dashboards, detailed reporting, completion rate tracking, engagement analytics, and skill development measurement across organisational levels. ",
           imageSrc: "/images/solutions/lms-collab1.png",
         },
         {
           id: 2,
           title: "Advanced Analytics",
-          description: "Cutting-edge cloud based learning management system capabilities including comprehensive analytics, actionable insights into learner behavior, course effectiveness measurement, skill gap identification, and advanced reporting tools. Our intelligent enterprise learning management system provides transparent, measurable learning outcomes supporting educational requirements through cloud learning management system integration. The platform ensures accuracy through automated assessments, personalized feedback systems, certification management, and comprehensive audit trails specifically designed for enterprise compliance and global standards. ",
+          description: "Cutting-edge cloud-based learning management system capabilities including advanced analytics, actionable insights into learner behavior, course effectiveness measurement, skill gap identification, and advanced reporting tools. Our intelligent enterprise learning management system provides transparent, measurable learning outcomes supporting educational requirements through cloud learning platform integration. The platform ensures accuracy through automated assessments, personalised feedback systems, certification management, and comprehensive audit trails specifically designed for enterprise compliance and global standards. ",
           imageSrc: "/images/solutions/lms-collab2.png",
         },
         {
           id: 3,
           title: "Integration Excellence",
-          description: "Comprehensive connectivity supporting HR, CRM, and business systems through robust APIs, cloud learning management system integration, modular architecture deployment options, mobile-first design capabilities, and enterprise-grade security controls ensuring seamless data flow. The integrated best learning management system provides comprehensive audit trails, real-time synchronization, multi-language support, accessibility standards compliance, and device responsiveness. Advanced learning management system features include automated enrollments, certification tracking, and comprehensive user management supporting enhanced educational delivery and operational excellence across diverse organizational requirements. ",
+          description: "Robust connectivity supporting HR, CRM, and business systems through advanced APIs, LMS IT solution integration, modular architecture deployment options, mobile-first design capabilities, and enterprise-grade security controls ensuring seamless data flow. The integrated best learning management system provides robust audit trails, real-time synchronization, multi-language support, accessibility standards compliance, and device responsiveness. Advanced learning management system features include automated enrolments, certification tracking, and advanced user management supporting enhanced educational delivery and operational excellence across diverse organizational requirements.  ",
           imageSrc: "/images/solutions/lms-collab3.png",
         },
       ],
@@ -1098,22 +1098,22 @@ export const solutionData = [
       solutionGridItems: [
         {
           title: "Corporate Training",
-          description: "Employee development and onboarding programs through comprehensive enterprise learning management system with automated tracking and certification capabilities. ",
+          description: "Employee development and onboarding programmes via enterprise learning management system with automated tracking and certification.",
           image: "/images/solutions/lms-solution1.png"
         },
         {
           title: "Educational Institutions",
-          description: "Academic program management and student engagement via cloud based learning management system supporting diverse learning requirements. ",
+          description: "Academic programme management and student engagement through cloud learning management system supporting diverse learning needs. ",
           image: "/images/solutions/lms-solution2.png"
         },
         {
           title: "Healthcare Organizations",
-          description: "Compliance training and professional development through advanced learning management system with regulatory adherence and specialized content delivery. ",
+          description: "Compliance training and professional development with advanced LMS solutions ensuring regulatory adherence. ",
           image: "/images/solutions/lms-solution3.png"
         },
         {
           title: "Technology Companies",
-          description: "Technical skills development and knowledge sharing via cloud learning management system with advanced integration and scalability features. ",
+          description: "Technical skills development and knowledge sharing through cloud learning management system with advanced integration and scalability. ",
           image: "/images/solutions/lms-solution4.png"
         }
       ],
@@ -1121,37 +1121,37 @@ export const solutionData = [
       chooseItems: [
         {
           title: "Scalable Growth",
-          description: "Future-ready best learning management system architecture handling increasing users, courses, and content without compromising performance supporting organizational expansion requirements and changing educational demands effectively. ",
+          description: "Future-ready best learning management solutions architecture handling increasing users, courses, and content without compromising performance, supporting organisational expansion and changing educational demands effectively.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Learning-Management/LearningChooseUs-icon1.svg'
         },
         {
           title: "Dedicated Support ",
-          description: "Experienced team providing onboarding, customization, and ongoing support ensuring comprehensive learning management system features deliver measurable value and sustained educational excellence. ",
+          description: "Experienced team providing onboarding, customisation, and ongoing support to ensure our LMS IT solutions deliver measurable value and sustained educational excellence. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Learning-Management/LearningChooseUs-icon2.svg'
         },
         {
           title: "Smart Technologies",
-          description: "Latest advancements in AI, adaptive learning, and automation delivering modern cloud based learning management system solutions with enhanced effectiveness and engagement. ",
+          description: "Latest AI advancements, adaptive learning, and automation delivering modern cloud learning management system solutions with enhanced engagement and effectiveness. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Learning-Management/LearningChooseUs-icon3.svg'
         },
         {
           title: "Data Security",
-          description: "Industry-leading security protocols and compliance with regulations ensuring confidentiality and integrity through comprehensive enterprise learning management system protection measures. ",
+          description: "Industry-leading security protocols and regulatory compliance ensuring confidentiality and integrity through enterprise LMS solution protection measures.  ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Learning-Management/LearningChooseUs-icon4.svg'
         },
         {
           title: "Continuous Innovation",
-          description: "Committed to evolving platform with new learning management system features, integrations, and enhancements ensuring organizations stay ahead in digital learning. ",
+          description: "Committed to evolving platform features, integrations, and enhancements to keep organisations ahead in digital learning.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Learning-Management/LearningChooseUs-icon5.svg'
         },
         {
           title: "Global Expertise",
-          description: "Comprehensive enterprise solutions complying with international standards while supporting localized requirements and cloud learning management system capabilities. ",
+          description: "Compliant enterprise LMS solutions supporting international standards while addressing local requirements. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Learning-Management/LearningChooseUs-icon6.svg'
         },
@@ -1162,27 +1162,27 @@ export const solutionData = [
       results: [
         {
           percentage: "95%",
-          label: "User adoption rate with comprehensive training ",
+          label: "user adoption with comprehensive training",
         },
         {
           percentage: "85% ",
-          label: "Course completion improvement over traditional systems",
+          label: "improvement in course completion over traditional systems ",
         },
         {
           percentage: "60%",
-          label: "Reduction in training administration time ",
+          label: "reduction in training administration time ",
         },
         {
           percentage: "90%",
-          label: "Learner satisfaction scores achieved consistently ",
+          label: "learner satisfaction consistently achieved ",
         },
         {
           percentage: "75%",
-          label: "Faster content creation and deployment",
+          label: "faster content creation and deployment ",
         },
       ],
       aboutSolutionHeading: 'Trusted Excellence',
-      aboutSolutionDiscription: 'Built by iTCart, recognized leaders in digital education delivering enterprise-grade best learning management system solutions that drive educational excellence and measurable learning success. ',
+      aboutSolutionDiscription: 'Built by iTCart, leaders in digital education, delivering enterprise-grade best learning management solutions that drive educational excellence and measurable outcomes.',
       aboutSolutionImage: '/images/solutions/lms-aboutfinal.png',
       futurSectionHeading: "",
       futurSectionDescription: "",
@@ -1191,32 +1191,32 @@ export const solutionData = [
         {
           id: '1',
           title: "What makes iTCart's learning management system different?",
-          content: " Our best learning management system integrates comprehensive cloud based learning management system capabilities with AI-powered features delivering superior learning management system features and outcomes. "
+          content: "Our Enterprise Learning Management System integrates AI-powered features with cloud-based LMS capabilities, delivering superior learning outcomes and personalised educational experiences."
         },
         {
           id: '2',
           title: 'How long does LMS implementation typically take?',
-          content: ' Implementation varies by scope, typically 6-12 weeks with comprehensive cloud learning management system deployment ensuring minimal disruption and maximum user adoption.'
+          content: 'Implementation varies by scope, typically 6–12 weeks, ensuring a seamless transition and maximum user adoption.'
         },
         {
           id: '3',
-          title: 'Is the solution suitable for global organizations?',
-          content: ' Yes, our enterprise learning management system solutions comply with international standards while supporting localized requirements through comprehensive global architecture. '
+          title: 'Is the solution suitable for global organisations?',
+          content: 'Yes. Our Enterprise Learning Management System complies with international standards while supporting local requirements through a robust cloud learning platform.'
         },
         {
           id: '4',
-          title: 'What learning management system features are included',
-          content: ' Our platform includes content creation tools, progress tracking, assessments, reporting, mobile access, and integration capabilities supporting comprehensive educational delivery requirements. '
+          title: 'What learning management system features are included?',
+          content: 'Our platform includes content creation tools, progress tracking, assessments, reporting, mobile access, and integration capabilities for comprehensive educational delivery.'
         },
         {
           id: '5',
           title: "Can it integrate with existing systems?",
-          content: " Absolutely. Our cloud-based learning management system features robust APIs and pre-built integrations ensuring seamless connectivity with existing HR and business systems."
+          content: "Yes. Our Cloud Learning Management System features robust APIs and pre-built integrations for seamless connectivity with existing HR and business systems. "
         },
         {
           id: '6',
           title: "What support is provided during implementation?",
-          content: "We offer dedicated support, comprehensive training, customization assistance, and ongoing optimization ensuring successful enterprise learning management system deployment and sustained value."
+          content: "We provide dedicated support, training, customisation assistance, and ongoing optimisation to ensure successful Enterprise LMS deployment and sustained value."
         }
       ]
     }
@@ -2142,13 +2142,13 @@ export const solutionData = [
         {
           id: 2,
           title: "Compliance Excellence",
-          description: "Advanced compliance management solutions delivering strategic automation, regulatory adherence, audit readiness, and stakeholder trust building through comprehensive compliance automation tool capabilities. Our intelligent cloud GRC platform provides transparent, measurable compliance outcomes supporting regulatory requirements through ai powered GRC platform integration. The platform ensures accuracy through automated policy approval, regulatory updates, compliance tracking, and comprehensive audit trails specifically designed for multi-framework compliance including GDPR, HIPAA, and Sarbanes-Oxley standards. ",
+          description: "Advanced compliance management solutions deliver strategic automation, regulatory adherence, audit readiness, and stakeholder confidence through intelligent automation capabilities. Our AI-powered GRC platform ensures transparent, measurable compliance outcomes supporting key regulatory requirements. It maintains precision through automated policy approvals, real-time regulatory updates, and dynamic compliance tracking. Comprehensive audit trails are generated for multi-framework adherence, including GDPR, HIPAA, and Sarbanes-Oxley standards, ensuring complete oversight and accountability.",
           imageSrc: "/images/solutions/Governance-collab2.png",
         },
         {
           id: 3,
           title: "Governance Integration",
-          description: "Comprehensive connectivity supporting policy management, control frameworks, and business systems through robust APIs, audit management software integration, workflow automation capabilities, and enterprise-grade security controls ensuring seamless data flow. The integrated GRC software solutions provide comprehensive reporting, real-time synchronization, regulatory compliance monitoring, and comprehensive governance oversight. Advanced enterprise GRC solutions include automated approvals, issue resolution tracking, and comprehensive management supporting enhanced governance delivery and operational excellence across diverse organizational requirements. ",
+          description: "Seamless connectivity supports policy management, control frameworks, and enterprise systems via robust APIs, audit management integration, workflow automation, and enterprise-grade security controls enabling secure and transparent data exchange. The integrated GRC software provides detailed reporting, real-time synchronization, and regulatory monitoring with complete governance visibility. Advanced enterprise solutions feature automated approvals, issue tracking, and structured management supporting consistent governance delivery and operational excellence across diverse business environments.",
           imageSrc: "/images/solutions/Governance-collab3.png",
 
         },
@@ -2185,14 +2185,14 @@ export const solutionData = [
         {
           title: "Regulatory Readiness",
           description:
-            "Confident compliance posture across GDPR, HIPAA, SOX, and major frameworks through comprehensive GRC software solutions architecture ensuring regulatory adherence and audit readiness.",
+            "A confident compliance posture across GDPR, HIPAA, SOX, and major frameworks through a comprehensive GRC software solutions architecture ensuring regulatory adherence and audit readiness.",
           gradient: "from-[#45C2CC] to-[#181919]",
           icon: "/icons/GovernanceRisk/GovernanceChooseUs-icon1.svg",
         },
         {
           title: "Efficiency Gains",
           description:
-            "Automated routine processes eliminating manual bottlenecks and reducing operational overhead through advanced compliance automation tool capabilities and workflow optimization supporting enhanced productivity.",
+            "Automated processes remove manual bottlenecks and cut operational costs with intelligent compliance automation and optimized workflows for higher productivity.",
           gradient: "from-[#45C2CC] to-[#181919]",
           icon: "/icons/GovernanceRisk/GovernanceChooseUs-icon2.svg",
         },
@@ -2206,7 +2206,7 @@ export const solutionData = [
         {
           title: "Cost Reduction",
           description:
-            "Early issue detection avoiding fines, eliminating process duplication, and scaling compliance governance through operational risk management platform efficiency at minimal incremental cost.",
+            "Early issue detection helps avoid fines, eliminate process duplication, and scale compliance governance efficiently at minimal incremental cost.",
           gradient: "from-[#45C2CC] to-[#181919]",
           icon: "/icons/GovernanceRisk/GovernanceChooseUs-icon4.svg",
         },
@@ -2266,7 +2266,7 @@ export const solutionData = [
           id: '2',
           title: "How long does GRC implementation typically take?",
           content:
-            "Implementation varies by scope, typically 8–16 weeks with comprehensive cloud GRC platform deployment ensuring minimal disruption and maximum organizational adoption."
+            "Implementation varies by scope, typically 8–16 weeks, with a comprehensive cloud GRC platform deployment ensuring a seamless transition and minimal disruption."
         },
         {
           id: '3',
@@ -2290,7 +2290,7 @@ export const solutionData = [
           id: '6',
           title: "What support is provided during implementation?",
           content:
-            "We offer dedicated support, comprehensive training, customization assistance, and ongoing optimization ensuring successful GRC software solutions deployment and sustained value."
+            "We offer dedicated support, comprehensive training, and ongoing optimization to ensure a successful GRC deployment and sustained value."
         }
       ]
     }
@@ -2311,7 +2311,7 @@ export const solutionData = [
       aboutSectionHeading: 'Financial Business Intelligence Solution Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Financial-Business-Intelligence-about.png',
-        contentOne: "iTCart's enterprise business intelligence solutions empower organizations with advanced financial analytics software, real-time visibility, and intelligent forecasting capabilities. Our cloud-based BI platform delivers comprehensive financial planning and analysis software with AI business intelligence tools that drive strategic financial transformation through data-driven decision making and predictive insights. ",
+        contentOne: "iTCart’s enterprise business intelligence solutions empower organisations with advanced financial analytics software, real-time visibility, and intelligent forecasting capabilities. Our cloud-based BI platform delivers comprehensive financial planning and analysis software with AI business intelligence tools that drive strategic financial transformation through data-driven decision-making and predictive insights.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Financial Excellence',
@@ -2360,19 +2360,19 @@ export const solutionData = [
         {
           id: 1,
           title: "Core Functionality",
-          description: "Advanced financial business intelligence solution featuring live dashboard monitoring, ad-hoc analysis capabilities, predictive forecasting engines, multi-entity consolidation systems, collaborative budgeting workflows through financial planning and analysis software, and comprehensive data governance delivering measurable business value through accelerated insights, enhanced financial accuracy, improved collaboration, and strategic forecasting across enterprise environments with seamless system integration. ",
+          description: "Our advanced financial business intelligence solution provides live dashboard monitoring, ad-hoc analysis, predictive forecasting engines, multi-entity consolidation, collaborative budgeting workflows via financial planning and analysis software, and comprehensive data governance. This delivers measurable business value through accelerated insights, improved financial accuracy, enhanced collaboration, and strategic forecasting across enterprise environments with seamless system integration. ",
           imageSrc: "/images/solutions/Financial-Business-Intelligence-collab1.png",
         },
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Cutting-edge financial analytics software capabilities including machine learning algorithms, predictive modeling engines, intelligent automation systems, real-time data processing, advanced visualization tools through AI business intelligence tools, and scenario planning capabilities enabling proactive financial management, strategic decision-making, operational excellence, and competitive advantage through data-driven insights and intelligent forecasting optimization within our enterprise business intelligence solutions platform. ",
+          description: "Our cutting-edge financial analytics software includes machine learning algorithms, predictive modelling engines, intelligent automation systems, real-time data processing, advanced visualisation tools via AI business intelligence tools, and scenario planning capabilities. These enable proactive financial management, strategic decision-making, operational excellence, and competitive advantage through data-driven insights and intelligent forecasting optimisation within our enterprise business intelligence solutions platform.",
           imageSrc: "/images/solutions/Financial-Business-Intelligence-collab2.png",
         },
         {
           id: 3,
           title: "Integration Excellence ",
-          description: "Comprehensive connectivity supporting ERP, CRM, payroll, banking, and production systems through robust APIs, enterprise-grade security controls, real-time data synchronization, and comprehensive audit capabilities ensuring operational continuity, scalable growth, and protected financial operations with seamless data integration and trusted governance frameworks through our cloud-based BI platform architecture. ",
+          description: "Our robust connectivity supports ERP, CRM, payroll, banking, and production systems via advanced APIs, enterprise-grade security controls, real-time data synchronisation, and full audit capabilities. This ensures operational continuity, scalable growth, and protected financial operations with seamless data integration and trusted governance frameworks through our cloud-based BI platform architecture. ",
           imageSrc: "/images/solutions/Financial-Business-Intelligence-collab3.png",
 
         },
@@ -2416,7 +2416,7 @@ export const solutionData = [
         {
           title: "Augmented Intelligence",
           description:
-            "Advanced algorithms highlight trends providing comprehensive insights explaining both 'why' and 'what' through intelligent financial analysis powered by AI business intelligence tools.",
+            "Advanced algorithms highlight trends, providing comprehensive insights that explain both 'why' and 'what' through intelligent financial analysis powered by AI business intelligence tools.",
           gradient: "from-[#45C2CC] to-[#181919]",
           icon: "/icons/Financial-Business/FinancialChooseUs-icon2.svg",
         },
@@ -2490,7 +2490,7 @@ export const solutionData = [
           id: '2',
           title: "How long does business intelligence software implementation typically take?",
           content:
-            "Implementation varies by scope, typically 4–8 weeks for standard deployments with comprehensive financial planning and analysis software configuration, data integration, dashboard setup, and user training included in our financial transformation consulting services."
+            "Implementation varies by scope, typically 4–8 weeks for standard deployments, including financial planning and analysis software configuration, data integration, dashboard setup, and user training. This ensures a seamless transition and maximum user adoption through our financial transformation consulting services."
         },
         {
           id: '3',
