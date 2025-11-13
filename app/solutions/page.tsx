@@ -26,6 +26,7 @@ export default function Page() {
                 <title>AI-Powered Digital Transformation Solutions | iTCart </title>
                 <meta name="description" content="Discover intelligent automation, ERP, BFSI, healthcare, and enterprise AI solutions from iTCart. Streamline operations, boost growth, and build future-ready businesses." />
                 <meta property="og:url" content={`https://itcart.ai/solutions`} />
+                <link rel="canonical" href={`https://itcart.ai/solutions`}></link>
             </head>
 
             <div className='bg-black'>
@@ -42,7 +43,7 @@ export default function Page() {
                 <SolutionGrid className='container' />
             </div>
 
-        </html>
+        </html >
 
 
     )

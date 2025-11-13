@@ -61,6 +61,7 @@ const BlogsTemplate = () => {
         <title>Explore Our Blogs – iTCart</title>
         <meta name="description" content="Read insights, trends, and expert perspectives from the iTCart team on AI, automation, and digital innovation shaping the future of business." />
         <meta property="og:url" content={`https://itcart.ai/blogs`} />
+        <link rel="canonical" href="https://itcart.ai/blogs"></link>
       </head>
 
       <section className="w-full bg-black text-white pt-32 pb-20 md:px-4 border-b-2 border-[#525252] space-y-15 lg:space-y-25">

@@ -69,6 +69,7 @@ function CunsultNow() {
                 <title>AI Consulting Company | Enterprise AI Transformation – iTCart</title>
                 <meta name="description" content="iTCart is one of the leading artificial intelligence consulting companies. We help enterprises integrate, automate, and scale AI transformation - Consult now " />
                 <meta property="og:url" content={`https://itcart.ai/consult-now`} />
+                <link rel="canonical" href="https://itcart.ai/consult-now"></link>
             </head>
 
 

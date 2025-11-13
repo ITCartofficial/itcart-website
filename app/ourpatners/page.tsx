@@ -27,6 +27,7 @@ function OurPartners() {
                 <title>Our Trusted Partners – iTCart</title>
                 <meta name="description" content="Meet the global and regional partners who share our vision for innovation. iTCart collaborates with technology leaders to create AI-driven solutions that empower industries." />
                 <meta property="og:url" content={`https://itcart.ai/ourpatners`} />
+                 <link rel="canonical" href="https://itcart.ai/ourpatners"></link>
             </head>
 
 

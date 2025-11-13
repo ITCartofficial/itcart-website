@@ -80,6 +80,7 @@ const AboutUs = () => {
                 <title>About Us – iTCart</title>
                 <meta name="description" content="Learn about iTCart, a technology company building intelligent, AI-driven solutions that empower businesses to innovate, automate, and scale with confidence." />
                 <meta property="og:url" content={`https://itcart.ai/about-us`} />
+                <link rel="canonical" href="https://itcart.ai/about-us"></link>
             </head>
 
             <div className="bg-black">

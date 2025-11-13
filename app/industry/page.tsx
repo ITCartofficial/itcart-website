@@ -22,6 +22,7 @@ export default function Page() {
                 <title>Digital Transformation Solutions for All Industries | iTCart </title>
                 <meta name="description" content="Meta description: From banking to manufacturing, healthcare to telecom—iTCart delivers AI-powered industry solutions that modernize operations, enhance efficiency, and fuel growth. " />
                 <meta property="og:url" content={`https://itcart.ai/industry`} />
+                <link rel="canonical" href="https://itcart.ai/industry"></link>
             </head>
 
 

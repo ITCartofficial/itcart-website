@@ -32,6 +32,7 @@ const CaseStudiesPage: React.FC = () => {
                 <title>Case Studies – iTCart</title>
                 <meta name="description" content="See how iTCart delivers measurable business impact through AI, automation, and data-driven solutions. Explore real client stories and project outcomes." />
                 <meta property="og:url" content={`https://itcart.ai/case-study`} />
+                <link rel="canonical" href="https://itcart.ai/case-study"></link>
             </head>
 
             <div className="min-h-screen bg-black text-white">

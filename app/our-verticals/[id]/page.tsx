@@ -45,6 +45,7 @@ const OurVerticalsDetailPage = () => {
                 <meta property="og:description" content={filterdItem?.detailPage?.metaDescription ?? ""} />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={`https://itcart.ai/our-verticals/${pathName}`} />
+                <link rel="canonical" href={`https://itcart.ai/our-verticals/${pathName}`}></link>
             </head>
 
 
