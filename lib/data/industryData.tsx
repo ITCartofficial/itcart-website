@@ -415,7 +415,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Banking Automation Solutions Excellence",
-      bannerDescription: "Empowering modern finance through comprehensive digital banking transformation services and artificial intelligence in banking",
+      bannerDescription: "Empowering modern finance through comprehensive digital transformation and intelligent banking automation",
       bannerImage: "/images/industries/Banking-and-finance-Banner.jpg",
       mobileBannerImage: "/images/industries/BankingFinance-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -423,7 +423,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/banking-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The banking and finance sector faces complex challenges including regulatory compliance, cybersecurity threats, and digital customer expectations. Modern financial institutions require robust banking automation solutions infrastructure enabling comprehensive digital banking transformation services, artificial intelligence in banking, artificial intelligence in financial services, automation in banking and financial services, AI for commercial banking solutions, and cloud-based AI solutions for banking operations. iTCart delivers intelligent financial technologies through innovative automation frameworks and comprehensive banking management. ",
+        contentOne: "The banking and finance sector faces complex challenges, including regulatory compliance, cybersecurity threats, and evolving digital customer expectations. Modern financial institutions require robust banking automation infrastructure that enables digital transformation, AI-driven financial services, and cloud-based solutions for seamless operations. iTCart delivers intelligent financial technologies through advanced automation and comprehensive banking management solutions.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Banking Technology Excellence',
@@ -439,21 +439,21 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Banking-icon2.svg',
           title: "Digital Transformation",
-          highlight: "Comprehensive digital banking transformation services featuring core modernization, process automation, and continuous technological advancement through solutions. ",
+          highlight: "Comprehensive digital banking transformation featuring core modernization, process automation, and continuous technological advancement across financial systems.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Banking-icon3.svg',
           title: "AI Intelligence",
-          highlight: "Real-time artificial intelligence in financial services utilizing machine learning for risk assessment and proactive financial optimization strategies. ",
+          highlight: "Real-time AI in financial services utilizing machine learning for risk assessment, fraud detection, and proactive financial optimization. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Banking-icon4.svg',
           title: "Connected Operations",
-          highlight: "Advanced automation in banking and financial services enabling seamless integration through AI for commercial banking solutions excellence and cloud-based AI solutions for banking operations. ",
+          highlight: "Advanced automation in banking and financial services enabling seamless integration through AI-driven commercial banking systems and secure cloud-based operations.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -470,7 +470,7 @@ export const industryData = [
         },
         {
           title: "Digital Transformation Suite",
-          description: "Advanced digital banking transformation services featuring mobile banking, online platforms, API integration, and modernization coordination systems. ",
+          description: "Advanced digital banking solutions featuring mobile and online platforms, API integrations, and coordinated modernization systems.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/banking-solution2.png'
         },
@@ -577,7 +577,7 @@ export const industryData = [
         {
           id: '3',
           title: 'What artificial intelligence in banking features are included?',
-          content: 'Our artificial intelligence in banking platform includes fraud detection, credit scoring, customer analytics, risk assessment, predictive modeling, and comprehensive dashboard with real-time monitoring capabilities ensuring operational success.'
+          content: 'Our solutions include fraud detection, credit risk assessment, predictive analytics, customer segmentation, and intelligent process automation.'
         },
         {
           id: '4',
@@ -587,7 +587,7 @@ export const industryData = [
         {
           id: '5',
           title: "What AI for commercial banking solutions services do you offer?",
-          content: "Our AI for commercial banking solutions encompass loan processing systems, risk management tools, customer relationship platforms, trading analytics, and comprehensive intelligence through cloud-based AI solutions for banking operations delivering business improvements. "
+          content: "We offer AI-driven credit scoring, portfolio analysis, customer analytics, and predictive modeling tools tailored for commercial banking excellence."
         },
         {
           id: '6',
