@@ -1,10 +1,23 @@
+"use client"
 import SectionTeam from "@/components/Csr/SectionTeam"
 // import HeroBanner from "@/components/HeroBanner"
 import HomeFaqSection from "../(features)/home/HomeFaqSection"
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
+import { useEffect, useState } from "react";
 
 
 function MediaPage() {
+
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
 
     const homeFAQs = [
         {
@@ -40,8 +53,16 @@ function MediaPage() {
     ];
 
     return (
-        <div className='bg-black'>
-            {/* <HeroBanner
+
+        <html lang="en">
+            <head>
+                <title>Our Media – iTCart</title>
+                <meta name="description" content="Explore the latest news, media coverage, and press releases from iTCart. Stay updated on our innovations, partnerships, and milestones in the AI and technology space." />
+                <meta property="og:url" content={`https://itcart.ai/mediapage`} />
+            </head>
+
+            <div className='bg-black'>
+                {/* <HeroBanner
                 title="Visual Mosaic of Our Journey"
                 description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
                 ctaText=""
@@ -54,35 +75,38 @@ function MediaPage() {
                 isCunsultNow={true}
             /> */}
 
-            <VerticalHeroBanner
-                title="Visual Mosaic of Our Journey"
-                description="Step into a curated collection of memorable moments that defines iTCart, capturing the spirit of innovation, collaboration, and shared accomplishments."
-                ctaText=""
-                ctaUrl="/contact"
-                breadcrumbItems={[
-                    { label: 'Home', url: '/' },
-                    { label: 'Our Industry', url: '/industry' }
-                ]}
-                backgroundImage="/images/media/media-banner.jpg"
-                isCunsultNow={true}
-                // height={true}
-                contentClass="lg:items-center lg:text-center"
-            />
-
-            <div className="">
-                <SectionTeam
-                    heading=""
-                    discription=""
-                    removeBorder={true}
+                <VerticalHeroBanner
+                    title="Visual Mosaic of Our Journey"
+                    description="Step into a curated collection of memorable moments that defines iTCart, capturing the spirit of innovation, collaboration, and shared accomplishments."
+                    ctaText=""
+                    ctaUrl="/contact"
+                    breadcrumbItems={[
+                        { label: 'Home', url: '/' },
+                        { label: 'Our Industry', url: '/industry' }
+                    ]}
+                    backgroundImage="/images/media/media-banner.jpg"
+                    isCunsultNow={true}
+                    // height={true}
+                    contentClass="lg:items-center lg:text-center"
                 />
 
-            </div>
+                <div className="">
+                    <SectionTeam
+                        heading=""
+                        discription=""
+                        removeBorder={true}
+                    />
 
-            <div className="bg-[#131313]  border-b-2 border-b-zinc-600">
-                <HomeFaqSection faqs={homeFAQs} />
-            </div>
+                </div>
 
-        </div>
+                <div className="bg-[#131313]  border-b-2 border-b-zinc-600">
+                    <HomeFaqSection faqs={homeFAQs} />
+                </div>
+
+            </div>
+        </html>
+
+
     )
 }
 export default MediaPage

@@ -15,7 +15,7 @@ import HistorySection from "@/components/about/HistorySection"
 import BannerContainer from "@/components/common/BannerContainer"
 import GradientTitle from "@/components/typography/GradientTitle"
 import MultiParagraphs from "@/components/common/MultiParagraphs"
-import { useLayoutEffect, useState } from "react"
+import { useLayoutEffect, useState, useEffect } from "react"
 
 
 
@@ -40,6 +40,9 @@ const globalExpansionData = {
 
 const AboutUs = () => {
 
+
+
+
     const [bgImage, setBgImage] = useState<string | null>(null);
 
     useLayoutEffect(() => {
@@ -56,32 +59,52 @@ const AboutUs = () => {
         return () => window.removeEventListener("resize", updateBg);
     }, []);
 
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
+
     if (!bgImage) return null;
 
     return (
-        <div className="bg-black">
-            <HeroBanner title="About Us"
-                breadcrumbItems={[
-                    { label: 'Home', url: '/' },
-                    { label: 'About Us', url: '/about-us' }
-                ]}
-                backgroundImage="/images/about/about-hero-bg.jpg"
-                className="bg-no-repeat h-[400px] "
-            />
-            <div className="bg-black md:mt-10">
-                <WhoWeAreSection />
-            </div>
-            <div className="bg-black py-10 md:py-10">
-                <CoreValueSection coreValues={coreValues} />
-            </div>
-            <div className="bg-black md:py-16">
-                <MissionVisionSection
-                    missionVision={missionVisionData}
-                    theme={'dark'}
-                />
-            </div>
 
-            {/* <div className="bg-black py-16 pb-30">
+        <html lang="en">
+
+            <head>
+                <title>About Us – iTCart</title>
+                <meta name="description" content="Learn about iTCart, a technology company building intelligent, AI-driven solutions that empower businesses to innovate, automate, and scale with confidence." />
+                <meta property="og:url" content={`https://itcart.ai/about-us`} />
+            </head>
+
+            <div className="bg-black">
+                <HeroBanner title="About Us"
+                    breadcrumbItems={[
+                        { label: 'Home', url: '/' },
+                        { label: 'About Us', url: '/about-us' }
+                    ]}
+                    backgroundImage="/images/about/about-hero-bg.jpg"
+                    className="bg-no-repeat h-[400px] "
+                />
+                <div className="bg-black md:mt-10">
+                    <WhoWeAreSection />
+                </div>
+                <div className="bg-black py-10 md:py-10">
+                    <CoreValueSection coreValues={coreValues} />
+                </div>
+                <div className="bg-black md:py-16">
+                    <MissionVisionSection
+                        missionVision={missionVisionData}
+                        theme={'dark'}
+                    />
+                </div>
+
+                {/* <div className="bg-black py-16 pb-30">
                 <AIFrameworkSection
                     aixFramework={PatientSectionData}
                     theme={'dark'}
@@ -91,43 +114,46 @@ const AboutUs = () => {
                 />
             </div> */}
 
-            <div className="bg-white py-16 md:rounded-tl-[85px] rounded-tl-[25px] md:rounded-tr-[85px] rounded-tr-[25px]">
-                <FoundingMembersSection
-                    direction="row"
-                    members={foundingMembers}
-                    theme="light"
-                />
-            </div>
+                <div className="bg-white py-16 md:rounded-tl-[85px] rounded-tl-[25px] md:rounded-tr-[85px] rounded-tr-[25px]">
+                    <FoundingMembersSection
+                        direction="row"
+                        members={foundingMembers}
+                        theme="light"
+                    />
+                </div>
 
-            <div className="bg-white py-6 rounded-bl-[30px] md:rounded-bl-[85px] md:rounded-br-[85px] rounded-br-[25px]">
-                <ExecutiveLeadersSection bgColor={""} execLeaders={executiveLeadership} />
-            </div>
+                <div className="bg-white py-6 rounded-bl-[30px] md:rounded-bl-[85px] md:rounded-br-[85px] rounded-br-[25px]">
+                    <ExecutiveLeadersSection bgColor={""} execLeaders={executiveLeadership} />
+                </div>
 
-            {/* <div className="bg-black py-16">
+                {/* <div className="bg-black py-16">
                 <GlobalStrategistsSection globalStrategists={globalStrategists} />
             </div> */}
 
-            <div className="bg-black py-16">
-                <AmbassadorSection ambassador={ambassadorsList} />
-            </div>
+                <div className="bg-black py-16">
+                    <AmbassadorSection ambassador={ambassadorsList} />
+                </div>
 
-            <div className="bg-black md:py-16">
-                <HistorySection className="border-2  bg-[#181818] py-5 lg:py-10 lg:px-10 rounded-2xl" bgImage={historyData.bgImage} title={historyData.title} description={historyData.description} />
-            </div>
+                <div className="bg-black md:py-16">
+                    <HistorySection className="border-2  bg-[#181818] py-5 lg:py-10 lg:px-10 rounded-2xl" bgImage={historyData.bgImage} title={historyData.title} description={historyData.description} />
+                </div>
 
-            <div className="bg-black pt-16">
-                <BannerContainer
-                    bgImage={bgImage}
-                    className="bg-bottom bg-no-repeat bg-contain sm:bg-cover sm:bg-center pb-30 md:pb-0"
-                >
-                    <div className="container flex flex-col items-center gap-1 mb-[-20px]">
-                        <GradientTitle text={globalExpansionData.title} className="text-[30px] lg:text-[48px] text-center" theme="dark" />
-                        <MultiParagraphs description={globalExpansionData.description} className="text-center" />
-                    </div>
-                </BannerContainer>
-            </div>
+                <div className="bg-black pt-16">
+                    <BannerContainer
+                        bgImage={bgImage}
+                        className="bg-bottom bg-no-repeat bg-contain sm:bg-cover sm:bg-center pb-30 md:pb-0"
+                    >
+                        <div className="container flex flex-col items-center gap-1 mb-[-20px]">
+                            <GradientTitle text={globalExpansionData.title} className="text-[30px] lg:text-[48px] text-center" theme="dark" />
+                            <MultiParagraphs description={globalExpansionData.description} className="text-center" />
+                        </div>
+                    </BannerContainer>
+                </div>
 
-        </div>
+            </div>
+        </html>
+
+
     )
 }
 

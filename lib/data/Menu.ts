@@ -2,7 +2,7 @@
 
 export const navItems = [
   { label: "Home", href: "/" },
-  { label: "Consult Now", href: "/consultnow" },
+  { label: "Consult Now", href: "/consult-now" },
   {
     label: "Verticals",
     href: "/our-verticals",

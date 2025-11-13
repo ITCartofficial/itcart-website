@@ -1044,32 +1044,32 @@ export const solutionData = [
         {
           title: "Content Creation",
           description: "Build engaging courses with intuitive tools through comprehensive learning management system features. ",
-          icon: "/icons/learning-Management/LearningFuture-icon1.svg",
+          icon: "/icons/lm/LearningFuture-icon1.svg",
         },
         {
           title: "Progress Tracking",
           description: "Monitor learner performance with real-time dashboards via cloud based learning management system capabilities. ",
-          icon: "/icons/learning-Management/LearningFuture-icon2.svg",
+          icon: "/icons/lm/LearningFuture-icon2.svg",
         },
         {
           title: "Secure Environment",
           description: "Protect sensitive data with enterprise-grade security through enterprise learning management system architecture. ",
-          icon: "/icons/learning-Management/LearningFuture-icon3.svg",
+          icon: "/icons/lm/LearningFuture-icon3.svg",
         },
         {
           title: "Personalized Paths",
           description: "Deliver tailored educational journeys adapting to individual needs and skill levels",
-          icon: "/icons/learning-Management/LearningFuture-icon4.svg",
+          icon: "/icons/lm/LearningFuture-icon4.svg",
         },
         {
           title: "Real-World Scenarios",
           description: "Incorporate practical simulations bridging theory with hands-on experience through cloud learning management system. ",
-          icon: "/icons/learning-Management/LearningFuture-icon5.svg",
+          icon: "/icons/lm/LearningFuture-icon5.svg",
         },
         {
           title: "Multimedia Integration",
           description: "Embed videos and interactive modules creating dynamic learning experiences for comprehensive education delivery. ",
-          icon: "/icons/learning-Management/LearningFuture-icon6.svg",
+          icon: "/icons/lm/LearningFuture-icon6.svg",
         },
       ],
       collabSectionHeading: 'Discover the Power of Intelligent Learning',

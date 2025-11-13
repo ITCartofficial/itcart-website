@@ -63,11 +63,11 @@ const montserrat = Montserrat({
   weight: ["400", "500", "600", "700"],
 });
 
-export const metadata = {
-  title: "Best AI Automation Company In US | iTCART",
-  description:
-    "iTCart - The best AI automation company in US, offering cutting-edge solutions to streamline workflows, enhance efficiency, and drive business growth.",
-};
+// export const metadata = {
+//   title: "",
+//   description:
+//     "",
+// };
 
 export default function RootLayout({
   children,
@@ -77,8 +77,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Best AI Automation Services & IT Solutions for Enterprises | itcart</title>
-        <meta name="description" content="Scale faster with AI automation, RPA services, IT solutions, intelligent process automation, cloud migration, AI consulting, software development & managed IT services globally" />
+       
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />

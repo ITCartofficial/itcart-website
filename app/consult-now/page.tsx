@@ -1,3 +1,4 @@
+"use client"
 // import ExecutiveLeadersSection from "@/components/about/ExecutiveLeadersSection"
 // import EnterPriceGrid from "@/components/CunsultNow/EnterPriceGrid"
 import ImplementationStratogy from "@/components/CunsultNow/ImplementationStratogy"
@@ -12,10 +13,21 @@ import SectionContact from "@/components/CunsultNow/SectionContact"
 import HomeFaqSection from "../(features)/home/HomeFaqSection"
 import ClientsSection from "../(features)/home/ClientsSection"
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
+import { useEffect, useState } from "react"
 
 
 
 function CunsultNow() {
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
 
 
     const homeFAQs = [
@@ -52,68 +64,80 @@ function CunsultNow() {
     ];
 
     return (
-        <>
-            <div className='bg-black space-y-15 lg:space-y-25'>
-
-                <VerticalHeroBanner
-                    title={"AI Transformation"}
-                    description={"World's first AI-native operating system replacing fragmented applications with unified intelligent execution."}
-                    ctaText="Connect with Us"
-                    ctaUrl="/contact"
-                    breadcrumbItems={[
-                        { label: 'Home', url: '/' },
-                        { label: 'Consult Now', url: '/services' }
-                    ]}
-                    backgroundImage="/images/cunsultnow/cunsultnow-banner.jpg"
-                    contentClass="lg:items-center lg:text-center"
-                    backgroundPosition="center 10px"
-                // backgroundPosition: "center 20px",
-                />
-
-                <div className='bg-black container mx-auto lg:px-10'>
-                    <WhyImplementation />
-                </div>
-
-                <div className='bg-black container mx-auto lg:px-10 '>
-                    <ImplementationStratogy />
-                </div>
+        <html lang="en">
+            <head>
+                <title>AI Consulting Company | Enterprise AI Transformation – iTCart</title>
+                <meta name="description" content="iTCart is one of the leading artificial intelligence consulting companies. We help enterprises integrate, automate, and scale AI transformation - Consult now " />
+                <meta property="og:url" content={`https://itcart.ai/consult-now`} />
+            </head>
 
 
+            <>
+                <div className='bg-black space-y-15 lg:space-y-25'>
 
-                {/* <div className="bg-black rounded-bl-[85px] rounded-br-[85px] lg:px-10 ">
+                    <VerticalHeroBanner
+                        title={"AI Transformation"}
+                        description={"World's first AI-native operating system replacing fragmented applications with unified intelligent execution."}
+                        ctaText="Connect with Us"
+                        ctaUrl="/contact"
+                        breadcrumbItems={[
+                            { label: 'Home', url: '/' },
+                            { label: 'Consult Now', url: '/services' }
+                        ]}
+                        backgroundImage="/images/cunsultnow/cunsultnow-banner.jpg"
+                        contentClass="lg:items-center lg:text-center"
+                        backgroundPosition="center 10px"
+                    // backgroundPosition: "center 20px",
+                    />
+
+                    <div className='bg-black container mx-auto lg:px-10'>
+                        <WhyImplementation />
+                    </div>
+
+                    <div className='bg-black container mx-auto lg:px-10 '>
+                        <ImplementationStratogy />
+                    </div>
+
+
+
+                    {/* <div className="bg-black rounded-bl-[85px] rounded-br-[85px] lg:px-10 ">
                     <ExecutiveLeadersSection
                         execLeaders={executiveLeadership}
                         bgColor="dark"
                     />
                 </div> */}
 
-                {/* <div className="bg-black ">
+                    {/* <div className="bg-black ">
                     <AwardsSection />
                 </div> */}
 
-                <div className="bg-black">
-                    <ClientsSection
-                        title="Trusted by these amazing companies"
-                        logos={logos}
-                    />
-                </div>
-                {/* <div className="bg-black">
+                    <div className="bg-black">
+                        <ClientsSection
+                            title="Trusted by these amazing companies"
+                            logos={logos}
+                        />
+                    </div>
+                    {/* <div className="bg-black">
                     <TestimonialSection bgColor={"dark"} testimonialsData={testimonialsData} />
                 </div> */}
 
-                <div className="bg-black">
-                    <AboutSection />
-                </div>
+                    <div className="bg-black">
+                        <AboutSection />
+                    </div>
 
-                <div className="bg-black">
-                    <SectionContact showContent={""} image="/images/contact/contact-form-img.png" />
-                </div>
+                    <div className="bg-black">
+                        <SectionContact showContent={""} image="/images/contact/contact-form-img.png" />
+                    </div>
 
-            </div>
-            <div className="">
-                <HomeFaqSection faqs={homeFAQs} />
-            </div>
-        </>
+                </div>
+                <div className="">
+                    <HomeFaqSection faqs={homeFAQs} />
+                </div>
+            </>
+
+        </html>
+
+
     )
 }
 export default CunsultNow
