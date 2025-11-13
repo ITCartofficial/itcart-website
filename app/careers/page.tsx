@@ -32,6 +32,7 @@ const Careers: React.FC = () => {
                 <title>Careers – iTCart</title>
                 <meta name="description" content="Join iTCart and be part of an AI-driven journey shaping the future of technology. Discover opportunities where your ideas create real impact." />
                 <meta property="og:url" content={`https://itcart.ai/careers`} />
+                <link rel="canonical" href="https://itcart.ai/careers"></link>
             </head>
 
             <>

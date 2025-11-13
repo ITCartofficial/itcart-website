@@ -39,6 +39,7 @@ const IndustryDetailPage = () => {
                 <meta property="og:description" content={filterdItem?.detailPage?.metaDescription ?? ""} />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={`https://itcart.ai/industry/${pathName}`} />
+                <link rel="canonical" href={`https://itcart.ai/industry/${pathName}`}></link>
             </head>
 
 

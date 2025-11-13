@@ -23,6 +23,7 @@ const OurVerticals = () => {
                 <title>Next-Gen AI Platforms Built for Your Industry’s Future | iTCart</title>
                 <meta name="description" content="Explore AI-driven platforms for BFSI, healthcare, manufacturing, real estate, and more. iTCart’s vertical solutions are built to optimize operations and drive enterprise growth." />
                 <meta property="og:url" content={`https://itcart.ai/our-verticals`} />
+                 <link rel="canonical" href="https://itcart.ai/our-verticals"></link>
             </head>
 
 

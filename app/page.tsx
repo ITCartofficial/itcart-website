@@ -80,6 +80,7 @@ const HomeTemplate = () => {
         <title>Best AI Automation Services & IT Solutions for Enterprises | itcart</title>
         <meta name="description" content="Scale faster with AI automation, RPA services, IT solutions, intelligent process automation, cloud migration, AI consulting, software development & managed IT services globally" />
         <meta property="og:url" content={`https://itcart.ai`} />
+        <link rel="canonical" href="https://itcart.ai"></link>
       </head>
 
 

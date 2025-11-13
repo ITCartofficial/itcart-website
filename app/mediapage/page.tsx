@@ -59,6 +59,7 @@ function MediaPage() {
                 <title>Our Media – iTCart</title>
                 <meta name="description" content="Explore the latest news, media coverage, and press releases from iTCart. Stay updated on our innovations, partnerships, and milestones in the AI and technology space." />
                 <meta property="og:url" content={`https://itcart.ai/mediapage`} />
+                 <link rel="canonical" href="https://itcart.ai/mediapage"></link>
             </head>
 
             <div className='bg-black'>
