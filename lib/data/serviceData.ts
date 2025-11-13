@@ -341,8 +341,8 @@ export const serviceData = [
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: 'AiXQP runs on AiXHub, the core of the AiX Framework—bringing deep AI automation, intelligent decision-making, and scalable performance to your learning experience. ',
-        contenttwo: "Whether you’re a solo learner, training a team, or scaling an institution-wide learning program, AiXQP is ready to grow with you.Shape "
+        contentOne: "AiXHub is the world's first AI-Native Enterprise Operating System engineered to enable governed autonomy, SLA-driven intelligence, and explainable decision execution across business functions like IT, HR, Finance, Legal, and Operations. The essence of AiXHub is core operating principle in all our solutions and services offered under different verticals across industries.",
+        contenttwo: ""
       },
       futurSectionHeading: "Transform Your Applications - Act Now!",
       futurSectionDescription: "Ready to reimagine your business with powerful, intelligent application services that drive growth and operational excellence? ",
@@ -1405,7 +1405,7 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/Digital-Commerce-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "iTCart stands out as a premier digital commerce partner by uniquely combining cutting-edge AI automation with comprehensive e-commerce solutions through our proprietary AiXHub Framework delivering intelligent, adaptive digital commerce platforms. ",
+        contentOne: "iTCart stands out as a premier digital commerce partner by uniquely combining cutting-edge AI automation with comprehensive e-commerce solutions through our proprietary AiXHub  delivering intelligent, adaptive digital commerce platforms. ",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Comprehensive E-Commerce Platform Services Suite',
@@ -1710,7 +1710,7 @@ export const serviceData = [
         {
           image: '/images/services/Digital-Transformation-why-coose-us2.png',
           title: 'Proven Frameworks',
-          content: 'Established methodologies leveraging industry-leading models combined with proprietary AiXHub framework ensuring successful enterprise digital transformation.  '
+          content: 'Established methodologies leveraging industry-leading models combined with proprietary AiXHub  ensuring successful enterprise digital transformation.  '
         },
         {
           image: '/images/services/Digital-Transformation-why-coose-us3.png',

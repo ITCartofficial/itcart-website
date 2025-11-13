@@ -3,9 +3,9 @@ import GradientTitle from "../typography/GradientTitle";
 import Image from "next/image";
 
 const AboutItCart = ({ impactImage,
-    apropriectContentOne,
-    apropriectContenTwo,
-    apropriectContentThree,
+    // apropriectContentOne,
+    // apropriectContenTwo,
+    // apropriectContentThree,
     impacts
 }:
     {
@@ -127,17 +127,18 @@ const AboutItCart = ({ impactImage,
                                 className="text-[30px] sm:text-[25px] md:text-[38px]  text-center lg:w-[90%]"
                             />
 
-                            <p className="text-white text-base md:text-lg leading-relaxed">
+                            {/* <p className="text-white text-base md:text-lg leading-relaxed">
                                 {apropriectContentOne}
-                            </p>
+                            </p> */}
 
                             <p className="text-white text-base md:text-lg leading-relaxed">
-                                {apropriectContenTwo}
+                                AiXHub is the world's first AI-Native Enterprise Operating System engineered to enable governed autonomy, SLA-driven intelligence, and explainable decision execution across business functions like IT, HR, Finance, Legal, and Operations.
+                                The essence of AiXHub is core operating principle in all our solutions and services offered under different verticals across industries.
                             </p>
 
-                            <p className="text-white text-base md:text-lg leading-relaxed">
+                            {/* <p className="text-white text-base md:text-lg leading-relaxed">
                                 {apropriectContentThree}
-                            </p>
+                            </p> */}
                         </div>
 
                         <div className="flex justify-center">

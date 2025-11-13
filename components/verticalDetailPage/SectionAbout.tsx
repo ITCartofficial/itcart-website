@@ -15,7 +15,10 @@ interface SectionAboutProps {
     classNameTwo?: string
 }
 
-const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, contentOne, contenttwo, image, logo, contentthree, contentfour,
+const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className,
+    // contentOne, contenttwo,
+    image, logo,
+    // contentthree, contentfour,
     aboutSectionHeading,
     showLogo, classNameTwo
 }) => {
@@ -36,9 +39,10 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, co
                     }
 
                     <p className="text-[16px] leading-relaxed text-center md:text-start">
-                        {contentOne}
+                        AiXHub is the world's first AI-Native Enterprise Operating System engineered to enable governed autonomy, SLA-driven intelligence, and explainable decision execution across business functions like IT, HR, Finance, Legal, and Operations.
+                        The essence of AiXHub is core operating principle in all our solutions and services offered under different verticals across industries.
                     </p>
-                    <p className="text-[16px] leading-relaxed text-center md:text-start">
+                    {/* <p className="text-[16px] leading-relaxed text-center md:text-start">
                         {contenttwo}
                     </p>
                     <p className="text-[16px] leading-relaxed text-center md:text-start">
@@ -46,7 +50,7 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className, co
                     </p>
                     <p className="text-[16px] leading-relaxed ">
                         {contentfour}
-                    </p>
+                    </p> */}
 
                 </div>
 

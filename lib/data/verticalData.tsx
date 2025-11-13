@@ -720,7 +720,7 @@ export const verticalData = [
             metaTitle: 'AI-Powered Financial Automation Platform | AiXFinTech ',
             metaDescription: ' Automate risk, compliance, and credit scoring with AiXFinTech — an AI-powered financial automation platform built for intelligent banking and digital finance.',
             bannerTitle: "Transforming Financial Services Through AI-Powered Automation",
-            bannerDescription: "Experience digitalized financial services with our AiXHub Framework ",
+            bannerDescription: "Experience digitalized financial services with our AiXHub  ",
             bannerImage: "/images/vertical/AiXFintech-banner.jpg",
             mobileBannerImage: "/images/vertical/AiXFinTech-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Financial Services Digital Revolution',
@@ -745,7 +745,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXFintech-about.png',
                 logo: '/images/vertical/AiXFintech-darklogo.png',
-                contentOne: "AiXFinTech represents the world's first AI-native financial services solution built on the revolutionary AiXHub Framework. Unlike traditional point solutions that add complexity, AiXFinTech replaces fragmented financial technology stacks with unified intelligent execution featuring comprehensive AI-powered financial automation platform capabilities, advanced predictive analytics for finance, and intelligent automation financial services that thinks like a financial expert, acts like a compliance officer, and learns like a risk manager through automated regulatory compliance automation. ",
+                contentOne: "AiXFinTech represents the world's first AI-native financial services solution built on the revolutionary AiXHub . Unlike traditional point solutions that add complexity, AiXFinTech replaces fragmented financial technology stacks with unified intelligent execution featuring comprehensive AI-powered financial automation platform capabilities, advanced predictive analytics for finance, and intelligent automation financial services that thinks like a financial expert, acts like a compliance officer, and learns like a risk manager through automated regulatory compliance automation. ",
                 contenttwo: "",
                 contentthree: ""
 
@@ -1267,7 +1267,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXERP-aboutimage.png',
                 logo: '/images/vertical/AiXERP-darklogo.png',
-                contentOne: "AiXERP transforms traditional enterprise resource planning through iTCart's revolutionary AiXHub Framework, delivering the world's first truly AI-powered ERP platform. Built from the ground up with AI in ERP systems at its core, AiXERP provides comprehensive erp automation software capabilities across cloud based ERP solution architecture that fundamentally reimagines enterprise operations through intelligent erp system technology. ",
+                contentOne: "AiXERP transforms traditional enterprise resource planning through iTCart's revolutionary AiXHub , delivering the world's first truly AI-powered ERP platform. Built from the ground up with AI in ERP systems at its core, AiXERP provides comprehensive erp automation software capabilities across cloud based ERP solution architecture that fundamentally reimagines enterprise operations through intelligent erp system technology. ",
                 contenttwo: "",
                 contentthree: ""
             },
@@ -1386,7 +1386,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXGRC-about.png',
                 logo: '/images/vertical/AiXGRC-darklogo.png',
-                contentOne: "AiXGRC is an AI-powered GRC automation platform built on iTCart's patent-pending AiXHub framework that streamlines governance, simplifies risk management, and automates compliance workflows. This comprehensive compliance automation platform empowers organizations to navigate regulatory shifts through intelligent risk and compliance software, automated compliance software, and compliance monitoring software that transforms governance from reactive to predictive. ",
+                contentOne: "AiXGRC is an AI-powered GRC automation platform built on iTCart's patent-pending AiXHub  that streamlines governance, simplifies risk management, and automates compliance workflows. This comprehensive compliance automation platform empowers organizations to navigate regulatory shifts through intelligent risk and compliance software, automated compliance software, and compliance monitoring software that transforms governance from reactive to predictive. ",
                 contenttwo: ""
             },
             CapabilitySections: [
@@ -1676,7 +1676,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXHEAT-about.png',
                 logo: '/images/vertical/AiXHEAT-darklogo.png',
-                contentOne: "AiXHeat is an AI-native HVAC Operations Platform powered by iTCart's patent-pending AiXHub Framework, transforming reactive heating and cooling systems into intelligent, self-optimizing networks. Unlike fragmented building automation systems, AiXHeat unifies climate control, energy management, predictive maintenance for heavy machinery, and occupancy optimization into a single intelligent platform through comprehensive IoT equipment monitoring system architecture. Built on autonomous AI Personas, it continuously learns from environmental patterns, occupancy behaviors, and equipment performance delivering 35% energy cost reductions while improving comfort levels through advanced asset lifecycle management platform capabilities. ",
+                contentOne: "AiXHeat is an AI-native HVAC Operations Platform powered by iTCart's patent-pending AiXHub , transforming reactive heating and cooling systems into intelligent, self-optimizing networks. Unlike fragmented building automation systems, AiXHeat unifies climate control, energy management, predictive maintenance for heavy machinery, and occupancy optimization into a single intelligent platform through comprehensive IoT equipment monitoring system architecture. Built on autonomous AI Personas, it continuously learns from environmental patterns, occupancy behaviors, and equipment performance delivering 35% energy cost reductions while improving comfort levels through advanced asset lifecycle management platform capabilities. ",
                 contenttwo: "",
                 contentthree: '',
                 contentfour: ''
@@ -1742,7 +1742,7 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'What is AiXHeat and how does it differ from traditional HVAC systems? ',
-                    content: "AiXHeat is an AI-native HVAC Operations Platform that transforms reactive heating and cooling systems into intelligent, self-optimizing networks. Unlike traditional building automation systems that operate in silos, AiXHeat unifies climate control, energy management, predictive maintenance, and occupancy optimization into a single intelligent platform powered by iTCart's patent-pending AiXHub Framework."
+                    content: "AiXHeat is an AI-native HVAC Operations Platform that transforms reactive heating and cooling systems into intelligent, self-optimizing networks. Unlike traditional building automation systems that operate in silos, AiXHeat unifies climate control, energy management, predictive maintenance, and occupancy optimization into a single intelligent platform powered by iTCart's patent-pending AiXHub ."
                 },
                 {
                     id: '2',
@@ -1771,8 +1771,8 @@ export const verticalData = [
                 },
                 {
                     id: '7',
-                    title: 'What makes the AiXHub Framework different? ',
-                    content: "The AiXHub Framework is the world's first AI-native Enterprise Operating System specialized for HVAC operations. Its unified architecture replaces 5-8 traditional HVAC management tools with one system, featuring an Experience Intelligence Loop that continuously learns and optimizes without human intervention. "
+                    title: 'What makes the AiXHub  different? ',
+                    content: "The AiXHub  is the world's first AI-native Enterprise Operating System specialized for HVAC operations. Its unified architecture replaces 5-8 traditional HVAC management tools with one system, featuring an Experience Intelligence Loop that continuously learns and optimizes without human intervention. "
                 },
                 {
                     id: '8',
@@ -1831,7 +1831,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXReality-about.png',
                 logo: '/images/vertical/AiXReality-darkLogo.png',
-                contentOne: "AiXRealty is an AI-native Enterprise Operating System specifically designed for the real estate industry, powered by iTCart's patent-pending AiXHub Framework. Unlike fragmented PropTech solutions, AiXRealty unifies AI property management, tenant relations, transaction processing, and investment analysis into a single intelligent platform through comprehensive smart property management capabilities. Built on autonomous AI Personas, it transforms manual real estate operations into intelligent, self-governing systems featuring ai in property management, predictive analytics for real estate, and real estate workflow automation that think like agents, act like teams, and learn like industry veterans.  ",
+                contentOne: "AiXRealty is an AI-native Enterprise Operating System specifically designed for the real estate industry, powered by iTCart's patent-pending AiXHub . Unlike fragmented PropTech solutions, AiXRealty unifies AI property management, tenant relations, transaction processing, and investment analysis into a single intelligent platform through comprehensive smart property management capabilities. Built on autonomous AI Personas, it transforms manual real estate operations into intelligent, self-governing systems featuring ai in property management, predictive analytics for real estate, and real estate workflow automation that think like agents, act like teams, and learn like industry veterans.  ",
                 contenttwo: "",
                 contentthree: ''
             },
@@ -1958,7 +1958,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXMotersports-about.png',
                 logo: '/images/vertical/AiXMotersports-darklogo.png',
-                contentOne: "AiXMotorSports represents the world’s first AI-native racing operations platform, built on the revolutionary AiXHub Framework Unlike traditional point solutions that add complexity, AiXMotorSports replaces fragmented motorsports technology stacks with unified intelligent execution — featuring AI telemetry data analysis, motorsport performance analytics, and intelligent pit stop management software.These AI-driven systems think like race engineers, act like strategists, and learn like championship teams — helping your crew stay focused on performance, not process.",
+                contentOne: "AiXMotorSports represents the world’s first AI-native racing operations platform, built on the revolutionary AiXHub  Unlike traditional point solutions that add complexity, AiXMotorSports replaces fragmented motorsports technology stacks with unified intelligent execution — featuring AI telemetry data analysis, motorsport performance analytics, and intelligent pit stop management software.These AI-driven systems think like race engineers, act like strategists, and learn like championship teams — helping your crew stay focused on performance, not process.",
                 contenttwo: "",
                 contentthree: ''
             },

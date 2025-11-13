@@ -45,7 +45,7 @@ function EnterPriceGrid() {
     return (
         <div>
             <GradientTitle
-                text={'AiXHub Framework - The Unified Solution for All Your Enterprise Issues'}
+                text={'AiXHub  - The Unified Solution for All Your Enterprise Issues'}
                 theme="dark"
                 className="text-[25px] lg:text-[48px] md:text-[44px] w-[90%] md:w-[60%] text-center  mx-auto leading-[1.2]"
             />

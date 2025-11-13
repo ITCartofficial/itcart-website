@@ -1726,7 +1726,7 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AiXHub EOS Integration ",
-          description: "Built on proprietary AiXHub Framework delivering intelligent automation, predictive insights, and adaptive capabilities through comprehensive supply chain management solutions architecture. ",
+          description: "Built on proprietary AiXHub  delivering intelligent automation, predictive insights, and adaptive capabilities through comprehensive supply chain management solutions architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/SupplyChain/SupplyChooseUs-icon1.svg'
         },
