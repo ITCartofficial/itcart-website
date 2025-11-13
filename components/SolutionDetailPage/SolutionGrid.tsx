@@ -28,7 +28,7 @@ function SolutionGrid({ futurSectionHeading, solutionItems }: SolutionGridProps)
                 />
             </div>
 
-            <div className="min-h-screen bg-black text-white px-4 sm:px-6 lg:px-8">
+            <div className="bg-black text-white px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-15">
                         {solutionItems && solutionItems?.map((industry, index) => (

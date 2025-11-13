@@ -101,8 +101,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart?",
       chooseItems: [
         {
-          title: "AI-Powered Innovation",
-          description: "AiXHub transforms enterprise collaboration with AI-native decision execution, SLA enforcement, and real-time automation intelligence. ",
+          title: "AiXHub EOS Integration",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/AiXHub/AiXHubChooseUs-icon1.svg'
         },
@@ -309,8 +309,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart",
       chooseItems: [
         {
-          title: "AiXHub Framework Integration",
-          description: "Built on proprietary AiXHub Framework delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced document management system architecture. ",
+          title: "AiXHub EOS Integration",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon1.svg'
         },
@@ -322,7 +322,7 @@ export const solutionData = [
         },
         {
           title: "Scalable Growth Architecture",
-          description: "Future-ready infrastructure adapting to evolving business needs supporting organizational growth requirements through cloud document management system and automated document processing capabilities. ",
+          description: "Future-ready infrastructure that adapts to evolving business needs, supporting organizational growth requirements through best workflow automation software and cloud-based automation tools.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon3.svg'
         },
@@ -340,7 +340,7 @@ export const solutionData = [
         },
         {
           title: "Innovation Leadership",
-          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready automated document processing solutions for sustained growth. ",
+          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready customer engagement automation for sustained growth.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon6.svg'
         }
@@ -512,8 +512,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart",
       chooseItems: [
         {
-          title: "AiXHub Framework Integration",
-          description: "Built on proprietary AiXHub Framework delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI for digital transformation architecture. ",
+          title: "AiXHub EOS Integration",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Digital/DigitalChooseUs-icon1.svg'
         },
@@ -543,7 +543,7 @@ export const solutionData = [
         },
         {
           title: "Innovation Leadership",
-          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready process automation platform solutions for sustained growth. ",
+          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready customer engagement automation for sustained growth. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Digital/DigitalChooseUs-icon6.svg'
         }
@@ -715,8 +715,8 @@ export const solutionData = [
       chooseHeading: "Why Choose Us",
       chooseItems: [
         {
-          title: "AiXHub Framework Integration",
-          description: "Built on proprietary AiXHub Framework delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced enterprise automation platform architecture.",
+          title: "AiXHub EOS Integration",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Busines/BussinesChooseUs-icon1.svg'
         },
@@ -746,7 +746,7 @@ export const solutionData = [
         },
         {
           title: "Innovation Leadership",
-          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready AI-powered workflows for sustained growth.",
+          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready customer engagement automation for sustained growth.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Busines/BussinesChooseUs-icon6.svg'
         }
@@ -876,7 +876,7 @@ export const solutionData = [
         {
           id: 1,
           title: "Seamless Onboarding",
-          description: "Complete cloud-based HR software solution featuring automated offer letters, orientation workflows, secure digital employee records management, and comprehensive onboarding processes. This integrated approach ensures new hires experience smooth transitions while maintaining organized, searchable workforce data that stays current and accessible. The system automate HR processes including document collection, verification, and approval workflows with real-time tracking capabilities. ",
+          description: "Complete cloud-based HR software solution featuring automated offer letters, orientation workflows, secure digital employee records management, and comprehensive onboarding processes. This integrated approach ensures new hires experience smooth transitions while maintaining organized, searchable workforce data that stays current and accessible. The system automates HR processes including document collection, verification, and approval workflows with real-time tracking capabilities. ",
           imageSrc: "/images/solutions/Human-Resource-Management-collab1.png",
         },
         {
@@ -918,8 +918,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart? ",
       chooseItems: [
         {
-          title: "AI-Powered Innovation",
-          description: "Proprietary AiXHub Framework delivering intelligent HR digital transformation with advanced automation capabilities, predictive insights, and comprehensive workforce analytics. ",
+          title: "AiXHub EOS Integration",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Human-Resource/HumanChooseUs-icon1.svg'
         },
@@ -931,13 +931,13 @@ export const solutionData = [
         },
         {
           title: "Seamless Integration",
-          description: "Cloud based HR software supporting integration with existing systems through robust APIs, standard protocols, and comprehensive connectivity options. ",
+          description: "Cloud-based HR software supporting integration with existing systems through robust APIs, standard protocols, and comprehensive connectivity options. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Human-Resource/HumanChooseUs-icon3.svg'
         },
         {
           title: "Proven Expertise",
-          description: "20+ years experience in workforce management with comprehensive payroll management software implementation across industries and proven success. ",
+          description: "20+ years of experience in workforce management with comprehensive payroll management software implementation across industries and proven success. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Human-Resource/HumanChooseUs-icon4.svg'
         },
@@ -979,7 +979,7 @@ export const solutionData = [
         },
       ],
       aboutSolutionHeading: 'Trusted Excellence',
-      aboutSolutionDiscription: 'Built by iTCart, recognized leaders in AI automation delivering enterprise-grade cloud based HR software solutions that drive workforce excellence and measurable business success. ',
+      aboutSolutionDiscription: 'Built by iTCart, a recognized leader in AI automation, this solution delivers enterprise-grade cloud-based HR software that drives workforce excellence and measurable business success.',
       aboutSolutionImage: '/images/solutions/Human-Resource-Management-aboutfinal.png',
       futurSectionHeading: "",
       futurSectionDescription: "",
@@ -1013,7 +1013,7 @@ export const solutionData = [
         {
           id: '6',
           title: "How does predictive analytics improve HR decisions?",
-          content: "Our predictive analytics in human resources provides workforce insights, attrition modeling, performance forecasting, and strategic planning capabilities for optimization. "
+          content: "Our predictive analytics in human resources provide workforce insights, attrition modeling, performance forecasting, and strategic planning capabilities for optimization. "
         }
       ]
     }
@@ -1232,13 +1232,13 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Reimagine Control with iTCart's AI-Powered ERP Solutions",
-      bannerDescription: "Transform business operations through cloud ERP platform for enterprises and comprehensive ERP software for businesses.",
+      bannerDescription: "Transform business operations with iTCart’s cloud-based ERP platform built for enterprises of every scale.",
       bannerImage: "/images/solutions/erp-banner.png",
       mobileBannerImage: "/images/solutions/Enterprise-MobileBanner.jpg",
       aboutSectionHeading: 'Enterprise Resource Planning Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/erp-about.png',
-        contentOne: "iTCart's AI-powered ERP solutions transform business operations through comprehensive cloud ERP platform for enterprises, delivering intelligent automation and real-time visibility. Our ERP software for businesses features custom ERP development capabilities, expert ERP consulting for SMEs, and advanced business process automation software that empowers organizations with complete operational control through seamless ERP system integration. ",
+        contentOne: "iTCart’s AI-powered ERP suite transforms business operations with intelligent automation, real-time insights, and seamless integration. Designed for scalability and flexibility, it combines custom development, expert consulting, and advanced process automation to give enterprises complete control over their operations while enhancing efficiency and decision-making.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Business Excellence ',
@@ -1266,12 +1266,12 @@ export const solutionData = [
         },
         {
           title: "Cloud-Native Security",
-          description: "Access ERP anytime, anywhere with enterprise-grade encryption, compliance, and secure ERP system integration capabilities. ",
+          description: "Access ERP anytime, anywhere with enterprise-grade encryption, compliance, and secure system integration capabilities.",
           icon: "/icons/Enterprise/EnterpriseFuture-icon5.svg",
         },
         {
           title: "Custom Development Services",
-          description: "Tailored custom ERP development delivering robust technical solutions and specialized configurations for unique business requirements. ",
+          description: "Tailored custom ERP development, delivering robust technical solutions and specialized configurations for unique business requirements.",
           icon: "/icons/Enterprise/EnterpriseFuture-icon6.svg",
         },
       ],
@@ -1287,13 +1287,13 @@ export const solutionData = [
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Cutting-edge AI-powered ERP solutions including machine learning algorithms, predictive analytics engines, intelligent automation systems, real-time data processing, business intelligence capabilities, and workflow optimization tools enabling proactive business management, strategic planning, operational excellence, and competitive advantage through custom ERP development and business process automation software optimization. ",
+          description: "The advanced ERP software for businesses empowers organizations with end-to-end visibility, AI-driven finance automation, production tracking, project management, HR lifecycle oversight, and unified sales operations. Built on a comprehensive cloud ERP platform for enterprises, it delivers measurable business value through streamlined processes, data-backed decisions, and accelerated growth.",
           imageSrc: "/images/solutions/erp-collab2.png",
         },
         {
           id: 3,
           title: "Integration Excellence",
-          description: "Comprehensive connectivity supporting CRM, BI, HRMS, SCM, IoT systems through robust APIs, cloud ERP platform for enterprises architecture, enterprise-grade security controls, seamless data synchronization, and comprehensive audit capabilities ensuring operational continuity, scalable growth, and protected business operations with ERP system integration and real-time connectivity across all enterprise applications. ",
+          description: "Seamless connectivity supporting CRM, BI, HRMS, SCM, IoT systems through robust APIs, cloud ERP platform for enterprises architecture, enterprise-grade security controls, seamless data synchronization, and comprehensive audit capabilities ensuring operational continuity, scalable growth, and protected business operations with ERP system integration and real-time connectivity across all enterprise applications. ",
           imageSrc: "/images/solutions/erp-collab3.png",
         },
       ],
@@ -1323,8 +1323,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart?",
       chooseItems: [
         {
-          title: "AiX Framework Integration",
-          description: "Built on proprietary AiXHub Framework delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP solutions architecture. ",
+          title: "AiXHub EOS Integration",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Enterprise/EnterpriseChooseUs-icon1.svg'
         },
@@ -1348,7 +1348,7 @@ export const solutionData = [
         },
         {
           title: "Scalable Growth Architecture",
-          description: "Future-ready cloud ERP platform for enterprises adapting to evolving business needs supporting organizational growth through modular expansion capabilities. ",
+          description: "Future-ready, cloud-based ERP platform for enterprises adapting to evolving business needs supporting organizational growth through modular expansion capabilities.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Enterprise/EnterpriseChooseUs-icon5.svg'
         },
@@ -1380,12 +1380,12 @@ export const solutionData = [
           label: "Data accuracy improvement delivered ",
         },
         {
-          percentage: "0",
+          percentage: "0%",
           label: "System downtime across implementations",
         },
       ],
       aboutSolutionHeading: 'Trusted Excellence',
-      aboutSolutionDiscription: 'Built by iTCart, recognized leaders in AI automation delivering enterprise-grade ERP software for businesses that drive operational excellence and measurable business success. ',
+      aboutSolutionDiscription: 'Built by iTCart, a recognized leader in AI automation delivering enterprise-grade ERP solutions that drive measurable business success.',
       aboutSolutionImage: '/images/solutions/erp-aboutfinal.png',
       futurSectionHeading: "",
       futurSectionDescription: "",
@@ -1414,7 +1414,7 @@ export const solutionData = [
         {
           id: '5',
           title: "What industries do you serve with ERP solutions?",
-          content: "Our ERP software for businesses spans manufacturing, financial services, healthcare, retail, and technology sectors with industry-specific modules and custom ERP development capabilities."
+          content: "Our ERP software spans manufacturing, financial services, healthcare, retail, and technology sectors with industry-specific modules and custom ERP development capabilities."
         },
         
       ]
@@ -1437,7 +1437,7 @@ export const solutionData = [
       aboutSectionHeading: 'Intelligent CRM for Modern Businesses',
       aboutSection: {
         aboutImage: '/images/solutions/crm-about.png',
-        contentOne: "iTCart's AI-powered customer relationship management system transforms disconnected touchpoints into unified customer experiences through advanced marketing automation and CRM capabilities that deliver personalized engagement and predictive customer lifecycle management excellence. ",
+        contentOne: "iTCart’s AI-powered customer relationship management system unifies every customer touchpoint through advanced marketing automation and predictive lifecycle management — delivering personalized engagement and measurable business growth.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Customer Excellence',
@@ -1450,7 +1450,7 @@ export const solutionData = [
         },
         {
           title: "Unified Sales Marketing",
-          description: "Synchronized pipeline management with intelligent dashboards powered by comprehensive marketing automation and CRM integration capabilities. ",
+          description: "Synchronized pipeline management with intelligent dashboards powered by integrated CRM workflows.",
           icon: "/icons/Customer/CustomerFuture-icon2.svg",
         },
         {
@@ -1486,7 +1486,7 @@ export const solutionData = [
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Cutting-edge predictive customer analytics capabilities including machine learning algorithms, customer journey analysis engines, automated lead nurturing systems, intelligent decision-making platforms, real-time behavior tracking, and marketing automation and CRM features enabling proactive customer management, strategic planning, competitive advantage, and operational excellence through data-driven insights and personalized engagement strategies. ",
+          description: "Our advanced customer relationship management system features AI-powered intelligence, unified sales and marketing platforms, and real-time engagement tracking. It delivers measurable business value through improved conversion rates, personalized customer experiences, and stronger customer retention across enterprise environments. ",
           imageSrc: "/images/solutions/crm-collab2.png",
         },
         {
@@ -1522,8 +1522,8 @@ export const solutionData = [
       chooseHeading: "Why Choose Us ",
       chooseItems: [
         {
-          title: "AiXHub Framework Integration",
-          description: "Built on proprietary AiXHub Framework delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced customer relationship management system architecture. ",
+          title: "AiXHub EOS Integration",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon:'/icons/Customer/CustomerChooseUs-icon1.svg'
         },
@@ -1553,7 +1553,7 @@ export const solutionData = [
         },
         {
           title: "Innovation Leadership",
-          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready lead nurturing marketing automation for sustained growth. ",
+          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready customer engagement automation for sustained growth.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon:'/icons/Customer/CustomerChooseUs-icon1.svg'
         }
@@ -1578,7 +1578,7 @@ export const solutionData = [
           label: "Customer data accuracy improvement",
         },
         {
-          percentage: "0",
+          percentage: "0%",
           label: "Security breaches across implementations ",
         },
       ],
@@ -1639,7 +1639,7 @@ export const solutionData = [
       aboutSectionHeading: 'Revolutionary Supply Chain Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Supply-Chain-Management-about.png',
-        contentOne: "Modern enterprises need comprehensive supply chain management solutions featuring supplier relationship management software, supply chain management platform, supply chain automation software, demand forecasting software, logistics automation software, and warehouse management software to enable digital transformation. ",
+        contentOne: "Modern enterprises need intelligent supply chain management solutions integrating supplier management, logistics automation, demand forecasting, and warehouse optimization—enabling seamless digital transformation.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Supply Chain Excellence',
@@ -1682,13 +1682,13 @@ export const solutionData = [
         {
           id: 1,
           title: "Core Functionality",
-          description: "Advanced supply chain management solutions featuring AI-driven demand forecasting software, real-time inventory tracking, automated procurement processes, intelligent logistics optimization through logistics automation software, comprehensive supplier relationship management software, and integrated warehouse management software delivering measurable business value through streamlined operations, enhanced visibility, and improved efficiency across the entire supply chain ecosystem with predictive analytics capabilities supporting complete digital transformation initiatives. ",
+          description: "Advanced supply chain management solutions featuring AI-driven demand forecasting system, real-time inventory tracking, automated procurement processes, intelligent logistics optimization through logistics automation solution, comprehensive supplier relationship management platform, and integrated warehouse management system delivering measurable business value through streamlined operations, enhanced visibility, and improved efficiency across the entire supply chain ecosystem with predictive analytics capabilities supporting complete digital transformation initiatives.",
           imageSrc: "/images/solutions/Supply-Chain-Management-collab1.png",
         },
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Cutting-edge supply chain automation software capabilities including predictive analytics algorithms, machine learning demand forecasting software, IoT sensor integration, automated decision-making systems, intelligent risk assessment through supplier relationship management software, and real-time optimization engines enabling proactive management, strategic planning, competitive advantage, and operational excellence through data-driven insights. The comprehensive supply chain management platform ensures seamless integration with automated workflows supporting enhanced productivity and efficiency across all organizational levels. ",
+          description: "Cutting-edge supply chain automation solutions including predictive analytics algorithms, machine learning demand forecasting systems, IoT sensor integration, automated decision-making systems, intelligent risk assessment through supplier relationship management platform, and real-time optimization engines enabling proactive management, strategic planning, competitive advantage, and operational excellence through data-driven insights. The comprehensive supply chain management platform ensures seamless integration with automated workflows supporting enhanced productivity and efficiency across all organizational levels. ",
           imageSrc: "/images/solutions/Supply-Chain-Management-collab2.png",
         },
         {
@@ -1702,7 +1702,7 @@ export const solutionData = [
       solutionGridHeading: 'Supply Chain Transformation Across Industries',
       solutionGridItems: [
         {
-          title: "Manufacturing Industrial",
+          title: "Smart Manufacturing",
           description: "Optimized production planning and inventory management with predictive maintenance capabilities through comprehensive warehouse management software integration. ",
           image: "/images/solutions/Supply-Chain-Management-solution1.png"
         },
@@ -1725,7 +1725,7 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart?",
       chooseItems: [
         {
-          title: "AiXHub Integration",
+          title: "AiXHub EOS Integration ",
           description: "Built on proprietary AiXHub Framework delivering intelligent automation, predictive insights, and adaptive capabilities through comprehensive supply chain management solutions architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/SupplyChain/SupplyChooseUs-icon1.svg'
@@ -1756,7 +1756,7 @@ export const solutionData = [
         },
         {
           title: "Innovation Leadership",
-          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready technology solutions for sustained growth. ",
+          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready customer engagement automation for sustained growth. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/SupplyChain/SupplyChooseUs-icon6.svg'
         }
@@ -1797,9 +1797,9 @@ export const solutionData = [
           id: '1',
           title: "What makes iTCart's supply chain management software different?",
           content:
-            "Our supply chain management solutions integrate comprehensive supplier relationship management software with modular architecture, delivering AI-powered demand forecasting software and warehouse management software capabilities."
+            "Our supply chain management solutions combine supplier management, modular architecture, AI-powered demand forecasting, and warehouse optimization capabilities."
         },
-        {
+        { 
           id: '2',
           title: "How long does supply chain transformation typically take?",
           content:
@@ -1850,28 +1850,28 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "AI-Powered Logistics Management Solutions",
-      bannerDescription: "Deliver smarter through comprehensive logistics digital transformation solutions excellence",
+      bannerDescription: "Deliver smarter through comprehensive logistics digital transformation solutions excellence.",
       bannerImage: "/images/solutions/Logistics-Management-banner.png",
       mobileBannerImage: "/images/solutions/Logistics-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary Logistics Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Logistics-Management-about.png',
-        contentOne: "Modern logistics operations need comprehensive warehouse management system featuring AI in logistics industry, logistics digital transformation solutions, logistics process automation software, AI fleet management solutions, logistics data analytics and insights, logistics management system, and centralized logistics system capabilities. ",
+        contentOne: "Modern logistics operations need a comprehensive warehouse management system powered by AI, integrating digital logistics transformation, automation, fleet management, analytics, and centralized system capabilities.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Logistics Excellence',
-      futureGridDiscription: "Comprehensive capabilities designed for intelligent logistics transformation ",
+      futureGridDiscription: "ore capabilities engineered for intelligent logistics evolution.",
       futureItems: [
         {
           title: "Route Optimization",
           description:
-            "AI-generated shortest delivery paths through comprehensive logistics process automation software technology.",
+            "AI-generated shortest delivery paths through intelligent logistics automation.",
           icon: "/icons/Logistics/LogisticsFuture-icon1.svg",
         },
         {
           title: "Real-Time Tracking",
           description:
-            "GPS-enabled shipment monitoring via advanced logistics management system with instant alerts.",
+            "GPS-enabled shipment monitoring via an advanced logistics management system with instant alerts.",
           icon: "/icons/Logistics/LogisticsFuture-icon2.svg",
         },
         {
@@ -1952,9 +1952,9 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart?",
       chooseItems: [
         {
-          title: "AI-Powered Innovation",
+          title: "AiXHub EOS Integration",
           description:
-            "Revolutionary artificial intelligence capabilities transforming logistics operations through comprehensive AI in logistics industry solutions with predictive analytics and intelligent automation.",
+            "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]",
           icon: "/icons/Logistics/LogisticsChooseUs-icon1.svg",
         },
