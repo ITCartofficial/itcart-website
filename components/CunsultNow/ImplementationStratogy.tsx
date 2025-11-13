@@ -49,7 +49,7 @@ function ImplementationStratogy() {
         },
         {
             title: "Competitive Advantage Establishment",
-            description: "Patent-protected framework positioning for sustainable market leadership through unified AI execution. ",
+            description: "Proprietary AI-Native EOS positioning for sustainable market leadership through unified AI execution. ",
             gradient: "from-[#222222] to-[#111111]", // dark
             icon: '/images/cunsultnow/Competitive-Advantage-Establishment.png'
         }

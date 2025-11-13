@@ -29,7 +29,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXHub-about.png',
                 logo: '/images/vertical/AiXHub-darklogo.png',
-                contentOne: "AiXHub transforms modern organizations through the world’s first AI-native operating system, combining enterprise automation, workflow orchestration, and AI-powered decision execution into one cohesive environment. Built on patent-protected architecture, it enables autonomous collaboration, governed task management, and real-time analytics. This unified platform replaces legacy intranet models with intelligent orchestration—reducing operational costs by 30% and improving workforce engagement by over 200%, while maintaining enterprise-grade compliance.",
+                contentOne: "AiXHub transforms modern organizations through the world’s first AI-native operating system, combining enterprise automation, workflow orchestration, and AI-powered decision execution into one cohesive environment. Built on patent-applied architecture, it enables autonomous collaboration, governed task management, and real-time analytics. This unified platform replaces legacy intranet models with intelligent orchestration—reducing operational costs by 30% and improving workforce engagement by over 200%, while maintaining enterprise-grade compliance.",
                 contenttwo: ""
             },
 
