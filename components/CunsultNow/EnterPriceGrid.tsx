@@ -51,7 +51,7 @@ function EnterPriceGrid() {
             />
 
             <BodyText
-                text={"The world's first AI-native Enterprise Operating System replacing fragmented software stacks with patent-protected unified intelligent execution. Our ai powered digital transformation platform represents the next evolution beyond traditional solutions offered by other artificial intelligence consulting companies."}
+                text={"The world's first AI-native Enterprise Operating System replacing fragmented software stacks with patent-pending unified intelligent execution. Our ai powered digital transformation platform represents the next evolution beyond traditional solutions offered by other artificial intelligence consulting companies."}
                 color="#ffffff"
                 className="text-sm sm:text-base md:text-lg my-2 text-center  md:w-[70%] w-[90%] mx-auto"
             />
