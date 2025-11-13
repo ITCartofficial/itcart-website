@@ -61,7 +61,7 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                         Headquartered in Bengaluru, India’s Silicon Valley, and spanning
                         across innovation hubs in the USA, UK, KSA, UAE, and LATAM, iTCart stands at the
                         forefront of AI-powered digital transformation. We don’t follow trends; we create them.
-                        With a relentless focus on AI-driven disruption, iTCart’s Patent-pending AIX Framework
+                        With a relentless focus on AI-driven disruption, iTCart’s Patent-pending AiXHub EOS
                         serves as the backbone of a new era of efficiency, innovation, and scalability.
                         This proprietary technology isn’t just a tool – it’s a paradigm shift. From automating
                         complex workflows to unlocking hyper-personalized insights with Generative AI, our solutions

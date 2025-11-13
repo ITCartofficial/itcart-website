@@ -30,7 +30,8 @@ function AboutSection() {
                     <p className="text-gray-300 text-base leading-relaxed">
                         Ready to join global organizations achieving up to
                         300% ROI through unified AI execution?
-                        AiXHub  offers the most comprehensive
+                        <br />
+                        AiXHub EOS offers the most comprehensive
                         enterprise transformation opportunity of the past decade. Our AI business consulting methodology
                         transforms fragmented operations into intelligent, autonomous systems that think like humans, act like teams,
                         and learn like enterprise leaders.

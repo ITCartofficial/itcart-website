@@ -28,7 +28,7 @@ export default function Page() {
 
             <div className='bg-black'>
                 <HeroBanner title="Our Industry"
-                    description="Our company showcases expertise across tech, healthcare, finance, and e-commerce industries. Specializing in software development, cybersecurity, healthcare IT, fintech, and e-commerce solutions, we deliver Automation innovation and tailored services to optimize operations and bolster client growth in these sectors."
+                    description="Our company showcases expertise across tech, healthcare, finance, and e-commerce industries. Specializing in software development, cybersecurity, healthcare IT, fintech, and e-commerce solutions, we deliver automation innovation and tailored services to optimize operations and bolster client growth in these sectors."
                     ctaText="Connect with Us"
                     ctaUrl="/contact-us"
                     breadcrumbItems={[
