@@ -570,6 +570,7 @@ export const industryData = [
           content: "Our comprehensive approach integrates digital banking transformation services capabilities with proven artificial intelligence in banking methodologies, delivering measurable results through advanced artificial intelligence in financial services, automation in banking and financial services, and AI for commercial banking solutions ensuring competitive advantage."
         },
         {
+          
           id: '2',
           title: 'How do digital banking transformation services improve operations? ',
           content: 'Digital banking transformation services applications optimize customer experiences, enhance operational workflows, streamline compliance processes, and improve service delivery through banking automation solutions and real-time operational insights delivering financial excellence.'
