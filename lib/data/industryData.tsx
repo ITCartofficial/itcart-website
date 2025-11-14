@@ -1081,7 +1081,7 @@ export const industryData = [
           title: "Construction Intelligence Platform",
           description: "Automated project coordination, quality control, safety monitoring, and optimization through comprehensive automation in construction industry solutions. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/issuesEnginearingImages/engineeringsolutionfive.png'
+          image: '/images/issuesEnginearingImages/engineeringsolution5.png'
         },
         {
           title: "Analytics Dashboard",
