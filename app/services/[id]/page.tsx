@@ -141,10 +141,11 @@ const ServicesDetailPage = () => {
                             classNameTwo='md:text-[48px] text-[30px]'
                             showLogo={true}
                             aboutProduct={true}
-                            contentOne={filterdItem?.detailPage?.aboutSection2?.contentOne ?? ""}
-                            contenttwo={filterdItem?.detailPage?.aboutSection2?.contenttwo ?? ""}
-                            contentthree={(filterdItem?.detailPage?.aboutSection2 as unknown as { contentthree?: string })?.contentthree ?? ""}
-                            contentfour={(filterdItem?.detailPage?.aboutSection2 as unknown as { contentfour?: string })?.contentfour ?? ""}
+                            contentOne={"AiXHub is the world's first AI-Native Enterprise Operating System engineered to enable governed autonomy, SLA-driven intelligence, and explainable decision execution across business functions like IT, HR, Finance, Legal, and Operations. The essence of AiXHub is core operating principle in all our solutions and services offered under different verticals across industries."}
+                            // contentOne={filterdItem?.detailPage?.aboutSection2?.contentOne ?? ""}
+                            contenttwo={""}
+                            contentthree={""}
+                            contentfour={""}
                             aboutSectionHeading={filterdItem?.detailPage?.aboutSection2Heading ?? ""}
                             image={"/images/services/serviceaboutfinal.png"}
                             logo={filterdItem?.detailPage?.aboutSection?.logo ?? ""}
