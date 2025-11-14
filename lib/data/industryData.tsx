@@ -1057,37 +1057,37 @@ export const industryData = [
           title: "Project Management Platform",
           description: "Comprehensive construction management solutions with schedule tracking, budget monitoring, resource planning, and project performance management systems. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/issuesEnginearingImages/Engineeringsolution1.png'
+          image: '/images/issuesEnginearingImages/Engineeringsolution1.png'
         },
         {
           title: "Predictive Analytics Suite",
           description: "Advanced predictive analytics for construction featuring risk assessment, cost forecasting, timeline prediction, and optimization coordination systems. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/issuesEnginearingImages/engineeringsolution2.png'
+          image: '/images/issuesEnginearingImages/engineeringsolution2.png'
         },
         {
           title: "Process Automation Engine",
           description: "Integrated engineering process automation with AI capabilities through workflow optimization applications and performance analytics. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/issuesEnginearingImages/engineeringsolution3image.png'
+          image: '/images/issuesEnginearingImages/engineeringsolution3image.png'
         },
         {
           title: "Resource Management System",
           description: "Dynamic engineering resource management solutions utilizing AI algorithms for workforce planning, equipment allocation, and comprehensive operational intelligence. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/issuesEnginearingImages/engineeringsolution4image.png'
+          image: '/images/issuesEnginearingImages/engineeringsolution4image.png'
         },
         {
           title: "Construction Intelligence Platform",
           description: "Automated project coordination, quality control, safety monitoring, and optimization through comprehensive automation in construction industry solutions. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/issuesEnginearingImages/engineeringsolution5image.png'
+          image: '/images/issuesEnginearingImages/engineeringsolution5image.png'
         },
         {
           title: "Analytics Dashboard",
           description: "Connected predictive analytics for construction with performance metrics, project insights, trend analysis, and operational excellence coordination. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/issuesEnginearingImages/engineeringsolution6image.png'
+          image: '/images/issuesEnginearingImages/engineeringsolution6image.png'
         }
       ],
       whyChooseUsHeading: 'Our Services',
