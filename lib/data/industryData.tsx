@@ -1063,31 +1063,31 @@ export const industryData = [
           title: "Predictive Analytics Suite",
           description: "Advanced predictive analytics for construction featuring risk assessment, cost forecasting, timeline prediction, and optimization coordination systems. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/engineering-solution2.png'
+          image: '/images/industries/engineering-solution2image.png'
         },
         {
           title: "Process Automation Engine",
           description: "Integrated engineering process automation with AI capabilities through workflow optimization applications and performance analytics. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/engineering-solution3.png'
+          image: '/images/industries/engineering-solution3image.png'
         },
         {
           title: "Resource Management System",
           description: "Dynamic engineering resource management solutions utilizing AI algorithms for workforce planning, equipment allocation, and comprehensive operational intelligence. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/engineering-solution4.png'
+          image: '/images/industries/engineering-solution4image.png'
         },
         {
           title: "Construction Intelligence Platform",
           description: "Automated project coordination, quality control, safety monitoring, and optimization through comprehensive automation in construction industry solutions. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/engineering-solution5.png'
+          image: '/images/industries/engineering-solution5image.png'
         },
         {
           title: "Analytics Dashboard",
           description: "Connected predictive analytics for construction with performance metrics, project insights, trend analysis, and operational excellence coordination. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/engineering-solution6.png'
+          image: '/images/industries/engineering-solution6image.png'
         }
       ],
       whyChooseUsHeading: 'Our Services',
