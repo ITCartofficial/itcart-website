@@ -3,9 +3,9 @@ import GradientTitle from "../typography/GradientTitle";
 import Image from "next/image";
 
 const AboutItCart = ({ impactImage,
-    apropriectContentOne,
-    apropriectContenTwo,
-    apropriectContentThree,
+    // apropriectContentOne,
+    // apropriectContenTwo,
+    // apropriectContentThree,
     impacts
 }:
     {
