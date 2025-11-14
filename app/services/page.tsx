@@ -31,7 +31,7 @@ const Services = () => {
 
             <div className='bg-black'>
                 <HeroBanner title="Our Services"
-                    description="IT Cart offers a wide range of carefully curated services designed to empower businesses across industries. From advanced application development to robust cybersecurity solutions, we help unlock your enterprise's full potential. With a focus on innovation, efficiency, and security, we enable businesses to thrive in today's dynamic market."
+                    description="Experience a complete suite of AI-powered services engineered to accelerate digital transformation and drive sustainable growth for modern enterprises. From cloud and cybersecurity to analytics, automation, and managed IT, iTCart empowers your business with advanced technology expertise and industry-best solutions for maximum impact at every stage."
                     ctaText="Connect with Us"
                     ctaUrl="/contact-us"
                     breadcrumbItems={[

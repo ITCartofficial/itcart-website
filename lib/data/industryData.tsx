@@ -637,7 +637,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Digital-icon2.svg',
           title: "Automation Innovation",
-          highlight: "Comprehensive marketing automation software featuring customer journey automation, lead nurturing, and continuous technological advancement through solutions. ",
+          highlight: "Comprehensive marketing automation software featuring customer journey automation, lead nurturing, and continuous technological advancement. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -651,7 +651,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Digital-icon4.svg',
           title: "Connected Marketing",
-          highlight: "Advanced omnichannel marketing automation enabling seamless integration through digital marketing software solutions excellence and automation services. ",
+          highlight: "Advanced omnichannel marketing automation enabling seamless integration through digital marketing software solutions and automation services.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -673,13 +673,13 @@ export const industryData = [
         },
         {
           title: "Customer Journey Engine",
-          description: "Integrated customer journey automation with personalization algorithms through b2b marketing automation platforms applications and behavioral analytics. ",
+          description: "Integrated customer journey automation with personalization algorithms through B2B marketing automation platform applications and behavioral analytics.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/digitalmarketing-solution3.png'
         },
         {
           title: "Analytics Intelligence System",
-          description: "Dynamic marketing analytics utilizing AI algorithms for campaign insights, conversion forecasting, and comprehensive business intelligence. ",
+          description: "Dynamic marketing analytics utilizing AI algorithms,for campaign insights, conversion forecasting, and comprehensive business intelligence. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/digitalmarketing-solution4.png'
         },
@@ -702,7 +702,7 @@ export const industryData = [
         {
           image: '/images/industries/service1.png',
           title: 'Cybersecurity Services ',
-          content: ' Enterprise-level security protecting customer data, marketing systems, and campaign infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all marketing touchpoints.'
+          content: ' Enterprise-level security protecting customer data, marketing systems, and campaign infrastructure through comprehensive cybersecurity frameworks that ensure regulatory compliance and threat protection across all marketing touchpoints.'
         },
         {
           image: '/images/industries/service2.png',
@@ -720,7 +720,7 @@ export const industryData = [
       CapabilitySections: [
         {
           title: "Business Process Automation ",
-          description: "Intelligent workflow automation for marketing campaign execution, content approval processes, lead qualification procedures, and customer engagement through automated business workflows. ",
+          description: "Intelligent workflow automation for marketing campaign execution, content approval processes, lead qualification procedures, and customer engagement through automated-business workflows.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
@@ -784,7 +784,7 @@ export const industryData = [
         {
           id: '5',
           title: "What b2b marketing automation platforms services do you offer?",
-          content: "Our b2b marketing automation platforms encompass lead management systems, sales enablement tools, account-based marketing solutions, pipeline automation, and comprehensive analytics through integrated marketing software delivering business improvements."
+          content: "Our B2B marketing automation platforms encompass lead management systems, sales enablement tools, account-based marketing solutions, pipeline automation, and comprehensive analytics through integrated marketing software that deliver business improvements."
         },
         {
           id: '6',
@@ -806,11 +806,11 @@ export const industryData = [
     imageSrc: "/images/industries/Education.png",
     detailPage: {
       metaTitle: 'AI-Powered Education Platform & LMS Solutions | iTCart ',
-      metaDescription: 'Leading EdTech solution provider iTCart offers AI learning platforms, LMS systems, and educational automation. Transform teaching and learning outcomes. ',
+      metaDescription: 'LeadingEdTech solution provider iTCart offers AI learning platforms, LMS systems, and educational automation. Transform teaching and learning outcomes. ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "AI Learning Platform Excellence",
-      bannerDescription: "Empowering best online edtech solution providers through comprehensive education technology solutions and services",
+      bannerDescription: "Empowering best onlineEdTech solution providers,through comprehensive education technology solutions and services",
       bannerImage: "/images/industries/Education-Banner.jpg",
       mobileBannerImage: "/images/industries/Education-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -818,7 +818,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/education-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The education sector faces complex challenges including digital transformation in education, student engagement, and administrative efficiency. Modern educational institutions require robust AI learning platform infrastructure enabling comprehensive digital learning platforms. iTCart delivers comprehensive education technology solutions and services through innovative frameworks and best online edtech solution providers methodologies. ",
+        contentOne: "The education sector faces complex challenges, including digital transformation, student engagement, and administrative efficiency. Modern educational institutions require robust AI learning-platform infrastructure that enables comprehensive digital learning systems. iTCart delivers comprehensive education technology solutions and services through innovative methodologies and best-in-classEdTech practices.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Educational Technology Excellence',
@@ -834,21 +834,21 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Education-icon2.svg',
           title: "Digital Innovation",
-          highlight: "Comprehensive digital learning platforms featuring interactive content, virtual classrooms, and continuous technological advancement through best solutions. ",
+          highlight: "Comprehensive digital learning platforms featuring interactive content, virtual classrooms, and continuous technological advancement through industry-leading solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Education-icon3.svg',
           title: "Educational Analytics",
-          highlight: "Real-time data analysis utilizing predictive insights for academic performance monitoring and proactive intervention optimization strategies. ",
+          highlight: "Real-time data analysis utilizing predictive insights, for academic performance monitoring and proactive intervention optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Education-icon4.svg',
           title: "Connected Education",
-          highlight: "Advanced education technology solutions and services enabling seamless collaboration through digital transformation in education excellence methodologies. ",
+          highlight: "Advanced education technology solutions and services enabling seamless collaboration through advanced digital-transformation methodologies in education. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -870,7 +870,7 @@ export const industryData = [
         },
         {
           title: "Student Information Engine",
-          description: "Integrated enrollment management with academic records through best online edtech solution providers applications and administrative automation. ",
+          description: "Integrated enrollment management and academic-records handling through advancedEdTech applications and administrative automation.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/education-solution3.png'
         },
@@ -904,7 +904,7 @@ export const industryData = [
         {
           image: '/images/industries/service2.png',
           title: 'Application Services',
-          content: 'Custom development for learning management platforms, student information systems, and educational solutions through innovative education technology solutions and services enabling digital transformation and enhanced efficiency. '
+          content: 'Custom development for learning management platforms, student information systems, and educational solutions through innovative education-technology services that enable digital transformation and enhanced efficiency.'
         },
         {
           image: '/images/industries/service3.png',
@@ -921,7 +921,7 @@ export const industryData = [
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Enterprise Resource Planning (",
+          title: "Enterprise Resource Planning (ERP)",
           description: "Comprehensive integrated educational operations management including financial planning, resource allocation, budget management, strategic planning, and enterprise-wide institutional coordination solutions.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
@@ -961,7 +961,7 @@ export const industryData = [
         {
           id: '1',
           title: "What makes iTCart's education technology solutions and services different",
-          content: "Our comprehensive approach integrates AI learning platform capabilities with proven digital transformation in education methodologies, delivering measurable results through advanced digital learning platforms and best online edtech solution providers ensuring competitive advantage."
+          content: "Our comprehensive approach integrates AI learning platform capabilities with proven digital transformation in education methodologies, delivering measurable results through advanced digital learning platforms and best onlineEdTech solution providers ensuring competitive advantage."
         },
         {
           id: '2',
@@ -1007,7 +1007,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Automation in Construction Industry Excellence",
-      bannerDescription: "Empowering modern construction through comprehensive construction management solutions and engineering process automation with AI",
+      bannerDescription: "Empowering modern construction through comprehensive construction-management solutions and AI-driven engineering process automation",
       bannerImage: "/images/industries/Engineering-&-Construction-Banner.jpg",
       mobileBannerImage: "/images/industries/Engineering-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -1015,7 +1015,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/Engineering-sectionimage.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The engineering and construction sector faces complex challenges including project delays, cost overruns, and resource management. Modern construction companies require robust automation in construction industry infrastructure enabling comprehensive construction management solutions, predictive analytics for construction, engineering process automation with AI, and engineering resource management solutions. iTCart delivers intelligent construction technologies through innovative automation frameworks and comprehensive project management. ",
+        contentOne: "The engineering and construction sector faces complex challenges including project delays, cost overruns, and resource management. Modern construction companies require robust automation-in-construction infrastructure that enables comprehensive construction-management solutions, predictive analytics, AI-driven engineering-process automation, and engineering-resource management. iTCart delivers intelligent construction technologies through innovative automation frameworks and comprehensive project management.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Construction Technology Excellence',
