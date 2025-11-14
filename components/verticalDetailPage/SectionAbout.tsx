@@ -16,9 +16,9 @@ interface SectionAboutProps {
 }
 
 const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className,
-    // contentOne, contenttwo,
+    contentOne, contenttwo,
     image, logo,
-    // contentthree, contentfour,
+    contentthree, contentfour,
     aboutSectionHeading,
     showLogo, classNameTwo
 }) => {
@@ -39,10 +39,11 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className,
                     }
 
                     <p className="text-[16px] leading-relaxed text-center md:text-start">
-                        AiXHub is the world's first AI-Native Enterprise Operating System engineered to enable governed autonomy, SLA-driven intelligence, and explainable decision execution across business functions like IT, HR, Finance, Legal, and Operations.
-                        The essence of AiXHub is core operating principle in all our solutions and services offered under different verticals across industries.
+                        {contentOne}
+                        {/* AiXHub is the world's first AI-Native Enterprise Operating System engineered to enable governed autonomy, SLA-driven intelligence, and explainable decision execution across business functions like IT, HR, Finance, Legal, and Operations.
+                        The essence of AiXHub is core operating principle in all our solutions and services offered under different verticals across industries. */}
                     </p>
-                    {/* <p className="text-[16px] leading-relaxed text-center md:text-start">
+                    <p className="text-[16px] leading-relaxed text-center md:text-start">
                         {contenttwo}
                     </p>
                     <p className="text-[16px] leading-relaxed text-center md:text-start">
@@ -50,7 +51,7 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className,
                     </p>
                     <p className="text-[16px] leading-relaxed ">
                         {contentfour}
-                    </p> */}
+                    </p>
 
                 </div>
 
@@ -79,7 +80,7 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className,
 
 
             </div>
-        </section>
+        </section >
     );
 };
 
