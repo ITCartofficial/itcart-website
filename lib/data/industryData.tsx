@@ -1057,7 +1057,7 @@ export const industryData = [
           title: "Project Management Platform",
           description: "Comprehensive construction management solutions with schedule tracking, budget monitoring, resource planning, and project performance management systems. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/industries/engineering-solution1.png'
+          image: '/images/industries/Engineering-solution1image.png'
         },
         {
           title: "Predictive Analytics Suite",
