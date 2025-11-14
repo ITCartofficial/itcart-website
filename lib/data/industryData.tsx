@@ -1069,25 +1069,25 @@ export const industryData = [
           title: "Process Automation Engine",
           description: "Integrated engineering process automation with AI capabilities through workflow optimization applications and performance analytics. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/issuesEnginearingImages/engineeringsolution3image.png'
+          image: '/images/issuesEnginearingImages/engineeringsolutionthree.png'
         },
         {
           title: "Resource Management System",
           description: "Dynamic engineering resource management solutions utilizing AI algorithms for workforce planning, equipment allocation, and comprehensive operational intelligence. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/issuesEnginearingImages/engineeringsolution4image.png'
+          image: '/images/issuesEnginearingImages/engineeringsolutionfour.png'
         },
         {
           title: "Construction Intelligence Platform",
           description: "Automated project coordination, quality control, safety monitoring, and optimization through comprehensive automation in construction industry solutions. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/issuesEnginearingImages/engineeringsolution5image.png'
+          image: '/images/issuesEnginearingImages/engineeringsolutionfive.png'
         },
         {
           title: "Analytics Dashboard",
           description: "Connected predictive analytics for construction with performance metrics, project insights, trend analysis, and operational excellence coordination. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/issuesEnginearingImages/engineeringsolution6image.png'
+          image: '/images/issuesEnginearingImages/engineeringsolutionsix.png'
         }
       ],
       whyChooseUsHeading: 'Our Services',
