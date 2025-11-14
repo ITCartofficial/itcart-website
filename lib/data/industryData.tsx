@@ -1069,7 +1069,7 @@ export const industryData = [
           title: "Process Automation Engine",
           description: "Integrated engineering process automation with AI capabilities through workflow optimization applications and performance analytics. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/issuesEnginearingImages/engineeringsolutionthree.png'
+          image: '/images/issuesEnginearingImages/engineeringsolutionthreeimage.png'
         },
         {
           title: "Resource Management System",
