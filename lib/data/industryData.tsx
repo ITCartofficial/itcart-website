@@ -1087,7 +1087,7 @@ export const industryData = [
           title: "Analytics Dashboard",
           description: "Connected predictive analytics for construction with performance metrics, project insights, trend analysis, and operational excellence coordination. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/issuesEnginearingImages/engineeringsolutionsix.png'
+          image: '/images/issuesEnginearingImages/engineeringsolutionImageSix.png'
         }
       ],
       whyChooseUsHeading: 'Our Services',
