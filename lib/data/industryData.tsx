@@ -1063,7 +1063,7 @@ export const industryData = [
           title: "Predictive Analytics Suite",
           description: "Advanced predictive analytics for construction featuring risk assessment, cost forecasting, timeline prediction, and optimization coordination systems. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/issuesEnginearingImages/engineeringsolution2.png'
+          image: '/images/issuesEnginearingImages/engineeringsolutionTwo.png'
         },
         {
           title: "Process Automation Engine",
