@@ -1075,7 +1075,7 @@ export const industryData = [
           title: "Resource Management System",
           description: "Dynamic engineering resource management solutions utilizing AI algorithms for workforce planning, equipment allocation, and comprehensive operational intelligence. ",
           icon: '/images/vertical/icons/manicon.png',
-          image: '/images/issuesEnginearingImages/engineeringsolutionfour.png'
+          image: '/images/issuesEnginearingImages/engineeringsolution4.png'
         },
         {
           title: "Construction Intelligence Platform",
