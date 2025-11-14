@@ -10,27 +10,27 @@ export const serviceData = [
       serviceName: 'AI and ML Automations',
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Your Business Operations with Advanced AI & ML Automation",
-      bannerDescription: "Unlock the power of comprehensive AI & ML consulting services to streamline operations, eliminate manual bottlenecks, and gain predictive insights that drive business innovation through advanced artificial intelligence integration services.",
+      bannerDescription: "Streamline operations with intelligent automation. Get Your Free Assessment",
       bannerImage: "/images/services/ai-ml-banner.png",
       mobileBannerImage: "/images/services/AI&ML-MobileBanner.jpg",
       bannerImageAlt: '',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
-      aboutSectionHeading: 'From Static Systems to Intelligent Operations',
-      capabilitiSectionHeading: 'OUR EXPERTISE IN AI & ML Consulting Services',
-      capabilitiSectionDescription: 'Discover comprehensive AI and ML capabilities that drive measurable business transformation and operational excellence. ',
-      skillGapSectionHeading: 'Comprehensive AI & ML Solutions Suite',
-      skillGapHeadingDescription: 'Leverage advanced tools for intelligent automation and seamless AI integration ensuring optimal business transformation. ',
+      aboutSectionHeading: 'Transform Operations. Boost Efficiency.',
+      capabilitiSectionHeading: 'Expertise in AI & ML Services',
+      capabilitiSectionDescription: 'Powerful AI development expertise securing measurable business transformation. ',
+      skillGapSectionHeading: 'Comprehensive AI Automation Suite',
+      skillGapHeadingDescription: 'Advanced AI & ML solutions for seamless integration and rapid transformation.',
       showShadedBackground: true,
-      serviceCardHeading: 'OUR APPROACH IN AI & ML CONSULTING SERVICES',
-      futurSectionHeading: 'Secure Your Future - Act Now!',
-      futurSectionDescription: "Transform your enterprise into a self-optimizing business with comprehensive AI and ML consulting services tailored by iTCart's innovation-first team through proven artificial intelligence integration services. ",
+      serviceCardHeading: 'Our Approach to AI Consulting',
+      futurSectionHeading: 'Accelerate Your AI Transformation',
+      futurSectionDescription: "Empower your enterprise with advanced AI integration and automation. Unlock rapid innovation, efficiency and long-term growth with iTCart’s AI & ML consulting expertise. ",
       VerticalContentSection2: {
         contentOne: "Transform your organization's fragmented digital workspace into an intelligent, unified platform that eliminates software sprawl while boosting productivity through AI-driven automation and seamless Microsoft 365 integration. ",
         contenttwo: "",
         sectionTwoFirstImage: "/images/vertical/section2Image.png"
       },
-      whyChooseUsHeading: 'Why Choose Us',
-      whyChooseUsHeadingDescription: 'Explore innovative AI technologies and comprehensive automation solutions designed for intelligent business transformation.',
+      whyChooseUsHeading: 'Why Choose iTCart ',
+      whyChooseUsHeadingDescription: "Tailored AI solutions for your sector's challenges and compliance needs.",
       aboutSection: {
         aboutImage: '/images/services/ai-ml-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -48,41 +48,41 @@ export const serviceData = [
         {
           image: '/images/services/ai-ml-choose1.png',
           title: 'Tailored Solutions ',
-          content: "Customized AI and ML consulting services designed for your sector's unique challenges and compliance requirements through specialized artificial intelligence integration services."
+          content: " Custom consulting to match your sector’s unique requirements."
         },
         {
           image: '/images/services/ai-ml-choose2.png',
-          title: ' Proactive Innovation ',
-          content: 'Built-in scalability and compliance through advanced AI ML development services and comprehensive AI integration services ensuring future-ready solutions. '
+          title: ' Proactive Innovation',
+          content: ' Future-ready AI & ML development services for scalability and compliance.'
         },
         {
           image: '/images/services/ai-ml-choose3.png',
           title: 'Customer-Centric Approach',
-          content: 'AI and ML automation services that enhance human capability rather than replace it, focusing on augmented intelligence and collaborative efficiency. '
+          content: ' AI automation that empowers people and enhances collaboration.'
         }
       ],
       serviceCardItems: [
         {
           title: "Discovery & Assessment",
-          description: "Identify business challenges and automation potential through comprehensive evaluation of current systems and strategic AI integration services planning. ",
+          description: " Identify automation potential and plan strategic AI integration.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Discovery & Assessment Icon.svg'
         },
         {
           title: "Design & Modeling",
-          description: "Build custom AI/ML models based on specific data requirements and business objectives through advanced AI development services methodologies. ",
+          description: "Custom-build AI models for specific business objectives. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Design & Modeling Icon.svg'
         },
         {
           title: "Integration & Testing ",
-          description: "Seamlessly deploy and validate AI & ML solutions and services within existing infrastructure with minimal disruption and comprehensive testing protocols. ",
+          description: "Deploy and validate across infrastructure with proven protocols. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Process Automation & Optimization Icon.svg'
         },
         {
           title: "Monitoring & Optimization",
-          description: "Continuously track performance and refine models through ongoing AI and ML consulting services ensuring sustained business value and growth. ",
+          description: " Continually refine performance for ongoing value and growth.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Monitoring & Optimization Icon.svg'
         }
@@ -91,33 +91,33 @@ export const serviceData = [
       CapabilitySections: [
         {
           title: "Deep Learning & NLP",
-          description: "Advanced AI ML development services with proven expertise in natural language processing and deep learning algorithm implementation.",
+          description: "Deploy deep learning and natural language processing for intelligent automation and robust insight extraction.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Computer Vision & Analytics",
-          description: "Intelligent AI integration services for visual data processing including image recognition, pattern analysis, and automated visual inspection systems. ",
+          title: "Computer Vision",
+          description: "Implement visual data processing, image recognition and automated inspection with advanced ML development services. ",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
-          title: "Predictive Analytics & Intelligence ",
-          description: "Smart forecasting through comprehensive AI and ML consulting services enabling data-driven decision making and business intelligence optimization.",
+          title: "Predictive Analytics",
+          description: "Enhance forecasting and data-driven decisions through comprehensive business intelligence optimization.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Workflow Automation  ",
-          description: "Comprehensive AI and ML automation services for enhanced efficiency including process optimization, task automation, and intelligent workflow management.",
+          description: "Boost efficiency with process optimization, smart task automation and intelligent workflow management.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Custom AI Development  ",
-          description: "Tailored AI development services for unique business needs with customized algorithms, machine learning models, and intelligent system development. ",
+          description: "Build bespoke algorithms and models for precise solutions with tailored artificial intelligence integration.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Enterprise Integration  ",
-          description: "Robust artificial intelligence integration services for scalability including seamless connectivity with existing enterprise systems and infrastructure. ",
+          description: "Scale seamlessly by connecting AI & ML solutions to enterprise platforms and infrastructure.",
           gradient: "from-[#222222] to-[#111111]", // dark
         }
       ],
@@ -125,28 +125,28 @@ export const serviceData = [
         {
           icon: '/images/services/icons/Process Automation & Optimization Icon.svg',
           title: "Process Automation & Optimization",
-          highlight: "Streamline workflows with advanced AI and ML automation services reducing manual intervention by 40-70% through self-optimizing business processes. ",
+          highlight: "Automate processes with AI & ML automation services. Reduce manual intervention by 40–70% through adaptive business workflows.Start Automation ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/images/services/icons/Advanced Data Analytics Icon.svg',
           title: "Advanced Data Analytics",
-          highlight: "Leverage comprehensive AI development services for predictive insights enabling real-time decision-making capabilities and actionable business intelligence solutions. ",
+          highlight: "Gain predictive insights with AI development services enabling real-time intelligence and actionable business analytics.Explore Analytics",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/System Integration & Deployment Icon.svg',
           title: "System Integration & Deployment ",
-          highlight: "Seamless artificial intelligence integration services connecting CRM, ERP, and legacy systems with minimal disruption implementation and optimal connectivity. ",
+          highlight: "Connect CRM, ERP and legacy systems using artificial intelligence integration services for minimal disruption and optimal connectivity.Integrate Systems ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Industry-Specific Solutions Icon.svg',
           title: "Industry-Specific Solutions",
-          highlight: "Customized AI & ML solutions and services focused on healthcare, finance, and manufacturing with compliance-ready architecture and industry expertise. ",
+          highlight: "Custom AI & ML solutions for healthcare, finance and manufacturing – delivered with compliance-ready architecture and specialist expertise.View Solutions ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -155,38 +155,38 @@ export const serviceData = [
       FAQs: [
         {
           id: '1',
-          title: 'What are AI & ML consulting services and how can they benefit my business? ',
-          content: "AI & ML consulting services help businesses implement artificial intelligence integration services and AI development services to automate processes, improve decision-making, and drive digital transformation. Benefits include 40-70% reduction in manual workload through AI and ML automation services, 30%+ improvement in decision accuracy, and real-time process execution. "
+          title: 'What are AI & ML consulting services?  ',
+          content:"They help businesses automate processes using AI development and integration services for efficiency and transformation."
         },
         {
           id: '2',
-          title: 'How long does it take to implement AI and ML automation services?',
-          content: 'Implementation timelines vary based on project complexity. Our AI development services follow a 4-phase approach: Discovery & Assessment (2-4 weeks), Design & Modeling (4-8 weeks), Integration & Testing (3-6 weeks), and ongoing optimization. Simple automation projects may take 8-12 weeks, while comprehensive AI & ML solutions and services require 4-6 months.'
+          title: 'How long does implementation take?',
+          content: ' Typical projects take 8–12 weeks; larger solutions up to 6 months.'
         },
         {
           id: '3',
-          title: 'What industries can benefit from artificial intelligence integration services?',
-          content: 'Our AI & ML solutions and services span multiple industries including healthcare (predictive analytics), manufacturing (smart automation), finance (risk management), retail (personalized recommendations), and government (process optimization). We customize AI ML development services based on industry-specific compliance requirements.'
+          title: 'What industries benefit from AI & ML solutions?',
+          content: 'Healthcare, finance, manufacturing, retail and government all benefit through tailored automation and analytics.'
         },
         {
           id: '4',
-          title: 'How do you ensure data security with AI integration services?',
-          content: 'We prioritize data security in all AI and ML automation services. Our artificial intelligence integration services are built with GDPR, HIPAA compliance standards, implementing robust encryption, secure data handling protocols, and regular security audits throughout the AI development process. '
+          title: 'How do you ensure data security?',
+          content: ' All integration follows strict GDPR and HIPAA rules with secure protocols.'
         },
         {
           id: '5',
-          title: "What makes iTCart's AI ML development services different?",
-          content: "iTCart combines deep technical expertise with human-centered design through our comprehensive AI & ML consulting services. Our artificial intelligence integration services ensure seamless connectivity with existing systems with minimal disruption, providing industry-specific customization and scalable architecture. "
+          title: "What makes iTCart’s services different?",
+          content: "Human-centered design, deep technical expertise and custom enterprise integrations."
         },
         {
           id: '6',
-          title: "Do you provide ongoing support after AI and ML automation implementation? ",
-          content: "Yes, our AI & ML consulting services include comprehensive post-deployment support with continuous monitoring, performance optimization, model retraining, technical support, and scalability planning ensuring your AI integration services continue delivering value."
+          title: "Do you offer post-implementation support?",
+          content: " Yes, with monitoring, optimization, retraining and technical help."
         },
         {
           id: '7',
-          title: "How do you measure ROI of AI development services? ",
-          content: "We establish clear KPIs before implementing AI and ML automation services to track ROI including cost reduction (40-70% in manual processes), accuracy improvements (30%+ in decision-making), time savings, and operational efficiency gains through our artificial intelligence integration services. "
+          title: "How is ROI measured?",
+          content: " KPIs track reductions (40–70%) in manual work, accuracy increases, and time savings. "
         },
       ],
 
@@ -935,7 +935,7 @@ export const serviceData = [
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: 'iTCart Cyber Security Services run on AiXHub, the core of the AiX Framework—bringing intelligent automation, predictive analytics, and autonomous decision-making to your cybersecurity experience. ',
-        contenttwo: "Cyber threats aren't slowing down. Neither should your defenses through our advanced AI driven threat detection and response capabilities that evolve with emerging threats. "
+        contenttwo: "Cyber threats aren'e slowing down. Neither should your defenses through our advanced AI driven threat detection and response capabilities that evolve with emerging threats. "
       },
       futurSectionHeading: "Ready to Secure Your Digital Future?",
       futurSectionDescription: "Transform your security posture with comprehensive cyber security services that deliver measurable protection and compliance assurance through proven expertise? ",
