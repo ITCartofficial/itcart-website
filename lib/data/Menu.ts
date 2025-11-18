@@ -85,7 +85,7 @@ export const navItems = [
   },
   {
     label: "Company",
-    href: "",
+    href: "/about-us",
     submenu: [
       { label: "About Us", href: "/about-us" },
       { label: "CSR", href: "/csr" },

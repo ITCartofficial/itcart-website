@@ -156,7 +156,7 @@ export const serviceData = [
         {
           id: '1',
           title: 'What are AI & ML consulting services?  ',
-          content:"They help businesses automate processes using AI development and integration services for efficiency and transformation."
+          content: "They help businesses automate processes using AI development and integration services for efficiency and transformation."
         },
         {
           id: '2',
@@ -2187,130 +2187,130 @@ export const serviceData = [
       serviceName: 'Startup Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "You Have Vision. We Bring It to Life",
-      bannerDescription: "Transform ideas into scalable startup success today",
+      bannerDescription: "Transform ideas into scalable startup success with expert guidance ",
       bannerImage: "/images/services/Startup-Services-banner.png",
       mobileBannerImage: "/images/services/Startup-Services-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       bannerNtnName: 'Get Started Today',
-      aboutSectionHeading: 'Innovate. Build. Scale. Succeed.',
+      aboutSectionHeading: 'Innovate. Build. Scale. Succeed. ',
       aboutSection: {
         aboutImage: '/images/services/Startup-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "We partner with founders, innovators, and early-stage teams through our startup business consultants providing comprehensive startup consulting services, custom software development for startups, and digital transformation for startups solutions. ",
+        contentOne: "We empower founders, innovators, and early-stage teams with strategic startup consulting, modern product development, and digital-first transformation. From idea validation to scalable architecture design, we help you build products that stand out and grow sustainably. ",
         contenttwo: ""
       },
-      skillGapSectionHeading: 'Comprehensive Startup Business Consulting Suite',
-      skillGapHeadingDescription: 'Leverage advanced tools for intelligent startup development and seamless market entry ensuring optimal business growth.',
+      skillGapSectionHeading: 'Startup Business Consulting Suite ',
+      skillGapHeadingDescription: 'Leverage advanced strategies, market insights, and tailored digital capabilities to accelerate growth and position your startup for longterm success. ',
       skillGapSection: [
         {
           icon: '/images/services/icons/Startup Consulting Services Strategy Icon.svg',
-          title: "Startup Consulting Services Strategy",
-          highlight: "Comprehensive startup consulting services including idea validation, market research, competitor benchmarking, and feasibility studies through expert startup business consultants. ",
+          title: "Startup Consulting Strategy ",
+          highlight: "Expert-led strategy including idea validation, market research, competitor analysis, and feasibility studies to build a strong business foundation. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/images/services/icons/Custom Software Development for Startups Icon.svg',
-          title: "Custom Software Development for Startups",
-          highlight: "Specialized custom software development for startups offering cost-effective, scalable development teams tailored to your tech stack from frontend to backend solutions.",
+          title: "Custom Software Development for Startups ",
+          highlight: "Techready, scalable custom product development across frontend, backend, cloud, and mobile—tailored for fast, costefficient development cycles. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Digital Transformation for Startups Icon.svg',
-          title: "Digital Transformation for Startups",
-          highlight: "Complete digital transformation for startups including cloud-native architecture, automation, and modern technology integration ensuring competitive advantage and scalability. ",
+          title: "Digital Transformation for Startups ",
+          highlight: "Cloud adoption, modernization, automation, and workflow optimization to ensure longterm scalability and operational efficiency. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/AI Integration for Startups Icon.svg',
-          title: "AI Integration for Startups",
-          highlight: "Cutting-edge AI integration for startups including machine learning, automation, and intelligent analytics ensuring competitive advantage through advanced technology adoption.",
+          title: "AI Integration for Startups ",
+          highlight: "Intelligent AI adoption including automation, machine learning, and predictive analytics to create high-performance startup products. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
       ],
-      capabilitiSectionHeading: 'Our Expertise in Startup Business Consulting',
-      capabilitiSectionDescription: 'Discover comprehensive startup capabilities that drive measurable business transformation and accelerated market entry.',
+      capabilitiSectionHeading: 'Our Expertise in Startup Business Consulting ',
+      capabilitiSectionDescription: 'Discover specialized capabilities designed to accelerate your market entry and scale your growth. ',
       CapabilitySections: [
         {
-          title: "Our Expertise in Startup Business",
-          description: "Expert startup business consultants providing end-to-end startup consulting services from idea validation to market strategy, ensuring business objectives alignment. ",
+          title: "Startup Business Expertise ",
+          description: "Comprehensive consulting covering market evaluation, risk analysis, business modelling, and gotomarket planning. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Technology Development Solutions",
-          description: "Advanced custom software development for startups with scalable architecture design ensuring seamless performance across all devices and platforms.",
+          description: "Advanced product engineering, API development, scalable cloud solutions, and seamless multiplatform performance.  ",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Infrastructure & Security ",
-          description: "Cloud infrastructure deployment with affordable SaaS backup software for startups ensuring secure, scalable operations and comprehensive data protection. ",
+          description: "Cloud infrastructure deployment with built-in data protection and affordable SaaS backup solutions. ",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
-          title: "Brand Development",
-          description: "Comprehensive branding solutions for startups including logo design, brand identity, marketing materials, and digital presence development for market differentiation.",
+          title: "Brand Development ",
+          description: "Identity creation, logo design, brand messaging, and digital presence development for early-stage differentiation. ",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
-          title: "Digital Transformation",
-          description: "Complete digital transformation for startups including process automation, cloud migration, and technology modernization for enhanced operational efficiency.",
+          title: "Digital Transformation ",
+          description: "Cloud migration, automation, and process modernization to boost operational effectiveness. ",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
-          title: "AI Innovation Solutions",
-          description: "Advanced AI integration for startups including intelligent automation, predictive analytics, and machine learning capabilities ensuring technological leadership. ",
+          title: "AI Innovation Solutions ",
+          description: "Predictive intelligence, machine learning, automated workflows, and AI powered user experience enhancements. ",
           gradient: "from-[#222222] to-[#111111]", // dark
         }
       ],
-      serviceCardHeading: 'Our Approach in Startup Consulting Services',
+      serviceCardHeading: 'Our Approach in Startup Consulting Services ',
       serviceCardItems: [
         {
           title: "Discovery & Validation",
-          description: "Comprehensive market research, idea validation, and feasibility analysis through expert startup business consultants ensuring strong foundation for startup success.",
+          description: "Thorough research, product validation, and feasibility assessments ensuring a solid foundation. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Discovery & Validation Icon.svg'
         },
         {
           title: "Design & Prototyping",
-          description: "Rapid prototyping and MVP development with custom software development for startups enabling quick market testing and feedback integration.",
+          description: "Rapid MVP development, wireframes, and user tested prototypes for quick market testing. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Design & Prototyping Icon.svg'
         },
         {
           title: "Development & Integration",
-          description: "Agile development methodologies with AI integration for startups and digital transformation ensuring efficient product delivery and market readiness. ",
+          description: "Agile development cycles paired with AI-driven enhancements and scalable architecture design. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Development & Integration Icon.svg'
         },
         {
           title: "Launch & Scale",
-          description: "Product launch support with branding solutions for startups, affordable SaaS backup software, and comprehensive analytics ensuring sustained growth. ",
+          description: "Go to market execution, brand launch support, and scalable infrastructure to accelerate traction. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Launch & Scale Icon.svg'
         }
       ],
       whyChooseUsHeading: 'Why Choose iTCart?',
-      whyChooseUsHeadingDescription: 'Explore innovative startup technologies and comprehensive solutions designed for rapid growth and market success.',
+      whyChooseUsHeadingDescription: 'Explore innovation driven strategies, modern technologies, and trusted expertise built for startup success. ',
       whyChooseUsCards: [
         {
           image: '/images/services/Startup-Services-choose1.png',
           title: 'End-to-End Partnership',
-          content: "Comprehensive startup consulting services from ideation to scaling with dedicated startup business consultants throughout your entrepreneurial journey. "
+          content: "Continuous guidance from ideation to launch with a dedicated consulting and technology team. "
         },
         {
           image: '/images/services/Startup-Services-choose2.png',
           title: 'Technology Excellence',
-          content: 'Specialized custom software development for startups combined with cutting-edge AI integration for startups ensuring competitive technological advantage.'
+          content: 'Full stack development, modern cloud architecture, and AI-powered solutions for competitive advantage. '
         },
         {
           image: '/images/services/Startup-Services-choose3.png',
           title: 'Digital Innovation',
-          content: 'Complete digital transformation for startups including cloud infrastructure, automation, and affordable SaaS backup software for startups ensuring operational excellence. '
+          content: 'Automation, cloud-native solutions, optimized workflows, and scalable digital ecosystems. '
         }
       ],
       aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
@@ -2321,8 +2321,8 @@ export const serviceData = [
         contenttwo: "Whether you're launching your first product or scaling your second startup, our comprehensive solutions including AI integration for startups are ready to grow with you. "
       },
       futurSectionHeading: "Ready to Build What's Next?",
-      futurSectionDescription: "Transform your startup vision into market-leading success with comprehensive startup consulting services and strategic guidance that delivers measurable results?",
-      FAQsHeading: 'FAQs ',
+      futurSectionDescription: "Transform your startup vision into a market ready success story with our expert consulting, product engineering, and digital strategy. ",
+      FAQsHeading: 'Everything You Need to Know About Startup Services',
       FAQs: [
         {
           id: '1',
@@ -2374,208 +2374,3 @@ export const serviceData = [
     }
   },
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const one = {
-//   serviceName: 'Cybersecurity Services',
-//   bannerButtonText: "Get in touch",
-//   bannerTitle: "",
-//   bannerDescription: "",
-//   bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
-//   bannerImageAlt: 'Custom Software Development for Startups',
-//   VerticalContentSection2Heading: 'The Digital Workspace Challenge',
-//   bannerNtnName: 'Get Started Today',
-//   aboutSectionHeading: '',
-//   aboutSection: {
-//     aboutImage: '/images/vertical/section2Image.png',
-//     logo: '/images/verticalLogos/AiXQP.png',
-//     contentOne: "",
-//     contenttwo: ""
-//   },
-//   skillGapSectionHeading: '',
-//   skillGapHeadingDescription: '',
-//   skillGapSection: [
-//     {
-//       icon: '/images/vertical/icons/manicon.png',
-//       title: "",
-//       highlight: "",
-//       description: "",
-//       gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
-//     },
-//     {
-//       icon: '/images/vertical/icons/handicons.png',
-//       title: "",
-//       highlight: " ",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]",   // add gradient
-//     },
-//     {
-//       icon: '/images/vertical/icons/handicons.png',
-//       title: "",
-//       highlight: "",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]",   // add gradient
-//     },
-//     {
-//       icon: '/images/vertical/icons/handicons.png',
-//       title: "",
-//       highlight: "",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]",   // add gradient
-//     },
-//   ],
-//   capabilitiSectionHeading: '',
-//   capabilitiSectionDescription: ' ',
-//   CapabilitySections: [
-//     {
-//       title: "",
-//       description: "",
-//       gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-//       icon: '/images/vertical/icons/manicon.png'
-//     },
-//     {
-//       title: "",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]", // dark
-//     },
-//     {
-//       title: "",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]", // dark
-//     },
-//     {
-//       title: "",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]", // dark
-//     },
-//     {
-//       title: "",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]", // dark
-//     },
-//     {
-//       title: "",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]", // dark
-//     }
-//   ],
-//   serviceCardHeading: '',
-//   serviceCardItems: [
-//     {
-//       title: "",
-//       description: "",
-//       gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
-//       icon: '/images/vertical/icons/manicon.png'
-//     },
-//     {
-//       title: "",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]", // dark
-//       icon: '/images/vertical/icons/manicon.png'
-//     },
-//     {
-//       title: "",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]", // dark
-//       icon: '/images/vertical/icons/manicon.png'
-//     },
-//     {
-//       title: "",
-//       description: "",
-//       gradient: "from-[#222222] to-[#111111]", // dark
-//       icon: '/images/vertical/icons/manicon.png'
-//     }
-//   ],
-//   whyChooseUsHeading: 'Why Choose iTCart',
-//   whyChooseUsHeadingDescription: ' ',
-//   whyChooseUsCards: [
-//     {
-//       image: '/images/services/Digital-Transformation-sectionimage.png',
-//       title: '',
-//       content: " "
-//     },
-//     {
-//       image: '/images/services/Digital-Transformation-sectionimage.png',
-//       title: '',
-//       content: ' '
-//     },
-//     {
-//       image: '/images/services/Digital-Transformation-sectionimage.png',
-//       title: ' ',
-//       content: ''
-//     }
-//   ],
-//   aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
-//   aboutSection2: {
-//     aboutImage: '/images/vertical/section2Image.png',
-//     logo: '/images/verticalLogos/AiXQP.png',
-//     contentOne: '',
-//     contenttwo: ""
-//   },
-//   futurSectionHeading: "",
-//   futurSectionDescription: "",
-//   FAQsHeading: 'FAQs  ',
-//   FAQs: [
-//     {
-//       id: '1',
-//       title: '',
-//       content: ""
-//     },
-//     {
-//       id: '2',
-//       title: '',
-//       content: ''
-//     },
-//     {
-//       id: '3',
-//       title: '',
-//       content: ''
-//     },
-//     {
-//       id: '4',
-//       title: '',
-//       content: ''
-//     },
-//     {
-//       id: '5',
-//       title: "",
-//       content: ""
-//     },
-//     {
-//       id: '6',
-//       title: "",
-//       content: ""
-//     }
-//   ],
-
-//   showShadedBackground: true,
-//   VerticalContentSection2: {
-//     contentOne: "",
-//     contenttwo: "",
-//     sectionTwoFirstImage: "/images/vertical/section2Image.png"
-//   },
-
-//   logo: 'AiXQP-whitelogo',
-//   section2Data: '',
-//   section2Image: '/images/vertical/section2Image.png',
-//   section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
-//   section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
-//   aboutImage: '',
-//   aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
-//   about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
-// }
