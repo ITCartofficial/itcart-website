@@ -3880,27 +3880,27 @@ export const industryData = [
         },
         {
           title: "Enterprise Resource Planning ",
-          description: "Comprehensive integrated hospitality operations management including financial planning, resource allocation, revenue management, strategic planning, and enterprise-wide hotel coordination solutions. ",
+          description: "Integrated hospitality operations management including financial planning, resource allocation, revenue management, strategic planning, and enterprise-wide hotel coordination solutions.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Customer Relationship Management ",
-          description: "Advanced guest relationship management with personalized communications, preference tracking, loyalty rewards, and enhanced experiences through comprehensive hospitality integration platform solutions.  ",
+          description: "Advanced guest relationship management with personalized communications, preference tracking, loyalty rewards, and enhanced experiences through unified hospitality integration platform solutions.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "solutions Human Resource Management ",
+          title: "Human Resource Management ",
           description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for hospitality and hotel operations.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Document Management System ",
-          description: "Secure digital document storage for hospitality records, guest documentation, compliance reports, regulatory filings, and hotel documentation management systems.",
+          description: "Secure digital document storage for hospitality records, guest documentation, compliance reports, regulatory filings, and hotel document management systems.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Learning Management System ",
-          description: "Training modules for hospitality teams, certification tracking, service assessments, skills development, and immersive hotel operations automation experiences.  ",
+          description: "Training modules for hospitality teams, certification tracking, service assessments, skills development, and immersive hotel operations automation training.",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -3920,37 +3920,37 @@ export const industryData = [
           id: '1',
           title: "What makes iTCart's hospitality technology solutions different?",
           content:
-            "Our comprehensive approach integrates hotel software solutions capabilities with proven hospitality management software methodologies, delivering measurable results through advanced hotel automation software, multi property management system, and AI in guest experience for hotels ensuring competitive advantage in hospitality."
+            "Our structured approach integrates hotel software solutions capabilities with proven hospitality management software methodologies, delivering measurable results through advanced hotel automation software, multi-property management systems, and AI in guest experience for hotels ensuring competitive advantage in hospitality. "
         },
         {
           id: '2',
           title: "How do hotel software solutions improve operations?",
           content:
-            "Hotel software solutions applications optimize reservation processing, enhance operational workflows, streamline guest services coordination, and improve efficiency through hospitality technology solutions services and real-time operational insights delivering hotel excellence."
+            "Hotel software solutions optimize reservation processing, enhance operational workflows, streamline guest services coordination, and improve efficiency through hospitality technology services and real-time operational insights delivering operational improvements. "
         },
         {
           id: '3',
           title: "What hospitality management software features are included?",
           content:
-            "Our hospitality management software platform includes property management, guest service automation, revenue optimization, operational analytics, staff coordination, and comprehensive dashboard with real-time monitoring capabilities through integrated hotel operations and analytics platform."
+            "Our hospitality management software platform includes property management, guest service automation, revenue optimization, operational analytics, staff coordination, and a unified dashboard with real-time monitoring capabilities through an integrated hotel operations and analytics platform. "
         },
         {
           id: '4',
           title: "How does hotel automation software enhance guest experiences?",
           content:
-            "Hotel automation software solutions streamline check-in processes, smart room controls, service requests, guest communications, and comfort optimization through intelligent automation and AI in guest experience for hotels improving satisfaction levels."
+            "Hotel automation software solutions streamline check-in processes, smart room controls, service requests, guest communications, and comfort optimization through intelligent automation and AI in guest experience for hotels improving overall satisfaction. "
         },
         {
           id: '5',
           title: "What enterprise hospitality services do you offer?",
           content:
-            "Our enterprise hospitality services encompass multi property management system capabilities, hospitality integration platform solutions, operational consulting, technology implementation, and comprehensive support through hotel operations automation delivering business improvements."
+            "Our enterprise hospitality services encompass multi-property management system capabilities, hospitality integration platform solutions, operational consulting, technology implementation, and structured support through hotel operations automation delivering business improvements. "
         },
         {
           id: '6',
           title: "How long does hospitality technology solutions implementation take?",
           content:
-            "Hospitality technology solutions typically require nine to twelve months for comprehensive implementation, including system integration, staff training, and optimization phases ensuring minimal operational disruption while maximizing investment returns."
+            "Hospitality technology solutions typically require nine to twelve months for full implementation, including system integration, staff training, and optimization phases ensuring minimal operational disruption while maximizing investment returns. "
         },
         {
           id: '7',
