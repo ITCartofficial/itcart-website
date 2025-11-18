@@ -1905,7 +1905,7 @@ export const serviceData = [
           content: "Recognized as one of the top IoT solution providers with proven expertise in delivering comprehensive IoT development services across industries. "
         },
         {
-          image: '/images/issuesEnginearingImages/iotserviceschooseimagetwo.png',
+          image: '/images/issuesEnginearingImages/ioTServiceschooseimagetwoimage.png',
           title: 'End-to-End IoT Services',
           content: 'Complete IoT solutions and services portfolio from strategic consulting to ongoing managed services ensuring seamless IoT transformation journey.'
         },
