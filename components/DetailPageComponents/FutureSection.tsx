@@ -7,11 +7,13 @@ import GradientTitle from "../typography/GradientTitle";
 interface FutureSectionProps {
     futurSectionHeading?: string;
     futurSectionDescription?: string;
+    futureSectionBtnTxt?: string;
 }
 
 const FutureSection: React.FC<FutureSectionProps> = ({
     futurSectionHeading,
     futurSectionDescription,
+    futureSectionBtnTxt
 }) => {
     return (
         <div className="max-w-5xl mx-auto text-center mb-0">
@@ -30,7 +32,7 @@ const FutureSection: React.FC<FutureSectionProps> = ({
             <div className="w-full flex justify-center my-10">
                 <OutlineBtn
                     url="/contact-us"
-                    text="Start your upgrade today"
+                    text={futureSectionBtnTxt ? futureSectionBtnTxt : "Start your upgrade today"}
                     textColor="#ffffff"
                     icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                 />
