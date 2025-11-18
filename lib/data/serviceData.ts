@@ -617,11 +617,11 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/CloudOps-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "At iTCart, our comprehensive cloud operations services are more than uptime—it's intelligent automation, continuous cost optimization, and full-stack observability. With proactive monitoring and AI-driven recommendations, we ensure your infrastructure is always secure, scalable, and performance-ready through advanced cloud infrastructure management services and cloud management and operation services. ",
+        contentOne: "At iTCart, our cloud operations services go beyond uptime management, they deliver intelligent automation, continuous cost optimization, and full-stack observability. With proactive monitoring and AI-driven recommendations, we ensure your infrastructure is always secure, scalable, and performance-ready through advanced cloud infrastructure management services and cloud management and operation services. ",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Comprehensive CloudOps Management Suite',
-      skillGapHeadingDescription: 'Leverage advanced tools for intelligent cloud infrastructure management and automated monitoring ensuring optimal performance. ',
+      skillGapHeadingDescription: 'Leverage advanced tools for intelligent cloud infrastructure management and automated monitoring that ensures optimal performance. ',
       skillGapSection: [
         {
           icon: '/images/services/icons/Cloud Infrastructure Management Icon.svg',
@@ -657,33 +657,33 @@ export const serviceData = [
       CapabilitySections: [
         {
           title: "Multi-Cloud Strategy",
-          description: "Expert cloud strategy consulting services for hybrid and multi-cloud environments ensuring seamless integration, optimization, and cost-effective cloud technology services deployment.",
+          description: "We design and optimize hybrid and multi-cloud environments for better scalability and cost control.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Infrastructure Automation",
-          description: "Advanced cloudops automation solutions streamlining provisioning, configuration management, and deployment processes for enhanced operational efficiency through cloud management and operation services.",
+          description: "Automated provisioning, configuration, and deployments for faster operations.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
-          title: "Data Management Excellence",
-          description: "Comprehensive cloud data management services with automated backup, recovery, migration, and governance ensuring data integrity and regulatory compliance.",
+          title: "Data Management",
+          description: "Backup, recovery, migration, and governance to keep your data secure and compliant.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Performance Optimization",
-          description: "Continuous monitoring and tuning of cloud resources through cloud performance management solutions ensuring optimal application performance and user experience.",
+          description: "Monitoring and tuning to ensure smooth application performance.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
-          title: "Cost Management ",
-          description: "Comprehensive FinOps strategies including resource rightsizing, usage analytics, cost forecasting, and optimization recommendations for maximum cloud investment ROI.",
+          title: "Cost Management (FinOps)",
+          description: "Rightsizing, usage analytics, forecasting, and optimization to reduce cloud spend.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Disaster Recovery",
-          description: "Robust backup, recovery, and business continuity planning with automated failover capabilities ensuring minimal downtime and data protection. ",
+          description: "Automated failover, backups, and business continuity planning.",
           gradient: "from-[#222222] to-[#111111]", // dark
         }
       ],
@@ -697,13 +697,13 @@ export const serviceData = [
         },
         {
           title: "Strategy & Planning",
-          description: "Design optimal cloud architecture with security, compliance, and performance considerations integrated throughout the cloud infrastructure management services framework through expert cloud strategy consulting services.. ",
+          description: "Design optimal cloud architecture with security, compliance, and performance considerations integrated throughout the cloud infrastructure management services framework through expert cloud strategy consulting services.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Strategy & Planning Icon.svg'
         },
         {
           title: "Implementation & Migration",
-          description: "Seamless deployment of cloudops automation solutions with minimal disruption, comprehensive testing, and validated performance benchmarks. ",
+          description: "Seamless deployment of CloudOps automation solutions with minimal disruption, comprehensive testing, and validated performance benchmarks. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Implementation & Migration Icon.svg'
         },
@@ -719,18 +719,18 @@ export const serviceData = [
       whyChooseUsCards: [
         {
           image: '/images/services/CloudOps-Services-choose1.png',
-          title: 'Security-First Approach',
+          title: 'Security-first approach',
           content: "Cloud security and compliance integrated from the ground up with continuous vulnerability scanning, patching, and regulatory adherence. "
         },
         {
           image: '/images/services/CloudOps-Services-choose2.png',
-          title: 'Always-On Support',
+          title: '24/7 monitoring & support',
           content: '24/7 cloud monitoring services with immediate remediation, expert technical support, and proactive infrastructure maintenance ensuring maximum uptime. '
         },
         {
           image: '/images/services/CloudOps-Services-choose3.png',
-          title: 'Intelligent Automation',
-          content: 'Advanced cloudops automation solutions with AI-driven optimization, predictive analytics, and self-healing capabilities for enhanced operational efficiency. '
+          title: 'AI-powered automation',
+          content: 'Advanced CloudOps automation solutions with AI-driven optimization, predictive analytics, and self-healing capabilities for enhanced operational efficiency. '
         }
       ],
       aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
@@ -757,7 +757,7 @@ export const serviceData = [
         {
           id: '3',
           title: 'Can you manage multi-cloud and hybrid environments?',
-          content: 'Absolutely! Our cloud technology services expertise spans AWS, Azure, GCP, and hybrid environments, providing unified management, monitoring, and optimization across all platforms through comprehensive cloudops automation solutions.'
+          content: 'Absolutely! Our cloud technology services expertise spans AWS, Azure, GCP, and hybrid environments, providing unified management, monitoring, and optimization across all platforms through comprehensive CloudOps automation solutions.'
         },
         {
           id: '4',
@@ -803,8 +803,8 @@ export const serviceData = [
       metaDescription: 'Safeguard your data with cyber security services tailored to your industry—threat detection, endpoint protection, and compliance made easy. ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
-      bannerTitle: "Future-Proof Your Business with Top-Notch Cyber Security Services",
-      bannerDescription: " Protect your organization from sophisticated cyber threats with cyber security services combining AI driven threat detection and response, expert guidance, and industry-specific strategies.",
+      bannerTitle: "Future-Proof Your Business with Advanced Cybersecurity Services",
+      bannerDescription: "Protect your organization from sophisticated cyber threats, with AI-driven threat detection, continuous monitoring, compliance support, and end-to-end security controls across cloud, data, and applications",
       bannerImage: "/images/services/Cybersecurity-Services-banner.png",
       mobileBannerImage: "/images/services/CyberSecurity-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
@@ -818,12 +818,12 @@ export const serviceData = [
         contenttwo: ""
       },
       skillGapSectionHeading: 'Comprehensive Cyber Security Solutions Suite',
-      skillGapHeadingDescription: 'Leverage advanced tools for intelligent threat identification and seamless security integration ensuring optimal digital protection. ',
+      skillGapHeadingDescription: 'We use advanced tools for real-time threat detection and automated security remediation to ensure maximum protection',
       skillGapSection: [
         {
           icon: '/images/services/icons/AI Driven Threat Detection and Response Icon.svg',
-          title: "AI Driven Threat Detection and Response",
-          highlight: "Advanced AI driven threat detection and response solutions providing real-time alerting, forensics, root cause analysis, and post-incident recovery planning for comprehensive protection. ",
+          title: "AI- Driven Threat Detection and Response",
+          highlight: "Advanced AI- Driven threat detection and response solutions providing real-time alerting, forensics, root cause analysis, and post-incident recovery planning for comprehensive protection. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
@@ -853,7 +853,7 @@ export const serviceData = [
       capabilitiSectionDescription: 'Discover comprehensive security capabilities that drive measurable protection enhancement and operational resilience. ',
       CapabilitySections: [
         {
-          title: "Network Security Excellence",
+          title: "Network Security Management",
           description: "Advanced network security protecting infrastructure from external and internal threats through next-gen firewalls, zero trust access, and continuous traffic analysis. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
@@ -939,7 +939,7 @@ export const serviceData = [
       },
       futurSectionHeading: "Ready to Secure Your Digital Future?",
       futurSectionDescription: "Transform your security posture with comprehensive cyber security services that deliver measurable protection and compliance assurance through proven expertise? ",
-      FAQsHeading: 'Everything You Need to Know About Digital Transformation  ',
+      FAQsHeading: 'Frequently Asked Questions About Cybersecurity Services',
       FAQs: [
         {
           id: '1',
@@ -1001,7 +1001,7 @@ export const serviceData = [
       serviceName: 'Data Analytics',
       bannerButtonText: "Get in touch",
       bannerTitle: "Turn Data into Decisions. Faster. Smarter. Scalable",
-      bannerDescription: "From real-time dashboards to predictive insights, our AIai revenue cycle management- Powered data analytics services help you extract, visualize, and act on business-critical intelligence. ",
+      bannerDescription: "From real-time dashboards to predictive insights, our data analytics services help you optimize operations, improve revenue, and make data-driven decisions powered by AI and business intelligence.",
       bannerImage: "/images/services/Data-Analytics-banner.png",
       mobileBannerImage: "/images/services/DataAnalytics-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
@@ -1014,13 +1014,13 @@ export const serviceData = [
         contentOne: "At iTCart, we don't just analyze data—we transform it into actionable intelligence that fuels enterprise growth. Our advanced data analytics consulting services combine strategic vision with technical expertise, helping organizations overcome the most pressing challenges in data analytics. From data strategy to implementation, we deliver enterprise data analytics solutions powered by modern BI tools, AI-driven forecasting, and Generative AI for Data Analytics to drive data analytics in digital transformation. ",
         contenttwo: ""
       },
-      skillGapSectionHeading: 'Comprehensive Enterprise Data and Analytics Services Suite',
+      skillGapSectionHeading: 'Comprehensive Enterprise Data & Analytics Suite',
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent data processing and seamless analytics integration ensuring optimal business intelligence. ',
       skillGapSection: [
         {
           icon: '/images/services/icons/Data Integration and Management Services Icon.svg',
           title: "Data Integration and Management Services",
-          highlight: "Real-time and batch data ingestion with comprehensive data cleansing, deduplication, and transformation processes for unified data environments. ",
+          highlight: "We consolidate and manage data from multiple systems to ensure accuracy, consistency, and readiness for analytics.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
@@ -1040,7 +1040,7 @@ export const serviceData = [
         },
         {
           icon: '/images/services/icons/AI & ML-Powered Decision Intelligence Icon.svg',
-          title: "AI & ML-Powered Decision Intelligence",
+          title: "AI-Powered Decision Intelligence",
           highlight: "Model training, validation, and deployment with AI-driven what-if analysis, scoring engines, and real-time recommendation systems. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
@@ -1051,28 +1051,28 @@ export const serviceData = [
       CapabilitySections: [
         {
           title: "Strategic Data Consulting",
-          description: "End-to-end data analytics consulting services from strategy development to implementation, ensuring alignment with business objectives and growth. ",
+          description: "We assess your current data landscape and create a tailored strategy to improve availability, quality, and business use.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "AI-Powered Analytics",
-          description: "Embedded AI & ML for predictive and prescriptive analytics with industry-specific KPIs, models, and dashboard templates through Generative AI for Data Analytics. ",
+          description: "We implement AI-driven analytics to uncover patterns, predict trends, and automate insights that support informed decision-making.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Cloud-Native Architecture",
-          description: "Secure, scalable, cloud-native data architecture ensuring optimal performance and seamless integration across enterprise systems and platforms. ",
+          description: "We build secure, cloud-native data architectures optimized for scalability, performance, and cost-efficiency.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Industry Specialization",
-          description: "Tailored enterprise data analytics solutions across healthcare, finance, manufacturing, retail sectors with domain-specific expertise and compliance requirements. ",
+          description: "We deliver industry-specific analytics solutions tailored for retail, BFSI, healthcare, manufacturing, and other domains.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Advanced Visualization",
-          description: "Interactive dashboards and reporting systems transforming complex data into compelling visual narratives with actionable business insights. ",
+          description: "We design interactive dashboards and intuitive visualizations that make complex data easy to understand and act on.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
@@ -1085,25 +1085,25 @@ export const serviceData = [
       serviceCardItems: [
         {
           title: "Data Discovery & Assessment",
-          description: "Comprehensive analysis of existing data landscape, identifying common challenges in data analytics and analytics opportunities aligned with business objectives. ",
+          description: "We evaluate your data sources, data quality, and infrastructure to establish a strong foundation for analytics.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Data Discovery & Assessment Icon.svg'
         },
         {
           title: "Architecture & Design",
-          description: "Design scalable data architecture with appropriate technology stack selection, integration strategies, and governance frameworks for long-term success. ",
+          description: "We design scalable analytics architectures and models tailored to your business needs.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Architecture & Design Icon.svg'
         },
         {
           title: "Implementation & Integration",
-          description: "Deploy data pipelines, analytics platforms, and visualization tools with seamless integration across existing enterprise systems and workflows. ",
+          description: "We deploy analytics tools, integrate data pipelines, and validate performance to ensure seamless operations.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Implementation & Integration Icon.svg'
         },
         {
-          title: "Model Development & Training",
-          description: "Build and validate predictive models using advanced machine learning techniques tailored to specific business use cases and requirements. ",
+          title: "Training & Enablement",
+          description: "We train teams to use dashboards, interpret insights, and leverage analytics for daily decision-making.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Model Development & Training Icon.svg'
         }
@@ -1135,8 +1135,8 @@ export const serviceData = [
         contenttwo: "Whether you’re a solo learner, training a team, or scaling an institution-wide learning program, AiXQP is ready to grow with you. "
       },
       futurSectionHeading: "Transform Your Data Strategy - Act Now!",
-      futurSectionDescription: "Ready to unlock the full power of your data and drive smarter business outcomes with comprehensive enterprise data and analytics services? ",
-      FAQsHeading: 'Everything You Need to Know About Data Analytics   ',
+      futurSectionDescription: "Ready to unlock the full potential of your data with AI-powered analytics and modern data engineering?",
+      FAQsHeading: 'Everything You Need to Know About Data Analytics Services',
       FAQs: [
         {
           id: '1',
@@ -1197,8 +1197,8 @@ export const serviceData = [
       metaDescription: 'Accelerate innovation with iTCart’s AI-powered DevOps services. Automate cloud workflows, boost release speed, and secure, scalable delivery for modern enterprises. ',
       serviceName: 'DevOps Services',
       bannerButtonText: "Get in touch",
-      bannerTitle: "Experience Top-Notch DevOps Services that Drive Reliable Software Releases",
-      bannerDescription: " Transform your software delivery and operational efficiency with one of the best DevOps service providers in the industry delivering faster releases and continuous innovation.",
+      bannerTitle: "Reliable DevOps Services for Faster, Higher-Quality Software Releases.",
+      bannerDescription: "Enhance software delivery and operational efficiency with faster releases and continuous innovation.",
       bannerImage: "/images/services/DevOps-Services-banner.png",
       mobileBannerImage: "/images/services/DevOps-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
@@ -1208,7 +1208,7 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/DevOps-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "Transforming software development lifecycles through comprehensive DevOps services and solutions that bridge the gap between development and operations teams. We specialize in delivering DevOps strategy consulting solutions, DevOps implementation services, and continuous integration pipelines. ",
+        contentOne: "We transform software development lifecycles with DevOps solutions that unify development and operations teams. Our expertise includes strategy consulting, implementation, and CI/CD pipelines",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Comprehensive Enterprise DevOps Solutions Suite',
@@ -1217,28 +1217,28 @@ export const serviceData = [
         {
           icon: '/images/services/icons/DevOps Implementation Services Icon.svg',
           title: "DevOps Implementation Services",
-          highlight: "Complete DevOps implementation services from assessment to deployment, ensuring seamless integration with existing systems through proven methodologies and frameworks. ",
+          highlight: "We provide end-to-end DevOps implementation, integrating seamlessly with your existing systems using proven methodologies",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/images/services/icons/DevOps Automation Services Icon.svg',
           title: "DevOps Automation Services",
-          highlight: "Advanced DevOps automation services including CI/CD pipeline automation, infrastructure as code, and continuous monitoring for rapid, error-free software releases. ",
+          highlight: "Automate CI/CD pipelines, infrastructure as code, and continuous monitoring for faster, error-free releases.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Azure DevOps Services Icon.svg',
           title: "Azure DevOps Services",
-          highlight: "Comprehensive Azure DevOps services leveraging Microsoft's platform for seamless cloud transitions, automation, and enterprise-grade DevOps infrastructure management. ",
+          highlight: "Leverage Microsoft Azure for cloud transitions, automation, and enterprise-grade DevOps management.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/DevOps Containerization Service Icon.svg',
           title: "DevOps Containerization Service",
-          highlight: "Expert DevOps containerization services implementing Docker, Kubernetes orchestration, and microservices architecture for scalable, portable applications and enhanced deployment flexibility. ",
+          highlight: "Implement Docker and Kubernetes to enable scalable, portable applications with flexible deployment.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -1248,59 +1248,59 @@ export const serviceData = [
       CapabilitySections: [
         {
           title: "Strategic DevOps Consulting",
-          description: "End-to-end DevOps strategy consulting from current maturity assessment to transformation roadmap definition, ensuring alignment with business objectives. ",
+          description: "Assess current maturity and define a transformation roadmap aligned with your business goals.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Custom DevOps Implementation",
-          description: "Tailored custom DevOps implementation services designed for specific organizational needs with cross-functional team building and measurable KPI-driven strategies. ",
+          description: "Tailored solutions with cross-functional teams and KPI-driven strategies.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Infrastructure Automation",
-          description: "Advanced infrastructure as code implementation using Terraform, Ansible, and cloud-native solutions through leading DevOps infrastructure management providers expertise. ",
+          description: "Use Terraform, Ansible, and cloud-native solutions for automated infrastructure management.”",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Enterprise DevOps Solutions",
-          description: "Comprehensive enterprise DevOps solutions including security integration, continuous monitoring, and scalable architecture design for large-scale organizational transformations. ",
+          description: "Security integration, continuous monitoring, and scalable architecture for large organizations.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Cloud DevOps Excellence",
-          description: "Expert Azure DevOps services and multi-cloud DevOps automation services ensuring seamless transitions to public, private, or hybrid cloud environments. ",
+          description: "Seamless multi-cloud DevOps automation for public, private, or hybrid environments.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Continuous Integration Mastery",
-          description: "Advanced CI/CD pipeline automation with automated testing, deployment orchestration, and real-time monitoring through best DevOps service providers methodologies. ",
+          description: "Automate CI/CD pipelines with testing, deployment orchestration, and real-time monitoring.",
           gradient: "from-[#222222] to-[#111111]", // dark
         }
       ],
-      serviceCardHeading: 'Our Approach in Best DevOps Services',
+      serviceCardHeading: 'Our DevOps Approach',
       serviceCardItems: [
         {
           title: "Assessment & Roadmap Development",
-          description: "Thorough evaluation of existing software development lifecycles, identifying bottlenecks and defining clear DevOps vision aligned with organizational objectives. ",
+          description: "Evaluate development lifecycles, identify bottlenecks, and define a clear DevOps vision.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Assessment & Roadmap Development Icon.svg'
         },
         {
           title: "Cross-Functional Team Building",
-          description: "Assembling diverse stakeholder teams with unique skills maximizing implementation outcomes and ensuring buy-in across development, operations, and business units. ",
+          description: "Assemble diverse teams to maximize implementation outcomes across departments.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Cross-Functional Team Building Icon.svg'
         },
         {
           title: "Measurable KPI-Driven Strategy",
-          description: "Establishing specific targets for deployment frequency, lead time, and mean time to recovery while tracking continuous improvement metrics. ",
+          description: "Set targets for deployment frequency, lead time, and recovery metrics, tracking continuous improvement.”",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Measurable KPI-Driven Strategy Icon.svg'
         },
         {
           title: "Phased Implementation Approach",
-          description: "Starting with less critical applications to build confidence and refine processes before tackling mission-critical systems ensuring scalable adoption. ",
+          description: "Begin with non-critical applications to refine processes before mission-critical systems.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Phased Implementation Approach Icon.svg'
         }
@@ -1311,17 +1311,17 @@ export const serviceData = [
         {
           image: '/images/services/DevOps-Services-choose1.png',
           title: 'Proven Expertise Results',
-          content: "Advanced enterprise DevOps solutions generating tangible business outcomes including faster time-to-market, reduced deployment failures, and enhanced operational efficiency. "
+          content: "Enterprise DevOps solutions that deliver faster time-to-market, fewer deployment failures, and improved operational efficiency."
         },
         {
           image: '/images/services/DevOps-Services-choose2.png',
           title: 'End-to-End DevOps Capabilities',
-          content: 'Complete DevOps services and solutions from cloud migrations to comprehensive CI/CD pipeline implementation through best DevOps service providers expertise. '
+          content: 'Complete services from cloud migrations to CI/CD pipeline implementation'
         },
         {
           image: '/images/services/DevOps-Services-choose3.png',
           title: 'Industry-Agnostic Solutions',
-          content: 'Tailored DevOps infrastructure management providers services meeting unique organizational needs across industries dismantling silos and fostering collaboration innovation. '
+          content: 'Custom DevOps solutions for organizations across industries, fostering collaboration and innovation.'
         }
       ],
       aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
@@ -1332,7 +1332,7 @@ export const serviceData = [
         contenttwo: "Don't let outdated development processes hold your organization back while competitors surge ahead with faster deployments and superior operational efficiency through our comprehensive DevOps services and solutions. "
       },
       futurSectionHeading: "Ready to Accelerate Your Digital Transformation?",
-      futurSectionDescription: "Transform your software delivery with comprehensive DevOps services and solutions that deliver measurable results and competitive advantage through proven expertise? ",
+      futurSectionDescription: "Transform your software delivery with DevOps solutions that provide measurable results and a competitive advantage",
       FAQsHeading: 'FAQs',
       FAQs: [
         {
@@ -1395,7 +1395,7 @@ export const serviceData = [
       serviceName: 'Digital Commerce',
       bannerButtonText: "Get in touch",
       bannerTitle: "Experience Digital Commerce Excellence with iTCart",
-      bannerDescription: "Our digital commerce services empower you to thrive by combining advanced technologies, secure payment systems, and seamless channel integration for lasting customer loyalty.",
+      bannerDescription: "Empower your business with secure, AI-driven e-commerce solutions and seamless multi-channel integration for lasting customer loyalty.",
       bannerImage: "/images/services/Digital-Commerce-banner.png",
       mobileBannerImage: "/images/services/DigitalCommerce-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
@@ -1408,34 +1408,34 @@ export const serviceData = [
         contentOne: "iTCart stands out as a premier digital commerce partner by uniquely combining cutting-edge AI automation with comprehensive e-commerce solutions through our proprietary AiXHub  delivering intelligent, adaptive digital commerce platforms. ",
         contenttwo: ""
       },
-      skillGapSectionHeading: 'Comprehensive E-Commerce Platform Services Suite',
+      skillGapSectionHeading: 'Our Digital Commerce Solutions',
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent commerce management and seamless multi-channel integration ensuring optimal business performance. ',
       skillGapSection: [
         {
           icon: '/images/services/icons/Comprehensive E-Commerce Solutions Icon.svg',
-          title: "Comprehensive E-Commerce Solutions",
-          highlight: "Launch and scale your business with e-commerce platform services supporting product management, order fulfillment, inventory synchronization, and Advanced Ecommerce Analytics for real-time insights. ",
+          title: "E-Commerce Platform Services",
+          highlight: "Launch and scale your business with platforms supporting product management, order fulfillment, inventory synchronization, and real-time analytics.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/images/services/icons/B2B E-Commerce Solutions Icon.svg',
           title: "B2B E-Commerce Solutions",
-          highlight: "Specialized B2B e-commerce solutions designed for wholesale operations including custom pricing, bulk ordering, account management, and enterprise-level integration capabilities. ",
+          highlight: "Specialized solutions for wholesale operations, including bulk ordering, custom pricing, account management, and enterprise-level integration.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Multi-Channel Retail Integration Icon.svg',
           title: "Multi-Channel Retail Integration",
-          highlight: "Connect your store with ERPs, CRMs, POS platforms, and marketplaces through our E-commerce integration services creating unified, efficient multi-channel retail solutions. ",
+          highlight: "Connect stores with ERPs, CRMs, POS platforms, and marketplaces for unified, efficient multi-channel retail operations.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Advanced Ecommerce Analytics Icon.svg',
-          title: "Advanced Ecommerce Analytics",
-          highlight: "Actionable insights through comprehensive Advanced Ecommerce Analytics platform delivering real-time performance data and predictive intelligence for smarter decision-making. ",
+          title: "Advanced E-Commerce Analytics",
+          highlight: "Gain actionable insights with predictive intelligence and real-time performance data to make smarter business decisions.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -1530,7 +1530,7 @@ export const serviceData = [
       },
       futurSectionHeading: "Transform Your Business into Digital Commerce Powerhouse",
       futurSectionDescription: "",
-      FAQsHeading: 'FAQs  ',
+      FAQsHeading: 'Your Digital Commerce Questions Answered  ',
       FAQs: [
         {
           id: '1',
@@ -1605,27 +1605,27 @@ export const serviceData = [
         contentOne: "We help businesses modernize operations, elevate customer experiences, and future-proof their growth by embracing cutting-edge digital transformation technologies, agile processes, and data-driven strategies through comprehensive digital transformation consulting. ",
         contenttwo: ""
       },
-      skillGapSectionHeading: 'Comprehensive Digital Innovation Solutions Suite',
+      skillGapSectionHeading: 'Digital Innovation Solutions',
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent business modernization and seamless digital integration ensuring optimal transformation performance. ',
       skillGapSection: [
         {
           icon: '/images/services/icons/Strategic Digital Consulting Icon.svg',
           title: "Strategic Digital Consulting",
-          highlight: "Expert digital transformation consulting guidance aligning digital initiatives with business objectives through comprehensive enterprise digital transformation strategy development and implementation. ",
+          highlight: "Align digital initiatives with business objectives through expert consulting and enterprise strategy implementation.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/images/services/icons/Technology Integration Architecture.svg',
           title: "Technology Integration Architecture",
-          highlight: "Advanced digital transformation technologies evaluation, selection, and implementation ensuring seamless integration with existing systems while scaling for future growth. ",
+          highlight: "Evaluate, select, and implement technologies for seamless system integration and future scalability.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Business Process Automation Icon.svg',
           title: "Business Process Automation",
-          highlight: "Intelligent process automation through digital transformation solutions eliminating manual inefficiencies and optimizing workflows for enhanced operational excellence. ",
+          highlight: "Transform raw data into actionable insights using integrated analytics platforms.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -1700,7 +1700,7 @@ export const serviceData = [
         }
       ],
       whyChooseUsHeading: 'WHY CHOOSE US? ',
-      whyChooseUsHeadingDescription: 'Explore innovative digital technologies and comprehensive transformation solutions designed for sustainable business modernization and competitive excellence. ',
+      whyChooseUsHeadingDescription: 'Explore innovative digital technologies and transformation solutions designed for sustainable business modernization and competitive excellence.',
       whyChooseUsCards: [
         {
           image: '/images/services/Digital-Transformation-why-coose-us1.png',
@@ -1725,8 +1725,8 @@ export const serviceData = [
         contentOne: 'iTCart Digital Transformation Services run on AiXHub, the core of the AiX Framework—bringing intelligent automation, predictive analytics, and autonomous decision-making to your transformation experience. ',
         contenttwo: "Our digital transformation solutions encompass cloud migration, process automation, data analytics integration, and customer experience optimization aligned with business objectives. "
       },
-      futurSectionHeading: "Future-Proof Your Business - Act Now!",
-      futurSectionDescription: "Ready to revolutionize your operations with comprehensive digital transformation services that deliver sustainable competitive advantage and measurable results? ",
+      futurSectionHeading: "Future-Proof Your Business with Expert Digital Transformation Services",
+      futurSectionDescription: "Ready to revolutionize your operations with digital transformation services that deliver sustainable competitive advantage and measurable results? ",
       FAQsHeading: 'Everything You Need to Know About Digital Transformation  ',
       FAQs: [
         {
@@ -1922,8 +1922,8 @@ export const serviceData = [
         contentOne: 'Comprehensive IoT connectivity services ensuring reliable, secure communication across all devices with enterprise-grade network management and monitoring. ',
         contenttwo: ""
       },
-      futurSectionHeading: "Ready to Build What's Next?",
-      futurSectionDescription: "Transform your startup vision into market-leading success with comprehensive startup consulting services and strategic guidance that delivers measurable results?",
+      futurSectionHeading: "Ready to Connect the Future?”",
+      futurSectionDescription: "Transform your operations with end-to-end IoT solutions and real-time insights that drive measurable business impact",
       FAQsHeading: 'Everything You Need to Know About IoT ',
       FAQs: [
         {
@@ -1989,8 +1989,8 @@ export const serviceData = [
       metaDescription: 'Simplify IT operations with iTCart’s Managed IT Services, secure cloud solutions, advanced monitoring, and end-to-end support for scalable business success. ',
       serviceName: 'Managed IT Services',
       bannerButtonText: "Get in touch",
-      bannerTitle: "Empower Your Business with Expertly Crafted Managed IT Services",
-      bannerDescription: "Achieve peak efficiency, robust security, and business growth with managed IT designed for seamless performance and continuous innovation. ",
+      bannerTitle: "Managed IT Services for Seamless Performance",
+      bannerDescription: "Optimize efficiency, strengthen security, and drive growth with reliable managed IT services.",
       bannerImage: "/images/services/Managed-IT-Services-banner.png",
       mobileBannerImage: "/images/services/Managed-IT-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
@@ -2000,73 +2000,73 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/Managed-IT-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "Experience the power of enterprise-grade managed IT services that go beyond traditional support to deliver transformational business outcomes. iTCart's comprehensive managed technology services combine cutting-edge technology with strategic expertise to optimize operations, enhance cybersecurity posture, and accelerate sustainable growth through our remote monitoring and management approach. ",
+        contentOne: "iTCart delivers enterprise-grade managed IT services that go beyond traditional support. Our solutions combine advanced technology and strategic expertise to optimize operations, enhance cybersecurity, and enable sustainable growth through proactive remote monitoring and management.",
         contenttwo: ""
       },
-      skillGapSectionHeading: 'Comprehensive Managed Technology Solutions Suite (H2) ',
+      skillGapSectionHeading: 'Managed IT Solutions Suite ',
       skillGapHeadingDescription: 'Leverage advanced tools for intelligent IT management and seamless infrastructure optimization ensuring optimal business performance. ',
       skillGapSection: [
         {
           icon: '/images/services/icons/Network Management Services Icon.svg',
           title: "Network Management Services",
-          highlight: "Comprehensive monitoring, maintenance, and optimization of all network devices through our managed IT services ensuring maximum uptime and performance. ",
+          highlight: "Monitor, maintain, and optimize all network devices to ensure maximum uptime and performance.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/images/services/icons/Cybersecurity Solutions Icon.svg',
           title: "Cybersecurity Solutions",
-          highlight: "Advanced protection against viruses, malware, phishing, and cyber threats through comprehensive managed technology services and proactive security monitoring. ",
+          highlight: "Protect against malware, phishing, and cyber threats with proactive security monitoring and advanced defenses.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Cloud Infrastructure Solutions Icon.svg',
           title: "Cloud Infrastructure Solutions",
-          highlight: "Complete cloud management services including migration, optimization, and ongoing support across AWS, Azure, and GCP platforms. ",
+          highlight: "Manage, migrate, and optimize cloud infrastructure across AWS, Azure, and GCP platforms.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Remote Monitoring and Management Icon.svg',
           title: "Remote Monitoring and Management",
-          highlight: "Proactive monitoring approach preventing downtime through real-time issue detection, instant resolutions, and automated maintenance protocols. ",
+          highlight: "Prevent downtime with real-time monitoring, automated maintenance, and instant issue resolution.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
       ],
       capabilitiSectionHeading: 'IT Support and Maintenance Services',
-      capabilitiSectionDescription: '24/7 helpdesk and troubleshooting for all staff IT needs with comprehensive support for end-users and technical infrastructure. ',
+      capabilitiSectionDescription: '24/7 IT support and troubleshooting for staff and infrastructure, ensuring smooth operations',
       CapabilitySections: [
         {
           title: "IT Consulting Services",
-          description: "Strategic roadmaps for growth, budgeting, and technology integration through expert IT consulting services and digital transformation planning. ",
+          description: "Strategic IT consulting for growth, budgeting, and technology integration to align with business objectives",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Our Expertise in Managed IT Services",
-          description: "Discover comprehensive IT capabilities that drive measurable technology transformation and operational excellence. ",
+          description: "Discover IT capabilities that drive measurable technology transformation and operational excellence.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Proactive IT Management",
-          description: "Our remote monitoring and management systems prevent issues before they impact business operations through predictive analytics and automated remediation. ",
+          description: "Predict and prevent IT issues with automated monitoring and proactive remediation.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Strategic Technology Consulting",
-          description: "End-to-end IT consulting services from infrastructure assessment to digital transformation strategy, ensuring alignment with business objectives. ",
+          description: "From infrastructure assessment to digital transformation strategy, aligning IT initiatives with business goals.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Security-First Approach",
-          description: "Comprehensive cybersecurity integrated into all managed technology services with continuous threat monitoring and incident response capabilities. ",
+          description: "Integrate continuous threat monitoring and incident response into all IT services",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Scalable Infrastructure",
-          description: "Cloud infrastructure solutions designed to grow with your business, providing flexible and cost-effective managed IT services deployment. ",
+          description: "Cloud infrastructure solutions that scale with your business for cost-effective IT management.",
           gradient: "from-[#222222] to-[#111111]", // dark
         }
       ],
@@ -2074,25 +2074,25 @@ export const serviceData = [
       serviceCardItems: [
         {
           title: "Discovery & Assessment",
-          description: "We analyze your technology landscape, pain points, security posture, and business objectives through comprehensive IT consulting services evaluation. ",
+          description: "Analyze your IT landscape, identify pain points, and assess security posture and business objectives.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Discovery & Assessment Icon.svg'
         },
         {
           title: "Strategy Design & Onboarding",
-          description: "Develop comprehensive IT roadmap and seamless onboarding with minimal disruption through our managed IT services implementation methodology. ",
+          description: "Develop IT roadmaps and ensure seamless onboarding with minimal disruption",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Strategy Design & Onboarding Icon.svg'
         },
         {
           title: "Implementation & Integration",
-          description: "Deploy security solutions, network updates, and cloud infrastructure solutions as needed with complete systems integration and optimization. ",
+          description: "Deploy security, network, and cloud solutions with full systems integration",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Implementation & Integration Icon.svg'
         },
         {
           title: "Remote Monitoring & Support",
-          description: "Continuous remote monitoring and management with proactive maintenance, 24/7 IT support and maintenance services ensuring optimal performance. ",
+          description: "Continuous monitoring and proactive support with 24/7 IT services to ensure optimal performance.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Remote Monitoring and Management Icon.svg'
         }
@@ -2123,8 +2123,8 @@ export const serviceData = [
         contentOne: '',
         contenttwo: ""
       },
-      futurSectionHeading: "Ready to Optimize Your IT Infrastructure - Act Now!",
-      futurSectionDescription: "Transform your technology operations with comprehensive managed IT services that deliver reliability, security, and strategic business value",
+      futurSectionHeading: "Optimize Your IT Infrastructure Today",
+      futurSectionDescription: "Optimize your IT infrastructure with managed services that deliver security, reliability, and measurable business value",
       FAQsHeading: 'Everything You Need to Know About Managed IT Services  ',
       FAQs: [
         {

@@ -725,7 +725,7 @@ export const industryData = [
         },
         {
           title: "Customer Relationship Management",
-          description: "Advanced customer relationship management with personalized marketing communications, lead tracking, preference-based content delivery, and enhanced customer experience platforms. ",
+          description: "Advanced customer relationship management with personalized marketing communications, purchase tracking, preference-based content delivery, and enhanced customer experience tools.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
@@ -1409,7 +1409,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/FMCG-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The fast-moving consumer goods sector faces complex challenges including supply chain disruptions, inventory optimization, and consumer demand volatility. Modern FMCG companies require robust digital transformation in FMCG infrastructure enabling comprehensive digital consumer experiences, AI solutions for FMCG companies, FMCG supply chain automation, FMCG digital transformation services, retail analytics for FMCG brands, FMCG process optimization software, smart inventory management for FMCG, and FMCG distribution optimization. iTCart delivers intelligent consumer goods solutions through innovative automation frameworks and comprehensive business management. ",
+        contentOne: "The fast-moving consumer goods sector faces complex challenges including supply chain disruptions, inventory optimization, and consumer demand volatility. Modern FMCG companies require robust digital transformation infrastructure that enables digital consumer experiences, AI-driven FMCG solutions, supply chain automation, process optimization, retail analytics, smart inventory management, and distribution optimization. iTCart delivers intelligent consumer goods solutions through innovative automation frameworks and comprehensive business management. ",
         contenttwo: ""
       },
       skillGapSectionHeading: 'FMCG Technology Excellence',
@@ -1418,14 +1418,14 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/FMCG-icon1.svg',
           title: "Smart Consumer Goods",
-          highlight: "Advanced AI solutions for FMCG companies systems with demand forecasting, consumer analytics, and comprehensive operational coordination. ",
+          highlight: "Advanced AI solutions for FMCG companies with demand forecasting, consumer analytics, and comprehensive operational coordination.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/FMCG-icon2.svg',
           title: "Digital Experience Innovation",
-          highlight: "Comprehensive digital consumer experiences featuring personalized marketing, omnichannel engagement, and continuous consumer satisfaction advancement through technology. ",
+          highlight: "Comprehensive digital consumer experiences featuring personalized marketing, omnichannel engagement, and continuous improvement in consumer satisfaction through technology.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -1439,7 +1439,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/FMCG-icon4.svg',
           title: "Connected Operations",
-          highlight: "Advanced FMCG digital transformation services enabling seamless integration through retail analytics for FMCG brands excellence and smart inventory management for FMCG services. ",
+          highlight: "Advanced FMCG digital transformation services enabling seamless integration through retail analytics and smart inventory management solutions.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -1461,7 +1461,7 @@ export const industryData = [
         },
         {
           title: "Digital Experience Engine",
-          description: "Integrated digital consumer experiences with personalization algorithms through retail analytics for FMCG brands applications and customer analytics. ",
+          description: "Integrated digital consumer experience platform with personalization algorithms supported by retail analytics and customer analytics.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/FMCG-solution3.png'
         },
@@ -1507,7 +1507,7 @@ export const industryData = [
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Process Automation (",
+          title: "Business Process Automation",
           description: "Intelligent workflow automation for FMCG production scheduling, quality control processes, consumer engagement procedures, and supply chain through automated business workflows. ",
           icon: '/images/vertical/icons/manicon.png'
         },
@@ -1552,7 +1552,7 @@ export const industryData = [
         {
           id: '1',
           title: "What makes iTCart's digital transformation in FMCG solutions different?",
-          content: "Our comprehensive approach integrates AI solutions for FMCG companies capabilities with proven FMCG digital transformation services methodologies, delivering measurable results through advanced digital consumer experiences, FMCG supply chain automation, and retail analytics for FMCG brands ensuring competitive advantage."
+          content: "Our comprehensive approach integrates AI solutions for FMCG companies with proven FMCG digital transformation methodologies, delivering measurable results through advanced digital consumer experiences, FMCG supply chain automation, and retail analytics for FMCG brands ensuring competitive advantage."
         },
         {
           id: '2',
@@ -1598,7 +1598,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Industrial Automation Solutions Excellence",
-      bannerDescription: " Empowering digital transformation in manufacturing through comprehensive predictive maintenance in manufacturing technologies",
+      bannerDescription: "Empowering digital transformation in manufacturing through advanced predictive-maintenance technologies.",
       bannerImage: "/images/industries/Industrial-&-Manufacturing-Banner.jpg",
       mobileBannerImage: "/images/industries/Industrial-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -1606,7 +1606,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/industrial-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The industrial and manufacturing sector faces complex challenges including production optimization, equipment reliability, and operational efficiency. Modern manufacturers require robust industrial automation solutions infrastructure enabling comprehensive manufacturing operations management through IoT in industrial automation. iTCart delivers digital transformation in manufacturing through innovative digital twin in manufacturing, AI in industrial automation, and digital manufacturing transformation methodologies. ",
+        contentOne: "The industrial and manufacturing sector faces complex challenges, including production optimization, equipment reliability, and overall operational efficiency. Modern manufacturers need a strong digital infrastructure that supports streamlined manufacturing operations management powered by IoT-driven automation. iTCart drives smart factory transformation through advanced digital twin technologies, AI-enabled production systems, and modern approaches that accelerate digital manufacturing initiatives.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Manufacturing Technology Excellence',
@@ -1646,19 +1646,19 @@ export const industryData = [
       solutionGridItems: [
         {
           title: "Automation Control Platform",
-          description: "Comprehensive industrial automation solutions with process control, equipment coordination, safety management, and operational monitoring tracking systems. ",
+          description: "Comprehensive industrial-automation capabilities with process control, equipment coordination, safety management, and real-time operational monitoring.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/industrial-solution1.png'
         },
         {
           title: "Predictive Maintenance Suite",
-          description: "Advanced predictive maintenance in manufacturing featuring sensor integration, analytics algorithms, maintenance scheduling, and performance optimization systems. ",
+          description: "Advanced predictive-maintenance capabilities featuring sensor integration, analytics models, maintenance scheduling, and performance-optimization systems.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/industrial-solution2.png'
         },
         {
           title: "Digital Twin Engine",
-          description: "Integrated digital twin in manufacturing with simulation modeling through manufacturing operations management applications and performance analytics. ",
+          description: "An integrated digital-twin platform with simulation modeling, operations-management integration, and performance analytics",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/industrial-solution3.png'
         },
@@ -1676,7 +1676,7 @@ export const industryData = [
         },
         {
           title: "IoT Integration Hub",
-          description: "Connected IoT in industrial automation with sensor networks, device management, data collection, and AI in industrial automation intelligence coordination. ",
+          description: "Connected IoT infrastructure with sensor networks, device management, data collection, and AI-enabled operational intelligence.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/industrial-solution6.png'
         }
@@ -1692,12 +1692,12 @@ export const industryData = [
         {
           image: '/images/industries/service2.png',
           title: 'Application Services ',
-          content: 'Custom development for manufacturing execution systems, automation platforms, and industrial solutions through innovative industrial automation solutions enabling digital transformation and enhanced operational efficiency. '
+          content: 'Custom development for manufacturing-execution systems, automation platforms, and industrial applications, enabling digital transformation and improved operational efficiency.'
         },
         {
           image: '/images/industries/service3.png',
           title: 'AI ML Automation',
-          content: 'Intelligent automation featuring predictive maintenance in manufacturing applications, AI in industrial automation capabilities, and IoT in industrial automation integration delivering measurable performance improvements across manufacturing operations. '
+          content: 'Intelligent automation featuring predictive-maintenance applications, AI-driven control capabilities, and IoT-based integration to deliver measurable performance improvements across manufacturing operations.'
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
@@ -1705,7 +1705,7 @@ export const industryData = [
       CapabilitySections: [
         {
           title: "Business Process Automation",
-          description: "Intelligent workflow automation for manufacturing production scheduling, quality control processes, maintenance coordination procedures, and industrial operations through automated business workflows.",
+          description: "Intelligent workflow automation for production scheduling, quality-control processes, maintenance coordination, and industrial operations.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
@@ -1730,7 +1730,7 @@ export const industryData = [
         },
         {
           title: "Learning Management System ",
-          description: "Training modules for manufacturing teams, safety certification tracking, industrial assessments, skills development, and immersive digital twin manufacturing learning experiences.",
+          description: "Training modules for manufacturing teams, safety certification tracking, industrial assessments, skills development, and immersive digital twin learning experiences.",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -1754,7 +1754,7 @@ export const industryData = [
         {
           id: '2',
           title: 'How does predictive maintenance in manufacturing improve operations',
-          content: 'Predictive maintenance in manufacturing applications optimize equipment reliability, enhance failure prediction, streamline maintenance scheduling, and improve operational efficiency through AI in industrial automation services and real-time monitoring insights delivering manufacturing excellence.'
+          content: 'Predictive-maintenance applications optimize equipment reliability, enhance failure prediction, streamline maintenance scheduling, and improve operational efficiency through AI in industrial automation services and real-time monitoring insights delivering manufacturing excellence.'
         },
         {
           id: '3',
@@ -1768,7 +1768,7 @@ export const industryData = [
         },
         {
           id: '5',
-          title: "What AI in industrial automation services do you offer?",
+          title: "What AI-powered industrial-automation services do you offer?",
           content: "Our AI in industrial automation encompasses machine learning systems, intelligent control platforms, predictive analytics tools, automated decision-making solutions, and comprehensive optimization through digital manufacturing transformation delivering business improvements. "
         },
         {
@@ -1795,7 +1795,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Healthcare Digital Transformation Solutions Excellence",
-      bannerDescription: "Empowering modern healthcare through comprehensive electronic health records management and AI automation in healthcare industry",
+      bannerDescription: "Driving healthcare digital transformation through advanced EHR systems, intelligent automation, and AI-powered care innovation.",
       bannerImage: "/images/industries/Healthcare-Banner.jpg",
       mobileBannerImage: "/images/industries/Healthcare-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -1803,7 +1803,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/healthcare-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The healthcare sector faces complex challenges including patient care optimization, regulatory compliance, and operational efficiency. Modern healthcare organizations require robust healthcare digital transformation solutions infrastructure enabling comprehensive electronic health records management, AI automation in healthcare industry, remote patient monitoring services, revenue cycle management in healthcare, and automate claim processing insurance. iTCart delivers intelligent medical solutions through innovative automation frameworks and comprehensive practice management. ",
+        contentOne: "The healthcare sector faces complex challenges including patient care optimization, regulatory compliance, and operational efficiency. Modern healthcare organizations require a robust digital-transformation infrastructure that enables comprehensive electronic health records management, AI-driven automation across the healthcare industry, remote patient-monitoring services, revenue-cycle management, and fully automated insurance-claim processing. iTCart delivers intelligent medical solutions through innovative automation technologies and comprehensive practice-management capabilities.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Healthcare Technology Excellence',
@@ -1812,14 +1812,14 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Healthcare-icon1.svg',
           title: "Smart Healthcare",
-          highlight: "Advanced AI automation in healthcare industry systems with patient monitoring, clinical decision support, and comprehensive operational coordination. ",
+          highlight: "Advanced AI automation in healthcare industry with patient monitoring, clinical decision support, and comprehensive operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Healthcare-icon2.svg',
           title: "EHR Intelligence",
-          highlight: "Comprehensive electronic health records management featuring patient data integration, clinical workflows, and continuous care advancement through technology. ",
+          highlight: "Comprehensive electronic health records management featuring patient-data integration, streamlined clinical workflows, and continuous improvements in care delivery through advanced technology.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -1833,7 +1833,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Healthcare-icon4.svg',
           title: "Connected Operations",
-          highlight: "Advanced revenue cycle management in healthcare enabling seamless integration through automate claim processing insurance excellence and financial optimization services. ",
+          highlight: "Advanced revenue-cycle management in healthcare enables seamless integration through automated insurance-claim processing and comprehensive financial-optimization services.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -1843,19 +1843,19 @@ export const industryData = [
       solutionGridItems: [
         {
           title: "Patient Management Platform",
-          description: "Comprehensive AI automation in healthcare industry with patient scheduling, clinical workflows, treatment tracking, and care coordination monitoring systems. ",
+          description: "Comprehensive AI-driven automation across the healthcare industry supports patient scheduling, clinical workflows, treatment tracking, and coordinated-care monitoring.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/healthcare-solution1.png'
         },
         {
           title: "EHR Integration Suite",
-          description: "Advanced electronic health records management featuring patient records, clinical documentation, prescription management, and interoperability coordination systems. ",
+          description: "Advanced electronic health-records management featuring patient-record handling, clinical documentation, prescription management, and seamless interoperability across systems.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/healthcare-solution2.png'
         },
         {
           title: "Remote Monitoring Engine",
-          description: "Integrated remote patient monitoring services with vital sign tracking through healthcare digital transformation solutions applications and patient analytics. ",
+          description: "Integrated remote patient-monitoring services with vital-sign tracking and advanced patient analytics powered by digital-transformation technologies.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/healthcare-solution3.png'
         },
@@ -1867,7 +1867,7 @@ export const industryData = [
         },
         {
           title: "Claims Automation Platform",
-          description: "Automated billing workflows, insurance verification, payment processing, and optimization through comprehensive automate claim processing insurance solutions. ",
+          description: "Automated billing workflows, insurance verification, payment processing, and end-to-end optimization through comprehensive automated insurance-claim-processing solutions.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/healthcare-solution5.png'
         },
@@ -1884,17 +1884,17 @@ export const industryData = [
         {
           image: '/images/industries/service1.png',
           title: 'Cybersecurity Services ',
-          content: 'Enterprise-level security protecting patient data, medical systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring HIPAA compliance and threat protection across all healthcare touchpoints. '
+          content: 'Enterprise-level security protecting patient data, medical systems, and operational infrastructure through comprehensive cybersecurity systems ensuring HIPAA compliance and threat protection across all healthcare touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
           title: 'Application Services',
-          content: ' Custom development for healthcare management systems, clinical platforms, and medical solutions through innovative healthcare digital transformation solutions enabling digital transformation and enhanced operational efficiency.'
+          content: ' Custom development for healthcare management systems, clinical platforms, and medical solutions through innovative healthcare digital-transformation solutions that enhance operational efficiency.'
         },
         {
           image: '/images/industries/service3.png',
           title: 'AI ML Automation',
-          content: 'Intelligent automation featuring electronic health records management applications, remote patient monitoring services capabilities, and AI automation in healthcare industry integration delivering measurable performance improvements across medical operations. '
+          content: 'Intelligent automation featuring electronic health records management applications, capabilities for remote patient-monitoring services, and AI automation in healthcare industry integration delivering measurable performance improvements across medical operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
@@ -1902,7 +1902,7 @@ export const industryData = [
       CapabilitySections: [
         {
           title: "Business Process Automation",
-          description: "Intelligent workflow automation for healthcare appointment scheduling, patient registration processes, clinical documentation procedures, and medical administrative through automated business workflows.",
+          description: "Intelligent workflow automation for healthcare appointment scheduling, patient registration processes, clinical documentation procedures, and medical administrative processes through automated business workflows.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
@@ -1966,7 +1966,7 @@ export const industryData = [
         {
           id: '5',
           title: "What revenue cycle management in healthcare services do you offer?",
-          content: "Our revenue cycle management in healthcare encompasses billing optimization systems, claims management tools, payment processing platforms, denial management, and comprehensive financial intelligence through automate claim processing insurance delivering business improvements."
+          content: "Our revenue cycle management in healthcare encompasses billing optimization systems, claims management tools, payment processing platforms, denial management, and comprehensive financial intelligence through automated insurance-claim processing that delivers measurable business improvements."
         },
         {
           id: '6',
@@ -2000,23 +2000,23 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/it-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The information technology sector faces complex challenges including system modernization, workflow efficiency, and infrastructure scalability. Modern IT organizations require robust AI in information technology infrastructure enabling comprehensive IT workflow automation and IT infrastructure optimization. iTCart delivers IT digital transformation services through innovative application modernization services and get AI-powered IT automation services methodologies. ",
+        contentOne: "The information technology sector faces complex challenges such as system modernization, workflow efficiency improvement, and infrastructure scalability. Modern IT organizations require robust AI-driven infrastructure that supports comprehensive workflow automation and end-to-end optimization. iTCart delivers digital transformation through innovative application modernization methodologies and AI-powered IT automation frameworks. ",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Information Technology Excellence',
-      skillGapHeadingDescription: 'Accelerating IT digital transformation services through comprehensive automation solutions ',
+      skillGapHeadingDescription: 'Accelerating digital transformation through comprehensive IT automation solutions.',
       skillGapSection: [
         {
          icon: '/icons/Industry-icons/Information-icon1.svg',
           title: "Smart IT Operations",
-          highlight: "Advanced AI in information technology systems with intelligent monitoring, automated responses, and comprehensive operational coordination. ",
+          highlight: "Advanced AI-driven systems offering intelligent monitoring, automated responses, and coordinated operational workflows.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Information-icon2.svg',
           title: "Modernization Innovation",
-          highlight: "Comprehensive application modernization services featuring legacy system transformation, cloud migration, and continuous technological advancement through solutions. ",
+          highlight: "Comprehensive application modernization including legacy transformation, cloud migration, and continuous technological advancement.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -2030,7 +2030,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Information-icon4.svg',
           title: "Connected Infrastructure",
-          highlight: "Advanced IT infrastructure optimization enabling seamless integration through IT digital transformation services excellence and get AI-powered IT automation services. ",
+          highlight: "Advanced infrastructure optimization enabling seamless integration supported by AI-powered automation.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -2040,7 +2040,7 @@ export const industryData = [
       solutionGridItems: [
         {
           title: "IT Automation Platform",
-          description: "Comprehensive IT workflow automation with process orchestration, task scheduling, incident management, and performance monitoring tracking systems. ",
+          description: "Comprehensive workflow automation with process orchestration, task scheduling, incident management, and performance monitoring.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/it-solution1.png'
         },
@@ -2052,7 +2052,7 @@ export const industryData = [
         },
         {
           title: "Infrastructure Management Engine",
-          description: "Integrated IT infrastructure optimization with resource allocation through AI in information technology applications and performance analytics. ",
+          description: "Integrated infrastructure optimization with intelligent resource allocation and performance analytics.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/it-solution3.png'
         },
@@ -2064,13 +2064,13 @@ export const industryData = [
         },
         {
           title: "Digital Transformation Platform",
-          description: "Automated modernization workflows, migration coordination, change management, and optimization through comprehensive IT digital transformation services solutions. ",
+          description: "Automated modernization workflows, migration coordination, change management, and enterprise-wide optimization.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/it-solution5.png'
         },
         {
           title: "AI Automation Hub",
-          description: "Connected get AI-powered IT automation services with machine learning, intelligent decision-making, process automation, and operational excellence coordination.  ",
+          description: "Connected AI-powered IT automation services with machine learning, intelligent decision-making, process automation, and operational excellence coordination.  ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/it-solution6.png'
         }
@@ -2143,7 +2143,7 @@ export const industryData = [
         {
           id: '1',
           title: "What makes iTCart's AI in information technology solutions different? ",
-          content: "Our comprehensive approach integrates IT digital transformation services capabilities with proven application modernization services methodologies, delivering measurable results through advanced IT workflow automation, IT infrastructure optimization, and get AI-powered IT automation services ensuring competitive advantage."
+          content: "Our comprehensive approach integrates IT digital transformation services capabilities with proven application modernization services methodologies, delivering measurable results through advanced workflow automation, infrastructure optimization, and AI-powered automation capabilities."
         },
         {
           id: '2',
@@ -2163,7 +2163,7 @@ export const industryData = [
         {
           id: '5',
           title: "What IT digital transformation services do you offer?",
-          content: "Our IT digital transformation services encompass modernization platforms, automation tools, infrastructure solutions, analytics systems, and comprehensive optimization through get AI-powered IT automation services delivering business improvements. "
+          content: "Our IT digital transformation services encompass modernization platforms, automation tools, infrastructure solutions, analytics systems, and comprehensive optimization through AI-powered IT automation services delivering business improvements. "
         },
         {
           id: '6',
@@ -2300,7 +2300,7 @@ export const industryData = [
       capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
       CapabilitySections: [
         {
-          title: "Business Process Automation (",
+          title: "Business Process Automation",
           description: "Intelligent workflow automation for media content scheduling, production coordination processes, approval workflows, and administrative operations through automated business workflows.  ",
           icon: '/images/vertical/icons/manicon.png'
         },
@@ -2391,7 +2391,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Oil and Gas Digital Transformation Solutions Excellence",
-      bannerDescription: "Empowering modern energy through comprehensive oil and gas industry solutions and advanced technology in oil and gas industry ",
+      bannerDescription: "Driving energy innovation with integrated digital solutions and advanced technologies tailored for the oil and gas sector.",
       bannerImage: "/images/industries/Oil-&-Gas-Banner.jpg",
       mobileBannerImage: "/images/industries/OilGas-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -2399,7 +2399,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/oilgas-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The oil and gas sector faces complex challenges including operational efficiency, safety management, and regulatory compliance. Modern energy companies require robust oil and gas digital transformation solutions infrastructure enabling comprehensive advanced technology in oil and gas industry, AI in oil and gas industry, oil and gas process automation, digital twin for oil and gas, energy sector AI solutions, digital oilfield automation services, oil and gas remote monitoring, and oil and gas industry solutions. iTCart delivers intelligent energy technologies through innovative automation frameworks and comprehensive operations management. ",
+        contentOne: "The oil and gas sector faces complex challenges including operational efficiency, safety management, and regulatory compliance. Modern energy companies require strong digital transformation capabilities supported by advanced technology systems. iTCart delivers intelligent energy technologies through innovative AI applications, digital twin capabilities, and integrated automation frameworks that improve operational performance. ",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Oil & Gas Technology Excellence',
@@ -2408,28 +2408,28 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/OilGas-icon1.svg',
           title: "Smart Energy Operations",
-          highlight: "Advanced AI in oil and gas industry systems with predictive analytics, production optimization, and comprehensive operational coordination. ",
+          highlight: "Advanced AI in oil and gas industry systems with predictive analytics, production optimization, and comprehensive operational coordination",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/OilGas-icon2.svg',
           title: "Process Automation",
-          highlight: "Comprehensive oil and gas process automation featuring drilling optimization, production control, and continuous operational advancement through technology. ",
+          highlight: "Comprehensive oil and gas process automation featuring drilling optimization, production control, and continuous performance improvement enabled through technology. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/OilGas-icon3.svg',
           title: "Digital Twin Technology",
-          highlight: "Real-time digital twin for oil and gas utilizing simulation modeling for asset monitoring and proactive operational optimization strategies. ",
+          highlight: "Real-time digital twin for oil and gas using simulation modeling for asset monitoring and proactive operational optimization strategies. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/OilGas-icon4.svg',
           title: "Connected Infrastructure",
-          highlight: "Advanced energy sector AI solutions enabling seamless integration through digital oilfield automation services excellence and oil and gas remote monitoring",
+          highlight: "Advanced energy sector AI solutions supporting seamless integration through digital oilfield automation services, operational intelligence, and comprehensive remote monitoring capabilities. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -2439,25 +2439,25 @@ export const industryData = [
       solutionGridItems: [
         {
           title: "Production Management Platform",
-          description: "Comprehensive oil and gas industry solutions with well monitoring, production tracking, resource allocation, and operational performance management systems. ",
+          description: "Comprehensive oil and gas industry solutions supporting well monitoring, production tracking, resource allocation, and fully integrated performance management systems for energy operations. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/oilgas-solution1.png'
         },
         {
-          title: "Process Automation Suite ",
-          description: "Advanced oil and gas process automation featuring workflow optimization, equipment control, safety protocols, and operational coordination systems. ",
+          title: "Process Automation Suite",
+          description: "Advanced oil and gas process automation delivering workflow optimization, equipment control, safety protocol management, and integrated operational coordination systems across energy operations. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/oilgas-solution2.png'
         },
         {
           title: "Digital Twin Engine",
-          description: "Integrated digital twin for oil and gas with asset simulation through advanced technology in oil and gas industry applications and predictive analytics. ",
+          description: "Integrated digital twin for oil and gas enabling asset simulation using advanced technology applications in the oil and gas industry supported by predictive analytics insights. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/oilgas-solution3.png'
         },
         {
           title: "AI Analytics System",
-          description: "Dynamic AI in oil and gas industry utilizing machine learning algorithms for reservoir analysis, production forecasting, and comprehensive operational intelligence. ",
+          description: "Dynamic AI in the oil and gas industry uses machine learning algorithms for reservoir analysis, production forecasting, and delivering comprehensive operational intelligence. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/oilgas-solution4.png'
         },
@@ -2469,7 +2469,7 @@ export const industryData = [
         },
         {
           title: "Automation Services Hub",
-          description: "Connected digital oilfield automation services with energy sector AI solutions, performance optimization, intelligent operations control, and excellence coordination. ",
+          description: "Connected digital oilfield automation services deliver energy sector AI solutions, performance optimization, intelligent operations control, and streamlined operational coordination capabilities. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/oilgas-solution6.png'
         }
@@ -2480,17 +2480,17 @@ export const industryData = [
         {
           image: '/images/industries/service1.png',
           title: 'Cybersecurity Services',
-          content: 'Enterprise-level security protecting energy data, operational systems, and infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all oil & gas touchpoints. '
+          content: 'Enterprise-level security protecting energy data, operational systems, and infrastructure through advanced cybersecurity frameworks ensuring regulatory compliance and delivering strong threat protection across all oil and gas touchpoints. '
         },
         {
           image: '/images/industries/service2.png',
-          title: 'Application Services ',
-          content: 'Custom development for energy management platforms, production systems, and oilfield solutions through innovative oil and gas digital transformation solutions enabling automation and enhanced operational efficiency. '
+          title: 'Application Services',
+          content: 'Custom development for energy management platforms, production systems, and oilfield solutions using innovative digital transformation capabilities enabling automation and enhanced operational efficiency.'
         },
         {
           image: '/images/industries/service3.png',
           title: 'AI ML Automation',
-          content: 'Intelligent automation featuring advanced technology in oil and gas industry applications, AI in oil and gas industry capabilities, and oil and gas process automation integration delivering measurable performance improvements across energy operations.'
+          content: 'Intelligent automation featuring advanced technology applications, AI-driven capabilities for the oil and gas industry, and integrated process workflows delivering measurable performance improvements across energy operations. '
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
@@ -2503,22 +2503,22 @@ export const industryData = [
         },
         {
           title: "Enterprise Resource Planning",
-          description: "Comprehensive integrated energy operations management including financial planning, resource allocation, project management, strategic planning, and enterprise-wide oil and gas coordination solutions. ",
+          description: "Comprehensive integrated energy operations management covering financial planning, resource allocation, project management, strategic planning, and enterprise-wide coordination solutions for oil and gas organizations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Supply Chain Management",
-          description: "Advanced energy supply chain optimization featuring vendor management, equipment tracking, procurement automation, logistics coordination, and intelligent energy sector supply solutions.",
+          description: "Advanced energy supply chain optimization featuring vendor management, equipment tracking, procurement automation, logistics coordination, and intelligent energy sector supply solutions. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Human Resource Management",
-          description: "Complete staff scheduling, safety training management, compliance tracking, certification management, and automated HR processes for oil and gas operations. ",
+          description: "Complete staff scheduling, safety training management, compliance tracking, certification management, and automated HR processes tailored for efficient oil and gas operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Document Management System",
-          description: "Secure digital document storage for energy records, safety documentation, compliance reports, regulatory filings, and oil and gas documentation management systems.  ",
+          description: "Secure digital document storage for energy records, safety documentation, compliance reports, regulatory filings, and oil and gas documentation management systems. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
@@ -2542,37 +2542,37 @@ export const industryData = [
         {
           id: '1',
           title: "What makes iTCart's oil and gas digital transformation solutions different?",
-          content: "Our comprehensive approach integrates advanced technology in oil and gas industry capabilities with proven AI in oil and gas industry methodologies, delivering measurable results through innovative oil and gas process automation, digital twin for oil and gas, and energy sector AI solutions ensuring competitive advantage."
+          content: "Our comprehensive approach integrates advanced technology capabilities for the oil and gas industry with proven AI methodologies, delivering measurable results through innovative process automation, digital twin technologies, and energy sector AI solutions that strengthen performance and ensure a lasting competitive advantage. "
         },
         {
           id: '2',
-          title: 'How do oil and gas industry solutions improve operations?',
-          content: 'Oil and gas industry solutions applications optimize production processes, enhance safety protocols, streamline operational workflows, and improve asset management through oil and gas digital transformation solutions services and real-time operational insights delivering energy excellence.'
+          title: 'How do oil and gas industry solutions improve operations? ',
+          content: 'Oil and gas industry solutions streamline production processes, strengthen safety protocols, optimize operational workflows, and improve asset management through digital transformation services and real-time operational insights that consistently deliver higher energy performance. '
         },
         {
           id: '3',
-          title: 'What AI in oil and gas industry features are included?',
-          content: 'Our AI in oil and gas industry platform includes predictive maintenance, reservoir analysis, production optimization, risk assessment, equipment monitoring, and comprehensive dashboard with real-time monitoring capabilities ensuring operational success.'
+          title: 'What AI in oil and gas industry features are included? ',
+          content: 'Our AI in oil and gas industry platform includes predictive maintenance, reservoir analysis, production optimization, risk assessment, equipment monitoring, and an integrated dashboard delivering real-time visibility and insights to ensure operational success. '
         },
         {
           id: '4',
-          title: 'How does oil and gas process automation enhance efficiency?',
-          content: 'Oil and gas process automation solutions streamline drilling operations, production control, safety management, equipment coordination, and operational processes through intelligent automation and real-time visibility improving efficiency.'
+          title: 'How does oil and gas process automation enhance efficiency? ',
+          content: 'Oil and gas process automation solutions streamline drilling operations, production control, safety management, equipment coordination, and operational workflows through intelligent automation and real-time visibility that significantly improves efficiency.'
         },
         {
           id: '5',
-          title: "What digital twin for oil and gas services do you offer?",
-          content: "Our digital twin for oil and gas encompasses asset simulation systems, performance modeling tools, predictive analytics platforms, operational optimization, and comprehensive intelligence through digital oilfield automation services delivering business improvements."
+          title: "What digital twin for oil and gas services do you offer? ",
+          content: "Our digital twin for oil and gas includes asset simulation systems, performance modeling tools, predictive analytics platforms, operational optimization features, and enhanced intelligence delivered through digital oilfield automation services supporting measurable business improvements."
         },
         {
           id: '6',
           title: "How long does oil & gas digital transformation implementation take?",
-          content: "Oil and gas digital transformation solutions typically require twelve to eighteen months for comprehensive implementation, including system integration, staff training, and optimization phases ensuring minimal operational disruption while maximizing investment returns."
+          content: "Oil and gas digital transformation solutions typically require 12 to 18 months for full implementation, including system integration, staff training, and optimization phases that minimize operational disruption while maximizing overall investment returns."
         },
         {
           id: '7',
           title: "Can your solutions integrate with existing oil & gas systems?",
-          content: "Yes, our advanced technology in oil and gas industry features robust APIs and pre-built integrations ensuring seamless connectivity with existing SCADA systems, production platforms, and operational management tools without disrupting operations."
+          content: "Yes, our advanced technology in oil and gas industry features robust APIs and pre-built integrations ensuring seamless connectivity with existing SCADA systems, production platforms, and operational management tools without disrupting operations. "
         },
       ]
     }
@@ -2588,7 +2588,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Public Sector Technology Excellence",
-      bannerDescription: "Empowering modern governance through comprehensive digital government transformation and AI solutions for government sector",
+      bannerDescription: "Transforming modern governance with advanced digital government initiatives and AI solutions for the public sector.",
       bannerImage: "/images/industries/Public-Sector-Banner.jpg",
       mobileBannerImage: "/images/industries/PublicSector-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -2596,7 +2596,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/publicsector-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The public sector faces complex challenges including citizen service delivery, regulatory compliance, and operational efficiency. Modern government organizations require robust automation for public sector infrastructure enabling comprehensive digital government transformation, government workforce development, AI solutions for government sector, digital technology in public sector, and automation in public sector. iTCart delivers intelligent governance solutions through innovative automation frameworks and comprehensive public administration. ",
+        contentOne: "The public sector faces complex challenges including citizen service delivery, regulatory compliance, and operational efficiency. Modern government organizations require robust automation infrastructure that supports digital government transformation, workforce development, AI solutions, and other public sector technologies. iTCart delivers intelligent governance solutions through innovative automation frameworks and comprehensive public administration.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Public Sector Technology Excellence',
@@ -2605,28 +2605,28 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Public-icon1.svg',
           title: "Smart Governance",
-          highlight: "Advanced AI solutions for government sector systems with citizen engagement, service delivery optimization, and comprehensive operational coordination. ",
+          highlight: "Our advanced AI solutions for government systems enhance citizen engagement, optimize service delivery, and provide comprehensive operational coordination.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Public-icon2.svg',
           title: "Digital Transformation",
-          highlight: "Comprehensive digital government transformation featuring process modernization, citizen portals, and continuous service advancement through technology. ",
+          highlight: "We deliver comprehensive digital government transformation by modernizing processes, developing citizen portals, and continuously advancing services through technology.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Public-icon3.svg',
           title: "Workforce Development",
-          highlight: "Real-time government workforce development utilizing training platforms for skill enhancement and proactive capability building strategies. ",
+          highlight: "Our government workforce development solutions use real-time training platforms to enhance skills and build proactive capabilities.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Public-icon4.svg',
           title: "Connected Operations",
-          highlight: "Advanced digital technology in public sector enabling seamless integration through automation in public sector excellence and operational optimization services. ",
+          highlight: "Our advanced digital technology enables seamless integration across public sector operations, enhancing automation and operational efficiency.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -2636,37 +2636,37 @@ export const industryData = [
       solutionGridItems: [
         {
           title: "Citizen Services Platform",
-          description: "Comprehensive automation for public sector with service portals, case management, application processing, and citizen engagement monitoring systems. ",
+          description: "We provide comprehensive automation solutions with service portals, case management, application processing, and citizen engagement monitoring systems.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/publicsector-solution1.png'
         },
         {
           title: "Digital Transformation Suite",
-          description: "Advanced digital government transformation featuring process automation, document management, workflow optimization, and service coordination systems. ",
+          description: "Our advanced digital transformation suite automates processes, manages documents, optimizes workflows, and coordinates services effectively.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/publicsector-solution2.png'
         },
         {
           title: "Workforce Management Engine",
-          description: "Integrated government workforce development with training modules through AI solutions for government sector applications and performance analytics. ",
+          description: "Our integrated workforce management engine provides training modules with AI-powered analytics to improve government sector performance.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/publicsector-solution3.png'
         },
         {
           title: "Technology Integration System",
-          description: "Dynamic digital technology in public sector utilizing cloud solutions for system integration, data management, and comprehensive operational intelligence. ",
+          description: "The technology integration system leverages cloud solutions to provide system integration, data management, and operational intelligence for the public sector.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/publicsector-solution4.png'
         },
         {
           title: "Process Automation Platform ",
-          description: "Automated governance workflows, compliance monitoring, service delivery, and optimization through comprehensive automation in public sector solutions. ",
+          description: "Our process automation platform automates governance workflows, monitors compliance, and optimizes service delivery across public sector operations.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/publicsector-solution5.png'
         },
         {
           title: "Analytics Intelligence Hub",
-          description: "Connected digital government transformation with performance metrics, citizen insights, service analytics, and operational excellence coordination. ",
+          description: "The analytics intelligence hub connects digital government services with performance metrics, citizen insights, service analytics, and operational coordination.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/publicsector-solution6.png'
         }
@@ -2700,27 +2700,27 @@ export const industryData = [
         },
         {
           title: "Enterprise Resource Planning ",
-          description: "Comprehensive integrated government operations management including financial planning, resource allocation, budget management, strategic planning, and enterprise-wide public sector coordination solutions.  ",
+          description: "Our ERP solutions provide integrated government operations management, including financial planning, resource allocation, budget management, strategic planning, and enterprise-wide coordination.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Supply Chain Management ",
-          description: "Comprehensive government procurement optimization featuring vendor management, contract tracking, resource allocation, logistics coordination, and intelligent digital technology supply solutions.  ",
+          description: "Our supply chain management optimizes government procurement through vendor management, contract tracking, resource allocation, logistics coordination, and advanced digital supply solutions.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Human Resource Management",
-          description: "Complete staff scheduling, performance management, compliance tracking, certification management, and automated HR processes for public sector and government operations.  ",
+          description: "Our human resource management solutions streamline staff scheduling, performance tracking, compliance, certification, and automate HR processes for public sector operations.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Document Management System",
-          description: "Secure digital document storage for government records, legal documentation, compliance reports, regulatory filings, and public sector documentation management systems",
+          description: "Our document management system provides secure digital storage for government records, legal documents, compliance reports, regulatory filings, and other public sector documentation.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Learning Management System",
-          description: "Training modules for government teams, certification tracking, compliance assessments, skills development, and immersive government workforce development learning experiences. ",
+          description: "Our learning management system provides training modules, certification tracking, compliance assessments, skill development, and immersive workforce development experiences for government teams.",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -2785,7 +2785,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Professional Services Automation Excellence",
-      bannerDescription: "Empowering modern service firms through comprehensive professional services digital transformation and AI in professional services",
+      bannerDescription: "Reinventing modern governance with digital government transformation and AI solutions",
       bannerImage: "/images/industries/Professional-Services-Banner.jpg",
       mobileBannerImage: "/images/industries/ProfessionalServices-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -2793,7 +2793,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/professional-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The professional services sector faces complex challenges including operational efficiency, client management, and technology adoption. Modern service firms require robust professional services automation infrastructure enabling comprehensive professional services digital transformation, managed professional services, professional custom desk services, professional services compliance solution, future of professional services industry, workforce productivity analytics, task management solutions, and AI in professional services. iTCart delivers intelligent business solutions through innovative automation frameworks and comprehensive service management. ",
+        contentOne: "The professional services sector faces challenges such as operational efficiency, client management, and technology adoption. Modern service firms require robust automation infrastructure supporting digital transformation, managed services, custom desk solutions, compliance tools, workforce productivity analytics, task management, and AI-driven capabilities. iTCart delivers intelligent business solutions through innovative automation frameworks and service management.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Professional Services Technology Excellence',
@@ -2802,28 +2802,28 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Professional-icon1.svg',
           title: "Smart Service Operations",
-          highlight: "Advanced AI in professional services systems with intelligent workflows, client analytics, and comprehensive operational coordination. ",
+          highlight: "Advanced AI systems for professional services with intelligent workflows, client analytics, and optimized operational coordination.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Professional-icon2.svg',
           title: "Digital Transformation",
-          highlight: "Comprehensive professional services digital transformation featuring process modernization, automation tools, and continuous service advancement through technology. ",
+          highlight: "Professional services digital transformation featuring process modernization, automation tools, and ongoing service improvement through technology.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Professional-icon3.svg',
           title: "Managed Services",
-          highlight: "Real-time managed professional services utilizing expert support for infrastructure management and proactive service optimization strategies. ",
+          highlight: "Managed services leveraging expert support for infrastructure management and proactive service optimization strategies.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Professional-icon4.svg',
           title: "Connected Workflows",
-          highlight: "Advanced task management solutions enabling seamless integration through professional custom desk services excellence and workforce productivity analytics. ",
+          highlight: "Task management solutions enabling seamless integration through custom desk services and workforce productivity analytics.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -2833,37 +2833,37 @@ export const industryData = [
       solutionGridItems: [
         {
           title: "Client Management Platform",
-          description: "Comprehensive professional services automation with project tracking, billing management, resource allocation, and client engagement monitoring systems. ",
+          description: "Professional services automation with project tracking, billing management, resource allocation, and client engagement monitoring systems.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/professional-solution1.png'
         },
         {
           title: "Digital Transformation Suite",
-          description: "Advanced professional services digital transformation featuring workflow optimization, process automation, compliance tracking, and service coordination systems. ",
+          description: "Advanced digital transformation for professional services featuring workflow optimization, process automation, compliance tracking, and service coordination systems.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/professional-solution2.png'
         },
         {
           title: "Managed Services Engine",
-          description: "Integrated managed professional services with infrastructure monitoring through AI in professional services applications and performance analytics. ",
+          description: "Integrated managed services with infrastructure monitoring through AI applications and performance analytics.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/professional-solution3.png'
         },
         {
           title: "Passenger Booking and Reservation System",
-          description: "",
+          description: "Dynamic custom desk services utilizing intelligent algorithms for service delivery, support management, and operational intelligence.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/professional-solution4.png'
         },
         {
           title: "Custom Desk System",
-          description: "Dynamic professional custom desk services utilizing intelligent algorithms for service delivery, support management, and comprehensive operational intelligence. ",
+          description: "AI-powered desk platform streamlining service requests, automated routing, and client support for efficient professional services operations.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/professional-solution5.png'
         },
         {
           title: "Productivity Analytics Platform",
-          description: "Automated performance tracking, resource optimization, efficiency monitoring, and optimization through comprehensive workforce productivity analytics solutions. ",
+          description: "Automated performance tracking, resource management, efficiency monitoring, and productivity improvements through workforce analytics solutions.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/professional-solution6.png'
         }
@@ -2874,17 +2874,17 @@ export const industryData = [
         {
           image: '/images/industries/service1.png',
           title: 'Cybersecurity Services',
-          content: 'Enterprise-level security protecting client data, business systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all professional service touchpoints. '
+          content: 'Enterprise-level security protecting client data, business systems, and operational infrastructure through robust cybersecurity frameworks ensuring regulatory compliance and threat protection across all professional service touchpoints.'
         },
         {
           image: '/images/industries/service2.png',
           title: 'Application Services',
-          content: 'Custom development for service management platforms, client systems, and business solutions through innovative professional services automation enabling digital transformation and enhanced operational efficiency.'
+          content: 'Custom development for service management platforms, client systems, and business solutions using professional services automation for digital transformation and improved operational efficiency.'
         },
         {
           image: '/images/industries/service3.png',
           title: 'AI ML Automation',
-          content: 'Intelligent automation featuring professional services digital transformation applications, AI in professional services capabilities, and task management solutions integration delivering measurable performance improvements across service operations.'
+          content: 'Intelligent automation featuring digital transformation applications, AI capabilities, and task management integration delivering measurable performance improvements across service operations.'
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
@@ -2917,7 +2917,7 @@ export const industryData = [
         },
         {
           title: "Learning Management System",
-          description: "Training modules for professional teams, certification tracking, skills assessments, professional development, and immersive professional services workforce learning experiences.",
+          description: "Training modules for professional teams, certification tracking, skills assessments, professional development, and immersive workforce learning experiences.",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -2936,43 +2936,43 @@ export const industryData = [
         {
           id: '1',
           title: "What makes iTCart's professional services automation solutions different?",
-          content: "Our comprehensive approach integrates professional services digital transformation capabilities with proven AI in professional services methodologies, delivering measurable results through advanced managed professional services, professional custom desk services, and task management solutions ensuring competitive advantage."
+          content: " Our approach integrates digital transformation capabilities with proven AI methodologies, delivering measurable results through advanced managed services, custom desk services, and task management solutions ensuring competitive advantage across professional service operations while maintaining efficiency and enhanced performance standards. "
         },
         {
           id: '2',
           title: 'How do professional services digital transformation services improve operations?',
-          content: 'Professional services digital transformation applications optimize workflow management, enhance client interactions, streamline business processes, and improve service delivery through professional services automation services and real-time operational insights delivering business excellence.'
+          content: 'Digital transformation tools optimize workflow management, enhance client interactions, streamline business processes, and improve service delivery through automation platforms and real-time operational insights delivering business excellence across consulting operations with improved consistency and service outcomes. '
         },
         {
           id: '3',
           title: 'What AI in professional services features are included?',
-          content: 'Our AI in professional services platform includes intelligent automation, predictive analytics, client behavior analysis, resource optimization, performance tracking, and comprehensive dashboard with real-time monitoring capabilities ensuring operational success. '
+          content: ' Our AI platform includes intelligent automation, predictive analytics, client behavior insights, resource optimization, performance tracking, and an advanced dashboard with real-time monitoring capabilities ensuring operational success for service teams and improved decision-making accuracy. '
         },
         {
           id: '4',
           title: 'How does managed professional services enhance efficiency?',
-          content: 'Managed professional services solutions streamline infrastructure management, technology support, system monitoring, maintenance coordination, and operational processes through intelligent automation and expert oversight improving efficiency.'
+          content: 'Managed services streamline infrastructure management, technology support, system monitoring, maintenance coordination, and daily workflows through intelligent automation and expert oversight improving efficiency and ensuring smoother operations across service environments. '
         },
         {
           id: '5',
           title: "What task management solutions services do you offer?",
-          content: "Our task management solutions encompass project tracking systems, deadline management tools, resource allocation platforms, progress monitoring, and comprehensive optimization through workforce productivity analytics delivering business improvements. "
+          content: " Our task management solutions include project tracking systems, deadline management tools, resource allocation platforms, progress monitoring, and advanced optimization through workforce productivity analytics delivering business improvements for teams managing complex service activities. "
         },
         {
           id: '6',
           title: "How long does professional services automation implementation take?",
-          content: "Professional services automation typically requires twelve to eighteen months for comprehensive implementation, including system integration, staff training, and optimization phases ensuring minimal operational disruption while maximizing investment returns."
+          content: "Professional services automation typically requires twelve to eighteen months for full implementation, including system integration, staff training, and optimization phases ensuring minimal operational disruption while maximizing investment returns for service organizations. "
         },
         {
           id: '7',
           title: "Can your solutions integrate with existing professional service systems?",
-          content: "Yes, our professional services digital transformation features robust APIs and pre-built integrations ensuring seamless connectivity with existing CRM systems, project management platforms, and business tools without disrupting operations."
+          content: "Yes, our digital transformation suite features robust APIs and pre-built integrations ensuring seamless connectivity with existing CRM systems, project management platforms, and business tools without disrupting operations or requiring extensive system reconfiguration. "
         },
       ]
     }
   },
   {
-    title: "Retail and E-commerce",
+    title: "Retail and Ecommerce",
     description: "Transforming the retail and e-commerce landscape with innovative software solutions, enhancing customer experiences and growth",
     linkUrl: "/services/startup-services",
     imageSrc: "/images/industries/Retail-Ecommerce.png",
@@ -3571,7 +3571,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get in touch",
       bannerTitle: "Travel Technology Solutions Excellence",
-      bannerDescription: "Empowering modern tourism through comprehensive travel industry digital transformation and AI travel automation software for hotels",
+      bannerDescription: "Driving modern tourism forward with advanced travel industry digital transformation and AI-powered automation software designed specifically for hotels",
       bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
       mobileBannerImage: "/images/industries/travel-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -3579,7 +3579,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/travelTourism-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The travel and tourism sector faces complex challenges including digital transformation demands, operational efficiency, and guest satisfaction expectations. Modern tourism companies require robust travel technology solutions infrastructure enabling comprehensive travel industry software, travel industry digital transformation, tour operator management software, travel agency automation software, tour management software, guest experience automation, travel operations software, AI travel automation software for hotels, guest experience automation, and tourism intelligence platform. iTCart delivers intelligent hospitality solutions through innovative automation frameworks and comprehensive travel management. ",
+        contentOne: "Modern tourism companies require robust travel technology solutions infrastructure enabling unified travel industry software, travel industry digital transformation, tour operator management software, travel agency automation software, tour management software, guest experience automation, travel operations software, AI travel automation software for hotels, guest experience automation services, and tourism intelligence platform.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Travel Technology Excellence',
@@ -3588,28 +3588,28 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Travel-icon1.svg',
           title: "Smart Tourism Operations",
-          highlight: "Advanced travel operations software systems with tour operator management software, guest experience automation, and comprehensive operational coordination across all tourism touchpoints. ",
+          highlight: "Intelligent travel operations software systems with tour operator management software, guest experience automation, and unified operational coordination across all tourism touchpoints.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Travel-icon2.svg',
           title: "Digital Travel Intelligence ",
-          highlight: "Comprehensive travel industry digital transformation featuring AI travel automation software for hotels, seamless booking flows, and continuous guest satisfaction advancement through technology. ",
+          highlight: "Holistic travel industry digital transformation featuring AI travel automation software for hotels, seamless booking flows, and continuous guest satisfaction advancement through technology.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Travel-icon3.svg',
           title: "Tour Management Innovation",
-          highlight: "Real-time tour management software utilizing smart algorithms for itinerary management and proactive travel optimization through tourism intelligence platform strategies. ",
+          highlight: "Dynamic tour management software utilizing smart algorithms for itinerary management and proactive travel optimization through tourism intelligence platform strategies.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Travel-icon4.svg',
           title: "Connected Travel Ecosystem",
-          highlight: "Advanced travel agency automation software enabling seamless integration through travel industry software excellence and guest experience automation services. ",
+          highlight: "Integrated travel agency automation software enabling seamless integration through travel industry software excellence and guest experience automation services.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -3619,37 +3619,37 @@ export const industryData = [
       solutionGridItems: [
         {
           title: "Tour Operator Platform",
-          description: "Comprehensive tour operator management software with reservation processing, itinerary management, vendor coordination, and service monitoring systems optimizing travel operations through advanced travel industry software. ",
+          description: "Complete tour operator management software with reservation processing, itinerary management, vendor coordination, and service monitoring systems optimizing travel operations through advanced travel industry software.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution1.png'
         },
         {
           title: "Travel Agency Suite",
-          description: "Advanced travel agency automation software featuring booking automation, customer management, commission tracking, and operational coordination systems enhancing business efficiency through travel technology solutions. ",
+          description: "Enhanced travel agency automation software featuring booking automation, customer management, commission tracking, and operational coordination systems enhancing business efficiency through travel technology solutions.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution2.png'
         },
         {
           title: "Guest Experience Engine",
-          description: "Integrated guest experience automation with personalized services through AI travel automation software for hotels applications and location-based services delivering seamless travel experiences. ",
+          description: "Integrated guest experience automation with personalized services through AI travel automation software for hotels applications and location-based services delivering seamless travel experiences.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution3.png'
         },
         {
           title: "Tourism Intelligence System ",
-          description: "Dynamic tourism intelligence platform utilizing predictive analytics for destination management, demand forecasting, and comprehensive operational intelligence supporting sustainable tourism through travel industry digital transformation. ",
+          description: "Dynamic tourism intelligence platform utilizing predictive analytics for destination management, demand forecasting, and unified operational intelligence supporting sustainable tourism through travel industry digital transformation.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution4.png'
         },
         {
           title: "Hotel Automation Platform",
-          description: "Automated AI travel automation software for hotels featuring smart room controls, service optimization, and guest satisfaction enhancement through comprehensive travel operations software solutions. ",
+          description: "Automated AI travel automation software for hotels featuring smart room controls, service optimization, and guest satisfaction enhancement through unified travel operations software solutions.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution5.png'
         },
         {
           title: "Tour Management Hub",
-          description: "Connected tour management software with travel industry software integration, guest experience automation, real-time coordination, and operational excellence management. ",
+          description: "Connected tour management software with travel industry software integration, guest experience automation, dynamic coordination, and operational excellence management.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/travelTourism-solution6.png'
         }
@@ -3660,7 +3660,7 @@ export const industryData = [
         {
           image: '/images/industries/service1.png',
           title: 'Cybersecurity Services ',
-          content: 'Enterprise-level security protecting guest data, booking systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all travel technology solutions touchpoints. '
+          content: 'Enterprise-level security protecting guest data, booking systems, and operational infrastructure through unified cybersecurity frameworks ensuring regulatory compliance and threat protection across all travel technology solutions touchpoints.'
         },
         {
           image: '/images/industries/service2.png',
@@ -3683,17 +3683,17 @@ export const industryData = [
         },
         {
           title: "Enterprise Resource Planning ",
-          description: "Comprehensive integrated travel operations management including financial planning, resource allocation, revenue management, strategic planning, and enterprise-wide tourism coordination solutions. ",
+          description: "Complete integrated travel operations management including financial planning, resource allocation, revenue management, strategic planning, and enterprise-wide tourism coordination solutions.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Customer Relationship Management",
-          description: "Advanced guest relationship management with personalized communications, preference tracking, reward-based services, and enhanced experiences through comprehensive travel industry software platforms. ",
+          description: "Advanced guest relationship management with personalized communications, preference tracking, reward-based services, and enhanced experiences through unified travel industry software platforms.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Human Resource Management ",
-          description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for travel and tourism operations. ",
+          description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for travel and tourism operations.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
@@ -3776,16 +3776,16 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/Hospitality-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The hospitality sector faces complex challenges including guest experience optimization, operational efficiency, and technology integration demands. Modern hospitality companies require robust hospitality technology solutions infrastructure enabling comprehensive hotel software systems. iTCart delivers intelligent hospitality solutions through innovative automation frameworks and comprehensive guest service management methodologies. ",
+        contentOne: "The hospitality sector faces complex challenges, including guest experience optimization, operational efficiency, and technology integration demands. Modern hospitality companies require robust digital technology solutions infrastructure enabling advanced hotel software systems. iTCart delivers intelligent hospitality solutions through innovative automation frameworks and unified guest service management methodologies.",
         contenttwo: ""
       },
-      skillGapSectionHeading: 'Hospitality Technology Excellence ',
-      skillGapHeadingDescription: 'Accelerating hospitality technology solutions through comprehensive innovation platforms ',
+      skillGapSectionHeading: 'Hospitality Technology Advancement',
+      skillGapHeadingDescription: 'Accelerating hospitality technology solutions through unified innovation platforms',
       skillGapSection: [
         {
           icon: '/icons/Industry-icons/Hospitality-icon1.svg',
           title: "Smart Hotel Operations",
-          highlight: "Advanced hotel operations automation systems with integrated hotel operations and analytics platform, AI in guest experience for hotels, and comprehensive operational coordination. ",
+          highlight: " Advanced hotel automation systems with an integrated lodging management and analytics platform, AI in guest experience for hotels, and unified operational coordination.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
