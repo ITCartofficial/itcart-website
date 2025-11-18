@@ -57,9 +57,6 @@ const TextRevealSection: React.FC<TextRevealSectionProps> = ({
 }) => {
     const [isHovered, setIsHovered] = useState(false)
 
-    console.log("isHovered", isHovered);
-
-
     return (
         <div className="w-full h-max flex flex-col justify-center items-center text-center bg-black transition-all duration-300" >
             {/* ✅ Title */}
@@ -78,10 +75,7 @@ const TextRevealSection: React.FC<TextRevealSectionProps> = ({
                 <TextReveal
                     text={
                         <>
-                            Leverage AI automation with<br />
-                            our robust AI systems, helping<br />
-                            you gain a competitive edge<br />
-                            in the AI market.
+                            Leverage automation powered by our robust AI systems, helping you gain a competitive edge in the AI market.
                         </>
                     }
                     backgroundColor="bg-black"
