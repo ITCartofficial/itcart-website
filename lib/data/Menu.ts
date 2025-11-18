@@ -95,7 +95,7 @@ export const navItems = [
   },
   {
     label: "Resources",
-    href: "",
+    href: "/blogs",
     submenu: [
       { label: "Our Blogs", href: "/blogs" },
       { label: "Case Studies", href: "/case-study" },
