@@ -8,9 +8,9 @@ export const serviceData = [
       metaTitle: ' Expert AI & ML Consulting and Automation Services ',
       metaDescription: 'Streamline processes, boost efficiency, and gain predictive insights with iTCart’s AI & ML consulting, integration, and automation solutions. ',
       serviceName: 'AI and ML Automations',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get Your Free Assessment ",
       bannerTitle: "Transform Your Business Operations with Advanced AI & ML Automation",
-      bannerDescription: "Streamline operations with intelligent automation. Get Your Free Assessment",
+      bannerDescription: "Unlock faster workflows, eliminate manual bottlenecks, and deploy intelligent systems through end-to-end AI consulting, development, and automation services. ",
       bannerImage: "/images/services/ai-ml-banner.png",
       mobileBannerImage: "/images/services/AI&ML-MobileBanner.jpg",
       bannerImageAlt: '',
@@ -34,7 +34,7 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/ai-ml-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "With advanced AI ML development services and AI and ML automation services, we help you move from static systems to intelligent, self-optimizing processes—designed for growth, efficiency, and resilience.",
+        contentOne: "With specialized AI and machine learning solutions, we help you shift from rigid workflows to adaptive, self-optimizing systems built for long-term efficiency and growth. At iTCart, we focus on true transformation, combining AI engineering, human-centric design, and deep industry expertise to deliver practical, high-impact solutions.",
         contenttwo: "At iTCart, our approach goes beyond simply deploying AI. We deliver transformation—backed by comprehensive AI development services, human-centered design, and industry-specific expertise through our proven AI integration services and AI & ML solutions and services."
       },
       aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE',
@@ -102,7 +102,7 @@ export const serviceData = [
         },
         {
           title: "Predictive Analytics",
-          description: "Enhance forecasting and data-driven decisions through comprehensive business intelligence optimization.",
+          description: "Improve forecasting accuracy and strategic planning with predictive analytics powered by machine learning.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
@@ -125,14 +125,14 @@ export const serviceData = [
         {
           icon: '/images/services/icons/Process Automation & Optimization Icon.svg',
           title: "Process Automation & Optimization",
-          highlight: "Automate processes with AI & ML automation services. Reduce manual intervention by 40–70% through adaptive business workflows.Start Automation ",
+          highlight: "Streamline complex workflows with intelligent automation that cuts manual effort by 40–70% and improves operational speed.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/images/services/icons/Advanced Data Analytics Icon.svg',
           title: "Advanced Data Analytics",
-          highlight: "Gain predictive insights with AI development services enabling real-time intelligence and actionable business analytics.Explore Analytics",
+          highlight: "Unlock predictive intelligence with real-time analytics that support faster, data-driven decisions.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
