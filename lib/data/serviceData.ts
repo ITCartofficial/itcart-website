@@ -1900,7 +1900,7 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore innovative IoT technologies and comprehensive solutions designed for intelligent automation and competitive advantage.',
       whyChooseUsCards: [
         {
-          image: '/images/issuesEnginearingImages/iotserviceschooseimageone.png',
+          image: '/images/issuesEnginearingImages/ioTServiceschooseimageoneimage.png',
           title: 'Top IoT Solution Provider',
           content: "Recognized as one of the top IoT solution providers with proven expertise in delivering comprehensive IoT development services across industries. "
         },
