@@ -1797,7 +1797,7 @@ export const serviceData = [
       bannerNtnName: 'Get Started Today',
       aboutSectionHeading: 'Connect. Automate. Optimize. Transform.',
       aboutSection: {
-        aboutImage: '/images/services/ioT-Services-sectionimage.png',
+        aboutImage: '/images/services/ioTServicessectionimage.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: "At iTCart, we bridge the gap between physical devices and digital intelligence. With deep expertise in edge computing, sensor integration, cloud telemetry, and AI-driven analytics, we help enterprises harness the full potential of IoT in business operations for measurable results through comprehensive IoT solutions and services.",
         contenttwo: ""

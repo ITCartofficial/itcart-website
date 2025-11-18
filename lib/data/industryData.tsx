@@ -3792,7 +3792,7 @@ export const industryData = [
         {
            icon: '/icons/Industry-icons/Hospitality-icon2.svg',
           title: "Enterprise Service Intelligence",
-          highlight: "Comprehensive enterprise hospitality services featuring automated workflows, multi property management system integration, and continuous operational advancement through technology. ",
+          highlight: "Unified enterprise hospitality services featuring automated workflows, multi-property management system integration, and continuous operational advancement through technology.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -3806,7 +3806,7 @@ export const industryData = [
         {
            icon: '/icons/Industry-icons/Hospitality-icon4.svg',
           title: "Connected Hospitality Ecosystem",
-          highlight: "Advanced hospitality integration platform enabling seamless integration through hotel software solutions excellence and hotel automation software services. ",
+          highlight: "Advanced hospitality integration platform enabling seamless connectivity through hotel software solutions capability and hotel automation software services.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -3816,37 +3816,37 @@ export const industryData = [
       solutionGridItems: [
         {
           title: "Hotel Management Platform",
-          description: "Comprehensive hospitality management software with reservation processing, guest services, operational coordination, and performance monitoring systems optimizing hotel operations through advanced hotel software solutions. ",
+          description: "Unified hospitality management software with reservation processing, guest services, operational coordination, and performance monitoring systems optimizing hotel operations through advanced hotel software solutions.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution1.png'
         },
         {
           title: "Property Management Suite",
-          description: "Advanced multi property management system featuring centralized operations, cross-property analytics, revenue optimization, and unified management systems enhancing efficiency through hospitality technology solutions. ",
+          description: "Advanced multi-property management system featuring centralized operations, cross-property analytics, revenue optimization, and unified management systems enhancing efficiency through hospitality technology solutions.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution2.png'
         },
         {
           title: "Hotel Automation Engine",
-          description: "Integrated hotel automation software with smart controls through AI in guest experience for hotels applications and intelligent service delivery optimizing guest satisfaction. ",
+          description: "Integrated hotel automation software with smart controls through AI in guest experience for hotels applications and intelligent service delivery optimizing guest satisfaction.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution3.png'
         },
         {
           title: "Operations Analytics System",
-          description: "Dynamic integrated hotel operations and analytics platform utilizing predictive insights for performance monitoring, operational intelligence, and comprehensive business analytics supporting data-driven decisions. ",
+          description: "Dynamic integrated hotel operations and analytics platform utilizing predictive insights for performance monitoring, operational intelligence, and unified business analytics supporting data-driven decisions.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution4.png'
         },
         {
           title: "Guest Experience Platform",
-          description: "Automated AI in guest experience for hotels featuring personalized services, preference tracking, satisfaction monitoring, and guest journey optimization through comprehensive hotel operations automation solutions. ",
+          description: "Automated AI in guest experience for hotels featuring personalized services, preference tracking, satisfaction monitoring, and guest journey optimization through unified hotel operations automation solutions.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution5.png'
         },
         {
           title: "Integration Management Hub",
-          description: "Connected hospitality integration platform with enterprise hospitality services coordination, system interoperability, workflow automation, and operational excellence management. ",
+          description: "Connected hospitality integration platform with enterprise hospitality services coordination, system interoperability, workflow automation, and operational excellence management.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution6.png'
         }
@@ -3857,12 +3857,12 @@ export const industryData = [
         {
           image: '/images/industries/service1.png',
           title: 'Cybersecurity Services ',
-          content: ' Enterprise-level security protecting guest data, reservation systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all hospitality technology solutions touchpoints. '
+          content: 'Enterprise-level security protecting guest data, reservation systems, and operational infrastructure through unified cybersecurity frameworks ensuring regulatory compliance and threat protection across all hospitality technology solutions touchpoints.'
         },
         {
           image: '/images/industries/service2.png',
           title: 'Application Services ',
-          content: 'Custom development for hotel platforms, guest service systems, and hospitality solutions through innovative hotel software solutions enabling automation and enhanced operational efficiency with specialized hospitality management software. '
+          content: 'Custom development for hotel platforms, guest service systems, and hospitality solutions through innovative hotel software solutions enabling automation and enhanced operational efficiency with specialized hospitality management software.'
         },
         {
           image: '/images/industries/service3.png',
