@@ -14,7 +14,7 @@ const AwardsSection: React.FC<AwardsSectionProps> = ({ }) => {
   return (
     <div className="">
       <GradientTitle
-        text={"AI Entrepreneur Of The Year 2024"}
+        text={"AI Entrepreneur of the Year 2024"}
         lineHeight="1.2"
         className=" px-4  text-[30px] lg:text-[48px] mb-6 text-center leading-[1.2]"
         theme="dark"
