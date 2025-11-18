@@ -1910,7 +1910,7 @@ export const serviceData = [
           content: 'Complete IoT solutions and services portfolio from strategic consulting to ongoing managed services ensuring seamless IoT transformation journey.'
         },
         {
-          image: '/images/issuesEnginearingImages/iotserviceschooseimagethree.png',
+          image: '/images/issuesEnginearingImages/ioTServiceschooseimagethreeimage.png',
           title: 'Custom IoT Expertise',
           content: 'Specialized custom IoT solutions development tailored to unique business requirements with industry-specific compliance and optimization capabilities. '
         }
