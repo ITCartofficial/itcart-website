@@ -1900,17 +1900,17 @@ export const serviceData = [
       whyChooseUsHeadingDescription: 'Explore innovative IoT technologies and comprehensive solutions designed for intelligent automation and competitive advantage.',
       whyChooseUsCards: [
         {
-          image: '/images/issuesEnginearingImages/iot-services-choose1.png',
+          image: '/images/issuesEnginearingImages/iotserviceschoose1.png',
           title: 'Top IoT Solution Provider',
           content: "Recognized as one of the top IoT solution providers with proven expertise in delivering comprehensive IoT development services across industries. "
         },
         {
-          image: '/images/issuesEnginearingImages/iot-services-choose2.png',
+          image: '/images/issuesEnginearingImages/iotserviceschoose2.png',
           title: 'End-to-End IoT Services',
           content: 'Complete IoT solutions and services portfolio from strategic consulting to ongoing managed services ensuring seamless IoT transformation journey.'
         },
         {
-          image: '/images/issuesEnginearingImages/iot-services-choose3.png',
+          image: '/images/issuesEnginearingImages/iotserviceschoose3.png',
           title: 'Custom IoT Expertise',
           content: 'Specialized custom IoT solutions development tailored to unique business requirements with industry-specific compliance and optimization capabilities. '
         }
