@@ -24,13 +24,14 @@ export const serviceData = [
       serviceCardHeading: 'Our Approach to AI Consulting',
       futurSectionHeading: 'Accelerate Your AI Transformation',
       futurSectionDescription: "Empower your enterprise with advanced AI integration and automation. Unlock rapid innovation, efficiency and long-term growth with iTCart’s AI & ML consulting expertise. ",
+      futureSectionBtnTxt: "Begin Your AI Transformation Today",
       VerticalContentSection2: {
         contentOne: "Transform your organization's fragmented digital workspace into an intelligent, unified platform that eliminates software sprawl while boosting productivity through AI-driven automation and seamless Microsoft 365 integration. ",
         contenttwo: "",
         sectionTwoFirstImage: "/images/vertical/section2Image.png"
       },
       whyChooseUsHeading: 'Why Choose iTCart ',
-      whyChooseUsHeadingDescription: "Tailored AI solutions for your sector's challenges and compliance needs.",
+      whyChooseUsHeadingDescription: "Tailored AI solutions built around your industry’s operational and regulatory requirements.",
       aboutSection: {
         aboutImage: '/images/services/ai-ml-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -48,7 +49,7 @@ export const serviceData = [
         {
           image: '/images/services/ai-ml-choose1.png',
           title: 'Tailored Solutions ',
-          content: " Custom consulting to match your sector’s unique requirements."
+          content: "Consulting designed specifically for your industry’s needs."
         },
         {
           image: '/images/services/ai-ml-choose2.png',
@@ -64,7 +65,7 @@ export const serviceData = [
       serviceCardItems: [
         {
           title: "Discovery & Assessment",
-          description: " Identify automation potential and plan strategic AI integration.",
+          description: "Identify automation opportunities and develop a structured AI adoption roadmap.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Discovery & Assessment Icon.svg'
         },
@@ -112,7 +113,7 @@ export const serviceData = [
         },
         {
           title: "Custom AI Development  ",
-          description: "Build bespoke algorithms and models for precise solutions with tailored artificial intelligence integration.",
+          description: "Develop custom AI models and algorithms designed specifically for your business challenges.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
@@ -210,8 +211,8 @@ export const serviceData = [
       metaDescription: 'Build smarter, scalable apps with iTCart’s AI Application Development Services. From modernization to integration, we deliver innovation, security, and agility. ',
       serviceName: 'Application Services',
       bannerButtonText: "Get in touch",
-      bannerTitle: "Innovative Application Services Tailored for Your Business Success",
-      bannerDescription: "Transform your vision into reality with iTCart's AI Application Development Services. ",
+      bannerTitle: "Innovative Application Services Designed for Your Business Success",
+      bannerDescription: "Transform your vision into reality with iTCart’s intelligent application development services.",
       bannerImage: "/images/services/Application-Services-banner.png",
       mobileBannerImage: "/images/services/Application-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
@@ -221,7 +222,7 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/Application-Services-section.png',
         logo: '/images/verticalLogos/Application-Services-section.png',
-        contentOne: "Experience the power of expertly designed digital application development services that ignite business growth and streamline your operations. Our cutting-edge solutions equip you with smart tools, seamless enterprise application integration, and performance focus to drive digital transformation tailored to your unique business needs. ",
+        contentOne: "Experience powerful digital application development services that fuel business growth and simplify operations. Our solutions equip you with intelligent tools, smooth enterprise application integration, and performance-driven systems to support your digital transformation goals.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Comprehensive Application Development Suite',
@@ -237,7 +238,7 @@ export const serviceData = [
         {
           icon: '/images/services/icons/Application Modernization Services Icon.svg',
           title: "Application Modernization Services",
-          highlight: "Transform legacy systems into competitive advantages through our application outsourcing services and modernization expertise without business disruption. ",
+          highlight: "Transform legacy systems into competitive advantages through our application outsourcing services and modernization expertise, minimizing operational disruption.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -277,7 +278,7 @@ export const serviceData = [
         },
         {
           title: "Global Delivery Excellence",
-          description: "Our teams bring cross-industry experience, serving clients in BFSI, Healthcare, Retail, Manufacturing across three continents. ",
+          description: "Our teams bring cross-industry experience, serving clients in BFSI, healthcare, retail, and manufacturing across three continents.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
@@ -287,7 +288,7 @@ export const serviceData = [
         },
         {
           title: "End-to-End Lifecycle Management",
-          description: "From discovery to continuous improvement, we provide comprehensive support through our digital application development services framework. ",
+          description: "From discovery to continuous improvement, we provide complete support through our digital application development services framework. ",
           gradient: "from-[#222222] to-[#111111]", // dark
         }
       ],
@@ -295,7 +296,7 @@ export const serviceData = [
       serviceCardItems: [
         {
           title: "Discovery & Planning",
-          description: "We begin by understanding your business goals, technical requirements, and user needs through comprehensive stakeholder workshops. ",
+          description: "We begin by understanding your business goals, technical requirements, and user needs through detailed stakeholder workshops. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Discovery & Planning Icon.svg'
         },
@@ -319,12 +320,12 @@ export const serviceData = [
         }
       ],
       whyChooseUsHeading: 'WHY CHOOSE US',
-      whyChooseUsHeadingDescription: 'Explore robust application technologies and advanced development capabilities with comprehensive solutions designed for transformation. ',
+      whyChooseUsHeadingDescription: 'Explore modern application technologies and strong development capabilities with solutions designed to support long-term transformation.',
       whyChooseUsCards: [
         {
           image: '/images/services/Application-Services-whychoose1.png',
           title: 'Proven Track Record',
-          content: "98% client retention across 50+ global clients with 60% reduced application downtime and accelerated time-to-market. "
+          content: "98% client retention across 50+ global clients, with a 60% reduction in downtime and faster time-to-market."
         },
         {
           image: '/images/services/Application-Services-whychoose2.png',
@@ -408,7 +409,7 @@ export const serviceData = [
       serviceName: 'Business Intelligence',
       bannerButtonText: "Get in touch",
       bannerTitle: "Transform Data into Scalable Business Intelligence with Experts",
-      bannerDescription: "Partner with iTCart's business intelligence consultants to turn your data into scalable business intelligence solutions.",
+      bannerDescription: "Partner with iTCart’s business intelligence consultants to convert your data into scalable analytics-driven solutions.",
       bannerImage: "/images/services/Business-Intelligence-banner.png",
       mobileBannerImage: "/images/services/Business-MobileBanner.jpg",
       bannerImageAlt: 'Data analysis for business intelligence ',

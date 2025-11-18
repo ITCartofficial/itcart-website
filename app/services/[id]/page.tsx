@@ -156,6 +156,7 @@ const ServicesDetailPage = () => {
 
                     <div className=" border-b-2 border-b-zinc-600 pb-7">
                         <FutureSection
+                            futureSectionBtnTxt={filterdItem?.detailPage?.futureSectionBtnTxt ?? ""}
                             futurSectionHeading={filterdItem?.detailPage?.futurSectionHeading ?? ""}
                             futurSectionDescription={filterdItem?.detailPage?.futurSectionDescription ?? ""}
                         />
