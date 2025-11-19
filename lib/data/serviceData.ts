@@ -428,30 +428,30 @@ export const serviceData = [
         {
           icon: '/images/services/icons/Data Warehousing Integration Icon.svg',
           title: "Data Warehousing Integration",
-          highlight: "Consolidate, organize and create accessible data environments through comprehensive business intelligence data integration services for unified information management. ",
+          highlight: "Consolidate, organize, and create accessible data environments using structured BI integration services built for unified information management.",
           description: "",
-          gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+          gradient: "from-[#45C2CC] to-[#181919]", 
         },
         {
           icon: '/images/services/icons/Real-Time Reporting Analytics Icon.svg',
           title: "Real-Time Reporting Analytics",
-          highlight: "Monitor performance through BI solutions delivering data visualization and interactive dashboards that update instantly with actionable insights. ",
+          highlight: "Monitor performance using BI solutions that provide real-time visualizations and interactive dashboards updated instantly with actionable insights.",
           description: "",
-          gradient: "from-[#222222] to-[#111111]",   // add gradient
+          gradient: "from-[#222222] to-[#111111]", 
         },
         {
           icon: '/images/services/icons/Self-Service Business Intelligence Icon.svg',
           title: "Self-Service Business Intelligence",
-          highlight: "Empower non-technical users to create custom reports and dashboards without relying on IT support through intuitive self-service capabilities. ",
+          highlight: "Enable non-technical users to build custom reports and dashboards without IT support using intuitive self-service BI capabilities.",
           description: "",
-          gradient: "from-[#222222] to-[#111111]",   // add gradient
+          gradient: "from-[#222222] to-[#111111]",  
         },
         {
           icon: '/images/services/icons/Advanced Analytics Forecasting Icon.svg',
           title: "Advanced Analytics Forecasting",
-          highlight: "Predict trends, sales, and risks before they happen using advanced analytics and BI software enabling proactive business decisions. ",
+          highlight: "Forecast trends, revenue, and risks using predictive analytics and BI software that support proactive business decisions.",
           description: "",
-          gradient: "from-[#222222] to-[#111111]",   // add gradient
+          gradient: "from-[#222222] to-[#111111]",  
         },
       ],
       capabilitiSectionHeading: 'Our Expertise in Business Intelligence Services',
@@ -459,28 +459,28 @@ export const serviceData = [
       CapabilitySections: [
         {
           title: "Enterprise Data Strategy",
-          description: "We develop comprehensive strategies for business intelligence implementation ensuring alignment with organizational goals and sustainable growth. ",
+          description: "We build structured strategies for business intelligence implementation that align with organizational goals and support sustainable growth.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Industry-Specific Analytics",
-          description: "Our business intelligence consulting services span retail, finance, healthcare, manufacturing delivering sector-specific insights and measurable results. ",
+          description: "Our business intelligence consulting services span retail, finance, healthcare, and manufacturing, delivering sector-specific insights and measurable outcomes.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Cloud-Based BI Solutions ",
-          description: "Scalable cloud-based business intelligence solutions that grow seamlessly with your organization through advanced infrastructure and analytics. ",
+          description: "Scalable cloud-based BI solutions that expand seamlessly with your organization using modern infrastructure and analytics capabilities. ",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Advanced Visualization Design",
-          description: "Create compelling dashboards and reports through data analysis for business intelligence that transforms complex data into actionable insights",
+          description: "Create compelling dashboards and reports using BI-driven data analysis that converts complex information into actionable insights.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Data Quality Management",
-          description: "Ensure accuracy and consistency across all data sources through comprehensive business intelligence data integration and quality assurance protocols. ",
+          description: "Ensure accuracy and consistency across all data sources through structured BI integration and strict quality assurance protocols.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
@@ -501,13 +501,13 @@ export const serviceData = [
         },
         {
           title: "Design & Planning",
-          description: "Develop solution roadmap, select technology stack, and outline integration strategy customized for your business intelligence services requirements. ",
+          description: "Develop a solution roadmap, select the technology stack, and outline an integration plan tailored to your BI service requirements.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Design & Planning Icon.svg'
         },
         {
           title: "Business Intelligence Implementation",
-          description: "Build data pipelines, dashboards, and custom reports designed for your team through systematic business intelligence implementation processes. ",
+          description: "Build data pipelines, dashboards, and tailored reports through structured BI implementation processes designed for your team.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Business Intelligence Implementation Icon.svg'
         },
@@ -618,7 +618,7 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/CloudOps-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "At iTCart, our cloud operations services go beyond uptime management, they deliver intelligent automation, continuous cost optimization, and full-stack observability. With proactive monitoring and AI-driven recommendations, we ensure your infrastructure is always secure, scalable, and performance-ready through advanced cloud infrastructure management services and cloud management and operation services. ",
+        contentOne: "At iTCart, our cloud operations go beyond uptime management, delivering intelligent automation, continuous cost optimization, and full-stack observability. With proactive monitoring and AI-driven recommendations, we ensure your infrastructure remains secure, scalable, and high-performing through expert cloud infrastructure management.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Comprehensive CloudOps Management Suite',
@@ -641,7 +641,7 @@ export const serviceData = [
         {
           icon: '/images/services/icons/Cloud Security & Governance Icon.svg',
           title: "Cloud Security & Governance",
-          highlight: "Vulnerability scanning, patching, compliance audits through cloud performance management solutions with IAM management and data encryption enforcement. ",
+          highlight: "Vulnerability scanning, patching, and compliance audits with IAM management and enforced data encryption for secure cloud governance.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -692,19 +692,19 @@ export const serviceData = [
       serviceCardItems: [
         {
           title: "Cloud Assessment",
-          description: "Comprehensive evaluation of existing infrastructure, workloads, and requirements to develop tailored cloud operations services and migration strategies. ",
+          description: "Thorough evaluation of existing infrastructure, workloads, and requirements to develop tailored cloud operations services and migration strategies.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Cloud Assessment Icon.svg'
         },
         {
           title: "Strategy & Planning",
-          description: "Design optimal cloud architecture with security, compliance, and performance considerations integrated throughout the cloud infrastructure management services framework through expert cloud strategy consulting services.",
+          description: "Design optimal cloud architecture integrating security, compliance, and performance considerations, supported by expert cloud strategy consulting.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Strategy & Planning Icon.svg'
         },
         {
           title: "Implementation & Migration",
-          description: "Seamless deployment of CloudOps automation solutions with minimal disruption, comprehensive testing, and validated performance benchmarks. ",
+          description: "Seamless deployment of CloudOps automation solutions with minimal disruption, thorough testing, and validated performance benchmarks.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Implementation & Migration Icon.svg'
         },
@@ -731,7 +731,7 @@ export const serviceData = [
         {
           image: '/images/services/CloudOps-Services-choose3.png',
           title: 'AI-powered automation',
-          content: 'Advanced CloudOps automation solutions with AI-driven optimization, predictive analytics, and self-healing capabilities for enhanced operational efficiency. '
+          content: 'CloudOps automation solutions with AI-driven optimization, predictive analytics, and self-healing capabilities to enhance operational efficiency. '
         }
       ],
       aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
@@ -815,7 +815,7 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/Cybersecurity-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "Our services combine advanced technologies, expert guidance, and proactive monitoring to defend your digital assets, ensure business continuity, and build lasting digital trust through comprehensive cyber security solutions. ",
+        contentOne: "We combine cutting-edge technologies, expert guidance, and proactive monitoring to protect digital assets, maintain business continuity, and foster lasting digital trust with robust cybersecurity solutions.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Comprehensive Cyber Security Solutions Suite',
@@ -824,21 +824,21 @@ export const serviceData = [
         {
           icon: '/images/services/icons/AI Driven Threat Detection and Response Icon.svg',
           title: "AI- Driven Threat Detection and Response",
-          highlight: "Advanced AI- Driven threat detection and response solutions providing real-time alerting, forensics, root cause analysis, and post-incident recovery planning for comprehensive protection. ",
+          highlight: "AI-driven threat detection and response solutions offering real-time alerts, forensics, root cause analysis, and post-incident recovery planning for complete protection.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/images/services/icons/Next Generation Endpoint Protection Icon.svg',
           title: "Next Generation Endpoint Protection",
-          highlight: "Superior Next Generation Endpoint Protection securing every device across your organization through end point detection, response capabilities, antivirus, and remote device control. ",
+          highlight: "Next-generation endpoint protection securing every device in your organization with endpoint detection, response capabilities, antivirus, and remote device management.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Cybersecurity Compliance Solutions Icon.svg',
           title: "Cybersecurity Compliance Solutions",
-          highlight: "Comprehensive cybersecurity compliance solutions ensuring adherence to GDPR, ISO 27001, PCI-DSS, HIPAA regulatory frameworks and industry-specific standards. ",
+          highlight: "Cybersecurity compliance solutions ensuring adherence to GDPR, ISO 27001, PCI-DSS, HIPAA frameworks, and other industry-specific standards. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -861,7 +861,7 @@ export const serviceData = [
         },
         {
           title: "Endpoint Protection Services",
-          description: "Comprehensive Endpoint Protection Services securing devices across your organization with advanced detection, response capabilities, and centralized management for maximum security. ",
+          description: "Endpoint protection services securing devices organization-wide with intelligent detection, response capabilities, and centralized management for strong security.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
@@ -871,17 +871,17 @@ export const serviceData = [
         },
         {
           title: "Incident Response Mastery",
-          description: "Expert threat detection and response solutions providing rapid incident response, threat hunting, and comprehensive forensics for maximum organizational protection. ",
+          description: " Expert threat detection and response solutions providing rapid incident response, threat hunting, and detailed forensics for maximum organizational protection. ",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Data Encryption Protection",
-          description: "Advanced data encryption and protection services keeping critical information secure through encryption, data loss prevention, and tokenization technologies. ",
+          description: "Data encryption and protection services keeping critical information secure through encryption, data loss prevention, and tokenization technologies.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Security Awareness Training",
-          description: "Comprehensive security awareness programs including ongoing behavioral risk assessments, phishing simulations, and employee workshops for human firewall development. ",
+          description: "Security awareness programs including ongoing behavioral risk assessments, phishing simulations, and employee workshops for human firewall development.",
           gradient: "from-[#222222] to-[#111111]", // dark
         }
       ],
@@ -894,14 +894,14 @@ export const serviceData = [
           icon: '/images/services/icons/Comprehensive Assessment Icon.svg'
         },
         {
-          title: "Strategic Design Plannin",
+          title: "Strategic Design Planning",
           description: "Building tailored cybersecurity architectures and governance frameworks aligned with organizational goals and risk tolerance levels for optimal protection. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Strategic Design Plannin Icon.svg'
         },
         {
           title: "Implementation Deployment",
-          description: "Executing designed security controls, technologies, and processes across organizational infrastructure ensuring comprehensive cyber security management coverage. ",
+          description: "Executing designed security controls, technologies, and processes across organizational infrastructure ensuring full cybersecurity management coverage.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Implementation Deployment Icon.svg'
         },
@@ -928,7 +928,7 @@ export const serviceData = [
         {
           image: '/images/services/Cybersecurity-Services-choose3.png',
           title: 'End-to-End Service Portfolio',
-          content: 'Complete service spectrum from strategy and implementation to monitoring and incident response ensuring comprehensive cyber security management'
+          content: 'Complete service spectrum from strategy and implementation to monitoring and incident response ensuring full cyber security management'
         }
       ],
       aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
@@ -939,7 +939,7 @@ export const serviceData = [
         contenttwo: "Cyber threats aren'e slowing down. Neither should your defenses through our advanced AI driven threat detection and response capabilities that evolve with emerging threats. "
       },
       futurSectionHeading: "Ready to Secure Your Digital Future?",
-      futurSectionDescription: "Transform your security posture with comprehensive cyber security services that deliver measurable protection and compliance assurance through proven expertise? ",
+      futurSectionDescription: "Transform your security posture with cybersecurity services that deliver measurable protection and compliance assurance through proven expertise.",
       FAQsHeading: 'Frequently Asked Questions About Cybersecurity Services',
       FAQs: [
         {
