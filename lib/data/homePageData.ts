@@ -278,14 +278,14 @@ export const caseStudies = [
   {
     id: 3,
     title:
-      "Building the Future: BIMQP’s Success with IT Cart’s Digital Solutions",
+      "Building the Future: BIMQP’s Success with iTCart’s Digital Solutions",
     image: "/images/case_studies/buildingfuture.png",
     link: "/case-study",
     linkText: "Read Case Study",
   },
   {
     id: 4,
-    title: "Maarif Foundation Digital Transformation with IT Cart",
+    title: "Maarif Foundation Digital Transformation with iTCart",
     image: "/images/case_studies/maariffoundation.png",
     link: "/case-study",
     linkText: "Read Case Study",
