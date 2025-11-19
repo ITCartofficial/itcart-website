@@ -40,7 +40,7 @@ const CaseStudiesPage: React.FC = () => {
                     title="Case Studies"
                     description="Explore our case studies for in-depth insights, expert analyses, and success stories. Stay informed on how we're driving digital transformation with our comprehensive collection of client success stories."
                     ctaText="Connect with Us"
-                    ctaUrl="/contact"
+                    ctaUrl="/contact-us"
                     breadcrumbItems={[
                         { label: 'Home', url: '/' },
                         { label: 'Case Studies', url: '/case-study' }

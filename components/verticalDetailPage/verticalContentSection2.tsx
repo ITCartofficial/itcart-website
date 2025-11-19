@@ -9,9 +9,10 @@ interface VerticalContentSection2Props {
     image?: string;
     contentthree?: string;
     VerticalContentSection2Heading?: string;
+    imgAlt?: string
 }
 
-const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ aboutProduct, className, contentOne, contenttwo, image, contentthree, VerticalContentSection2Heading }) => {
+const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ imgAlt, aboutProduct, className, contentOne, contenttwo, image, contentthree, VerticalContentSection2Heading }) => {
     return (
         <section className="w-full bg-black text-white px-6 py-1">
             <div
@@ -41,7 +42,7 @@ const VerticalContentSection2: React.FC<VerticalContentSection2Props> = ({ about
                 <div className={`flex justify-center ${aboutProduct ? "md:order-1" : "md:order-2"}`}>
                     <Image
                         src={image || "/placeholder.png"} // fallback in case image is undefined
-                        alt="VR Learning"
+                        alt={imgAlt ?? ""}
                         width={600} // set explicit width
                         height={400} // and height for layout stability
                         className="rounded-xl w-full max-w-md md:max-w-full object-cover"

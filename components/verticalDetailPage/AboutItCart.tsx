@@ -6,25 +6,17 @@ const AboutItCart = ({ impactImage,
     // apropriectContentOne,
     // apropriectContenTwo,
     // apropriectContentThree,
-    impacts
+    impacts, imgAlt, impactsAboutAlt
 }:
     {
         impactImage: string,
         apropriectContentOne: string,
         apropriectContenTwo: string,
         apropriectContentThree: string,
-        impacts: string[]
+        impacts: string[],
+        imgAlt: string,
+        impactsAboutAlt?: string
     }) => {
-
-    // const impacts = [
-    //     "Achieve 76% higher learning efficiency compared to traditional platforms through personalized AI",
-    //     "Increase course completion rates from industry average 15% to 85% using engagement",
-    //     "Reduce training time by 50% through adaptive learning paths and intelligent content.",
-    //     "Enable 24/7 learning access with real-time AI tutoring across multiple languages",
-    //     "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends",
-    //     "Enhance learner engagement through gamified elements and interactive AI-powered learning experiences",
-    //     "Streamline content creation for educators with automated lesson generation and assessment tools",
-    // ];
 
     const stats = [
         { value: "40+", label: "Industries" },
@@ -75,7 +67,7 @@ const AboutItCart = ({ impactImage,
                     <div className="w-full mx-auto mb-10">
                         <Image
                             src={impactImage ? impactImage : "/images/vertical/about-it-cart-image.png"}
-                            alt="Students learning"
+                            alt={imgAlt}
                             width={800}
                             height={400}
                             className="w-full rounded-xl md:h-[400px] h-[160px] object-cover "
@@ -94,7 +86,7 @@ const AboutItCart = ({ impactImage,
                                 <div className="text-teal-500 mr-3 flex-shrink-0 text-xl font-bold">
                                     <Image
                                         src="/images/vertical/icons/leftarrow.png"
-                                        alt="Left arrow"
+                                        alt={"Left arrow"}
                                         width={20}
                                         height={20}
                                         className="object-contain"
@@ -146,7 +138,7 @@ const AboutItCart = ({ impactImage,
                             <div className="relative w-full max-w-md md:max-w-full aspect-[16/9]">
                                 <Image
                                     src="/images/vertical/aipriorityimage.png"
-                                    alt="VR Learning"
+                                    alt={impactsAboutAlt ?? ""}
                                     fill
                                     className="rounded-xl object-cover"
                                     priority

@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
     return (
         <div className='border-b-2 border-[#545454] pb-20'>
             <HeroSection
-                title="Privacy Policy For IT Cart"
+                title="Privacy Policy For iTCart"
                 description="This privacy policy statement explains what personal data iTCart collects from you and how we use that data."
                 lastUpdated="Sept 10, 2024"
             />
