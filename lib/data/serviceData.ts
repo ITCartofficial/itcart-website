@@ -1002,7 +1002,7 @@ export const serviceData = [
       serviceName: 'Data Analytics',
       bannerButtonText: "Get in touch",
       bannerTitle: "Turn Data into Decisions. Faster. Smarter. Scalable",
-      bannerDescription: "From real-time dashboards to predictive insights, our data analytics services help you optimize operations, improve revenue, and make data-driven decisions powered by AI and business intelligence.",
+      bannerDescription: "From real-time dashboards to predictive insights, our analytics services help you optimize operations, increase revenue, and make informed decisions powered by AI and modern intelligence tools.",
       bannerImage: "/images/services/Data-Analytics-banner.png",
       mobileBannerImage: "/images/services/DataAnalytics-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
@@ -1012,11 +1012,11 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/Data-Analytics-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "At iTCart, we don't just analyze data—we transform it into actionable intelligence that fuels enterprise growth. Our advanced data analytics consulting services combine strategic vision with technical expertise, helping organizations overcome the most pressing challenges in data analytics. From data strategy to implementation, we deliver enterprise data analytics solutions powered by modern BI tools, AI-driven forecasting, and Generative AI for Data Analytics to drive data analytics in digital transformation. ",
+        contentOne: "At iTCart, we don't just analyze data—we convert it into meaningful intelligence that fuels enterprise growth. Our advanced analytics consulting services merge strategic insight with technical expertise, helping organizations address major challenges in their data ecosystems. From data strategy to implementation, we deliver scalable analytics solutions powered by modern BI tools, AI-driven forecasting, and Generative AI capabilities supporting digital transformation.",
         contenttwo: ""
       },
-      skillGapSectionHeading: 'Comprehensive Enterprise Data & Analytics Suite',
-      skillGapHeadingDescription: 'Leverage advanced tools for intelligent data processing and seamless analytics integration ensuring optimal business intelligence. ',
+      skillGapSectionHeading: 'Enterprise Data & Analytics Suite',
+      skillGapHeadingDescription: 'Leverage modern tools for development automation and seamless deployment integration, ensuring optimal software delivery performance.',
       skillGapSection: [
         {
           icon: '/images/services/icons/Data Integration and Management Services Icon.svg',
@@ -1035,7 +1035,7 @@ export const serviceData = [
         {
           icon: '/images/services/icons/Predictive & Advanced Analytics Icon.svg',
           title: "Predictive & Advanced Analytics",
-          highlight: "Forecasting, clustering, regression modeling with customer churn prediction, sales forecasting, and sophisticated anomaly detection algorithms. ",
+          highlight: "Forecasting, clustering, regression modeling with customer churn analysis, revenue projections, and sophisticated anomaly detection algorithms.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -1115,12 +1115,12 @@ export const serviceData = [
         {
           image: '/images/services/Data-Analytics-choose1.png',
           title: 'AI-Driven Innovation',
-          content: "Embedded AI & ML capabilities delivering predictive and prescriptive analytics with industry-specific KPIs and intelligent automation through Generative AI for Data Analytics. "
+          content: " Embedded AI & ML capabilities delivering predictive and prescriptive analytics with industry-specific KPIs and intelligent automation enabled by Generative AI features."
         },
         {
           image: '/images/services/Data-Analytics-choose2.png',
           title: 'End-to-End Expertise',
-          content: 'Comprehensive advanced data analytics consulting services from strategy development through implementation, training, and ongoing optimization support. '
+          content: 'Full-spectrum advanced data analytics consulting services from strategy development through implementation, training, and ongoing optimization support.'
         },
         {
           image: '/images/services/Data-Analytics-choose3.png',
@@ -1198,7 +1198,7 @@ export const serviceData = [
       metaDescription: 'Accelerate innovation with iTCart’s AI-powered DevOps services. Automate cloud workflows, boost release speed, and secure, scalable delivery for modern enterprises. ',
       serviceName: 'DevOps Services',
       bannerButtonText: "Get in touch",
-      bannerTitle: "Reliable DevOps Services for Faster, Higher-Quality Software Releases.",
+      bannerTitle: "Reliable DevOps Services for Faster, Higher-Quality Software Releases",
       bannerDescription: "Enhance software delivery and operational efficiency with faster releases and continuous innovation.",
       bannerImage: "/images/services/DevOps-Services-banner.png",
       mobileBannerImage: "/images/services/DevOps-MobileBanner.jpg",
@@ -1209,7 +1209,7 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/DevOps-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "We transform software development lifecycles with DevOps solutions that unify development and operations teams. Our expertise includes strategy consulting, implementation, and CI/CD pipelines",
+        contentOne: "We transform software development lifecycles with DevOps solutions that unify development and operations teams. Our expertise includes strategy consulting, implementation, and CI/CD pipelines.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Comprehensive Enterprise DevOps Solutions Suite',
@@ -1295,7 +1295,7 @@ export const serviceData = [
         },
         {
           title: "Measurable KPI-Driven Strategy",
-          description: "Set targets for deployment frequency, lead time, and recovery metrics, tracking continuous improvement.”",
+          description: "Set targets for deployment frequency, lead time, and recovery metrics, tracking continuous improvement.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Measurable KPI-Driven Strategy Icon.svg'
         },
@@ -1334,7 +1334,7 @@ export const serviceData = [
       },
       futurSectionHeading: "Ready to Accelerate Your Digital Transformation?",
       futurSectionDescription: "Transform your software delivery with DevOps solutions that provide measurable results and a competitive advantage",
-      FAQsHeading: 'FAQs',
+      FAQsHeading: 'Everything You Need to Know About DevOps Services',
       FAQs: [
         {
           id: '1',
@@ -1410,7 +1410,7 @@ export const serviceData = [
         contenttwo: ""
       },
       skillGapSectionHeading: 'Our Digital Commerce Solutions',
-      skillGapHeadingDescription: 'Leverage advanced tools for intelligent commerce management and seamless multi-channel integration ensuring optimal business performance. ',
+      skillGapHeadingDescription: 'Leverage modern tools for intelligent commerce management and seamless multi-channel integration, ensuring optimal business performance.',
       skillGapSection: [
         {
           icon: '/images/services/icons/Comprehensive E-Commerce Solutions Icon.svg',
@@ -1442,17 +1442,17 @@ export const serviceData = [
         },
       ],
       capabilitiSectionHeading: 'Our Expertise in Digital Commerce',
-      capabilitiSectionDescription: 'Discover comprehensive commerce capabilities that drive measurable business growth and sustainable competitive advantage. ',
+      capabilitiSectionDescription: 'Discover commerce capabilities that drive measurable business growth and sustainable competitive advantage. ',
       CapabilitySections: [
         {
           title: "Strategic Commerce Consulting",
-          description: "End-to-end digital commerce consulting services from platform selection to implementation, ensuring alignment with business objectives through expert guidance. ",
+          description: "End-to-end digital commerce consulting from platform selection to implementation, ensuring alignment with business objectives through expert guidance. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Platform Development Excellence",
-          description: "Custom e-commerce platform services development with scalable architecture ensuring seamless performance across all devices and customer touchpoints. ",
+          description: "Custom e-commerce platform development with scalable architecture to ensure seamless performance across devices and customer touchpoints",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
@@ -1467,12 +1467,12 @@ export const serviceData = [
         },
         {
           title: "Omnichannel Integration",
-          description: "Seamless cross-channel integration connecting online and offline sales channels through comprehensive E-commerce integration services for unified customer experiences. ",
+          description: "Seamless cross-channel integration connecting online and offline sales channels through unified e-commerce integration services for consistent customer experiences.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Performance Analytics",
-          description: "Real-time Advanced Ecommerce Analytics providing actionable insights for inventory management, customer behavior analysis, and revenue optimization. ",
+          description: "Real-time analytics providing actionable insights for inventory management, customer behavior analysis, and revenue optimization.",
           gradient: "from-[#222222] to-[#111111]", // dark
         }
       ],
@@ -1486,13 +1486,13 @@ export const serviceData = [
         },
         {
           title: "Solution Design Architecture",
-          description: "Architecting B2B e-commerce solutions and affordable e-commerce solutions suited to your business model and technical requirements. ",
+          description: "We architect B2B and cost-effective e-commerce solutions suited to your business model and technical requirements.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Solution Design Architecture Icon.svg'
         },
         {
           title: "Development & Integration",
-          description: "Implement, customize, and connect systems through comprehensive E-commerce integration services for smooth operations and optimal performance. ",
+          description: "Implement, customize, and connect systems through comprehensive e-commerce integration services for smooth operations and optimal performance. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Development & Integration Icon.svg'
         },
@@ -1514,7 +1514,7 @@ export const serviceData = [
         {
           image: '/images/services/Digital-Commerce-choose2.png',
           title: 'Multi-Channel Retail Solutions',
-          content: 'Excellence in cross-channel integration as leading multi-channel retail solutions providers, seamlessly connecting systems for unified, efficient platforms. '
+          content: 'Leading cross-channel integration that seamlessly connects systems for unified, efficient retail platforms.'
         },
         {
           image: '/images/services/Digital-Commerce-choose3.png',
@@ -1530,7 +1530,7 @@ export const serviceData = [
         contenttwo: "Our comprehensive digital commerce consulting services leverage AI-powered insights to optimize customer experiences, streamline operations, and maximize revenue through intelligent e-commerce solutions. "
       },
       futurSectionHeading: "Transform Your Business into Digital Commerce Powerhouse",
-      futurSectionDescription: "",
+      futurSectionDescription: "Safeguard your operations from cyber threats with iTCart’s trusted cybersecurity services—act now to defend what matters most.",
       FAQsHeading: 'Your Digital Commerce Questions Answered  ',
       FAQs: [
         {
@@ -1593,7 +1593,7 @@ export const serviceData = [
       serviceName: 'Digital Transformation',
       bannerButtonText: "Get in touch",
       bannerTitle: "Propel Your Business Forward with Next-Gen Digital Transformation Services ",
-      bannerDescription: "Scale your organization's full potential with iTCart's expert-led digital transformation services designed for sustainable growth and competitive advantage.",
+      bannerDescription: "Unlock your organization's full potential with iTCart’s expert-led digital transformation services for sustainable growth and competitive advantage.",
       bannerImage: "/images/services/Digital-Transformation-banner.png",
       mobileBannerImage: "/images/services/DigitalTransformation-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
@@ -1603,16 +1603,16 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/Digital-Transformation-sectionimage.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "We help businesses modernize operations, elevate customer experiences, and future-proof their growth by embracing cutting-edge digital transformation technologies, agile processes, and data-driven strategies through comprehensive digital transformation consulting. ",
+        contentOne: "We help businesses modernize operations, elevate customer experiences, and secure long-term growth by adopting cutting-edge technologies, agile ways of working, and data-driven strategies through structured transformation consulting.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Digital Innovation Solutions',
-      skillGapHeadingDescription: 'Leverage advanced tools for intelligent business modernization and seamless digital integration ensuring optimal transformation performance. ',
+      skillGapHeadingDescription: 'Use intelligent tools for business modernization and seamless digital integration to deliver measurable transformation outcomes.',
       skillGapSection: [
         {
           icon: '/images/services/icons/Strategic Digital Consulting Icon.svg',
           title: "Strategic Digital Consulting",
-          highlight: "Align digital initiatives with business objectives through expert consulting and enterprise strategy implementation.",
+          highlight: "Align digital initiatives with core business goals through expert advisory services and an executable enterprise strategy.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
@@ -1626,14 +1626,14 @@ export const serviceData = [
         {
           icon: '/images/services/icons/Business Process Automation Icon.svg',
           title: "Business Process Automation",
-          highlight: "Transform raw data into actionable insights using integrated analytics platforms.",
+          highlight: "Automate core business processes with intelligent workflows and integrated automation platforms to reduce manual effort and increase operational efficiency.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Data Analytics Foundation Icon.svg',
           title: "Data Analytics Foundation",
-          highlight: "Comprehensive data analytics integration transforming raw organizational data into actionable business intelligence through advanced digital modernization services platforms. ",
+          highlight: "Integrate and modernize your analytics foundation to convert raw organizational data into actionable business intelligence.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -1643,33 +1643,33 @@ export const serviceData = [
       CapabilitySections: [
         {
           title: "Strategic Transformation Consulting",
-          description: "End-to-end business transformation consulting from initial assessment to full implementation, ensuring alignment with strategic objectives through expert guidance. ",
+          description: "End-to-end transformation support from initial assessment through implementation, ensuring alignment with strategic priorities and outcomes.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Enterprise Modernization",
-          description: "Comprehensive enterprise digital transformation including legacy system modernization, cloud migration, and digital infrastructure optimization for sustainable growth. ",
+          description: "Modernize legacy systems, migrate to cloud platforms, and optimize digital infrastructure to support scalable growth.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Technology Architecture Design",
-          description: "Advanced digital transformation technologies integration with scalable architecture design ensuring seamless connectivity across enterprise systems and platforms",
+          description: "Design scalable technology architectures that integrate with enterprise systems and support future expansion.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Process Optimization",
-          description: "Strategic business digital transformation through process reengineering, automation implementation, and workflow optimization for enhanced operational efficiency. ",
+          description: "Optimize processes through reengineering, automation, and workflow improvements to boost operational efficiency.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Change Management Excellence",
-          description: "Comprehensive organizational change management ensuring successful adoption of digital transformation solutions with minimal disruption and maximum employee engagement. ",
+          description: "Implement structured change management programs to secure adoption, minimize disruption, and maximize employee engagement.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Continuous Innovation",
-          description: "Ongoing digital modernization services including performance monitoring, optimization recommendations, and strategic guidance for sustained competitive advantage. ",
+          description: "Provide ongoing modernization support with performance monitoring, improvement planning, and strategic guidance to sustain advantage.",
           gradient: "from-[#222222] to-[#111111]", // dark
         }
       ],
@@ -1677,25 +1677,25 @@ export const serviceData = [
       serviceCardItems: [
         {
           title: "Strategic Assessment Planning",
-          description: "Comprehensive business assessment identifying transformation opportunities and developing strategic roadmaps aligned with organizational objectives and market positioning. ",
+          description: "Detailed business assessment identifying transformation opportunities and developing strategic roadmaps aligned with organizational goals and industry needs.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Strategic Assessment Planning Icon.svg'
         },
         {
           title: "Technology Integration Architecture",
-          description: "Systematic evaluation and implementation of digital transformation technologies ensuring seamless integration with existing systems while enabling future scalability. ",
+          description: "Structured evaluation and deployment of digital technologies ensuring smooth integration with current systems and enabling long-term scalability.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Technology Integration Architecture.svg'
         },
         {
           title: "Implementation Change Execution",
-          description: "Agile project management combined with comprehensive change management ensuring successful technology adoption and organizational transformation. ",
+          description: "Agile project delivery combined with structured change management ensuring successful technology adoption and organization-wide transformation.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Implementation Change Execution Icon.svg'
         },
         {
           title: "Continuous Monitoring Optimization",
-          description: "Ongoing performance monitoring and optimization through digital transformation consulting services ensuring sustained value delivery and competitive advantage. ",
+          description: "Ongoing performance evaluation and optimization using digital transformation insights to ensure lasting value and competitive strength.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Continuous Monitoring Optimization Icon.svg'
         }
