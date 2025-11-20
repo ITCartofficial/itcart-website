@@ -13,19 +13,19 @@ export const AiSectionData = [
     },
     {
         id: "03",
-        title: "Automation integration",
+        title: "Automation Integration",
         description: "Seamlessly integrate AI and ML solutions, helping you optimize operations and improve productivity.",
         image: "/images/aiSection/Automation-integration.png",
     },
     {
         id: "04",
-        title: "Banking and Financial Services",
+        title: "Banking And Financial Services",
         description: "Automate loan processing, improve fraud detection, and streamline debt recovery with our robust AI-driven solution.",
         image: "/images/aiSection/Banking-and-Financial-Services.png",
     },
     {
         id: "05",
-        title: "Revenue cycle management",
+        title: "Revenue Cycle Management",
         description: "Ensure accurate insurance information, streamline claim submissions, and simplify the collection process by using our RCMAiX platform.",
         image: "/images/aiSection/Revenue-cycle-management.png",
     },

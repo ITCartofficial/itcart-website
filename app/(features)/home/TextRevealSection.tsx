@@ -53,7 +53,7 @@ interface TextRevealSectionProps {
 }
 
 const TextRevealSection: React.FC<TextRevealSectionProps> = ({
-    title = "Scaling brands with top-notch AI-powered solutions",
+    title = "Scaling brands with top-notch AI-Powered solutions",
 }) => {
     const [isHovered, setIsHovered] = useState(false)
 

@@ -12,19 +12,19 @@ function WhyImplementation() {
             id: 1,
             title: "Fragmented Tool Approach",
             image: '/images/cunsultnow/Fragmented-Tool-Approach.png',
-            content: 'Organizations deploy AI as disconnected point solutions instead of unified systems.'
+            content: 'Organizations deploy AI as isolated tools instead of unified systems. '
         },
         {
             id: 2,
             title: "Poor Business Alignment",
             image: '/images/cunsultnow/Poor-Business-Alignment.png',
-            content: 'AI initiatives lack clear ties to revenue, cost reduction, or strategic priorities.'
+            content: 'AI initiatives lack clear ties to revenue, cost reduction, or strategic priorities..'
         },
         {
             id: 3,
             title: "Data Integration Gaps",
             image: '/images/cunsultnow/Data-Integration-Gaps.png',
-            content: 'Fragmented systems and inconsistent governance create data quality bottlenecks before insights.'
+            content: 'Inconsistent governance and disconnected systems create bottlenecks before insights can be generated.'
         },
         {
             id: 4,
@@ -36,13 +36,13 @@ function WhyImplementation() {
             id: 5,
             title: "Implementation Without Governance",
             image: '/images/cunsultnow/Implementation-Without-Governance.png',
-            content: 'AI deployments lack embedded compliance frameworks and real-time policy enforcement mechanisms.'
+            content: 'AI deployments lack embedded compliance frameworks and real-time policy enforcement mechanisms. '
         },
         {
             id: 6,
             title: "Manual Intervention Dependencies",
             image: '/images/cunsultnow/Manual-Intervention-Dependencies.png',
-            content: 'Solutions require extensive human oversight, negating automation benefits and scalability potential.'
+            content: 'Solutions require excessive human oversight, limiting scalability and automation impact.'
         },
     ];
 
@@ -58,7 +58,7 @@ function WhyImplementation() {
 
             <BodyText
                 text={
-                    "Enterprise AI failure rates reach up to 95% due to integration challenges. Unlike most artificial intelligence consulting companies, iTCart addresses the root causes through comprehensive AI business consulting."
+                    "Enterprise AI failure rates reach up to 95%, mainly due to misalignment, integration gaps, and fragmented adoption. iTCart’s AI consulting practice addresses these challenges at the root."
                 }
                 color="#ffffff"
                 className="text-sm sm:text-base md:text-lg  text-center w-[100%] md:w-[70%] mx-auto mt-3"
@@ -84,7 +84,7 @@ function WhyImplementation() {
                             </button>
                             {
                                 selected.id === index + 1 &&
-                                <div className="w-full md:w-2/3 flex flex-col items-start gap-4 block mb-8 my-3  md:hidden">
+                                <div className="w-full md:w-2/3 flex flex-col items-start gap-4 mb-8 my-3  md:hidden">
                                     <div className="w-full relative rounded-lg overflow-hidden h-[300px] sm:h-[300px] lg:h-[400px]">
                                         <Image
                                             src={selected?.image || "/placeholder.jpg"} // fallback image
@@ -108,7 +108,7 @@ function WhyImplementation() {
                     ))}
                 </div>
 
-                <div className="w-full md:w-[45%] lg:w-[60%] flex flex-col items-start gap-4 md:block hidden ml-3">
+                <div className="w-full md:w-[45%] lg:w-[60%] flex flex-col items-start gap-4 md:block  ml-3">
                     <div className="w-full relative rounded-lg overflow-hidden h-[300px] sm:h-[300px] lg:h-[300px]">
                         <Image
                             src={selected?.image || "/placeholder.jpg"} // fallback image

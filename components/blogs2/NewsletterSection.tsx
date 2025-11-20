@@ -7,7 +7,7 @@ import NewsletterSubscription from '../blogs/NewsLetterSubscription'
 const NewsletterSection = () => {
     const caseStudyData = {
         id: '1',
-        title: "Experience a multi-functional AI-powered platform",
+        title: "Experience a multi-functional AI-Powered platform",
         image: "/images/blogs/blog-featured-2.png",
         link: "/contact",
         linkText: "Contact Us",

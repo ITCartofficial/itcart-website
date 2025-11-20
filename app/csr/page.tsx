@@ -49,8 +49,8 @@ function Csr() {
             <div className='bg-black space-y-15 lg:space-y-25'>
             
                 <VerticalHeroBanner
-                    title="Technology transforms lives."
-                    description="At iTCart, innovation is our responsibility. Through focused CSR initiatives in healthcare, education, sustainability, and community empowerment, we use technology as a force for good."
+                    title="Technology Transforms Lives."
+                    description="At iTCart, innovation is our responsibility. Through our CSR initiatives in healthcare, education, sustainability, and community empowerment, we apply technology as a force for positive change."
                     // ctaText="Book a Free Session Now"
                     ctaUrl="/contact"
                     breadcrumbItems={[

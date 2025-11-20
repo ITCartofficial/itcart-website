@@ -7,49 +7,49 @@ function ImplementationStratogy() {
     const serviceCardItems = [
         {
             title: "Unified Discovery Assessment",
-            description: "Comprehensive software rationalization identifying redundant applications and mapping manual process inefficiencies. ",
+            description: "Rationalize software portfolios by identifying redundant applications and mapping manual process inefficiencies.  ",
             gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
             icon: '/images/cunsultnow/Autonomous-Operations-Achievement.png'
         },
         {
             title: "Business Case Development",
-            description: "Establishing baseline metrics and creating ROI projections within implementation timeframe. ",
+            description: "Define baseline metrics and project ROI over the planned implementation timeline. ",
             gradient: "from-[#222222] to-[#111111]", // dark
             icon: '/images/cunsultnow/Business-Case-Development.png'
         },
         {
-            title: "Navigated Pilot Implementation",
-            description: "Controlled environment deployment achieving targeted completion time reduction and maximum compliance improvements. ",
+            title: "Pilot Implementation",
+            description: "Deploy controlled pilots to reduce completion time and improve compliance ",
             gradient: "from-[#222222] to-[#111111]", // dark
             icon: '/images/cunsultnow/Navigated-Implementation.png'
         },
         {
-            title: "Cross-System Integration Planning",
-            description: "Architecture design for seamless ERP, CRM, HRMS integration without custom development requirements. ",
+            title: "Cross-System Integration Planning ",
+            description: "Design architecture for ERP, CRM, and HRMS integration that minimizes custom development.",
             gradient: "from-[#222222] to-[#111111]", // dark
             icon: '/images/cunsultnow/Cross-System-Integration-Planning.png'
         },
         {
-            title: "Persona Deployment Strategy",
-            description: "Scaling CoPilot and Autopilot systems across business functions with role-specific automation. ",
+            title: "Persona Deployment Strategy ",
+            description: "Scale CoPilot and AutoPilot systems across functions with role-specific automation. ",
             gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
             icon: '/images/cunsultnow/Persona-Deployment-Strategy.png'
         },
         {
             title: "Autonomous Operations Achievement",
-            description: "Reaching up to 70% autonomous execution rates while maintaining embedded governance and policy compliance. ",
+            description: "Attain up to 70% autonomous execution while maintaining embedded governance and policy compliance.  ",
             gradient: "from-[#222222] to-[#111111]", // dark
             icon: '/images/cunsultnow/Autonomous-Operations-Achievement.png'
         },
         {
             title: "Experience Intelligence Optimization",
-            description: "Continuous learning loops improving performance with every interaction without human intervention. ",
+            description: "Enable continuous learning loops that improve performance with every interaction, reducing human intervention. ",
             gradient: "from-[#222222] to-[#111111]", // dark
             icon: '/images/cunsultnow/Experience-Intelligence-Optimization.png'
         },
         {
             title: "Competitive Advantage Establishment",
-            description: "Proprietary AI-Native EOS positioning for sustainable market leadership through unified AI execution. ",
+            description: "Leverage our patent-protected framework to achieve sustainable market leadership through unified AI execution.",
             gradient: "from-[#222222] to-[#111111]", // dark
             icon: '/images/cunsultnow/Competitive-Advantage-Establishment.png'
         }
@@ -64,7 +64,7 @@ function ImplementationStratogy() {
             />
 
             <BodyText
-                text={"Enterprise AI success requires systematic transformation through proven phases. Our AI consulting services enable generative AI for business across enterprise functions."}
+                text={"Enterprise AI succeeds through systematic, phased transformation. iTCart enables full-scale Generative AI activation across the enterprise."}
                 color="#ffffff"
                 className="text-sm sm:text-base md:text-lg my-2 text-center  w-[70%] mx-auto"
             />

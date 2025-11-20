@@ -166,7 +166,7 @@ const SkillGapSection: React.FC<SkillGapSectionProps> = ({ className, skillGapSe
             <div className="w-full flex justify-center mt-4">
                 <OutlineBtn
                     url="/contact-us"
-                    text="Start your upgrade today"
+                    text="Start Your Upgrade Today"
                     textColor="#ffffff"
                     icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                 />

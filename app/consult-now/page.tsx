@@ -33,33 +33,33 @@ function CunsultNow() {
     const homeFAQs = [
         {
             id: '1',
-            title: 'What is AiXHUB?',
-            content: "AiXHub is iTCart's proprietary AI-native EOS (Enterprise Operating System), designed to unify data, decision-making, and automation into one adaptive, high-performance ecosystem. Built for speed, scale, and self-learning, AiXHub powers intelligent transformation across industries—turning complexity into clarity, and ideas into real-time impact. ",
+            title: "How does AiXHub differ from traditional AI tools we're already using?",
+            content: "AiXHub is the first AI-native Enterprise Operating System designed to replace fragmented software stacks with unified intelligent execution. Unlike point solutions, AiXHub consolidates multiple applications into a single platform with autonomous decision-making capabilities.",
         },
         {
             id: '2',
-            title: 'What are the services of iTCart?',
-            content: 'Our services revolve around digital transformation and AI automation. Starting from technology integration to managing data analytics, we cater to each vertical in the AI landscape.'
+            title: 'What ROI can we expect from AiXHub implementation?',
+            content: 'Organizations have reported up to 300% ROI within 12–36 months, with operational cost reductions of 30–50% and efficiency gains up to 85%. Typical payback periods range from 6–12 months. '
         },
         {
             id: '3',
-            title: 'What is the Unique Selling Proposition of iTCart?',
-            content: 'Our USP is to deliver personalized AI-powered solutions that help businesses leverage AI and automation needs.'
+            title: 'How long does AiXHub implementation take?',
+            content: 'Full transformation follows our UNITE Framework across five phases spanning approximately 36 weeks. Pilot outcomes typically appear in 4–12 weeks; adoption and results vary by organization.'
         },
         {
             id: '4',
-            title: 'What are the industries where iTCart serves?',
-            content: 'iTCart offers services in various industries, including banking, real estate, healthcare, cybersecurity, and more.'
+            title: 'Is AiXHub compliant with industry regulations?',
+            content: 'AiXHub includes embedded governance and real-time compliance controls for GDPR, HIPAA, SOC-2, and industry standards, and provides automated audit trails to support regulatory reporting.'
         },
         {
             id: '5',
-            title: 'What makes iTCart the best AI automation company in the US?',
-            content: "iTCart's commitment to innovation, customer-centric solutions, and robust data privacy is the quality that sets the company apart. The company’s AI automation tools streamline processes, reduce operational costs, and drive smarter decision-making."
+            title: 'Can AiXHub integrate with our existing ERP, CRM, and other systems?',
+            content: "Yes — the Cross-System Orchestration Model supports integration across ERP, CRM, HRMS, ITSM, and GRC systems while minimizing custom development and preserving existing infrastructure."
         },
         {
             id: '6',
-            title: 'How can iTCart help my company implement AI automation?',
-            content: 'iTCart helps your company implement AI automation by offering end-to-end solutions that streamline workflows, reduce operational costs, and minimize human error. Their AI automation services include automating repetitive tasks and document management, as well as deploying chatbots and predictive analytics.'
+            title: 'What happens to our current software licenses after AiXHub implementation?',
+            content: 'Organizations often reduce application count significantly, leading to substantial license savings and lower integration costs; results depend on the existing application landscape and consolidation strategy.'
         }
     ];
 
@@ -77,8 +77,8 @@ function CunsultNow() {
                 <div className='bg-black space-y-15 lg:space-y-25'>
 
                     <VerticalHeroBanner
-                        title={"AI Transformation"}
-                        description={"World's first AI-native operating system replacing fragmented applications with unified intelligent execution."}
+                        title={"Artificially Intelligent Digital Transformation (AiX) "}
+                        description={"The world’s first AI-native operating system that replaces fragmented application stacks with unified intelligent execution. "}
                         ctaText="Connect with Us"
                         ctaUrl="/contact"
                         breadcrumbItems={[

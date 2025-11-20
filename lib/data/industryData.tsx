@@ -8,7 +8,7 @@ export const industryData = [
       metaTitle: 'AI-Powered Digital Transformation for Airlines | iTCart',
       metaDescription: 'Transform airline operations with iTCart’s AI-powered aviation solutions. Optimize routes, enhance safety, improve CX, and achieve digital excellence.  ',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Digital Transformation in Aviation Excellence ",
       bannerDescription: "Elevating artificial intelligence in the airline industry through comprehensive aviation technology solutions period",
       bannerImage: "/images/industries/Airline-Banner.jpg",
@@ -209,7 +209,7 @@ export const industryData = [
       metaTitle: 'Smart Automotive Transformation Solutions | iTCart ',
       metaDescription: 'Revolutionize automotive manufacturing and mobility with iTCart’s digital transformation solutions—enhancing efficiency, safety, and innovation.',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Automotive Digital Transformation Excellence",
       bannerDescription: "Elevating innovation in automotive industry through comprehensive automotive manufacturing solutions",
       bannerImage: "/images/industries/Automotive-Industry-Banner.jpg",
@@ -413,7 +413,7 @@ export const industryData = [
       metaTitle: 'Smart Automotive Transformation Solutions | iTCart ',
       metaDescription: 'Revolutionize automotive manufacturing and mobility with iTCart’s digital transformation solutions—enhancing efficiency, safety, and innovation.',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Banking Automation Solutions Excellence",
       bannerDescription: "Empowering modern finance through comprehensive digital transformation and intelligent banking automation",
       bannerImage: "/images/industries/Banking-and-finance-Banner.jpg",
@@ -612,7 +612,7 @@ export const industryData = [
       metaTitle: 'Digital Marketing Automation Solutions | iTCart ',
       metaDescription: 'Drive conversions with iTCart—your partner for AI marketing tools, automation platforms, SEO, SEM, and full-funnel digital growth.',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Marketing Automation Solutions Excellence",
       bannerDescription: "Empowering enterprise marketing automation through comprehensive digital marketing software solutions",
       bannerImage: "/images/industries/Digital-marketing-Banner.jpg",
@@ -808,7 +808,7 @@ export const industryData = [
       metaTitle: 'AI-Powered Education Platform & LMS Solutions | iTCart ',
       metaDescription: 'LeadingEdTech solution provider iTCart offers AI learning platforms, LMS systems, and educational automation. Transform teaching and learning outcomes. ',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "AI Learning Platform Excellence",
       bannerDescription: "Empowering best onlineEdTech solution providers,through comprehensive education technology solutions and services",
       bannerImage: "/images/industries/Education-Banner.jpg",
@@ -1005,7 +1005,7 @@ export const industryData = [
       metaTitle: 'AI Solutions for Engineering & Construction Efficiency | iTCart ',
       metaDescription: 'Transform engineering and construction operations with AI automation, smart resource planning, digital twin technology, and real-time analytics for performance and safety. ',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Automation in Construction Industry Excellence",
       bannerDescription: "Empowering modern construction through comprehensive construction-management solutions and AI-driven engineering process automation",
       bannerImage: "/images/industries/Engineering-&-Construction-Banner.jpg",
@@ -1202,8 +1202,8 @@ export const industryData = [
       metaTitle: 'AI-Powered Food & Beverage Industry Solutions | iTCart ',
       metaDescription: 'Optimize food production, safety, and supply chain performance with AI-powered automation solutions for the food and beverage industry. Reduce costs, enhance compliance, and scale faster.',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
-      bannerTitle: "AI-powered F&B Automation Excellence",
+      bannerButtonText: "Get In Touch",
+      bannerTitle: "AI-Powered F&B Automation Excellence",
       bannerDescription: "Empowering modern food and beverage through comprehensive food and beverage ERP solutions and automation in food and beverage industry",
       bannerImage: "/images/industries/Food-&-Beverages-Banner.jpg",
       mobileBannerImage: "/images/industries/Food-MobileBanner.jpg",
@@ -1212,7 +1212,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/fb-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The food and beverage sector faces complex challenges including quality control, supply chain disruptions, and regulatory compliance. Modern F&B companies require robust AI-powered F&B automation infrastructure enabling comprehensive food and beverage ERP solutions, F&B inventory automation, automation in food and beverage industry, product lifecycle management food industry, and F&B demand forecasting with AI. iTCart delivers intelligent food manufacturing solutions through innovative automation frameworks and comprehensive production management. ",
+        contentOne: "The food and beverage sector faces complex challenges including quality control, supply chain disruptions, and regulatory compliance.Today’s F&B companies need AI-driven automation and ERP infrastructure to manage operations, production, and supply chain efficiently. iTCart delivers intelligent food manufacturing solutions through innovative automation frameworks and comprehensive production management. ",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Food & Beverage Technology Excellence',
@@ -1354,7 +1354,7 @@ export const industryData = [
       FAQs: [
         {
           id: '1',
-          title: "What makes iTCart's AI-powered F&B automation solutions different?",
+          title: "What makes iTCart's AI-Powered F&B automation solutions different?",
           content: "Our comprehensive approach integrates food and beverage ERP solutions capabilities with proven automation in food and beverage industry methodologies, delivering measurable results through advanced F&B inventory automation, product lifecycle management food industry, and F&B demand forecasting with AI ensuring competitive advantage. "
         },
         {
@@ -1399,7 +1399,7 @@ export const industryData = [
       metaTitle: 'FMCG AI Automation Solutions | iTCart  ',
       metaDescription: ' iTCart delivers advanced AI automation for FMCG companies. Transform manufacturing, supply chain, and operations with intelligent consumer goods solutions.  ',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Digital Transformation in FMCG Excellence",
       bannerDescription: "Empowering modern consumer goods through comprehensive AI solutions for FMCG companies and digital consumer experiences",
       bannerImage: "/images/industries/FMCG-Banner.jpg",
@@ -1596,7 +1596,7 @@ export const industryData = [
       metaTitle: 'Industrial and Manufacturing Automation Solutions | iTCart',
       metaDescription: 'Transform manufacturing operations with iTCart proven industrial automation solutions Cut costs 40%,boost efficiency, and achieve measurable ROI fast',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Industrial Automation Solutions Excellence",
       bannerDescription: "Empowering digital transformation in manufacturing through advanced predictive-maintenance technologies.",
       bannerImage: "/images/industries/Industrial-&-Manufacturing-Banner.jpg",
@@ -1793,7 +1793,7 @@ export const industryData = [
       metaTitle: 'Healthcare AI Automation Services | iTCart Medical Solutions   ',
       metaDescription: "Streamline medical practice operations with iTCart's AI automation. From patient scheduling to billing - complete healthcare technology solutions.  ",
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Healthcare Digital Transformation Solutions Excellence",
       bannerDescription: "Driving healthcare digital transformation through advanced EHR systems, intelligent automation, and AI-powered care innovation.",
       bannerImage: "/images/industries/Healthcare-Banner.jpg",
@@ -1990,7 +1990,7 @@ export const industryData = [
       metaTitle: ' Enterprise IT Solutions with AI, Cloud & Automation',
       metaDescription: 'Experience how AI in information technology drives smarter analytics, advanced cyber security, and a productive workplace culture for employees. ',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "AI in Information Technology Excellence",
       bannerDescription: "Empowering IT digital transformation services through comprehensive application modernization services technologies",
       bannerImage: "/images/industries/Information-Technology-Banner.jpg",
@@ -2192,7 +2192,7 @@ export const industryData = [
     detailPage: {
       metaTitle: 'Telecom Digital Transformation & Media Tech Solutions | iTCart',
       metaDescription: 'Empowering telecom and media enterprises with AI, automation, and cloud solutions. Optimize operations, drive revenue, and deliver next-gen digital experiences',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Media Operations Platform Excellence",
       bannerDescription: "Empowering digital media transformation through comprehensive media infrastructure modernization solutions",
       bannerImage: "/images/industries/Media-&-Telecommunications-Banner.jpg",
@@ -2389,7 +2389,7 @@ export const industryData = [
       metaTitle: ' Oil & Gas Digital Transformation Solutions | iTCart  ',
       metaDescription: 'Transform oil & gas with iTCart’s digital solutions. AI automation streamlines upstream, midstream & downstream—cutting costs 30% while boosting safety & efficiency.  ',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Oil and Gas Digital Transformation Solutions Excellence",
       bannerDescription: "Driving energy innovation with integrated digital solutions and advanced technologies tailored for the oil and gas sector.",
       bannerImage: "/images/industries/Oil-&-Gas-Banner.jpg",
@@ -2586,7 +2586,7 @@ export const industryData = [
       metaTitle: 'Public Sector Automation Provider | iTCart AI Automation  ',
       metaDescription: 'iTCart offers proven government process automation to streamline workflows, cut bureaucracy, and enhance citizen satisfaction. Book your demo today. ',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Public Sector Technology Excellence",
       bannerDescription: "Transforming modern governance with advanced digital government initiatives and AI solutions for the public sector.",
       bannerImage: "/images/industries/Public-Sector-Banner.jpg",
@@ -2783,7 +2783,7 @@ export const industryData = [
       metaTitle: 'AI & Cloud Solutions for Professional Services | iTCart ',
       metaDescription: ' Empower your professional services firm with digital automation, workflow intelligence, and cloud-based platforms built to enhance productivity and client outcomes.',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Professional Services Automation Excellence",
       bannerDescription: "Reinventing modern governance with digital government transformation and AI solutions",
       bannerImage: "/images/industries/Professional-Services-Banner.jpg",
@@ -2973,14 +2973,14 @@ export const industryData = [
   },
   {
     title: "Retail and Ecommerce",
-    description: "Transforming the retail and e-commerce landscape with innovative software solutions, enhancing customer experiences and growth",
+    description: "Transforming the retail and E-Commerce landscape with innovative software solutions, enhancing customer experiences and growth",
     linkUrl: "/services/startup-services",
     imageSrc: "/images/industries/Retail-Ecommerce.png",
     detailPage: {
       metaTitle: 'Retail Digital Transformation | Retail Technology Solutions ',
       metaDescription: 'Stay ahead in a competitive market with retail digital transformation from iTCart—seamless, scalable, and future-ready solutions.',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Retail Digital Transformation Excellence",
       bannerDescription: "Empowering digital transformation for retail through comprehensive omnichannel retail solution technologies",
       bannerImage: "/images/industries/Retail-&-Ecommerce-Banner.png",
@@ -3076,7 +3076,7 @@ export const industryData = [
         {
           image: '/images/industries/service2.png',
           title: 'Application Services ',
-          content: 'Custom development for e-commerce platforms, point-of-sale systems, and retail management solutions through innovative retail technology solutions enabling digital transformation and enhanced operational efficiency. '
+          content: 'Custom development for E-Commerce platforms, point-of-sale systems, and retail management solutions through innovative retail technology solutions enabling digital transformation and enhanced operational efficiency. '
         },
         {
           image: '/images/industries/service3.png',
@@ -3104,7 +3104,7 @@ export const industryData = [
         },
         {
           title: "Human Resource Management ",
-          description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for retail and e-commerce operations. ",
+          description: "Complete staff scheduling, performance management, compliance tracking, workforce optimization, and automated HR processes for retail and E-Commerce operations. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
@@ -3163,7 +3163,7 @@ export const industryData = [
         {
           id: '7',
           title: "Can your solutions integrate with existing retail systems?",
-          content: "Yes, our retail technology solutions feature robust APIs and pre-built integrations ensuring seamless connectivity with existing e-commerce platforms, POS systems, and inventory management tools without disrupting operations."
+          content: "Yes, our retail technology solutions feature robust APIs and pre-built integrations ensuring seamless connectivity with existing E-Commerce platforms, POS systems, and inventory management tools without disrupting operations."
         },
       ]
     }
@@ -3175,7 +3175,7 @@ export const industryData = [
     imageSrc: "/images/industries/realEstate.png",
     detailPage: {
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Digital Transformation in Real Estate Excellence",
       bannerDescription: "Empowering modern property businesses through comprehensive real estate services and AI real estate solutions",
       bannerImage: "/images/industries/Real-Estate-Banner.jpg",
@@ -3372,7 +3372,7 @@ export const industryData = [
       metaTitle: 'Logistics Automation Solutions | iTCart  ',
       metaDescription: 'Build resilient supply chains with iTCart’s intelligent logistics automation solutions, reducing risks, costs, and disruptions. ',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Logistics Automation Solutions Excellence",
       bannerDescription: "Empowering modern transportation through comprehensive warehouse management solutions and route optimization solutions ",
       bannerImage: "/images/industries/Transportations-&-Logistics-Banner.jpg",
@@ -3569,7 +3569,7 @@ export const industryData = [
       metaTitle: 'Smart Tourism & Travel Automation Services | iTCart ',
       metaDescription: 'Transform guest experiences with AI-powered travel technology, booking automation, mobile apps, and smart tourism platforms designed to grow hospitality businesses. ',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Travel Technology Solutions Excellence",
       bannerDescription: "Driving modern tourism forward with advanced travel industry digital transformation and AI-powered automation software designed specifically for hotels",
       bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
@@ -3766,7 +3766,7 @@ export const industryData = [
       metaTitle: 'AI-Powered Hospitality Solutions for Hotels & Resorts | iTCart ',
       metaDescription: 'Transform hospitality operations with AI-driven automation, smart booking systems, guest experience platforms, and digital hospitality solutions designed to boost revenue and loyalty',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Hospitality Technology Solutions Excellence",
       bannerDescription: "Empowering modern hotels through comprehensive hotel software solutions and hospitality management software",
       bannerImage: "/images/industries/Hospitality-banner.png",

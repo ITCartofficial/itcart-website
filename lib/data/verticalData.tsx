@@ -12,7 +12,7 @@ export const verticalData = [
         detailPage: {
             metaTitle: 'AI-Native EOS | Digital Workplace Transformation - AiXHUB',
             metaDescription: 'AiXHub redefines digital workplace transformation with AI-native automation, unified collaboration, and decision intelligence. Discover enterprise-grade platforms that elevate productivity, compliance, and engagement.',
-            bannerTitle: "AI-Powered Social Intranet That Works Smart",
+            bannerTitle: "AI-Native Enterprise Operating System Built for Unified Execution",
             bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform",
             bannerImage: "/images/vertical/AiXHub-banner.jpg",
             banerAltImg: "enterprise intranet solutions",
@@ -23,7 +23,7 @@ export const verticalData = [
             skillGapSectionHeading: 'Built For Modern Teams',
             impactImage: '/images/vertical/AiXHub-impact.png',
             VerticalContentSection2: {
-                contentOne: "Modern enterprises face growing inefficiencies from disconnected systems, manual workflows, and limited visibility across teams. AiXHub eliminates these barriers by replacing traditional enterprise intranet models with an AI-native digital workplace platform built for decision execution. It unifies communication, compliance, and automation into one intelligent ecosystem—empowering distributed teams through contextual workflows, predictive collaboration, and SLA-driven execution intelligence. ",
+                contentOne: "Modern enterprises struggle with disconnected systems, manual workflows, and limited visibility across functions. AiXHub eliminates these gaps by introducing an AI-native enterprise operating system that unifies communication, compliance, and automation into one governed execution environment, enabling contextual workflows, predictive collaboration, and SLA-driven performance.",
                 contenttwo: "",
                 imgAlt: "enterprise intranet solutions",
                 sectionTwoFirstImage: "/images/vertical/AiXHub-section.png"
@@ -31,7 +31,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXHub-about.png',
                 logo: '/images/vertical/AiXHub-darklogo.png',
-                contentOne: "AiXHub transforms modern organizations through the world’s first AI-native operating system, combining enterprise automation, workflow orchestration, and AI-powered decision execution into one cohesive environment. Built on patent-applied architecture, it enables autonomous collaboration, governed task management, and real-time analytics. This unified platform replaces legacy intranet models with intelligent orchestration—reducing operational costs by 30% and improving workforce engagement by over 200%, while maintaining enterprise-grade compliance.",
+                contentOne: "AiXHub transforms organizations with the world’s first AI-native enterprise operating system, combining automation, workflow orchestration, and AI-driven decision execution into a single cohesive framework. Powered by patent-applied architecture, it enables autonomous collaboration, governed task management, and real-time analytics—reducing operational costs by thirty percent and increasing workforce engagement by more than two hundred percent while maintaining strict compliance.",
                 contenttwo: "",
                 imgAlt: "enterprise intranet portal"
             },
@@ -39,32 +39,32 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "Smart Automation",
-                    description: "AI-governed workflows automate repetitive tasks through SLA-bound execution and intelligent process orchestration, ensuring precision and efficiency across all enterprise operations. ",
+                    description: "AI-directed workflows automate repetitive activities with SLA-based orchestration, ensuring accuracy and consistent performance across enterprise operations.",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "Intelligent Analytics",
-                    description: " Real-time dashboards and predictive analytics empower business leaders with contextual insights, driving performance improvements and data-backed strategic decisions.",
+                    description: "Dynamic dashboards and predictive intelligence equip leaders with contextual insights, enabling performance improvements and data-backed strategic decisions.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "AI IoT Integration",
-                    description: "Seamless connectivity with AIoT devices enables predictive maintenance, automated alerts, and optimized resource utilization across enterprise environments.",
+                    description: "Integrated connectivity with AIoT devices supports predictive maintenance, automated alerts, and optimized resource utilization across enterprise systems.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Advanced Security",
-                    description: "AiXHub embeds Microsoft’s enterprise security stack, offering adaptive threat detection, compliance enforcement, and zero-trust protection for critical digital assets.",
+                    description: "AiXHub incorporates enterprise-grade security with adaptive threat detection, automated compliance enforcement, and zero-trust protection for critical assets.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Conversational Interfaces",
-                    description: " AI assistants facilitate natural language interactions, employee surveys, and automated responses—enhancing engagement and improving service responsiveness.",
+                    description: "AI assistants support natural language interactions, employee surveys, and automated responses—improving engagement and service responsiveness.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Cross-System Orchestration",
-                    description: "Unified interoperability across ERP, CRM, HRMS, and Microsoft 365 ecosystems enables cohesive, real-time decision-making and governed data exchange. ",
+                    description: "Interoperability across ERP, CRM, HRMS, and Microsoft 365 ecosystems enables coordinated decision-making and governed data exchange in real time.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
@@ -95,14 +95,14 @@ export const verticalData = [
             impactImgAlt: "AI workplace automation solution",
             impactsAboutAlt: "AI digital workplace transformation ",
             impacts: [
-                "Organizations reduce manual processing time by seventy-five percent through intelligent automation systems.",
-                "Achieve seventy percent decrease in operational overhead expenses through comprehensive workflow optimization.",
-                "Reach ninety percent improvement in compliance documentation accuracy through automated monitoring systems. ",
-                "Reduce software license expenses by eighty-five percent through intelligent platform consolidation.",
-                "Respond to business opportunities sixty percent faster than competitors through AI-powered insights.",
-                "Achieve ninety-five percent user adoption rates across all enterprise implementations. ",
-                "Improve collaboration visibility by fifty percent across departments through unified communication platforms.",
-                "Eliminate eighty percent of time wasted switching between tools through integrated workflows. ",
+                "Organizations reduce manual processing time by 75% through intelligent automation systems.",
+                "Gain a 70% decrease in operational overhead through streamlined workflow optimization.",
+                "Reach 90% accuracy in compliance documentation with automated monitoring. ",
+                "Cut software licensing costs by 85% through platform consolidation.",
+                "Respond to market opportunities 60% faster using AI-enabled insights.",
+                "Achieve 95% user adoption rates across enterprise implementations.",
+                "Improve collaboration visibility by 50% through unified communication channels.",
+                "Eliminate 80% of time wasted switching tools through integrated workflows.",
             ],
             FAQs: [
                 {
@@ -112,8 +112,8 @@ export const verticalData = [
                 },
                 {
                     id: '2',
-                    title: 'What makes AiXHub different from traditional intranet tools?',
-                    content: ' AiXHub replaces static intranets with an AI-native execution system that automates workflows, enforces SLAs, and learns continuously across departments.'
+                    title: 'What makes AiXHub different from traditional enterprise platforms?',
+                    content: 'AiXHub is the world’s first AI-native Enterprise Operating System that unifies workflows, data, compliance, and automation across all business functions. Instead of simply storing information or enabling basic collaboration, AiXHub executes tasks autonomously, enforces policies, integrates with all enterprise systems, and continuously learns to improve efficiency.'
                 },
                 {
                     id: '3',
@@ -159,13 +159,13 @@ export const verticalData = [
             bannerImage: "/images/vertical/AiXBFS-banner.jpg",
             mobileBannerImage: "/images/vertical/AiXBFS-MobileBanner.jpg",
             banerAltImg: "ai in banking and financial services ",
-            VerticalContentSection2Heading: 'Banking Financial Services Revolution ',
+            VerticalContentSection2Heading: 'Banking and Financial Services Revolution',
             aboutSectionHeading: 'Complete Banking Ecosystem Transformation',
             capabilitiSectionHeading: 'AI-Powered Banking Capabilities',
             skillGapSectionHeading: 'Real-World Banking Applications',
             impactImage: '/images/vertical/AiXBFS-impact.png',
             VerticalContentSection2: {
-                contentOne: "Modern banking institutions face unprecedented challenges requiring comprehensive AI in banking and financial services, banking automation software, digital lending platform, AI debt collection software, financial risk management software, predictive analytics in banking, digital banking platform, and AI in BFSI solutions for operational excellence. ",
+                contentOne: "Modern banks face complex challenges that demand AI-driven automation, digital lending platforms, debt-recovery intelligence, real-time risk management, and predictive analytics to achieve operational excellence.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXBFS-section.png",
                 imgAlt: "ai in bfsi ",
@@ -173,7 +173,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXBFS-about.png',
                 logo: '/images/vertical/AiXBFS-darklogo.png',
-                contentOne: "AiXBFS revolutionizes banking operations through comprehensive AI in banking and financial services featuring advanced banking automation software, digital lending platform, AI debt collection software, financial risk management software, predictive analytics in banking, digital banking platform, and AI in BFSI capabilities. Built on revolutionary AiX Framework delivering end-to-end automation from loan origination to debt recovery transforming traditional operations into intelligent, data-driven ecosystems. ",
+                contentOne: "AiXBFS transforms banking operations with AI-driven capabilities across automation, digital lending, debt collection, risk management, and predictive analytics. Built on revolutionary AiXHub EOS, it automates processes from loan origination to debt recovery and converts legacy workflows into connected, data-driven systems.",
                 contenttwo: "",
                 contentthree: '',
                 imgAlt: "banking automation software ",
@@ -212,7 +212,7 @@ export const verticalData = [
                 {
                     title: "Digital Platform",
                     description:
-                        "Comprehensive digital banking platform supporting omnichannel experiences and customer engagement optimization.",
+                        "A digital banking platform that supports omnichannel experiences and optimizes customer engagement.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
@@ -220,21 +220,21 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixbfs-icon1.svg',
                     title: "Banking Operations",
-                    highlight: " Automated routine tasks improving efficiency Read Case Study",
+                    highlight: " Automated routine tasks improving efficiency",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixbfs-icon2.svg',
                     title: "Lending Automation",
-                    highlight: "Digital credit processing with intelligence Read Case Study",
+                    highlight: "Digital credit processing with intelligence",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixbfs-icon3.svg',
                     title: "Collection Management",
-                    highlight: "Predictive AI for optimized recovery Read Case Study",
+                    highlight: "Predictive AI for optimized recovery",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -242,14 +242,14 @@ export const verticalData = [
             impactImgAlt: "digital lending platform",
             impactsAboutAlt: "ai debt collection software",
             impacts: [
-                "Achieve forty to sixty percent reduction in loan approval time through automation ",
-                "Increase field agent productivity by thirty percent with optimized digital workflows ",
-                "Reduce delinquency rates by twenty to forty percent using predictive AI ",
-                "Ensure complete regulatory compliance from day one with built-in monitoring ",
-                "Enhance borrower satisfaction through personalized digital banking platform experiences significantly ",
-                "Accelerate partner onboarding with automated KYC and document verification processes ",
-                "Enable real-time risk assessment using alternative data and bureau integration",
-                "Optimize collection efficiency with geo-smart routing and priority case allocation",
+                "Achieve a 40–60% reduction in loan approval time through automation.",
+                "Increase field agent productivity by 30% through optimized digital workflows.",
+                "Reduce delinquency rates by 20–40% using predictive AI.",
+                "Ensure regulatory compliance from day one with built-in monitoring.",
+                "Enhance borrower satisfaction with personalized digital banking experiences.",
+                "Accelerate partner onboarding with automated KYC and document verification.",
+                "Enable real-time risk assessment using alternative data and bureau integration.",
+                "Optimize collection efficiency with geo-smart routing and priority-based case allocation.",
             ],
             FAQs: [
                 {
@@ -307,7 +307,7 @@ export const verticalData = [
             metaTitle: 'metaTitle',
             metaDescription: 'metaDescription',
             bannerTitle: "The Future of Intelligent Learning Starts Here",
-            bannerDescription: "Experience Personalized Learning that adapts to your environment",
+            bannerDescription: "Experience personalized learning that adapts to your learners' needs.",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
             mobileBannerImage: "/images/vertical/AiXQP-MobileBanner.jpg",
             banerAltImg: "AI learning experience platform",
@@ -316,7 +316,7 @@ export const verticalData = [
             capabilitiSectionHeading: 'Intelligent Learning Core Capabilities',
             skillGapSectionHeading: 'Built For Learning Excellence',
             VerticalContentSection2: {
-                contentOne: " Traditional online education platforms suffer from generic content delivery requiring comprehensive AI learning experience platform, AI-powered education platform, intelligent learning management system, personalized AI learning system, adaptive learning technology, AI in student engagement, and AI certification programs for modern educational excellence. ",
+                contentOne: "Traditional online education platforms often deliver generic content. Modern learning requires AI-driven learning experience platforms, intelligent learning management systems, adaptive learning technology, personalized AI tutoring, student engagement tools, and AI-enabled certification workflows to achieve educational excellence.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXQP-section1.png",
                 imgAlt: "AI-powered education platform "
@@ -394,7 +394,7 @@ export const verticalData = [
                 },
                 {
                     id: '2',
-                    title: 'How does the AI-powered education platform adapt to individual learning styles?',
+                    title: 'How does the AI-Powered education platform adapt to individual learning styles?',
                     content: ' Our AI-powered education platform analyzes your performance data, learning preferences, and career objectives to create personalized study paths through adaptive learning technology that evolves with your progress and reinforces challenging concepts automatically.'
                 },
                 {
@@ -996,7 +996,7 @@ export const verticalData = [
                 },
                 {
                     id: '5',
-                    title: 'How does the AI-powered clinical decision support work? ',
+                    title: 'How does the AI-Powered clinical decision support work? ',
                     content: 'Our healthcare AI solutions analyze patient data, lab results, and medical history to provide evidence-based diagnostic suggestions and treatment pathways, improving first-pass diagnostic accuracy by 25% through advanced AI in telemedicine and clinical workflows. '
                 },
             ],
@@ -1376,7 +1376,7 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'Can AiXERP integrate with our existing software?',
-                    content: "Yes. AiXERP offers ERP system integration that can integrate with most CRMs, legacy ERPs, e-commerce platforms, and HRMS tools. "
+                    content: "Yes. AiXERP offers ERP system integration that can integrate with most CRMs, legacy ERPs, E-Commerce platforms, and HRMS tools. "
                 },
                 {
                     id: '2',
@@ -1968,7 +1968,7 @@ export const verticalData = [
             FAQs: [
                 {
                     id: '1',
-                    title: 'What is an AI-powered real estate management platform and how does it work?',
+                    title: 'What is an AI-Powered real estate management platform and how does it work?',
                     content: "An ai real estate software platform like AiXRealty uses artificial intelligence to automate property management tasks, analyze market data, and optimize operations through smart property management capabilities and predictive analytics for real estate integration."
                 },
                 {

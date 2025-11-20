@@ -110,7 +110,7 @@ const HomeTemplate = () => {
 
         <div className="bg-black container mx-auto  lg:px-10">
           <AiSection
-            title="Our AI-powered Solutions for Intelligent Automation"
+            title="Our AI-Powered Solutions for Intelligent Automation"
             cardDetails={aboutBrief}
           />
         </div>

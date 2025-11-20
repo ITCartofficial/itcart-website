@@ -22,7 +22,7 @@ const CaseStudySection = ({
   caseStudyItems = [
     {
       id: 1,
-      title: "E-commerce Transformation",
+      title: "E-Commerce Transformation",
       description: "How we helped a retail giant scale their online presence.",
       image: "/images/case-studies/ecommerce.jpg"
     },
