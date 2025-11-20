@@ -33,7 +33,7 @@ function FutureSectionSolution({
                     text={
                         futurSectionDescription
                             ? futurSectionDescription
-                            : "Guard your business from cyber threats with IT Cart's trusted cybersecurity services. Take action today to protect what matters most."
+                            : "Guard your business from cyber threats with iTCart's trusted cybersecurity services. Take action today to protect what matters most."
                     }
                     color="#ffffff"
                     className="text-[16px] mt-4"

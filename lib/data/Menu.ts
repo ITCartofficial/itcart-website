@@ -56,12 +56,12 @@ export const navItems = [
       { label: "Industrial & Manufacturing", href: "/industry/industrial-and-manufacturing" },
       { label: "Healthcare", href: "/industry/healthcare" },
       { label: "Information Technology", href: "/industry/information-technology" },
-      { label: "Media & Telecommunication", href: "/industry/media-and-telecommunication" },
+      { label: "Media & Telecommunication", href: "/industry/media-and-telecommunications" },
       { label: "Oil & Gas", href: "/industry/oil-and-gas" },
       { label: "Public Sector", href: "/industry/public-sector" },
       { label: "Professional Services", href: "/industry/professional-services" },
       { label: "Retail & Ecommerce", href: "/industry/retail-and-ecommerce" },
-      { label: "Transportations & Logistics", href: "/industry/transportations-and-logistics" },
+      { label: "Transportations & Logistics", href: "/industry/transportation-and-logistics" },
       { label: "Travel & Tourism", href: "/industry/travel-and-tourism" },
       { label: "Hospitality", href: "/industry/hospitality" }
     ]
@@ -72,7 +72,7 @@ export const navItems = [
       { label: "AI & ML Automations", href: "/services/ai-and-ml-automations" },
       { label: "Application Services", href: "/services/application-services" },
       { label: "Business Intelligence", href: "/services/business-intelligence" },
-      { label: "CloudOps Services", href: "/services/cloudOps-services" },
+      { label: "CloudOps Services", href: "/services/CloudOps-services" },
       { label: "Cybersecurity Services", href: "/services/cybersecurity-services" },
       { label: "Data Analytics", href: "/services/data-analytics" },
       { label: "DevOps Services", href: "/services/devOps-services" },
@@ -85,7 +85,7 @@ export const navItems = [
   },
   {
     label: "Company",
-    href: "",
+    href: "/about-us",
     submenu: [
       { label: "About Us", href: "/about-us" },
       { label: "CSR", href: "/csr" },
@@ -95,7 +95,7 @@ export const navItems = [
   },
   {
     label: "Resources",
-    href: "",
+    href: "/blogs",
     submenu: [
       { label: "Our Blogs", href: "/blogs" },
       { label: "Case Studies", href: "/case-study" },

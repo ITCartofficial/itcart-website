@@ -12,10 +12,11 @@ interface MobileVerticalHeroBannerProps {
     ctaUrl?: string;
     bannerButtonText?: string;
     mobileBanner?: string;
+    imgAlt?: string
 }
 
 const MobileVerticalHeroBanner: FC<MobileVerticalHeroBannerProps> = ({
-    title, description, ctaText, mobileBanner, ctaUrl
+    title, description, ctaText, mobileBanner, ctaUrl, imgAlt
 }) => {
 
     console.log("mobileBannerImage", mobileBanner);
@@ -27,7 +28,7 @@ const MobileVerticalHeroBanner: FC<MobileVerticalHeroBannerProps> = ({
             <div className="w-full overflow-hidden rounded-xl mt-4">
                 <Image
                     src={mobileBanner ?? ""}
-                    alt="Digital Workplace"
+                    alt={imgAlt ?? ""}
                     width={400}
                     height={200}
                     className="w-full h-auto object-cover"

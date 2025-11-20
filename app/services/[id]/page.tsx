@@ -54,7 +54,7 @@ const ServicesDetailPage = () => {
 
                         <VerticalHeroBanner
                             serviceName={filterdItem?.detailPage?.serviceName ?? ""}
-                            bannerButtonText={"Get In Touch"}
+                            bannerButtonText={filterdItem?.detailPage?.bannerButtonText ? filterdItem?.detailPage?.bannerButtonText : "Get In Touch"}
                             title={filterdItem?.detailPage?.bannerTitle ?? ""}
                             description={filterdItem?.detailPage?.bannerDescription ?? ""}
                             ctaText="Connect with Us"
@@ -156,6 +156,7 @@ const ServicesDetailPage = () => {
 
                     <div className=" border-b-2 border-b-zinc-600 pb-7">
                         <FutureSection
+                            futureSectionBtnTxt={filterdItem?.detailPage?.futureSectionBtnTxt ?? ""}
                             futurSectionHeading={filterdItem?.detailPage?.futurSectionHeading ?? ""}
                             futurSectionDescription={filterdItem?.detailPage?.futurSectionDescription ?? ""}
                         />

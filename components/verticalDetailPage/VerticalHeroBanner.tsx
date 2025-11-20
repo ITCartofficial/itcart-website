@@ -25,6 +25,7 @@ interface HeroBannerProps {
     contentClass?: string
     backgroundPosition?: string
     isCunsultNow?: boolean
+    imgAlt?: string
 }
 
 const HeroBanner: React.FC<HeroBannerProps> = ({
@@ -35,7 +36,8 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
     serviceName,
     bannerButtonText,
     contentClass,
-    isCunsultNow
+    isCunsultNow,
+    imgAlt
     // backgroundPosition
 }) => {
 
@@ -51,8 +53,9 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                     }}
-                />
-
+                >
+                    <span className="sr-only">{imgAlt}</span>
+                </div>
                 {/* Flexbox wrapper */}
                 <div className="container relative  z-10 h-full flex items-center justify-center text-center lg:justify-start lg:text-left my-6">
                     <div className={`w-full flex flex-col items-center ${contentClass ? contentClass : "lg:items-start"} `}>

@@ -58,6 +58,7 @@ const OurVerticalsDetailPage = () => {
                             description={filterdItem?.detailPage?.bannerDescription ?? ""}
                             ctaText="Connect with Us"
                             ctaUrl="/contact-us"
+                            imgAlt={filterdItem?.detailPage?.banerAltImg ?? ""}
                             breadcrumbItems={[
                                 { label: 'Home', url: '/' },
                                 { label: 'Our Verticals', url: '/services' }
@@ -72,10 +73,7 @@ const OurVerticalsDetailPage = () => {
                             description={filterdItem?.detailPage?.bannerDescription ?? ""}
                             ctaText="Connect with Us"
                             ctaUrl="/contact-us"
-                            // breadcrumbItems={[
-                            //     { label: 'Home', url: '/' },
-                            //     { label: 'Our Verticals', url: '/services' }
-                            // ]}
+                            imgAlt={filterdItem?.detailPage?.banerAltImg ?? ""}
                             mobileBanner={filterdItem?.detailPage?.mobileBannerImage ?? ""}
                             bannerButtonText="Get Started"
                         />
@@ -89,6 +87,7 @@ const OurVerticalsDetailPage = () => {
                             contentthree={filterdItem?.detailPage?.VerticalContentSection2?.contentthree ?? ""}
                             VerticalContentSection2Heading={filterdItem?.detailPage?.VerticalContentSection2Heading ?? ""}
                             image={filterdItem?.detailPage?.VerticalContentSection2?.sectionTwoFirstImage ?? ""}
+                            imgAlt={filterdItem?.detailPage?.VerticalContentSection2?.imgAlt ?? ""}
                         />
                     </div>
 
@@ -102,6 +101,7 @@ const OurVerticalsDetailPage = () => {
                             logo={filterdItem?.detailPage?.aboutSection?.logo ?? ""}
                             contentfour={filterdItem?.detailPage?.aboutSection?.contentfour ?? ""}
                             aboutSectionHeading={filterdItem?.detailPage?.aboutSectionHeading ?? ""}
+                            imgAlt={filterdItem?.detailPage?.aboutSection?.imgAlt ?? ""}
                         />
 
                     </div>
@@ -128,6 +128,8 @@ const OurVerticalsDetailPage = () => {
                             apropriectContentOne={filterdItem?.detailPage?.apropriectContentOne ?? ""}
                             apropriectContenTwo={filterdItem?.detailPage?.apropriectContenTwo ?? ""}
                             apropriectContentThree={""}
+                            imgAlt={filterdItem?.detailPage?.impactImgAlt ?? ""}
+                            impactsAboutAlt={filterdItem?.detailPage?.impactsAboutAlt ?? ""}
                         />
                     </div>
 
@@ -136,11 +138,7 @@ const OurVerticalsDetailPage = () => {
                     <HomeFaqSection faqs={filterdItem?.detailPage?.FAQs ?? []} />
                 </div>
             </>
-
-
         </html>
-
-
     )
 }
 

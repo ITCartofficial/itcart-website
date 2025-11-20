@@ -1,6 +1,6 @@
 export const missionContent = {
   title: "At iTCart, we empower businesses to reimagine operations and accelerate decision-making through intelligent automation and data-driven insights.",
-  description: "Our approach centers on automation integration minimizing manual effort, reducing errors, and freeing teams to focus on strategic goals. From AI-driven HR and document management systems to agile business process automation, our solutions boost efficiency and productivity.<br>With the AiXHub , we deliver AI-powered decision making, personalized customer experiences, and scalable cloud solutions to keep you ahead of the curve.<br>Partner with iTCart to drive your Digital Transformation and succeed in the AI era.",
+  description: "Our approach centers on automation integration minimizing manual effort, reducing errors, and freeing teams to focus on strategic goals. From AI-driven HR and document management systems to agile business process automation, our solutions boost efficiency and productivity.<br>With the AiXHub, we deliver AI-powered decision-making, personalized customer experiences, and scalable cloud solutions to keep you ahead of the curve.<br>Partner with iTCart to drive your Digital Transformation and succeed in the AI era.",
   bgImage: "/images/home/background-section2.jpg",
   bgImageMobile: '/images/home/mobilebackground-section2.jpg'
 };
@@ -226,7 +226,7 @@ export const logos = [
 export const homeBannerData = {
   videoSrc: "/videos/home-banner.mp4",
   poster: "/images/home-banner.jpg",
-  heading: "The world’s first AI-Native EOS",
+  heading: "The world’s first AI-native EOS",
   description: "Experience unmatched efficiency, innovation, and business agility with a multi-functional AI-powered platform.",
   buttonText: "Get Started",
 };
@@ -278,14 +278,14 @@ export const caseStudies = [
   {
     id: 3,
     title:
-      "Building the Future: BIMQP’s Success with IT Cart’s Digital Solutions",
+      "Building the Future: BIMQP’s Success with iTCart’s Digital Solutions",
     image: "/images/case_studies/buildingfuture.png",
     link: "/case-study",
     linkText: "Read Case Study",
   },
   {
     id: 4,
-    title: "Maarif Foundation Digital Transformation with IT Cart",
+    title: "Maarif Foundation Digital Transformation with iTCart",
     image: "/images/case_studies/maariffoundation.png",
     link: "/case-study",
     linkText: "Read Case Study",

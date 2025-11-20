@@ -17,7 +17,13 @@ const IndustryDetailPage = () => {
 
     const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
 
+    console.log("pathName", pathName);
+
+
     const filterdItem = industryData.find(item => item.title.toLowerCase() === pathName);
+
+    console.log("filterdItem", filterdItem);
+
 
     const [isClient, setIsClient] = useState(false);
 

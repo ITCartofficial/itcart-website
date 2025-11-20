@@ -12,7 +12,8 @@ interface SectionAboutProps {
     contentfour?: string;
     aboutSectionHeading?: string;
     showLogo?: boolean;
-    classNameTwo?: string
+    classNameTwo?: string;
+    imgAlt?: string
 }
 
 const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className,
@@ -20,7 +21,7 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className,
     image, logo,
     contentthree, contentfour,
     aboutSectionHeading,
-    showLogo, classNameTwo
+    showLogo, classNameTwo, imgAlt
 }) => {
 
     return (
@@ -75,6 +76,7 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className,
                             />
                         </div>
                     }
+                    <div className="sr-only">{imgAlt}</div>
                 </div>
 
 

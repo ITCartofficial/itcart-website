@@ -52,7 +52,7 @@ const CaseStudyDetailPage: React.FC = () => {
                         className="text-gray-300 mb-8"
                     />
                     <Link
-                        href="/case-studies"
+                        href="/case-study"
                         className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300"
                     >
                         Back to Case Studies

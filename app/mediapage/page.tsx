@@ -65,7 +65,7 @@ function MediaPage() {
             <div className='bg-black'>
                 {/* <HeroBanner
                 title="Visual Mosaic of Our Journey"
-                description="Step into a curated collection of memorable moments that defines IT cart, capturing the spirit of innovation, collaboration, and shared accomplishments."
+                description="Step into a curated collection of memorable moments that defines iTCart, capturing the spirit of innovation, collaboration, and shared accomplishments."
                 ctaText=""
                 ctaUrl="/contact"
                 breadcrumbItems={[
