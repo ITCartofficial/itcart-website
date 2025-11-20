@@ -1024,7 +1024,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Engineering-icon1.svg',
           title: "Smart Construction",
-          highlight: "Advanced automation in construction industry systems with project monitoring, resource allocation, and comprehensive operational coordination. ",
+          highlight: "Advanced automation in construction industry, with project monitoring, resource allocation, and comprehensive operational coordination.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
@@ -1038,14 +1038,14 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Engineering-icon3.svg',
           title: "Predictive Analytics",
-          highlight: "Real-time predictive analytics for construction utilizing AI algorithms for risk assessment and proactive project optimization strategies. ",
+          highlight: "Real-time predictive analytics for construction that utilize AI algorithms for risk assessment and proactive project-optimization strategies.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Engineering-icon4.svg',
           title: "Connected Operations",
-          highlight: "Advanced engineering resource management solutions enabling seamless integration through engineering process automation with AI excellence and automation services. ",
+          highlight: "Advanced engineering resource management solutions, enabling seamless integration through engineering process automation with AI excellence and automation services. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
