@@ -195,7 +195,7 @@ const CaseStudyDetailPage: React.FC = () => {
                     />
                     <div className='w-full flex items-center justify-center'>
                         <OutlineBtn
-                            text="Get in Touch"
+                            text="Get In Touch"
                             textColor="#FFFFFF"
                             icon={<FaArrowRight size={16} color="#FFFFFF" />}
                             url='/contact-us'

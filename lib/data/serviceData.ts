@@ -210,7 +210,7 @@ export const serviceData = [
       metaTitle: 'AI Application Development Services | Enterprise Integration – iTCart ',
       metaDescription: 'Build smarter, scalable apps with iTCart’s AI Application Development Services. From modernization to integration, we deliver innovation, security, and agility. ',
       serviceName: 'Application Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Innovative Application Services Designed for Your Business Success",
       bannerDescription: "Transform your vision into reality with iTCart’s intelligent application development services.",
       bannerImage: "/images/services/Application-Services-banner.png",
@@ -407,7 +407,7 @@ export const serviceData = [
       metaTitle: 'AI-Driven Business Intelligence Services | Data Analytics Experts – iTCart ',
       metaDescription: 'Empower your enterprise with AI-powered business intelligence services. iTCart helps integrate, analyse, and visualize data to deliver smarter business outcomes.  ',
       serviceName: 'Business Intelligence',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Transform Data into Scalable Business Intelligence with Experts",
       bannerDescription: "Partner with iTCart’s business intelligence consultants to convert your data into scalable analytics-driven solutions.",
       bannerImage: "/images/services/Business-Intelligence-banner.png",
@@ -606,7 +606,7 @@ export const serviceData = [
       metaTitle: 'AI-Powered CloudOps Services for Enterprises – iTCart ',
       metaDescription: 'Boost agility and uptime with iTCart’s CloudOps Services. Automate multi-cloud operations with AI-powered monitoring, cost optimization, and security. ',
       serviceName: 'CloudOps Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Experience CloudOps that Deliver Uptime, Agility and Business Resilience",
       bannerDescription: "End-to-end cloud operations services to manage, monitor, optimize, and secure your multi-cloud infrastructure.",
       bannerImage: "/images/services/CloudOps-Services-banner.png",
@@ -730,7 +730,7 @@ export const serviceData = [
         },
         {
           image: '/images/services/CloudOps-Services-choose3.png',
-          title: 'AI-powered automation',
+          title: 'AI-Powered automation',
           content: 'CloudOps automation solutions with AI-driven optimization, predictive analytics, and self-healing capabilities to enhance operational efficiency. '
         }
       ],
@@ -803,7 +803,7 @@ export const serviceData = [
       metaTitle: 'Secure Your Business with Expert Cyber Security Services ',
       metaDescription: 'Safeguard your data with cyber security services tailored to your industry—threat detection, endpoint protection, and compliance made easy. ',
       serviceName: 'Cybersecurity Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Future-Proof Your Business with Advanced Cybersecurity Services",
       bannerDescription: "Protect your organization from sophisticated cyber threats, with AI-driven threat detection, continuous monitoring, compliance support, and end-to-end security controls across cloud, data, and applications",
       bannerImage: "/images/services/Cybersecurity-Services-banner.png",
@@ -923,7 +923,7 @@ export const serviceData = [
         {
           image: '/images/services/Cybersecurity-Services-choose2.png',
           title: 'Domain Expertise Excellence',
-          content: 'Seasoned professionals in BFSI, healthcare, e-commerce, SaaS, government, and manufacturing delivering specialized cybersecurity compliance solutions. '
+          content: 'Seasoned professionals in BFSI, healthcare, E-Commerce, SaaS, government, and manufacturing delivering specialized cybersecurity compliance solutions. '
         },
         {
           image: '/images/services/Cybersecurity-Services-choose3.png',
@@ -970,7 +970,7 @@ export const serviceData = [
         {
           id: '6',
           title: "What industries do you serve?",
-          content: "We provide specialized cyber security solutions for BFSI, healthcare, e-commerce, SaaS, government, and manufacturing with industry-specific compliance requirements."
+          content: "We provide specialized cyber security solutions for BFSI, healthcare, E-Commerce, SaaS, government, and manufacturing with industry-specific compliance requirements."
         }
       ],
 
@@ -1000,7 +1000,7 @@ export const serviceData = [
       metaTitle: 'AI-Powered Data Analytics Services | Business Intelligence by iTCart ',
       metaDescription: 'Empower your business with AI-powered data analytics. iTCart delivers real-time insights, predictive intelligence, and enterprise-grade business analytics solutions.',
       serviceName: 'Data Analytics',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Turn Data into Decisions. Faster. Smarter. Scalable",
       bannerDescription: "From real-time dashboards to predictive insights, our analytics services help you optimize operations, increase revenue, and make informed decisions powered by AI and modern intelligence tools.",
       bannerImage: "/images/services/Data-Analytics-banner.png",
@@ -1197,7 +1197,7 @@ export const serviceData = [
       metaTitle: 'AI DevOps Services | Fast Delivery & Cloud Automation – iTCart ',
       metaDescription: 'Accelerate innovation with iTCart’s AI-powered DevOps services. Automate cloud workflows, boost release speed, and secure, scalable delivery for modern enterprises. ',
       serviceName: 'DevOps Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Reliable DevOps Services for Faster, Higher-Quality Software Releases",
       bannerDescription: "Enhance software delivery and operational efficiency with faster releases and continuous innovation.",
       bannerImage: "/images/services/DevOps-Services-banner.png",
@@ -1387,16 +1387,16 @@ export const serviceData = [
   },
   {
     title: "Digital Commerce",
-    description: "End-to-end e-commerce platform development, payment integration, and online marketplace solutions driving digital sales and customer engagement growth.",
+    description: "End-to-end E-Commerce platform development, payment integration, and online marketplace solutions driving digital sales and customer engagement growth.",
     linkUrl: "/services/digital-commerce",
     imageSrc: "/images/services/digital-commerce.png",
     detailPage: {
       metaTitle: 'End-to-End Digital Commerce Services for Your Business ',
       metaDescription: 'iTCart delivers expert digital commerce services with secure payments, multi-channel retail solutions, and ongoing optimization for your business.  ',
       serviceName: 'Digital Commerce',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Experience Digital Commerce Excellence with iTCart",
-      bannerDescription: "Empower your business with secure, AI-driven e-commerce solutions and seamless multi-channel integration for lasting customer loyalty.",
+      bannerDescription: "Empower your business with secure, AI-driven E-Commerce solutions and seamless multi-channel integration for lasting customer loyalty.",
       bannerImage: "/images/services/Digital-Commerce-banner.png",
       mobileBannerImage: "/images/services/DigitalCommerce-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
@@ -1406,7 +1406,7 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/services/Digital-Commerce-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "iTCart stands out as a premier digital commerce partner by uniquely combining cutting-edge AI automation with comprehensive e-commerce solutions through our proprietary AiXHub  delivering intelligent, adaptive digital commerce platforms. ",
+        contentOne: "iTCart is a premier digital commerce partner that combines AI-driven automation with tailored e-commerce solutions through our proprietary AiXHub, delivering intelligent and adaptive commerce platforms.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Our Digital Commerce Solutions',
@@ -1452,7 +1452,7 @@ export const serviceData = [
         },
         {
           title: "Platform Development Excellence",
-          description: "Custom e-commerce platform development with scalable architecture to ensure seamless performance across devices and customer touchpoints",
+          description: "Custom e-commerce platform development with scalable architecture to ensure seamless performance across devices and customer touchpoints.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
@@ -1486,19 +1486,19 @@ export const serviceData = [
         },
         {
           title: "Solution Design Architecture",
-          description: "We architect B2B and cost-effective e-commerce solutions suited to your business model and technical requirements.",
+          description: "We architect B2B and cost-effective E-Commerce solutions suited to your business model and technical requirements.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Solution Design Architecture Icon.svg'
         },
         {
           title: "Development & Integration",
-          description: "Implement, customize, and connect systems through comprehensive e-commerce integration services for smooth operations and optimal performance. ",
+          description: "Implement, customize, and connect systems through comprehensive E-Commerce integration services for smooth operations and optimal performance. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Development & Integration Icon.svg'
         },
         {
           title: "Launch & Training Support",
-          description: "Go live with confidence—your team receives full onboarding and comprehensive training for managing e-commerce platform services. ",
+          description: "Go live with confidence—your team receives full onboarding and comprehensive training for managing E-Commerce platform services. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Launch & Training Support Icon.svg'
         }
@@ -1527,7 +1527,7 @@ export const serviceData = [
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: 'iTCart Digital Commerce Services run on AiXHub, the core of the AiX Framework—bringing intelligent automation, predictive analytics, and autonomous decision-making to your commerce experience. ',
-        contenttwo: "Our comprehensive digital commerce consulting services leverage AI-powered insights to optimize customer experiences, streamline operations, and maximize revenue through intelligent e-commerce solutions. "
+        contenttwo: "Our comprehensive digital commerce consulting services leverage AI-powered insights to optimize customer experiences, streamline operations, and maximize revenue through intelligent E-Commerce solutions. "
       },
       futurSectionHeading: "Transform Your Business into Digital Commerce Powerhouse",
       futurSectionDescription: "Safeguard your operations from cyber threats with iTCart’s trusted cybersecurity services—act now to defend what matters most.",
@@ -1536,22 +1536,22 @@ export const serviceData = [
         {
           id: '1',
           title: 'What digital commerce services do you provide?',
-          content: " We offer comprehensive digital commerce services including e-commerce platform services, B2B e-commerce solutions, E-commerce integration services, Advanced Ecommerce Analytics, and digital commerce consulting services tailored to business needs. "
+          content: " We offer comprehensive digital commerce services including E-Commerce platform services, B2B E-Commerce solutions, E-Commerce integration services, Advanced Ecommerce Analytics, and digital commerce consulting services tailored to business needs. "
         },
         {
           id: '2',
-          title: 'How do you ensure payment security in e-commerce solutions?',
+          title: 'How do you ensure payment security in E-Commerce solutions?',
           content: ' We implement robust security measures and integrate secure payment gateways protecting transactions and sensitive customer data through industry-compliant technologies and encryption protocols. '
         },
         {
           id: '3',
           title: 'Can you integrate with existing business systems?',
-          content: ' Absolutely! We excel as multi-channel retail solutions providers offering seamless E-commerce integration services connecting ERPs, CRMs, POS platforms, and marketplaces. '
+          content: ' Absolutely! We excel as multi-channel retail solutions providers offering seamless E-Commerce integration services connecting ERPs, CRMs, POS platforms, and marketplaces. '
         },
         {
           id: '4',
-          title: 'Do you offer affordable e-commerce solutions for small businesses?',
-          content: 'Yes, we provide comprehensive affordable e-commerce solutions without compromising quality, ensuring businesses of all sizes can access professional digital commerce services.'
+          title: 'Do you offer affordable E-Commerce solutions for small businesses?',
+          content: 'Yes, we provide comprehensive affordable E-Commerce solutions without compromising quality, ensuring businesses of all sizes can access professional digital commerce services.'
         },
         {
           id: '5',
@@ -1561,7 +1561,7 @@ export const serviceData = [
         {
           id: '6',
           title: "Do you provide ongoing support after launch?",
-          content: "Yes, we offer comprehensive post-launch support and maintenance services ensuring your e-commerce platform services remain updated, secure, and optimized for superior performance."
+          content: "Yes, we offer comprehensive post-launch support and maintenance services ensuring your E-Commerce platform services remain updated, secure, and optimized for superior performance."
         }
       ],
 
@@ -1591,7 +1591,7 @@ export const serviceData = [
       metaTitle: 'Digital Transformation Services | AI-Powered Enterprise Solution',
       metaDescription: ' With iTCart’s digital transformation services, we help you adopt modern technologies, enhance productivity, and stay ahead of the competition. ',
       serviceName: 'Digital Transformation',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Propel Your Business Forward with Next-Gen Digital Transformation Services ",
       bannerDescription: "Unlock your organization's full potential with iTCart’s expert-led digital transformation services for sustainable growth and competitive advantage.",
       bannerImage: "/images/services/Digital-Transformation-banner.png",
@@ -1788,9 +1788,9 @@ export const serviceData = [
       metaTitle: ' Smart Internet on Things (IoT) Development Services ',
       metaDescription: 'From IoT managed service to AI-driven analytics, we help you design, deploy, and optimize connected ecosystems for smarter business decisions.',
       serviceName: 'IoT Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Power Intelligent Insights and Automation with IoT Services",
-      bannerDescription: "From device connectivity to cloud analytics, our IoT development services help you design, deploy, and scale intelligent IoT ecosystems.",
+      bannerDescription: "From device connectivity to cloud analytics, our IoT development services help you design, deploy, and scale intelligent connected ecosystems.",
       bannerImage: "/images/services/ioT-Services-bannerone.png",
       mobileBannerImage: "/images/services/IOT-Services-MobileBanner.jpg",
       bannerImageAlt: 'Custom Software Development for Startups',
@@ -1800,16 +1800,16 @@ export const serviceData = [
       aboutSection: {
         aboutImage: '/images/issuesEnginearingImages/ioTServicessectionimageone.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "At iTCart, we bridge the gap between physical devices and digital intelligence. With deep expertise in edge computing, sensor integration, cloud telemetry, and AI-driven analytics, we help enterprises harness the full potential of IoT in business operations for measurable results through comprehensive IoT solutions and services.",
+        contentOne: "At iTCart, we bridge the gap between physical devices and digital intelligence. With expertise in edge computing, sensor integration, cloud telemetry, and AI analytics, we help enterprises harness IoT for measurable operational impact through integrated solutions.",
         contenttwo: ""
       },
-      skillGapSectionHeading: 'Comprehensive IoT Technology Solutions Suite',
-      skillGapHeadingDescription: 'Leverage advanced tools for intelligent device connectivity and seamless IoT integration ensuring optimal business performance. ',
+      skillGapSectionHeading: 'Integrated IoT Technology Solutions Suite',
+      skillGapHeadingDescription: 'Leverage modern tools for intelligent device connectivity and seamless IoT integration, ensuring optimal business performance.',
       skillGapSection: [
         {
           icon: '/images/services/icons/IoT Device Management Solutions Icon.svg',
           title: "IoT Device Management Solutions",
-          highlight: "Comprehensive device monitoring, security management, and remote configuration capabilities enabling seamless IoT connectivity services across all connected ecosystems. ",
+          highlight: "Device monitoring, security management, and remote configuration capabilities that enable reliable connectivity across every ecosystem. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
@@ -1823,14 +1823,14 @@ export const serviceData = [
         {
           icon: '/images/services/icons/IoT Connectivity Services Icon.svg',
           title: "IoT Connectivity Services",
-          highlight: "Advanced communication protocols and network management ensuring reliable, secure connectivity across all IoT devices and enterprise systems integration",
+          highlight: "Modern communication protocols and network management ensure reliable, secure connectivity across IoT devices and enterprise systems.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/images/services/icons/Internet of Things Consulting Services Icon.svg',
           title: "Internet of Things Consulting Services",
-          highlight: "Strategic IoT technology services planning from initial assessment to full deployment, optimizing IoT in business operations for maximum ROI. ",
+          highlight: "Strategic IoT planning from assessment to full deployment, optimizing operations to maximize ROI.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -1840,33 +1840,33 @@ export const serviceData = [
       CapabilitySections: [
         {
           title: "IoT Strategy Development",
-          description: "End-to-end Internet of Things consulting services from strategic planning to deployment, ensuring alignment with business objectives through expert guidance. ",
+          description: "End-to-end IoT consulting from strategic planning to deployment, ensuring alignment with business objectives through expert guidance.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Edge Computing Integration",
-          description: "Advanced edge computing solutions enabling real-time processing and reduced latency for custom IoT solutions requiring immediate response capabilities. ",
+          description: "Edge computing solutions that enable real-time processing and low-latency responses for time-critical IoT use cases.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "AI-Driven Analytics",
-          description: "Intelligent data processing and predictive analytics through comprehensive IoT technology services enabling actionable insights and automated decision-making systems. ",
+          description: "Intelligent data processing and predictive analytics that produce actionable insights and automated decisioning.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Secure IoT Architecture",
-          description: "Enterprise-grade security frameworks with encryption, authentication, and compliance protocols embedded throughout IoT device management solutions and infrastructure. ",
+          description: "Enterprise-grade security with encryption, strong authentication, and compliance protocols embedded throughout IoT infrastructure.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Cross-Platform Connectivity",
-          description: "Seamless integration capabilities across multiple platforms and protocols ensuring comprehensive IoT connectivity services and system interoperability. ",
+          description: "Seamless integration across platforms and protocols to ensure robust connectivity and system interoperability.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
         {
           title: "Managed IoT Operations",
-          description: "Complete IoT managed service including 24/7 monitoring, maintenance, and optimization ensuring peak performance of all IoT solutions and services. ",
+          description: "End-to-end monitoring, maintenance, and optimization delivered through 24/7 managed IoT services to ensure peak ecosystem performance. ",
           gradient: "from-[#222222] to-[#111111]", // dark
         }
       ],
@@ -1874,25 +1874,25 @@ export const serviceData = [
       serviceCardItems: [
         {
           title: "Strategic Assessment & Planning",
-          description: "Comprehensive business evaluations identifying specific IoT objectives and high-impact use cases tailored to your industry through expert consulting. ",
+          description: "We conduct targeted evaluations to identify IoT objectives and high-impact use cases tailored to your industry.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Strategic Assessment & Planning Icon.svg'
         },
         {
           title: "Component Selection & Integration",
-          description: "Optimal IoT hardware and software selection ensuring seamless interoperability with existing systems through comprehensive technology assessment. ",
+          description: "Select optimal hardware and software to ensure smooth interoperability with existing systems via focused technology assessments. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Component Selection & Integration Icon.svg'
         },
         {
           title: "Prototype Development & Testing",
-          description: "Controlled pilot implementations validating IoT solutions before full-scale deployment, including real-time testing under varying operational conditions. ",
+          description: "Run controlled pilot implementations to validate IoT solutions before full-scale deployment, including real-time testing under varied conditions.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Prototype Development & Testing Icon.svg'
         },
         {
           title: "Security-First Deployment & Monitoring",
-          description: "Enterprise-grade security measures including encryption, authentication, and continuous monitoring embedded throughout IoT ecosystem implementation and operations. ",
+          description: "Embed encryption, strong authentication, and continuous monitoring across IoT deployments to maintain security and compliance.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Security-First Deployment & Monitoring Icon.svg'
         }
@@ -1903,17 +1903,17 @@ export const serviceData = [
         {
           image: '/images/issuesEnginearingImages/ioTServiceschooseimageoneimage.png',
           title: 'Top IoT Solution Provider',
-          content: "Recognized as one of the top IoT solution providers with proven expertise in delivering comprehensive IoT development services across industries. "
+          content: "Recognized as a leading IoT provider with proven expertise in delivering end-to-end development services across industries."
         },
         {
           image: '/images/issuesEnginearingImages/ioTServiceschooseimagetwoimage.png',
           title: 'End-to-End IoT Services',
-          content: 'Complete IoT solutions and services portfolio from strategic consulting to ongoing managed services ensuring seamless IoT transformation journey.'
+          content: 'A full IoT portfolio from strategic consulting to managed operations, ensuring a seamless transformation journey.'
         },
         {
           image: '/images/issuesEnginearingImages/ioTServiceschooseimagethreeimage.png',
           title: 'Custom IoT Expertise',
-          content: 'Specialized custom IoT solutions development tailored to unique business requirements with industry-specific compliance and optimization capabilities. '
+          content: 'Custom IoT solutions tailored to unique business requirements with industry-specific compliance and optimization features. '
         }
       ],
       aboutSection2Heading: 'Advanced IoT Connectivity',
@@ -1923,8 +1923,8 @@ export const serviceData = [
         contentOne: 'Comprehensive IoT connectivity services ensuring reliable, secure communication across all devices with enterprise-grade network management and monitoring. ',
         contenttwo: ""
       },
-      futurSectionHeading: "Ready to Connect the Future?”",
-      futurSectionDescription: "Transform your operations with end-to-end IoT solutions and real-time insights that drive measurable business impact",
+      futurSectionHeading: "Ready to Connect the Future?",
+      futurSectionDescription: "Transform your operations with end-to-end IoT solutions and real-time insights that drive measurable business impact.",
       FAQsHeading: 'Everything You Need to Know About IoT ',
       FAQs: [
         {
@@ -1989,7 +1989,7 @@ export const serviceData = [
       metaTitle: 'Managed IT Services | Cloud, Security & Monitoring – iTCart ',
       metaDescription: 'Simplify IT operations with iTCart’s Managed IT Services, secure cloud solutions, advanced monitoring, and end-to-end support for scalable business success. ',
       serviceName: 'Managed IT Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "Managed IT Services for Seamless Performance",
       bannerDescription: "Optimize efficiency, strengthen security, and drive growth with reliable managed IT services.",
       bannerImage: "/images/services/Managed-IT-Services-banner.png",
@@ -2075,19 +2075,19 @@ export const serviceData = [
       serviceCardItems: [
         {
           title: "Discovery & Assessment",
-          description: "Analyze your IT landscape, identify pain points, and assess security posture and business objectives.",
+          description: "We analyze your IT landscape, identify pain points, and assess security posture and business objectives.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/images/services/icons/Discovery & Assessment Icon.svg'
         },
         {
           title: "Strategy Design & Onboarding",
-          description: "Develop IT roadmaps and ensure seamless onboarding with minimal disruption",
+          description: "Develop IT roadmaps and ensure seamless onboarding with minimal disruption.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Strategy Design & Onboarding Icon.svg'
         },
         {
           title: "Implementation & Integration",
-          description: "Deploy security, network, and cloud solutions with full systems integration",
+          description: "Deploy security, network, and cloud solutions with full systems integration.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/images/services/icons/Implementation & Integration Icon.svg'
         },
@@ -2114,7 +2114,7 @@ export const serviceData = [
         {
           image: '/images/services/Managed-IT-Services-choose3.png',
           title: 'Personalized Strategies',
-          content: "Tailored managed technology services solutions designed for your organization's specific needs, size, industry requirements, and growth objectives."
+          content: "Tailored managed technology services designed for your organization's needs, size, industry requirements, and growth objectives."
         }
       ],
       aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE',
@@ -2125,7 +2125,7 @@ export const serviceData = [
         contenttwo: ""
       },
       futurSectionHeading: "Optimize Your IT Infrastructure Today",
-      futurSectionDescription: "Optimize your IT infrastructure with managed services that deliver security, reliability, and measurable business value",
+      futurSectionDescription: "Optimize your IT infrastructure with managed services that deliver security, reliability, and measurable business value.",
       FAQsHeading: 'Everything You Need to Know About Managed IT Services  ',
       FAQs: [
         {
@@ -2186,7 +2186,7 @@ export const serviceData = [
       metaTitle: 'Expert Startup Consulting Services & Software Solutions ',
       metaDescription: 'Build, launch, and scale with iTCart’s startup consulting services, affordable SaaS backup, branding solutions, and expert business consultants.',
       serviceName: 'Startup Services',
-      bannerButtonText: "Get in touch",
+      bannerButtonText: "Get In Touch",
       bannerTitle: "You Have Vision. We Bring It to Life",
       bannerDescription: "Transform ideas into scalable startup success with expert guidance ",
       bannerImage: "/images/services/Startup-Services-banner.png",

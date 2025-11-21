@@ -8,7 +8,7 @@ function AboutSection() {
                 <GradientTitle
                     text={"Transform Your Enterprise with AI-Native Intelligence"}
                     lineHeight="1.2"
-                    className="text-[30px] lg:text-[48px] lg:text-[50px] leading-tight mb-6 w-full lg:w-[80%]"
+                    className="text-[30px] lg:text-[50px] leading-tight mb-6 w-full lg:w-[80%]"
                     theme="dark"
                 />
             </div>
@@ -28,13 +28,7 @@ function AboutSection() {
                 {/* Right Text Section */}
                 <div className="w-full lg:w-1/2 space-y-6 text-left">
                     <p className="text-gray-300 text-base leading-relaxed">
-                        Ready to join global organizations achieving up to
-                        300% ROI through unified AI execution?
-                        <br />
-                        AiXHub EOS offers the most comprehensive
-                        enterprise transformation opportunity of the past decade. Our AI business consulting methodology
-                        transforms fragmented operations into intelligent, autonomous systems that think like humans, act like teams,
-                        and learn like enterprise leaders.
+                        Join organizations achieving up to 300% ROI through unified AI execution. The AiXHub framework delivers an end-to-end enterprise transformation. Our AI consulting methodology converts fragmented operations into intelligent, autonomous systems that coordinate across teams and continuously improve. Avoid falling behind competitors using AI-native operations while your organization relies on manual processes and software sprawl. Our AI consulting services enable Generative AI implementations that deliver measurable results. 
                     </p>
 
                     <p className="text-gray-300 text-base leading-relaxed">

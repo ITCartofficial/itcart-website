@@ -14,8 +14,6 @@ const Services = () => {
     if (!isClient) {
         return null;
     }
-
-
     return (
 
         <html lang="en">
@@ -26,9 +24,6 @@ const Services = () => {
                 <meta property="og:url" content={`https://itcart.ai/services`} />
                 <link rel="canonical" href="https://itcart.ai/services"></link>
             </head>
-
-
-
             <div className='bg-black'>
                 <HeroBanner title="Our Services"
                     description="Experience a complete suite of AI-powered services engineered to accelerate digital transformation and drive sustainable growth for modern enterprises. From cloud and cybersecurity to analytics, automation, and managed IT, iTCart empowers your business with advanced technology expertise and industry-best solutions for maximum impact at every stage."
