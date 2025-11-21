@@ -147,6 +147,7 @@
 import { useState, useEffect, useRef } from "react";
 import GradientTitle from "../typography/GradientTitle";
 import Image from "next/image";
+import mediadata from "@/lib/data/mediadata.json"
 
 export default function SectionTeam({
     heading,
@@ -157,18 +158,14 @@ export default function SectionTeam({
     discription: string;
     removeBorder: boolean;
 }) {
-    const slides = [
-        { mainImg: "/images/csr/Thumbnail-1.jpg" },
-        { mainImg: "/images/csr/Thumbnail-2.jpg" },
-        { mainImg: "/images/csr/Thumbnail-3.jpg" },
-        { mainImg: "/images/csr/Thumbnail-4.jpg" },
-        { mainImg: "/images/csr/Thumbnail-5.jpg" },
-        { mainImg: "/images/csr/Thumbnail-6.jpg" },
-        { mainImg: "/images/csr/Thumbnail-7.jpg" },
-        { mainImg: "/images/csr/Thumbnail-8.jpg" },
-        { mainImg: "/images/csr/Thumbnail-9.jpg" },
-        { mainImg: "/images/csr/Thumbnail-10.jpg" },
-    ];
+
+     const slides = (
+  mediadata as {
+    mainImg: string;
+    desc?: string;
+    altImage?: string;
+  }[]
+);
 
     const [current, setCurrent] = useState(0);
     const scrollContainerRef = useRef<HTMLDivElement>(null);
@@ -230,7 +227,7 @@ export default function SectionTeam({
                         } rounded-3xl p-6 sm:p-8 lg:p-12`}
                 >
                     {/* Main Image */}
-                    <div className="mb-8 flex justify-center">
+                    {/* <div className="mb-8 flex justify-center">
                         <div className="relative w-full max-w-[700px] aspect-video overflow-hidden rounded-2xl">
                             <Image
                                 src={slides[current]?.mainImg || "/placeholder.jpg"}
@@ -240,6 +237,34 @@ export default function SectionTeam({
                                 sizes="(max-width: 768px) 100vw, 700px"
                                 priority
                             />
+                            
+                        </div>
+                    </div> */}
+                    <div className="mb-8 flex justify-center">
+                        <div className="relative w-full max-w-[700px] aspect-video overflow-hidden rounded-2xl">
+                        
+                            {/* Background Image */}
+                            <Image
+                                src={slides[current]?.mainImg || "/placeholder.jpg"}
+                                alt="CSR Initiative"
+                                fill
+                                className="object-cover"
+                                sizes="(max-width: 768px) 100vw, 700px"
+                                priority
+                            />
+
+                            {/* Gradient Overlay + Description */}
+                            <div
+                                className="absolute bottom-0 left-0 w-full p-6 flex flex-col gap-2"
+                                style={{
+                                    background:
+                                        "linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 80%)",
+                                }}
+                            >
+                                <h3 className="text-white text-lg font-semibold sm:text-2xl">
+                                    {slides[current]?.desc}
+                                </h3>
+                            </div>
                         </div>
                     </div>
 
@@ -264,7 +289,7 @@ export default function SectionTeam({
                                 >
                                     <Image
                                         src={thumb.mainImg}
-                                        alt={`Thumbnail ${index + 1}`}
+                                        alt={thumb.altImage ?? `Thumbnail ${index + 1}`}
                                         fill
                                         className="object-cover"
                                         sizes="(max-width: 640px) 60vw, (max-width: 1024px) 30vw, 20vw"
@@ -282,7 +307,7 @@ export default function SectionTeam({
                                 onClick={() => setCurrent(index)}
                                 className={`h-2 rounded-full transition-all duration-300 ${index === current
                                     ? "w-8"
-                                    : "w-2 bg-transparent outline outline-1 outline-gray-400"
+                                    : "w-2 bg-transparent outline-1 outline-gray-400"
                                     }`}
                                 style={
                                     index === current

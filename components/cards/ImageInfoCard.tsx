@@ -33,8 +33,6 @@ const ImageInfoCard: React.FC<ImageInfoCardProps> = ({ bgImage, title, descripti
                 </div>
 
             }
-
-
         </>
 
     )
