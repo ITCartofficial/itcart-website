@@ -21,6 +21,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Workplace',
             capabilitiSectionHeading: 'AI-Powered Core Capabilities ',
             skillGapSectionHeading: 'Built For Modern Teams',
+            FAQsHeading:'Everything You Need to Know About AiXHub',
             impactImage: '/images/vertical/AiXHub-impact.png',
             VerticalContentSection2: {
                 contentOne: "Modern enterprises struggle with disconnected systems, manual workflows, and limited visibility across functions. AiXHub eliminates these gaps by introducing an AI-native enterprise operating system that unifies communication, compliance, and automation into one governed execution environment, enabling contextual workflows, predictive collaboration, and SLA-driven performance.",
@@ -163,6 +164,7 @@ export const verticalData = [
             aboutSectionHeading: 'Complete Banking Ecosystem Transformation',
             capabilitiSectionHeading: 'AI-Powered Banking Capabilities',
             skillGapSectionHeading: 'Real-World Banking Applications',
+            FAQsHeading:'Everything You Need to Know About AiXBFS',
             impactImage: '/images/vertical/AiXBFS-impact.png',
             VerticalContentSection2: {
                 contentOne: "Modern banks face complex challenges that demand AI-driven automation, digital lending platforms, debt-recovery intelligence, real-time risk management, and predictive analytics to achieve operational excellence.",
@@ -315,6 +317,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI Learning Platform',
             capabilitiSectionHeading: 'Intelligent Learning Core Capabilities',
             skillGapSectionHeading: 'Built For Learning Excellence',
+            FAQsHeading:'Everything You Need to Know About AiXQP',
             VerticalContentSection2: {
                 contentOne: "Traditional online education platforms often deliver generic content. Modern learning requires AI-driven learning experience platforms, intelligent learning management systems, adaptive learning technology, personalized AI tutoring, student engagement tools, and AI-enabled certification workflows to achieve educational excellence.",
                 contenttwo: "",
@@ -376,15 +379,15 @@ export const verticalData = [
             impactImgAlt: 'personalized AI learning system',
             impactsAboutAlt: "adaptive learning technology",
             impacts: [
-                "Achieve seventy-six percent higher learning efficiency compared to traditional educational platforms",
-                "Increase course completion rates from industry average fifteen percent to eighty-five percent",
+                "Achieve 76% higher learning efficiency compared to traditional educational platforms.",
+                "Increase course completion rates from an industry average of 15% to 85%.",
                 "Reduce training time by fifty percent through adaptive learning paths and content ",
-                "Enable twenty-four hour learning access with real-time AI tutoring across languages ",
-                "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends ",
-                "Enhance learner engagement through gamified elements and interactive AI-powered learning experiences significantly",
-                "Streamline content creation for educators with automated lesson generation and assessment tools",
-                "Improve knowledge retention by sixty percent through personalized study paths and reinforcement",
-                "Reduce dropout rates by forty percent through continuous engagement monitoring and intervention"
+                "Provide 24/7 learning access with real-time AI tutoring available in multiple languages.",
+                "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends.",
+                "Significantly enhance learner engagement with gamified elements and interactive AI-powered experiences.",
+                "Streamline educator workflows through automated lesson generation and assessment tools.",
+                "Improve knowledge retention by 60% through personalized study paths and reinforcement.",
+                "Reduce dropout rates by 40% with continuous engagement monitoring and timely interventions."
             ],
             FAQs: [
                 {
@@ -461,8 +464,8 @@ export const verticalData = [
         detailPage: {
             metaTitle: 'AI-Powered Insurance Platform | InsureAiX ',
             metaDescription: 'Transform your coverage with InsureAiX — the AI-powered insurance platform that uses genomics, behavior, and health data to deliver personalized, dynamic premiums. ',
-            bannerTitle: "Smart Insurance for Secure Future",
-            bannerDescription: "Personalized coverage adapting to your lifestyle ",
+            bannerTitle: "Smart Insurance for a Secure Future",
+            bannerDescription: "Personalized coverage that adapts to your lifestyle.",
             bannerImage: "/images/vertical/InsureAiX-banner.jpg",
             mobileBannerImage: "/images/vertical/InsureAiX-MobileBanner.jpg",
             banerAltImg: "artificial intelligence in insurance",
@@ -470,9 +473,10 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Insurance Excellence',
             capabilitiSectionHeading: 'Advanced Insurance AI Technology',
             skillGapSectionHeading: 'Built For Insurance Innovation ',
+            FAQsHeading:'Everything You Need to Know About InsureAiX',
             impactImage: '/images/vertical/InsureAiX-impact.png',
             VerticalContentSection2: {
-                contentOne: "The insurance industry still relies on outdated actuarial models from the last century. Traditional insurers use static, one-size-fits-all approaches that ignore genomics, behavior, lifestyle, and real-time health data requiring advanced artificial intelligence in insurance, predictive analytics in insurance, and AI in health insurance solutions. This leaves billions in mispriced risk and customers paying premiums that don't reflect their actual risk profile through outdated AI in insurance industry practices and lack of AI insurance automation. ",
+                contentOne: "The insurance industry still depends on century-old actuarial models. Many insurers use static, one-size-fits-all pricing that ignores genomics, behavior, lifestyle, and real-time health data. Modern AI, predictive analytics, and automation are required to close this gap; otherwise billions in risk remain mispriced and customers pay premiums that do not reflect their true risk.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/InsureAiX-section.png",
                 imgAlt: 'digital insurance platform '
@@ -480,7 +484,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/InsureAiX-about.png',
                 logo: '/images/vertical/InsureAiX-darklogo.png',
-                contentOne: "InsureAiX revolutionizes traditional insurance through cutting-edge AI-powered precision underwriting that goes beyond outdated demographic tables. Our proprietary technology integrates genomics, behavioral intelligence, real-time health monitoring, and multi-omics data fusion featuring comprehensive artificial intelligence in insurance, advanced predictive analytics in insurance, and intelligent digital insurance platform capabilities. Unlike conventional insurers using century-old actuarial models, we calculate biological age, assess lifestyle patterns, and provide dynamic premium adjustments through Ai in health insurance and comprehensive ai in insurance industry automation. ",
+                contentOne: "InsureAiX transforms underwriting with AI-driven precision that surpasses static demographic tables. Our proprietary solution integrates genomics, behavioral intelligence, real-time health monitoring, and multi-omics data fusion, combined with predictive analytics and automation. Unlike traditional insurers, we estimate biological age, analyze lifestyle patterns, and enable dynamic premium adjustments using health signals and behavioral insights. ",
                 contenttwo: "",
                 imgAlt: 'ai in health insurance'
             },
@@ -492,27 +496,27 @@ export const verticalData = [
                 },
                 {
                     title: "Dynamic Premium Engine ",
-                    description: "Real-time premium adjustments based on lifestyle, health data, and behavioral changes via comprehensive predictive analytics in insurance and intelligent automation. ",
+                    description: "Real-time premium adjustments based on lifestyle, health data, and behavioral changes using predictive analytics and automation. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Multi-Omics Intelligence ",
-                    description: "Integration of genomics, proteomics, behavioral data through advanced digital insurance platform and ConceptGen analytics for comprehensive analysis. ",
+                    description: "Integrates genomics, proteomics, and behavioral data with ConceptGen analytics to produce deep, multi-layered risk insights.",
                     gradient: "from-[#222222] to-[#111111]", // dar
                 },
                 {
                     title: "Explainable AI Underwriting  ",
-                    description: "Transparent, traceable predictions built for regulatory scrutiny through ai in health insurance compliance and full accountability systems.  ",
+                    description: "Transparent, traceable predictions designed for regulatory scrutiny, with built-in explainability and audit trails for compliance.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Behavioral Intelligence Platform ",
-                    description: "Activity, sleep, stress, mental health tracking quantified through comprehensive ai in insurance industry platforms and personalized risk modeling. ",
+                    description: "Quantifies activity, sleep, stress, and mental-health signals to feed personalized risk models and behavioral scoring. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Modular API Infrastructure ",
-                    description: "Seamless integration with EHR systems, wearable platforms, claims software via advanced AI insurance automation and ecosystem connectivity. ",
+                    description: "Integrates with EHRs, wearable platforms, and claims systems via modular APIs for automated data exchange and workflow orchestration.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
@@ -541,12 +545,13 @@ export const verticalData = [
             ],
             impactImgAlt: "ai in insurance industry ",
             impactsAboutAlt: "AI insurance automation ",
-            impacts: ["100+ Global customers across 25+ industries worldwide utilizing artificial intelligence in insurance solutions and advanced analytics ",
-                "$3 trillion Insurance market transformation with AI-driven insights enabling predictive analytics in insurance optimization ",
-                "Real-time Premium adjustments through behavioral intelligence platforms and comprehensive digital insurance platform capabilities",
-                "Advanced Fraud reduction through biometric signal detection and ai in insurance industry monitoring systems",
-                "Dynamic Wellness reward programs empowering healthier lives through ai in health insurance and lifestyle optimization",
-                "Biological Age calculations transforming traditional actuarial science via AI insurance automation and precision underwriting",],
+            impacts: [
+                "100+ global customers across 25+ industries use AI insurance solutions and advanced analytics.",
+                "AI-driven insights enable predictive analytics to unlock transformative value across a multi-trillion-dollar insurance market.",
+                "Real-time premium adjustments powered by behavioral intelligence and automated pricing.",
+                "Reduce fraud with biometric signal detection and AI-driven monitoring systems.",
+                "Dynamic wellness reward programs that incentivize healthier behavior and lower risk.",
+                "Biological-age calculations modernize actuarial science and enable precision underwriting.",],
             FAQs: [
                 {
                     id: '1',
@@ -603,7 +608,7 @@ export const verticalData = [
             metaTitle: ' AI IT Service Management Software | Smart Helpdesk Platform',
             metaDescription: 'Reimagine IT operations with AiXDesk—an AI-powered ITSM platform that automates ticketing, manages assets, and boosts service delivery across your enterprise.',
             bannerTitle: "Intelligent IT Support & Asset Management Platform",
-            bannerDescription: "Smart IT Service Management Made Simple through comprehensive it service management software and advanced asset management platform capabilities.",
+            bannerDescription: "Streamline IT Service Management with AI-driven IT service solutions and intelligent asset management capabilities.",
             bannerImage: "/images/vertical/AiXDesk-banner.jpg",
             banerAltImg: "it service management software ",
             mobileBannerImage: "/images/vertical/AiXDesk-MobileBanner.jpg",
@@ -612,8 +617,9 @@ export const verticalData = [
             impactImage: '/images/vertical/AiXDesk-impact.png',
             capabilitiSectionHeading: 'Core IT Intelligence Capabilities',
             skillGapSectionHeading: 'Built For Modern IT Teams',
+            FAQsHeading:'Everything You Need to Know About AiXDesk',
             VerticalContentSection2: {
-                contentOne: "Modern workplaces face constant IT disruptions that impact productivity. Traditional helpdesk systems create bottlenecks with manual ticket routing, delayed responses, and fragmented asset tracking requiring advanced it service management software, digital asset management software, and intelligent helpdesk automation. Teams waste valuable time on repetitive tasks while critical issues remain unresolved, leading to frustrated employees and decreased operational efficiency through outdated it asset management system processes. ",
+                contentOne: "Modern workplaces face frequent IT disruptions that reduce productivity. Traditional helpdesk systems create bottlenecks with manual ticket routing, delayed responses, and fragmented asset tracking. Teams spend excessive time on repetitive tasks while critical issues remain unresolved, causing frustrated employees and reduced operational efficiency.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXDesk-section.png",
                 imgAlt: "asset management platform"
@@ -621,7 +627,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXDesk-section2.png',
                 logo: '/images/vertical/AiXDesk-darklogo.png',
-                contentOne: "AiXDesk transforms IT service management through intelligent automation, unifying ticketing systems with comprehensive asset tracking and seamless workflow management. Built on iTCart's patent-pending AiX Framework, this AI-powered platform streamlines enterprise IT operations featuring advanced it service management software, asset management platform capabilities, digital asset management software integration, and smart asset tracking that eliminates manual bottlenecks while accelerating issue resolution through comprehensive asset lifecycle management solutions. ",
+                contentOne: "AiXDesk transforms IT service management with intelligent automation, unifying ticketing systems with complete asset tracking and smooth workflow management. This AI-powered platform streamlines enterprise IT operations, offering IT service management software, asset tracking capabilities, digital asset integration, and smart monitoring that eliminates manual bottlenecks while speeding up issue resolution across the asset lifecycle.",
                 contenttwo: "",
                 imgAlt: "digital asset management software  "
             },
@@ -638,22 +644,22 @@ export const verticalData = [
                 },
                 {
                     title: "Complete Asset Visibility",
-                    description: "Centralized tracking for all hardware and software through comprehensive asset management platform and digital asset management software integration.",
+                    description: "Centralized tracking for all hardware and software through unified asset management and digital integration.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Workflow Automation",
-                    description: "Streamlined approval processes eliminate manual bottlenecks through intelligent IT asset management system and automated processing workflows.",
+                    description: "Streamlined approval processes remove manual bottlenecks using automated workflows and smart IT asset management.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Advanced Analytics Dashboard",
-                    description: "Real-time insights into performance metrics through comprehensive AI in IT service management and intelligent reporting capabilities.",
+                    description: "Real-time insights into performance metrics through AI-driven IT service management and smart reporting.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Mobile-Ready Platform",
-                    description: "Full functionality accessible across all devices via smart asset tracking and comprehensive asset lifecycle management solutions connectivity.",
+                    description: "Full functionality accessible across all devices through smart asset tracking and complete lifecycle management connectivity.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
@@ -672,21 +678,21 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixdesck-icon1.svg',
                     title: "IT Administrators",
-                    highlight: "Complete system oversight with centralized management and automated reporting through comprehensive it service management software and intelligent monitoring. ",
+                    highlight: "Complete system oversight with centralized management and automated reporting through IT service management software and smart monitoring. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixdesck-icon2.svg',
                     title: "HR Teams",
-                    highlight: "Streamlined onboarding processes with automated access provisioning via advanced asset management platform and digital asset management software capabilities. ",
+                    highlight: "Streamlined onboarding with automated access provisioning using smart asset management and digital integration.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixdesck-icon3.svg',
                     title: "Finance Departments",
-                    highlight: "Comprehensive license tracking with automated compliance monitoring through intelligent it asset management system and smart asset tracking solutions. ",
+                    highlight: " Complete license tracking with automated compliance monitoring via intelligent IT asset management and smart tracking solutions. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -750,20 +756,22 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Financial Excellence ',
             capabilitiSectionHeading: 'Advanced FinTech AI Capabilities ',
             skillGapSectionHeading: 'Built For Financial Leadership',
+            FAQsHeading:'Everything You Need to Know About AiXFintech',
             impactImage: '/images/vertical/AiXFintech-impact.png',
             impactImgAlt: "digital transformation in financial services ",
             impactsAboutAlt: "intelligent automation financial services ",
             impacts: [
-                "70-85% reduction in manual processing time through intelligent AI-powered financial automation platform and automated workflow optimization",
-                "60-90% improvement in accuracy and quality via advanced predictive analytics for finance and intelligent error prevention systems",
-                "80-95% increase in SLA compliance rates through comprehensive regulatory compliance automation and intelligent monitoring capabilities",
-                "82% reduction in policy review time enabling faster decision-making through financial automation software optimization100% Asset visibility through comprehensive digital asset management software and intelligent tracking systems",
-                "91% predictive accuracy in risk assessment via advanced intelligent automation financial services and machine learning algorithms 75% Reduction in manual administrative overhead through automated workflows and smart asset tracking optimization ",
-                "94% SLA compliance rates across all financial operations through digital transformation in financial services excellence 0% Lower IT operational expenses while maintaining service quality via ai in it service management efficiency",
-                "380-487% ROI within 12-24 months through comprehensive AI-powered financial automation platform implementation 5% SLA adherence across all critical service categories through it asset management system automation"
+                "70-85% reduction in manual processing time through AI-powered financial automation and optimized workflows",
+                "60-90% improvement in accuracy and quality with predictive analytics and error prevention systems",
+                "80-95% increase in SLA compliance via regulatory compliance automation and intelligent monitoring",
+                "82% reduction in policy review time for faster decision-making",
+                "91% predictive accuracy in risk assessment with AI-driven automation and machine learning",
+                "75% reduction in administrative overhead via automated workflows",
+                "94% SLA compliance across all financial operations",
+                "380-487% ROI within 12–24 months through AI-powered financial automation implementation"
             ],
             VerticalContentSection2: {
-                contentOne: "The global AI in fintech market is experiencing exponential growth, valued at $17.79 billion in 2025 and projected to reach $52.19 billion by 2029. Financial institutions manage 342 applications on average, with 42% of software licenses going unused, representing $127 million in annual waste requiring advanced financial automation software, predictive analytics for finance, and comprehensive digital transformation in financial services solutions to eliminate $10 million in annual losses per 1,000 employees. ",
+                contentOne: "The global AI in fintech market is growing rapidly, valued at $17.79 billion in 2025 and projected to reach $52.19 billion by 2029. Financial institutions manage 342 applications on average, with 42% of software licenses going unused, creating $127 million in annual waste. AI-powered financial automation, predictive analytics, and digital transformation solutions can help eliminate significant operational losses. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXFintech-section.png",
                 imgAlt: "predictive analytics for finance "
@@ -771,7 +779,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXFintech-about.png',
                 logo: '/images/vertical/AiXFintech-darklogo.png',
-                contentOne: "AiXFinTech represents the world's first AI-native financial services solution built on the revolutionary AiXHub . Unlike traditional point solutions that add complexity, AiXFinTech replaces fragmented financial technology stacks with unified intelligent execution featuring comprehensive AI-powered financial automation platform capabilities, advanced predictive analytics for finance, and intelligent automation financial services that thinks like a financial expert, acts like a compliance officer, and learns like a risk manager through automated regulatory compliance automation. ",
+                contentOne: "AiXFinTech is the world's first AI-native financial services solution built on AiXHub. Unlike traditional point solutions that add complexity, it replaces fragmented financial stacks with unified intelligent execution. The platform provides AI-powered financial automation, predictive analytics for finance, and intelligent automation that thinks like a financial expert, acts like a compliance officer, and learns like a risk manager. ",
                 contenttwo: "",
                 contentthree: "",
                 imgAlt: "regulatory compliance automation "
@@ -780,32 +788,32 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "Intelligent Risk Assessment & Fraud Prevention",
-                    description: "Real-time AI-powered fraud detection using advanced machine learning through comprehensive financial automation software and predictive threat analysis.",
+                    description: "Real-time AI fraud detection using machine learning and predictive threat analysis for smarter risk management.",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "Automated Compliance Management",
-                    description: "Embedded regulatory compliance automation ensuring adherence to GDPR, HIPAA, DPDP, and financial industry standards via intelligent monitoring.",
+                    description: "Built-in regulatory compliance automation ensures adherence to GDPR, HIPAA, DPDP, and financial standards with intelligent monitoring.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "AI-Driven Credit Scoring",
-                    description: "Advanced predictive analytics for finance with alternative credit assessment processing diverse data sources for accurate lending decisions.",
+                    description: "AI-driven predictive analytics assess credit using diverse data sources for accurate lending decisions.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Autonomous Transaction Processing",
-                    description: "Smart contract execution and automated payment workflows through intelligent automation financial services reducing manual intervention by 70–85%.",
+                    description: "Smart contracts and automated payment workflows reduce manual intervention by 70–85% through intelligent automation.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Intelligent Document Automation",
-                    description: "OCR and NLP-powered document processing for KYC, loan applications, and regulatory reporting via comprehensive AI-powered financial automation platform.",
+                    description: "OCR and NLP-driven document processing for KYC, loans, and regulatory reporting via AI-powered financial automation.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Real-Time Financial Analytics",
-                    description: "Predictive insights dashboard providing actionable intelligence through advanced predictive analytics and financial performance monitoring systems.",
+                    description: "Predictive insights dashboard delivers actionable intelligence with financial performance monitoring and predictive analytics.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
@@ -813,21 +821,21 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/fintech-icon1.svg',
                     title: "Chief Financial Officers",
-                    highlight: "Cost optimization through 30-50% operational expense reduction and 75% total ownership cost savings via comprehensive financial automation software capabilities. ",
+                    highlight: "Reduce operational costs by 30-50% and achieve 75% savings in total ownership through AI-driven financial automation. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/fintech-icon2.svg',
                     title: "Chief Risk Officers",
-                    highlight: "Enhanced risk management with 90-98% error reduction and 93% faster threat detection through advanced predictive analytics for finance systems. ",
+                    highlight: "Improve risk management with 90-98% fewer errors and 93% faster threat detection via predictive analytics.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/fintech-icon3.svg',
                     title: "Chief Technology Officers ",
-                    highlight: "Simplify infrastructure management by replacing 5–10 specialized tools with a single AI-native racing performance platform. ",
+                    highlight: "Simplify IT management by consolidating 5–10 tools into a single AI-native financial platform.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -891,6 +899,7 @@ export const verticalData = [
             aboutSectionHeading: 'Introducing AiXHealthcare  ',
             capabilitiSectionHeading: 'Advanced Healthcare AI Capabilities',
             skillGapSectionHeading: 'Who Benefits from AiXHealthcare',
+            FAQsHeading:'Everything You Need to Know About AiXHealthcare',
             impactImage: '/images/vertical/AiXHealthcare-impact.png',
             VerticalContentSection2: {
                 contentOne: "Healthcare organizations struggle with fragmented systems and manual processes despite massive investments in healthcare AI solutions. Hospitals need unified smart care solutions that ensure every patient journey is governed, SLA-compliant, and continuously optimized through comprehensive digital healthcare solutions and intelligent automation.",
@@ -901,20 +910,19 @@ export const verticalData = [
             impactImgAlt: "digital healthcare solutions ",
             impactsAboutAlt: "digital health platform",
             impacts: [
-                "Emergency room wait times reduced by 69% through intelligent smart care solutions",
-                "AI in telemedicine processing 75% faster with automated virtual consultation workflows",
-                "Diagnostic accuracy improved by 25% with healthcare ai solutions powered clinical decision support",
-                "Hospital readmission rates decreased by 47% through predictive discharge planning via digital healthcare solutions",
-                "Bed turnover efficiency increased 60-70% enabling higher patient capacity through digital health platform",
-                "Administrative overhead costs reduced by 40% through ai healthcare platform workflow automation",
-                "Patient satisfaction scores improved by 50% with streamlined care delivery using smart care solutions",
-                "100% audit-ready compliance documentation with immutable logging across digital health and wellness platforms"
+                "Telemedicine consultations processed 75% faster with automated virtual workflows.",
+                "Diagnostic accuracy improved by 25% with AI-augmented clinical decision support.",
+                "Hospital readmission rates decreased by 47% through predictive discharge planning and monitoring.",
+                "Bed turnover efficiency increased 60–70%, enabling higher patient capacity.",
+                "Administrative overhead costs reduced by 40% through automated clinical and back-office workflows.",
+                "Patient satisfaction scores improved by 50% with streamlined care delivery.",
+                "100% audit-ready compliance documentation with immutable logging across digital health platforms."
             ],
 
             aboutSection: {
                 aboutImage: '/images/vertical/AiXHealthcare-about.png',
                 logo: '/images/vertical/AiXHealthcare-darklogo.png',
-                contentOne: "AiXHealthcare represents the next generation of artificial intelligence in healthcare, transforming hospitals, clinics, and healthcare networks into self-governing, patient-intelligent enterprises through comprehensive digital health platform orchestration. Built on iTCart's proprietary AiX Framework, our healthcare AI solutions deliver SLA-bound workflows, embedded compliance governance, and multi-agent AI orchestration across clinical, financial, and operational processes. From emergency triage to insurance approvals and discharge planning, AiXHealthcare ensures every patient journey is faster, safer, and fully compliant through advanced digital healthcare solutions and intelligent automation capabilities. ",
+                contentOne: "AiXHealthcare is the next generation of AI for healthcare, transforming hospitals, clinics, and networks into self-governing, patient-centered enterprises. Built on iTCart’s proprietary AiXHub EOS, our solutions deliver SLA-bound workflows, embedded compliance governance, and multi-agent AI orchestration across clinical, financial, and operational processes. From emergency triage to insurance approvals and discharge planning, AiXHealthcare makes patient journeys faster, safer, and fully compliant through intelligent automation. ",
                 contenttwo: "",
                 imgAlt: "AI in Telemedicine "
             },
@@ -931,7 +939,7 @@ export const verticalData = [
                 },
                 {
                     title: "Telemedicine Automation ",
-                    description: "Revolutionary AI in telemedicine enabling virtual consultations with intelligent appointment scheduling and automatic documentation for enhanced remote care delivery. ",
+                    description: "AI-enabled telemedicine for virtual consultations with intelligent scheduling and automated documentation to improve remote care delivery.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -946,7 +954,7 @@ export const verticalData = [
                 },
                 {
                     title: "Real-Time Analytics ",
-                    description: "Advanced artificial intelligence in healthcare providing predictive insights for population health management and resource optimization through our comprehensive digital health and wellness platforms.",
+                    description: "Advanced AI in healthcare delivers predictive insights that help manage population health and improve resource optimization through a unified digital health and wellness platform.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
@@ -968,7 +976,7 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixhealthcare-icon3.svg',
                     title: "Healthcare Administrators ",
-                    highlight: "Executives implementing healthcare AI solutions for governance automation and compliance documentation. ",
+                    highlight: "Executives streamlining governance, compliance, and operational reporting with embedded AI. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 },
@@ -1024,7 +1032,7 @@ export const verticalData = [
             metaTitle: 'AI Lifecare Platform for Smarter Patient Outcomes – iTCart ',
             metaDescription: 'Empower hospitals with AiXLifeCare — an AI lifecare platform built for predictive healthcare, real-time monitoring, and clinical decision intelligence.',
             bannerTitle: 'Reimagine Patient Care with AiXLifeCare That Thinks Ahead',
-            bannerDescription: 'Transform clinical operations through intelligent automation software and advanced workflow optimization systems.',
+            bannerDescription: 'Transform clinical operations with intelligent automation and workflow optimization.',
             bannerImage: "/images/vertical/AiXLifeCare-banner.jpg",
             mobileBannerImage: "/images/vertical/AiXLifeCare-MobileBanner.jpg",
             banerAltImg: "healthcare automation software",
@@ -1032,6 +1040,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Healthcare Excellence',
             capabilitiSectionHeading: 'Advanced Healthcare AI Capabilities',
             skillGapSectionHeading: 'Trusted by Healthcare Leaders',
+            FAQsHeading:'Everything You Need to Know About AiXLifeCare',
             impactImage: '/images/vertical/AiXLifeCareimpact.png',
             VerticalContentSection2: {
                 contentOne: "Healthcare systems operate with fragmented data sources, inefficient workflows, and manual processes compromising patient care quality. With cybersecurity threats affecting 80% of hospitals, workforce shortages reaching crisis levels, and operating margins below 2%, healthcare institutions struggle with diagnostic delays and regulatory compliance requiring advanced robotic process automation in healthcare. ",
@@ -1042,17 +1051,17 @@ export const verticalData = [
             impactImgAlt: "medical automation system ",
             impactsAboutAlt: "patient engagement platform ",
             impacts: [
-                "Reduce diagnostic delays by 40% through AI-powered pattern recognition and healthcare predictive analytics software capabilities ",
-                "Improve patient safety scores by 35% using real-time monitoring and early warning systems",
-                "Decrease operational costs by 30% through intelligent healthcare automation software and workflow optimization systems",
-                "Enhance clinical decision accuracy by 50% with evidence-based AI recommendations and protocols",
-                "Accelerate treatment planning by 60% using personalized care pathways and clinical templates",
-                "Boost regulatory compliance rates to 99.5% with automated auditing and policy enforcement through medical automation system",
+                "Reduce diagnostic delays by 40% through AI-powered pattern recognition and predictive analytics.",
+                "Improve patient safety scores by 35% using real-time monitoring and early warning systems.",
+                "Decrease operational costs by 30% through intelligent automation and workflow optimization.",
+                "Enhance clinical decision accuracy by 50% with evidence-based AI recommendations and protocols.",
+                "Accelerate treatment planning by 60% using personalized care pathways and clinical templates.",
+                "Boost regulatory compliance rates to 99.5% with automated auditing and policy enforcement.",
             ],
             aboutSection: {
                 aboutImage: '/images/vertical/AiXLifeCare-about.png',
                 logo: '/images/vertical/AiXLifeCare-darklogo.png',
-                contentOne: "AiXLifeCare is iTCart's revolutionary ai healthcare platform that transforms patient care through intelligent healthcare automation software and healthcare predictive analytics software. Built on the proprietary AiX Framework, this comprehensive medical automation system delivers AI clinical decision support, automated diagnostics, and patient engagement platform capabilities through workflow automation in healthcare environments with HIPAA-compliant AI architecture and seamless integration capabilities. ",
+                contentOne: "AiXLifeCare is iTCart’s AI healthcare platform that transforms patient care with intelligent automation and predictive analytics. Built on iTCart’s proprietary AiXHub EOS, this medical automation system delivers AI clinical decision support, automated diagnostics, and patient engagement tools with HIPAA-compliant AI architecture and robust integration options.",
                 contenttwo: "",
                 contentthree: '',
                 imgAlt: "healthcare predictive analytics software "
@@ -1060,17 +1069,17 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "Patient 360° Intelligence Hub",
-                    description: "Unified patient dashboard offering real-time clinical insights with patient engagement platform tools enabling personalized health recommendations. ",
+                    description: "A unified patient dashboard providing real-time clinical insights and personalized health recommendations.",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "AI-Powered Diagnostic Excellence",
-                    description: "Early disease detection capabilities with advanced pattern recognition and automated diagnostic reporting through medical automation system technology.",
+                    description: "Early disease detection capabilities with advanced pattern recognition and automated diagnostic reporting through medical automation.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Predictive Analytics Engine",
-                    description: "Comprehensive healthcare predictive analytics software enabling proactive care decisions and early intervention through intelligent data analysis. ",
+                    title: "Workflow Automation Suite",
+                    description: "Streamlined clinical processes through workflow automation, reducing manual tasks and improving operational efficiency.",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
@@ -1084,21 +1093,21 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixlifecare-icon1.svg',
                     title: "Hospitals & Clinics ",
-                    highlight: " Streamline operations with comprehensive ai healthcare platform for multispecialty healthcare environments.",
+                    highlight: " Streamline operations with an AI healthcare platform for multispecialty environments.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixlifecare-icon2.svg',
                     title: "Healthcare Administrators ",
-                    highlight: " Optimize workflows and ensure compliance with intelligent healthcare automation software capabilities.",
+                    highlight: "Optimize workflows and ensure compliance with intelligent automation and governance tools.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixlifecare-icon3.svg',
                     title: "Doctors & Nurses",
-                    highlight: "Enhanced diagnostic accuracy through AI clinical decision support and medical automation system integration.",
+                    highlight: "Improve diagnostic accuracy with AI clinical decision support and integrated automation.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -1162,8 +1171,9 @@ export const verticalData = [
             aboutSectionHeading: 'Next-Generation Revenue Cycle Management Excellence',
             capabilitiSectionHeading: 'AI-Powered Revenue Cycle Capabilities ',
             skillGapSectionHeading: 'Built For Healthcare Excellence',
+            FAQsHeading:'Everything You Need to Know About RCMAiX',
             VerticalContentSection2: {
-                contentOne: "Healthcare providers face escalating billing inefficiencies, claim denials exceeding 15%, and administrative burdens that drain resources from patient care. With 40% of hospitals reporting negative margins and rising costs outpacing reimbursements, traditional systems lack intelligent automation requiring advanced AI revenue cycle management, healthcare revenue cycle management software, and cloud based medical billing software solutions to predict bottlenecks and optimize financial outcomes. ",
+                contentOne: "Healthcare providers face escalating billing inefficiencies, claim denials exceeding 15%, and administrative burdens that drain resources from patient care. With 40% of hospitals reporting negative margins and rising costs outpacing reimbursements, traditional systems lack the AI revenue cycle management intelligence and cloud-based billing tools needed to predict bottlenecks and improve financial outcomes. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXRCM-section1.png",
                 imgAlt: "revenue cycle management solutions "
@@ -1171,19 +1181,19 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXRCM-section2.png',
                 logo: '/images/vertical/AiXRCM-darklogo.png',
-                contentOne: "RCMAiX revolutionizes healthcare financial management by combining advanced AI algorithms with comprehensive revenue cycle expertise through intelligent AI revenue cycle management capabilities. Our platform automates claims processing, predicts cash flow patterns, and seamlessly integrates with existing hospital information systems featuring healthcare revenue cycle management software, revenue cycle management solutions, and healthcare workflow automation that reduce errors and accelerate payment cycles while maintaining regulatory compliance. ",
+                contentOne: "RCMAiX transforms healthcare financial management by combining AI-driven analytics with deep revenue cycle expertise to deliver intelligent RCM capabilities. The platform automates claims processing, predicts cash flow patterns, and integrates with hospital information systems using connected revenue cycle tools and structured workflow automation that reduce errors, speed up payment cycles, and maintain regulatory compliance.",
                 contenttwo: "",
                 imgAlt: "cloud based medical billing software"
             },
             CapabilitySections: [
                 {
                     title: "Claims Automation",
-                    description: "AI algorithms reduce denials and ensure accurate reimbursement processing through advanced AI revenue cycle management and intelligent automation.",
+                    description: "AI models reduce denials and ensure accurate reimbursement processing through streamlined automation within the revenue cycle.",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "Predictive Analytics",
-                    description: "Advanced forecasting identifies bottlenecks and optimizes revenue cycles via comprehensive revenue cycle analytics software and predictive modeling.",
+                    description: "Predictive forecasting identifies bottlenecks and strengthens revenue cycles using structured analytics and intelligent modeling.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -1193,12 +1203,12 @@ export const verticalData = [
                 },
                 {
                     title: "Risk Detection",
-                    description: "AI-driven fraud detection monitors patterns to enhance financial integrity via intelligent healthcare revenue cycle management software.",
+                    description: "AI-driven fraud detection monitors patterns to strengthen financial integrity using secure revenue cycle tools.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Compliance Management",
-                    description: "Built-in HIPAA, ICD-10, and regulatory compliance ensuring data security through comprehensive revenue cycle management solutions.",
+                    description: "Built-in HIPAA, ICD-10, and regulatory compliance ensures data security through structured revenue cycle management controls.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -1212,21 +1222,21 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/rcmaix-icon1.svg',
                     title: "Healthcare Providers",
-                    highlight: "Independent practices, hospitals, specialty clinics optimizing billing and revenue realization through comprehensive AI revenue cycle management solutions. ",
+                    highlight: "Independent practices, hospitals, and specialty clinics improve billing and revenue realization using AI-enabled revenue cycle solutions. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/rcmaix-icon2.svg',
                     title: "Financial Institutions ",
-                    highlight: "Banks requiring streamlined workflows for loans, underwriting, payment reconciliation via advanced cloud based medical billing software capabilities. ",
+                    highlight: "Banks streamline workflows for loans, underwriting, and payment reconciliation through cloud-connected medical billing capabilities.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/rcmaix-icon3.svg',
                     title: "Insurance Companies",
-                    highlight: "Organizations needing improved claim settlement accuracy and reduced fraudulent transactions through intelligent healthcare revenue cycle management software.  ",
+                    highlight: "Insurance organizations improve claim settlement accuracy and reduce fraudulent activity with AI-enabled revenue cycle tools.  ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -1234,13 +1244,13 @@ export const verticalData = [
             impactImgAlt: "healthcare workflow automation ",
             impactsAboutAlt: "revenue cycle management software",
             impacts: [
-                "30-40% faster claims turnaround through predictive analytics and AI revenue cycle management optimization algorithms ",
-                "99% coding accuracy with AI-powered automation and comprehensive healthcare revenue cycle management software",
-                "15-20% increase in collections and revenue optimization via end-to-end revenue cycle management solutions and intelligent processing",
-                "100% regulatory compliance with government standards through cloud based medical billing software and automated monitoring",
-                "85% reduction in claim denials through intelligent AI revenue cycle management and proactive error prevention ",
-                "95% fraud detection accuracy improvement through advanced revenue cycle analytics software and pattern recognition ",
-                "Zero Disruption to existing operational systems with seamless healthcare workflow automation integration ",
+                "30–40% faster claims turnaround through predictive analytics and AI-driven revenue cycle optimization.",
+                "99% coding accuracy with AI-enabled automation and tightly integrated revenue cycle tools.",
+                "15–20% increase in collections and revenue performance through streamlined end-to-end RCM processes.",
+                "100% regulatory adherence with automated monitoring and cloud-enabled compliance controls.",
+                "85% reduction in claim denials through proactive error detection and intelligent validation.",
+                "95% improvement in fraud detection accuracy using advanced pattern recognition and anomaly analysis. ",
+                "Zero disruption to ongoing operations through smooth workflow integration and system connectivity",
             ],
             FAQs: [
                 {
@@ -1302,6 +1312,7 @@ export const verticalData = [
             aboutSectionHeading: 'Next-Generation AI-Native ERP Excellence',
             capabilitiSectionHeading: 'Advanced AI-Driven ERP Capabilities',
             skillGapSectionHeading: 'Built for Enterprise Leaders',
+            FAQsHeading:'Everything You Need to Know About AiXERP',
             impactImage: '/images/vertical/AiXERP-impact.png',
             VerticalContentSection2: {
                 contentOne: "The ERP market has reached $147.7 billion in 2025 with cloud based enterprise resource planning dominating 70.4% of global spending. Modern enterprises require intelligent erp system capabilities with automated ERP system functionality that traditional erp software cannot deliver through conventional erp solutions. ",
@@ -1426,6 +1437,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native GRC Excellence',
             capabilitiSectionHeading: 'Six Pillars of Intelligent Compliance',
             skillGapSectionHeading: 'Real-World Compliance Applications',
+            FAQsHeading:'Everything You Need to Know About AiXGRC',
             impactImage: '/images/vertical/AiXGRC-impact.png',
             VerticalContentSection2: {
                 contentOne: "In today's high-stakes regulatory landscape, managing governance, risk, and compliance isn't just about ticking boxes—it's about building trust and ensuring resilience. Traditional GRC approaches fall short in the face of evolving regulations requiring advanced compliance management systems, automated compliance software, and intelligent GRC automation platform capabilities. ",
@@ -1580,6 +1592,7 @@ export const verticalData = [
             aboutSectionHeading: 'AI-Driven Cybersecurity Excellence    ',
             capabilitiSectionHeading: 'Navigate the Future of Cyber Defense',
             skillGapSectionHeading: 'Cybersecurity Solutions Across Industries ',
+            FAQsHeading:'Everything You Need to Know About CyberAiX',
             aboutSectionHeading2: 'Trusted Excellence',
             aboutSectionHeading2Content: 'Built by iTCart, recognized leaders in AI automation delivering enterprise-grade ai cybersecurity solutions that drive security transformation and measurable protection success. ',
             VerticalContentSection2: {
@@ -1726,6 +1739,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native HVAC Excellence',
             capabilitiSectionHeading: 'Advanced Real Estate AI Capabilities',
             skillGapSectionHeading: 'Built For Real Estate Professionals',
+            FAQsHeading:'Everything You Need to Know About AiXHEAT',
             impactImage: '/images/vertical/AiXHEAT-impact.png',
             VerticalContentSection2: {
                 contentOne: "Global HVAC systems consume 40% of building energy with $280 billion smart buildings market reaching unprecedented complexity. Despite massive automation investments, 67% of commercial buildings operate with reactive maintenance causing 25-40% energy waste and unexpected equipment failures costing billions annually requiring advanced AI predictive maintenance software and IoT equipment monitoring system capabilities. ",
@@ -1868,7 +1882,7 @@ export const verticalData = [
         description: "Real estate solutions digitizing property lifecycles with smart documentation, CRM, dashboards, and immersive virtual tours.",
         linkUrl: "/services/startup-services",
         imageSrc: "/images/services/startup-service.png",
-        compenyName: 'AiXReality',
+        compenyName: 'AiXRealty',
         verticalCompenyLogo: '/images/verticalLogos/AiXReality.png',
         compenyLogo: '/images/verticalLogos/AiXReality.png',
         detailPage: {
@@ -1884,6 +1898,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Real Estate Excellence',
             capabilitiSectionHeading: 'Key Features ',
             skillGapSectionHeading: 'Built For Real Estate Professionals ',
+            FAQsHeading:'Everything You Need to Know About AiXRealty',
             VerticalContentSection2: {
                 contentOne: "The global real estate industry faces massive digital fragmentation with $5 billion in AI opportunities by 2025. Property management companies struggle with 40% efficiency losses from manual processes, while 80% of real estate businesses still rely on outdated systems creating $10 million annual inefficiencies per 1,000 employees. ",
                 contenttwo: "",
@@ -2024,6 +2039,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Racing Excellence',
             capabilitiSectionHeading: 'Advanced Racing AI Capabilities',
             skillGapSectionHeading: 'Built for Racing Excellence',
+            FAQsHeading:'Everything You Need to Know About AiXMotorsports',
             impactImage: '/images/vertical/AiXMotersports-impact.png',
             VerticalContentSection2: {
                 contentOne: "The global motorsports market is valued at $8.6 billion in 2025, with Formula 1 teams generating over 1.1 million telemetry data points per second from 300+ car sensors. Modern racing operations manage complex ecosystems, requiring teams to process 400GB of data during single races while making split-second decisions that determine championship outcomes. These decisions are powered by advanced AI racing performance software and motorsport data analytics platform solutions.",
@@ -2159,6 +2175,7 @@ export const verticalData = [
             aboutSectionHeading: 'Smart Energy Transformation Excellence',
             capabilitiSectionHeading: 'Core Energy Intelligence Capabilities',
             skillGapSectionHeading: 'Energy Leaders We Empower',
+            FAQsHeading:'Everything You Need to Know About AiXEnergy',
             VerticalContentSection2: {
                 contentOne: "Modern energy enterprises face critical challenges from grid instability, asset failures, and renewable integration complexities. Traditional systems struggle with real-time optimization, predictive maintenance, and regulatory compliance demands requiring advanced ai based energy management system, energy monitoring software, and intelligent energy data management software solutions. These operational inefficiencies create massive energy value chain disruptions, with 31% of energy companies experiencing double-digit capital cost increases annually.",
                 contenttwo: "",

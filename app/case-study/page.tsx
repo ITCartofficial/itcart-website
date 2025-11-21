@@ -100,16 +100,6 @@ const CaseStudiesPage: React.FC = () => {
                             className="bg-gradient-to-r fbg-gradient-to-r from-[#29C1E2] to-white text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-white hover:to-[#29C1E2] transition-all duration-300">
                             Get Started
                         </Link> */}
-                            <div>
-                                <OutlineBtn
-                                    // showBorderaButton={changgeBtn}
-                                    text="Our Services"
-                                    textColor="#FFFFFF"
-                                    icon={<FaArrowRight size={16} color="#FFFFFF" />}
-                                    url='/services'
-                                />
-                            </div>
-
                             <div
 
                             >

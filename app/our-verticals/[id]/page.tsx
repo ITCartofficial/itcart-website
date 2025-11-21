@@ -1,5 +1,6 @@
 "use client"
-import HomeFaqSection from '@/app/(features)/home/HomeFaqSection'
+// import HomeFaqSection from '@/app/(features)/home/HomeFaqSection'
+import HomeFaqSection from "@/app/(features)/home/HomeFaqSection";
 import AboutItCart from '@/components/verticalDetailPage/AboutItCart'
 import CapabilitySection from '@/components/verticalDetailPage/CapabilitySection'
 import MobileVerticalHeroBanner from '@/components/verticalDetailPage/MobileVerticalHeroBanner'
@@ -135,8 +136,15 @@ const OurVerticalsDetailPage = () => {
 
                 </div >
                 <div className="bg-[#131313] border-b-2 border-b-zinc-600 mt-15">
-                    <HomeFaqSection faqs={filterdItem?.detailPage?.FAQs ?? []} />
+                    <HomeFaqSection
+                      FAQsHeading={filterdItem?.detailPage?.FAQsHeading}
+                      faqs={filterdItem?.detailPage?.FAQs ?? []} />
                 </div>
+                {/* <div className="bg-[#131313] border-b-2 border-b-zinc-600">
+                    <HomeFaqSection
+                        FAQsHeading={filterdItem?.detailPage?.FAQsHeading}
+                        faqs={filterdItem?.detailPage?.FAQs ?? []} />
+                </div> */}
             </>
         </html>
     )

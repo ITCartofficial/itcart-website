@@ -41,8 +41,6 @@ const globalExpansionData = {
 const AboutUs = () => {
 
 
-
-
     const [bgImage, setBgImage] = useState<string | null>(null);
 
     useLayoutEffect(() => {
