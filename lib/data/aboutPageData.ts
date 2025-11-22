@@ -199,11 +199,11 @@ export const globalStrategists = [
   //   title: "Dr. Brian D. Athey",
   //   designation: "Global Digital and AI Transformation Ambassador",
   // },
-  {
-    image: "/images/strategists/scottsebastian.png",
-    title: "Scott Sebastian",
-    designation: "Global Director - GTM Strategy",
-  },
+  // {
+  //   image: "/images/strategists/scottsebastian.png",
+  //   title: "Scott Sebastian",
+  //   designation: "Global Director - GTM Strategy",
+  // },
   // {
   //   image: "/images/strategists/aaronranka.png",
   //   title: "Aaron Ranka",
@@ -232,26 +232,26 @@ export const ambassadorsList = [
       },
     ],
   },
-  {
-    image: "/images/ambassador/scottsebastian.png",
-    title: "Scott Sebastian",
-    designation: "Global Director - GTM Strategy",
-    profileRef: "https://www.linkedin.com/in/scott-sebastian-5160337/", //button link
-    matrics: [
-      {
-        numericValue: 30,
-        title: "Years of Experience",
-      },
-      {
-        numericValue: 10,
-        title: "Strategic Leadership Roles",
-      },
-      {
-        numericValue: 300,
-        title: "Established global alliances",
-      },
-    ],
-  },
+  // {
+  //   image: "/images/ambassador/scottsebastian.png",
+  //   title: "Scott Sebastian",
+  //   designation: "Global Director - GTM Strategy",
+  //   profileRef: "https://www.linkedin.com/in/scott-sebastian-5160337/", //button link
+  //   matrics: [
+  //     {
+  //       numericValue: 30,
+  //       title: "Years of Experience",
+  //     },
+  //     {
+  //       numericValue: 10,
+  //       title: "Strategic Leadership Roles",
+  //     },
+  //     {
+  //       numericValue: 300,
+  //       title: "Established global alliances",
+  //     },
+  //   ],
+  // },
   // {
   //   image: "/images/ambassador/Aaron.png",
   //   title: "Aaron Ranka",
