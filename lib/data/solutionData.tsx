@@ -624,13 +624,13 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Supercharge Operations with Smart BPA Solutions",
-      bannerDescription: "Transform manual workflows into intelligent, AI-powered business process automation systems.",
+      bannerDescription: "Transform manual workflows into AI-powered automation systems that enhance efficiency and accuracy.",
       bannerImage: "/images/solutions/Business-Process-Automation-banner.png",
       mobileBannerImage: "/images/solutions/Business-MobileBanner.jpg",
       aboutSectionHeading: 'Automate. Optimize. Accelerate. Transform.',
       aboutSection: {
         aboutImage: '/images/solutions/Business-Process-Automation-about.png',
-        contentOne: "iTCart's business process automation solution empowers teams to work smarter through best workflow automation software that eliminates manual bottlenecks and delivers AI-powered workflows for superior business outcomes and enterprise automation platform excellence.",
+        contentOne: "iTCart's business process automation solution enables teams to work efficiently by eliminating manual bottlenecks. It delivers AI-powered workflows for improved business outcomes and enterprise automation platform performance.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Business Excellence',
@@ -781,7 +781,7 @@ export const solutionData = [
       aboutSolutionImage: '/images/solutions/Business-Process-Automation-aboutfinal.png',
       futurSectionHeading: "",
       futurSectionDescription: "Everything You Need to Know About Business Process Automation",
-      FAQsHeading: '',
+      FAQsHeading: 'Everything You Need to Know About Business Process Automation',
       FAQs: [
         {
           id: '1',

@@ -2125,22 +2125,27 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'What makes AiXMotorSports different from existing racing analytics platforms?',
-                    content: "AiXMotorSports is built on the world's first AI-native Enterprise Operating System, replacing entire fragmented racing technology stacks rather than adding another analytics layer. "
+                    content: "AiXMotorSports is built on an AI-native Enterprise Operating System and replaces fragmented racing stacks with unified execution rather than just adding analytics layers. "
                 },
                 {
                     id: '2',
                     title: 'How quickly can racing teams see performance improvements?',
-                    content: "Organizations typically achieve 380-487% ROI within racing season implementation, with measurable performance gains appearing within race weekend deployments."
+                    content: "Organizations typically achieve 380-487% ROI within racing season implementation, with measurable performance gains through motorsport performance analytics AI appearing within race weekend deployments."
                 },
                 {
                     id: '3',
-                    title: 'Does AiXMotorSports integrate with existing racing systems and telemetry equipment? ',
-                    content: "Yes, the platform features universal compatibility with telemetry systems, timing equipment, and team communication platforms through its Cross-System Orchestration Model."
+                    title: 'Does AiXMotorSports integrate with existing racing systems and telemetry equipment?',
+                    content: "The platform includes embedded compliance controls at the execution layer, enforcing technical regulations in real time and preventing violations before they occur."
                 },
                 {
                     id: '4',
-                    title: 'How does AiXMotorSports ensure FIA regulatory compliance? ',
-                    content: 'The platform includes embedded compliance at the execution layer with real-time technical regulation enforcement, preventing violations before they occur.'
+                    title: 'How does AiXMotorSports ensure FIA regulatory compliance?',
+                    content: 'The platform includes embedded compliance controls at the execution layer, enforcing technical regulations in real time and preventing violations before they occur.'
+                },
+                {
+                    id: '5',
+                    title: 'What kind of telemetry data can the platform analyze?',
+                    content: 'The telemetry engine processes 300+ sensor streams, including engine parameters, aerodynamics, tire metrics, and driver inputs, in real time. '
                 }
             ],
             logo: 'AiXQP-whitelogo',
@@ -2260,17 +2265,27 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'Does AiXEnergy support hybrid renewable systems?',
-                    content: "Yes, AiXEnergy optimizes solar, wind, hydro, and hybrid energy systems with intelligent forecasting and performance analytics. "
+                    content: "Yes, AiXEnergy optimizes solar, wind, hydro, and hybrid systems through integrated renewable energy capabilities, using intelligent forecasting and performance analytics powered by AI-based energy management.  "
                 },
                 {
                     id: '2',
                     title: 'What energy data can the platform analyze?',
-                    content: "AiXEnergy processes equipment telemetry, weather data, load patterns, fuel consumption, and grid performance metrics in real-time.  "
+                    content: "Our energy data management software processes equipment telemetry, weather information, load patterns, fuel usage, and grid performance metrics through real-time AI-powered energy management systems. "
                 },
                 {
                     id: '3',
-                    title: 'Is AiXEnergy cloud-compatible? ',
-                    content: "AiXEnergy deploys across AWS, Azure, Google Cloud, or on-premises infrastructure supporting enterprise energy operations. "
+                    title: 'Is AiXEnergy cloud-compatible?',
+                    content: "AiXEnergy deploys across AWS, Azure, Google Cloud, or on-premises environments through a scalable platform architecture that supports enterprise-wide energy operations."
+                },
+                {
+                    id: '4',
+                    title: 'How does the solar CRM integration work?',
+                    content: "Our Solar CRM systems integration supports customer management, project tracking, and installation lifecycle optimization through AI-enabled energy management connectivity."
+                },
+                {
+                    id: '5',
+                    title: 'What makes AiXEnergy different from traditional energy management software?',
+                    content: " AiXEnergy is AI-native, delivering predictive analytics and intelligent automation that outperform traditional energy monitoring tools, while supporting modern renewable energy operations."
                 },
             ],
             logo: 'AiXQP-whitelogo',
