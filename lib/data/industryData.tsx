@@ -410,7 +410,7 @@ export const industryData = [
     linkUrl: "/services/business-intelligence",
     imageSrc: "/images/industries/Banking-Finance.png",
     detailPage: {
-      metaTitle: 'Smart Automotive Transformation Solutions | iTCart ',
+      metaTitle: 'Banking AI Automation Solutions | iTCart Financial ',
       metaDescription: 'Revolutionize automotive manufacturing and mobility with iTCart’s digital transformation solutions—enhancing efficiency, safety, and innovation.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",

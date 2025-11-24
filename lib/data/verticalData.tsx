@@ -306,8 +306,8 @@ export const verticalData = [
         capabilitiSectionHeading: 'Core capabilities  ',
         skillGapSectionHeading: 'Bridge Skills Gaps with AI-Driven Education ',
         detailPage: {
-            metaTitle: 'metaTitle',
-            metaDescription: 'metaDescription',
+            metaTitle: 'AiXQP | AI-Powered Online Learning Platform for Career Growth',
+            metaDescription: 'AiXQP is an AI learning platform offering online courses with certification, internships, and placement support to help you grow your career',
             bannerTitle: "The Future of Intelligent Learning Starts Here",
             bannerDescription: "Experience personalized learning that adapts to your learners' needs.",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
@@ -1900,7 +1900,7 @@ export const verticalData = [
             skillGapSectionHeading: 'Built For Real Estate Professionals ',
             FAQsHeading:'Everything You Need to Know About AiXRealty',
             VerticalContentSection2: {
-                contentOne: "The global real estate industry faces massive digital fragmentation with $5 billion in AI opportunities by 2025. Property management companies struggle with 40% efficiency losses from manual processes, while 80% of real estate businesses still rely on outdated systems creating $10 million annual inefficiencies per 1,000 employees. ",
+                contentOne: "AiXRealty is an AI-native Enterprise Operating System created for the real estate sector, powered by iTCart’s patent-pending AiXHub EOS. Unlike fragmented PropTech tools, AiXRealty unifies AI-driven property management, tenant relations, transaction processing, and investment analysis within one intelligent platform supported by integrated smart property management features. Built on autonomous AI Personas, it converts manual real estate operations into adaptive, self-governing systems incorporating AI in property management, predictive analytics for real estate, and real estate workflow automation that think like agents, operate like teams, and learn like seasoned professionals.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXReality-section.png",
                 imgAlt: "predictive analytics for real estate "
