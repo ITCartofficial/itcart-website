@@ -5,7 +5,7 @@ export const serviceData = [
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/services/ai-ml-automation.png",
     detailPage: {
-      metaTitle: ' Expert AI & ML Consulting and Automation Services ',
+      metaTitle: 'Expert AI & ML Consulting and Automation Services',
       metaDescription: 'Streamline processes, boost efficiency, and gain predictive insights with iTCart’s AI & ML consulting, integration, and automation solutions. ',
       serviceName: 'AI and ML Automations',
       bannerButtonText: "Get Your Free Assessment ",
@@ -1589,7 +1589,7 @@ export const serviceData = [
     imageSrc: "/images/services/digital-transformation.png",
     detailPage: {
       metaTitle: 'Digital Transformation Services | AI-Powered Enterprise Solution',
-      metaDescription: ' With iTCart’s digital transformation services, we help you adopt modern technologies, enhance productivity, and stay ahead of the competition. ',
+      metaDescription: 'With iTCart’s digital transformation services, we help you adopt modern technologies, enhance productivity, and stay ahead of the competition.',
       serviceName: 'Digital Transformation',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Propel Your Business Forward with Next-Gen Digital Transformation Services ",

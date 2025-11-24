@@ -306,8 +306,8 @@ export const verticalData = [
         capabilitiSectionHeading: 'Core capabilities  ',
         skillGapSectionHeading: 'Bridge Skills Gaps with AI-Driven Education ',
         detailPage: {
-            metaTitle: 'metaTitle',
-            metaDescription: 'metaDescription',
+            metaTitle: 'AiXQP | AI-Powered Online Learning Platform for Career Growth',
+            metaDescription: 'AiXQP is an AI learning platform offering online courses with certification, internships, and placement support to help you grow your career',
             bannerTitle: "The Future of Intelligent Learning Starts Here",
             bannerDescription: "Experience personalized learning that adapts to your learners' needs.",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
@@ -1730,19 +1730,19 @@ export const verticalData = [
         detailPage: {
             metaTitle: 'AI-Powered HVAC Operations Platform | Smart Energy Automation',
             metaDescription: 'Automate energy optimization and maintenance with our AI-powered HVAC platform. Reduce costs, improve efficiency, and achieve smart building performance.',
-            bannerTitle: "AI-Native HVAC Operations Platform",
-            bannerDescription: "Cut energy costs by 40% and prevent 95% of equipment failures with intelligent maintenance scheduling software and AI predictive maintenance software.",
+            bannerTitle: "AI-Native HVAC Operations",
+            bannerDescription: "Cut energy costs by up to 40% and prevent up to 95% of equipment failures with AI-powered predictive maintenance and intelligent maintenance scheduling software.",
             bannerImage: "/images/vertical/AiXHEAT-banner.jpg",
             banerAltImg: "AI predictive maintenance software ",
             mobileBannerImage: "/images/vertical/AiXHeat-MobileBanner.jpg",
-            VerticalContentSection2Heading: 'HVAC Operations Crisis Demands AI Solutions',
+            VerticalContentSection2Heading: 'HVAC Operations Crisis Demands AI Solutions ',
             aboutSectionHeading: 'Revolutionary AI-Native HVAC Excellence',
             capabilitiSectionHeading: 'Advanced Real Estate AI Capabilities',
-            skillGapSectionHeading: 'Built For Real Estate Professionals',
+            skillGapSectionHeading: 'Built for Facility Excellence',
             FAQsHeading:'Everything You Need to Know About AiXHEAT',
             impactImage: '/images/vertical/AiXHEAT-impact.png',
             VerticalContentSection2: {
-                contentOne: "Global HVAC systems consume 40% of building energy with $280 billion smart buildings market reaching unprecedented complexity. Despite massive automation investments, 67% of commercial buildings operate with reactive maintenance causing 25-40% energy waste and unexpected equipment failures costing billions annually requiring advanced AI predictive maintenance software and IoT equipment monitoring system capabilities. ",
+                contentOne: "Global HVAC systems account for nearly 40% of building energy consumption, and the smart-buildings market is now worth $280 billion. Despite large automation investments, 67% of commercial buildings still operate reactively—generating 25–40% energy waste and frequent equipment failures. These problems require AI predictive maintenance software and IoT-enabled equipment monitoring.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXHEAT-section2.png",
                 imgAlt: "Predictive maintenance for heavy machinery  "
@@ -1750,7 +1750,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXHEAT-about.png',
                 logo: '/images/vertical/AiXHEAT-darklogo.png',
-                contentOne: "AiXHeat is an AI-native HVAC Operations Platform powered by iTCart's patent-pending AiXHub , transforming reactive heating and cooling systems into intelligent, self-optimizing networks. Unlike fragmented building automation systems, AiXHeat unifies climate control, energy management, predictive maintenance for heavy machinery, and occupancy optimization into a single intelligent platform through comprehensive IoT equipment monitoring system architecture. Built on autonomous AI Personas, it continuously learns from environmental patterns, occupancy behaviors, and equipment performance delivering 35% energy cost reductions while improving comfort levels through advanced asset lifecycle management platform capabilities. ",
+                contentOne: "AiXHeat is an AI-native HVAC operations platform powered by iTCart’s AiXHub EOS, transforming reactive heating and cooling systems into intelligent, self-optimizing networks. Unlike fragmented building automation tools, AiXHeat unifies climate control, energy management, predictive maintenance for heavy machinery, and occupancy optimization into a single system. Built on autonomous AI Personas, AiXHeat continuously learns from environmental patterns, occupancy behavior, and equipment performance—delivering up to 35% lower energy costs and noticeably improved occupant comfort through asset lifecycle management.",
                 contenttwo: "",
                 contentthree: '',
                 contentfour: '',
@@ -1758,33 +1758,33 @@ export const verticalData = [
             },
             CapabilitySections: [
                 {
-                    title: "AI Property Valuation Engine",
-                    description: "Autonomous pricing models with 94% accuracy through advanced predictive analytics for real estate and intelligent market analysis. ",
+                    title: "Predictive Climate Optimization",
+                    description: "AI-powered thermal modeling prevents up to 95% of HVAC equipment failures using predictive maintenance analytics and intelligent diagnostics. ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
-                    title: "Smart Tenant Matching System",
-                    description: "Comprehensive AI property management reducing vacancy periods by 70-85% through intelligent tenant screening and placement. ",
+                    title: "Smart Energy Management ",
+                    description: "Real-time consumption optimization reduces HVAC costs by up to 40% via IoT-based energy monitoring and adaptive control algorithms. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Automated Lease Management",
-                    description: "SLA-governed contract processing eliminating manual documentation errors through real estate workflow automation and intelligent processing. ",
+                    title: "Autonomous Maintenance Orchestration",
+                    description: "Automates predictive maintenance for heavy machinery using maintenance-scheduling software, preventing unplanned breakdowns and emergency repairs.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Intelligent Maintenance Orchestration",
-                    description: "Predictive maintenance reducing operational costs by 30-50% through smart property management and automated scheduling systems. ",
+                    title: "Occupancy-Based Temperature Control",
+                    description: "Dynamically adjusts climate settings based on real-time occupancy patterns through asset lifecycle integration. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Real-Time Market Analytics",
-                    description: "AI-powered investment insights delivering 40% faster decision-making through comprehensive predictive analytics for real estate capabilities. ",
+                    title: "Multi-Zone Coordination Engine",
+                    description: " Synchronizes HVAC operations across building zones to maximize efficiency via AI-powered asset-performance management.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Integrated Real Estate CRM",
-                    description: "Comprehensive real estate crm and property management crm facilitate client relationships, lead tracking, transaction management, and property portfolio oversight through unified platform architecture. ",
+                    title: "Compliance Monitoring System",
+                    description: "Automates environmental standards adherence and regulatory reporting using a unified equipment health monitoring system. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
 
@@ -1792,32 +1792,32 @@ export const verticalData = [
             impactImgAlt: "IoT equipment monitoring system  ",
             impactsAboutAlt: "Intelligent maintenance scheduling software  ",
             impacts: [
-                "35–40% reduction in HVAC energy consumption and operating costs through AI automation. ",
-                "95% prevention of equipment failures via predictive IoT monitoring. ",
+                "35–40% reduction in HVAC energy consumption and operating costs through AI-driven automation.",
+                "95% prevention of equipment failures via predictive IoT monitoring.",
                 "50% improvement in occupant comfort and climate satisfaction scores. ",
                 "70–85% reduction in manual monitoring through lifecycle automation. ",
                 "380–487% ROI achieved within 12–24 months via intelligent operational optimization. ",
-                "Unified AI-powered asset management replacing fragmented HVAC tools "
+                "Unified AI-powered asset management that replaces fragmented HVAC tools. "
             ],
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/aixheat-icon1.svg',
-                    title: "Property Managers",
-                    highlight: "Streamline portfolio operations and tenant relationships through comprehensive AI property management solutions and smart property management systems.",
+                    title: "Building Operations Teams",
+                    highlight: "Streamline multi-zone climate control and maintenance with AI predictive maintenance solutions.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixheat-icon2.svg',
-                    title: "Real Estate Agents",
-                    highlight: "Enhance client matching and transaction efficiency with advanced AI real estate software and integrated real estate crm capabilities for complete lead management.",
+                    title: "HVAC Service Providers",
+                    highlight: "Deliver proactive maintenance and improved SLAs with maintenance-scheduling systems.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixheat-icon3.svg',
-                    title: "Property Investors",
-                    highlight: "Optimize investment decisions with predictive analytics for real estate and intelligent market forecasting systems powered by AI in property management.",
+                    title: "Industrial & Commercial Facilities ",
+                    highlight: "Enhance energy efficiency, uptime, and environmental performance through predictive analytics and intelligent system control.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -1826,42 +1826,42 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'What is AiXHeat and how does it differ from traditional HVAC systems? ',
-                    content: "AiXHeat is an AI-native HVAC Operations Platform that transforms reactive heating and cooling systems into intelligent, self-optimizing networks. Unlike traditional building automation systems that operate in silos, AiXHeat unifies climate control, energy management, predictive maintenance, and occupancy optimization into a single intelligent platform powered by iTCart's patent-pending AiXHub ."
+                    content: "AiXHeat is an AI-native HVAC operations platform that turns reactive heating and cooling into intelligent, self-optimizing networks using AI predictive maintenance software—unlike traditional building automation systems that operate in silos. "
                 },
                 {
                     id: '2',
-                    title: 'How much can I expect to save with AiXHeat? ',
-                    content: "Organizations typically achieve 35-40% reduction in HVAC energy consumption and operational costs, with ROI of 380-487% within 12-24 months of implementation. The platform also delivers 95% prevention of equipment failures and 70-85% decrease in manual monitoring requirements. "
+                    title: 'How much can I expect to save with AiXHeat?',
+                    content: "Organizations typically achieve a 35–40% reduction in HVAC energy consumption and operational costs, with ROI of 380–487% within 12–24 months through IoT equipment monitoring and intelligent optimization."
                 },
                 {
                     id: '3',
-                    title: 'What problems does AiXHeat solve? ',
-                    content: "AiXHeat addresses the core challenges in commercial building operations: reactive maintenance that causes 25-40% energy waste, unexpected equipment failures costing billions annually, and the complexity of managing fragmented HVAC systems across multiple zones."
+                    title: 'What problems does AiXHeat solve?',
+                    content: "AiXHeat addresses reactive maintenance that causes 25–40% energy waste, prevents costly equipment failures, and reduces complexity from fragmented HVAC systems through asset lifecycle management. "
                 },
                 {
                     id: '4',
-                    title: 'How does the predictive maintenance work? ',
-                    content: 'The platform uses AI-powered thermal modeling and autonomous AI Personas to continuously learn from environmental patterns, equipment performance, and occupancy behaviors. This enables predictive maintenance alerts that prevent costly breakdowns and emergency repairs with 95% accuracy in preventing equipment failures. '
+                    title: 'How does the predictive maintenance work?',
+                    content: 'The platform uses AI-powered thermal modeling and autonomous AI Personas with maintenance-scheduling software to learn from environmental patterns, enabling predictive maintenance for heavy machinery with up to 95% accuracy. '
                 },
                 {
                     id: '5',
-                    title: 'Who is AiXHeat designed for? ',
-                    content: 'AiXHeat serves building operations teams, facility management companies managing diverse property portfolios, HVAC service providers seeking enhanced predictive capabilities, and commercial real estate owners looking to maximize asset value through intelligent building operations. '
+                    title: 'Who is AiXHeat designed for?',
+                    content: 'AiXHeat serves building operations teams, facility managers, HVAC service providers, and industrial or commercial owners seeking predictive, AI-driven system control.  '
                 },
                 {
                     id: '6',
-                    title: 'How does AiXHeat handle multi-zone buildings? ',
-                    content: 'The Multi-Zone Coordination Engine synchronizes HVAC operations across building zones for optimal efficiency, while the occupancy-based temperature control system dynamically adjusts climate based on real-time occupancy patterns in each zone. '
+                    title: 'How does AiXHeat handle multi-zone buildings?',
+                    content: 'The Multi-Zone Coordination Engine synchronizes HVAC operations across building zones using IoT equipment monitoring, while occupancy-based temperature control adjusts climate dynamically based on real-time patterns. '
                 },
                 {
                     id: '7',
-                    title: 'What makes the AiXHub  different? ',
-                    content: "The AiXHub  is the world's first AI-native Enterprise Operating System specialized for HVAC operations. Its unified architecture replaces 5-8 traditional HVAC management tools with one system, featuring an Experience Intelligence Loop that continuously learns and optimizes without human intervention. "
+                    title: 'What makes the AiXHub Framework different?',
+                    content: "AiXHub EOS is the world’s first AI-native enterprise operating system for HVAC operations, replacing 5–8 traditional tools with unified intelligent execution and asset lifecycle management. "
                 },
                 {
                     id: '8',
-                    title: 'How complex is the implementation process? ',
-                    content: "Unlike traditional building automation systems requiring extensive integration, AiXHeat's unified architecture simplifies deployment. The platform is designed to replace fragmented HVAC management tools with intelligent execution, reducing implementation complexity significantly. "
+                    title: 'How complex is the implementation process?',
+                    content: "Unlike traditional building automation systems that require extensive integration, AiXHeat’s unified architecture simplifies deployment through AI predictive maintenance and maintenance-scheduling software, reducing implementation complexity significantly. "
                 },
             ],
 
@@ -1900,7 +1900,7 @@ export const verticalData = [
             skillGapSectionHeading: 'Built For Real Estate Professionals ',
             FAQsHeading:'Everything You Need to Know About AiXRealty',
             VerticalContentSection2: {
-                contentOne: "The global real estate industry faces massive digital fragmentation with $5 billion in AI opportunities by 2025. Property management companies struggle with 40% efficiency losses from manual processes, while 80% of real estate businesses still rely on outdated systems creating $10 million annual inefficiencies per 1,000 employees. ",
+                contentOne: "The global real estate industry faces severe digital fragmentation with $5 billion in AI opportunities emerging by 2025. Property management companies experience 40% efficiency losses due to manual processes, while 80% of real estate firms still depend on outdated systems, creating nearly $10 million in annual inefficiencies per 1,000 employees and increasing the need for modern AI real estate software and smart property management solutions.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXReality-section.png",
                 imgAlt: "predictive analytics for real estate "
@@ -1908,19 +1908,19 @@ export const verticalData = [
             impactImgAlt: "smart property management ",
             impactsAboutAlt: "real estate workflow automation ",
             impacts: [
-                "70-85% reduction in manual processing time across all property operations through ai real estate software automation ",
-                "380-487% ROI achieved within 12-24 months through smart property management and operational optimization",
-                "94% accuracy in automated property valuations and market predictions via predictive analytics for real estate ",
-                "60-90% improvement in operational quality and tenant satisfaction through ai property management systems ",
-                "95%+ user adoption rates across all real estate implementations with comprehensive ai in property management",
-                "30-50% operational cost reduction through intelligent maintenance orchestration and resource optimization",
-                "40% faster decision-making with real-time market analytics and property management CRM integration",
-                "Complete replacement of fragmented PropTech solutions with unified real estate workflow automation platform"
+                "70–85% reduction in manual processing time across property operations with AI-enabled real estate automation ",
+                "380–487% ROI within 12–24 months driven by operational optimization and AI-supported management systems. ",
+                "94% accuracy in automated valuations and market predictions through predictive analytics for real estate.",
+                "60–90% improvement in operational quality and tenant satisfaction using AI-driven property management systems. ",
+                "95%+ adoption rates across implementations supported by AI-native real estate tools",
+                "30–50% reduction in operational costs through predictive maintenance and automated resource scheduling. ",
+                "40% faster decision-making enabled by real-time market analytics and unified CRM capabilities.",
+                "Full replacement of fragmented PropTech with a single integrated real estate automation platform."
             ],
             aboutSection: {
                 aboutImage: '/images/vertical/AiXReality-about.png',
                 logo: '/images/vertical/AiXReality-darkLogo.png',
-                contentOne: "AiXRealty is an AI-native Enterprise Operating System specifically designed for the real estate industry, powered by iTCart's patent-pending AiXHub . Unlike fragmented PropTech solutions, AiXRealty unifies AI property management, tenant relations, transaction processing, and investment analysis into a single intelligent platform through comprehensive smart property management capabilities. Built on autonomous AI Personas, it transforms manual real estate operations into intelligent, self-governing systems featuring ai in property management, predictive analytics for real estate, and real estate workflow automation that think like agents, act like teams, and learn like industry veterans.  ",
+                contentOne: "AiXRealty is an AI-native Enterprise Operating System created for the real estate sector, powered by iTCart’s patent-pending AiXHub EOS. Unlike fragmented PropTech tools, AiXRealty unifies AI-driven property management, tenant relations, transaction processing, and investment analysis within one intelligent platform supported by integrated smart property management features. Built on autonomous AI Personas, it converts manual real estate operations into adaptive, self-governing systems incorporating AI in property management, predictive analytics for real estate, and real estate workflow automation that think like agents, operate like teams, and learn like seasoned professionals.",
                 contenttwo: "",
                 contentthree: '',
                 imgAlt: "ai property management "
@@ -1928,83 +1928,83 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "AI Property Valuation Engine ",
-                    description: "Autonomous pricing models with 94% accuracy within 5% variance",
+                    description: "Autonomous pricing models with 94% accuracy using predictive analytics for real estate and intelligent market analysis",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "Smart Tenant Matching System",
-                    description: "Predictive analytics reducing vacancy periods by 70-85% ",
+                    description: "AI-driven property management reduces vacancy periods by 70–85% through intelligent tenant screening and placement.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Automated Lease Management",
-                    description: "SLA-governed contract processing eliminating manual documentation errors ",
+                    description: "SLA-governed contract processing eliminates documentation errors using real estate workflow automation and intelligent processing. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Intelligent Maintenance Orchestration",
-                    description: "Predictive maintenance reducing operational costs by 30-50% ",
+                    description: "Predictive maintenance cuts operational costs by 30–50% through automated scheduling and connected property management systems.  ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Real-time Market Analytics",
-                    description: "AI-powered investment insights delivering 40% faster decision-making ",
+                    description: "AI-powered investment insights enable 40% faster decision-making with predictive analytics for real estate. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Compliance AutoPilot",
-                    description: "Embedded regulatory adherence achieving 98% documentation completeness ",
+                    title: "Integrated Real Estate CRM ",
+                    description: "Integrated real estate CRM and property management CRM tools support client relationships, lead tracking, transaction oversight, and portfolio management through a unified platform. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
             skillGapSection: [
                 {
                     icon: '/images/vertical/icons/aixreality-icon1.svg',
-                    title: "Property Managers",
-                    highlight: "Streamline portfolio operations and tenant relationships ",
+                    title: "Building Operations Teams",
+                    highlight: "Streamline multi-zone climate control and maintenance with AI predictive maintenance solutions.  ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixreality-icon2.svg',
-                    title: "Real Estate Agents",
-                    highlight: "Enhance client matching and transaction efficiency",
+                    title: "Facility Management Companies",
+                    highlight: "Reduce costs across portfolios using IoT equipment monitoring and lifecycle management tools. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixreality-icon3.svg',
-                    title: "Property Investors",
-                    highlight: "Optimize investment decisions with predictive analytics ",
+                    title: "HVAC Service Providers",
+                    highlight: "Deliver proactive maintenance and improved SLAs with maintenance-scheduling systems.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
-            ],
+            ],  
             FAQs: [
                 {
                     id: '1',
-                    title: 'What is an AI-Powered real estate management platform and how does it work?',
-                    content: "An ai real estate software platform like AiXRealty uses artificial intelligence to automate property management tasks, analyze market data, and optimize operations through smart property management capabilities and predictive analytics for real estate integration."
+                    title: 'What is an AI-powered real estate management platform, and how does it work?',
+                    content: "An AI-powered real estate management platform like AiXRealty uses artificial intelligence to automate property operations, analyze market data, and optimize workflows with integrated smart property management and predictive analytics."
                 },
                 {
                     id: '2',
-                    title: 'How is AI transforming property management and real estate operations?',
-                    content: " AI transforms operations through ai property management systems that automate tenant screening, predictive maintenance scheduling, market analysis, and transaction processing via comprehensive real estate workflow automation and intelligent decision-making."
+                    title: 'How is AI transforming property management and real estate operations? ',
+                    content: "AI enhances operations through automated tenant screening, predictive maintenance, market analysis, and transaction processing supported by real estate workflow automation and intelligent decision-making."
                 },
                 {
                     id: '3',
                     title: 'How can predictive analytics improve real estate investment decisions? ',
-                    content: "Predictive analytics for real estate analyzes market trends, property values, and investment risks to provide data-driven insights enabling smarter investment decisions through ai in property management platforms and intelligent forecasting."
+                    content: "Predictive analytics for real estate examine market trends, pricing patterns, and investment risks to deliver insights that support smarter decisions through AI-enabled management platforms. "
                 },
                 {
                     id: '4',
                     title: 'What are the benefits of automating real estate workflows with AI?',
-                    content: 'Real estate workflow automation reduces manual processing by 70-85%, improves accuracy, accelerates transactions, and enhances operational efficiency through smart property management systems and ai real estate software.'
+                    content: 'Real estate workflow automation cuts manual processing by 70–85%, boosts accuracy, speeds transactions, and improves operational efficiency through AI-driven property management tools.'
                 },
                 {
                     id: '5',
                     title: 'What role does AI play in property valuation and market forecasting?',
-                    content: 'AI analyzes market data, comparable sales, and trends to provide accurate property valuations with 94% accuracy and predictive market forecasting through advanced ai real estate software algorithms and machine learning.'
+                    content: 'AI evaluates market data, comparable sales, and trends to generate highly accurate property valuations and predictive forecasts using AI-enabled real estate software and machine learning.'
                 },
             ],
             logo: 'AiXQP-whitelogo',
@@ -2051,8 +2051,8 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXMotersports-about.png',
                 logo: '/images/vertical/AiXMotersports-darklogo.png',
-                contentOne: "AiXMotorSports represents the world’s first AI-native racing operations platform, built on the revolutionary AiXHub  Unlike traditional point solutions that add complexity, AiXMotorSports replaces fragmented motorsports technology stacks with unified intelligent execution — featuring AI telemetry data analysis, motorsport performance analytics, and intelligent pit stop management software.These AI-driven systems think like race engineers, act like strategists, and learn like championship teams — helping your crew stay focused on performance, not process.",
-                contenttwo: "",
+                contentOne: "AiXMotorSports represents the world’s first AI-native racing operations platform, built on the revolutionary AiXHub EOS  Unlike traditional point solutions that add complexity, AiXMotorSports replaces fragmented motorsports technology stacks with unified intelligent execution — featuring AI telemetry data analysis, motorsport performance analytics, and intelligent pit stop management software.",
+                contenttwo: "These AI-driven systems think like race engineers, act like strategists, and learn like championship teams — helping your crew stay focused on performance, not process.",
                 contentthree: '',
                 imgAlt: "Motorsport performance analytics AI   "
             },
