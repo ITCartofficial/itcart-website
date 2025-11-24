@@ -14,6 +14,7 @@ import HomeFaqSection from "../(features)/home/HomeFaqSection"
 import ClientsSection from "../(features)/home/ClientsSection"
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
 import { useEffect, useState } from "react"
+import { cunsultNowSchema } from "@/lib/schema/cunsultNowSchema"
 
 
 
@@ -63,6 +64,7 @@ function CunsultNow() {
         }
     ];
 
+
     return (
         <html lang="en">
             <head>
@@ -72,6 +74,12 @@ function CunsultNow() {
                 <link rel="canonical" href="https://itcart.ai/consult-now"></link>
             </head>
 
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(cunsultNowSchema),
+                }}
+            />
 
             <>
                 <div className='bg-black space-y-15 lg:space-y-25'>
