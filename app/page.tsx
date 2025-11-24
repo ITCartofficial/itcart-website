@@ -74,7 +74,7 @@ const HomeTemplate = () => {
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
+        dangerouslySetInnerHTML={{  
           __html: JSON.stringify(
 
             {
