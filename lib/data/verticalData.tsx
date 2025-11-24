@@ -21,7 +21,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Workplace',
             capabilitiSectionHeading: 'AI-Powered Core Capabilities ',
             skillGapSectionHeading: 'Built For Modern Teams',
-            FAQsHeading:'Everything You Need to Know About AiXHub',
+            FAQsHeading: 'Everything You Need to Know About AiXHub',
             impactImage: '/images/vertical/AiXHub-impact.png',
             VerticalContentSection2: {
                 contentOne: "Modern enterprises struggle with disconnected systems, manual workflows, and limited visibility across functions. AiXHub eliminates these gaps by introducing an AI-native enterprise operating system that unifies communication, compliance, and automation into one governed execution environment, enabling contextual workflows, predictive collaboration, and SLA-driven performance.",
@@ -132,6 +132,112 @@ export const verticalData = [
                     content: " AiXHub features modular AI personas and configurable automation layers, adaptable across 22+ industries and diverse business environments."
                 }
             ],
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXHub – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixhub",
+                        "description": "AiXHub is an AI-native Enterprise Operating System built on Microsoft 365, delivering unified intelligent automation, workflow optimization, and enterprise AI execution across departments.",
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXHub",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "BusinessApplication",
+                            "url": "https://itcart.ai/our-verticals/aixhub",
+                            "description": "AiXHub is the AI-native Enterprise OS that replaces fragmented software stacks with a unified intelligent platform, enabling enterprise automation, real-time decision-making, and regulatory compliance.",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to request a consultation with iTCart experts about AiXHub."
+                            }
+                        },
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXHub",
+                                    "item": "https://itcart.ai/our-verticals/aixhub"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How does AiXHub integrate with Microsoft 365?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXHub is natively architected on Microsoft 365, ensuring unified access, real-time collaboration, and intelligent automation without workflow disruption."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXHub different from traditional intranet tools?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXHub replaces static intranets with an AI-native execution system that automates workflows, enforces SLAs, and learns continuously across departments."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How quickly can organizations see ROI?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Organizations achieve up to 156% ROI within six months through enterprise automation, cost optimization, and real-time decision execution."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is AiXHub suitable for regulated industries?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXHub enforces GDPR, HIPAA, and DPDP compliance through embedded governance and AI-driven audit trails."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What customization does AiXHub offer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXHub features modular AI personas and configurable automation layers, adaptable across 22+ industries and diverse business environments."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: "iTCart's AiXHub is the foundation of our enterprise intranet solutions, delivering AI-powered digital workplace transformation through an intelligent, unified intranet platform. ",
@@ -164,7 +270,7 @@ export const verticalData = [
             aboutSectionHeading: 'Complete Banking Ecosystem Transformation',
             capabilitiSectionHeading: 'AI-Powered Banking Capabilities',
             skillGapSectionHeading: 'Real-World Banking Applications',
-            FAQsHeading:'Everything You Need to Know About AiXBFS',
+            FAQsHeading: 'Everything You Need to Know About AiXBFS',
             impactImage: '/images/vertical/AiXBFS-impact.png',
             VerticalContentSection2: {
                 contentOne: "Modern banks face complex challenges that demand AI-driven automation, digital lending platforms, debt-recovery intelligence, real-time risk management, and predictive analytics to achieve operational excellence.",
@@ -280,7 +386,112 @@ export const verticalData = [
                     content: "We provide comprehensive support including dedicated solution architects, 24/7 technical assistance, stakeholder training, and ongoing optimization services. Our team ensures smooth transition and maximum ROI from day one. "
                 }
             ],
-
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXBFS – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixbfs",
+                        "description": "AiXBFS is an AI-powered banking and financial services platform, offering modular, API-first architecture with embedded regulatory compliance and rapid deployment for Indian BFSI institutions.",
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXBFS",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "BusinessApplication",
+                            "url": "https://itcart.ai/our-verticals/aixbfs",
+                            "description": "AiXBFS combines 20+ years of BFSI expertise with advanced AI technology, enabling seamless integration, regulatory compliance, and rapid deployment for banking and financial institutions.",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to request a consultation with iTCart experts about AiXBFS."
+                            }
+                        },
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXBFS",
+                                    "item": "https://itcart.ai/our-verticals/aixbfs"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXBFS different from other banking platforms?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXBFS combines 20+ years of BFSI domain expertise with cutting-edge AI technology, offering API-first modular architecture and regulatory compliance built into every layer. Unlike generic solutions, our platform is specifically designed for the unique challenges of Indian banking and financial services."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How quickly can we implement AiXBFS solutions?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Most institutions can onboard in less than 3 days with our plug-and-play integration capabilities. Our modular design allows for phased implementation starting with priority use cases like debt collection and recovery services."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is AiXBFS compliant with regulatory requirements?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, AiXBFS is built with regulatory compliance at its core, aligned with RBI, SEBI, and IRDA guidelines. The platform features AES-256 data encryption, GDPR compliance, and ISO 27001-ready architecture with 99.9% uptime guarantee."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can AiXBFS integrate with our existing core banking systems?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Absolutely. Our API-first architecture enables seamless integration with existing core banking systems, credit bureaus (CIBIL, CRIF, Experian), payment gateways, and third-party services without disrupting current operations."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What kind of support do you provide during implementation?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We provide comprehensive support including dedicated solution architects, 24/7 technical assistance, stakeholder training, and ongoing optimization services. Our team ensures a smooth transition and maximum ROI from day one."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: "AiXBFS platform runs on AiXHub, the core of the AiX Framework bringing AI-powered automation, predictive analytics, and autonomous decision-making tailored for banking and financial services. ",
@@ -317,7 +528,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI Learning Platform',
             capabilitiSectionHeading: 'Intelligent Learning Core Capabilities',
             skillGapSectionHeading: 'Built For Learning Excellence',
-            FAQsHeading:'Everything You Need to Know About AiXQP',
+            FAQsHeading: 'Everything You Need to Know About AiXQP',
             VerticalContentSection2: {
                 contentOne: "Traditional online education platforms often deliver generic content. Modern learning requires AI-driven learning experience platforms, intelligent learning management systems, adaptive learning technology, personalized AI tutoring, student engagement tools, and AI-enabled certification workflows to achieve educational excellence.",
                 contenttwo: "",
@@ -473,7 +684,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Insurance Excellence',
             capabilitiSectionHeading: 'Advanced Insurance AI Technology',
             skillGapSectionHeading: 'Built For Insurance Innovation ',
-            FAQsHeading:'Everything You Need to Know About InsureAiX',
+            FAQsHeading: 'Everything You Need to Know About InsureAiX',
             impactImage: '/images/vertical/InsureAiX-impact.png',
             VerticalContentSection2: {
                 contentOne: "The insurance industry still depends on century-old actuarial models. Many insurers use static, one-size-fits-all pricing that ignores genomics, behavior, lifestyle, and real-time health data. Modern AI, predictive analytics, and automation are required to close this gap; otherwise billions in risk remain mispriced and customers pay premiums that do not reflect their true risk.",
@@ -617,7 +828,7 @@ export const verticalData = [
             impactImage: '/images/vertical/AiXDesk-impact.png',
             capabilitiSectionHeading: 'Core IT Intelligence Capabilities',
             skillGapSectionHeading: 'Built For Modern IT Teams',
-            FAQsHeading:'Everything You Need to Know About AiXDesk',
+            FAQsHeading: 'Everything You Need to Know About AiXDesk',
             VerticalContentSection2: {
                 contentOne: "Modern workplaces face frequent IT disruptions that reduce productivity. Traditional helpdesk systems create bottlenecks with manual ticket routing, delayed responses, and fragmented asset tracking. Teams spend excessive time on repetitive tasks while critical issues remain unresolved, causing frustrated employees and reduced operational efficiency.",
                 contenttwo: "",
@@ -756,7 +967,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Financial Excellence ',
             capabilitiSectionHeading: 'Advanced FinTech AI Capabilities ',
             skillGapSectionHeading: 'Built For Financial Leadership',
-            FAQsHeading:'Everything You Need to Know About AiXFintech',
+            FAQsHeading: 'Everything You Need to Know About AiXFintech',
             impactImage: '/images/vertical/AiXFintech-impact.png',
             impactImgAlt: "digital transformation in financial services ",
             impactsAboutAlt: "intelligent automation financial services ",
@@ -899,7 +1110,7 @@ export const verticalData = [
             aboutSectionHeading: 'Introducing AiXHealthcare  ',
             capabilitiSectionHeading: 'Advanced Healthcare AI Capabilities',
             skillGapSectionHeading: 'Who Benefits from AiXHealthcare',
-            FAQsHeading:'Everything You Need to Know About AiXHealthcare',
+            FAQsHeading: 'Everything You Need to Know About AiXHealthcare',
             impactImage: '/images/vertical/AiXHealthcare-impact.png',
             VerticalContentSection2: {
                 contentOne: "Healthcare organizations struggle with fragmented systems and manual processes despite massive investments in healthcare AI solutions. Hospitals need unified smart care solutions that ensure every patient journey is governed, SLA-compliant, and continuously optimized through comprehensive digital healthcare solutions and intelligent automation.",
@@ -1040,7 +1251,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Healthcare Excellence',
             capabilitiSectionHeading: 'Advanced Healthcare AI Capabilities',
             skillGapSectionHeading: 'Trusted by Healthcare Leaders',
-            FAQsHeading:'Everything You Need to Know About AiXLifeCare',
+            FAQsHeading: 'Everything You Need to Know About AiXLifeCare',
             impactImage: '/images/vertical/AiXLifeCareimpact.png',
             VerticalContentSection2: {
                 contentOne: "Healthcare systems operate with fragmented data sources, inefficient workflows, and manual processes compromising patient care quality. With cybersecurity threats affecting 80% of hospitals, workforce shortages reaching crisis levels, and operating margins below 2%, healthcare institutions struggle with diagnostic delays and regulatory compliance requiring advanced robotic process automation in healthcare. ",
@@ -1171,7 +1382,7 @@ export const verticalData = [
             aboutSectionHeading: 'Next-Generation Revenue Cycle Management Excellence',
             capabilitiSectionHeading: 'AI-Powered Revenue Cycle Capabilities ',
             skillGapSectionHeading: 'Built For Healthcare Excellence',
-            FAQsHeading:'Everything You Need to Know About RCMAiX',
+            FAQsHeading: 'Everything You Need to Know About RCMAiX',
             VerticalContentSection2: {
                 contentOne: "Healthcare providers face escalating billing inefficiencies, claim denials exceeding 15%, and administrative burdens that drain resources from patient care. With 40% of hospitals reporting negative margins and rising costs outpacing reimbursements, traditional systems lack the AI revenue cycle management intelligence and cloud-based billing tools needed to predict bottlenecks and improve financial outcomes. ",
                 contenttwo: "",
@@ -1312,7 +1523,7 @@ export const verticalData = [
             aboutSectionHeading: 'Next-Generation AI-Native ERP Excellence',
             capabilitiSectionHeading: 'Advanced AI-Driven ERP Capabilities',
             skillGapSectionHeading: 'Built for Enterprise Leaders',
-            FAQsHeading:'Everything You Need to Know About AiXERP',
+            FAQsHeading: 'Everything You Need to Know About AiXERP',
             impactImage: '/images/vertical/AiXERP-impact.png',
             VerticalContentSection2: {
                 contentOne: "The ERP market has reached $147.7 billion in 2025 with cloud based enterprise resource planning dominating 70.4% of global spending. Modern enterprises require intelligent erp system capabilities with automated ERP system functionality that traditional erp software cannot deliver through conventional erp solutions. ",
@@ -1437,7 +1648,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native GRC Excellence',
             capabilitiSectionHeading: 'Six Pillars of Intelligent Compliance',
             skillGapSectionHeading: 'Real-World Compliance Applications',
-            FAQsHeading:'Everything You Need to Know About AiXGRC',
+            FAQsHeading: 'Everything You Need to Know About AiXGRC',
             impactImage: '/images/vertical/AiXGRC-impact.png',
             VerticalContentSection2: {
                 contentOne: "In today's high-stakes regulatory landscape, managing governance, risk, and compliance isn't just about ticking boxes—it's about building trust and ensuring resilience. Traditional GRC approaches fall short in the face of evolving regulations requiring advanced compliance management systems, automated compliance software, and intelligent GRC automation platform capabilities. ",
@@ -1592,7 +1803,7 @@ export const verticalData = [
             aboutSectionHeading: 'AI-Driven Cybersecurity Excellence    ',
             capabilitiSectionHeading: 'Navigate the Future of Cyber Defense',
             skillGapSectionHeading: 'Cybersecurity Solutions Across Industries ',
-            FAQsHeading:'Everything You Need to Know About CyberAiX',
+            FAQsHeading: 'Everything You Need to Know About CyberAiX',
             aboutSectionHeading2: 'Trusted Excellence',
             aboutSectionHeading2Content: 'Built by iTCart, recognized leaders in AI automation delivering enterprise-grade ai cybersecurity solutions that drive security transformation and measurable protection success. ',
             VerticalContentSection2: {
@@ -1739,7 +1950,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native HVAC Excellence',
             capabilitiSectionHeading: 'Advanced Real Estate AI Capabilities',
             skillGapSectionHeading: 'Built for Facility Excellence',
-            FAQsHeading:'Everything You Need to Know About AiXHEAT',
+            FAQsHeading: 'Everything You Need to Know About AiXHEAT',
             impactImage: '/images/vertical/AiXHEAT-impact.png',
             VerticalContentSection2: {
                 contentOne: "Global HVAC systems account for nearly 40% of building energy consumption, and the smart-buildings market is now worth $280 billion. Despite large automation investments, 67% of commercial buildings still operate reactively—generating 25–40% energy waste and frequent equipment failures. These problems require AI predictive maintenance software and IoT-enabled equipment monitoring.",
@@ -1898,7 +2109,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Real Estate Excellence',
             capabilitiSectionHeading: 'Key Features ',
             skillGapSectionHeading: 'Built For Real Estate Professionals ',
-            FAQsHeading:'Everything You Need to Know About AiXRealty',
+            FAQsHeading: 'Everything You Need to Know About AiXRealty',
             VerticalContentSection2: {
                 contentOne: "The global real estate industry faces severe digital fragmentation with $5 billion in AI opportunities emerging by 2025. Property management companies experience 40% efficiency losses due to manual processes, while 80% of real estate firms still depend on outdated systems, creating nearly $10 million in annual inefficiencies per 1,000 employees and increasing the need for modern AI real estate software and smart property management solutions.",
                 contenttwo: "",
@@ -1979,7 +2190,7 @@ export const verticalData = [
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
-            ],  
+            ],
             FAQs: [
                 {
                     id: '1',
@@ -2039,7 +2250,7 @@ export const verticalData = [
             aboutSectionHeading: 'Revolutionary AI-Native Racing Excellence',
             capabilitiSectionHeading: 'Advanced Racing AI Capabilities',
             skillGapSectionHeading: 'Built for Racing Excellence',
-            FAQsHeading:'Everything You Need to Know About AiXMotorsports',
+            FAQsHeading: 'Everything You Need to Know About AiXMotorsports',
             impactImage: '/images/vertical/AiXMotersports-impact.png',
             VerticalContentSection2: {
                 contentOne: "The global motorsports market is valued at $8.6 billion in 2025, with Formula 1 teams generating over 1.1 million telemetry data points per second from 300+ car sensors. Modern racing operations manage complex ecosystems, requiring teams to process 400GB of data during single races while making split-second decisions that determine championship outcomes. These decisions are powered by advanced AI racing performance software and motorsport data analytics platform solutions.",
@@ -2175,7 +2386,7 @@ export const verticalData = [
             aboutSectionHeading: 'Smart Energy Transformation Excellence',
             capabilitiSectionHeading: 'Core Energy Intelligence Capabilities',
             skillGapSectionHeading: 'Energy Leaders We Empower',
-            FAQsHeading:'Everything You Need to Know About AiXEnergy',
+            FAQsHeading: 'Everything You Need to Know About AiXEnergy',
             VerticalContentSection2: {
                 contentOne: "Modern energy enterprises face critical challenges from grid instability, asset failures, and renewable integration complexities. Traditional systems struggle with real-time optimization, predictive maintenance, and regulatory compliance demands requiring advanced ai based energy management system, energy monitoring software, and intelligent energy data management software solutions. These operational inefficiencies create massive energy value chain disruptions, with 31% of energy companies experiencing double-digit capital cost increases annually.",
                 contenttwo: "",

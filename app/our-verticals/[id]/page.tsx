@@ -49,6 +49,12 @@ const OurVerticalsDetailPage = () => {
                 <link rel="canonical" href={`https://itcart.ai/our-verticals/${pathName}`}></link>
             </head>
 
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(filterdItem?.detailPage?.schema),
+                }}
+            />
 
             <>
                 <div className='bg-black space-y-15 lg:space-y-25 mt-10'>
@@ -137,8 +143,8 @@ const OurVerticalsDetailPage = () => {
                 </div >
                 <div className="bg-[#131313] border-b-2 border-b-zinc-600 mt-15">
                     <HomeFaqSection
-                      FAQsHeading={filterdItem?.detailPage?.FAQsHeading}
-                      faqs={filterdItem?.detailPage?.FAQs ?? []} />
+                        FAQsHeading={filterdItem?.detailPage?.FAQsHeading}
+                        faqs={filterdItem?.detailPage?.FAQs ?? []} />
                 </div>
                 {/* <div className="bg-[#131313] border-b-2 border-b-zinc-600">
                     <HomeFaqSection
