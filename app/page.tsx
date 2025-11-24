@@ -1,22 +1,11 @@
 'use client';
-
 import { useEffect, useState } from "react";
 import VideoHeroBanner from "./(features)/home/VideoHeroBanner";
-// import FaqSection from '../organisms/sections/home/FaqSection';
 import { homeFAQs } from "../lib/data/faqsData";
 import ClientsSection from "./(features)/home/ClientsSection";
 import AboutInfoSection from "./(features)/home/AboutInfoSection";
-// import TestimonialSection from "./(features)/home/TestimonialSection";
 import HorizontalSliderSection from "./(features)/home/HorizontalSliderSection";
-
-import {
-  keyVerticalsData,
-  // testimonialsData,
-  aboutBrief,
-  logos,
-  homeBannerData,
-  missionContent,
-} from "@/lib/data/homePageData";
+import { keyVerticalsData, aboutBrief, logos, homeBannerData, missionContent, } from "@/lib/data/homePageData";
 import ContentfulSection from "./(features)/home/ContentfulSection";
 import TextRevealSection from "./(features)/home/TextRevealSection";
 import AwardsSection from "./(features)/home/AwardsSection";
@@ -86,110 +75,120 @@ const HomeTemplate = () => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "iTCart",
-            "legalName": "iTCart Technologies",
-            "url": "https://itcart.ai",
-            "logo": "https://itcart.ai/assets/logo.png",
-            "description": "iTCart is a global AI-driven technology company delivering next-generation digital transformation through intelligent platforms, enterprise automation, cloud modernization, and industry-specific AI solutions built on the AiX Framework.",
-            "foundingDate": "2021",
-            "founders": [
-              {
-                "@type": "Person",
-                "name": "Mr. Rohim Uddin",
-                "jobTitle": "Founder"
-              }
-            ],
-            "contactPoint": [
-              {
-                "@type": "ContactPoint",
-                "contactType": "customer support",
-                "email": "support@itcart.ai",
-                "availableLanguage": ["English"],
-                "areaServed": "Worldwide"
-              }
-            ],
-            "sameAs": [
-              "https://www.linkedin.com/company/itcart",
-              "https://twitter.com/itcart_ai",
-              "https://www.instagram.com/itcart.ai"
-            ],
-            "knowsAbout": [
-              "Artificial Intelligence",
-              "Generative AI",
-              "Machine Learning",
-              "Cloud Computing",
-              "Data Engineering",
-              "Enterprise Automation",
-              "AI Consulting",
-              "Digital Transformation",
-              "ERP Modernization",
-              "Analytics & BI",
-              "Edge Computing",
-              "IoT Solutions",
-              "Industry Cloud Platforms"
-            ],
-            "service": [
-              {
-                "@type": "Service",
-                "name": "AI & Automation",
-                "description": "GenAI copilots, workflows, automation, and enterprise AI platforms."
-              },
-              {
-                "@type": "Service",
-                "name": "Cloud & Infrastructure",
-                "description": "Cloud migration, DevOps, data modernization, and scalable architectures."
-              },
-              {
-                "@type": "Service",
-                "name": "Data & Analytics",
-                "description": "Data engineering, big data pipelines, BI dashboards, and predictive analytics."
-              },
-              {
-                "@type": "Service",
-                "name": "Application Development",
-                "description": "Custom software, mobile apps, enterprise systems, and API integrations."
-              },
-              {
-                "@type": "Service",
-                "name": "Cybersecurity",
-                "description": "Threat monitoring, SOC, identity management, and compliance solutions."
-              }
-            ],
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "AiX Industry Cloud Platforms",
-              "itemListElement": [
+          __html: JSON.stringify(
+
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "iTCart",
+              "legalName": "iTCart Technologies",
+              "url": "https://itcart.ai",
+              "logo": "https://itcart.ai/assets/logo.png",
+              "description": "iTCart is a global AI-driven technology company delivering next-generation digital transformation through intelligent platforms, enterprise automation, cloud modernization, and industry-specific AI solutions built on the AiX Framework.",
+
+              "foundingDate": "2021",
+              "founders": [
                 {
-                  "@type": "OfferCatalog",
-                  "name": "AiXBFS",
-                  "description": "Financial services AI platform for banks, NBFCs, and fintechs."
-                },
-                {
-                  "@type": "OfferCatalog",
-                  "name": "AiXHealthcare",
-                  "description": "AI-powered EHR, diagnostics insights, patient experience, and automation."
-                },
-                {
-                  "@type": "OfferCatalog",
-                  "name": "AiXManufacturing",
-                  "description": "Smart factory platform with predictive maintenance and production analytics."
-                },
-                {
-                  "@type": "OfferCatalog",
-                  "name": "AiXRealty",
-                  "description": "AI platform for real estate, construction intelligence, and project automation."
-                },
-                {
-                  "@type": "OfferCatalog",
-                  "name": "AiXQP",
-                  "description": "AI education platform offering personalized learning paths and certification."
+                  "@type": "Person",
+                  "name": "Mr. Rohim Uddin",
+                  "jobTitle": "Founder"
                 }
-              ]
+              ],
+
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer support",
+                  "email": "support@itcart.ai",
+                  "availableLanguage": ["English"],
+                  "areaServed": "Worldwide"
+                }
+              ],
+
+              "sameAs": [
+                "https://www.linkedin.com/company/itcart",
+                "https://twitter.com/itcart_ai",
+                "https://www.instagram.com/itcart.ai"
+              ],
+
+              "knowsAbout": [
+                "Artificial Intelligence",
+                "Generative AI",
+                "Machine Learning",
+                "Cloud Computing",
+                "Data Engineering",
+                "Enterprise Automation",
+                "AI Consulting",
+                "Digital Transformation",
+                "ERP Modernization",
+                "Analytics & BI",
+                "Edge Computing",
+                "IoT Solutions",
+                "Industry Cloud Platforms"
+              ],
+
+              "service": [
+                {
+                  "@type": "Service",
+                  "name": "AI & Automation",
+                  "description": "GenAI copilots, workflows, automation, and enterprise AI platforms."
+                },
+                {
+                  "@type": "Service",
+                  "name": "Cloud & Infrastructure",
+                  "description": "Cloud migration, DevOps, data modernization, and scalable architectures."
+                },
+                {
+                  "@type": "Service",
+                  "name": "Data & Analytics",
+                  "description": "Data engineering, big data pipelines, BI dashboards, and predictive analytics."
+                },
+                {
+                  "@type": "Service",
+                  "name": "Application Development",
+                  "description": "Custom software, mobile apps, enterprise systems, and API integrations."
+                },
+                {
+                  "@type": "Service",
+                  "name": "Cybersecurity",
+                  "description": "Threat monitoring, SOC, identity management, and compliance solutions."
+                }
+              ],
+
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "AiX Industry Cloud Platforms",
+                "itemListElement": [
+                  {
+                    "@type": "OfferCatalog",
+                    "name": "AiXBFS",
+                    "description": "Financial services AI platform for banks, NBFCs, and fintechs."
+                  },
+                  {
+                    "@type": "OfferCatalog",
+                    "name": "AiXHealthcare",
+                    "description": "AI-powered EHR, diagnostics insights, patient experience, and automation."
+                  },
+                  {
+                    "@type": "OfferCatalog",
+                    "name": "AiXManufacturing",
+                    "description": "Smart factory platform with predictive maintenance and production analytics."
+                  },
+                  {
+                    "@type": "OfferCatalog",
+                    "name": "AiXRealty",
+                    "description": "AI platform for real estate, construction intelligence, and project automation."
+                  },
+                  {
+                    "@type": "OfferCatalog",
+                    "name": "AiXQP",
+                    "description": "AI education platform offering personalized learning paths and certification."
+                  }
+                ]
+              }
             }
-          }),
+
+          ),
         }}
       />
 
