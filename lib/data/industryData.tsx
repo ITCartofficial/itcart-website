@@ -427,12 +427,12 @@ export const industryData = [
         contenttwo: ""
       },
       skillGapSectionHeading: 'Banking Technology Excellence',
-      skillGapHeadingDescription: 'Accelerating banking automation solutions through comprehensive innovation platforms ',
+      skillGapHeadingDescription: 'Accelerating banking automation solutions through innovative platforms ',
       skillGapSection: [
         {
           icon: '/icons/Industry-icons/Banking-icon1.svg',
           title: "Smart Banking",
-          highlight: "Advanced artificial intelligence in banking systems with fraud detection, customer analytics, and comprehensive operational coordination. ",
+          highlight: "Advanced artificial intelligence in banking systems with fraud detection, customer analytics, and operational coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
@@ -459,7 +459,7 @@ export const industryData = [
         },
       ],
       solutionGridHeading: 'Our Banking Software Solutions',
-      solutionGridHeadingDiscription: 'Explore our comprehensive suite of banking automation solutions ',
+      solutionGridHeadingDiscription: 'Explore our wide range of banking automation solutions',
       solutionGridItems: [
         {
           title: "Core Banking Platform",
@@ -482,7 +482,7 @@ export const industryData = [
         },
         {
           title: "Risk Management System",
-          description: "Dynamic AI for commercial banking solutions utilizing advanced algorithms for credit scoring, compliance monitoring, and comprehensive risk intelligence. ",
+          description: "Dynamic AI for commercial banking solutions utilizing advanced algorithms for credit scoring, compliance monitoring, and risk intelligence. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/banking-solution4.png'
         },
@@ -500,7 +500,7 @@ export const industryData = [
         }
       ],
       whyChooseUsHeading: 'Our Services',
-      whyChooseUsHeadingDescription: 'Explore our comprehensive banking service portfolio ',
+      whyChooseUsHeadingDescription: 'Explore our banking service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
@@ -548,7 +548,7 @@ export const industryData = [
         },
         {
           title: "Financial Business Intelligence",
-          description: "Advanced financial analytics providing banking insights, risk analysis, portfolio optimization, regulatory reporting, and comprehensive performance tracking for strategic decision-making. ",
+          description: "Advanced financial analytics providing banking insights, risk analysis, portfolio optimization, regulatory reporting, and performance tracking for strategic decision-making. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -561,7 +561,7 @@ export const industryData = [
         contenttwo: ""
       },
       futurSectionHeading: "Ready to get started? ",
-      futurSectionDescription: "Transform your banking operations with comprehensive automation solutions ",
+      futurSectionDescription: "Transform your banking operations with our automation solutions",
       FAQsHeading: 'Everything you need to know about Banking',
       FAQs: [
         {
