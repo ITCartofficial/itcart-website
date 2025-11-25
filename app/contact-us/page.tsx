@@ -7,7 +7,7 @@ import ContactFormSection from "@/components/contact/ContactFormSection"
 const addressList: AddressCardProps[] = [
   {
     country: "India",
-    phone: "+91 70196 67214",
+    phone: "+91 80888 49174",
     email: "sales@itcart.io",
     location: "WeWork Galaxy, Bengaluru, KA, India",
   },
