@@ -38,7 +38,7 @@ export const serviceData = [
         contentOne: "With specialized AI and machine learning solutions, we help you shift from rigid workflows to adaptive, self-optimizing systems built for long-term efficiency and growth. At iTCart, we focus on true transformation, combining AI engineering, human-centric design, and deep industry expertise to deliver practical, high-impact solutions.",
         contenttwo: "At iTCart, our approach goes beyond simply deploying AI. We deliver transformation—backed by comprehensive AI development services, human-centered design, and industry-specific expertise through our proven AI integration services and AI & ML solutions and services."
       },
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE',
+      aboutSection2Heading: 'Our Proprietary AI Engine',
       aboutSection2: {
         aboutImage: '/images/vertical/ai-ml-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -152,7 +152,7 @@ export const serviceData = [
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
       ],
-      FAQsHeading: 'Everything you need to know about AI & ML Automation',
+      FAQsHeading: 'Everything You Need to Know About AI & ML Automation',
       FAQs: [
         {
           id: '1',
@@ -319,7 +319,7 @@ export const serviceData = [
           icon: '/images/services/icons/QA & Security Testing Icon.svg'
         }
       ],
-      whyChooseUsHeading: 'WHY CHOOSE US',
+      whyChooseUsHeading: 'Why Choose Us ',
       whyChooseUsHeadingDescription: 'Explore modern application technologies and strong development capabilities with solutions designed to support long-term transformation.',
       whyChooseUsCards: [
         {
@@ -338,7 +338,7 @@ export const serviceData = [
           content: 'AI-first approach with intelligent automation integration and cutting-edge custom application development services for competitive advantage. '
         }
       ],
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
+      aboutSection2Heading: 'Our Proprietary AI Engine ',
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -537,7 +537,7 @@ export const serviceData = [
           content: 'Solutions customized to your unique goals, budget, and requirements through personalized business intelligence data integration approaches. '
         }
       ],
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE  ',
+      aboutSection2Heading: 'Our Proprietary AI Engine  ',
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -715,7 +715,7 @@ export const serviceData = [
           icon: '/images/services/icons/Cloud Monitoring Services Icon.svg'
         }
       ],
-      whyChooseUsHeading: 'Why Choose US ',
+      whyChooseUsHeading: 'Why Choose Us ',
       whyChooseUsHeadingDescription: 'Explore robust cloud technologies and advanced automation capabilities with comprehensive solutions designed for transformation. ',
       whyChooseUsCards: [
         {
@@ -734,7 +734,7 @@ export const serviceData = [
           content: 'CloudOps automation solutions with AI-driven optimization, predictive analytics, and self-healing capabilities to enhance operational efficiency. '
         }
       ],
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
+      aboutSection2Heading: 'Our Proprietary AI Engine ',
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -743,7 +743,7 @@ export const serviceData = [
       },
       futurSectionHeading: "Transform Your Cloud Operations - Act Now!",
       futurSectionDescription: "Ready to experience intelligent cloud operations services with proactive monitoring and automated optimization? ",
-      FAQsHeading: 'Everything You Need to Know About CloudOps   ',
+      FAQsHeading: 'Everything You Need to Know About CloudOps ',
       FAQs: [
         {
           id: '1',
@@ -931,7 +931,7 @@ export const serviceData = [
           content: 'Complete service spectrum from strategy and implementation to monitoring and incident response ensuring full cyber security management'
         }
       ],
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
+      aboutSection2Heading: 'Our Proprietary AI Engine ',
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -940,7 +940,7 @@ export const serviceData = [
       },
       futurSectionHeading: "Ready to Secure Your Digital Future?",
       futurSectionDescription: "Transform your security posture with cybersecurity services that deliver measurable protection and compliance assurance through proven expertise.",
-      FAQsHeading: 'Frequently Asked Questions About Cybersecurity Services',
+      FAQsHeading: 'Everything You Need to Know About Cybersecurity Services',
       FAQs: [
         {
           id: '1',
@@ -1128,7 +1128,7 @@ export const serviceData = [
           content: 'Cloud-native data infrastructure with robust security, compliance frameworks, and governance ensuring protected, scalable analytics environments. '
         }
       ],
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
+      aboutSection2Heading: 'Our Proprietary AI Engine ',
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -1325,7 +1325,7 @@ export const serviceData = [
           content: 'Custom DevOps solutions for organizations across industries, fostering collaboration and innovation.'
         }
       ],
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
+      aboutSection2Heading: 'Our Proprietary AI Engine ',
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -1522,7 +1522,7 @@ export const serviceData = [
           content: 'Customer-centric design approach focusing on intuitive interfaces and engaging experiences powered by artificial intelligence enhancing user satisfaction. '
         }
       ],
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE  ',
+      aboutSection2Heading: 'Our Proprietary AI Engine  ',
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -1531,7 +1531,7 @@ export const serviceData = [
       },
       futurSectionHeading: "Transform Your Business into Digital Commerce Powerhouse",
       futurSectionDescription: "Safeguard your operations from cyber threats with iTCart’s trusted cybersecurity services—act now to defend what matters most.",
-      FAQsHeading: 'Your Digital Commerce Questions Answered  ',
+      FAQsHeading: 'Everything You Need to Know About Digital Commerce ',
       FAQs: [
         {
           id: '1',
@@ -1700,7 +1700,7 @@ export const serviceData = [
           icon: '/images/services/icons/Continuous Monitoring Optimization Icon.svg'
         }
       ],
-      whyChooseUsHeading: 'WHY CHOOSE US? ',
+      whyChooseUsHeading: 'Why Choose Us ',
       whyChooseUsHeadingDescription: 'Explore innovative digital technologies and transformation solutions designed for sustainable business modernization and competitive excellence.',
       whyChooseUsCards: [
         {
@@ -1719,7 +1719,7 @@ export const serviceData = [
           content: 'Strategic business transformation consulting expertise combining consulting acumen with hands-on technical implementation for seamless strategy-technology integration. '
         }
       ],
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
+      aboutSection2Heading: 'Our Proprietary AI Engine ',
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -2117,7 +2117,7 @@ export const serviceData = [
           content: "Tailored managed technology services designed for your organization's needs, size, industry requirements, and growth objectives."
         }
       ],
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE',
+      aboutSection2Heading: 'Our Proprietary AI Engine',
       aboutSection2: {
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
@@ -2314,7 +2314,7 @@ export const serviceData = [
           content: 'Automation, cloud-native solutions, optimized workflows, and scalable digital ecosystems. '
         }
       ],
-      aboutSection2Heading: 'OUR PROPRIETARY AI ENGINE ',
+      aboutSection2Heading: 'Our Proprietary AI Engine ',
       aboutSection2: {
         aboutImage: '/images/vertical/Startup-Services-section.png',
         logo: '/images/verticalLogos/AiXQP.png',

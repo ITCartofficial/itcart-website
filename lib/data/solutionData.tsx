@@ -441,7 +441,7 @@ export const solutionData = [
         {
           title: "Cloud-Native Scalability",
           description: "Leverage elastic cloud infrastructure supporting seamless scaling without performance compromise.",
-          icon: "/icons/Digital/DigitalFuture-icon2.svg",
+          icon: "/icons/Digital/DigitalFutureImage-icon2.svg",
         },
         {
           title: "AI-Enabled Insights",
@@ -513,37 +513,37 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
+          description: "Built on proprietary AiXHub Enterprise Operating System, delivering intelligent automation, adaptive learning capabilities, and predictive insights. It provides a unified AI-powered ERP architecture for optimized operations.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Digital/DigitalChooseUs-icon1.svg'
         },
         {
           title: "Seamless Implementation",
-          description: "Minimal disruption deployment with comprehensive change management support, cultural adoption guidance, and dedicated project management ensuring smooth digital transformation journey. ",
+          description: "Minimal disruption deployment with BPA implementation support, system integration expertise, and project management ensures smooth business transition.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Digital/DigitalChooseUs-icon2.svg'
         },
         {
           title: "Scalable Growth Architecture",
-          description: "Future-ready infrastructure adapting to evolving business needs supporting organizational growth requirements through enterprise automation platform and digital integration platform capabilities. ",
+          description: "Future-ready infrastructure adapts to evolving business needs, supporting organizational growth through enterprise automation and cloud-based tools. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Digital/DigitalChooseUs-icon3.svg'
         },
         {
           title: "Expert Support Excellence",
-          description: "24/7 professional assistance with dedicated transformation specialists, comprehensive training programs, continuous optimization support, and predictive analytics suite consulting services. ",
+          description: "24/7 professional assistance from dedicated success managers, with training, continuous optimization support, and smart operations consulting services. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Digital/DigitalChooseUs-icon4.svg'
         },
         {
           title: "Proven Success Record",
-          description: "Trusted by enterprise clients worldwide with demonstrated ROI, measurable business impact, consistent performance across industries, and validated digital transformation outcomes. ",
+          description: "Trusted globally with demonstrated ROI, measurable business impact, consistent performance across industries, and validated BPA outcomes.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Digital/DigitalChooseUs-icon5.svg'
         },
         {
           title: "Innovation Leadership",
-          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready customer engagement automation for sustained growth. ",
+          description: "Continuous updates and AI-enhanced features ensure cutting-edge capabilities, competitive advantage, peak performance, and future-ready customer engagement for sustained growth.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Digital/DigitalChooseUs-icon6.svg'
         }
