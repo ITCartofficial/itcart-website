@@ -1878,7 +1878,7 @@ export const solutionData = [
           title: "Order Management",
           description:
             "End-to-end lifecycle tracking through a centralized logistics system with automated carrier assignment.",
-          icon: "/icons/Logistics/LogisticsFuture-icon3.svg",
+          icon: "/icons/Logistics/Logisticsfuture-iconimage3.svg",
         },
         {
           title: "Fleet Management",
@@ -1886,7 +1886,7 @@ export const solutionData = [
             "Smart vehicle optimization using AI fleet management solutions with performance analytics.",
           icon: "/icons/Logistics/LogisticsFuture-icon4.svg",
         },
-        {
+        { 
           title: "Data Analytics",
           description:
             "Comprehensive logistics data analytics and insights providing predictive planning and optimization.",
