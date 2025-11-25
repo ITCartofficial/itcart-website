@@ -459,7 +459,7 @@ export const industryData = [
         },
       ],
       solutionGridHeading: 'Our Banking Software Solutions',
-      solutionGridHeadingDiscription: 'Explore our suite of banking automation solutions ',
+      solutionGridHeadingDiscription: 'Explore our wide range of banking automation solutions',
       solutionGridItems: [
         {
           title: "Core Banking Platform",
@@ -500,7 +500,7 @@ export const industryData = [
         }
       ],
       whyChooseUsHeading: 'Our Services',
-      whyChooseUsHeadingDescription: 'Explore our wide range of banking service portfolio ',
+      whyChooseUsHeadingDescription: 'Explore our banking service portfolio ',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
@@ -561,7 +561,7 @@ export const industryData = [
         contenttwo: ""
       },
       futurSectionHeading: "Ready to get started? ",
-      futurSectionDescription: "Transform your banking operations with comprehensive automation solutions ",
+      futurSectionDescription: "Transform your banking operations with our automation solutions",
       FAQsHeading: 'Everything you need to know about Banking',
       FAQs: [
         {

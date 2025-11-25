@@ -129,7 +129,7 @@ export const verticalData = [
                 {
                     id: '5',
                     title: 'What customization does AiXHub offer?',
-                    content: " AiXHub features modular AI personas and configurable automation layers, adaptable across 22+ industries and diverse business environments."
+                    content: "AiXHub features modular AI personas and configurable automation layers, adaptable across 22+ industries and diverse business environments."
                 }
             ],
             schema: {
@@ -265,7 +265,7 @@ export const verticalData = [
             bannerDescription: "Transform BFSI operations through intelligent AI in banking and financial services",
             bannerImage: "/images/vertical/AiXBFS-banner.jpg",
             mobileBannerImage: "/images/vertical/AiXBFS-MobileBanner.jpg",
-            banerAltImg: "ai in banking and financial services ",
+            banerAltImg: "AI in banking and financial services ",
             VerticalContentSection2Heading: 'Banking and Financial Services Revolution',
             aboutSectionHeading: 'Complete Banking Ecosystem Transformation',
             capabilitiSectionHeading: 'AI-Powered Banking Capabilities',
@@ -276,7 +276,7 @@ export const verticalData = [
                 contentOne: "Modern banks face complex challenges that demand AI-driven automation, digital lending platforms, debt-recovery intelligence, real-time risk management, and predictive analytics to achieve operational excellence.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXBFS-section.png",
-                imgAlt: "ai in bfsi ",
+                imgAlt: "AI in bfsi ",
             },
             aboutSection: {
                 aboutImage: '/images/vertical/AiXBFS-about.png',
@@ -348,7 +348,7 @@ export const verticalData = [
                 },
             ],
             impactImgAlt: "digital lending platform",
-            impactsAboutAlt: "ai debt collection software",
+            impactsAboutAlt: "AI debt collection software",
             impacts: [
                 "Achieve a 40–60% reduction in loan approval time through automation.",
                 "Increase field agent productivity by 30% through optimized digital workflows.",
@@ -697,7 +697,7 @@ export const verticalData = [
                 logo: '/images/vertical/InsureAiX-darklogo.png',
                 contentOne: "InsureAiX transforms underwriting with AI-driven precision that surpasses static demographic tables. Our proprietary solution integrates genomics, behavioral intelligence, real-time health monitoring, and multi-omics data fusion, combined with predictive analytics and automation. Unlike traditional insurers, we estimate biological age, analyze lifestyle patterns, and enable dynamic premium adjustments using health signals and behavioral insights. ",
                 contenttwo: "",
-                imgAlt: 'ai in health insurance'
+                imgAlt: 'AI in health insurance'
             },
             CapabilitySections: [
                 {
@@ -742,7 +742,7 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/insureaix-icon2.svg',
                     title: "Healthcare Organizations",
-                    highlight: "Integrated health insurance solutions with real-time monitoring and personalized coverage via ai in health insurance and predictive analytics capabilities. ",
+                    highlight: "Integrated health insurance solutions with real-time monitoring and personalized coverage via AI in health insurance and predictive analytics capabilities. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -754,7 +754,7 @@ export const verticalData = [
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
             ],
-            impactImgAlt: "ai in insurance industry ",
+            impactImgAlt: "AI in insurance industry ",
             impactsAboutAlt: "AI insurance automation ",
             impacts: [
                 "100+ global customers across 25+ industries use AI insurance solutions and advanced analytics.",
@@ -782,7 +782,7 @@ export const verticalData = [
                 {
                     id: '4',
                     title: 'Can my premiums change based on healthy lifestyle choices?',
-                    content: 'Absolutely. Our dynamic premium engine rewards positive health actions through ai in health insurance capabilities, fitness improvements, and wellness program participation with real-time adjustments. '
+                    content: 'Absolutely. Our dynamic premium engine rewards positive health actions through AI in health insurance capabilities, fitness improvements, and wellness program participation with real-time adjustments. '
                 },
                 {
                     id: '5',
@@ -792,7 +792,7 @@ export const verticalData = [
                 {
                     id: '6',
                     title: 'What makes InsureAiX different from traditional insurance companies? ',
-                    content: 'We use AI-driven precision underwriting, biological age assessment, multi-omics data fusion, and explainable AI technology through ai in insurance industry innovation instead of outdated demographic-based actuarial tables.'
+                    content: 'We use AI-driven precision underwriting, biological age assessment, multi-omics data fusion, and explainable AI technology through AI in insurance industry innovation instead of outdated demographic-based actuarial tables.'
                 }
             ],
             logo: 'AiXQP-whitelogo',
@@ -882,7 +882,7 @@ export const verticalData = [
                 "90% higher employee satisfaction ratings via enhanced service delivery and asset management platform capabilities ",
                 "100% asset visibility through comprehensive digital asset management software and intelligent tracking systems",
                 "75% reduction in manual administrative overhead through automated workflows and smart asset tracking optimization ",
-                "50% lower IT operational expenses while maintaining service quality via ai in it service management efficiency",
+                "50% lower IT operational expenses while maintaining service quality via AI in it service management efficiency",
                 "95% SLA adherence across all critical service categories through it asset management system automation"
             ],
             skillGapSection: [
@@ -1104,7 +1104,7 @@ export const verticalData = [
             bannerTitle: "Advanced Artificial Intelligence in Healthcare and Patient Management ",
             bannerDescription: "Intelligent healthcare automation for better outcomes ",
             bannerImage: "/images/vertical/AiXHealthcare-banner.jpg",
-            banerAltImg: "healthcare ai solutions ",
+            banerAltImg: "healthcare AI solutions ",
             mobileBannerImage: "/images/vertical/AiXHealthcare-MobileBanner.jpg",
             VerticalContentSection2Heading: "Healthcare's Digital Transformation Challenge  ",
             aboutSectionHeading: 'Introducing AiXHealthcare  ',
@@ -1529,7 +1529,7 @@ export const verticalData = [
                 contentOne: "The ERP market has reached $147.7 billion in 2025 with cloud based enterprise resource planning dominating 70.4% of global spending. Modern enterprises require intelligent erp system capabilities with automated ERP system functionality that traditional erp software cannot deliver through conventional erp solutions. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXERP-section2image.png",
-                imgAlt: "ai in erp systems "
+                imgAlt: "AI in erp systems "
             },
             aboutSection: {
                 aboutImage: '/images/vertical/AiXERP-aboutimage.png',
@@ -1805,9 +1805,9 @@ export const verticalData = [
             skillGapSectionHeading: 'Cybersecurity Solutions Across Industries ',
             FAQsHeading: 'Everything You Need to Know About CyberAiX',
             aboutSectionHeading2: 'Trusted Excellence',
-            aboutSectionHeading2Content: 'Built by iTCart, recognized leaders in AI automation delivering enterprise-grade ai cybersecurity solutions that drive security transformation and measurable protection success. ',
+            aboutSectionHeading2Content: 'Built by iTCart, recognized leaders in AI automation delivering enterprise-grade AI cybersecurity solutions that drive security transformation and measurable protection success. ',
             VerticalContentSection2: {
-                contentOne: "The cybersecurity industry faces unprecedented challenges with cybercrime costs projected to reach $10.5 trillion by 2025. Modern enterprises require intelligent ai cybersecurity solutions capable of combating sophisticated AI-driven attacks that traditional security cannot handle through advanced threat intelligence automation.",
+                contentOne: "The cybersecurity industry faces unprecedented challenges with cybercrime costs projected to reach $10.5 trillion by 2025. Modern enterprises require intelligent AI cybersecurity solutions capable of combating sophisticated AI-driven attacks that traditional security cannot handle through advanced threat intelligence automation.",
                 contenttwo: "",
                 contentthree: '',
                 sectionTwoFirstImage: "/images/vertical/sectionTwoFirstImage-CyberAiX.png",
@@ -1816,19 +1816,19 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/aboutimage-CyberAiX.png',
                 logo: '/images/vertical/dark-logo.png',
-                contentOne: "CyberAiX transforms enterprise security through AI-powered cybersecurity platform technology delivering real-time protection, zero trust architecture resilience, and comprehensive ai cybersecurity solutions. Built on iTCart's proprietary AiX Framework, this enterprise cybersecurity platform provides advanced ai security platform capabilities with automated threat intelligence automation and cybersecurity consulting services. ",
+                contentOne: "CyberAiX transforms enterprise security through AI-powered cybersecurity platform technology delivering real-time protection, zero trust architecture resilience, and comprehensive AI cybersecurity solutions. Built on iTCart's proprietary AiX Framework, this enterprise cybersecurity platform provides advanced AI security platform capabilities with automated threat intelligence automation and cybersecurity consulting services. ",
                 contenttwo: "",
-                imgAlt: "ai security platform s"
+                imgAlt: "AI security platform s"
             },
             CapabilitySections: [
                 {
                     title: "AI-Driven Detection",
-                    description: "Rapid threat classification using advanced machine learning algorithms and behavioral analytics through ai security platform technology. ",
+                    description: "Rapid threat classification using advanced machine learning algorithms and behavioral analytics through AI security platform technology. ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "Security Co-Pilot",
-                    description: "Real-time threat summaries with automated triage and intelligent analyst augmentation powered by ai in cybersecurity capabilities. ",
+                    description: "Real-time threat summaries with automated triage and intelligent analyst augmentation powered by AI in cybersecurity capabilities. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -1856,7 +1856,7 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/cyberaix-icon1.svg',
                     title: "Healthcare & Life Sciences",
-                    highlight: "Enhanced patient data protection with HIPAA-compliant security monitoring, automated threat detection, and comprehensive healthcare cybersecurity through ai security platform solutions. ",
+                    highlight: "Enhanced patient data protection with HIPAA-compliant security monitoring, automated threat detection, and comprehensive healthcare cybersecurity through AI security platform solutions. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",
                 },
@@ -1910,13 +1910,13 @@ export const verticalData = [
 
             ],
             impactImgAlt: "zero trust architecture  ",
-            impactsAboutAlt: "ai cybersecurity solutions  ",
+            impactsAboutAlt: "AI cybersecurity solutions  ",
             impacts: [
                 "$2.8M average annual savings through intelligent threat detection and automated incident response reducing security operational costs significantly ",
                 "10X faster threat detection with AI-powered correlation engines and threat intelligence automation enabling rapid security response capabilities ",
-                "95% reduction in false positives through advanced ai security platform algorithms and behavioral analytics minimizing security team alert fatigue ",
+                "95% reduction in false positives through advanced AI security platform algorithms and behavioral analytics minimizing security team alert fatigue ",
                 "25X improvement in incident response time enabling comprehensive threat containment through zero trust architecture and automated security orchestration ",
-                "Zero security breaches across all enterprise implementations with ai powered cybersecurity platform protection and proactive threat prevention systems",
+                "Zero security breaches across all enterprise implementations with AI powered cybersecurity platform protection and proactive threat prevention systems",
             ],
             logo: 'AiXQP-whitelogo',
             section2Data: '',
@@ -2103,7 +2103,7 @@ export const verticalData = [
             bannerDescription: " Revolutionize property management and real estate operations through comprehensive AI-native platform.",
             bannerImage: "/images/vertical/AiXReality-banner.jpg",
             mobileBannerImage: "/images/vertical/AiXRealty-MobileBanner.jpg",
-            banerAltImg: "ai in property management ",
+            banerAltImg: "AI in property management ",
             impactImage: '/images/vertical/AiXReality-impact.png',
             VerticalContentSection2Heading: 'Real Estate Digital Transformation Crisis ',
             aboutSectionHeading: 'Revolutionary AI-Native Real Estate Excellence',
@@ -2134,7 +2134,7 @@ export const verticalData = [
                 contentOne: "AiXRealty is an AI-native Enterprise Operating System created for the real estate sector, powered by iTCart’s patent-pending AiXHub EOS. Unlike fragmented PropTech tools, AiXRealty unifies AI-driven property management, tenant relations, transaction processing, and investment analysis within one intelligent platform supported by integrated smart property management features. Built on autonomous AI Personas, it converts manual real estate operations into adaptive, self-governing systems incorporating AI in property management, predictive analytics for real estate, and real estate workflow automation that think like agents, operate like teams, and learn like seasoned professionals.",
                 contenttwo: "",
                 contentthree: '',
-                imgAlt: "ai property management "
+                imgAlt: "AI property management "
             },
             CapabilitySections: [
                 {
@@ -2336,22 +2336,27 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'What makes AiXMotorSports different from existing racing analytics platforms?',
-                    content: "AiXMotorSports is built on the world's first AI-native Enterprise Operating System, replacing entire fragmented racing technology stacks rather than adding another analytics layer. "
+                    content: "AiXMotorSports is built on an AI-native Enterprise Operating System and replaces fragmented racing stacks with unified execution rather than just adding analytics layers. "
                 },
                 {
                     id: '2',
                     title: 'How quickly can racing teams see performance improvements?',
-                    content: "Organizations typically achieve 380-487% ROI within racing season implementation, with measurable performance gains appearing within race weekend deployments."
+                    content: "Organizations typically achieve 380-487% ROI within racing season implementation, with measurable performance gains through motorsport performance analytics AI appearing within race weekend deployments."
                 },
                 {
                     id: '3',
-                    title: 'Does AiXMotorSports integrate with existing racing systems and telemetry equipment? ',
-                    content: "Yes, the platform features universal compatibility with telemetry systems, timing equipment, and team communication platforms through its Cross-System Orchestration Model."
+                    title: 'Does AiXMotorSports integrate with existing racing systems and telemetry equipment?',
+                    content: "The platform includes embedded compliance controls at the execution layer, enforcing technical regulations in real time and preventing violations before they occur."
                 },
                 {
                     id: '4',
-                    title: 'How does AiXMotorSports ensure FIA regulatory compliance? ',
-                    content: 'The platform includes embedded compliance at the execution layer with real-time technical regulation enforcement, preventing violations before they occur.'
+                    title: 'How does AiXMotorSports ensure FIA regulatory compliance?',
+                    content: 'The platform includes embedded compliance controls at the execution layer, enforcing technical regulations in real time and preventing violations before they occur.'
+                },
+                {
+                    id: '5',
+                    title: 'What kind of telemetry data can the platform analyze?',
+                    content: 'The telemetry engine processes 300+ sensor streams, including engine parameters, aerodynamics, tire metrics, and driver inputs, in real time. '
                 }
             ],
             logo: 'AiXQP-whitelogo',
@@ -2378,9 +2383,9 @@ export const verticalData = [
             metaTitle: 'AI Energy Management Platform | Smart Grid & Renewable Analytics ',
             metaDescription: 'Transform energy operations with AiXEnergy—AI-powered management software optimizing grids, renewables, and predictive maintenance for sustainable performance.',
             bannerTitle: "Powering Energy Intelligence with AI Innovation ",
-            bannerDescription: "Next-generation AI-based energy management platform, transforming energy operations through comprehensive energy management software and renewable energy solutions.",
+            bannerDescription: "Next-generation AI-based energy management platform that transforms operations with energy management software and renewable energy solutions.",
             bannerImage: "/images/vertical/AiXEnergy.jpg",
-            banerAltImg: "ai in energy management",
+            banerAltImg: "AI in energy management",
             mobileBannerImage: "/images/vertical/AiXEnergy-MobileBanner.jpg",
             VerticalContentSection2Heading: "Energy Revolution & Innovation Crisis",
             aboutSectionHeading: 'Smart Energy Transformation Excellence',
@@ -2388,48 +2393,48 @@ export const verticalData = [
             skillGapSectionHeading: 'Energy Leaders We Empower',
             FAQsHeading: 'Everything You Need to Know About AiXEnergy',
             VerticalContentSection2: {
-                contentOne: "Modern energy enterprises face critical challenges from grid instability, asset failures, and renewable integration complexities. Traditional systems struggle with real-time optimization, predictive maintenance, and regulatory compliance demands requiring advanced ai based energy management system, energy monitoring software, and intelligent energy data management software solutions. These operational inefficiencies create massive energy value chain disruptions, with 31% of energy companies experiencing double-digit capital cost increases annually.",
+                contentOne: "Modern energy organizations face grid instability, asset failures, and the complexity of integrating renewables. Legacy systems struggle with real-time optimization, predictive maintenance, and regulatory compliance, creating a need for AI-based energy management systems, energy monitoring software, and intelligent energy-data management. These gaps disrupt the energy value chain; 31% of energy companies report double-digit annual capital-cost increases.",
                 contenttwo: "",
                 contentthree: "",
                 sectionTwoFirstImage: "/images/vertical/AiXEnergy-section1.png",
-                imgAlt: "ai based energy management system "
+                imgAlt: "AI based energy management system "
             },
             aboutSection: {
                 aboutImage: '/images/vertical/AiXEnergy-section2.png',
                 logo: '/images/verticalLogos/aixenergy.png',
-                contentOne: "AiXEnergy revolutionizes energy operations through iTCart's patent-pending AiX Framework, delivering intelligent grid management, predictive asset optimization, and autonomous energy decision-making. Built for utilities, renewable providers, and energy enterprises facing the $110.98 billion digital power transformation market, AiXEnergy transforms fragmented operations into unified energy management platform capabilities featuring comprehensive AI energy management, solar CRM systems integration, and advanced renewable energy solutions that reduce operational costs by 30-50%. ",
+                contentOne: "AiXEnergy transforms energy operations with AiXHub EOS, delivering intelligent grid management, predictive asset optimization, and autonomous energy decision-making. Designed for utilities, renewable providers, and energy enterprises operating in the $110.98 billion digital power transformation market, AiXEnergy consolidates fragmented operations into a single energy-management platform with AI-powered energy management, solar CRM integration, and renewable-energy solutions that lower operating costs by 30–50%.",
                 contentthree: ' ',
                 imgAlt: "Renewable energy solutions "
             },
             CapabilitySections: [
                 {
                     title: "Smart Grid Monitoring",
-                    description: "Real-time grid performance analytics with AI-powered predictive intelligence through advanced energy monitoring software and intelligent automation.",
+                    description: "Real-time grid performance analytics with AI-driven predictive intelligence and automated controls.",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "Renewable Asset Optimization",
-                    description: "Automated solar, wind, and hybrid energy forecasting via comprehensive renewable energy solutions and weather integration systems.",
+                    description: "Automated solar, wind, and hybrid forecasting with weather integration and adaptive resource planning.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Predictive Maintenance Intelligence",
-                    description: "AI-driven failure prevention reducing downtime through AI-based energy management technology and extended asset lifecycle optimization.",
+                    description: "AI-driven failure prediction that reduces downtime and extends asset lifecycles.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Energy Compliance Automation",
-                    description: "Embedded regulatory adherence with real-time policy enforcement through intelligent energy management software capabilities.",
+                    description: "Built-in regulatory controls and real-time policy enforcement via energy-management software.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Unified Operations Dashboard",
-                    description: "360-degree energy operations visibility with role-based intelligent insights via comprehensive energy management platform integration.",
+                    description: "360° operations visibility with role-based insights via integrated energy-management dashboards.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Sustainable Energy Analytics",
-                    description: "Carbon footprint tracking and emission optimization through AI energy management and comprehensive energy data management software.",
+                    description: "Carbon-footprint tracking and emissions optimization using AI energy analytics and data management.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
@@ -2438,21 +2443,21 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixenergy-icon1.svg',
                     title: "Power Utilities",
-                    highlight: "Grid optimization and distribution intelligence through comprehensive energy management software and ai in energy management platforms. ",
+                    highlight: "Grid optimization and distribution intelligence using energy management software and AI energy-management platforms.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",
                 },
                 {
                     icon: '/images/vertical/icons/aixenergy-icon2.svg',
                     title: "Renewable Providers ",
-                    highlight: "Solar and wind farm performance maximization via advanced renewable energy solutions and intelligent energy monitoring software systems. ",
+                    highlight: "Maximize solar and wind performance with renewable optimization and real-time monitoring systems. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 },
                 {
                     icon: '/images/vertical/icons/aixenergy-icon3.svg',
                     title: "Energy Enterprises",
-                    highlight: "Pipeline monitoring and field asset optimization through ai based energy management system and comprehensive energy data management software",
+                    highlight: "Pipeline monitoring and field-asset optimization through AI-based energy management and data-management systems.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 },
@@ -2471,17 +2476,27 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'Does AiXEnergy support hybrid renewable systems?',
-                    content: "Yes, AiXEnergy optimizes solar, wind, hydro, and hybrid energy systems with intelligent forecasting and performance analytics. "
+                    content: "Yes, AiXEnergy optimizes solar, wind, hydro, and hybrid systems through integrated renewable energy capabilities, using intelligent forecasting and performance analytics powered by AI-based energy management.  "
                 },
                 {
                     id: '2',
                     title: 'What energy data can the platform analyze?',
-                    content: "AiXEnergy processes equipment telemetry, weather data, load patterns, fuel consumption, and grid performance metrics in real-time.  "
+                    content: "Our energy data management software processes equipment telemetry, weather information, load patterns, fuel usage, and grid performance metrics through real-time AI-powered energy management systems. "
                 },
                 {
                     id: '3',
-                    title: 'Is AiXEnergy cloud-compatible? ',
-                    content: "AiXEnergy deploys across AWS, Azure, Google Cloud, or on-premises infrastructure supporting enterprise energy operations. "
+                    title: 'Is AiXEnergy cloud-compatible?',
+                    content: "AiXEnergy deploys across AWS, Azure, Google Cloud, or on-premises environments through a scalable platform architecture that supports enterprise-wide energy operations."
+                },
+                {
+                    id: '4',
+                    title: 'How does the solar CRM integration work?',
+                    content: "Our Solar CRM systems integration supports customer management, project tracking, and installation lifecycle optimization through AI-enabled energy management connectivity."
+                },
+                {
+                    id: '5',
+                    title: 'What makes AiXEnergy different from traditional energy management software?',
+                    content: " AiXEnergy is AI-native, delivering predictive analytics and intelligent automation that outperform traditional energy monitoring tools, while supporting modern renewable energy operations."
                 },
             ],
             logo: 'AiXQP-whitelogo',
