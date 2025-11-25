@@ -155,7 +155,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your airline operations with comprehensive digital transformation solutions ",
-      FAQsHeading: ' Everything you need to know about Airlines',
+      FAQsHeading: 'Everything You Need to Know About Airlines',
       FAQs: [
         {
           id: '1',
@@ -219,7 +219,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/automotive-sectionabout.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "AiXHub Enterprise Operating System brings deep AI automation, intelligent decision-making, and scalable performance to your aviation operations.Whether you’re managing single-aircraft operations, coordinating multi-fleet networks, or scaling enterprise-wide airline systems, AiXHub EOS optimizes flight operations, enhances passenger experiences, and streamlines aviation workflows through intelligent automation.",
+        contentOne: "AiXHub Enterprise Operating System brings deep AI automation, intelligent decision-making, and scalable performance to your aviation operations. Whether you’re managing single-aircraft operations, coordinating multi-fleet networks, or scaling enterprise-wide airline systems, AiXHub EOS optimizes flight operations, enhances passenger experiences, and streamlines aviation workflows through intelligent automation.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Automotive Manufacturing Excellence',
@@ -358,7 +358,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your automotive operations with our wide range of digitalization solutions ",
-      FAQsHeading: 'Everything you need to know about Automotive',
+      FAQsHeading: 'Everything You Need to Know About Automotive',
       FAQs: [
         {
           id: '1',
@@ -810,7 +810,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "AI Learning Platform Excellence",
-      bannerDescription: "Empowering best onlineEdTech solution providers,through education technology solutions and services",
+      bannerDescription: "Empowering best onlineEdTech solution providers, through education technology solutions and services",
       bannerImage: "/images/industries/Education-Banner.jpg",
       mobileBannerImage: "/images/industries/Education-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -1153,7 +1153,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your construction operations with comprehensive automation solutions ",
-      FAQsHeading: 'Everything you need to know about Construction',
+      FAQsHeading: 'Everything You Need to Know About Construction',
       FAQs: [
         {
           id: '1',
@@ -1350,7 +1350,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your food & beverage operations with comprehensive automation solutions ",
-      FAQsHeading: 'Everything you need to know about Food & Beverage',
+      FAQsHeading: 'Everything You Need to Know About Food & Beverage',
       FAQs: [
         {
           id: '1',
@@ -1547,7 +1547,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your FMCG operations with our wide range of automation solutions ",
-      FAQsHeading: 'Everything you need to know about FMCG',
+      FAQsHeading: 'Everything You Need to Know About FMCG',
       FAQs: [
         {
           id: '1',
@@ -1744,7 +1744,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your manufacturing operations with comprehensive automation solutions ",
-      FAQsHeading: 'Everything you need to know about Manufacturing',
+      FAQsHeading: 'Everything You Need to Know About Manufacturing',
       FAQs: [
         {
           id: '1',
@@ -1941,7 +1941,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your healthcare operations with comprehensive automation solutions ",
-      FAQsHeading: 'Everything you need to know about Healthcare ',
+      FAQsHeading: 'Everything You Need to Know About Healthcare ',
       FAQs: [
         {
           id: '1',
@@ -2138,7 +2138,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your IT operations with comprehensive automation solutions ",
-      FAQsHeading: 'Everything you need to know about Information Technology',
+      FAQsHeading: 'Everything You Need to Know About Information Technology',
       FAQs: [
         {
           id: '1',
@@ -2531,7 +2531,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your oil & gas operations with comprehensive automation solutions ",
-      FAQsHeading: 'Everything you need to know about Oil & Gas',
+      FAQsHeading: 'Everything You Need to Know About Oil & Gas',
       FAQs: [
         {
           id: '1',
@@ -2728,7 +2728,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your public sector operations with comprehensive automation solutions ",
-      FAQsHeading: 'Everything you need to know about Public Sector',
+      FAQsHeading: 'Everything You Need to Know About Public Sector',
       FAQs: [
         {
           id: '1',
@@ -2925,7 +2925,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your professional services operations with comprehensive automation solutions ",
-      FAQsHeading: 'Everything you need to know about Professional Services',
+      FAQsHeading: 'Everything You Need to Know About Professional Services',
       FAQs: [
         {
           id: '1',
@@ -3122,7 +3122,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your retail operations with comprehensive digitalization solutions ",
-      FAQsHeading: 'Everything you need to know about Retail',
+      FAQsHeading: 'Everything You Need to Know About Retail',
       FAQs: [
         {
           id: '1',
@@ -3254,7 +3254,7 @@ export const industryData = [
           image: '/images/industries/realEstate-solution6.png'
         }
       ],
-      whyChooseUsHeading: 'Why choose us ',
+      whyChooseUsHeading: 'Why Choose Us ',
       whyChooseUsHeadingDescription: '',
       whyChooseUsCards: [
         {
@@ -3317,7 +3317,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your real estate operations with comprehensive automation solutions ",
-      FAQsHeading: 'Everything you need to know about Real Estate',
+      FAQsHeading: 'Everything You Need to Know About Real Estate',
       FAQs: [
         {
           id: '1',
@@ -3514,7 +3514,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your logistics operations with comprehensive automation solutions ",
-      FAQsHeading: 'Everything you need to know about Transportation',
+      FAQsHeading: 'Everything You Need to Know About Transportation',
       FAQs: [
         {
           id: '1',
@@ -3711,7 +3711,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Upgrade your travel and tourism operations with modern automation and intelligent hospitality technology.",
-      FAQsHeading: 'Everything you need to know about Travel & Tourism',
+      FAQsHeading: 'Everything You Need to Know About Travel & Tourism',
       FAQs: [
         {
           id: '1',
@@ -3908,7 +3908,7 @@ export const industryData = [
       },
       futurSectionHeading: "Ready to get started?",
       futurSectionDescription: "Transform your hospitality operations with comprehensive automation, intelligent service delivery, and next-generation digital-hospitality solutions.",
-      FAQsHeading: 'Everything you need to know about Hospitality',
+      FAQsHeading: 'Everything you Need to Know About Hospitality',
       FAQs: [
         {
           id: '1',

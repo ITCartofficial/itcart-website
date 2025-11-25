@@ -772,7 +772,7 @@ export const verticalData = [
                 {
                     id: '2',
                     title: 'How does InsureAiX determine personalized premiums?',
-                    content: "Our proprietary AI engine analyzes biological age, genomics, behavioral data, lifestyle patterns, and real-time health metrics through predictive analytics in insurance to calculate accurate risk profiles. "
+                    content: "Our Proprietary AI Engine analyzes biological age, genomics, behavioral data, lifestyle patterns, and real-time health metrics through predictive analytics in insurance to calculate accurate risk profiles. "
                 },
                 {
                     id: '3',
@@ -1515,7 +1515,7 @@ export const verticalData = [
             metaTitle: 'Automate Operations with AI-Powered ERP Platform - AiXERP',
             metaDescription: 'AiXERP by iTCart unifies finance, HR, and operations through an AI-powered ERP platform built for automation, analytics, and agile enterprise growth.',
             bannerTitle: "The Smart ERP Platform for Intelligent Agile Enterprises ",
-            bannerDescription: "Transform operations through AI-powered ERP platform featuring cloud based ERP solution and intelligent erp system automation. ",
+            bannerDescription: "Transform operations with an AI-powered ERP platform featuring cloud-based architecture and intelligent ERP automation.",
             bannerImage: "/images/vertical/AiXERP-banner.jpg",
             banerAltImg: "AI-powered ERP platform ",
             mobileBannerImage: "/images/vertical/AiXERP-MobileBanner.jpg",
@@ -1526,7 +1526,7 @@ export const verticalData = [
             FAQsHeading: 'Everything You Need to Know About AiXERP',
             impactImage: '/images/vertical/AiXERP-impact.png',
             VerticalContentSection2: {
-                contentOne: "The ERP market has reached $147.7 billion in 2025 with cloud based enterprise resource planning dominating 70.4% of global spending. Modern enterprises require intelligent erp system capabilities with automated ERP system functionality that traditional erp software cannot deliver through conventional erp solutions. ",
+                contentOne: "The ERP market reached $147.7 billion in 2025, with cloud-based enterprise resource planning accounting for 70.4% of global spending. Modern enterprises need intelligent ERP capabilities and automated functionality that traditional ERP software cannot deliver.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXERP-section2image.png",
                 imgAlt: "AI in erp systems "
@@ -1534,7 +1534,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXERP-aboutimage.png',
                 logo: '/images/vertical/AiXERP-darklogo.png',
-                contentOne: "AiXERP transforms traditional enterprise resource planning through iTCart's revolutionary AiXHub , delivering the world's first truly AI-powered ERP platform. Built from the ground up with AI in ERP systems at its core, AiXERP provides comprehensive erp automation software capabilities across cloud based ERP solution architecture that fundamentally reimagines enterprise operations through intelligent erp system technology. ",
+                contentOne: "AiXERP reimagines enterprise resource planning on iTCart’s AiXHub EOS, delivering the world’s first AI-powered ERP platform. Built with AI in ERP systems at its core, AiXERP provides end-to-end ERP automation across cloud-based architecture that transforms enterprise operations with intelligent ERP technology.",
                 contenttwo: "",
                 contentthree: "",
                 imgAlt: "erp software"
@@ -1547,7 +1547,7 @@ export const verticalData = [
                 },
                 {
                     title: "Inventory & Procurement",
-                    description: "Track inventory and manage procurement cycles with AI-powered demand forecasting through intelligent erp system technology. ",
+                    description: "Track inventory and manage procurement cycles with AI demand forecasting integrated into the ERP. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -1557,7 +1557,7 @@ export const verticalData = [
                 },
                 {
                     title: "Operations and workflow automation",
-                    description: "Standardize processes using erp automation software to improve efficiency and monitor KPIs across departments. ",
+                    description: "Standardize processes using ERP automation to improve efficiency and monitor KPIs across departments. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
@@ -1579,7 +1579,7 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixerp-icon3.svg',
                     title: "Operations Managers",
-                    highlight: "Leaders streamlining workflows and improving efficiency with comprehensive erp automation software capabilities.",
+                    highlight: "Leaders streamline workflows and improve efficiency with ERP automation tools.",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",
                 }
@@ -1645,13 +1645,13 @@ export const verticalData = [
             banerAltImg: "compliance management software",
             mobileBannerImage: "/images/vertical/AiXGRC-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Transform Risk Into Competitive Advantage',
-            aboutSectionHeading: 'Revolutionary AI-Native GRC Excellence',
+            aboutSectionHeading: 'AI-Native GRC for Modern Enterprises',
             capabilitiSectionHeading: 'Six Pillars of Intelligent Compliance',
             skillGapSectionHeading: 'Real-World Compliance Applications',
             FAQsHeading: 'Everything You Need to Know About AiXGRC',
             impactImage: '/images/vertical/AiXGRC-impact.png',
             VerticalContentSection2: {
-                contentOne: "In today's high-stakes regulatory landscape, managing governance, risk, and compliance isn't just about ticking boxes—it's about building trust and ensuring resilience. Traditional GRC approaches fall short in the face of evolving regulations requiring advanced compliance management systems, automated compliance software, and intelligent GRC automation platform capabilities. ",
+                contentOne: "In today’s high-stakes regulatory environment, managing governance, risk, and compliance is about building trust and ensuring resilience. Traditional GRC approaches struggle with evolving regulations and need modern compliance management systems, automated compliance workflows, and intelligent GRC automation to stay effective.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXGRC-section.png",
                 imgAlt: "compliance management systems "
@@ -1659,7 +1659,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXGRC-about.png',
                 logo: '/images/vertical/AiXGRC-darklogo.png',
-                contentOne: "AiXGRC is an AI-powered GRC automation platform built on iTCart's patent-pending AiXHub  that streamlines governance, simplifies risk management, and automates compliance workflows. This comprehensive compliance automation platform empowers organizations to navigate regulatory shifts through intelligent risk and compliance software, automated compliance software, and compliance monitoring software that transforms governance from reactive to predictive. ",
+                contentOne: "AiXGRC is an AI-powered GRC automation platform built on iTCart’s AiXHub EOS that streamlines governance, simplifies risk management, and automates compliance workflows. The platform empowers organizations to navigate regulatory shifts with intelligent risk and compliance tools, automated workflows, and continuous compliance monitoring that shift governance from reactive to predictive.",
                 contenttwo: "",
                 imgAlt: "risk and compliance software "
             },
@@ -1722,12 +1722,12 @@ export const verticalData = [
             impactImgAlt: "compliance management solutions ",
             impactsAboutAlt: "grc system ",
             impacts: [
-                "90% regulatory change identification accuracy with AI-powered analysis and intelligent compliance monitoring software",
-                "75% reduction in compliance-related mistakes through intelligent automation and risk and compliance software optimization ",
-                "Real-time risk monitoring enabling proactive threat mitigation through comprehensive compliance management systems ",
-                "375+ business applications seamlessly integrated through advanced GRC system connectivity and automation ",
-                "Continuous compliance monitoring ensuring regulatory adherence across all frameworks via automated compliance software",
-                "Automated audit trails satisfying stringent regulatory requirements through intelligent compliance automation platform",
+                "90% regulatory change identification accuracy using AI-powered analysis and compliance monitoring.",
+                "75% reduction in compliance-related mistakes through intelligent automation and optimized risk controls.",
+                "Real-time risk monitoring enabling proactive threat mitigation across departments.",
+                "375+ business applications integrated via GRC connectivity and automated workflows.",
+                "Continuous compliance monitoring to maintain regulatory adherence across frameworks.",
+                "Automated audit trails that satisfy stringent regulatory requirements through reliable compliance automation.",
             ],
             FAQs: [
                 {
@@ -1794,8 +1794,8 @@ export const verticalData = [
         detailPage: {
             metaTitle: 'AI-Powered Cybersecurity Platform | Zero Trust Defense',
             metaDescription: 'Safeguard your enterprise with CyberAiX — an AI-powered cybersecurity platform delivering real-time threat detection, automated response, and zero-trust protection.',
-            bannerTitle: "Safeguard Your Enterprise with Advanced AI Cybersecurity Solutions",
-            bannerDescription: " Transform security operations through AI-powered cybersecurity platform featuring zero trust architecture, threat intelligence automation, and comprehensive enterprise cybersecurity platform capabilities.",
+            bannerTitle: "Safeguard your enterprise with AI-driven cybersecurity solutions",
+            bannerDescription: "Transform security operations with an AI-powered platform featuring zero-trust architecture, automated threat intelligence, and enterprise-grade protection.",
             bannerImage: "/images/vertical/CyberAiX-banner.jpg",
             banerAltImg: "AI powered cybersecurity platform",
             mobileBannerImage: "/images/vertical/cyberAIX-MobileBanner.jpg",
@@ -1816,29 +1816,29 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/aboutimage-CyberAiX.png',
                 logo: '/images/vertical/dark-logo.png',
-                contentOne: "CyberAiX transforms enterprise security through AI-powered cybersecurity platform technology delivering real-time protection, zero trust architecture resilience, and comprehensive AI cybersecurity solutions. Built on iTCart's proprietary AiX Framework, this enterprise cybersecurity platform provides advanced AI security platform capabilities with automated threat intelligence automation and cybersecurity consulting services. ",
+                contentOne: "CyberAiX transforms enterprise security with an AI-powered platform that delivers real-time protection, zero-trust resilience, and integrated AI cybersecurity capabilities. Built on iTCart’s AiXHub EOS, the platform combines automated threat intelligence with expert cybersecurity consulting.",
                 contenttwo: "",
                 imgAlt: "AI security platform s"
             },
             CapabilitySections: [
                 {
                     title: "AI-Driven Detection",
-                    description: "Rapid threat classification using advanced machine learning algorithms and behavioral analytics through AI security platform technology. ",
+                    description: "Rapid threat classification using machine learning and behavioral analytics powered by the AI security platform. ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "Security Co-Pilot",
-                    description: "Real-time threat summaries with automated triage and intelligent analyst augmentation powered by AI in cybersecurity capabilities. ",
+                    description: "Real-time threat summaries with automated triage and analyst augmentation powered by AI.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Microsoft Sentinel Integration",
-                    description: "Unified SIEM/SOAR platform with extended telemetry across multicloud environments through enterprise cybersecurity platform architecture. ",
+                    description: "Unified SIEM/SOAR integration with extended telemetry across multi-cloud environments.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Red Team Simulations",
-                    description: "Advanced adversary attack simulations uncovering vulnerabilities through comprehensive threat intelligence automation and security testing. ",
+                    description: "Adversary attack simulations that uncover vulnerabilities using threat intelligence automation and rigorous security testing.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 // {
@@ -1912,11 +1912,11 @@ export const verticalData = [
             impactImgAlt: "zero trust architecture  ",
             impactsAboutAlt: "AI cybersecurity solutions  ",
             impacts: [
-                "$2.8M average annual savings through intelligent threat detection and automated incident response reducing security operational costs significantly ",
-                "10X faster threat detection with AI-powered correlation engines and threat intelligence automation enabling rapid security response capabilities ",
-                "95% reduction in false positives through advanced AI security platform algorithms and behavioral analytics minimizing security team alert fatigue ",
-                "25X improvement in incident response time enabling comprehensive threat containment through zero trust architecture and automated security orchestration ",
-                "Zero security breaches across all enterprise implementations with AI powered cybersecurity platform protection and proactive threat prevention systems",
+                "$2.8M average annual savings through intelligent threat detection and automated incident response that reduce security operational costs.",
+                "10× faster threat detection with AI-powered correlation engines and automated threat intelligence, enabling rapid response.",
+                "95% reduction in false positives using AI platform algorithms and behavioral analytics to minimize alert fatigue.",
+                "25× improvement in incident response time, enabling rapid threat containment through zero-trust architecture and automated orchestration.",
+                "Zero security breaches across enterprise deployments with AI-powered protection and proactive threat prevention.",
             ],
             logo: 'AiXQP-whitelogo',
             section2Data: '',

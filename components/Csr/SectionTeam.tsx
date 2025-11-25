@@ -92,7 +92,7 @@ export default function SectionTeam({
                                 src={slides[current]?.mainImg || "/placeholder.jpg"}
                                 alt="CSR Initiative"
                                 fill
-                                className="object-cover"
+                                className="object-cover object-center"
                                 sizes="(max-width: 768px) 100vw, 700px"
                                 priority
                             />
