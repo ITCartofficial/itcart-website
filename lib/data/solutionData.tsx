@@ -12,10 +12,10 @@ export const solutionData = [
       bannerDescription: "Transform workplace through comprehensive enterprise collaboration platform excellence",
       bannerImage: "/images/solutions/AiXHub-banner.png",
       mobileBannerImage: "/images/solutions/AiXHub-MobileBanner.jpg",
-      aboutSectionHeading: 'Revolutionary Digital Transformation',
+      aboutSectionHeading: 'Digital Workplace Reimagined',
       aboutSection: {
         aboutImage: '/images/solutions/AiXHub-about.png',
-        contentOne: "Modern organizations demand an intelligent digital workplace that goes beyond basic communication — one that unifies automation, collaboration, and governance. AiXHub’s enterprise collaboration environment integrates AI decision execution, workflow automation, and adaptive intelligence to transform modern workplaces into connected, efficient, and compliant ecosystems. ",
+        contentOne: "Modern organizations need an intelligent workplace that goes beyond simple communication — one platform that brings together automation, teamwork, and governance. AiXHub EOS combines AI decision execution, workflow automation, and adaptive intelligence to turn workplaces into connected, efficient, and compliant ecosystems. ",
         contenttwo: "",
         logo: ""
       },
@@ -29,7 +29,7 @@ export const solutionData = [
         },
         {
           title: "Intelligent Automation",
-          description: "Workflows are automated through SLA-governed processes, adaptive routing, and decision intelligence — reducing manual interventions and ensuring accuracy at scale.  ",
+          description: "Automate workflows with SLA-governed processes, adaptive routing, and decision intelligence — reducing manual steps and ensuring accuracy at scale. ",
           icon: "/icons/AiXHub/AiXHubFuture-icon2.svg",
         },
         {
@@ -38,13 +38,13 @@ export const solutionData = [
           icon: "/icons/AiXHub/AiXHubFuture-icon3.svg",
         },
         {
-          title: "Modern Transformation",
-          description: "Empowers distributed teams through secure, AI-orchestrated collaboration supporting hybrid and remote work environments. ",
+          title: "Modern Work Models",
+          description: "Enable distributed teams with secure, AI-orchestrated collaboration that supports hybrid and remote work.",
           icon: "/icons/AiXHub/AiXHubFuture-icon4.svg",
         },
         {
           title: "AI Integration",
-          description: "Leverages the AiXHub Enterprise Operating System to enable AI-native task execution, smart recommendations, and predictive process optimization. ",
+          description: "AiXHub EOS enables AI-native task execution, smart recommendations, and predictive process optimization.",
           icon: "/icons/AiXHub/AiXHubFuture-icon5.svg",
         },
         {
@@ -102,37 +102,37 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
+          description: "Built on the proprietary AiXHub Enterprise Operating System, delivering intelligent automation, adaptive learning, and predictive insights across workplace systems.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/AiXHub/AiXHubChooseUs-icon1.svg'
         },
         {
           title: "Microsoft 365 Integration",
-          description: "Delivers a unified digital experience through full Microsoft 365 integration — merging productivity, data governance, and automation. ",
+          description: "Provides a unified digital experience by connecting Microsoft 365 productivity tools with data governance and workflow automation.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon2.svg'
         },
         {
           title: "Employee-Centric Design",
-          description: "AI-personalized dashboards, engagement insights, and contextual nudges make every interaction meaningful and data-driven. ",
+          description: "AI-personalized dashboards, engagement metrics, and contextual nudges that make each interaction more productive.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon3.svg'
         },
         {
           title: "Security Excellence",
-          description: "Enterprise-grade encryption, identity governance, and ISO-certified security protocols protect organizational data at every layer. ",
+          description: "Enterprise-grade encryption, identity governance, and ISO-certified security controls that protect data at every layer.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon4.svg'
         },
         {
           title: "Proven Results",
-          description: "Organizations report 85% faster collaboration cycles, 70% reduction in manual tasks, and 95% audit-ready compliance through AiXHub deployments. ",
+          description: "Organizations report 85% faster collaboration cycles, 70% fewer manual tasks, and 95% audit-ready compliance after AiXHub deployments.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon5.svg'
         },
         {
           title: "Global Expertise",
-          description: "With 300+ enterprise clients across 22 industries, iTCart delivers domain-driven deployment and ongoing value optimization. ",
+          description: "With 300+ enterprise clients across 22 industries, iTCart delivers domain-specific deployment and continuous value optimization. ",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon6.svg'
         }
@@ -217,13 +217,13 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Modernize Document Management for Tomorrow's Challenges",
-      bannerDescription: "Transform information handling through the best document management software featuring secure document management and automated document processing solutions.",
+      bannerDescription: "Transform information handling with AI-driven document management software offering secure storage and automated processing solutions.",
       bannerImage: "/images/solutions/Document-Management-System-banner.png",
       mobileBannerImage: "/images/solutions/Document-MobileBanner.jpg",
       aboutSectionHeading: 'Intelligent Document Management Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Document-Management-System-about.png',
-        contentOne: "iTCart's cloud document management system transforms business document handling through the best document management software capabilities, featuring secure document management protocols, advanced automated document processing, and comprehensive document management system solutions that organize, protect, and streamline information access. ",
+        contentOne: "iTCart’s cloud document management system transforms enterprise document handling with secure storage, AI-powered processing, and organized workflows that protect and streamline information access.",
         contenttwo: "",
         logo: ""
       },
@@ -232,32 +232,32 @@ export const solutionData = [
       futureItems: [
         {
           title: "Seamless File Organization",
-          description: "Effortlessly categorize and structure documents with intuitive folder management through the best document management software capabilities. ",
+          description: "Effortlessly categorize and structure documents with intuitive folder management and AI-powered organization tools.",
           icon: "/icons/Documents/DocumentManagement-icon1.svg",
         },
         {
           title: "Advanced Version Control",
-          description: "Protect document integrity with automated version histories, enabling secure document management and edit tracking functionality. ",
+          description: "Protect document integrity with automated version histories and edit tracking for secure and reliable document handling.",
           icon: "/icons/Documents/DocumentManagement-icon2.svg",
         },
         {
           title: "Next-Level Security",
-          description: "Shield sensitive data with encryption and granular access controls through comprehensive secure document management architecture. ",
+          description: "Shield sensitive data with encryption and granular access controls through robust document security architecture.",
           icon: "/icons/Documents/DocumentManagement-icon3.svg",
         },
         {
           title: "Collaborative Workspaces",
-          description: "Foster real-time collaboration with shared editing tools and team folders, enhancing productivity across locations. ",
+          description: "Enable real-time collaboration with shared editing tools and team folders, boosting productivity across locations.",
           icon: "/icons/Documents/DocumentManagement-icon4.svg",
         },
         {
           title: "Smart Accurate Search",
-          description: "Locate documents instantly using advanced algorithms and full-text indexing powered by automated document processing technology. ",
+          description: "Locate documents instantly with AI-driven algorithms and full-text indexing for rapid search and retrieval.",
           icon: "/icons/Documents/DocumentManagement-icon5.svg",
         },
         {
           title: "Cloud-First Accessibility",
-          description: "Store document libraries securely with a scalable cloud document management system, enabling anywhere access and editing.",
+          description: "Securely store document libraries on a scalable cloud platform, enabling access and editing from anywhere..",
           icon: "/icons/Documents/DocumentManagement-icon6.svg",
         },
       ],
@@ -287,22 +287,22 @@ export const solutionData = [
       solutionGridItems: [
         {
           title: "Legal & Professional Services",
-          description: "Enhanced case file management with automated contract processing, secure client document handling, and compliance tracking through intelligent document management solutions. ",
+          description: "Automate case file management with contract processing, secure client document handling, and compliance tracking.",
           image: "/images/solutions/Document-Management-System-solution1.png"
         },
         {
           title: "Healthcare & Life Sciences",
-          description: "Streamlined patient record management with HIPAA-compliant storage, automated medical document processing, and secure healthcare information exchange capabilities. ",
+          description: "Simplify patient record management with HIPAA-compliant storage, automated medical processing, and secure data exchange.",
           image: "/images/solutions/Document-Management-System-solution2.png"
         },
         {
           title: "Financial Services",
-          description: "Optimized financial document workflows with automated compliance reporting, secure transaction records, and regulatory documentation management through advanced systems. ",
+          description: "Optimize financial document workflows with automated compliance reporting, secure transaction records, and regulatory documentation management.",
           image: "/images/solutions/Document-Management-System-solution3.png"
         },
         {
           title: "Manufacturing & Industrial",
-          description: "Comprehensive technical documentation management with automated quality control documents, secure blueprint storage, and compliance certification tracking systems. ",
+          description: "Manage technical documentation with automated quality control, secure blueprint storage, and compliance tracking.",
           image: "/images/solutions/Document-Management-System-solution4.png"
         }
       ],
@@ -310,37 +310,37 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
+          description: "Built on the proprietary AiXHub Enterprise Operating System, this solution delivers intelligent automation, adaptive learning capabilities, and predictive insights. It provides a unified AI-powered ERP architecture that simplifies enterprise operations and enhances decision-making efficiency.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon1.svg'
         },
         {
           title: "Seamless Implementation",
-          description: "Minimal disruption deployment with comprehensive migration support, the best document management software integration expertise, and dedicated project management ensuring smooth transition. ",
+          description: "Deployment occurs with minimal disruption, supported by comprehensive change management guidance and cultural adoption strategies. Dedicated project management ensures a smooth and efficient digital transformation journey.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon2.svg'
         },
         {
           title: "Scalable Growth Architecture",
-          description: "Future-ready infrastructure that adapts to evolving business needs, supporting organizational growth requirements through best workflow automation software and cloud-based automation tools.",
+          description: "The infrastructure is future-ready and adapts to evolving business needs. It supports organizational growth through enterprise automation platform features and digital integration platform capabilities.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon3.svg'
         },
         {
           title: "Expert Support Excellence",
-          description: "24/7 professional assistance with dedicated document specialists, comprehensive training programs, continuous optimization support, and secure document management consulting services. ",
+          description: "Organizations receive 24/7 professional assistance from dedicated transformation specialists. Comprehensive training programs, continuous optimization support, and predictive analytics consulting services ensure sustained success.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon4.svg'
         },
         {
           title: "Proven Success Record",
-          description: "Trusted by enterprise clients worldwide with demonstrated ROI, measurable business impact, consistent performance across industries, and validated document management outcomes. ",
+          description: "Trusted by enterprise clients globally, the solution demonstrates measurable ROI and significant business impact. Performance remains consistent across industries, validating digital transformation outcomes.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon5.svg'
         },
         {
           title: "Innovation Leadership",
-          description: "Continuous updates and AI-enhanced features ensuring cutting-edge capabilities, competitive advantage, peak performance, and future-ready customer engagement automation for sustained growth.",
+          description: "Continuous updates and AI-enhanced features provide cutting-edge capabilities. Organizations gain competitive advantage, peak operational performance, and future-ready customer engagement automation for long-term growth.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon6.svg'
         }
@@ -421,13 +421,13 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Build Future-Ready Business with Enterprise Automation Platform",
-      bannerDescription: "Transform operations through AI for digital transformation, predictive analytics suite, and intelligent digital integration platform solutions.",
+      bannerDescription: "Transform operations through AI-driven digital transformation, predictive analytics, and intelligent integration platform solutions.",
       bannerImage: "/images/solutions/Digital-banner.png",
       mobileBannerImage: "/images/solutions/Digital-MobileBanner.jpg",
       aboutSectionHeading: 'Transform. Innovate. Scale. Lead.',
       aboutSection: {
         aboutImage: '/images/solutions/Digital-about.png',
-        contentOne: "iTCart's Digital Transformation Suite empowers businesses to thrive through AI for digital transformation capabilities, featuring enterprise automation platform technology, advanced predictive analytics suite, and comprehensive digital integration platform solutions that reimagine workflows and unlock real-time intelligence. ",
+        contentOne: "iTCart's Digital Transformation Suite helps businesses thrive with AI-driven transformation capabilities, including enterprise automation, predictive analytics, and digital integration solutions that streamline workflows and deliver real-time insights.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Digital Excellence',
@@ -435,22 +435,22 @@ export const solutionData = [
       futureItems: [
         {
           title: "Unified Data Integration",
-          description: "Bridge siloed systems effortlessly through comprehensive digital integration platform consolidating multiple data sources effectively. ",
+          description: "Bridge siloed systems effortlessly through a unified integration platform that consolidates multiple data sources.",
           icon: "/icons/Digital/DigitalFuture-icon1.svg",
         },
         {
           title: "Cloud-Native Scalability",
-          description: "Leverage elastic cloud infrastructure with enterprise automation platform supporting seamless scaling without performance compromise. ",
+          description: "Leverage elastic cloud infrastructure supporting seamless scaling without performance compromise.",
           icon: "/icons/Digital/DigitalFuture-icon2.svg",
         },
         {
           title: "AI-Enabled Insights",
-          description: "Uncover hidden trends through predictive analytics suite featuring anomaly detection and strategic decision-making capabilities. ",
+          description: "Uncover hidden trends with predictive analytics, including anomaly detection and strategic decision-making tools. ",
           icon: "/icons/Digital/DigitalFuture-icon3.svg",
         },
         {
           title: "Agile Development Deployment",
-          description: "Stay adaptive with rapid iteration support enabling continuous improvement and accelerated ROI through process automation platform. ",
+          description: "Stay adaptive with rapid iteration, enabling continuous improvement and accelerated ROI through automated workflows. ",
           icon: "/icons/Digital/DigitalFuture-icon4.svg",
         },
         {
@@ -470,19 +470,19 @@ export const solutionData = [
         {
           id: 1,
           title: "Core Functionality",
-          description: "Advanced digital transformation capabilities featuring unified data integration systems, cloud-native scalability architecture, AI-enabled predictive insights, agile development frameworks, proactive cybersecurity measures, and remote collaboration tools delivering measurable business value through streamlined operations, enhanced decision-making, and accelerated digital adoption across enterprise environments with comprehensive process automation platform integration. ",
+          description: "Advanced digital transformation capabilities include unified data integration, cloud-native scalability, AI-powered insights, agile development, proactive cybersecurity, and remote collaboration. These tools deliver measurable business value, streamline operations, enhance decision-making, and accelerate digital adoption across enterprises with integrated automation solutions.",
           imageSrc: "/images/solutions/Digital-collab1.png",
         },
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Cutting-edge AI for digital transformation capabilities including machine learning algorithms, predictive analytics suite engines, intelligent automation systems, real-time data processing, anomaly detection technologies, and strategic decision support tools enabling proactive business management, competitive advantage, operational excellence, and innovation leadership through data-driven insights and enterprise automation platform optimization. ",
+          description: "Cutting-edge AI for digital transformation includes machine learning algorithms, predictive analytics engines, intelligent automation systems, real-time data processing, anomaly detection, and strategic decision support tools. These technologies enable proactive business management, competitive advantage, operational excellence, and innovation leadership through actionable insights and enterprise automation optimization.",
           imageSrc: "/images/solutions/Digital-collab2.png",
         },
         {
           id: 3,
           title: "Integration Excellence",
-          description: "Comprehensive connectivity supporting ERP, CRM, and legacy systems through robust APIs, digital integration platform architecture, cloud-native infrastructure, single sign-on capabilities, and enterprise-grade security controls ensuring seamless data flow, operational continuity, scalable growth, and protected business operations with predictive analytics suite capabilities and real-time synchronization across all platforms. ",
+          description: "Robust connectivity supports ERP, CRM, and legacy systems through secure APIs, cloud-native infrastructure, single sign-on, and enterprise-grade security controls. This ensures seamless data flow, operational continuity, scalable growth, and protected business operations with real-time synchronization across platforms.",
           imageSrc: "/images/solutions/Digital-collab3.png",
         },
       ],
@@ -624,13 +624,13 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Supercharge Operations with Smart BPA Solutions",
-      bannerDescription: "Transform manual workflows into intelligent, AI-powered business process automation systems.",
+      bannerDescription: "Transform manual workflows into AI-powered automation systems that enhance efficiency and accuracy.",
       bannerImage: "/images/solutions/Business-Process-Automation-banner.png",
       mobileBannerImage: "/images/solutions/Business-MobileBanner.jpg",
       aboutSectionHeading: 'Automate. Optimize. Accelerate. Transform.',
       aboutSection: {
         aboutImage: '/images/solutions/Business-Process-Automation-about.png',
-        contentOne: "iTCart's business process automation solution empowers teams to work smarter through best workflow automation software that eliminates manual bottlenecks and delivers AI-powered workflows for superior business outcomes and enterprise automation platform excellence.",
+        contentOne: "iTCart's business process automation solution enables teams to work efficiently by eliminating manual bottlenecks. It delivers AI-powered workflows for improved business outcomes and enterprise automation platform performance.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Business Excellence',
@@ -781,7 +781,7 @@ export const solutionData = [
       aboutSolutionImage: '/images/solutions/Business-Process-Automation-aboutfinal.png',
       futurSectionHeading: "",
       futurSectionDescription: "Everything You Need to Know About Business Process Automation",
-      FAQsHeading: '',
+      FAQsHeading: 'Everything You Need to Know About Business Process Automation',
       FAQs: [
         {
           id: '1',
@@ -833,7 +833,7 @@ export const solutionData = [
       aboutSectionHeading: 'Revolutionary Workforce Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Human-Resource-Management-about.png',
-        contentOne: "Modern organizations need comprehensive cloud-based HR software featuring digital employee records management, HR digital transformation, HR workflow automation, and payroll management software with predictive analytics in human resources to automate HR processes effectively. ",
+        contentOne: "Modern organizations rely on cloud-based HR software to manage digital employee records, streamline HR workflows, automate payroll, and leverage predictive analytics for efficient human resource operations.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Workforce Excellence',
@@ -851,7 +851,7 @@ export const solutionData = [
         },
         {
           title: "Performance Analytics",
-          description: "Real-time feedback tools powered by predictive analytics in human resources for decision-making. ",
+          description: "Real-time feedback tools powered by predictive HR analytics for informed decision-making.",
           icon: "/icons/Human-Resource/Human-icon3.svg",
         },
         {
@@ -876,19 +876,19 @@ export const solutionData = [
         {
           id: 1,
           title: "Seamless Onboarding",
-          description: "Complete cloud-based HR software solution featuring automated offer letters, orientation workflows, secure digital employee records management, and comprehensive onboarding processes. This integrated approach ensures new hires experience smooth transitions while maintaining organized, searchable workforce data that stays current and accessible. The system automates HR processes including document collection, verification, and approval workflows with real-time tracking capabilities. ",
+          description: "Our cloud-based HR software automates offer letters, orientation workflows, and secure employee record management. This integrated onboarding process ensures new hires experience smooth transitions while maintaining organized, searchable workforce data with real-time updates. The system streamlines HR tasks such as document collection, verification, and approvals for efficient workforce integration. ",
           imageSrc: "/images/solutions/Human-Resource-Management-collab1.png",
         },
         {
           id: 2,
           title: "Smart Compliance",
-          description: "Advanced payroll management software delivering automated salary processing, tax calculations, statutory reports, and compliance monitoring through HR workflow automation. Our intelligent system provides transparent, auditable payroll cycles supporting regulatory requirements with predictive analytics in human resources insights. The platform ensures accuracy through automated verification, error detection, and comprehensive audit trails for complete transparency and regulatory compliance. ",
+          description: "Our payroll management software automates salary processing, tax calculations, statutory reporting, and compliance monitoring through HR workflow automation. It provides transparent, auditable payroll cycles with predictive HR analytics, automated verification, and error detection to ensure accuracy and regulatory compliance.",
           imageSrc: "/images/solutions/Human-Resource-Management-collab2.png",
         },
         {
           id: 3,
           title: "Performance Excellence",
-          description: "Comprehensive performance tracking featuring real-time feedback tools, performance dashboards, and ongoing conversations powered by predictive analytics in human resources. This system enables managers to make informed decisions while using HR digital transformation capabilities for continuous employee development. The solution includes goal setting, progress monitoring, and performance analytics with automated reporting and actionable insights for strategic workforce planning. ",
+          description: "Real-time feedback tools, performance dashboards, and ongoing employee conversations are powered by predictive HR analytics. This system enables managers to make informed decisions while supporting continuous employee development, goal setting, progress tracking, and actionable reporting for strategic workforce planning.",
           imageSrc: "/images/solutions/Human-Resource-Management-collab3.png",
         },
       ],
@@ -1256,7 +1256,7 @@ export const solutionData = [
         },
         {
           title: "Industry-Agnostic Architecture",
-          description: "Comprehensive ERP software for businesses spanning manufacturing, retail, BFSI, and healthcare with pre-built modules and deep customization. ",
+          description: "ERP software for businesses spanning manufacturing, retail, BFSI, and healthcare with pre-built modules and deep customization. ",
           icon: "/icons/Enterprise/EnterpriseFuture-icon3.svg",
         },
         {
@@ -1271,7 +1271,7 @@ export const solutionData = [
         },
         {
           title: "Custom Development Services",
-          description: "Tailored custom ERP development, delivering robust technical solutions and specialized configurations for unique business requirements.",
+          description: "Tailored ERP development delivering robust technical solutions and specialized configurations for unique business requirements.",
           icon: "/icons/Enterprise/EnterpriseFuture-icon6.svg",
         },
       ],
@@ -1281,19 +1281,19 @@ export const solutionData = [
         {
           id: 1,
           title: "Core Functionality",
-          description: "Advanced ERP software for businesses featuring supply chain visibility, AI-assisted finance automation, production monitoring, project management, human resource lifecycle management, and sales integration delivering measurable business value through streamlined operations, enhanced decision-making, and accelerated growth across enterprise environments with comprehensive cloud ERP platform for enterprises integration. ",
+          description: "Advanced ERP software provides supply chain visibility, AI-assisted finance automation, production monitoring, project management, HR lifecycle management, and sales integration. It delivers measurable business value through streamlined operations, improved decision-making, and accelerated growth while leveraging a robust cloud ERP platform for enterprise integration.",
           imageSrc: "/images/solutions/erp-collab1.png",
         },
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "The advanced ERP software for businesses empowers organizations with end-to-end visibility, AI-driven finance automation, production tracking, project management, HR lifecycle oversight, and unified sales operations. Built on a comprehensive cloud ERP platform for enterprises, it delivers measurable business value through streamlined processes, data-backed decisions, and accelerated growth.",
+          description: "The ERP suite empowers organizations with end-to-end visibility, AI-driven finance automation, production tracking, project management, HR lifecycle oversight, and unified sales operations. Built on a cloud ERP platform, it supports data-backed decisions and accelerates business growth while enhancing operational efficiency.",
           imageSrc: "/images/solutions/erp-collab2.png",
         },
         {
           id: 3,
           title: "Integration Excellence",
-          description: "Seamless connectivity supporting CRM, BI, HRMS, SCM, IoT systems through robust APIs, cloud ERP platform for enterprises architecture, enterprise-grade security controls, seamless data synchronization, and comprehensive audit capabilities ensuring operational continuity, scalable growth, and protected business operations with ERP system integration and real-time connectivity across all enterprise applications. ",
+          description: "Seamless connectivity supports CRM, BI, HRMS, SCM, and IoT systems through robust APIs and cloud ERP architecture. Enterprise-grade security, single sign-on, and audit capabilities ensure data continuity, scalable growth, and protected business operations with real-time ERP system integration across all enterprise applications.",
           imageSrc: "/images/solutions/erp-collab3.png",
         },
       ],
@@ -1330,7 +1330,7 @@ export const solutionData = [
         },
         {
           title: "Custom Development Excellence",
-          description: "Comprehensive custom ERP development services with dedicated technical teams, specialized configurations, and tailored business solutions ensuring perfect fit. ",
+          description: "Full-service custom ERP development with dedicated technical teams, specialized configurations, and tailored business solutions ensuring the perfect fit. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Enterprise/EnterpriseChooseUs-icon2.svg'
         },
@@ -1480,19 +1480,19 @@ export const solutionData = [
         {
           id: 1,
           title: "Core Functionality ",
-          description: "Advanced customer relationship management system featuring AI-powered customer intelligence, unified sales and marketing platforms, real-time engagement tracking, automated lead scoring workflows, cloud-first mobile architecture, and comprehensive customer lifecycle management delivering measurable business value through personalized customer experiences, improved conversion rates, and enhanced customer retention across enterprise environments. ",
+          description: "Advanced customer relationship management system offering AI-powered customer intelligence, unified sales and marketing platforms, real-time engagement tracking, automated lead scoring workflows, cloud-first mobile architecture, and complete customer lifecycle management. These capabilities deliver measurable business value through personalized customer experiences, improved conversion rates, and enhanced retention across enterprise environments.",
           imageSrc: "/images/solutions/crm-collab1.png",
         },
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Our advanced customer relationship management system features AI-powered intelligence, unified sales and marketing platforms, and real-time engagement tracking. It delivers measurable business value through improved conversion rates, personalized customer experiences, and stronger customer retention across enterprise environments. ",
+          description: "Cutting-edge predictive customer analytics with machine learning algorithms, customer journey analysis engines, automated lead nurturing, intelligent decision-making platforms, real-time behavior tracking, and marketing automation features. This enables proactive customer management, strategic planning, competitive advantage, and operational excellence through data-driven insights and personalized engagement strategies.",
           imageSrc: "/images/solutions/crm-collab2.png",
         },
         {
           id: 3,
           title: "Integration Excellence",
-          description: "Comprehensive connectivity supporting ERP, E-Commerce, and legacy systems through robust APIs, lead nurturing marketing automation integration, enterprise-grade security controls, single sign-on capabilities, and comprehensive audit trails ensuring seamless data flow, operational continuity, scalable growth, and protected customer operations with advanced customer lifecycle management capabilities and real-time synchronization. ",
+          description: "Seamless connectivity with ERP, e-commerce, and legacy systems through robust APIs, automated lead nurturing integration, enterprise-grade security controls, single sign-on, and complete audit trails. This ensures smooth data flow, operational continuity, scalable growth, and protected customer operations with advanced lifecycle management and real-time synchronization.",
           imageSrc: "/images/solutions/crm-collab3.png",
         },
       ],
@@ -2081,7 +2081,7 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "AI-Powered Enterprise GRC Solutions",
-      bannerDescription: "Empower governance through comprehensive ai powered GRC platform excellence",
+      bannerDescription: "Empower governance through comprehensive AI powered GRC platform excellence",
       bannerImage: "/images/solutions/Governance-banner.png",
       mobileBannerImage: "/images/solutions/Governance-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary GRC Excellence',
