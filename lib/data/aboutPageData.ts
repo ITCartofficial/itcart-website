@@ -273,7 +273,7 @@ export const ambassadorsList = [
   //   ],
   // },
   {
-    image: "/images/ambassador/bryongough.jpg",
+    image: "/images/ambassador/bryongough.png",
     title: "Bryon Gough",
     designation: "AI Real Estate Ambassador",
     profileRef: "https://www.linkedin.com/in/bryongough/", //button link
