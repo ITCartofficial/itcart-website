@@ -6,10 +6,8 @@ import HeroBanner from "../../components/HeroBanner"
 import { coreValues, foundingMembers, executiveLeadership, ambassadorsList, historyData } from '@/lib/data/aboutPageData'
 
 import MissionVisionSection from "../../components/about/MissionVisionSection"
-// import AIFrameworkSection from "../../components/about/AIFrameworkSection"
 import FoundingMembersSection from "../../components/about/FoundingMembersSection"
 import ExecutiveLeadersSection from "../../components/about/ExecutiveLeadersSection"
-// import GlobalStrategistsSection from "../../components/about/GlobalStrategistsSection"
 import AmbassadorSection from "@/components/about/AmbassadorSection"
 import HistorySection from "@/components/about/HistorySection"
 import BannerContainer from "@/components/common/BannerContainer"
