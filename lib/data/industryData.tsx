@@ -3761,8 +3761,8 @@ export const industryData = [
       metaDescription: 'Transform hospitality operations with AI-driven automation, smart booking systems, guest experience platforms, and digital hospitality solutions designed to boost revenue and loyalty',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
-      bannerTitle: "Hospitality Technology Solutions Excellence",
-      bannerDescription: "Empowering modern hotels through intelligent hospitality technology, unified hotel-operations systems, and next-generation digital transformation for the global hospitality ecosystem.",
+      bannerTitle: "Technology Solutions Excellence for Modern Hotels",
+      bannerDescription: "Enabling next-generation automation, operational intelligence, and elevated guest experiences for today’s hotel and lodging brands.",
       bannerImage: "/images/industries/Hospitality-banner.png",
       mobileBannerImage: "/images/industries/Hospitality-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -3770,131 +3770,131 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/Hospitality-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The hospitality sector is evolving rapidly, facing ongoing challenges such as optimizing guest experiences, streamlining operational workflows, and integrating advanced technologies across multiple service touchpoints. Modern hospitality businesses require a resilient digital-technology foundation that supports advanced hotel-management solutions, unified service operations, automated guest-experience systems, and AI-driven hotel intelligence. iTCart delivers comprehensive smart-hospitality solutions through intelligent automation, connected operations, and a fully integrated approach to hotel service excellence—enabling hotels to operate efficiently, personalize guest journeys, and scale with innovative hospitality technologies.",
-        contenttwo: ""
+        contentOne: "The lodging and guest-service sector is undergoing rapid transformation. Rising guest expectations, expanding digital touchpoints, operational complexity, and the need for unified data visibility are pushing hotels to adopt smarter, connected, and more autonomous technology systems.",
+        contenttwo: "Modern establishments need intelligent automation, integrated service workflows, touchless experience layers, and real-time operational coordination to remain competitive and deliver consistent service quality. iTCart builds advanced digital systems that bring intelligence, automation, and visibility into every corner of hotel operations. Our solutions unify reservations, service delivery, property coordination, and analytical insights into a seamless ecosystem—so teams can focus on delivering exceptional guest journeys while technology takes care of the rest."
       },
-      skillGapSectionHeading: 'Hospitality Technology Advancement',
-      skillGapHeadingDescription: 'Driving the next era of hospitality transformation through unified, intelligent, and scalable digital solutions.',
+      skillGapSectionHeading: 'Advancing Hotel Technology',
+      skillGapHeadingDescription: 'Innovation, automation, and intelligence powering the future of hotel operations',
       skillGapSection: [
         {
           icon: '/icons/Industry-icons/Hospitality-icon1.svg',
-          title: "Smart Hotel Operations",
-          highlight: "Advanced hotel-operations automation featuring integrated lodging-management capabilities, predictive analytics, intelligent service routing, and AI-driven guest-experience enhancement for consistent operational excellence.",
+          title: "Smart Operational Ecosystems",
+          highlight: "Integrated automation for reservations, housekeeping, service requests, on-property coordination, and staff workflows—supported by intelligent insights ensuring tasks are executed efficiently and consistently.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Hospitality-icon2.svg',
-          title: "Enterprise Service Intelligence",
-          highlight: "A unified enterprise-hospitality stack with automated workflows, multi-property orchestration, centralized monitoring, and continuous improvement empowered by real-time data and connected systems.",
+          title: "Service Intelligence & Execution",
+          highlight: "A connected service layer that brings together workflow automation, cross-department coordination, multi-property visibility, and continuous improvement powered by operational analytics.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Hospitality-icon3.svg',
           title: "Hotel Management Innovation",
-          highlight: "Modern hospitality management powered by intelligent algorithms, real-time performance tracking, service-delivery automation, and proactive operational optimization for consistently superior guest experiences.",
+          highlight: "Real-time decision systems that monitor performance indicators, identify inefficiencies, and guide operational planning using predictive and prescriptive intelligence.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Hospitality-icon4.svg',
-          title: "Connected Hospitality Ecosystem",
-          highlight: "A seamlessly connected hotel-technology environment enabling interoperability across systems, integrated hotel-operations workflows, and intelligent hotel-automation services that support end-to-end hospitality coordination.",
+          title: "Connected Property Infrastructure",
+          highlight: "A unified integration layer enabling seamless system interoperability, real-time data flows, guest-facing services, device connectivity, and smart automation across the property ecosystem.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
       ],
-      solutionGridHeading: 'Our Hospitality Software Solutions ',
-      solutionGridHeadingDiscription: 'Explore a complete suite of technology products engineered to enhance hotel performance, service quality, and operational control.',
+      solutionGridHeading: 'Our Technology Solutions for Hotels ',
+      solutionGridHeadingDiscription: 'A complete suite designed to modernize operations, unify service delivery, and enhance the guest journey',
       solutionGridItems: [
         {
-          title: "Hotel Management Platform",
-          description: "A holistic hospitality-management system that centralizes reservations, guest services, operations coordination, workflow handling, and performance monitoring—ensuring smooth, efficient, and intelligent hotel operations.",
+          title: "Hotel Management Suite",
+          description: "A unified control centre for reservations, front-desk operations, staff coordination, guest communication, and performance oversight—bringing every aspect of daily operations into one intelligent environment.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution1.png'
         },
         {
-          title: "Property Management Suite",
-          description: "A next-generation multi-property management environment offering centralized command, data consolidation, revenue optimization, unified analytics, and simplified operational control aligned with modern hospitality-technology demands.",
+          title: "Multi-Property Oversight System",
+          description: "Centralized management for hotel groups featuring cross-property analytics, shared resource visibility, revenue insights, service consistency monitoring, and group-level operational governance.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution2.png'
         },
         {
-          title: "Hotel Automation Engine",
-          description: "A fully integrated automation engine enabling smart-environment control, AI-enhanced guest interactions, predictive service delivery, and intelligent hotel-operations workflows designed to elevate guest satisfaction.",
+          title: "Automation Engine for Hotels",
+          description: "Smart automation that powers temperature control, lighting, service-triggered actions, scheduling flows, routine task assignment, and guest interaction enhancements—all supported by intelligent rules and AI-driven patterns.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution3.png'
         },
         {
-          title: "Operations Analytics System",
-          description: "A powerful analytics and intelligence system that combines predictive forecasting, real-time monitoring, operational insights, and unified business intelligence to support strategic decision-making across the hospitality lifecycle.",
+          title: "Operations Analytics Hub",
+          description: "A complete intelligence system enabling managers to access real-time operational health, performance metrics, demand projections, workflow efficiency indicators, and strategic insights for data-driven decisions.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution4.png'
         },
         {
-          title: "Guest Experience Platform",
-          description: "A personalized guest-experience engine featuring automated service flows, preference-based recommendations, satisfaction tracking, and intelligent journey optimization for hotels aiming to exceed guest expectations.",
+          title: "Guest Experience Engine",
+          description: "Personalized interactions powered by preference tracking, journey insights, sentiment indicators, automated recommendations, and consistent engagement—ensuring every guest feels remembered, understood, and well-served.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution5.png'
         },
         {
-          title: "Integration Management Hub",
-          description: "A connected integration layer enabling interoperability between hospitality systems, enterprise services, backend applications, and operational workflows—ensuring frictionless communication across the hotel ecosystem.",
+          title: "Integration & Interconnectivity Hub",
+          description: "A backbone layer that connects PMS, channel managers, POS, IoT devices, payment gateways, CRM tools, operational apps, and service workflows into one seamless flow of data and execution.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/Hospitality-solution6.png'
         }
       ],
       whyChooseUsHeading: 'Our Services',
-      whyChooseUsHeadingDescription: 'A comprehensive portfolio of hospitality-focused technology, security, automation, and application-development services. ',
+      whyChooseUsHeadingDescription: 'A complete service ecosystem engineered for modern hotels',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
           title: 'Cybersecurity Services ',
-          content: 'Enterprise-grade security protecting guest information, hotel systems, service applications, and digital infrastructure through modern cybersecurity practices, regulatory-compliant controls, and continuous threat-protection strategies across all hospitality touchpoints.'
+          content: 'Enterprise-grade protection for guest data, reservation systems, payment channels, and operational infrastructure. Our security model ensures compliance, governance, threat prevention, and continuous monitoring across all touchpoints.'
         },
         {
           image: '/images/industries/service2.png',
           title: 'Application Services ',
-          content: 'End-to-end application development for hotel operations, guest-service systems, custom hospitality software, and digital solutions designed to strengthen automation, improve operational efficiency, and support next-generation hotel-technology environments.'
+          content: 'Custom digital systems, guest-service apps, operational tools, automation frameworks, and backend platforms designed to modernize your property’s technology foundation and improve efficiency at every service layer.'
         },
         {
           image: '/images/industries/service3.png',
-          title: 'AI ML Automation ',
-          content: 'Advanced AI and machine-learning automation enabling intelligent hotel-operations workflows, automated guest-experience enhancements, predictive service mechanisms, and seamless enterprise-hospitality integration that elevates operational performance.'
+          title: 'AI + ML Automation ',
+          content: 'Intelligent capabilities enabling automated workflows, demand forecasting, operational triggers, guest-experience optimization, anomaly detection, and performance enhancements throughout the property lifecycle.'
         }
       ],
-      capabilitiSectionHeading: 'Our Additional Solutions ',
-      capabilitiSectionDescription: 'Discover intelligent hospitality solutions engineered to boost productivity, enhance efficiency, and enable operational excellence.',
+      capabilitiSectionHeading: 'Additional Solutions ',
+      capabilitiSectionDescription: 'Advanced systems enhancing safety, efficiency, performance, and workforce capability',
       CapabilitySections: [
         {
           title: "Business Process Automation ",
-          description: "Streamlined and automated workflows for guest-service management, reservation handling, housekeeping coordination, administrative operations, and service-delivery cycles—reducing manual effort and improving service quality.",
+          description: "Automated workflows for service requests, housekeeping activities, staff tasks, operational approvals, and administrative processes improving consistency, accuracy, and turnaround times.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Enterprise Resource Planning ",
-          description: "End-to-end ERP capabilities for hospitality organizations covering financial planning, inventory control, revenue administration, budgeting, strategic operations, and multi-department coordination across hotel environments.",
+          title: "Enterprise Resource Management ",
+          description: "A unified system for financial planning, budgeting, resource allocation, procurement, inventory coordination, and overall operational governance for hotel groups and independent properties.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Customer Relationship Management ",
-          description: "A unified guest-relationship ecosystem featuring personalized engagement, loyalty-program management, preference tracking, targeted communication, and enhanced digital-interaction flows that strengthen guest satisfaction and retention.",
+          description: "Tools for managing loyalty programs, preference data, targeted communication, feedback cycles, and guest engagement strategies—all supported by a unified experience engine.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Human Resource Management ",
-          description: "A complete HR ecosystem for hospitality operations, including workforce scheduling, performance management, compliance tracking, employee lifecycle management, and automated HR workflows supporting hotel workforce efficiency.",
+          title: "Workforce & HR Management ",
+          description: "Scheduling, attendance, performance monitoring, training, compliance tracking, and workforce optimization designed specifically for hotel operations.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Document Management System ",
-          description: "A secure digital-document repository supporting hotel records, guest documentation, operational files, regulatory records, audit data, and hospitality-specific document workflows—ensuring safe, compliant, and structured information handling.",
+          description: "Secure digital storage for compliance files, guest documentation, audit records, contracts, SOPs, operational guidelines, and property-related documentation.",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "Learning Management System ",
-          description: "A modern LMS for hospitality teams offering skill-development programs, service-quality training, certification management, performance assessments, and immersive training experiences tailored to hotel-operations excellence.",
+          title: "Learning & Training System ",
+          description: "Role-based modules, skill-building programs, certification tracking, and scenario-based assessments to upskill teams and enable consistent, high-quality service delivery.",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
