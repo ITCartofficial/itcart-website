@@ -26,9 +26,6 @@ export default function SectionTeam({
     const scrollContainerRef = useRef<HTMLDivElement>(null);
     const thumbRefs = useRef<(HTMLDivElement | null)[]>([]);
 
-    console.log("slides>>>>>>>>>>>>>>>>>>>>>>>>>", slides);
-
-
     // 🌀 Disable scroll restoration
     useEffect(() => {
         if ("scrollRestoration" in history) {
@@ -92,7 +89,7 @@ export default function SectionTeam({
                                 src={slides[current]?.mainImg || "/placeholder.jpg"}
                                 alt="CSR Initiative"
                                 fill
-                                className="object-cover"
+                                className="object-cover object-center"
                                 sizes="(max-width: 768px) 100vw, 700px"
                                 priority
                             />

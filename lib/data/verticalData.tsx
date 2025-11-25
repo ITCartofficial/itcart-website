@@ -1515,7 +1515,7 @@ export const verticalData = [
             metaTitle: 'Automate Operations with AI-Powered ERP Platform - AiXERP',
             metaDescription: 'AiXERP by iTCart unifies finance, HR, and operations through an AI-powered ERP platform built for automation, analytics, and agile enterprise growth.',
             bannerTitle: "The Smart ERP Platform for Intelligent Agile Enterprises ",
-            bannerDescription: "Transform operations through AI-powered ERP platform featuring cloud based ERP solution and intelligent erp system automation. ",
+            bannerDescription: "Transform operations with an AI-powered ERP platform featuring cloud-based architecture and intelligent ERP automation.",
             bannerImage: "/images/vertical/AiXERP-banner.jpg",
             banerAltImg: "AI-powered ERP platform ",
             mobileBannerImage: "/images/vertical/AiXERP-MobileBanner.jpg",
