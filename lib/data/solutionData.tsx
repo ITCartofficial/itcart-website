@@ -728,7 +728,7 @@ export const solutionData = [
         },
         {
           title: "Scalable Growth Architecture",
-          description: "Future-ready infrastructure that adapts to evolving business needs, supporting organizational growth requirements through best workflow automation software and cloud-based automation tools",
+          description: "Future-ready infrastructure that adapts to evolving business needs, supporting organizational growth requirements through the best workflow automation software and cloud-based automation tools",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Busines/BussinesChooseUs-icon3.svg'
         },
@@ -822,7 +822,7 @@ export const solutionData = [
     linkUrl: "/solutions/Human Resource-anagement",
     imageSrc: "/images/solutions/HR_management.png",
     detailPage: {
-      metaTitle: 'HR Digital Transformation with Cloud Based HR Software | iTCart ',
+      metaTitle: 'HR Digital Transformation with Cloud-Based HR Software | iTCart ',
       metaDescription: 'Transform HR with iTCart’s cloud-based HR software. Automate HR processes, streamline payroll, and boost engagement through AI-driven HR digital transformation.  ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
@@ -833,7 +833,7 @@ export const solutionData = [
       aboutSectionHeading: 'Revolutionary Workforce Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Human-Resource-Management-about.png',
-        contentOne: "Modern organizations rely on cloud-based HR software to manage digital employee records, streamline HR workflows, automate payroll, and leverage predictive analytics for efficient human resource operations.",
+        contentOne: "Modern organizations need complete cloud HR systems that include digital employee records, workflow automation, payroll management, and predictive HR analytics to automate processes effectively.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Workforce Excellence',
@@ -901,7 +901,7 @@ export const solutionData = [
         },
         {
           title: "Manufacturing Organizations",
-          description: "Workforce planning and compliance tracking via comprehensive cloud based HR software platforms with regulatory monitoring capabilities. ",
+          description: "Workforce planning and compliance tracking via comprehensive cloud-based HR software platforms with regulatory monitoring capabilities. ",
           image: "/images/solutions/Human-Resource-Management-solution2.png"
         },
         {
@@ -1008,7 +1008,7 @@ export const solutionData = [
         {
           id: '5',
           title: "What industries benefit from your HR solutions?",
-          content: "Our cloud based HR software serves technology, healthcare, manufacturing, and financial services with industry-specific modules and customization options."
+          content: "Our cloud-based HR software serves technology, healthcare, manufacturing, and financial services with industry-specific modules and customization options."
         },
         {
           id: '6',
@@ -1035,7 +1035,7 @@ export const solutionData = [
       aboutSectionHeading: 'Revolutionary Learning Management Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/lms-about.png',
-        contentOne: "Transform organisational education with iTCart’s cutting-edge best learning management solutions. Our cloud-based LMS and enterprise learning management system capabilities support modern organisational learning requirements efficiently.  ",
+        contentOne: "Transform organisational education with iTCart’s cutting-edge best learning management solutions. Our cloud-based LMS and enterprise Learning Management System capabilities support modern organisational learning requirements efficiently.  ",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Learning Excellence',
@@ -1048,12 +1048,12 @@ export const solutionData = [
         },
         {
           title: "Progress Tracking ",
-          description: "Monitor learner performance with real-time dashboards via cloud-based learning management system capabilities.",
+          description: "Monitor learner performance with real-time dashboards via cloud-based Learning Management System capabilities.",
           icon: "/icons/lm/LearningFuture-icon2.svg",
         },
         {
           title: "Secure Environment ",
-          description: "Protect sensitive data with enterprise-grade security through our enterprise learning management system architecture.",
+          description: "Protect sensitive data with enterprise-grade security through our enterprise Learning Management System architecture.",
           icon: "/icons/lm/LearningFuture-icon3.svg",
         },
         {
@@ -1084,13 +1084,13 @@ export const solutionData = [
         {
           id: 2,
           title: "Advanced Analytics",
-          description: "Cutting-edge cloud-based learning management system capabilities including advanced analytics, actionable insights into learner behavior, course effectiveness measurement, skill gap identification, and advanced reporting tools. Our intelligent enterprise learning management system provides transparent, measurable learning outcomes supporting educational requirements through cloud learning platform integration. The platform ensures accuracy through automated assessments, personalised feedback systems, certification management, and comprehensive audit trails specifically designed for enterprise compliance and global standards. ",
+          description: "Cutting-edge cloud-based Learning Management System capabilities including advanced analytics, actionable insights into learner behavior, course effectiveness measurement, skill gap identification, and advanced reporting tools. Our intelligent enterprise Learning Management System provides transparent, measurable learning outcomes supporting educational requirements through cloud learning platform integration. The platform ensures accuracy through automated assessments, personalised feedback systems, certification management, and comprehensive audit trails specifically designed for enterprise compliance and global standards. ",
           imageSrc: "/images/solutions/lms-collab2.png",
         },
         {
           id: 3,
           title: "Integration Excellence",
-          description: "Robust connectivity supporting HR, CRM, and business systems through advanced APIs, LMS IT solution integration, modular architecture deployment options, mobile-first design capabilities, and enterprise-grade security controls ensuring seamless data flow. The integrated best learning management system provides robust audit trails, real-time synchronization, multi-language support, accessibility standards compliance, and device responsiveness. Advanced learning management system features include automated enrolments, certification tracking, and advanced user management supporting enhanced educational delivery and operational excellence across diverse organizational requirements.  ",
+          description: "Robust connectivity supporting HR, CRM, and business systems through advanced APIs, LMS IT solution integration, modular architecture deployment options, mobile-first design capabilities, and enterprise-grade security controls ensuring seamless data flow. The integrated best Learning Management System provides robust audit trails, real-time synchronization, multi-language support, accessibility standards compliance, and device responsiveness. Advanced Learning Management System features include automated enrolments, certification tracking, and advanced user management supporting enhanced educational delivery and operational excellence across diverse organizational requirements.  ",
           imageSrc: "/images/solutions/lms-collab3.png",
         },
       ],
@@ -1098,12 +1098,12 @@ export const solutionData = [
       solutionGridItems: [
         {
           title: "Corporate Training",
-          description: "Employee development and onboarding programmes via enterprise learning management system with automated tracking and certification.",
+          description: "Employee development and onboarding programmes via enterprise Learning Management System with automated tracking and certification.",
           image: "/images/solutions/lms-solution1.png"
         },
         {
           title: "Educational Institutions",
-          description: "Academic programme management and student engagement through cloud learning management system supporting diverse learning needs. ",
+          description: "Academic programme management and student engagement through cloud Learning Management System supporting diverse learning needs. ",
           image: "/images/solutions/lms-solution2.png"
         },
         {
@@ -1113,7 +1113,7 @@ export const solutionData = [
         },
         {
           title: "Technology Companies",
-          description: "Technical skills development and knowledge sharing through cloud learning management system with advanced integration and scalability. ",
+          description: "Technical skills development and knowledge sharing through cloud Learning Management System with advanced integration and scalability. ",
           image: "/images/solutions/lms-solution4.png"
         }
       ],
@@ -1133,7 +1133,7 @@ export const solutionData = [
         },
         {
           title: "Smart Technologies",
-          description: "Latest AI advancements, adaptive learning, and automation delivering modern cloud learning management system solutions with enhanced engagement and effectiveness. ",
+          description: "Latest AI advancements, adaptive learning, and automation delivering modern cloud Learning Management System solutions with enhanced engagement and effectiveness. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Learning-Management/LearningChooseUs-icon3.svg'
         },
@@ -1190,7 +1190,7 @@ export const solutionData = [
       FAQs: [
         {
           id: '1',
-          title: "What makes iTCart's learning management system different?",
+          title: "What makes iTCart's Learning Management System different?",
           content: "Our Enterprise Learning Management System integrates AI-powered features with cloud-based LMS capabilities, delivering superior learning outcomes and personalised educational experiences."
         },
         {
@@ -1205,7 +1205,7 @@ export const solutionData = [
         },
         {
           id: '4',
-          title: 'What learning management system features are included?',
+          title: 'What Learning Management System features are included?',
           content: 'Our platform includes content creation tools, progress tracking, assessments, reporting, mobile access, and integration capabilities for comprehensive educational delivery.'
         },
         {
@@ -1227,7 +1227,7 @@ export const solutionData = [
     linkUrl: "/services/devops-services",
     imageSrc: "/images/solutions/Enterprise-Resource.png",
     detailPage: {
-      metaTitle: 'Cloud Based ERP Platform for Enterprises | iTCart',
+      metaTitle: 'Cloud-Based ERP Platform for Enterprises | iTCart',
       metaDescription: 'eimagine business control with iTCart’s AI-powered ERP. Cloud-based, secure, and scalable, built to streamline operations and boost growth.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
@@ -1486,7 +1486,7 @@ export const solutionData = [
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Cutting-edge predictive customer analytics with machine learning algorithms, customer journey analysis engines, automated lead nurturing, intelligent decision-making platforms, real-time behavior tracking, and marketing automation features. This enables proactive customer management, strategic planning, competitive advantage, and operational excellence through data-driven insights and personalized engagement strategies.",
+          description: "Our advanced customer relationship management system features AI-powered intelligence, unified sales and marketing platforms, and real-time engagement tracking. It delivers measurable business value through improved conversion rates, personalized customer experiences, and stronger customer retention across enterprise environments.",
           imageSrc: "/images/solutions/crm-collab2.png",
         },
         {
@@ -1579,7 +1579,7 @@ export const solutionData = [
         },
         {
           percentage: "0%",
-          label: "Security breaches across implementations ",
+          label: "Security breaches reported",
         },
       ],
       aboutSolutionHeading: 'Industry Leadership',
@@ -2081,17 +2081,17 @@ export const solutionData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "AI-Powered Enterprise GRC Solutions",
-      bannerDescription: "Empower governance through comprehensive AI powered GRC platform excellence",
+      bannerDescription: "Empowering organizations with intelligent, automated governance and compliance excellence.",
       bannerImage: "/images/solutions/Governance-banner.png",
       mobileBannerImage: "/images/solutions/Governance-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary GRC Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Governance-about.png',
-        contentOne: "Modern enterprises require a unified GRC platform that streamlines risk assessment, automates compliance workflows, enhances audit reporting, strengthens governance practices, and ensures effective operational risk control across all business processes and functions.",
+        contentOne: "Modern enterprises require a comprehensive AI-powered GRC solution that unifies governance, risk, and compliance management within a single intelligent platform. iTCart’s enterprise GRC system integrates cloud-based compliance automation, operational risk management, audit tracking, and regulatory reporting—delivering accuracy, agility, and seamless control across all governance functions.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of GRC Excellence',
-      futureGridDiscription: "Comprehensive capabilities designed for intelligent governance and seamless integration ",
+      futureGridDiscription: "Unified capabilities for risk management, compliance automation, and intelligent governance integration.",
       futureItems: [
         {
           title: "Risk Assessment",
@@ -2108,13 +2108,13 @@ export const solutionData = [
         {
           title: "Security Controls",
           description:
-            "AI-enhanced security measures integrated within enterprise GRC solutions for proactive threat detection and mitigation.",
+            "Integrated AI-driven security measures within enterprise GRC solutions for proactive threat detection, safeguarding data integrity and regulatory compliance.",
           icon: "/icons/GovernanceRisk/GovernanceFuture-icon3.svg",
         },
         {
           title: "Automated Workflows",
           description:
-            "Streamlined GRC functions through comprehensive compliance automation tools and workflow optimization systems.",
+            "Intelligent automation of governance functions through adaptive compliance automation systems, minimizing manual errors and accelerating approval cycles.",
           icon: "/icons/GovernanceRisk/GovernanceFuture-icon4.svg",
         },
         {
@@ -2126,7 +2126,7 @@ export const solutionData = [
         {
           title: "Compliance Reporting",
           description:
-            "Comprehensive audit trails generated instantly via audit management software and regulatory submission tools.",
+            "Automated audit trails generated via smart audit management software, streamlining documentation, improving accuracy, and expediting regulatory submissions.",
           icon: "/icons/GovernanceRisk/GovernanceFuture-icon6.svg",
         },
       ],

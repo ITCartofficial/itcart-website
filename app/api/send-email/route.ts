@@ -99,7 +99,7 @@ export async function POST(request: Request) {
 
     console.log('Sending email...');
     const info: SentMessageInfo = await transporter.sendMail({
-      from: `"ITCart Contact Form" <${process.env.EMAIL_USER}>`,
+      from: `"iTCart Contact Form" <${process.env.EMAIL_USER}>`,
       to,
       subject,
       text: text.replace(/^\s+/gm, ''), // remove leading whitespace
