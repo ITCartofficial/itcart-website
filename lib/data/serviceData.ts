@@ -1333,7 +1333,7 @@ export const serviceData = [
         contenttwo: "Don't let outdated development processes hold your organization back while competitors surge ahead with faster deployments and superior operational efficiency through our comprehensive DevOps services and solutions. "
       },
       futurSectionHeading: "Ready to Accelerate Your Digital Transformation?",
-      futurSectionDescription: "Transform your software delivery with DevOps solutions that provide measurable results and a competitive advantage",
+      futurSectionDescription: "Transform your software delivery with DevOps solutions that provide measurable results and a competitive advantage.",
       FAQsHeading: 'Everything You Need to Know About DevOps Services',
       FAQs: [
         {

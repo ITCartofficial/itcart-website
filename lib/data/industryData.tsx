@@ -981,7 +981,7 @@ export const industryData = [
         {
           id: '5',
           title: "What education technology solutions and services do you offer?",
-          content: "Our education technology solutions and services encompass learning management systems, student information platforms, assessment tools, administrative automation, and comprehensive analytics through innovative educational technologies delivering improvements."
+          content: "Our education technology solutions and services encompass Learning Management Systems, student information platforms, assessment tools, administrative automation, and comprehensive analytics through innovative educational technologies delivering improvements."
         },
         {
           id: '6',
@@ -991,7 +991,7 @@ export const industryData = [
         {
           id: '7',
           title: "Can your solutions integrate with existing educational systems?",
-          content: "Yes, our education technology solutions feature robust APIs and pre-built integrations ensuring seamless connectivity with existing learning management systems, student information platforms, and administrative tools without disrupting operations."
+          content: "Yes, our education technology solutions feature robust APIs and pre-built integrations ensuring seamless connectivity with existing Learning Management Systems, student information platforms, and administrative tools without disrupting operations."
         },
       ]
     }
@@ -2714,7 +2714,7 @@ export const industryData = [
         },
         {
           title: "Learning Management System",
-          description: "Our learning management system provides training modules, certification tracking, compliance assessments, skill development, and immersive workforce development experiences for government teams.",
+          description: "Our Learning Management System provides training modules, certification tracking, compliance assessments, skill development, and immersive workforce development experiences for government teams.",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],

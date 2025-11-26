@@ -31,7 +31,7 @@ export const foundingMembers = [
     title: "Abdur Rehman Ajmal",
     designation: "Founder & Chairman",
     description:
-      "A true philanthropist and an extraordinary multipreneur, forging multiple successful businesses across diverse industries over the past 2 decades with extreme focus on nation building",
+      "A true philanthropist and an extraordinary multipreneur, forging multiple successful businesses across diverse industries over the past 2 decades with extreme focus on nation building.",
   },
   {
     image: "/images/founders/rohimuddin.png",
