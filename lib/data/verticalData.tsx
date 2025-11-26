@@ -276,7 +276,7 @@ export const verticalData = [
                 contentOne: "Modern banks face complex challenges that demand AI-driven automation, digital lending platforms, debt-recovery intelligence, real-time risk management, and predictive analytics to achieve operational excellence.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXBFS-section.png",
-                imgAlt: "AI in bfsi ",
+                imgAlt: "AI in BFSI ",
             },
             aboutSection: {
                 aboutImage: '/images/vertical/AiXBFS-about.png',
@@ -530,7 +530,7 @@ export const verticalData = [
             skillGapSectionHeading: 'Built For Learning Excellence',
             FAQsHeading: 'Everything You Need to Know About AiXQP',
             VerticalContentSection2: {
-                contentOne: "Traditional online education platforms often deliver generic content. Modern learning requires AI-driven learning experience platforms, intelligent learning management systems, adaptive learning technology, personalized AI tutoring, student engagement tools, and AI-enabled certification workflows to achieve educational excellence.",
+                contentOne: "Traditional online education platforms often deliver generic content. Modern learning requires AI-driven learning experience platforms, intelligent Learning Management System, adaptive learning technology, personalized AI tutoring, student engagement tools, and AI-enabled certification workflows to achieve educational excellence.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXQP-section1.png",
                 imgAlt: "AI-powered education platform "
@@ -538,9 +538,9 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXQP-section2.png',
                 logo: '/images/verticalLogos/AiXQP.png',
-                contentOne: " AiXQP is iTCart's revolutionary AI learning experience platform featuring comprehensive AI-powered education platform, intelligent learning management system, personalized AI learning system, adaptive learning technology, AI in student engagement, and AI certification programs capabilities. Built ground-up with AiXHub engine delivering interactive AI tutors and continuous intelligence that evolves with learner needs ensuring faster skill development and industry relevance across multiple educational domains through intelligent automation.",
+                contentOne: " AiXQP is iTCart's revolutionary AI learning experience platform featuring comprehensive AI-powered education platform, intelligent Learning Management System, personalized AI learning system, adaptive learning technology, AI in student engagement, and AI certification programs capabilities. Built ground-up with AiXHub engine delivering interactive AI tutors and continuous intelligence that evolves with learner needs ensuring faster skill development and industry relevance across multiple educational domains through intelligent automation.",
                 contenttwo: " ",
-                imgAlt: "intelligent learning management system "
+                imgAlt: "intelligent Learning Management System "
             },
             CapabilitySections: [
                 {
@@ -560,7 +560,7 @@ export const verticalData = [
                 },
                 {
                     title: "Intelligent Assessment Tools",
-                    description: "Sophisticated diagnostic evaluation via advanced intelligent learning management system architecture. ",
+                    description: "Sophisticated diagnostic evaluation via advanced intelligent Learning Management System architecture. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
             ],
@@ -618,8 +618,8 @@ export const verticalData = [
                 },
                 {
                     id: '4',
-                    title: 'How does the intelligent learning management system track progress?',
-                    content: 'Our intelligent learning management system provides real-time progress tracking, performance analytics, personalized study recommendations, and continuous assessment through sophisticated diagnostic tools that identify strengths and improvement areas.'
+                    title: 'How does the intelligent Learning Management System track progress?',
+                    content: 'Our intelligent Learning Management System provides real-time progress tracking, performance analytics, personalized study recommendations, and continuous assessment through sophisticated diagnostic tools that identify strengths and improvement areas.'
                 },
                 {
                     id: '5',
@@ -633,8 +633,8 @@ export const verticalData = [
                 },
                 {
                     id: '7',
-                    title: 'Can the platform integrate with existing learning management systems?',
-                    content: " Yes, our intelligent learning management system supports seamless integration with existing LMS, HR systems, and talent platforms through robust APIs and SCORM compliance for maximum compatibility."
+                    title: 'Can the platform integrate with existing Learning Management System?',
+                    content: " Yes, our intelligent Learning Management System supports seamless integration with existing LMS, HR systems, and talent platforms through robust APIs and SCORM compliance for maximum compatibility."
                 },
                 {
                     id: '8',
@@ -1394,7 +1394,7 @@ export const verticalData = [
                 logo: '/images/vertical/AiXRCM-darklogo.png',
                 contentOne: "RCMAiX transforms healthcare financial management by combining AI-driven analytics with deep revenue cycle expertise to deliver intelligent RCM capabilities. The platform automates claims processing, predicts cash flow patterns, and integrates with hospital information systems using connected revenue cycle tools and structured workflow automation that reduce errors, speed up payment cycles, and maintain regulatory compliance.",
                 contenttwo: "",
-                imgAlt: "cloud based medical billing software"
+                imgAlt: "cloud-based medical billing software"
             },
             CapabilitySections: [
                 {
@@ -1467,7 +1467,7 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'How quickly can RCMAiX be implemented? ',
-                    content: "Implementation typically takes 2-4 weeks with zero disruption to existing systems through seamless healthcare workflow automation and cloud based medical billing software integration."
+                    content: "Implementation typically takes 2-4 weeks with zero disruption to existing systems through seamless healthcare workflow automation and cloud-based medical billing software integration."
                 },
                 {
                     id: '2',

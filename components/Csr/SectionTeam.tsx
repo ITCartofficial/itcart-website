@@ -26,6 +26,9 @@ export default function SectionTeam({
     const scrollContainerRef = useRef<HTMLDivElement>(null);
     const thumbRefs = useRef<(HTMLDivElement | null)[]>([]);
 
+    console.log("slides>>>>>>>>>>>>>>>>>>>>>>>>>", slides);
+
+
     // 🌀 Disable scroll restoration
     useEffect(() => {
         if ("scrollRestoration" in history) {

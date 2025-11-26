@@ -58,7 +58,7 @@ const LeaderCard = ({ image, title, designation, description, direction, theme }
           <BodyText
             text={description || ""}
             className={`text-[17px] lg:text-[16px] lg:text-left text-center md:mt-3 ${textColor}`}
-            lineClamp={4}
+            lineClamp={6}
           />
         </div>
       )}
