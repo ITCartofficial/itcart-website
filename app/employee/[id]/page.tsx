@@ -9,10 +9,10 @@ import { FaArrowRight } from "react-icons/fa6";
 interface Employee {
     name: string;
     email: string;
-    phone: string;
-    Department: string;
+    phoneNo: string;
+    department: string;
     employeeId: string;
-    image: string;
+    Image: string;
     designation: string;
 }
 
@@ -23,6 +23,9 @@ function EmployeePage() {
     const pathName = usePathname()
 
     const id = pathName.split("/")[2];
+
+
+
 
     const handleSaveContact = (contact: { name: string; phone: number; email: string }) => {
         const vcfData = `
@@ -58,9 +61,10 @@ END:VCARD
                 // Trigger contact save after fetching employee data
                 handleSaveContact(
                     {
-                        name: data.name,
-                        phone: 8129887972,
-                        email: "abhinavtv6028@gmail.com",
+                        name: data?.name,
+                        phone: data?.phoneNo,
+                        email: data?.email,
+
                     });
             } catch (err) {
                 console.error("API Error:", err);
@@ -70,14 +74,16 @@ END:VCARD
         fetchEmployeeData();
     }, [id]);
 
+
+    console.log("employeeData", employeeData);
     return (
         <>
             <div className="bg-[#1a1a1a] text-white p-6 rounded-2xl mx-auto flex flex-col space-y-5 mt-10">
                 {/* Image */}
                 <div className="w-full h-[250px] overflow-hidden rounded-xl mt-4">
-                    {employeeData?.image && (
+                    {employeeData?.Image && (
                         <Image
-                            src={employeeData.image}
+                            src={employeeData.Image}
                             alt={employeeData.name || "Employee Image"}
                             width={400}
                             height={400}
@@ -106,10 +112,10 @@ END:VCARD
                             <p className="text-[16px] text-gray-100">Employee ID : <span className="font-semibold text-white mt-1 text-[18px]">{employeeData?.employeeId}</span></p>
                         </div>
                         <div className="">
-                            <p className="text-[16px] text-gray-100">Department : <span className="font-semibold text-white mt-1 text-[18px]">{employeeData?.Department}</span></p>
+                            <p className="text-[16px] text-gray-100">Department : <span className="font-semibold text-white mt-1 text-[18px]">{employeeData?.department}</span></p>
                         </div>
                         <div>
-                            <p className="text-[16px] text-gray-100">Contact : <span className="font-semibold text-white mt-1 text-[18px]">{employeeData?.name}</span></p>
+                            <p className="text-[16px] text-gray-100">Contact : <span className="font-semibold text-white mt-1 text-[18px]">{employeeData?.phoneNo}</span></p>
                         </div>
                         <div className="">
                             <p className="text-[16px] text-gray-100">Email : <span className="font-semibold text-white mt-1 text-[18px]">{employeeData?.name}</span></p>
