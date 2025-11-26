@@ -12,6 +12,7 @@ interface CaseStudyCardProps {
 
 const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card, forSlide, isFocused }) => {
 
+
     return (
 
         <a href={`/case-study/${card.slug}`}>

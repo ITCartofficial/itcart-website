@@ -1,3 +1,51 @@
+// import BlogContents from "@/components/BlogDetailPage/BlogContent";
+// import SectionBanner from "@/components/BlogDetailPage/SectionBanner";
+// import { newBlogData } from "@/lib/data/newBlogData";
+
+// const SingleBlogPage = () => {
+
+//   const filterdData = newBlogData[0]
+
+//   // console.log("filterdData", filterdData);
+
+
+//   return (
+//     <div className="mt-10 md:mt-30 mb-10 space-y-20">
+
+//       <SectionBanner filterdData={filterdData} />
+
+//       <BlogContents filterdData={filterdData} />
+
+//     </div>
+//   )
+// }
+// export default SingleBlogPage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import client from "@/lib/wp/graphqlClient";
 import { GET_POST_BY_SLUG } from "@/lib/wp/queries";
@@ -19,27 +67,36 @@ export default async function SingleBlogPage({
       variables: { slug: param },
     });
 
+    console.log("ONEEEEEEEEEEEEEEEE", data?.post?.content);
+
+
     return (
-        <article id="singlePostContainer">
-      <h1 style={{color:"#ffff"}}>{data?.post?.title}</h1>
-      {data.post.featuredImage?.node?.sourceUrl && (
-        <Image
-          src={data?.post?.featuredImage?.node?.sourceUrl}
-          alt={data?.post?.featuredImage?.node?.altText || ""}
-          width={500}
-          height={300}
-          className="w-full h-[300px] object-cover mb-4"
+      <article id="singlePostContainer">
+        <h1 style={{ color: "#ffff" }}>{data?.post?.title}</h1>
+        {data.post.featuredImage?.node?.sourceUrl && (
+          <Image
+            src={data?.post?.featuredImage?.node?.sourceUrl}
+            alt={data?.post?.featuredImage?.node?.altText || ""}
+            width={500}
+            height={300}
+            className="w-full h-[300px] object-cover mb-4"
+          />
+        )}
+        <div
+          id="postContent"
+          style={{ color: "#ffff" }}
+          dangerouslySetInnerHTML={{ __html: data?.post?.content }}
         />
-      )}
-      <div
-        id="postContent"
-        style={{color:"#ffff"}}
-        dangerouslySetInnerHTML={{ __html: data?.post?.content }}
-      />
-    </article>
+      </article>
     );
   } catch (error) {
     console.error("Error fetching blog data:", error);
     return <div>Error fetching blog data</div>;
   }
 }
+
+
+
+
+
+
