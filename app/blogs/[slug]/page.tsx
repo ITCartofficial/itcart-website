@@ -1,3 +1,59 @@
+// import HomeFaqSection from "@/app/(features)/home/HomeFaqSection";
+// import BlogContents from "@/components/BlogDetailPage/BlogContent";
+// import SectionBanner from "@/components/BlogDetailPage/SectionBanner";
+// import { newBlogData } from "@/lib/data/newBlogData";
+
+// const SingleBlogPage = () => {
+
+//   const filterdData = newBlogData[3]
+
+
+//   return (
+//     <div className="mt-10 md:mt-30  space-y-20 mb-10">
+
+//       <SectionBanner filterdData={filterdData} />
+
+//       <BlogContents filterdData={filterdData} />
+
+//       {
+//         filterdData?.FAQsHeading &&
+//         <div className="bg-[#131313] border-b-2 border-b-zinc-600 -10">
+//           <HomeFaqSection
+//             FAQsHeading={filterdData?.FAQsHeading}
+//             faqs={filterdData?.FAQs ?? []} />
+//         </div>
+//       }
+
+//     </div>
+//   )
+// }
+// export default SingleBlogPage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import client from "@/lib/wp/graphqlClient";
 import { GET_POST_BY_SLUG } from "@/lib/wp/queries";
@@ -19,24 +75,27 @@ export default async function SingleBlogPage({
       variables: { slug: param },
     });
 
+    console.log("ONEEEEEEEEEEEEEEEE", data?.post?.content);
+
+
     return (
-        <article id="singlePostContainer">
-      <h1 style={{color:"#ffff"}}>{data?.post?.title}</h1>
-      {data.post.featuredImage?.node?.sourceUrl && (
-        <Image
-          src={data?.post?.featuredImage?.node?.sourceUrl}
-          alt={data?.post?.featuredImage?.node?.altText || ""}
-          width={500}
-          height={300}
-          className="w-full h-[300px] object-cover mb-4"
+      <article id="singlePostContainer">
+        <h1 style={{ color: "#ffff" }}>{data?.post?.title}</h1>
+        {data.post.featuredImage?.node?.sourceUrl && (
+          <Image
+            src={data?.post?.featuredImage?.node?.sourceUrl}
+            alt={data?.post?.featuredImage?.node?.altText || ""}
+            width={500}
+            height={300}
+            className="w-full h-[300px] object-cover mb-4"
+          />
+        )}
+        <div
+          id="postContent"
+          style={{ color: "#ffff" }}
+          dangerouslySetInnerHTML={{ __html: data?.post?.content }}
         />
-      )}
-      <div
-        id="postContent"
-        style={{color:"#ffff"}}
-        dangerouslySetInnerHTML={{ __html: data?.post?.content }}
-      />
-    </article>
+      </article>
     );
   } catch (error) {
     console.error("Error fetching blog data:", error);
