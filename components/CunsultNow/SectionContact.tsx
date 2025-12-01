@@ -21,6 +21,7 @@ function SectionContact({ showContent }: { showContent: string, image: string })
                     <div className="flex justify-center text-center mb-6 md:px-0 px-10">
                         <GradientTitle
                             text="Schedule Your Executive Briefing "
+                            as="h3"
                             lineHeight="1.2"
                             className="text-[18px] sm:text-[20px] md:text-[24px] lg:text-[30px] leading-tight w-full sm:w-[90%] md:w-[60%] lg:w-[40%]"
                             theme="dark"

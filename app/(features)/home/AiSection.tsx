@@ -61,9 +61,9 @@ const AiSection: React.FC<AiSectionProps> = ({ title }) => {
                             <div className="flex flex-col lg:flex-1 text-left w-full ">
                                 {isActive ? (
                                     <div className="flex flex-col lg:items-start lg:gap-4 mt-auto ">
-                                        <h2 className="text-[20px] sm:text-[24px] md:text-[26px] lg:text-[30px] whitespace-nowrap text-[#2BADB7] font-bold ">
+                                        <h3 className="text-[20px] sm:text-[24px] md:text-[26px] lg:text-[30px] whitespace-nowrap text-[#2BADB7] font-bold ">
                                             {item.title}
-                                        </h2>
+                                        </h3>
                                         <p className="text-white text-[15px] sm:text-[16px] md:text-[18px] leading-relaxed opacity-90 max-w-[700px] lg:max-w-none mt-2 lg:mt-0">
                                             {item.description}
                                         </p>

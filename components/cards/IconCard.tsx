@@ -23,6 +23,7 @@ const IconCard = ({ icon, title, description, className, theme }: IconCardProps)
             />
             <GradientTitle
                 text={title}
+                as="h3"
                 theme={theme}
                 className="text-[24px] lg:text-3xl text-center md:mt-0 mt-4"
             />

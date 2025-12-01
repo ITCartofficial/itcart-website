@@ -77,7 +77,7 @@ function WhyImplementation() {
                                     : "hover:bg-cyan-500/10 text-gray-300"
                                     }`}
                             >
-                                <p className="text-white">{item?.title}</p>
+                                <h3 className="text-white">{item?.title}</h3>
                                 {selected.id === index + 1 && (
                                     <FaArrowRight className="w-4 h-4 text-white" />
                                 )}
