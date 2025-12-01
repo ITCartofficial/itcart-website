@@ -141,27 +141,6 @@ export const jobs = [
     ],
   },
   {
-    jobId: "iTC0004",
-    title: "Step in as the right hand to global leadership. Your next move starts here.",
-    Role: "Executive Assistant to CXO Leadership",
-    location: "Toledo, Ohio, USA ",
-    employmentType: "Full Time",
-    jobCategory: "Sales",
-    jobDescriptionUrl: "/iTC0004",
-    Experience: "3–7 years supporting C-Suite or senior global executive",
-    reportsTo: '',
-    positionOverview: "",
-    objectives: [
-      "Provide high-level support to CXO and global leadership teams operating out of the United State",
-      " Manage executive calendars, priorities, and cross-timezone coordination ",
-      "Handle confidential communication and executive-level documentation ",
-      " Prepare briefing notes, presentations, reports, and follow-up trackers  ",
-      "Coordinate strategic meetings, drive cross-functional alignment, and ensure timely execution ",
-      "Support leadership with key projects, research, and data-driven decision-making",
-      "Manage travel, events, stakeholder engagements, and critical operational requirements "
-    ],
-  },
-  {
     jobId: "iTC0005",
     title: "Passionate about creating exceptional customer experiences in the USA?",
     Role: "Customer Support Executive",
