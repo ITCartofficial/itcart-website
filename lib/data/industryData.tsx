@@ -158,6 +158,7 @@ export const industryData = [
       FAQsHeading: 'Everything You Need to Know About Airlines',
       FAQs: [
         {
+          
           id: '1',
           title: "What makes iTCart's aviation technology solutions different?",
           content: "Our comprehensive approach integrates artificial intelligence in airline industry operations with proven digital transformation in aviation methodologies, delivering measurable results through advanced flight and airport operations management capabilities ensuring a competitive advantage."
