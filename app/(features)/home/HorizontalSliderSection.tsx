@@ -25,7 +25,7 @@ const HorizontalSliderSection: React.FC<HorizontalSliderSectionProps> = ({ text,
                 />
 
                 {/* Navigation Buttons */}
-                <div className="flex hidden lg:flex items-center md:justify-center ml-auto md:ml-0 mt-4 md:mt-0 gap-2 md:gap-4">
+                <div className="flex  lg:flex items-center md:justify-center ml-auto md:ml-0 mt-4 md:mt-0 gap-2 md:gap-4">
                     <button
                         onClick={() => sliderRef.current?.slidePrev()}
                         className="flex items-center justify-center md:w-12 md:h-12 w-10 h-10 rounded-full bg-[#2BADB7] border border-transparent text-white hover:bg-transparent hover:border-[#2BADB7] hover:text-[#2BADB7] transition-all duration-300 shadow-md"

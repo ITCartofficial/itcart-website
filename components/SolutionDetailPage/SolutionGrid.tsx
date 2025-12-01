@@ -49,9 +49,9 @@ function SolutionGrid({ futurSectionHeading, solutionItems }: SolutionGridProps)
 
                                 {/* Content Container */}
                                 <div className="relative z-20 mt-5">
-                                    <h2 className="text-[20px] md:text-3xl font-bold mb-2 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                                    <h3 className="text-[20px] md:text-3xl font-bold mb-2 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
                                         {industry.title}
-                                    </h2>
+                                    </h3>
                                     <p className="text-gray-300 leading-relaxed text-base">
                                         {industry.description}
                                     </p>

@@ -39,8 +39,9 @@ const BlogsHero: React.FC<BlogsHeroProps> = ({ title,
             </nav>
             <GradientTitle
                 text={title}
+                as="h1"
                 theme="dark"
-                className="text-4xl text-5xl md:text-[64px] mb-4"
+                className="text-4xl  md:text-[64px] mb-4"
             />
 
             {
