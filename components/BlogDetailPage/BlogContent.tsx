@@ -31,7 +31,7 @@ export function parseContentWithLinks(content: string) {
     // Detects: <link text="Explore" url="https://bmw.com" />
     const linkRegex = /<link text="(.*?)" url="(.*?)"\s*\/>/g;
 
-    const parts: any[] = [];
+    const parts = [];
     let lastIndex = 0;
     let match;
 
