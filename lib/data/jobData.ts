@@ -104,6 +104,50 @@ export const jobs = [
 
 
   },
+   {
+    jobId: "iTC0002",
+    title: "Growing Our Sales Presence in North America ",
+    location: "Toledo, Ohio, USA ",
+    employmentType: "Full Time",
+    jobCategory: "Sales",
+    jobDescriptionUrl: "/iTC0002",  
+    reportsTo: '',
+    positionOverview: "",
+    objectives: [
+      "Prospect, pitch, and win clients using proven sales strategies",
+      " Build and manage a strong sales pipeline ",
+      "Drive revenue growth across North America markets ",
+      "Collaborate with cross-functional teams to deliver client success "
+    ],
+    // responsibilities: [
+    //   {
+    //     title: '',
+    //     items: [
+    //       "",
+    //     ]
+    //   },
+    // ],
+    // performanceIndicators: [
+    //   {
+    //     title: '',
+    //     items: [ ]
+    //   }
+    // ],
+    // qualifications: [
+    //   "10+ years of experience in SharePoint architecture, development, governance, and enterprise collaboration solutions.",
+    //   "Strong expertise in SharePoint Online, SharePoint Server (2016/2019), Microsoft 365, and Power Platform.",
+    //   "Hands-on experience in SharePoint Framework (SPFx), Power Automate, Power Apps, and Microsoft Graph API.",
+    //   "Deep knowledge of SharePoint security, governance, compliance, and data retention policies.",
+    //   "Proven expertise in SharePoint migration, content management, and AI-driven automation workflows.",
+    //   "Experience with Azure AI, Microsoft Teams, OneDrive, and business intelligence integrations."
+    // ],
+    // optionalSkills: [
+    //   "Experience with AI-powered document management, chatbots, and automated knowledge retrieval.",
+    //   "Certifications: Microsoft Certified: SharePoint Administrator Associate, Microsoft 365 Certified: Developer Associate.",
+    //   "Familiarity with hybrid SharePoint deployments, federated search, and cognitive services.",
+    //   "Experience in collaboration platform transformation for BFSI, healthcare, and manufacturing industries.",
+    // ]
+  },
   // {
   //   jobId: "iTC0002",
   //   title: "Assistant to the Co-Founder & Global CTO",

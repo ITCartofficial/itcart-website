@@ -82,11 +82,11 @@ import HorizontalImageSlider from '@/components/slider/HorizontalImageSlider';
 import WhyWorkWithUsSection from '@/components/careers/WhyWorkWithUsSection';
 import JobSection from '@/components/careers/JobSection';
 import WhoWeAre from '@/components/careers/WhoWeAre';
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 
 const Careers: React.FC = () => {
     const [isClient, setIsClient] = useState(false);
-    const router = useRouter();
+    // const router = useRouter();
 
     useEffect(() => {
         setIsClient(true);

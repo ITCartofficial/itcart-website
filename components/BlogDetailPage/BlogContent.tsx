@@ -31,7 +31,7 @@ export function parseContentWithLinks(content: string) {
     // Detects: <link text="Explore" url="https://bmw.com" />
     const linkRegex = /<link text="(.*?)" url="(.*?)"\s*\/>/g;
 
-    const parts: any[] = [];
+    const parts = [];
     let lastIndex = 0;
     let match;
 
@@ -111,7 +111,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                     </div>
 
                     {/* CONTENT SECTION */}
-                    <div className="space-y-3 text-gray-300 leading-relaxed text-[16px] space-y-6">
+                    <div className="space-y-3 text-gray-300 leading-relaxed text-[16px]">
                         {
                             filterdData?.contents?.map((data, index) =>
                                 <div key={index}>

@@ -10,18 +10,24 @@ interface Job {
     positionOverview: string;
     reportsTo?: string;
     objectives?: string[];
-    responsibilities: {
-        title: string;
-        items: string[];
+    responsibilities?: {
+        title?: string;
+        items?: string[];
     }[];
     performanceIndicators?: {
-        title: string;
-        items: string[];
+        title?: string;
+        items?: string[];
     }[],
     qualifications?: string[];
+    optionalSkills?: string[];
+
 }
 
-function JobDetails({ filteredJob }: { filteredJob: Job }) {
+interface JobDetailsProps {
+    filteredJob: Job;
+}
+
+const JobDetails: React.FC<JobDetailsProps> = ({ filteredJob }:JobDetailsProps) => {
     return (
 
 
@@ -35,7 +41,7 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
 
             <div className="space-y-7 text-white">
                 <div>
-                    <p className="font-semibold">Job Description</p>
+                    <p className="font-semibold">   </p>
                 </div>
                 <p>
                     <span className="font-semibold">Job Code:</span>{" "}
@@ -47,9 +53,9 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                 <p>
                     <span className="font-semibold">Location:</span> {filteredJob?.location}
                 </p>
-                <p>
+                {/* <p>
                     <span className="font-semibold">Reports To:</span> {filteredJob?.reportsTo}
-                </p>
+                </p> */}
 
                 <div>
                     <p className="font-semibold">
@@ -70,14 +76,14 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                 </div>
 
 
-                <div>
+                {/* <div>
                     <p className="font-semibold">
                         Position Overview:
                     </p>
                     <p className="mt-5 text-white leading-relaxed">
                         {filteredJob?.positionOverview}
                     </p>
-                </div>
+                </div> */}
 
 
                 <div>
@@ -86,14 +92,14 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                     </p>
                     <ul className="list-disc list-outside text-white leading-relaxed space-y-3 pl-6 mt-5 ">
                         {
-                            filteredJob?.objectives?.map((objective, index) => (
+                            filteredJob?.objectives?.map((objective:string, index:number) => (
                                 <li key={index}>{objective}</li>
                             ))
                         }
                     </ul>
                 </div>
 
-                <div>
+                {/* <div>
                     <p className="font-semibold">
                         Key Responsibilities:
                     </p>
@@ -123,9 +129,9 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                         )
                     }
 
-                </div>
+                </div> */}
 
-                <div>
+                {/* <div>
                     <p className="font-semibold">
                         Key Performance Indicators (KPIs) :
                     </p>
@@ -155,9 +161,9 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                         )
                     }
 
-                </div>
+                </div> */}
 
-                <div>
+                {/* <div>
                     <p className="font-semibold">
                         Mandatory Qualifications :
                     </p>
@@ -168,9 +174,9 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                             ))
                         }
                     </ul>
-                </div>
+                </div> */}
 
-                <div>
+                {/* <div>
                     <p className="font-semibold">
                         Optional Skills :
                     </p>
@@ -181,7 +187,7 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                             ))
                         }
                     </ul>
-                </div>
+                </div> */}
 
                 <div className="">
                     <p className="font-semibold">
@@ -224,14 +230,14 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
 
                         <div>
                             <p className="text-[18px] font-semibold">
-                                https://itcart.io/careers/.
+                                hr@itcart.io
                             </p>
                         </div>
 
                         <div>
                             <p className="text-[18px]">
                                 <span className="font-semibold">Job Category : </span>
-                                Information Technology & Engineering
+                                {filteredJob?.jobCategory}
                             </p>
 
                             <p className="text-[18px]">
