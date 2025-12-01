@@ -10,18 +10,26 @@ interface Job {
     positionOverview: string;
     reportsTo?: string;
     objectives?: string[];
-    responsibilities: {
-        title: string;
-        items: string[];
+    responsibilities?: {
+        title?: string;
+        items?: string[];
     }[];
     performanceIndicators?: {
-        title: string;
-        items: string[];
+        title?: string;
+        items?: string[];
     }[],
     qualifications?: string[];
+    optionalSkills?: string[];
+    Experience?: string;
+    Role?: string;
+
 }
 
-function JobDetails({ filteredJob }: { filteredJob: Job }) {
+interface JobDetailsProps {
+    filteredJob: Job;
+}
+
+const JobDetails: React.FC<JobDetailsProps> = ({ filteredJob }: JobDetailsProps) => {
     return (
 
 
@@ -35,7 +43,7 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
 
             <div className="space-y-7 text-white">
                 <div>
-                    <p className="font-semibold">Job Description</p>
+                    <p className="font-semibold">   </p>
                 </div>
                 <p>
                     <span className="font-semibold">Job Code:</span>{" "}
@@ -45,11 +53,40 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                     <span className="font-semibold">Job Title:</span> {filteredJob?.title}
                 </p>
                 <p>
+                    <span className="font-semibold">Role:</span> {filteredJob?.Role}
+                </p>
+                <p>
                     <span className="font-semibold">Location:</span> {filteredJob?.location}
                 </p>
                 <p>
-                    <span className="font-semibold">Reports To:</span> {filteredJob?.reportsTo}
+                    <span className="font-semibold">Experience:</span> {filteredJob?.Experience}
                 </p>
+
+                <div>
+                    <p className="font-semibold">
+                        Key Objectives:
+                    </p>
+                    <ul className="list-disc list-outside text-white leading-relaxed space-y-3 pl-6 mt-5 ">
+                        {
+                            filteredJob?.objectives?.map((objective: string, index: number) => (
+                                <li key={index}>{objective}</li>
+                            ))
+                        }
+                    </ul>
+                </div>
+
+                <div>
+                    <p className="text-[18px] font-semibold md:mt-[-20px]">
+                        How to Apply :
+                    </p>
+
+                    <div>
+                        <p className="text-[18px] font-semibold mt-5">
+                            hr@itcart.io
+                        </p>
+                    </div>
+                </div>
+
 
                 <div>
                     <p className="font-semibold">
@@ -70,30 +107,19 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                 </div>
 
 
-                <div>
+                {/* <div>
                     <p className="font-semibold">
                         Position Overview:
                     </p>
                     <p className="mt-5 text-white leading-relaxed">
                         {filteredJob?.positionOverview}
                     </p>
-                </div>
+                </div> */}
 
 
-                <div>
-                    <p className="font-semibold">
-                        Key Objectives:
-                    </p>
-                    <ul className="list-disc list-outside text-white leading-relaxed space-y-3 pl-6 mt-5 ">
-                        {
-                            filteredJob?.objectives?.map((objective, index) => (
-                                <li key={index}>{objective}</li>
-                            ))
-                        }
-                    </ul>
-                </div>
 
-                <div>
+
+                {/* <div>
                     <p className="font-semibold">
                         Key Responsibilities:
                     </p>
@@ -123,9 +149,9 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                         )
                     }
 
-                </div>
+                </div> */}
 
-                <div>
+                {/* <div>
                     <p className="font-semibold">
                         Key Performance Indicators (KPIs) :
                     </p>
@@ -155,9 +181,9 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                         )
                     }
 
-                </div>
+                </div> */}
 
-                <div>
+                {/* <div>
                     <p className="font-semibold">
                         Mandatory Qualifications :
                     </p>
@@ -168,9 +194,9 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                             ))
                         }
                     </ul>
-                </div>
+                </div> */}
 
-                <div>
+                {/* <div>
                     <p className="font-semibold">
                         Optional Skills :
                     </p>
@@ -181,7 +207,7 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                             ))
                         }
                     </ul>
-                </div>
+                </div> */}
 
                 <div className="">
                     <p className="font-semibold">
@@ -218,20 +244,12 @@ function JobDetails({ filteredJob }: { filteredJob: Job }) {
                             Welcome to the future, engineered today.
                         </p>
 
-                        <p className="text-[18px] font-semibold md:mt-[-20px]">
-                            How to Apply :
-                        </p>
 
-                        <div>
-                            <p className="text-[18px] font-semibold">
-                                https://itcart.io/careers/.
-                            </p>
-                        </div>
 
                         <div>
                             <p className="text-[18px]">
                                 <span className="font-semibold">Job Category : </span>
-                                Information Technology & Engineering
+                                {filteredJob?.jobCategory}
                             </p>
 
                             <p className="text-[18px]">

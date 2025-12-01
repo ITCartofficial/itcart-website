@@ -652,6 +652,148 @@ export const verticalData = [
                     content: " Yes, AiXQP features mobile-optimized learning with fully responsive design, offline access capabilities, distraction-free interface, and seamless synchronization across devices for learning on-the-go."
                 },
             ],
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXQP – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixqp",
+                        "description": "AiXQP is an AI learning platform offering online courses with certification, internships, and placement support to help you grow your career.",
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXQP",
+                            "operatingSystem": "Web, Cloud, Mobile",
+                            "applicationCategory": "EducationalApplication",
+                            "url": "https://itcart.ai/our-verticals/aixqp",
+                            "description": "AiXQP is an AI-powered online learning platform offering personalized study paths, AI certifications, adaptive learning, and real-time progress tracking for students, professionals, and enterprises.",
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://aixqp.com/"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://aixqp.com/",
+                                "description": "AiXQP offers free and paid AI certification programs, professional development courses, internship tracks, and corporate learning modules."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "1520",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "EnrollAction",
+                                "target": "https://aixqp.com/",
+                                "name": "Enroll Now",
+                                "description": "Enroll in AI-powered online courses, certification programs, and internship pathways on AiXQP."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXQP",
+                                    "item": "https://itcart.ai/our-verticals/aixqp"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXQP different from other online learning platforms?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Unlike platforms that add AI as an afterthought, AiXQP is built ground-up as an AI learning experience platform with every lesson, quiz, and response powered by intelligent systems that understand, guide, and grow with learners through personalized AI learning system capabilities."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does the AI-powered education platform adapt to individual learning styles?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Our AI-powered education platform analyzes performance data, learning preferences, and career objectives to create personalized study paths through adaptive learning technology that evolves with progress and automatically reinforces challenging concepts."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What types of AI certification programs are available?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXQP offers comprehensive AI certification programs across technology, healthcare, finance, marketing, and manufacturing. Courses include industry-relevant credentials and verified learning outcomes for career advancement."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does the intelligent learning management system track progress?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The AiXQP platform provides real-time progress tracking, performance analytics, personalized study recommendations, and continuous assessment through advanced diagnostic tools that identify strengths and improvement areas."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the platform suitable for corporate training programs?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXQP's adaptive learning technology scales across departments with intelligent automation, automated content creation tools, streamlined assessments, and comprehensive reporting for enterprise-wide training programs."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How secure is learner data on the platform?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXQP ensures strict data privacy with end-to-end encryption, GDPR compliance, secure cloud infrastructure, and global education standards, ensuring learner information is protected and never compromised."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can the platform integrate with existing learning management systems?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXQP integrates seamlessly with existing LMS, HR systems, and enterprise talent platforms using robust APIs and SCORM compliance for maximum compatibility."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: "AiXQP runs on AiXHub, the core of the AiX Framework—bringing deep AI automation, intelligent decision-making, and scalable performance to your learning experience. ",
@@ -795,6 +937,148 @@ export const verticalData = [
                     content: 'We use AI-driven precision underwriting, biological age assessment, multi-omics data fusion, and explainable AI technology through AI in insurance industry innovation instead of outdated demographic-based actuarial tables.'
                 }
             ],
+             schema: {
+                "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "AiXQP – iTCart",
+      "url": "https://itcart.ai/our-verticals/aixqp",
+      "description": "AiXQP is an AI-powered online learning platform offering personalized study paths, certification programs, internships, and real-time progress tracking to help learners grow their careers.",
+      "mainEntity": {
+        "@type": "SoftwareApplication",
+        "name": "AiXQP",
+        "operatingSystem": "Web, Cloud, Mobile",
+        "applicationCategory": "EducationalApplication",
+        "url": "https://itcart.ai/our-verticals/aixqp",
+        "description": "AiXQP enhances learning through AI-driven personalization, adaptive study paths, real-time analytics, and intelligent assessments for students, professionals, and enterprises.",
+
+        "provider": {
+          "@type": "Organization",
+          "name": "iTCart",
+          "url": "https://itcart.ai",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://itcart.ai/assets/logo.png"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/itcart",
+            "https://aixqp.com/"
+          ]
+        },
+
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "url": "https://aixqp.com/",
+          "description": "AiXQP offers free and paid AI certification programs, skill development courses, internship tracks, and corporate training modules."
+        },
+
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1520",
+          "bestRating": "5"
+        },
+
+        "potentialAction": {
+          "@type": "EnrollAction",
+          "target": "https://aixqp.com/",
+          "name": "Enroll Now",
+          "description": "Enroll in AI-powered online courses, certification programs, and internship pathways on AiXQP."
+        }
+      },
+
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://itcart.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Our Verticals",
+            "item": "https://itcart.ai/our-verticals"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AiXQP",
+            "item": "https://itcart.ai/our-verticals/aixqp"
+          }
+        ]
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes AiXQP different from other online learning platforms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AiXQP is built as an AI-first platform where every lesson, quiz, and interaction is intelligently personalized, offering a dynamic and guided learning experience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the AI-powered education platform adapt to individual learning styles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The platform analyzes performance data, learning preferences, and career goals to create personalized study paths through adaptive learning that evolves with the learner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of AI certification programs are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AiXQP offers certification programs across multiple industries including technology, healthcare, finance, marketing, and manufacturing with verified learning outcomes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the intelligent learning management system track progress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AiXQP tracks progress using real-time analytics, personalized recommendations, and diagnostic assessments that identify strengths and improvement areas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the platform suitable for corporate training programs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, AiXQP supports enterprise-level adaptive learning with intelligent automation, automated content creation, assessment tools, and detailed reporting for corporate teams."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How secure is learner data on the platform?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AiXQP ensures data security with end-to-end encryption, anonymized data processing, GDPR compliance, and globally aligned education security standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the platform integrate with existing learning management systems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, AiXQP integrates seamlessly with LMS, HR systems, talent platforms, and enterprise tools using robust APIs and SCORM-compliant architecture."
+          }
+        }
+      ]
+    }
+  ]
+},
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: 'InsureAiX platform runs on AiXHub, the core of the AiX Framework—leveraging advanced AI-driven genomics, behavior analysis, and health data to deliver personalized, dynamic insurance premiums. ',
@@ -935,6 +1219,152 @@ export const verticalData = [
                     content: 'Dedicated project managers, training sessions, and 24/7 technical support throughout deployment.  '
                 }
             ],
+             schema: {
+                 "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "AiXDesk – iTCart",
+      "url": "https://itcart.ai/our-verticals/aixdesk",
+      "description": "AiXDesk is an AI-powered IT service management (ITSM) platform that automates ticketing, asset management, incident response, and IT operations to boost enterprise service delivery.",
+      "mainEntity": {
+        "@type": "SoftwareApplication",
+        "name": "AiXDesk",
+        "operatingSystem": "Web, Cloud, Mobile",
+        "applicationCategory": "ITServiceManagementApplication",
+        "url": "https://itcart.ai/our-verticals/aixdesk",
+        "description": "AiXDesk enhances IT operations with AI-driven ticket automation, IT asset management, service desk workflows, knowledge base intelligence, predictive incident detection, and enterprise-grade ITSM capabilities.",
+
+        "applicationSuite": [
+          "AI-powered Ticketing System",
+          "IT Asset Management (ITAM)",
+          "Incident & Problem Management",
+          "Service Request Automation",
+          "Knowledge Base & Self-Service Portal",
+          "Change & Release Management",
+          "AI Insights for IT Operations",
+          "Workflow Automation & Orchestration",
+          "SLA Tracking & Compliance Monitoring"
+        ],
+
+        "provider": {
+          "@type": "Organization",
+          "name": "iTCart",
+          "url": "https://itcart.ai",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://itcart.ai/assets/logo.png"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/itcart",
+            "https://twitter.com/itcart_ai"
+          ]
+        },
+
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "url": "https://itcart.ai/consult-now#contact-form",
+          "description": "Request a demo of AiXDesk to explore automated ticketing, IT asset management, workflow orchestration, and AI-driven IT service management."
+        },
+
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1240",
+          "bestRating": "5"
+        },
+
+        "potentialAction": {
+          "@type": "SubmitAction",
+          "target": "https://itcart.ai/consult-now#contact-form",
+          "name": "Request a Consultation",
+          "description": "Submit your details to consult with iTCart experts about implementing AiXDesk."
+        }
+      },
+
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://itcart.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Our Verticals",
+            "item": "https://itcart.ai/our-verticals"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AiXDesk",
+            "item": "https://itcart.ai/our-verticals/aixdesk"
+          }
+        ]
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How quickly can AiXDesk be deployed across our organization?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AiXDesk can be deployed in 2-4 weeks, including full training and customization through comprehensive IT service management setup and asset management platform integration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does AiXDesk integrate with our existing systems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. AiXDesk offers pre-built connectors for 200+ business applications with seamless integration across IT asset management systems, digital asset platforms, and enterprise applications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What security measures protect our data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AiXDesk uses enterprise-grade encryption, role-based access controls, secure cloud architecture, and compliance with major standards to protect all ITSM and asset management data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we customize workflows for our specific processes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. AiXDesk includes flexible workflow builders with advanced helpdesk automation, incident management customization, and asset lifecycle automation for any enterprise environment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What support is available during implementation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iTCart provides dedicated project managers, staff training, and 24/7 technical support throughout smart asset tracking deployment and ITSM optimization."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the AI improve IT service delivery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AiXDesk uses AI to analyze patterns, predict incidents, and automate ticket responses with intelligent IT service management algorithms that enhance resolution speed and service delivery quality."
+          }
+        }
+      ]
+    }
+  ]
+},
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: "AiXDesk platform runs on AiXHub, the core of the AiX Framework—offering AI-powered intelligent ticketing, asset management, and helpdesk automation tailored for modern IT service management. ",
