@@ -11,11 +11,12 @@ interface SubItem {
 }
 
 interface ContentItem {
-    id: number;
+    id: number | string; 
     title: string;
-    content: string;
+    content: string[];
     subItems?: SubItem[];
     subItemTitle?: string;
+    finalPoint?: string;
 }
 
 interface FilteredData {
@@ -24,6 +25,46 @@ interface FilteredData {
     writtenBy?: string;
     writtenDate?: string;
     contents: ContentItem[];
+}
+
+export function parseContentWithLinks(content: string) {
+    // Detects: <link text="Explore" url="https://bmw.com" />
+    const linkRegex = /<link text="(.*?)" url="(.*?)"\s*\/>/g;
+
+    const parts: any[] = [];
+    let lastIndex = 0;
+    let match;
+
+    while ((match = linkRegex.exec(content)) !== null) {
+        const [fullMatch, text, url] = match;
+
+        // Add the text before the link
+        if (match.index > lastIndex) {
+            parts.push(content.substring(lastIndex, match.index));
+        }
+
+        // Add the clickable link
+        parts.push(
+            <a
+                key={match.index}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#3cd1ff] underline hover:text-white"
+            >
+                {text}
+            </a>
+        );
+
+        lastIndex = match.index + fullMatch.length;
+    }
+
+    // Add text after last link
+    if (lastIndex < content.length) {
+        parts.push(content.substring(lastIndex));
+    }
+
+    return parts;
 }
 
 const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
@@ -46,6 +87,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
             }
         ],
     }
+
     return (
         <div className="w-full bg-black text-white px-2 lg:px-10">
             <div className="px-2 lg:px-15 grid grid-cols-1 md:grid-cols-3 gap-16">
@@ -62,7 +104,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                         <ul className="space-y-2 text-lg underline underline-offset-4">
                             {
                                 filterdData?.contents?.map((data, index) =>
-                                    <li key={index} className="text-[16px] cursor-pointer">{data?.title}</li>
+                                    <li key={index} className={`text-[16px] cursor-pointer`}> {parseContentWithLinks(data?.title)}</li>
                                 )
                             }
                         </ul>
@@ -79,22 +121,27 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                                         className={`text-[26px] mb-3 lg:items-start sm:text-[32px] md:text-[36px]  w-full lg:w-[80%] leading-[1.2]`}
                                     />
 
-                                    <p className="text-[14px]">
-                                        {data?.content}
-                                    </p>
+                                    {
+                                        data?.content?.map((content: string, index: number) =>
+                                            <p key={index} className={`text-[14px] ${index != 0 ? "mt-2" : "mt-0"}`}>
+                                                {parseContentWithLinks(content)}
+                                            </p>
+                                        )
+                                    }
+
+
 
                                     <ul className="list-disc list-outside text-white leading-relaxed space-y-3 pl-6 mt-4">
                                         {
                                             data?.subItems?.map((items, index) =>
                                                 <>
                                                     <div className="flex">
-                                                        <p className="font-bold">{index + 1} .</p>
-                                                        <p className="ml-3"> {items?.item}</p>
+                                                        <p className="font-bold">{index + 1}.</p>
+                                                        <p className="ml-3"> {parseContentWithLinks(items?.item)}</p>
                                                     </div>
 
                                                     <p >
-                                                        {items?.content}
-
+                                                        {parseContentWithLinks(items?.content)}
                                                     </p>
                                                 </>
 
@@ -102,6 +149,10 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                                         }
 
                                     </ul>
+                                    <p className="text-[14px]">
+                                        {parseContentWithLinks(data?.finalPoint ?? "")}
+                                    </p>
+
                                 </div>
                             )
                         }
@@ -139,7 +190,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
 
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 export default BlogContentss;
