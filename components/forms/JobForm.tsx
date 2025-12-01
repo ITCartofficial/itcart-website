@@ -13,20 +13,26 @@ interface Job {
     positionOverview: string;
     reportsTo?: string;
     objectives?: string[];
-    responsibilities: {
-        title: string;
-        items: string[];
+    responsibilities?: {
+        title?: string;
+        items?: string[];
     }[];
     performanceIndicators?: {
-        title: string;
-        items: string[];
+        title?: string;
+        items?: string[];
     }[];
     qualifications?: string[];
+    optionalSkills?: string[];
+}
+
+interface JobFormProps {
+    filteredJob: Job;
+    theme: "dark" | "light" 
 }
 
 // { theme }: { theme: "dark" | "light" }
 
-function JobForm({ filteredJob, theme }: { filteredJob: Job, theme: "dark" | "light" }) {
+const JobForm: React.FC<JobFormProps> = ({ filteredJob, theme }:JobFormProps) => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");

@@ -111,7 +111,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                     </div>
 
                     {/* CONTENT SECTION */}
-                    <div className="space-y-3 text-gray-300 leading-relaxed text-[16px] space-y-6">
+                    <div className="space-y-3 text-gray-300 leading-relaxed text-[16px]">
                         {
                             filterdData?.contents?.map((data, index) =>
                                 <div key={index}>
