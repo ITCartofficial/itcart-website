@@ -6,16 +6,18 @@ interface SubItem {
 }
 
 interface ContentItem {
-    id: number;
+    id: number | string;  // Allow both number and string
     title: string;
-    content: string;
-    subItemTitle?: string;
+    content: string[];
     subItems?: SubItem[];
+    subItemTitle?: string;
+    finalPoint?: string;
 }
 
 interface FilteredData {
     bannerTitle: string;
     bannerDiscription: string;
+    type?: string;
     writtenBy?: string;
     writtenDate?: string;
     contents: ContentItem[];

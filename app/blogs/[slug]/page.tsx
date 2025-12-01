@@ -1,20 +1,28 @@
+// import HomeFaqSection from "@/app/(features)/home/HomeFaqSection";
 // import BlogContents from "@/components/BlogDetailPage/BlogContent";
 // import SectionBanner from "@/components/BlogDetailPage/SectionBanner";
 // import { newBlogData } from "@/lib/data/newBlogData";
 
 // const SingleBlogPage = () => {
 
-//   const filterdData = newBlogData[0]
-
-//   // console.log("filterdData", filterdData);
+//   const filterdData = newBlogData[3]
 
 
 //   return (
-//     <div className="mt-10 md:mt-30 mb-10 space-y-20">
+//     <div className="mt-10 md:mt-30  space-y-20 mb-10">
 
 //       <SectionBanner filterdData={filterdData} />
 
 //       <BlogContents filterdData={filterdData} />
+
+//       {
+//         filterdData?.FAQsHeading &&
+//         <div className="bg-[#131313] border-b-2 border-b-zinc-600 -10">
+//           <HomeFaqSection
+//             FAQsHeading={filterdData?.FAQsHeading}
+//             faqs={filterdData?.FAQs ?? []} />
+//         </div>
+//       }
 
 //     </div>
 //   )
@@ -94,9 +102,3 @@ export default async function SingleBlogPage({
     return <div>Error fetching blog data</div>;
   }
 }
-
-
-
-
-
-
