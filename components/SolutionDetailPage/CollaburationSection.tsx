@@ -79,9 +79,9 @@ function CollaborationSection({
                                 {
                                     isActive ?
                                         <div className={`${isActive ? "" : "mb-[-35px] md:mb-0"} `}>
-                                            <p className="text-xl sm:text-2xl lg:text-3xl font-semibold leading-tight text-white">
+                                            <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold leading-tight text-white">
                                                 {item.title}
-                                            </p>
+                                            </h3>
                                         </div>
                                         :
                                         <div className="">

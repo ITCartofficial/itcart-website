@@ -82,6 +82,7 @@ const IconInfoCard: React.FC<IconInfoCardProps> = ({
           />
           <GradientTitle
             text={title}
+            as="h3"
             className="text-[20px] sm:text-[25px] lg:text-[30px] leading-tight"
             theme="dark"
           />

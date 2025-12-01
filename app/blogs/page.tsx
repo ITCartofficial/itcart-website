@@ -13,6 +13,7 @@ import { Post } from "@/types/wordpress";
 import { notFound } from "next/navigation";
 import TechnologySection from "@/components/blogs2/TechnologySection";
 import SuggestedBlogSection from "@/components/blogs2/SuggestedBlogSection";
+import { newBlogData } from "@/lib/data/newBlogData";
 
 const BlogsTemplate = () => {
   const getBlogs = async () => {
@@ -52,6 +53,9 @@ const BlogsTemplate = () => {
   if (!isClient) {
     return null;
   }
+
+  console.log("newBlogData", newBlogData);
+
 
   return (
 

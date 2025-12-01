@@ -5,7 +5,7 @@
 
 // const SingleBlogPage = () => {
 
-//   const filterdData = newBlogData[3]
+//   const filterdData = newBlogData[10]; // Example: Fetching the 5th blog data
 
 
 //   return (

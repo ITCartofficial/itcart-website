@@ -70,6 +70,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                         {/* Title */}
                         <GradientTitle
                             text={title}
+                            as="h1"
                             theme="dark"
                             className={`text-[26px] ${contentClass ? contentClass : "lg:items-start"} sm:text-[32px] md:text-[48px]  w-full lg:w-[60%] leading-[1.2]`}
                         />
