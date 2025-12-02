@@ -29,7 +29,7 @@ export const verticalSchema = {
                 {
                     "@type": "OfferCatalog",
                     "name": "AiXBFS",
-                    "description": "AI-powered platform for banking and financial services."
+                    "description": "AI-native platform for banking and financial services."
                 },
                 {
                     "@type": "OfferCatalog",
@@ -54,7 +54,7 @@ export const verticalSchema = {
                 {
                     "@type": "OfferCatalog",
                     "name": "AiXDesk",
-                    "description": "AI-powered service desk and IT support automation platform."
+                    "description": "AI-native service desk and IT support automation platform."
                 },
                 {
                     "@type": "OfferCatalog",
@@ -84,7 +84,7 @@ export const verticalSchema = {
                 {
                     "@type": "OfferCatalog",
                     "name": "AiXRealty",
-                    "description": "AI-powered platform for real estate, construction, and project intelligence."
+                    "description": "AI-native platform for real estate, construction, and project intelligence."
                 },
                 {
                     "@type": "OfferCatalog",

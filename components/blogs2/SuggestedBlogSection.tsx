@@ -118,19 +118,19 @@ const SuggestedBlogSection = () => {
 
     const caseStudyData = {
         id: '1',
-        title: "Experience a multi-functional AI-Powered platform",
+        title: "Experience a multi-functional AI-native platform",
         author: "iTCart Team",
         date: "2024-06-01",
         imageUrl: "/images/blogs/blog-featured-14.png",
         bannerImage: "/images/blogs/blog-featured-14-banner.png",
-        description: "Discover how our AI-powered platform transforms your business.",
+        description: "Discover how our AI-native platform transforms your business.",
         link: "/contact-us",
         linkText: "Contact us",
-        slug: "ai-powered-platform",
+        slug: "AI-native-platform",
         content: [
             {
                 title: "Overview",
-                content: "Learn more about our multi-functional AI-powered platform and how it can benefit your business."
+                content: "Learn more about our multi-functional AI-native platform and how it can benefit your business."
             }
         ]
     }
@@ -292,7 +292,7 @@ export default SuggestedBlogSection
 //         .slice(0, 5);
 //     const caseStudyData: CaseStudy = {
 //         id: '1',
-//         title: "Experience a multi-functional AI-powered platform",
+//         title: "Experience a multi-functional AI-native platform",
 //         image: "/images/blogs/blog-featured-14.jpg",
 //         link: "/contact",
 //         linkText: "Contact us",

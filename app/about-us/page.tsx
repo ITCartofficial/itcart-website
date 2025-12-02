@@ -19,7 +19,7 @@ import { useLayoutEffect, useState, useEffect } from "react"
 
 const missionVisionData = {
     title: "Our Mission & Vision",
-    description: "To become a global AI industry disruptor who transforms businesses with proprietary AI solutions, helping streamline operations, reduce risks, and drive scalable growth. iTCart harnesses AI that transforms enterprises with future-ready technology.<br>To revolutionize industries and deliver scalable and adaptive AI-powered solutions that shape the digital economy. iTCart's commitment extends beyond transformation, offering sustainable AI systems that redefine business success.",
+    description: "To become a global AI industry disruptor who transforms businesses with proprietary AI solutions, helping streamline operations, reduce risks, and drive scalable growth. iTCart harnesses AI that transforms enterprises with future-ready technology.<br>To revolutionize industries and deliver scalable and adaptive AI-native solutions that shape the digital economy. iTCart's commitment extends beyond transformation, offering sustainable AI systems that redefine business success.",
     imageUrl: "/images/about-card-1.jpg",
 
 }

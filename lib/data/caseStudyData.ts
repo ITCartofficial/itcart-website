@@ -7,7 +7,7 @@ export const caseStudyData: CaseStudyItem[] = [
     title:
       "Transforming Healthcare: The Success of Health AI's Telehealth Platform",
     description:
-      "Discover how Health AI transformed healthcare with its innovative telehealth platform, boosting accessibility, patient outcomes, and clinical efficiency through AI-powered diagnostics, real-time consultations, and integrated digital healthcare services.",
+      "Discover how Health AI transformed healthcare with its innovative telehealth platform, boosting accessibility, patient outcomes, and clinical efficiency through AI-native diagnostics, real-time consultations, and integrated digital healthcare services.",
     author: "Akshay Chakrapani",
     date: "December 15, 2024",
     imageUrl: "/images/case-study/case study featured/Transforming-healthcare.png",
@@ -369,12 +369,12 @@ export const caseStudyData: CaseStudyItem[] = [
     id: "5",
     title: "AI Powered Digital Transformations at Ajmal Foundation",
     description:
-      "Explore how Ajmal Foundation leveraged iTCart's AI-powered digital solutions to modernize operations, enhance educational outreach, optimize healthcare services, and drive impact across its philanthropic initiatives.",
+      "Explore how Ajmal Foundation leveraged iTCart's AI-native digital solutions to modernize operations, enhance educational outreach, optimize healthcare services, and drive impact across its philanthropic initiatives.",
     author: "Akshay Chakrapani",
     date: "December 25, 2024",
     imageUrl: "/images/case-study/case study featured/aipowereddigital.png",
     bannerImage: "/images/case-study/Tranforming Ajmal.webp",
-    slug: "ai-powered-digital-transformation-at-ajmal-foundation",
+    slug: "AI-native-digital-transformation-at-ajmal-foundation",
     content: [
     {
     title: "Executive Summary",
