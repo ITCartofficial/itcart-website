@@ -56,7 +56,6 @@ const BlogsTemplate = () => {
 
   console.log("newBlogData", newBlogData);
 
-
   return (
 
     <html lang="en">
@@ -81,7 +80,7 @@ const BlogsTemplate = () => {
             className="pb-20 w-[80%]"
           />
         </div>
-        <BlogSlider posts={posts} />
+        <BlogSlider posts={newBlogData} />
         <BlogGridLayout posts={posts} />
         <NewsletterSection />
         <TechnologySection />
