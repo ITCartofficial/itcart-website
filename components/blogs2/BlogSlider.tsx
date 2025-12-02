@@ -7,7 +7,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import BlogSliderCard from '../blogs/BlogSliderCard';
 // import { blogPosts } from '@/lib/data/blogsData';
-import { Post } from '@/types/wordpress';
 
 interface SubItem {
     item: string;

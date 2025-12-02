@@ -1,7 +1,6 @@
 import OutlineBtn from '@/components/buttons/OutlineBtn';
 import BodyText from '@/components/typography/BodyText';
 import GradientTitle from '@/components/typography/GradientTitle';
-import { Post } from '@/types/wordpress';
 import Image from 'next/image';
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa6';
@@ -12,7 +11,7 @@ interface SubItem {
 }
 
 interface ContentItem {
-    id: number | string;  // Allow both number and string
+    id: number | string;
     title: string;
     content: string[];
     subItems?: SubItem[];
@@ -24,13 +23,18 @@ interface Posts {
     bannerTitle: string;
     bannerDiscription: string;
     image?: string;
+    id?: number | string;
     type?: string;
     writtenBy?: string;
     writtenDate?: string;
     contents: ContentItem[];
 }
 
-const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, image }) => {
+const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, id, bannerDiscription }) => {
+
+    console.log("bannerTitle", bannerTitle);
+
+
     return (
         <div className="flex flex-col md:flex-row bg-black text-white rounded-2xl overflow-hidden shadow-lg gap-8 md:gap-11 h-auto">
             {/* Image Section */}
@@ -42,10 +46,10 @@ const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, image }) => {
                     className="text-2xl sm:text-3xl md:text-4xl mb-4 text-center md:texr-start mt-2"
                 />
             </div>
-            
+
             <div className="relative w-full md:w-1/2 h-[250px] sm:h-[300px] md:h-[500px] rounded-2xl overflow-hidden">
                 <Image
-                    src={'/images/vertical/section2Image.png'}
+                    src={'/images/about/ai-image.jpg'}
                     alt={bannerTitle}
                     fill
                     className="object-cover object-center"
@@ -74,10 +78,12 @@ const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, image }) => {
                     </div>
 
 
-                    {/* <p
-                        dangerouslySetInnerHTML={{ __html: excerpt }}
+                    <p
+                        // dangerouslySetInnerHTML={{ __html: excerpt }}
                         className="text-base md:text-lg text-center md:text-start text-gray-300"
-                    /> */}
+                    >
+                        {bannerDiscription}
+                    </p>
 
                     {/* <div className="flex items-center justify-center md:justify-start text-xs text-gray-400 mt-5">
                         <BodyText text={author ?? ''} className="text-[17px]" />
@@ -91,7 +97,7 @@ const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, image }) => {
                         showBorderaButton={true}
                         text="Read More"
                         textColor="#FFFFFF"
-                        url={`/blogs/${"slug"}`}
+                        url={`/blogs/${`${bannerTitle}?id=${id}`}`}
                         icon={<FaArrowRight size={16} color="#FFFFFF" />}
                     />
                 </div>

@@ -7,6 +7,7 @@ export const newBlogData = [
         image: '/images/vertical/section2Image.png',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
+        id: 1,
         type: "",
         status: '',
         contents: [
@@ -237,6 +238,7 @@ export const newBlogData = [
         image: '/images/vertical/section2Image.png',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
+        id: 2,
         type: "",
         status: '',
         contents: [
@@ -392,6 +394,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '23/12/2005',
         type: "",
+        id: 3,
         status: '',
         contents: [
             {
@@ -603,6 +606,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '24/11/2025',
         type: "",
+        id: 4,
         status: '',
         contents: [
             {
@@ -801,6 +805,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '23/12/2000',
         type: "",
+        id: 5,
         status: '',
         contents: [
             {
@@ -1017,6 +1022,7 @@ export const newBlogData = [
         writtenDate: '24/12/2024',
         type: "",
         status: '',
+        id: 6,
         contents: [
             {
                 id: 1,
@@ -1306,6 +1312,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '23-12-2004',
         type: "",
+        id: 7,
         status: '',
         contents: [
             {
@@ -1494,6 +1501,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '23/12/2024',
         type: "",
+        id: 8,
         status: '',
         contents: [
             {
@@ -1709,6 +1717,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '12/12/2024',
         type: "",
+        id: 9,
         status: '',
         contents: [
             {
@@ -1974,6 +1983,7 @@ export const newBlogData = [
         writtenDate: '23/12/2025',
         type: "",
         status: '',
+        id: 10,
         contents: [
             {
                 id: 1,
@@ -2118,6 +2128,7 @@ export const newBlogData = [
         writtenDate: '24/11/2025',
         type: "",
         status: '',
+        id: 11,
         contents: [
             {
                 id: 1,
