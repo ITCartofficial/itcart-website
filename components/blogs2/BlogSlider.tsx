@@ -7,7 +7,30 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import BlogSliderCard from '../blogs/BlogSliderCard';
 // import { blogPosts } from '@/lib/data/blogsData';
-import { Post } from '@/types/wordpress';
+
+interface SubItem {
+    item: string;
+    content: string;
+}
+
+interface ContentItem {
+    id: number | string;  // Allow both number and string
+    title: string;
+    content: string[];
+    subItems?: SubItem[];
+    subItemTitle?: string;
+    finalPoint?: string;
+}
+
+interface Posts {
+    bannerTitle: string;
+    bannerDiscription: string;
+    type?: string;
+    writtenBy?: string;
+    writtenDate?: string;
+    contents: ContentItem[];
+}
+
 
 // Syncs dot-clicks with slide changes
 const SwiperController = ({ current }: { current: number }) => {
@@ -22,7 +45,7 @@ const SwiperController = ({ current }: { current: number }) => {
     return null;
 };
 
-const BlogSlider = ({ posts }: { posts: Post[] }) => {
+const BlogSlider = ({ posts }: { posts: Posts[] }) => {
     const [current, setCurrent] = useState(0);
 
     // 🔹 Filter 5 Editor's Pick blogs
