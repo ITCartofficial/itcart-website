@@ -485,10 +485,10 @@ const JobDetails: React.FC<JobDetailsProps> = ({ filteredJob }: JobDetailsProps)
                             We are building the world’s next generation of intelligent enterprises, where AI is not an add-on but the operational core. Our goal is to help organisations scale confidently, adapt rapidly, and operate with precision through AI-powered transformation.
                         </p>
 
-                        <p className="text-[18px] md:mt-[-20px]">
+                        {/* <p className="text-[18px] md:mt-[-20px]">
                             <span className="font-semibold pr-2">DNA of every operation. </span>
                             We envision a future where iTCart’s technology erases the line between human potential and machine capability, enabling industries to scale limitlessly, act fearlessly, and lead unapologetically.
-                        </p>
+                        </p> */}
 
                         <p className="text-[18px] font-semibold">
                            Welcome to the future, engineered today.
