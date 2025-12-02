@@ -236,7 +236,7 @@ export const jobs = [
     title: "SharePoint - Technical Lead",
     location: "Bengaluru, India",
     employmentType: "Full Time",
-    jobCategory: "Insurance",
+    jobCategory: "Technology",
     jobDescriptionUrl: "/iTC0001",
     reportsTo: 'Enterprise Solutions Architect – AI Solutions',
     positionOverview: "The SharePoint Tech Lead will be responsible for the end-to-end design, development, and deployment of SharePoint solutions, ensuring seamless collaboration and business process automation. The role will involve architecting SharePoint Online and on-premises environments, integrating AI-native workflows, and ensuring adherence to governance, security, and compliance standards.",

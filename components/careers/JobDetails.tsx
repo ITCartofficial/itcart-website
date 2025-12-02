@@ -466,32 +466,32 @@ const JobDetails: React.FC<JobDetailsProps> = ({ filteredJob }: JobDetailsProps)
 
                     <div className="md:mt-8 mt-5 space-y-8 text-white leading-relaxed">
                         <p className="text-[18px]">
-                            <span className="font-semibold">Global Impact, Local Precision : </span>
+                            <span className="font-semibold pr-2">Global Impact with Local Precision : </span>
                             Serving 25+ industries, Technology, BFSI, Healthcare, Real Estate, and beyond – we tailor AI to solve region-specific challenges while driving universal progress.
                         </p>
 
                         <p className="text-[18px]">
-                            <span className="font-semibold">Our AI Product Suite:</span>
+                            <span className="font-semibold pr-2">Our AI Product Suite:</span>
                             iTCart delivers a unified portfolio of next-generation AI platforms such as AiXHub, AiXDesk, RCMAiX, InsureAiX, and other enterprise-grade systems. Each product is designed to help organisations automate workflows, enhance decision-making, and transform operations using intelligent, real-time insights.
                         </p>
 
                         <p className="text-[18px]">
-                            <span className="font-semibold">Purpose-Driven Innovation:</span>
+                            <span className="font-semibold pr-2">Purpose-Driven Innovation:</span>
                             Our mission extends beyond technology delivery. Every solution we build also contributes to social upliftment—supporting education, healthcare, employment, and community empowerment across regions where we operate.
                         </p>
 
                         <p className="text-[18px]">
-                            <span className="font-semibold">Vision: </span>
+                            <span className="font-semibold pr-2">Vision: </span>
                             We are building the world’s next generation of intelligent enterprises, where AI is not an add-on but the operational core. Our goal is to help organisations scale confidently, adapt rapidly, and operate with precision through AI-powered transformation.
                         </p>
 
                         <p className="text-[18px] md:mt-[-20px]">
-                            <span className="font-semibold">DNA of every operation. </span>
+                            <span className="font-semibold pr-2">DNA of every operation. </span>
                             We envision a future where iTCart’s technology erases the line between human potential and machine capability, enabling industries to scale limitlessly, act fearlessly, and lead unapologetically.
                         </p>
 
                         <p className="text-[18px] font-semibold">
-                            Welcome to the future, engineered today.
+                           Welcome to the future, engineered today.
                         </p>
 
                         <p className="text-[18px] font-semibold md:mt-[-20px]">
