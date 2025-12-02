@@ -3,10 +3,11 @@
 export const newBlogData = [
     {
         bannerTitle: 'How AiXHub Is Shaping the Future of Enterprise AI in 2025',
-        bannerDiscription: 'Explore how AiXHub helps enterprises automate workflows, unify data, and make smarter decisions. Learn why AI-powered transformation is becoming the new business standard.',
+        bannerDiscription: 'Explore how AiXHub helps enterprises automate workflows, unify data, and make smarter decisions. Learn why AI-native transformation is becoming the new business standard.',
         image: '/images/vertical/section2Image.png',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
+        id: 1,
         type: "",
         status: '',
         contents: [
@@ -102,7 +103,7 @@ export const newBlogData = [
             },
             {
                 id: 5,
-                title: 'Business Impact of AI-Powered Transformation',
+                title: 'Business Impact of AI-native Transformation',
                 content: ['Adopting AiXHub delivers tangible results:'],
                 subItems: [
                     {
@@ -206,8 +207,8 @@ export const newBlogData = [
         FAQs: [
             {
                 id: '1',
-                title: 'What is AI-powered digital transformation?',
-                content: "AI-powered digital transformation uses AI to automate processes, unify data, and provide real-time insights across an enterprise. It enables faster decisions, improves operational efficiency, and reduces errors."
+                title: 'What is AI-native digital transformation?',
+                content: "AI-native digital transformation uses AI to automate processes, unify data, and provide real-time insights across an enterprise. It enables faster decisions, improves operational efficiency, and reduces errors."
             },
             {
                 id: '2',
@@ -237,6 +238,7 @@ export const newBlogData = [
         image: '/images/vertical/section2Image.png',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
+        id: 2,
         type: "",
         status: '',
         contents: [
@@ -392,6 +394,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '23/12/2005',
         type: "",
+        id: 3,
         status: '',
         contents: [
             {
@@ -531,7 +534,7 @@ export const newBlogData = [
                 content: ['As healthcare evolves, so will the demands on revenue cycle management. Emerging trends that will shape the future include: '],
                 subItems: [
                     {
-                        item: 'AI-Powered Predictive Analytics',
+                        item: 'AI-native Predictive Analytics',
                         content: 'Machine learning will play a larger role in not just predicting denials but dynamically adjusting workflows in real time. '
                     },
                     {
@@ -603,6 +606,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '24/11/2025',
         type: "",
+        id: 4,
         status: '',
         contents: [
             {
@@ -801,20 +805,21 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '23/12/2000',
         type: "",
+        id: 5,
         status: '',
         contents: [
             {
                 id: 1,
                 title: 'Introduction',
-                content: ['Artificial Intelligence is more advanced, and one of the biggest leaps forward is multimodal AI. If you’ve ever talked to a voice assistant, uploaded a photo to search for similar images, /images/vertical/section2Image.pngor seen an app generate art from text prompts, you’ve already experienced the power of AI that works across different kinds of inputs.  ',
-                    "Unlike traditional AI systems that focused on just one area—like text-based chatbots or image re/images/vertical/section2Image.pngcognition software—multimodal AI can process and combine multiple types of information, such as text, images, /images/vertical/section2Image.pngspeech, and even video, to better understand and interact with the world. ",
+                content: ['Artificial Intelligence is more advanced, and one of the biggest leaps forward is multimodal AI. If you’ve ever talked to a voice assistant, uploaded a photo to search for similar images, or seen an app generate art from text prompts, you’ve already experienced the power of AI that works across different kinds of inputs.  ',
+                    "Unlike traditional AI systems that focused on just one area—like text-based chatbots or image recognition software—multimodal AI can process and combine multiple types of information, such as text, images, speech, and even video, to better understand and interact with the world. ",
                 ]
             },
             {
                 id: 2,
                 title: 'What is Multimodal AI?',
-                content: ['Multimodal AI is a type of artificial intelligence that can process, combine, and analyze information from multiple types of data—such as text, images, /images/vertical/section2Image.pngaudio, and video—at the same time.  ',
-                    "Unlike traditional AI systems, which often work with just a single kind of input (like only text or only images),/images/vertical/section2Image.png multimodal AI brings together data from different sources or “modalities” to gain a more comprehensive understanding of tasks and generate more nuanced outputs. ",
+                content: ['Multimodal AI is a type of artificial intelligence that can process, combine, and analyze information from multiple types of data—such as text, images, audio, and video—at the same time.  ',
+                    "Unlike traditional AI systems, which often work with just a single kind of input (like only text or only images), multimodal AI brings together data from different sources or “modalities” to gain a more comprehensive understanding of tasks and generate more nuanced outputs. ",
                     "This fusion of diverse data types allows the system to perform more complex functions, similar to how humans use sight, sound, and language together to make sense of the world."
                 ],
                 finalPoint: ''
@@ -827,7 +832,7 @@ export const newBlogData = [
                 subItems: [
                     {
                         item: 'Data types handled:',
-                        content: 'Single-modal AI is designed to process and analyze just one type of data at a time—such as text, images, /images/vertical/section2Image.pngor audio. For example, a text-only chatbot or an image re/images/vertical/section2Image.pngcognition system that cannot understand spoken language or integrate visual and auditory information. '
+                        content: 'Single-modal AI is designed to process and analyze just one type of data at a time—such as text, images, or audio. For example, a text-only chatbot or an image recognition system that cannot understand spoken language or integrate visual and auditory information. '
                     },
                     {
                         item: 'Contextual understanding',
@@ -855,19 +860,19 @@ export const newBlogData = [
                 subItems: [
                     {
                         item: 'Integrated understanding across modalities',
-                        content: 'Multimodal AI can analyze and make sense of information from different data types, such as text, images, /images/vertical/section2Image.pngaudio, video, or sensor signals, simultaneously. For example, it can read a sentence, analyze a related picture, and understand the connection between them, leading to more accurate comprehension and responses. '
+                        content: 'Multimodal AI can analyze and make sense of information from different data types, such as text, images, audio, video, or sensor signals, simultaneously. For example, it can read a sentence, analyze a related picture, and understand the connection between them, leading to more accurate comprehension and responses. '
                     },
                     {
                         item: 'Improved contextual awareness',
-                        content: 'By combining clues from different modalities, multimodal AI reduces ambiguity and can infer richer meaning. For example, by listening to the tone of voice and analyzing facial expressions in a video, it can better interpret emotions or intent than by voice or image al/images/vertical/section2Image.pngone. '
+                        content: 'By combining clues from different modalities, multimodal AI reduces ambiguity and can infer richer meaning. For example, by listening to the tone of voice and analyzing facial expressions in a video, it can better interpret emotions or intent than by voice or image alone. '
                     },
                     {
                         item: 'Natural human-like interaction',
-                        content: 'Multimodal AI can interact in ways that feel more intuitive and human, recognizing and responding to users using multiple forms of communication (e.g., spoken questions paired with gestures or images)./images/vertical/section2Image.png '
+                        content: 'Multimodal AI can interact in ways that feel more intuitive and human, recognizing and responding to users using multiple forms of communication (e.g., spoken questions paired with gestures or images). '
                     },
                     {
                         item: 'Generative abilities',
-                        content: 'It can generate outputs in various modalities, such as producing images f/images/vertical/section2Image.pngrom text descriptions, or creating audio from written instructions—a hallmark of modern creative AI tools.  '
+                        content: 'It can generate outputs in various modalities, such as producing images from text descriptions, or creating audio from written instructions—a hallmark of modern creative AI tools.  '
                     },
                 ],
                 finalPoint: ''
@@ -886,7 +891,7 @@ export const newBlogData = [
                     {
                         item: "Automotive",
                         content:
-                            "Self-driving cars use multimodal AI to combine camera, radar, lidar, and GPS data for safe navigation. Toyota also uses multimodal generative AI to create interactive digital owner’s manuals that blend text, images, /images/vertical/section2Image.pngand contextual info for an enhanced user experience."
+                            "Self-driving cars use multimodal AI to combine camera, radar, lidar, and GPS data for safe navigation. Toyota also uses multimodal generative AI to create interactive digital owner’s manuals that blend text, images,and contextual info for an enhanced user experience."
                     },
                     {
                         item: "Finance",
@@ -896,7 +901,7 @@ export const newBlogData = [
                     {
                         item: "eCommerce",
                         content:
-                            "Platforms like Amazon use multimodal AI to boost product recommendations by analyzing images, /images/vertical/section2Image.pnguser reviews, and purchase history, leading to higher customer satisfaction."
+                            "Platforms like Amazon use multimodal AI to boost product recommendations by analyzing images, user reviews, and purchase history, leading to higher customer satisfaction."
                     },
                     {
                         item: "Education",
@@ -921,7 +926,7 @@ export const newBlogData = [
                     {
                         item: "Agriculture",
                         content:
-                            "John Deere employs multimodal AI that integrates satellite images, /images/vertical/section2Image.pngsensor data, and weather patterns to optimize crop management and improve farm efficiency."
+                            "John Deere employs multimodal AI that integrates satellite images, sensor data, and weather patterns to optimize crop management and improve farm efficiency."
                     }
                 ],
                 finalPoint: ''
@@ -929,7 +934,7 @@ export const newBlogData = [
             {
                 id: 6,
                 title: 'How does multimodal AI work?',
-                content: ['Multimodal AI works by combining and processing multiple types of data, such as text, images, /images/vertical/section2Image.pngaudio, and video, through a series of specialized steps and components.'],
+                content: ['Multimodal AI works by combining and processing multiple types of data, such as text, images, audio, and video, through a series of specialized steps and components.'],
                 subItemTitle: '',
                 subItems: [
                     {
@@ -942,11 +947,11 @@ export const newBlogData = [
                     },
                     {
                         item: 'Cross-modal alignment and reasoning',
-                        content: 'The system uses mechanisms like attention layers to focus on relevant parts of each modality and understand how they relate to each other. For example, when describing an image, t/images/vertical/section2Image.pnghe model might focus on specific visual elements while generating corresponding text. '
+                        content: 'The system uses mechanisms like attention layers to focus on relevant parts of each modality and understand how they relate to each other. For example, when describing an image, the model might focus on specific visual elements while generating corresponding text. '
                     },
                     {
                         item: 'Output module',
-                        content: 'Finally, based on the fused information, the AI generates outputs—which may be an answer, a caption, a classification, or even a generated image or/images/vertical/section2Image.png audio. The output module interprets the combined data to perform tasks such as answering questions about images, /images/vertical/section2Image.pngtranscribing speech with visual context, or generating new content across modalities.'
+                        content: 'Finally, based on the fused information, the AI generates outputs—which may be an answer, a caption, a classification, or even a generated image or audio. The output module interprets the combined data to perform tasks such as answering questions about images, /images/vertical/section2Image.pngtranscribing speech with visual context, or generating new content across modalities.'
                     },
                 ],
                 finalPoint: ''
@@ -973,17 +978,17 @@ export const newBlogData = [
                     {
                         item: "Breakthroughs in Healthcare and Education",
                         content:
-                            "Multimodal AI will transform personalized healthcare by combining medical images, /images/vertical/section2Image.pngpatient history, and real-time sensor data for precise diagnostics and treatments. In education, it will create adaptive, immersive learning environments that respond to audio, visual, and behavioral cues."
+                            "Multimodal AI will transform personalized healthcare by combining medical images, patient history, and real-time sensor data for precise diagnostics and treatments. In education, it will create adaptive, immersive learning environments that respond to audio, visual, and behavioral cues."
                     },
                     {
                         item: "Creative and Generative Technologies",
                         content:
-                            "Advances in multimodal generation—text, images, /images/vertical/section2Image.pngaudio, and video—will fuel new forms of creativity in art, entertainment, design, and marketing, enabling collaborative creation between humans and AI."
+                            "Advances in multimodal generation—text, images, audio, and video—will fuel new forms of creativity in art, entertainment, design, and marketing, enabling collaborative creation between humans and AI."
                     },
                     {
                         item: "Increased Accessibility and Inclusion",
                         content:
-                            "Multimodal AI will advance assistive technologies by combining speech, text, image, a/images/vertical/section2Image.pngnd gesture recognition, creating more personalized, context-aware tools for people with disabilities."
+                            "Multimodal AI will advance assistive technologies by combining speech, text, image, and gesture recognition, creating more personalized, context-aware tools for people with disabilities."
                     },
                     {
                         item: "Ethics, Fairness, and Governance",
@@ -1002,7 +1007,7 @@ export const newBlogData = [
                 id: '8',
                 title: 'Conclusion',
                 content: [
-                    "Multimodal AI represents a significant step forward in the evolution of artificial intelligence—moving beyond the limitations of single-source data to a richer, more integrated understanding of the world. By combining text, images, /images/vertical/section2Image.pngaudio, and other data types, multimodal AI enables machines to interact with humans and their environments in ways that feel more natural, intuitive, and effective.  ",
+                    "Multimodal AI represents a significant step forward in the evolution of artificial intelligence—moving beyond the limitations of single-source data to a richer, more integrated understanding of the world. By combining text, images, audio, and other data types, multimodal AI enables machines to interact with humans and their environments in ways that feel more natural, intuitive, and effective.  ",
                     "From healthcare and automotive to creative arts and education, its applications are expanding rapidly, showcasing the transformative potential of this technology. As multimodal AI continues to advance, it will not only enhance the capabilities of intelligent systems but also bring us closer to a future where AI truly understands and assists us across all aspects of life. Embracing this exciting frontier offers endless possibilities for innovation and improved human-machine collaboration. "
                 ]
             }
@@ -1017,6 +1022,7 @@ export const newBlogData = [
         writtenDate: '24/12/2024',
         type: "",
         status: '',
+        id: 6,
         contents: [
             {
                 id: 1,
@@ -1086,7 +1092,7 @@ export const newBlogData = [
                     {
                         item: "Real-Time Anomaly Detection",
                         content:
-                            "AI-powered cybersecurity systems scan IoT network traffic and behavioral data instantly to detect and isolate threats before they spread, reducing mean-time-to-detect by over 50%."
+                            "AI-native cybersecurity systems scan IoT network traffic and behavioral data instantly to detect and isolate threats before they spread, reducing mean-time-to-detect by over 50%."
                     },
                     {
                         item: "Autonomous Operational Adjustments",
@@ -1117,7 +1123,7 @@ export const newBlogData = [
                 subItemTitle: '',
                 subItems: [
                     {
-                        item: "24/7 AI-Powered Threat Monitoring",
+                        item: "24/7 AI-native Threat Monitoring",
                         content:
                             "Continuously analyzes network traffic, device behavior, and system events to instantly detect suspicious patterns and potential threats."
                     },
@@ -1306,6 +1312,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '23-12-2004',
         type: "",
+        id: 7,
         status: '',
         contents: [
             {
@@ -1314,7 +1321,7 @@ export const newBlogData = [
                 content: [
                     'Logistics has become the backbone of global commerce. From same-day e‑commerce deliveries to complex freight movements across continents, the pressure on supply chains has never been greater.  ',
                     'Customers expect speed, reliability, and transparency—while businesses face mounting challenges like rising fuel costs, urban congestion, and sustainability regulations. ',
-                    'Traditional route planning methods that rely on static maps, manual scheduling, or outdated software are no longer sufficient to meet the needs of modern logistics. This is where AI-powered route planning changes the game.   ',
+                    'Traditional route planning methods that rely on static maps, manual scheduling, or outdated software are no longer sufficient to meet the needs of modern logistics. This is where AI-native route planning changes the game.   ',
                     'By harnessing real-time data, predictive analytics, and machine learning, AI can optimize delivery routes in ways that not only save time and money but also transform how logistics companies operate. '
                 ]
             },
@@ -1329,7 +1336,7 @@ export const newBlogData = [
                 subItems: [
                     {
                         item: 'Data collection and integration',
-                        content: 'AI-powered systems pull information from multiple real-time and historical data sources, such as: '
+                        content: 'AI-native systems pull information from multiple real-time and historical data sources, such as: '
                     },
                     {
                         item: 'Machine learning and predictive models',
@@ -1415,7 +1422,7 @@ export const newBlogData = [
                     {
                         item: "Driver and Workforce Adoption",
                         content:
-                            "Transitioning from manual or traditional planning to AI-powered routing requires training. Resistance to change or limited digital familiarity can slow adoption and reduce benefits."
+                            "Transitioning from manual or traditional planning to AI-native routing requires training. Resistance to change or limited digital familiarity can slow adoption and reduce benefits."
                     },
                     {
                         item: "Privacy and Security Concerns",
@@ -1494,6 +1501,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '23/12/2024',
         type: "",
+        id: 8,
         status: '',
         contents: [
             {
@@ -1555,7 +1563,7 @@ export const newBlogData = [
                 title: 'How to simplify smart factory automation?',
                 content: [
                     'Smart factory automation involves integrating complex systems, data streams, and AI insights to optimize manufacturing operations—from predictive maintenance and quality control to energy management and supply chain coordination.  ',
-                    'Traditionally, building these AI-powered automation solutions required extensive coding, technical expertise, and long development cycles, creating significant hurdles for many manufacturers.  ',
+                    'Traditionally, building these AI-native automation solutions required extensive coding, technical expertise, and long development cycles, creating significant hurdles for many manufacturers.  ',
                     'Drag-and-drop AI builders simplify this process by turning AI development into an accessible, visual experience that anyone in the factory can use.  ',
                     'Here’s how they make smart factory automation easier: '
                 ],
@@ -1574,7 +1582,7 @@ export const newBlogData = [
                     {
                         item: "Rapid Prototyping and Deployment",
                         content:
-                            "Users can quickly assemble AI-powered automation solutions by configuring predefined modules such as sensor data collection, anomaly detection, and automated alert systems. This accelerates experimentation and implementation, helping factories achieve faster time-to-value.",
+                            "Users can quickly assemble AI-native automation solutions by configuring predefined modules such as sensor data collection, anomaly detection, and automated alert systems. This accelerates experimentation and implementation, helping factories achieve faster time-to-value.",
                     },
                     {
                         item: "Use Case Flexibility",
@@ -1709,6 +1717,7 @@ export const newBlogData = [
         writtenBy: 'Dona',
         writtenDate: '12/12/2024',
         type: "",
+        id: 9,
         status: '',
         contents: [
             {
@@ -1728,7 +1737,7 @@ export const newBlogData = [
                     {
                         item: "Adversarial Attacks",
                         content:
-                            "Inputs are intentionally engineered to confuse or bypass AI algorithms, causing misclassification or system evasion. Subtle image pe/images/vertical/section2Image.pngrturbations can trick vision models, making dynamic defenses essential."
+                            "Inputs are intentionally engineered to confuse or bypass AI algorithms, causing misclassification or system evasion. Subtle image perturbations can trick vision models, making dynamic defenses essential."
                     },
                     {
                         item: "Data Poisoning",
@@ -1782,7 +1791,7 @@ export const newBlogData = [
                     },
                     {
                         item: 'Real-Time Risk Prioritization Engines',
-                        content: 'AI-powered risk scoring engines analyze each vulnerability not only for its technical severity but also its business impact, exploitability, and context—helping security teams focus on what really matters. Aligning security alerts with business metrics reduces noise and focuses resources on threats with highest potential cost.'
+                        content: 'AI-native risk scoring engines analyze each vulnerability not only for its technical severity but also its business impact, exploitability, and context—helping security teams focus on what really matters. Aligning security alerts with business metrics reduces noise and focuses resources on threats with highest potential cost.'
                     },
 
                 ],
@@ -1892,7 +1901,7 @@ export const newBlogData = [
                 subItemTitle: '',
                 subItems: [
                     {
-                        item: "AI-Powered Penetration Testing",
+                        item: "AI-native Penetration Testing",
                         content: "Automated, self-learning tools conduct red-teaming at scale on ML models and infrastructure."
                     },
                     {
@@ -1974,6 +1983,7 @@ export const newBlogData = [
         writtenDate: '23/12/2025',
         type: "",
         status: '',
+        id: 10,
         contents: [
             {
                 id: 1,
@@ -2118,6 +2128,7 @@ export const newBlogData = [
         writtenDate: '24/11/2025',
         type: "",
         status: '',
+        id: 11,
         contents: [
             {
                 id: 1,

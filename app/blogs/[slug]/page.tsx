@@ -1,3 +1,5 @@
+// "use client";
+// import { useSearchParams } from "next/navigation";
 // import HomeFaqSection from "@/app/(features)/home/HomeFaqSection";
 // import BlogContents from "@/components/BlogDetailPage/BlogContent";
 // import SectionBanner from "@/components/BlogDetailPage/SectionBanner";
@@ -5,8 +7,21 @@
 
 // const SingleBlogPage = () => {
 
-//   const filterdData = newBlogData[10]; // Example: Fetching the 5th blog data
+//   const searchParams = useSearchParams();
+//   const id = searchParams.get("id");
 
+
+
+//   const filterdData = newBlogData.find((blog) => blog.id?.toString() === id);
+
+//   // const filterdData =fData; 
+
+//   // console.log("fData", fData);
+
+
+//   if (!filterdData) {
+//     return <div>Blog post not found</div>;
+//   }
 
 //   return (
 //     <div className="mt-10 md:mt-30  space-y-20 mb-10">

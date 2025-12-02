@@ -33,7 +33,7 @@ function MediaPage() {
         {
             id: '3',
             title: 'What is the Unique Selling Proposition of iTCart?',
-            content: 'Our USP is to deliver personalized AI-powered solutions that help businesses leverage AI and automation needs.'
+            content: 'Our USP is to deliver personalized AI-native solutions that help businesses leverage AI and automation needs.'
         },
         {
             id: '4',

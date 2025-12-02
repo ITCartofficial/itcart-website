@@ -1,6 +1,6 @@
 export const missionContent = {
   title: "At iTCart, we empower businesses to reimagine operations and accelerate decision-making through intelligent automation and data-driven insights.",
-  description: "Our approach centers on automation integration minimizing manual effort, reducing errors, and freeing teams to focus on strategic goals. From AI-driven HR and document management systems to agile business process automation, our solutions boost efficiency and productivity.<br>With the AiXHub, we deliver AI-powered decision-making, personalized customer experiences, and scalable cloud solutions to keep you ahead of the curve.<br>Partner with iTCart to drive your Digital Transformation and succeed in the AI era.",
+  description: "Our approach centers on automation integration minimizing manual effort, reducing errors, and freeing teams to focus on strategic goals. From AI-driven HR and document management systems to agile business process automation, our solutions boost efficiency and productivity.<br>With the AiXHub, we deliver AI-native decision-making, personalized customer experiences, and scalable cloud solutions to keep you ahead of the curve.<br>Partner with iTCart to drive your Digital Transformation and succeed in the AI era.",
   bgImage: "/images/home/background-section2.jpg",
   bgImageMobile: '/images/home/mobilebackground-section2.jpg'
 };
@@ -9,7 +9,7 @@ export const keyVerticalsData = [
   {
     bgImage: "/images/home/aixbfs-bg.jpg",
     title: "AiXBFS",
-    description: "Experience banking efficiency with our AI-powered solutions, including fraud detection, debt recovery, and compliance management.",
+    description: "Experience banking efficiency with our AI-native solutions, including fraud detection, debt recovery, and compliance management.",
     buttonUrl: "/verticall",
     logoBg: "light",
     logo: "/logos/vertical-logos/aixbfs.png",
@@ -27,7 +27,7 @@ export const keyVerticalsData = [
     bgImage: "/images/home/aixfintech-bg.png",
     title: "AiXFintech",
     description:
-      "With our AI-powered fintech platform, we can improve payment systems and risk management via intelligent automation and predictive intelligence. ",
+      "With our AI-native fintech platform, we can improve payment systems and risk management via intelligent automation and predictive intelligence. ",
     buttonUrl: "/vertical",
     logo: "/logos/vertical-logos/aixfintech.png",
     logoBg: "light",
@@ -36,7 +36,7 @@ export const keyVerticalsData = [
     bgImage: "/images/home/cyberaix-bg.png",
     title: "CyberAiX",
     description:
-      "Protect sensitive data from unauthorized access with our user-friendly AI-powered platform - a shield in the AI world. ",
+      "Protect sensitive data from unauthorized access with our user-friendly AI-native platform - a shield in the AI world. ",
     buttonUrl: "/vertical",
     logo: "/logos/vertical-logos/aixcyber.png",
     logoBg: "light",
@@ -54,7 +54,7 @@ export const keyVerticalsData = [
     bgImage: "/images/home/aixdesk-bg.png",
     title: "AiXDesk",
     description:
-      "Automate daily tasks and integrate tools like Microsoft 365 via our AI-powered virtual assistant, helping users manage workload effortlessly. ",
+      "Automate daily tasks and integrate tools like Microsoft 365 via our AI-native virtual assistant, helping users manage workload effortlessly. ",
     buttonUrl: "/vertical",
     logo: "/logos/vertical-logos/aixdesk.png",
     logoBg: "light",
@@ -63,7 +63,7 @@ export const keyVerticalsData = [
     bgImage: "/images/home/aixenergy-bg.png",
     title: "AiXEnergy",
     description:
-      "With our smart solutions for sustainability and cost efficiency, we transform the energy sector via an AI-powered platform. ",
+      "With our smart solutions for sustainability and cost efficiency, we transform the energy sector via an AI-native platform. ",
     buttonUrl: "/vertical",
     logo: "/logos/vertical-logos/aixenergy.png",
     logoBg: "light",
@@ -72,7 +72,7 @@ export const keyVerticalsData = [
     bgImage: "/images/home/realtyaix-bg.png",
     title: "AiXRealty",
     description:
-      "Optimize property listing, leasing, and construction processes at scale with a user-friendly AI-powered solution. ",
+      "Optimize property listing, leasing, and construction processes at scale with a user-friendly AI-native solution. ",
     buttonUrl: "/vertical",
     logo: "/logos/vertical-logos/aixreality.png",
     logoBg: "light",
@@ -194,7 +194,7 @@ export const aboutBrief = [
     bgImage: "/images/about-card-1.jpg",
     title: "Our Vision",
     description:
-      "To revolutionize industries and deliver scalable and adaptive AI-powered solutions that shape the digital economy. iTCart's commitment extends beyond transformation, offering sustainable AI systems that redefine business success.",
+      "To revolutionize industries and deliver scalable and adaptive AI-native solutions that shape the digital economy. iTCart's commitment extends beyond transformation, offering sustainable AI systems that redefine business success.",
   },
   {
     bgImage: "/images/about-card-2.jpg",
@@ -227,7 +227,7 @@ export const homeBannerData = {
   videoSrc: "/videos/home-banner.mp4",
   poster: "/images/home-banner.jpg",
   heading: "The world’s first AI-native EOS",
-  description: "Experience unmatched efficiency, innovation, and business agility with a multi-functional AI-powered platform.",
+  description: "Experience unmatched efficiency, innovation, and business agility with a multi-functional AI-native platform.",
   buttonText: "Get Started",
 };
 

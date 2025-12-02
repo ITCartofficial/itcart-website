@@ -197,7 +197,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -394,7 +394,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -405,7 +405,7 @@ export const serviceData = [
     imageSrc: "/images/services/business-intelligence.png",
     detailPage: {
       metaTitle: 'AI-Driven Business Intelligence Services | Data Analytics Experts – iTCart ',
-      metaDescription: 'Empower your enterprise with AI-powered business intelligence services. iTCart helps integrate, analyse, and visualize data to deliver smarter business outcomes.  ',
+      metaDescription: 'Empower your enterprise with AI-native business intelligence services. iTCart helps integrate, analyse, and visualize data to deliver smarter business outcomes.  ',
       serviceName: 'Business Intelligence',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Transform Data into Scalable Business Intelligence with Experts",
@@ -593,7 +593,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -603,8 +603,8 @@ export const serviceData = [
     linkUrl: "/services/cloud-computing",
     imageSrc: "/images/services/cloud-computing.png",
     detailPage: {
-      metaTitle: 'AI-Powered CloudOps Services for Enterprises – iTCart ',
-      metaDescription: 'Boost agility and uptime with iTCart’s CloudOps Services. Automate multi-cloud operations with AI-powered monitoring, cost optimization, and security. ',
+      metaTitle: 'AI-native CloudOps Services for Enterprises – iTCart ',
+      metaDescription: 'Boost agility and uptime with iTCart’s CloudOps Services. Automate multi-cloud operations with AI-native monitoring, cost optimization, and security. ',
       serviceName: 'CloudOps Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Experience CloudOps that Deliver Uptime, Agility and Business Resilience",
@@ -632,8 +632,8 @@ export const serviceData = [
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
         {
-          icon: '/images/services/icons/AI-Powered Monitoring & Observability Icon.svg',
-          title: "AI-Powered Monitoring & Observability",
+          icon: '/images/services/icons/AI-native Monitoring & Observability Icon.svg',
+          title: "AI-native Monitoring & Observability",
           highlight: "Real-time log analysis, alerting, anomaly detection, synthetic monitoring, and APM with auto-healing scripts and predictive alerting capabilities. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
@@ -730,7 +730,7 @@ export const serviceData = [
         },
         {
           image: '/images/services/CloudOps-Services-choose3.png',
-          title: 'AI-Powered automation',
+          title: 'AI-native automation',
           content: 'CloudOps automation solutions with AI-driven optimization, predictive analytics, and self-healing capabilities to enhance operational efficiency. '
         }
       ],
@@ -763,7 +763,7 @@ export const serviceData = [
         {
           id: '4',
           title: 'What makes your cloud monitoring different from others?',
-          content: 'Our cloud monitoring services combine AI-powered anomaly detection, predictive alerting, real-time log analysis, auto-healing scripts, and 24/7 expert support with cloud performance management solutions.'
+          content: 'Our cloud monitoring services combine AI-native anomaly detection, predictive alerting, real-time log analysis, auto-healing scripts, and 24/7 expert support with cloud performance management solutions.'
         },
         {
           id: '5',
@@ -790,7 +790,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -987,7 +987,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -997,8 +997,8 @@ export const serviceData = [
     linkUrl: "/services/data-analytics",
     imageSrc: "/images/services/data-analytics.png",
     detailPage: {
-      metaTitle: 'AI-Powered Data Analytics Services | Business Intelligence by iTCart ',
-      metaDescription: 'Empower your business with AI-powered data analytics. iTCart delivers real-time insights, predictive intelligence, and enterprise-grade business analytics solutions.',
+      metaTitle: 'AI-native Data Analytics Services | Business Intelligence by iTCart ',
+      metaDescription: 'Empower your business with AI-native data analytics. iTCart delivers real-time insights, predictive intelligence, and enterprise-grade business analytics solutions.',
       serviceName: 'Data Analytics',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Turn Data into Decisions. Faster. Smarter. Scalable",
@@ -1041,7 +1041,7 @@ export const serviceData = [
         },
         {
           icon: '/images/services/icons/AI & ML-Powered Decision Intelligence Icon.svg',
-          title: "AI-Powered Decision Intelligence",
+          title: "AI-native Decision Intelligence",
           highlight: "Model training, validation, and deployment with AI-driven what-if analysis, scoring engines, and real-time recommendation systems. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
@@ -1057,7 +1057,7 @@ export const serviceData = [
           icon: '/images/vertical/icons/manicon.png'
         },
         {
-          title: "AI-Powered Analytics",
+          title: "AI-native Analytics",
           description: "We implement AI-driven analytics to uncover patterns, predict trends, and automate insights that support informed decision-making.",
           gradient: "from-[#222222] to-[#111111]", // dark
         },
@@ -1136,7 +1136,7 @@ export const serviceData = [
         contenttwo: "Whether you’re a solo learner, training a team, or scaling an institution-wide learning program, AiXQP is ready to grow with you. "
       },
       futurSectionHeading: "Transform Your Data Strategy - Act Now!",
-      futurSectionDescription: "Ready to unlock the full potential of your data with AI-powered analytics and modern data engineering?",
+      futurSectionDescription: "Ready to unlock the full potential of your data with AI-native analytics and modern data engineering?",
       FAQsHeading: 'Everything You Need to Know About Data Analytics Services',
       FAQs: [
         {
@@ -1184,7 +1184,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -1195,7 +1195,7 @@ export const serviceData = [
     imageSrc: "/images/services/DevOps.png",
     detailPage: {
       metaTitle: 'AI DevOps Services | Fast Delivery & Cloud Automation – iTCart ',
-      metaDescription: 'Accelerate innovation with iTCart’s AI-powered DevOps services. Automate cloud workflows, boost release speed, and secure, scalable delivery for modern enterprises. ',
+      metaDescription: 'Accelerate innovation with iTCart’s AI-native DevOps services. Automate cloud workflows, boost release speed, and secure, scalable delivery for modern enterprises. ',
       serviceName: 'DevOps Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Reliable DevOps Services for Faster, Higher-Quality Software Releases",
@@ -1381,7 +1381,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -1527,7 +1527,7 @@ export const serviceData = [
         aboutImage: '/images/vertical/section2Image.png',
         logo: '/images/verticalLogos/AiXQP.png',
         contentOne: 'iTCart Digital Commerce Services run on AiXHub, the core of the AiX Framework—bringing intelligent automation, predictive analytics, and autonomous decision-making to your commerce experience. ',
-        contenttwo: "Our comprehensive digital commerce consulting services leverage AI-powered insights to optimize customer experiences, streamline operations, and maximize revenue through intelligent E-Commerce solutions. "
+        contenttwo: "Our comprehensive digital commerce consulting services leverage AI-native insights to optimize customer experiences, streamline operations, and maximize revenue through intelligent E-Commerce solutions. "
       },
       futurSectionHeading: "Transform Your Business into Digital Commerce Powerhouse",
       futurSectionDescription: "Safeguard your operations from cyber threats with iTCart’s trusted cybersecurity services—act now to defend what matters most.",
@@ -1578,7 +1578,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -1588,7 +1588,7 @@ export const serviceData = [
     linkUrl: "/services/digital-transformation",
     imageSrc: "/images/services/digital-transformation.png",
     detailPage: {
-      metaTitle: 'Digital Transformation Services | AI-Powered Enterprise Solution',
+      metaTitle: 'Digital Transformation Services | AI-native Enterprise Solution',
       metaDescription: 'With iTCart’s digital transformation services, we help you adopt modern technologies, enhance productivity, and stay ahead of the competition.',
       serviceName: 'Digital Transformation',
       bannerButtonText: "Get In Touch",
@@ -1775,7 +1775,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -1976,7 +1976,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -2173,7 +2173,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },
@@ -2306,7 +2306,7 @@ export const serviceData = [
         {
           image: '/images/services/Startup-Services-choose2.png',
           title: 'Technology Excellence',
-          content: 'Full stack development, modern cloud architecture, and AI-powered solutions for competitive advantage. '
+          content: 'Full stack development, modern cloud architecture, and AI-native solutions for competitive advantage. '
         },
         {
           image: '/images/services/Startup-Services-choose3.png',
@@ -2370,7 +2370,7 @@ export const serviceData = [
       section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
       section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
       aboutImage: '',
-      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+      aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
       about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
     }
   },

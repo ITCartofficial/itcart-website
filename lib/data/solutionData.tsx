@@ -6,7 +6,7 @@ export const solutionData = [
     imageSrc: "/images/solutions/ai_image.png",
     detailPage: {
       metaTitle: 'Enterprise AI Workplace Automation & Unified Collaboration | AiXHub',
-      metaDescription: ' Experience enterprise transformation with AiXHub — the AI-powered digital workplace platform that unifies collaboration, automation, and decision intelligence for modern organizations.',
+      metaDescription: ' Experience enterprise transformation with AiXHub — the AI-native digital workplace platform that unifies collaboration, automation, and decision intelligence for modern organizations.',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Best Digital Workplace Software for Enterprises",
       bannerDescription: "Transform workplace through comprehensive enterprise collaboration platform excellence",
@@ -58,7 +58,7 @@ export const solutionData = [
         {
           id: 1,
           title: "Collaboration Excellence",
-          description: "AiXHub unifies people, processes, and systems within a single AI-powered ecosystem that eliminates silos and enhances visibility across departments. Intelligent collaboration tools streamline task execution, automate approvals, and maintain SLA compliance. Teams can communicate in real time, co-author securely through Microsoft 365, and manage documents with embedded governance. The result is faster decisions, stronger accountability, and seamless teamwork across distributed environments.  ",
+          description: "AiXHub unifies people, processes, and systems within a single AI-native ecosystem that eliminates silos and enhances visibility across departments. Intelligent collaboration tools streamline task execution, automate approvals, and maintain SLA compliance. Teams can communicate in real time, co-author securely through Microsoft 365, and manage documents with embedded governance. The result is faster decisions, stronger accountability, and seamless teamwork across distributed environments.  ",
           imageSrc: "/images/solutions/AiXHub-collab1.png",
         },
         {
@@ -69,7 +69,7 @@ export const solutionData = [
         },
         {
           id: 3,
-          title: "AI-Powered Intelligence",
+          title: "AI-native Intelligence",
           description: "Built on AiXHub’s Enterprise Operating System, this layer powers real-time decision-making and execution intelligence. AI personas such as Workflow_AI and Governance_AI analyze context, predict risks, and enforce compliance autonomously. The system connects seamlessly with ERP, CRM, and Microsoft 365 to deliver predictive insights and SLA-driven automation. Organizations gain measurable improvements in speed, compliance, and decision accuracy, transforming their operations into intelligent, self-governing digital ecosystems. ",
           imageSrc: "/images/solutions/AiXHub-collab3.png",
         },
@@ -212,7 +212,7 @@ export const solutionData = [
     linkUrl: "/solutions/document-management-system",
     imageSrc: "/images/solutions/Document_Management_System.png",
     detailPage: {
-      metaTitle: 'Document Management System | Secure, Smart & AI-Powered DMS',
+      metaTitle: 'Document Management System | Secure, Smart & AI-native DMS',
       metaDescription: 'Join the future of document handling! Secure, cloud-based DMS solutions. Streamline your workflow and boost efficiency now!',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
@@ -223,7 +223,7 @@ export const solutionData = [
       aboutSectionHeading: 'Intelligent Document Management Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Document-Management-System-about.png',
-        contentOne: "iTCart’s cloud document management system transforms enterprise document handling with secure storage, AI-powered processing, and organized workflows that protect and streamline information access.",
+        contentOne: "iTCart’s cloud document management system transforms enterprise document handling with secure storage, AI-native processing, and organized workflows that protect and streamline information access.",
         contenttwo: "",
         logo: ""
       },
@@ -232,7 +232,7 @@ export const solutionData = [
       futureItems: [
         {
           title: "Seamless File Organization",
-          description: "Effortlessly categorize and structure documents with intuitive folder management and AI-powered organization tools.",
+          description: "Effortlessly categorize and structure documents with intuitive folder management and AI-native organization tools.",
           icon: "/icons/Documents/DocumentManagement-icon1.svg",
         },
         {
@@ -273,7 +273,7 @@ export const solutionData = [
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Cutting-edge the best document management software capabilities including AI-powered search algorithms, automated document processing engines, intelligent categorization systems, predictive filing recommendations, content analysis technologies, and workflow automation tools enabling proactive document management, strategic information governance, operational excellence, and productivity enhancement through secure document management and cloud document management system optimization. ",
+          description: "Cutting-edge the best document management software capabilities including AI-native search algorithms, automated document processing engines, intelligent categorization systems, predictive filing recommendations, content analysis technologies, and workflow automation tools enabling proactive document management, strategic information governance, operational excellence, and productivity enhancement through secure document management and cloud document management system optimization. ",
           imageSrc: "/images/solutions/Document-Management-System-collab2.png",
         },
         {
@@ -310,7 +310,7 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AiXHub EOS Integration",
-          description: "Built on the proprietary AiXHub Enterprise Operating System, this solution delivers intelligent automation, adaptive learning capabilities, and predictive insights. It provides a unified AI-powered ERP architecture that simplifies enterprise operations and enhances decision-making efficiency.",
+          description: "Built on the proprietary AiXHub Enterprise Operating System, this solution delivers intelligent automation, adaptive learning capabilities, and predictive insights. It provides a unified AI-native ERP architecture that simplifies enterprise operations and enhances decision-making efficiency.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon1.svg'
         },
@@ -455,7 +455,7 @@ export const solutionData = [
         },
         {
           title: "Proactive Cybersecurity",
-          description: "AI-powered security safeguards protecting infrastructure and data from evolving cyber threats with built-in defense systems. ",
+          description: "AI-native security safeguards protecting infrastructure and data from evolving cyber threats with built-in defense systems. ",
           icon: "/icons/Digital/DigitalFuture-icon5.svg",
         },
         {
@@ -470,7 +470,7 @@ export const solutionData = [
         {
           id: 1,
           title: "Core Functionality",
-          description: "Advanced digital transformation capabilities include unified data integration, cloud-native scalability, AI-powered insights, agile development, proactive cybersecurity, and remote collaboration. These tools deliver measurable business value, streamline operations, enhance decision-making, and accelerate digital adoption across enterprises with integrated automation solutions.",
+          description: "Advanced digital transformation capabilities include unified data integration, cloud-native scalability, AI-native insights, agile development, proactive cybersecurity, and remote collaboration. These tools deliver measurable business value, streamline operations, enhance decision-making, and accelerate digital adoption across enterprises with integrated automation solutions.",
           imageSrc: "/images/solutions/Digital-collab1.png",
         },
         {
@@ -490,7 +490,7 @@ export const solutionData = [
       solutionGridItems: [
         {
           title: "Financial Services",
-          description: "Enhanced digital banking operations with automated compliance workflows, real-time fraud detection, and customer experience optimization through AI-powered transformation solutions. ",
+          description: "Enhanced digital banking operations with automated compliance workflows, real-time fraud detection, and customer experience optimization through AI-native transformation solutions. ",
           image: "/images/solutions/Digital-solution1.png"
         },
         {
@@ -513,7 +513,7 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System, delivering intelligent automation, adaptive learning capabilities, and predictive insights. It provides a unified AI-powered ERP architecture for optimized operations.",
+          description: "Built on proprietary AiXHub Enterprise Operating System, delivering intelligent automation, adaptive learning capabilities, and predictive insights. It provides a unified AI-native ERP architecture for optimized operations.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Digital/DigitalChooseUs-icon1.svg'
         },
@@ -620,17 +620,17 @@ export const solutionData = [
     imageSrc: "/images/solutions/Business-Process-Automation.png",
     detailPage: {
       metaTitle: 'Business Process Automation | BPA Solutions  ',
-      metaDescription: 'Increase efficiency with iTCart’s Business Process Automation, AI-powered workflows, cloud tools & BPA services for more innovative, faster business processes. ',
+      metaDescription: 'Increase efficiency with iTCart’s Business Process Automation, AI-native workflows, cloud tools & BPA services for more innovative, faster business processes. ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Supercharge Operations with Smart BPA Solutions",
-      bannerDescription: "Transform manual workflows into AI-powered automation systems that enhance efficiency and accuracy.",
+      bannerDescription: "Transform manual workflows into AI-native automation systems that enhance efficiency and accuracy.",
       bannerImage: "/images/solutions/Business-Process-Automation-banner.png",
       mobileBannerImage: "/images/solutions/Business-MobileBanner.jpg",
       aboutSectionHeading: 'Automate. Optimize. Accelerate. Transform.',
       aboutSection: {
         aboutImage: '/images/solutions/Business-Process-Automation-about.png',
-        contentOne: "iTCart's business process automation solution enables teams to work efficiently by eliminating manual bottlenecks. It delivers AI-powered workflows for improved business outcomes and enterprise automation platform performance.",
+        contentOne: "iTCart's business process automation solution enables teams to work efficiently by eliminating manual bottlenecks. It delivers AI-native workflows for improved business outcomes and enterprise automation platform performance.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Business Excellence',
@@ -638,7 +638,7 @@ export const solutionData = [
       futureItems: [
         {
           title: "Adaptive Workflow Automation",
-          description: "End-to-end AI-powered workflows eliminating manual errors through advanced business process optimization capabilities.",
+          description: "End-to-end AI-native workflows eliminating manual errors through advanced business process optimization capabilities.",
           icon: "/icons/Busines/BussinessFuture-icon1.svg",
         },
         {
@@ -679,7 +679,7 @@ export const solutionData = [
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Cutting-edge AI-powered workflows capabilities including machine learning algorithms, predictive analytics engines, intelligent decision-making systems, automated risk assessment, real-time process optimization, and smart operations management features enabling proactive business management, strategic planning, competitive advantage, and operational excellence through data-driven insights and cloud-based automation tools integration.",
+          description: "Cutting-edge AI-native workflows capabilities including machine learning algorithms, predictive analytics engines, intelligent decision-making systems, automated risk assessment, real-time process optimization, and smart operations management features enabling proactive business management, strategic planning, competitive advantage, and operational excellence through data-driven insights and cloud-based automation tools integration.",
           imageSrc: "/images/solutions/Business-Process-Automation-collab2.png",
         },
         {
@@ -716,7 +716,7 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Busines/BussinesChooseUs-icon1.svg'
         },
@@ -761,7 +761,7 @@ export const solutionData = [
         },
         {
           percentage: "70%",
-          label: "Manual task reduction through intelligent AI-powered workflows automation",
+          label: "Manual task reduction through intelligent AI-native workflows automation",
         },
         {
           percentage: "60%",
@@ -786,7 +786,7 @@ export const solutionData = [
         {
           id: '1',
           title: "What makes iTCart's business process automation different from competitors?",
-          content: "Our solutions integrate AI-powered workflows with best workflow automation software, delivering cloud-based automation tools and enterprise automation platform capabilities through proven BPA implementation services."
+          content: "Our solutions integrate AI-native workflows with best workflow automation software, delivering cloud-based automation tools and enterprise automation platform capabilities through proven BPA implementation services."
         },
         {
           id: '2',
@@ -801,7 +801,7 @@ export const solutionData = [
         {
           id: '4',
           title: 'What kind of support and training do you provide?',
-          content: 'We offer 24/7 expert support, dedicated success managers, comprehensive user training, and continuous optimization assistance throughout your AI-powered workflows transformation journey.'
+          content: 'We offer 24/7 expert support, dedicated success managers, comprehensive user training, and continuous optimization assistance throughout your AI-native workflows transformation journey.'
         },
         {
           id: '5',
@@ -919,7 +919,7 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Human-Resource/HumanChooseUs-icon1.svg'
         },
@@ -988,7 +988,7 @@ export const solutionData = [
         {
           id: '1',
           title: "What makes iTCart's HRM different from traditional solutions?",
-          content: "Our cloud-based HR software integrates comprehensive HR digital transformation with AI-powered automation rather than simple digitization through intelligent workforce management."
+          content: "Our cloud-based HR software integrates comprehensive HR digital transformation with AI-native automation rather than simple digitization through intelligent workforce management."
         },
         {
           id: '2',
@@ -1024,7 +1024,7 @@ export const solutionData = [
     linkUrl: "/services/data-analytics",
     imageSrc: "/images/solutions/Learning-Management-System.png",
     detailPage: {
-      metaTitle: 'AI-Powered LMS for Digital Learning Transformation | iTCart',
+      metaTitle: 'AI-native LMS for Digital Learning Transformation | iTCart',
       metaDescription: 'Transform training into a strategic advantage with an LMS designed for personalization, automation, analytics, and enterprise scalability',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
@@ -1191,7 +1191,7 @@ export const solutionData = [
         {
           id: '1',
           title: "What makes iTCart's Learning Management System different?",
-          content: "Our Enterprise Learning Management System integrates AI-powered features with cloud-based LMS capabilities, delivering superior learning outcomes and personalised educational experiences."
+          content: "Our Enterprise Learning Management System integrates AI-native features with cloud-based LMS capabilities, delivering superior learning outcomes and personalised educational experiences."
         },
         {
           id: '2',
@@ -1228,17 +1228,17 @@ export const solutionData = [
     imageSrc: "/images/solutions/Enterprise-Resource.png",
     detailPage: {
       metaTitle: 'Cloud-Based ERP Platform for Enterprises | iTCart',
-      metaDescription: 'eimagine business control with iTCart’s AI-powered ERP. Cloud-based, secure, and scalable, built to streamline operations and boost growth.',
+      metaDescription: 'eimagine business control with iTCart’s AI-native ERP. Cloud-based, secure, and scalable, built to streamline operations and boost growth.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
-      bannerTitle: "Reimagine Your Business with iTCart's AI-Powered ERP Solutions",
+      bannerTitle: "Reimagine Your Business with iTCart's AI-native ERP Solutions",
       bannerDescription: "Transform business operations with iTCart’s cloud-based ERP platform built for enterprises of every scale.",
       bannerImage: "/images/solutions/erp-banner.png",
       mobileBannerImage: "/images/solutions/Enterprise-MobileBanner.jpg",
       aboutSectionHeading: 'Enterprise Resource Planning Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/erp-about.png',
-        contentOne: "iTCart’s AI-powered ERP suite transforms business operations with intelligent automation, real-time insights, and seamless integration. Designed for scalability and flexibility, it combines custom development, expert consulting, and advanced process automation to give enterprises complete control over their operations while enhancing efficiency and decision-making.",
+        contentOne: "iTCart’s AI-native ERP suite transforms business operations with intelligent automation, real-time insights, and seamless integration. Designed for scalability and flexibility, it combines custom development, expert consulting, and advanced process automation to give enterprises complete control over their operations while enhancing efficiency and decision-making.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Business Excellence ',
@@ -1246,7 +1246,7 @@ export const solutionData = [
       futureItems: [
         {
           title: "AI at the Core",
-          description: "Make smarter decisions faster with AI-powered ERP solutions featuring demand forecasting, risk alerts, and real-time adaptive learning. ",
+          description: "Make smarter decisions faster with AI-native ERP solutions featuring demand forecasting, risk alerts, and real-time adaptive learning. ",
           icon: "/icons/Enterprise/EnterpriseFuture-icon1.svg",
         },
         {
@@ -1324,7 +1324,7 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Enterprise/EnterpriseChooseUs-icon1.svg'
         },
@@ -1394,7 +1394,7 @@ export const solutionData = [
         {
           id: '1',
           title: "What makes iTCart's ERP different from traditional solutions?",
-          content: "Our AI-powered ERP solutions integrate advanced machine learning with cloud ERP platform for enterprises capabilities, delivering intelligent automation rather than simple digitization through comprehensive ERP software for businesses."
+          content: "Our AI-native ERP solutions integrate advanced machine learning with cloud ERP platform for enterprises capabilities, delivering intelligent automation rather than simple digitization through comprehensive ERP software for businesses."
         },
         {
           id: '2',
@@ -1437,14 +1437,14 @@ export const solutionData = [
       aboutSectionHeading: 'Intelligent CRM for Modern Businesses',
       aboutSection: {
         aboutImage: '/images/solutions/crm-about.png',
-        contentOne: "iTCart’s AI-powered customer relationship management system unifies every customer touchpoint through advanced marketing automation and predictive lifecycle management — delivering personalized engagement and measurable business growth.",
+        contentOne: "iTCart’s AI-native customer relationship management system unifies every customer touchpoint through advanced marketing automation and predictive lifecycle management — delivering personalized engagement and measurable business growth.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of Customer Excellence',
       futureGridDiscription: "Comprehensive capabilities designed for intelligent automation and seamless integration ",
       futureItems: [
         {
-          title: "AI-Powered Intelligence",
+          title: "AI-native Intelligence",
           description: "360° customer visibility with predictive customer analytics enabling proactive issue resolution and automated lead nurturing. ",
           icon:"/icons/Customer/CustomerFuture-icon1.svg",
         },
@@ -1480,13 +1480,13 @@ export const solutionData = [
         {
           id: 1,
           title: "Core Functionality ",
-          description: "Advanced customer relationship management system offering AI-powered customer intelligence, unified sales and marketing platforms, real-time engagement tracking, automated lead scoring workflows, cloud-first mobile architecture, and complete customer lifecycle management. These capabilities deliver measurable business value through personalized customer experiences, improved conversion rates, and enhanced retention across enterprise environments.",
+          description: "Advanced customer relationship management system offering AI-native customer intelligence, unified sales and marketing platforms, real-time engagement tracking, automated lead scoring workflows, cloud-first mobile architecture, and complete customer lifecycle management. These capabilities deliver measurable business value through personalized customer experiences, improved conversion rates, and enhanced retention across enterprise environments.",
           imageSrc: "/images/solutions/crm-collab1.png",
         },
         {
           id: 2,
           title: "Advanced Intelligence",
-          description: "Our advanced customer relationship management system features AI-powered intelligence, unified sales and marketing platforms, and real-time engagement tracking. It delivers measurable business value through improved conversion rates, personalized customer experiences, and stronger customer retention across enterprise environments.",
+          description: "Our advanced customer relationship management system features AI-native intelligence, unified sales and marketing platforms, and real-time engagement tracking. It delivers measurable business value through improved conversion rates, personalized customer experiences, and stronger customer retention across enterprise environments.",
           imageSrc: "/images/solutions/crm-collab2.png",
         },
         {
@@ -1523,7 +1523,7 @@ export const solutionData = [
       chooseItems: [
         {
           title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture. ",
+          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon:'/icons/Customer/CustomerChooseUs-icon1.svg'
         },
@@ -1592,7 +1592,7 @@ export const solutionData = [
         {
           id: '1',
           title: "What makes iTCart's customer relationship management system different?",
-          content: "Our solutions integrate advanced marketing automation and CRM capabilities with AI-powered predictive customer analytics, delivering automated lead nurturing and comprehensive customer lifecycle management through intelligent customer journey analysis. "
+          content: "Our solutions integrate advanced marketing automation and CRM capabilities with AI-native predictive customer analytics, delivering automated lead nurturing and comprehensive customer lifecycle management through intelligent customer journey analysis. "
         },
         {
           id: '2',
@@ -1628,8 +1628,8 @@ export const solutionData = [
     linkUrl: "/services/digital-transformation",
     imageSrc: "/images/solutions/Supply-Chain-Management.png",
     detailPage: {
-      metaTitle: 'AI-Powered Supply Chain Management Solutions | iTCart',
-      metaDescription: 'Optimize logistics and operations with iTCart’s AI-powered supply chain management solutions. Achieve real-time visibility, predictive analytics, and automation.',
+      metaTitle: 'AI-native Supply Chain Management Solutions | iTCart',
+      metaDescription: 'Optimize logistics and operations with iTCart’s AI-native supply chain management solutions. Achieve real-time visibility, predictive analytics, and automation.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Next-Generation Supply Chain Management Platform Solutions",
@@ -1652,7 +1652,7 @@ export const solutionData = [
         },
         {
           title: "Inventory Optimization",
-          description: "AI-powered warehouse management software balancing cost, capacity, and customer demand intelligently. ",
+          description: "AI-native warehouse management software balancing cost, capacity, and customer demand intelligently. ",
           icon: "/icons/SupplyChain/SupplyFuture-icon2.svg",
         },
         {
@@ -1797,7 +1797,7 @@ export const solutionData = [
           id: '1',
           title: "What makes iTCart's supply chain management software different?",
           content:
-            "Our supply chain management solutions combine supplier management, modular architecture, AI-powered demand forecasting, and warehouse optimization capabilities."
+            "Our supply chain management solutions combine supplier management, modular architecture, AI-native demand forecasting, and warehouse optimization capabilities."
         },
         { 
           id: '2',
@@ -1845,11 +1845,11 @@ export const solutionData = [
     linkUrl: "/services/iot-services",
     imageSrc: "/images/solutions/Logistics-Management.png",
     detailPage: {
-      metaTitle: 'AI-Powered Logistics Management Solution | iTCart ',
+      metaTitle: 'AI-native Logistics Management Solution | iTCart ',
       metaDescription: 'Cut costs, optimize routes, and scale faster with iTCart’s AI logistics solution. Smarter transport and delivery management starts',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
-      bannerTitle: "AI-Powered Logistics Management Solutions",
+      bannerTitle: "AI-native Logistics Management Solutions",
       bannerDescription: "Deliver smarter through comprehensive logistics digital transformation solutions excellence.",
       bannerImage: "/images/solutions/Logistics-Management-banner.png",
       mobileBannerImage: "/images/solutions/Logistics-MobileBanner.jpg",
@@ -1954,7 +1954,7 @@ export const solutionData = [
         {
           title: "AiXHub EOS Integration",
           description:
-            "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-powered ERP architecture.",
+            "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]",
           icon: "/icons/Logistics/LogisticsChooseUs-icon1.svg",
         },
@@ -2077,17 +2077,17 @@ export const solutionData = [
     imageSrc: "/images/solutions/Governance-Risk-Compliance.png",
     detailPage: {
       metaTitle: 'Your Trusted GRC Solution Platform | iTCart  ',
-      metaDescription: 'Empower your enterprise with iTCart’s AI-powered GRC platform. Streamline governance, manage risks, ensure compliance with GDPR, HIPAA, SOX, and more ',
+      metaDescription: 'Empower your enterprise with iTCart’s AI-native GRC platform. Streamline governance, manage risks, ensure compliance with GDPR, HIPAA, SOX, and more ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
-      bannerTitle: "AI-Powered Enterprise GRC Solutions",
+      bannerTitle: "AI-native Enterprise GRC Solutions",
       bannerDescription: "Empowering organizations with intelligent, automated governance and compliance excellence.",
       bannerImage: "/images/solutions/Governance-banner.png",
       mobileBannerImage: "/images/solutions/Governance-MobileBanner.jpg",
       aboutSectionHeading: 'Revolutionary GRC Excellence',
       aboutSection: {
         aboutImage: '/images/solutions/Governance-about.png',
-        contentOne: "Modern enterprises require a comprehensive AI-powered GRC solution that unifies governance, risk, and compliance management within a single intelligent platform. iTCart’s enterprise GRC system integrates cloud-based compliance automation, operational risk management, audit tracking, and regulatory reporting—delivering accuracy, agility, and seamless control across all governance functions.",
+        contentOne: "Modern enterprises require a comprehensive AI-native GRC solution that unifies governance, risk, and compliance management within a single intelligent platform. iTCart’s enterprise GRC system integrates cloud-based compliance automation, operational risk management, audit tracking, and regulatory reporting—delivering accuracy, agility, and seamless control across all governance functions.",
         contenttwo: ""
       },
       futureGridHeading: 'Navigate the Future of GRC Excellence',
@@ -2142,7 +2142,7 @@ export const solutionData = [
         {
           id: 2,
           title: "Compliance Excellence",
-          description: "Advanced compliance management solutions deliver strategic automation, regulatory adherence, audit readiness, and stakeholder confidence through intelligent automation capabilities. Our AI-powered GRC platform ensures transparent, measurable compliance outcomes supporting key regulatory requirements. It maintains precision through automated policy approvals, real-time regulatory updates, and dynamic compliance tracking. Comprehensive audit trails are generated for multi-framework adherence, including GDPR, HIPAA, and Sarbanes-Oxley standards, ensuring complete oversight and accountability.",
+          description: "Advanced compliance management solutions deliver strategic automation, regulatory adherence, audit readiness, and stakeholder confidence through intelligent automation capabilities. Our AI-native GRC platform ensures transparent, measurable compliance outcomes supporting key regulatory requirements. It maintains precision through automated policy approvals, real-time regulatory updates, and dynamic compliance tracking. Comprehensive audit trails are generated for multi-framework adherence, including GDPR, HIPAA, and Sarbanes-Oxley standards, ensuring complete oversight and accountability.",
           imageSrc: "/images/solutions/Governance-collab2.png",
         },
         {
@@ -2170,7 +2170,7 @@ export const solutionData = [
         {
           title: "Technology Companies",
           description:
-            "Data governance and cybersecurity compliance through an AI-powered GRC platform featuring advanced security controls and real-time monitoring.",
+            "Data governance and cybersecurity compliance through an AI-native GRC platform featuring advanced security controls and real-time monitoring.",
           image: "/images/solutions/Governance-solution3.png",
         },
         {
@@ -2218,7 +2218,7 @@ export const solutionData = [
           icon: "/icons/GovernanceRisk/GovernanceChooseUs-icon5.svg",
         },
         {
-          title: "AI-Powered Innovation",
+          title: "AI-native Innovation",
           description:
             "AI-driven automation with audit management capabilities to enhance speed, accuracy, and governance.",
           gradient: "from-[#45C2CC] to-[#181919]",
@@ -2260,7 +2260,7 @@ export const solutionData = [
           id: '1',
           title: "What makes iTCart's GRC software solutions different?",
           content:
-            "Our enterprise GRC solutions integrate comprehensive AI-powered GRC platform capabilities with advanced automation, delivering superior compliance management solutions and governance outcomes."
+            "Our enterprise GRC solutions integrate comprehensive AI-native GRC platform capabilities with advanced automation, delivering superior compliance management solutions and governance outcomes."
         },
         {
           id: '2',

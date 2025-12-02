@@ -34,7 +34,7 @@ const CaseStudySection = ({
     },
     {
       id: 3,
-      title: "AI-Powered Analytics",
+      title: "AI-native Analytics",
       description: "Implementing advanced analytics for data-driven decision making.",
       image: "/images/case-studies/analytics.jpg"
     }
