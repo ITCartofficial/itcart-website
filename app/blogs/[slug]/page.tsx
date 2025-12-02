@@ -90,9 +90,6 @@ export default async function SingleBlogPage({
       variables: { slug: param },
     });
 
-    console.log("ONEEEEEEEEEEEEEEEE", data?.post?.content);
-
-
     return (
       <article id="singlePostContainer">
         <h1 style={{ color: "#ffff" }}>{data?.post?.title}</h1>

@@ -338,19 +338,10 @@ const JobDetails: React.FC<JobDetailsProps> = ({ filteredJob }: JobDetailsProps)
 
                 <div>
                     <p className="font-semibold">
-                        About iTCart Private limited (iTCart):
+                        About iTCart:
                     </p>
                     <p className="mt-2 text-white leading-relaxed">
-                        iTCart Private limited isn’t just a company – it’s a global movement redefining how
-                        industries think, operate, and thrive in the age of Artificial Intelligence.
-                        Headquartered in Bengaluru, India’s Silicon Valley, and spanning
-                        across innovation hubs in the USA, UK, KSA, UAE, and LATAM, iTCart stands at the
-                        forefront of AI-native digital transformation. We don’t follow trends; we create them.
-                        With a relentless focus on AI-driven disruption, iTCart’s Patent-pending AiXHub EOS
-                        serves as the backbone of a new era of efficiency, innovation, and scalability.
-                        This proprietary technology isn’t just a tool – it’s a paradigm shift. From automating
-                        complex workflows to unlocking hyper-personalized insights with Generative AI, our solutions
-                        empower enterprises to leapfrog from legacy systems to future-ready ecosystems.
+                        iTCart Private Limited is a global technology organisation redefining how industries operate in the age of Artificial Intelligence. Headquartered in Bengaluru and established across key innovation hubs in the USA, UK, KSA, UAE, and LATAM, iTCart leads AI-native digital transformation for enterprises worldwide. Our patent-pending AiXHub EOS serves as the foundation for intelligent automation, operational scalability, and AI-driven business excellence. From streamlining complex workflows to delivering hyper-personalised insights through Generative AI, we enable organisations to transition seamlessly from legacy environments to future-ready digital ecosystems.
                     </p>
                 </div>
 
@@ -480,18 +471,18 @@ const JobDetails: React.FC<JobDetailsProps> = ({ filteredJob }: JobDetailsProps)
                         </p>
 
                         <p className="text-[18px]">
-                            <span className="font-semibold">The AIX Ecosystem : </span>
-                            Our suite of cutting-edge platforms (AIX HUB, AIX Desk, RCMAiX, Insure AIX, and more) acts as the central nervous system for businesses, transforming raw data into strategic mastery.
+                            <span className="font-semibold">Our AI Product Suite:</span>
+                            iTCart delivers a unified portfolio of next-generation AI platforms such as AiXHub, AiXDesk, RCMAiX, InsureAiX, and other enterprise-grade systems. Each product is designed to help organisations automate workflows, enhance decision-making, and transform operations using intelligent, real-time insights.
                         </p>
 
                         <p className="text-[18px]">
-                            <span className="font-semibold">Beyond Profit : </span>
-                            We measure success not just in revenue, but in societal impact. Every innovation is infused with purpose – reinvesting in communities, reducing global inequities, and democratizing access to AI for businesses of all sizes.
+                            <span className="font-semibold">Purpose-Driven Innovation:</span>
+                            Our mission extends beyond technology delivery. Every solution we build also contributes to social upliftment—supporting education, healthcare, employment, and community empowerment across regions where we operate.
                         </p>
 
                         <p className="text-[18px]">
                             <span className="font-semibold">Vision: </span>
-                            To be the architect of the world’s smartest enterprises, where AI isn’t an add-on but the
+                            We are building the world’s next generation of intelligent enterprises, where AI is not an add-on but the operational core. Our goal is to help organisations scale confidently, adapt rapidly, and operate with precision through AI-powered transformation.
                         </p>
 
                         <p className="text-[18px] md:mt-[-20px]">
