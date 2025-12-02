@@ -241,10 +241,10 @@ export const jobs = [
     reportsTo: 'Enterprise Solutions Architect – AI Solutions',
     positionOverview: "The SharePoint Tech Lead will be responsible for the end-to-end design, development, and deployment of SharePoint solutions, ensuring seamless collaboration and business process automation. The role will involve architecting SharePoint Online and on-premises environments, integrating AI-native workflows, and ensuring adherence to governance, security, and compliance standards.",
     objectives: [
-      "Architect and optimize SharePoint environments, ensuring seamless integration across cloud and hybrid ecosystems.",
-      "Lead SharePoint migration, customization, workflow automation, and AI-native business process improvements.",
-      "Implement SharePoint governance, compliance, and security best practices for enterprise-wide collaboration.",
-      "Enhance SharePoint performance, scalability, and usability through modernized development and automation practices."
+      "Architect and optimise SharePoint environments to ensure stable, high-performance integration across cloud and hybrid systems.",
+      "Lead SharePoint migrations, customisations, workflow automation, and AI-enabled process enhancements for enterprise adoption.",
+      "Implement SharePoint governance controls, security standards, and compliance frameworks to support organisation-wide collaboration.",
+      "Enhance platform performance, scalability, and user experience through modern development practices and automation standards."
     ],
     responsibilities: [
       {
