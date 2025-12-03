@@ -333,6 +333,18 @@ export const jobs = [
 
 
   },
+
+
+
+
+
+
+
+
+
+
+
+  
   // {
   //   jobId: "iTC0002",
   //   title: "Assistant to the Co-Founder & Global CTO",
