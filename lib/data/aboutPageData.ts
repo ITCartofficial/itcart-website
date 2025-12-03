@@ -292,27 +292,27 @@ export const ambassadorsList = [
       },
     ],
   },
-  {
-    image: "/images/ambassador/JerameyPeters.png",
-    title: "Jeremy Peters",
-    designation:
-      "VP - BD Law Enforcement, Security, Investigations Development",
-    profileRef: "https://www.linkedin.com/in/jerameypeters/", //button link
-    matrics: [
-      {
-        numericValue: 30,
-        title: "Years of Experience",
-      },
-      {
-        numericValue: 50,
-        title: "Awards & Honors",
-      },
-      {
-        numericValue: 500,
-        title: "Cases Investigated",
-      },
-    ],
-  },
+  // {
+  //   image: "/images/ambassador/JerameyPeters.png",
+  //   title: "Jeremy Peters",
+  //   designation:
+  //     "VP - BD Law Enforcement, Security, Investigations Development",
+  //   profileRef: "https://www.linkedin.com/in/jerameypeters/", //button link
+  //   matrics: [
+  //     {
+  //       numericValue: 30,
+  //       title: "Years of Experience",
+  //     },
+  //     {
+  //       numericValue: 50,
+  //       title: "Awards & Honors",
+  //     },
+  //     {
+  //       numericValue: 500,
+  //       title: "Cases Investigated",
+  //     },
+  //   ],
+  // },
   {
     image: "/images/ambassador/John Hennessey.png",
     title: "John Hennessey",

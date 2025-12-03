@@ -3,8 +3,8 @@
 export const newBlogData = [
     {
         bannerTitle: 'How AiXHub Is Shaping the Future of Enterprise AI in 2025',
-        bannerDiscription: 'Explore how AiXHub helps enterprises automate workflows, unify data, and make smarter decisions. Learn why AI-native transformation is becoming the new business standard.',
-        image: '/images/vertical/section2Image.png',
+        bannerDiscription: 'Explore how AiXHub helps enterprises automate workflows, unify data, and make smarter decisions. Learn why AI-powered transformation is becoming the new business standard.',
+        image: '/images/blogs/blog-feature-1.jpg',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
         id: 1,
@@ -235,7 +235,7 @@ export const newBlogData = [
     {
         bannerTitle: 'Reinforcement learning models – Meaning, Process, and Applications',
         bannerDiscription: 'Reinforcement learning is one of the most exciting and rapidly evolving areas of AI today. It empowers machines to learn optimal behaviors by interacting with their environment, receiving feedback, and improving over time; much like how humans learn from experience. ',
-        image: '/images/vertical/section2Image.png',
+        image: '/images/blogs/blog-feature-1.jpg',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
         id: 2,
@@ -390,7 +390,7 @@ export const newBlogData = [
     {
         bannerTitle: 'How Revenue Cycle Analytics Can Help Reduce Claim Denials: A New Era with ITcart’s RCM Solution ',
         bannerDiscription: '',
-        image: '/images/vertical/section2Image.png',
+        image: '/images/blogs/blog-feature-1.jpg',
         writtenBy: 'Dona',
         writtenDate: '23/12/2005',
         type: "",
@@ -602,7 +602,7 @@ export const newBlogData = [
     {
         bannerTitle: 'Process Discovery: Unveiling the DNA of Modern Business Success  ',
         bannerDiscription: '',
-        image: '/images/vertical/section2Image.png',
+        image: '/images/blogs/blog-feature-1.jpg',
         writtenBy: 'Dona',
         writtenDate: '24/11/2025',
         type: "",
@@ -801,7 +801,7 @@ export const newBlogData = [
     {
         bannerTitle: 'Multimodal AI – Meaning, Capabilities, and Use Cases',
         bannerDiscription: '',
-        image: '/images/vertical/section2Image.png',
+        image: '/images/blogs/blog-feature-1.jpg',
         writtenBy: 'Dona',
         writtenDate: '23/12/2000',
         type: "",
@@ -1017,7 +1017,7 @@ export const newBlogData = [
     {
         bannerTitle: 'AIoT: How Intelligent Connectivity Is Reshaping Industry and Security in 2025 and Beyond ',
         bannerDiscription: '',
-        image: '/images/vertical/section2Image.png',
+        image: '/images/blogs/blog-feature-1.jpg',
         writtenBy: 'Madhu BN',
         writtenDate: '24/12/2024',
         type: "",

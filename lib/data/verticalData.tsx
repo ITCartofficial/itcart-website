@@ -937,148 +937,148 @@ export const verticalData = [
                     content: 'We use AI-driven precision underwriting, biological age assessment, multi-omics data fusion, and explainable AI technology through AI in insurance industry innovation instead of outdated demographic-based actuarial tables.'
                 }
             ],
-             schema: {
+            schema: {
                 "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebPage",
-      "name": "AiXQP – iTCart",
-      "url": "https://itcart.ai/our-verticals/aixqp",
-      "description": "AiXQP is an AI-native online learning platform offering personalized study paths, certification programs, internships, and real-time progress tracking to help learners grow their careers.",
-      "mainEntity": {
-        "@type": "SoftwareApplication",
-        "name": "AiXQP",
-        "operatingSystem": "Web, Cloud, Mobile",
-        "applicationCategory": "EducationalApplication",
-        "url": "https://itcart.ai/our-verticals/aixqp",
-        "description": "AiXQP enhances learning through AI-driven personalization, adaptive study paths, real-time analytics, and intelligent assessments for students, professionals, and enterprises.",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXQP – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixqp",
+                        "description": "AiXQP is an AI-powered online learning platform offering personalized study paths, certification programs, internships, and real-time progress tracking to help learners grow their careers.",
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXQP",
+                            "operatingSystem": "Web, Cloud, Mobile",
+                            "applicationCategory": "EducationalApplication",
+                            "url": "https://itcart.ai/our-verticals/aixqp",
+                            "description": "AiXQP enhances learning through AI-driven personalization, adaptive study paths, real-time analytics, and intelligent assessments for students, professionals, and enterprises.",
 
-        "provider": {
-          "@type": "Organization",
-          "name": "iTCart",
-          "url": "https://itcart.ai",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://itcart.ai/assets/logo.png"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/company/itcart",
-            "https://aixqp.com/"
-          ]
-        },
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://aixqp.com/"
+                                ]
+                            },
 
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock",
-          "url": "https://aixqp.com/",
-          "description": "AiXQP offers free and paid AI certification programs, skill development courses, internship tracks, and corporate training modules."
-        },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://aixqp.com/",
+                                "description": "AiXQP offers free and paid AI certification programs, skill development courses, internship tracks, and corporate training modules."
+                            },
 
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "ratingCount": "1520",
-          "bestRating": "5"
-        },
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "1520",
+                                "bestRating": "5"
+                            },
 
-        "potentialAction": {
-          "@type": "EnrollAction",
-          "target": "https://aixqp.com/",
-          "name": "Enroll Now",
-          "description": "Enroll in AI-native online courses, certification programs, and internship pathways on AiXQP."
-        }
-      },
+                            "potentialAction": {
+                                "@type": "EnrollAction",
+                                "target": "https://aixqp.com/",
+                                "name": "Enroll Now",
+                                "description": "Enroll in AI-powered online courses, certification programs, and internship pathways on AiXQP."
+                            }
+                        },
 
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://itcart.ai/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Our Verticals",
-            "item": "https://itcart.ai/our-verticals"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "AiXQP",
-            "item": "https://itcart.ai/our-verticals/aixqp"
-          }
-        ]
-      }
-    },
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXQP",
+                                    "item": "https://itcart.ai/our-verticals/aixqp"
+                                }
+                            ]
+                        }
+                    },
 
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What makes AiXQP different from other online learning platforms?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AiXQP is built as an AI-first platform where every lesson, quiz, and interaction is intelligently personalized, offering a dynamic and guided learning experience."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does the AI-native education platform adapt to individual learning styles?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The platform analyzes performance data, learning preferences, and career goals to create personalized study paths through adaptive learning that evolves with the learner."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What types of AI certification programs are available?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AiXQP offers certification programs across multiple industries including technology, healthcare, finance, marketing, and manufacturing with verified learning outcomes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does the intelligent learning management system track progress?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AiXQP tracks progress using real-time analytics, personalized recommendations, and diagnostic assessments that identify strengths and improvement areas."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the platform suitable for corporate training programs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, AiXQP supports enterprise-level adaptive learning with intelligent automation, automated content creation, assessment tools, and detailed reporting for corporate teams."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How secure is learner data on the platform?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AiXQP ensures data security with end-to-end encryption, anonymized data processing, GDPR compliance, and globally aligned education security standards."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can the platform integrate with existing learning management systems?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, AiXQP integrates seamlessly with LMS, HR systems, talent platforms, and enterprise tools using robust APIs and SCORM-compliant architecture."
-          }
-        }
-      ]
-    }
-  ]
-},
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXQP different from other online learning platforms?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXQP is built as an AI-first platform where every lesson, quiz, and interaction is intelligently personalized, offering a dynamic and guided learning experience."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does the AI-powered education platform adapt to individual learning styles?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The platform analyzes performance data, learning preferences, and career goals to create personalized study paths through adaptive learning that evolves with the learner."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What types of AI certification programs are available?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXQP offers certification programs across multiple industries including technology, healthcare, finance, marketing, and manufacturing with verified learning outcomes."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does the intelligent learning management system track progress?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXQP tracks progress using real-time analytics, personalized recommendations, and diagnostic assessments that identify strengths and improvement areas."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the platform suitable for corporate training programs?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, AiXQP supports enterprise-level adaptive learning with intelligent automation, automated content creation, assessment tools, and detailed reporting for corporate teams."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How secure is learner data on the platform?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXQP ensures data security with end-to-end encryption, anonymized data processing, GDPR compliance, and globally aligned education security standards."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can the platform integrate with existing learning management systems?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, AiXQP integrates seamlessly with LMS, HR systems, talent platforms, and enterprise tools using robust APIs and SCORM-compliant architecture."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: 'InsureAiX platform runs on AiXHub, the core of the AiX Framework—leveraging advanced AI-driven genomics, behavior analysis, and health data to deliver personalized, dynamic insurance premiums. ',
@@ -1219,152 +1219,152 @@ export const verticalData = [
                     content: 'Dedicated project managers, training sessions, and 24/7 technical support throughout deployment.  '
                 }
             ],
-             schema: {
-                 "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebPage",
-      "name": "AiXDesk – iTCart",
-      "url": "https://itcart.ai/our-verticals/aixdesk",
-      "description": "AiXDesk is an AI-native IT service management (ITSM) platform that automates ticketing, asset management, incident response, and IT operations to boost enterprise service delivery.",
-      "mainEntity": {
-        "@type": "SoftwareApplication",
-        "name": "AiXDesk",
-        "operatingSystem": "Web, Cloud, Mobile",
-        "applicationCategory": "ITServiceManagementApplication",
-        "url": "https://itcart.ai/our-verticals/aixdesk",
-        "description": "AiXDesk enhances IT operations with AI-driven ticket automation, IT asset management, service desk workflows, knowledge base intelligence, predictive incident detection, and enterprise-grade ITSM capabilities.",
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXDesk – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixdesk",
+                        "description": "AiXDesk is an AI-powered IT service management (ITSM) platform that automates ticketing, asset management, incident response, and IT operations to boost enterprise service delivery.",
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXDesk",
+                            "operatingSystem": "Web, Cloud, Mobile",
+                            "applicationCategory": "ITServiceManagementApplication",
+                            "url": "https://itcart.ai/our-verticals/aixdesk",
+                            "description": "AiXDesk enhances IT operations with AI-driven ticket automation, IT asset management, service desk workflows, knowledge base intelligence, predictive incident detection, and enterprise-grade ITSM capabilities.",
 
-        "applicationSuite": [
-          "AI-native Ticketing System",
-          "IT Asset Management (ITAM)",
-          "Incident & Problem Management",
-          "Service Request Automation",
-          "Knowledge Base & Self-Service Portal",
-          "Change & Release Management",
-          "AI Insights for IT Operations",
-          "Workflow Automation & Orchestration",
-          "SLA Tracking & Compliance Monitoring"
-        ],
+                            "applicationSuite": [
+                                "AI-powered Ticketing System",
+                                "IT Asset Management (ITAM)",
+                                "Incident & Problem Management",
+                                "Service Request Automation",
+                                "Knowledge Base & Self-Service Portal",
+                                "Change & Release Management",
+                                "AI Insights for IT Operations",
+                                "Workflow Automation & Orchestration",
+                                "SLA Tracking & Compliance Monitoring"
+                            ],
 
-        "provider": {
-          "@type": "Organization",
-          "name": "iTCart",
-          "url": "https://itcart.ai",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://itcart.ai/assets/logo.png"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/company/itcart",
-            "https://twitter.com/itcart_ai"
-          ]
-        },
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
 
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock",
-          "url": "https://itcart.ai/consult-now#contact-form",
-          "description": "Request a demo of AiXDesk to explore automated ticketing, IT asset management, workflow orchestration, and AI-driven IT service management."
-        },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a demo of AiXDesk to explore automated ticketing, IT asset management, workflow orchestration, and AI-driven IT service management."
+                            },
 
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "ratingCount": "1240",
-          "bestRating": "5"
-        },
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "1240",
+                                "bestRating": "5"
+                            },
 
-        "potentialAction": {
-          "@type": "SubmitAction",
-          "target": "https://itcart.ai/consult-now#contact-form",
-          "name": "Request a Consultation",
-          "description": "Submit your details to consult with iTCart experts about implementing AiXDesk."
-        }
-      },
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to consult with iTCart experts about implementing AiXDesk."
+                            }
+                        },
 
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://itcart.ai/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Our Verticals",
-            "item": "https://itcart.ai/our-verticals"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "AiXDesk",
-            "item": "https://itcart.ai/our-verticals/aixdesk"
-          }
-        ]
-      }
-    },
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXDesk",
+                                    "item": "https://itcart.ai/our-verticals/aixdesk"
+                                }
+                            ]
+                        }
+                    },
 
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How quickly can AiXDesk be deployed across our organization?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AiXDesk can be deployed in 2-4 weeks, including full training and customization through comprehensive IT service management setup and asset management platform integration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does AiXDesk integrate with our existing systems?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. AiXDesk offers pre-built connectors for 200+ business applications with seamless integration across IT asset management systems, digital asset platforms, and enterprise applications."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What security measures protect our data?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AiXDesk uses enterprise-grade encryption, role-based access controls, secure cloud architecture, and compliance with major standards to protect all ITSM and asset management data."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can we customize workflows for our specific processes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. AiXDesk includes flexible workflow builders with advanced helpdesk automation, incident management customization, and asset lifecycle automation for any enterprise environment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What support is available during implementation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "iTCart provides dedicated project managers, staff training, and 24/7 technical support throughout smart asset tracking deployment and ITSM optimization."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does the AI improve IT service delivery?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AiXDesk uses AI to analyze patterns, predict incidents, and automate ticket responses with intelligent IT service management algorithms that enhance resolution speed and service delivery quality."
-          }
-        }
-      ]
-    }
-  ]
-},
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How quickly can AiXDesk be deployed across our organization?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXDesk can be deployed in 2-4 weeks, including full training and customization through comprehensive IT service management setup and asset management platform integration."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Does AiXDesk integrate with our existing systems?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXDesk offers pre-built connectors for 200+ business applications with seamless integration across IT asset management systems, digital asset platforms, and enterprise applications."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What security measures protect our data?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXDesk uses enterprise-grade encryption, role-based access controls, secure cloud architecture, and compliance with major standards to protect all ITSM and asset management data."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can we customize workflows for our specific processes?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXDesk includes flexible workflow builders with advanced helpdesk automation, incident management customization, and asset lifecycle automation for any enterprise environment."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What support is available during implementation?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "iTCart provides dedicated project managers, staff training, and 24/7 technical support throughout smart asset tracking deployment and ITSM optimization."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does the AI improve IT service delivery?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXDesk uses AI to analyze patterns, predict incidents, and automate ticket responses with intelligent IT service management algorithms that enhance resolution speed and service delivery quality."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: "AiXDesk platform runs on AiXHub, the core of the AiX Framework—offering AI-native intelligent ticketing, asset management, and helpdesk automation tailored for modern IT service management. ",
@@ -1508,6 +1508,154 @@ export const verticalData = [
                     content: 'AiXFinTech typically achieves 70% autonomous execution rates while maintaining human oversight through its intelligent CoPilot/AutoPilot switching system.'
                 }
             ],
+
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXFinTech – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixfintech",
+                        "description": "AiXFinTech is an AI-powered financial automation platform that automates risk, compliance, credit scoring, and decisioning for banks, NBFCs, and digital finance institutions.",
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXFinTech",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "FinancialApplication",
+                            "url": "https://itcart.ai/our-verticals/aixfintech",
+                            "description": "AiXFinTech delivers AI-native financial automation, including credit scoring, risk analytics, regulatory compliance automation, intelligent operations, and predictive financial decisioning for BFSI organizations.",
+
+                            "applicationSuite": [
+                                "AI-powered Risk Assessment",
+                                "Credit Scoring Automation",
+                                "Regulatory Compliance Monitoring",
+                                "KYC & AML Automation",
+                                "Loan Origination & Underwriting",
+                                "Fraud Detection & Prevention",
+                                "Predictive Financial Analytics",
+                                "GRC Workflow Automation",
+                                "Financial Data Intelligence",
+                                "AI CoPilot & AutoPilot Execution Engine"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore AiXFinTech’s AI-powered financial automation platform for banking, NBFCs, and fintech enterprises."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "1680",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss AiXFinTech implementation with iTCart's financial automation experts."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXFinTech",
+                                    "item": "https://itcart.ai/our-verticals/aixfintech"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXFinTech different from other financial AI solutions?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXFinTech is built on the world's first AI-native Enterprise Operating System, replacing fragmented financial software stacks through a unified AI-powered financial automation platform."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How quickly can we see ROI from AiXFinTech implementation?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Enterprises typically achieve 380-487% ROI within 12-24 months, with an average payback period of 2.7-3.8 months through intelligent financial automation and operational optimization."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Does AiXFinTech integrate with existing financial systems?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXFinTech integrates with ERP, CRM, core banking, lending, and GRC systems using API-first architecture and universal financial automation connectors."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does AiXFinTech ensure regulatory compliance?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXFinTech includes embedded real-time compliance automation, continuous risk monitoring, and policy enforcement to prevent violations across BFSI operations."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What level of automation can we expect?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Organizations typically achieve 70% autonomous execution across financial workflows using intelligent CoPilot/AutoPilot process automation in AiXFinTech."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does the AI improve financial decision-making?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXFinTech analyzes patterns, predicts financial risks, scores credit profiles, and automates decisions through advanced predictive analytics and AI-driven financial algorithms."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: "AiXFinTech platform runs on AiXHub, the core of the AiX Framework—delivering AI-native financial automation, predictive analytics, and regulatory compliance automation tailored for intelligent banking and digital finance. ",
@@ -1649,6 +1797,145 @@ export const verticalData = [
                     content: 'Our healthcare AI solutions analyze patient data, lab results, and medical history to provide evidence-based diagnostic suggestions and treatment pathways, improving first-pass diagnostic accuracy by 25% through advanced AI in telemedicine and clinical workflows. '
                 },
             ],
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXHealthcare – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixhealthcare",
+                        "description": "AiXHealthcare is an AI-powered healthcare platform offering predictive analytics, digital health automation, and intelligent patient care workflows for hospitals, clinics, and enterprises.",
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXHealthcare",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "HealthApplication",
+                            "url": "https://itcart.ai/our-verticals/aixhealthcare",
+                            "description": "AiXHealthcare provides AI-native healthcare automation, predictive patient care, EMR/EHR integration, digital triage, and clinical decision support for modern healthcare ecosystems.",
+
+                            "applicationSuite": [
+                                "AI-powered Clinical Decision Support",
+                                "Digital Triage & Smart Patient Intake",
+                                "Predictive Patient Monitoring",
+                                "Hospital Workflow Automation",
+                                "Care Coordination Engine",
+                                "EHR/EMR Integration Layer",
+                                "AI-powered Telemedicine",
+                                "Patient Engagement & Outreach",
+                                "Smart Billing & Claims Automation",
+                                "Healthcare Analytics & Reporting"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore AiXHealthcare’s AI-powered healthcare automation and digital health transformation solutions."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "1420",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss AiXHealthcare implementation and digital health automation with iTCart experts."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXHealthcare",
+                                    "item": "https://itcart.ai/our-verticals/aixhealthcare"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How does AiXHealthcare ensure compliance with healthcare regulations?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXHealthcare embeds HIPAA, GDPR, and NDHM compliance into execution workflows, generating immutable audit trails that enforce real-time regulatory adherence."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXHealthcare different from existing EMR systems?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Traditional EMRs store data. AiXHealthcare governs care delivery using SLA-bound workflows, multi-agent AI orchestration, and intelligent automation across hospital systems."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can AiXHealthcare integrate with our existing healthcare systems?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXHealthcare integrates seamlessly with EHRs, EMRs, LIS, RIS, HIS, CRMs, and telemedicine systems through standardized APIs and data interoperability layers."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What ROI can we expect from implementing AiXHealthcare?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Healthcare organizations see up to 40% reduction in admin costs, 69% faster emergency response, and 50% higher patient satisfaction through predictive automation and smart care workflows."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does the AI-powered clinical decision support work?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXHealthcare analyzes patient data, lab results, vitals, and history to provide evidence-based diagnostic recommendations, improving accuracy and reducing clinician workload."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: 'AiXHealthcare platform runs on AiXHub, the core of the AiX Framework—delivering AI-native intelligent automation, predictive analytics, and compliance governance tailored for healthcare. ',
@@ -1780,6 +2067,155 @@ export const verticalData = [
                     content: 'We provide comprehensive support including dedicated healthcare AI specialists, 24/7 technical assistance, clinical workflow training, and ongoing optimization services to ensure maximum ROI and patient outcome improvements. '
                 },
             ],
+
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXLifeCare – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixlifecare",
+                        "description": "AiXLifeCare is an AI-native lifecare platform delivering predictive healthcare, real-time patient monitoring, and intelligent clinical decision support for hospitals and healthcare institutions.",
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXLifeCare",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "HealthApplication",
+                            "url": "https://itcart.ai/our-verticals/aixlifecare",
+                            "description": "AiXLifeCare provides AI-driven healthcare automation, predictive care intelligence, specialty-specific clinical workflows, and seamless integration with HIS, LIS, EHR, PACS, and telemedicine systems.",
+
+                            "applicationSuite": [
+                                "Predictive Patient Monitoring",
+                                "AI-driven Clinical Decision Support",
+                                "Smart Inpatient & ICU Monitoring",
+                                "Digital Nursing Stations",
+                                "Care Pathway Automation",
+                                "AI-powered Telemedicine",
+                                "Vitals & Wearable Device Integration",
+                                "Remote Patient Monitoring (RPM)",
+                                "Bed Management & Smart Admission",
+                                "Automated Discharge & Follow-up",
+                                "Lab-Radiology Workflow Automation"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore AiXLifeCare’s AI-powered clinical automation and predictive lifecare solutions."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "1180",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss implementing AiXLifeCare’s AI-powered lifecare automation with iTCart experts."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXLifeCare",
+                                    "item": "https://itcart.ai/our-verticals/aixlifecare"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXLifeCare different from other healthcare platforms?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXLifeCare is built ground-up on AI-native architecture, offering advanced automation across clinical workflows, diagnostics, and care orchestration—unlike platforms that simply digitize existing processes."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is AiXLifeCare compliant with healthcare regulations like HIPAA?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXLifeCare is fully HIPAA-compliant and aligned with HL7, FHIR, and NABH frameworks, ensuring secure data handling, end-to-end encryption, and patient privacy protections."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer customization for specific medical specialties?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXLifeCare provides specialty-specific clinical workflows, diagnostic templates, automation modules, and patient engagement features tailored for cardiology, oncology, nephrology, orthopedics, and more."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How long does implementation take for AiXLifeCare?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXLifeCare can be deployed within 3–6 weeks for essential modules, while full enterprise deployments can be rolled out in phased implementations with customization support."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What kind of support do you provide during implementation?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We offer 24/7 technical support, dedicated healthcare AI specialists, workflow optimization, and continuous training for clinical workflow automation and system adoption."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can AiXLifeCare integrate with existing healthcare systems?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXLifeCare integrates seamlessly with HIS, EHR, LIS, RIS, PACS, telemedicine systems, and medical devices through standardized APIs and healthcare interoperability layers."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: "AiXLifeCare platform runs on AiXHub, the core of the AiX Framework—delivering AI-native clinical decision support, workflow automation, and patient engagement tailored for healthcare transformation. ",
@@ -1920,7 +2356,154 @@ export const verticalData = [
                     content: 'Absolutely. Our dedicated teams of certified coders, auditors, and billing professionals provide comprehensive training and ongoing support throughout RCM for hospitals implementation and end-to-end revenue cycle optimization. '
                 },
             ],
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "RCMAiX – iTCart",
+                        "url": "https://itcart.ai/our-verticals/rcmaix",
+                        "description": "RCMAiX is an AI-powered healthcare revenue cycle management platform that automates claims, reduces denials, and improves cash flow accuracy for hospitals and medical practices.",
 
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "RCMAiX",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "HealthApplication",
+                            "url": "https://itcart.ai/our-verticals/rcmaix",
+                            "description": "RCMAiX delivers end-to-end automation across patient registration, coding, claims submission, denial prevention, collections, A/R management, and revenue integrity processes.",
+
+                            "applicationSuite": [
+                                "Automated Medical Coding (ICD-10, CPT)",
+                                "Claims Scrubbing & Submission",
+                                "Denial Prediction & Prevention",
+                                "A/R & Collections Automation",
+                                "Charge Capture Optimization",
+                                "Payer Rule Engine Automation",
+                                "Audit & Compliance Tracking",
+                                "Revenue Integrity Monitoring",
+                                "Patient Eligibility Verification",
+                                "End-to-End Medical Billing Automation"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore RCMAiX’s AI-powered revenue cycle automation solutions for healthcare organizations."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "980",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss implementing RCMAiX’s AI-powered revenue cycle management solutions with iTCart experts."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "RCMAiX",
+                                    "item": "https://itcart.ai/our-verticals/rcmaix"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How quickly can RCMAiX be implemented?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Implementation typically takes 2–4 weeks with seamless integration into existing systems and workflows, ensuring zero disruption to hospital operations."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What specialties does the platform support?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "RCMAiX supports all medical specialties including hospitals, diagnostic centers, independent practices, multi-specialty clinics, and specialty care units."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the platform compliant with healthcare regulations?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. RCMAiX is fully compliant with HIPAA, ICD-10, CPT, and payer-specific regulations, with continuous monitoring to ensure coding and billing accuracy."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What kind of ROI can we expect?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Healthcare organizations typically experience a 15–20% increase in collections within the first quarter and 30–40% faster claims processing."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you provide training and support?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. RCMAiX includes dedicated onboarding teams, workflow training, and 24/7 technical support for continuous optimization."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does the AI predict claim denials?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "RCMAiX analyzes historical patterns, payer rules, coding errors, and medical necessity criteria to predict denials and prevent them before claims are submitted."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: 'RCMAiX platform is powered by AiXHub, the core of the AiX Framework—delivering AI-driven automation, predictive analytics, and intelligent workflow orchestration tailored for healthcare revenue cycle management. ',
