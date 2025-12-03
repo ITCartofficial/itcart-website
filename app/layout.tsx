@@ -92,7 +92,7 @@ export default function RootLayout({
         className={`w-full overflow-x-hidden ${montserrat.variable} font-sans antialiased relative`}
       >
         <a
-          href="https://wa.me/918129887972"
+          href="https://wa.me/918088849174"
           target="_blank"
           rel="noopener noreferrer"
         >
