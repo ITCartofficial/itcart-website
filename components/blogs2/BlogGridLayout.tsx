@@ -1,33 +1,14 @@
 import React from 'react';
-// import Link from 'next/link';
-// import { blogPosts } from '@/lib/data/blogsData';
-
 import HeadingText from '@/components/typography/HeadingText';
 import BlogCard from '../blogs/BlogCard';
 import HorizontalCard from '../blogs/HorizontalCard';
 import NumberedCard from '../blogs/NumberCard';
-import { Post } from '@/types/wordpress';
-import { format } from 'date-fns';
-import { enUS } from 'date-fns/locale';
 
-const BlogGridLayout = ({ posts }: { posts: Post[] }) => {
-  // Use first blog post for the featured card
-  // const featuredPost = blogPosts[0];
+const slugify = (text: string) =>
+  text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+
+const BlogGridLayout = ({ posts }: { posts: any[] }) => {
   const featuredPost = posts[0];
-
-  // Use the next 4 posts for the horizontal cards section
-  // const horizontalCardsPosts = blogPosts.slice(0, 4);
-
-  // const editorsPickBlogs = blogPosts.filter(post => post.category === "Editor's Pick");
-  // const featuredPost = editorsPickBlogs[0];
-  // const horizontalCardsPosts = editorsPickBlogs.slice(1, 6);
-
-
-  // Use the same posts for the numbered cards section
-  // const numberedCardsPosts = blogPosts.slice(0, 4);
-  // const numberedCardsPosts = blogPosts
-  //   .filter((blog) => blog.category === "Trending")
-  //   .slice(0, 5);
 
   return (
     <div className="container bg-black text-white px-8">
@@ -48,27 +29,28 @@ const BlogGridLayout = ({ posts }: { posts: Post[] }) => {
           <>
             <div>
               <BlogCard
-                imageUrl={featuredPost?.featuredImage?.node.sourceUrl || ''}
-                title={featuredPost?.title}
-                description={featuredPost?.excerpt}
-                author={""}
-                date={featuredPost?.date}
-                linkUrl={`/blog/${featuredPost?.slug}`}
+                imageUrl={featuredPost.image}
+                title={featuredPost.bannerTitle}
+                description={featuredPost.bannerDiscription}
+                date={featuredPost.writtenDate}
+                id={featuredPost.id}
+                linkUrl={`/blogs/${slugify(featuredPost.bannerTitle)}?id=${featuredPost.id}`}
+
               />
             </div>
 
             {/* Second Column - Four Horizontal Cards */}
             <div className="flex flex-col gap-4">
               {posts.slice(1, 5).map((post) => (
-                <a key={post.id} href={`/blogs/${post.slug}`}>
+                <a key={post.id} href={`/blogs/${slugify(post.bannerTitle)}?id=${post.id}`}>
                   <div className='bg-[#212121] rounded-lg'>
                     <HorizontalCard
-                      imageUrl={post?.featuredImage?.node.sourceUrl || ''}
-                      title={post?.title}
-                      author={""}
+                      imageUrl={post.image}
+                      title={post.bannerTitle}
+                      author={post.writtenBy}
                       imageWidth="w-25"
                       imageHeight="h-20"
-                      date={format(new Date(post?.date), 'MMMM dd, yyyy', { locale: enUS })}// Format date to 'MMMM dd, yyyy'
+                      date={post.writtenDate}
                     />
                   </div>
                 </a>
@@ -82,12 +64,15 @@ const BlogGridLayout = ({ posts }: { posts: Post[] }) => {
           {/* Third Column - Numbered Cards */}
           <div className="space-y-6 flex flex-col gap-1">
             {posts.slice(5, 10).map((post, index) => (
-              <a key={post.id} href={`/blogs/${post.slug}`}>
+              <a
+                key={post.id}
+                href={`/blogs/${slugify(post.bannerTitle)}?id=${post.id}`}
+              >
                 <NumberedCard
                   number={`0${index + 1}`}
-                  title={post?.title}
-                  author={""}
-                  date={format(new Date(post?.date), 'MMMM dd, yyyy', { locale: enUS })}
+                  title={post.bannerTitle}
+                  author={post.writtenBy}
+                  date={post.writtenDate}
                 />
               </a>
             ))}

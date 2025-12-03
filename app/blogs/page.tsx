@@ -81,7 +81,7 @@ const BlogsTemplate = () => {
           />
         </div>
         <BlogSlider posts={newBlogData} />
-        <BlogGridLayout posts={posts} />
+        <BlogGridLayout posts={newBlogData} />
         <NewsletterSection />
         <TechnologySection />
 

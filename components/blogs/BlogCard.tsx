@@ -4,6 +4,7 @@ import HeadingText from "@/components/typography/HeadingText";
 // import BodyText from "@/components/atoms/typography/BodyText";
 import LinkButton from "@/components/buttons/LinkButton";
 import { format } from "date-fns";
+import Link from "next/link";
 // import { enUS } from "date-fns/locale";
 
 interface BlogCardProps {
@@ -13,6 +14,7 @@ interface BlogCardProps {
   author?: string;
   date: string;
   linkUrl?: string;
+  id?: string | number;
 }
 
 const BlogCard: React.FC<BlogCardProps> = ({
@@ -20,6 +22,8 @@ const BlogCard: React.FC<BlogCardProps> = ({
   title,
   description,
   date,
+  linkUrl,
+  id,
 }) => {
   let formattedDate = "Unknown date";
   if (date) {
@@ -28,8 +32,12 @@ const BlogCard: React.FC<BlogCardProps> = ({
       formattedDate = format(dateObj, "MMMM dd, yyyy");
     }
   }
+  const finalUrl = linkUrl ?? `/blogs/${title.toLowerCase().replace(/ /g, "-")}?id=${id}`;
+
+
 
   return (
+    <Link href={finalUrl} className="block">
     <div className="flex flex-col h-full max-w-sm rounded-lg overflow-hidden shadow-lg bg-black text-white w-full">
       {imageUrl && (
         <div className="relative h-45 w-full flex-shrink-0">
@@ -62,14 +70,15 @@ const BlogCard: React.FC<BlogCardProps> = ({
             <span>{formattedDate}</span>
             <div className="mt-3">
               {/* <p className="text-[#45C2CC] cursor-pointer font-semibold lg:text-[18px]">Read More...</p> */}
-              <LinkButton textColor={"white"} text={"Continue Reading"} url={"buttonUrl"} />
+              {/* <LinkButton textColor={"white"} text={"Continue Reading"} url={"buttonUrl"} /> */}
+              <LinkButton textColor={"white"} text={"Continue Reading"} url={linkUrl ?? "#"} />
             </div>
           </div>
         </div>
 
       </div>
     </div>
-
+</Link>
   );
 };
 

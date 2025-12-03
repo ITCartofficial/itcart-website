@@ -47,12 +47,16 @@ function OurPartners() {
                 />
 
 
-                <div className="bg-black md:py-8">
+                {/* <div className="bg-black md:py-8">
                     <Partners />
-                </div>
+                </div> */}
 
                 <div className="bg-black md:py-4">
                     <SectionContact showContent={"noShow"} image="" />
+                </div>
+
+                <div className="bg-black md:py-8">
+                    <Partners />
                 </div>
 
 
