@@ -3,7 +3,7 @@ import StrugglingPoint from "@/components/AixhubDetailpage/StrugglingPoint";
 import OutlineBtn from "@/components/buttons/OutlineBtn";
 import SolutionGrid from "@/components/DetailPageComponents/SolutionGrid";
 import BodyText from "@/components/typography/BodyText";
-import GradientTitle from "@/components/typography/GradientTitle"; 
+import GradientTitle from "@/components/typography/GradientTitle";
 import { FaArrowRight } from "react-icons/fa6";
 ;
 
@@ -101,8 +101,20 @@ const AixhubDetailpage = () => {
 
                     </div>
 
+                    <div className="aspect-video w-full rounded-2xl overflow-hidden ring-1 ring-slate-700/80">
+                        <iframe
+                            className="w-full h-full"
+                            src="https://www.youtube.com/embed/K7Wye3lp_CM?autoplay=1&mute=1"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+
+
                     {/* Hero “video” / visual placeholder */}
-                    <div className="flex justify-center lg:justify-end">
+                    {/* <div className="flex justify-center lg:justify-end">
                         <div className="relative w-full max-w-md overflow-hidden rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-900 to-sky-900/40 p-4 shadow-2xl">
                             <div className="mb-3 flex items-center justify-between text-xs text-slate-400">
                                 <span className="inline-flex items-center gap-1">
@@ -120,7 +132,7 @@ const AixhubDetailpage = () => {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
 
                 {/* PROBLEM */}
