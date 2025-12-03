@@ -124,8 +124,8 @@ const AixhubDetailpage = () => {
                 </section>
 
                 {/* PROBLEM */}
-                <section className="mb-16">
-                    <div className='bg-black container mx-auto lg:px-10 '>
+                <section className="mb-16 ">
+                    <div className='container mx-auto'>
                         <StrugglingPoint />
                     </div>
                 </section>
@@ -215,7 +215,7 @@ const AixhubDetailpage = () => {
                             Inventor, AiXHub EOS &amp; Founder &amp; Global CTO, iTCart.
                         </p>
 
-                        <div className="pt-4 border-t border-slate-700">
+                        <div className="pt-4 border-slate-700">
                             <OutlineBtn
                                 url='/contact-us'
                                 text="Connect with us around FUELD"
@@ -236,7 +236,7 @@ const AixhubDetailpage = () => {
 
 
                 {/* FINAL CTA */}
-                <section className="rounded-3xl border border-sky-500/40 bg-sky-500/5 px-6 py-8 text-center">
+                <section className="rounded-3xl border border-sky-500/40 bg-sky-500/5 px-6 py-8 text-center mb-20">
                     <h2 className="mb-3 text-2xl font-semibold text-slate-50 md:text-3xl">
                         Ready to explore AiXHub EOS for your enterprise?
                     </h2>
@@ -245,7 +245,7 @@ const AixhubDetailpage = () => {
                         Share your context and we’ll help you explore if AiXHub EOS is the right fit.
                     </p>
                     <div className="flex flex-wrap justify-center gap-4">
-                        <div className="pt-4 border-t border-slate-700">
+                        <div className="pt-4 border-slate-700">
                             <OutlineBtn
                                 url='/contact-us'
                                 text="Request a Conversation"
@@ -253,7 +253,7 @@ const AixhubDetailpage = () => {
                                 icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                             />
                         </div>
-                        <div className="pt-4 border-t border-slate-700">
+                        <div className="pt-4  border-slate-700">
                             <OutlineBtn
                                 url='/contact-us'
                                 text=" Email our leadership team    "

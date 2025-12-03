@@ -44,11 +44,11 @@ function StrugglingPoint() {
     ]
 
     return (
-        <div className="">
+        <div className="w-full">
             <GradientTitle
                 text={'The world isn’t struggling with AI technology. It’s struggling with how to operate with AI.'}
                 theme="dark"
-                className="text-[25px] lg:text-[48px] md:text-[44px] w-[90%] text-center mx-auto  leading-[1.2]"
+                className="text-[25px] lg:text-[30px] md:text-[40px] w-[90%] text-center mx-auto  leading-[1.2]"
             />
 
             <BodyText
@@ -57,7 +57,7 @@ function StrugglingPoint() {
                 className="text-sm sm:text-base md:text-lg my-2 text-center  w-[70%] mx-auto"
             />
 
-            <main className="bg-black px-4 mt-1">
+            <main className="bg-black w-full mt-1">
                 <div className="mx-auto w-full">
                     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 my-10">
                         {(serviceCardItems ?? []).map((feature, index) => (
