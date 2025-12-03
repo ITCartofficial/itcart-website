@@ -31,9 +31,15 @@ interface Posts {
 }
 
 const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, id, bannerDiscription }) => {
+    const convertToSlug = (text: string) => {
+  return text
+    .toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/[^\w-]+/g, "");
+};
 
-    console.log("bannerTitle", bannerTitle);
 
+// console.log("bannerTitle", bannerTitle);
 
     return (
         <div className="flex flex-col md:flex-row bg-black text-white rounded-2xl overflow-hidden shadow-lg gap-8 md:gap-11 h-auto">
@@ -97,7 +103,7 @@ const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, id, bannerDiscription })
                         showBorderaButton={true}
                         text="Read More"
                         textColor="#FFFFFF"
-                        url={`/blogs/${`${bannerTitle}?id=${id}`}`}
+                        url={`/blogs/${convertToSlug(bannerTitle)}?id=${id}`}
                         icon={<FaArrowRight size={16} color="#FFFFFF" />}
                     />
                 </div>
