@@ -181,7 +181,7 @@ import { verticalData } from "@/lib/data/verticalData";
 import { usePathname } from "next/navigation";
 import Head from "next/head";
 import React from "react";
-import AixhubDetailpage from "@/app/aixhub/page";
+// import AixhubDetailpage from "@/app/aixhub/page";
 
 const OurVerticalsDetailPage = () => {
     const pathName = usePathname()?.split("/")[2] || "";
