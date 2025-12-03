@@ -176,7 +176,7 @@ const AixhubDetailpage = () => {
                         <div
                             className={`rounded-xl w-full h-[200px] md:h-[350px] bg-cover bg-center flex items-end justify-center`}
                             style={{
-                                backgroundImage: `url(${"/images/industries/sectionabout.png"})`,
+                                backgroundImage: `url(${"/images/sectimg.jpg"})`,
                             }}
                         >
                             <div className="sr-only">{""}</div>
