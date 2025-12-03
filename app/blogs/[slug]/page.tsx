@@ -10,8 +10,6 @@ const SingleBlogPage = () => {
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
 
-
-
   const filterdData = newBlogData.find((blog) => blog.id?.toString() === id);
 
   // const filterdData =fData; 

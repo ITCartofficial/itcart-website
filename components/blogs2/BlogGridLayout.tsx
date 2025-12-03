@@ -4,10 +4,37 @@ import BlogCard from '../blogs/BlogCard';
 import HorizontalCard from '../blogs/HorizontalCard';
 import NumberedCard from '../blogs/NumberCard';
 
+
+interface SubItem {
+  item: string;
+  content: string;
+}
+
+interface ContentItem {
+  id: number | string;  // Allow both number and string
+  title: string;
+  content: string[];
+  subItems?: SubItem[];
+  subItemTitle?: string;
+  finalPoint?: string;
+}
+
+interface Posts {
+  id?: number | string;
+  bannerTitle: string;
+  bannerDiscription: string;
+  date?: string;
+  image: string;
+  type?: string;
+  writtenBy?: string;
+  writtenDate?: string;
+  contents: ContentItem[];
+}
+
 const slugify = (text: string) =>
   text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-const BlogGridLayout = ({ posts }: { posts: any[] }) => {
+const BlogGridLayout = ({ posts }: { posts: Posts[]}) => {
   const featuredPost = posts[0];
 
   return (
@@ -32,7 +59,7 @@ const BlogGridLayout = ({ posts }: { posts: any[] }) => {
                 imageUrl={featuredPost.image}
                 title={featuredPost.bannerTitle}
                 description={featuredPost.bannerDiscription}
-                date={featuredPost.writtenDate}
+                date={featuredPost.writtenDate ?? ""}
                 id={featuredPost.id}
                 linkUrl={`/blogs/${slugify(featuredPost.bannerTitle)}?id=${featuredPost.id}`}
 
@@ -47,10 +74,10 @@ const BlogGridLayout = ({ posts }: { posts: any[] }) => {
                     <HorizontalCard
                       imageUrl={post.image}
                       title={post.bannerTitle}
-                      author={post.writtenBy}
+                      author={post.writtenBy ?? ""}
                       imageWidth="w-25"
                       imageHeight="h-20"
-                      date={post.writtenDate}
+                      date={post.writtenDate ?? ""}
                     />
                   </div>
                 </a>
@@ -71,8 +98,8 @@ const BlogGridLayout = ({ posts }: { posts: any[] }) => {
                 <NumberedCard
                   number={`0${index + 1}`}
                   title={post.bannerTitle}
-                  author={post.writtenBy}
-                  date={post.writtenDate}
+                  author={post.writtenBy ?? ""}
+                  date={post.writtenDate ?? ""}
                 />
               </a>
             ))}
