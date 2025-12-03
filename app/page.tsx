@@ -229,7 +229,7 @@ const HomeTemplate = () => {
           <PatentPendingSection />
         </div>
 
-        <div id="our-verticals" className="bg-black py-16 pt-20">
+        <div id="products" className="bg-black py-16 pt-20">
           <HorizontalSliderSection
             text="Driving Innovation Across Our Key Verticals"
             cardLists={keyVerticalsData.map((card) => ({

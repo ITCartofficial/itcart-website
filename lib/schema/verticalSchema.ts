@@ -2,7 +2,7 @@ export const verticalSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "iTCart – Our Verticals",
-    "url": "https://itcart.ai/our-verticals",
+    "url": "https://itcart.ai/products",
     "description": "Explore iTCart's industry and AI solution verticals including AiXHub, AiXBFS, AiXQP, AiXRush, InsureAiX, AiXFintech, AiXDesk, RCMAiX, AiXEnergy, AiXHealthcare, AiXMotorsports, AiXGRC, AiXRealty, AiXHeat, AiXLifecare, AiXERP, CyberAiX, and AiXManufacturing, delivering enterprise AI automation and digital transformation.",
     "mainEntity": {
         "@type": "Organization",
@@ -127,7 +127,7 @@ export const verticalSchema = {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Our Verticals",
-                "item": "https://itcart.ai/our-verticals"
+                "item": "https://itcart.ai/products"
             }
         ]
     }

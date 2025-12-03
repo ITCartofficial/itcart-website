@@ -138,14 +138,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXHub – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixhub",
+                        "url": "https://itcart.ai/products/aixhub",
                         "description": "AiXHub is an AI-native Enterprise Operating System built on Microsoft 365, delivering unified intelligent automation, workflow optimization, and enterprise AI execution across departments.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXHub",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "BusinessApplication",
-                            "url": "https://itcart.ai/our-verticals/aixhub",
+                            "url": "https://itcart.ai/products/aixhub",
                             "description": "AiXHub is the AI-native Enterprise OS that replaces fragmented software stacks with a unified intelligent platform, enabling enterprise automation, real-time decision-making, and regulatory compliance.",
                             "provider": {
                                 "@type": "Organization",
@@ -180,13 +180,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXHub",
-                                    "item": "https://itcart.ai/our-verticals/aixhub"
+                                    "item": "https://itcart.ai/products/aixhub"
                                 }
                             ]
                         }
@@ -392,14 +392,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXBFS – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixbfs",
+                        "url": "https://itcart.ai/products/aixbfs",
                         "description": "AiXBFS is an AI-native banking and financial services platform, offering modular, API-first architecture with embedded regulatory compliance and rapid deployment for Indian BFSI institutions.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXBFS",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "BusinessApplication",
-                            "url": "https://itcart.ai/our-verticals/aixbfs",
+                            "url": "https://itcart.ai/products/aixbfs",
                             "description": "AiXBFS combines 20+ years of BFSI expertise with advanced AI technology, enabling seamless integration, regulatory compliance, and rapid deployment for banking and financial institutions.",
                             "provider": {
                                 "@type": "Organization",
@@ -434,13 +434,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXBFS",
-                                    "item": "https://itcart.ai/our-verticals/aixbfs"
+                                    "item": "https://itcart.ai/products/aixbfs"
                                 }
                             ]
                         }
@@ -658,14 +658,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXQP – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixqp",
+                        "url": "https://itcart.ai/products/aixqp",
                         "description": "AiXQP is an AI learning platform offering online courses with certification, internships, and placement support to help you grow your career.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXQP",
                             "operatingSystem": "Web, Cloud, Mobile",
                             "applicationCategory": "EducationalApplication",
-                            "url": "https://itcart.ai/our-verticals/aixqp",
+                            "url": "https://itcart.ai/products/aixqp",
                             "description": "AiXQP is an AI-native online learning platform offering personalized study paths, AI certifications, adaptive learning, and real-time progress tracking for students, professionals, and enterprises.",
 
                             "provider": {
@@ -719,13 +719,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXQP",
-                                    "item": "https://itcart.ai/our-verticals/aixqp"
+                                    "item": "https://itcart.ai/products/aixqp"
                                 }
                             ]
                         }
@@ -943,14 +943,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXQP – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixqp",
+                        "url": "https://itcart.ai/products/aixqp",
                         "description": "AiXQP is an AI-powered online learning platform offering personalized study paths, certification programs, internships, and real-time progress tracking to help learners grow their careers.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXQP",
                             "operatingSystem": "Web, Cloud, Mobile",
                             "applicationCategory": "EducationalApplication",
-                            "url": "https://itcart.ai/our-verticals/aixqp",
+                            "url": "https://itcart.ai/products/aixqp",
                             "description": "AiXQP enhances learning through AI-driven personalization, adaptive study paths, real-time analytics, and intelligent assessments for students, professionals, and enterprises.",
 
                             "provider": {
@@ -1004,13 +1004,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXQP",
-                                    "item": "https://itcart.ai/our-verticals/aixqp"
+                                    "item": "https://itcart.ai/products/aixqp"
                                 }
                             ]
                         }
@@ -1225,14 +1225,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXDesk – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixdesk",
+                        "url": "https://itcart.ai/products/aixdesk",
                         "description": "AiXDesk is an AI-powered IT service management (ITSM) platform that automates ticketing, asset management, incident response, and IT operations to boost enterprise service delivery.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXDesk",
                             "operatingSystem": "Web, Cloud, Mobile",
                             "applicationCategory": "ITServiceManagementApplication",
-                            "url": "https://itcart.ai/our-verticals/aixdesk",
+                            "url": "https://itcart.ai/products/aixdesk",
                             "description": "AiXDesk enhances IT operations with AI-driven ticket automation, IT asset management, service desk workflows, knowledge base intelligence, predictive incident detection, and enterprise-grade ITSM capabilities.",
 
                             "applicationSuite": [
@@ -1298,13 +1298,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXDesk",
-                                    "item": "https://itcart.ai/our-verticals/aixdesk"
+                                    "item": "https://itcart.ai/products/aixdesk"
                                 }
                             ]
                         }
@@ -1515,14 +1515,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXFinTech – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixfintech",
+                        "url": "https://itcart.ai/products/aixfintech",
                         "description": "AiXFinTech is an AI-powered financial automation platform that automates risk, compliance, credit scoring, and decisioning for banks, NBFCs, and digital finance institutions.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXFinTech",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "FinancialApplication",
-                            "url": "https://itcart.ai/our-verticals/aixfintech",
+                            "url": "https://itcart.ai/products/aixfintech",
                             "description": "AiXFinTech delivers AI-native financial automation, including credit scoring, risk analytics, regulatory compliance automation, intelligent operations, and predictive financial decisioning for BFSI organizations.",
 
                             "applicationSuite": [
@@ -1589,13 +1589,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXFinTech",
-                                    "item": "https://itcart.ai/our-verticals/aixfintech"
+                                    "item": "https://itcart.ai/products/aixfintech"
                                 }
                             ]
                         }
@@ -1803,14 +1803,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXHealthcare – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixhealthcare",
+                        "url": "https://itcart.ai/products/aixhealthcare",
                         "description": "AiXHealthcare is an AI-powered healthcare platform offering predictive analytics, digital health automation, and intelligent patient care workflows for hospitals, clinics, and enterprises.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXHealthcare",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "HealthApplication",
-                            "url": "https://itcart.ai/our-verticals/aixhealthcare",
+                            "url": "https://itcart.ai/products/aixhealthcare",
                             "description": "AiXHealthcare provides AI-native healthcare automation, predictive patient care, EMR/EHR integration, digital triage, and clinical decision support for modern healthcare ecosystems.",
 
                             "applicationSuite": [
@@ -1877,13 +1877,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXHealthcare",
-                                    "item": "https://itcart.ai/our-verticals/aixhealthcare"
+                                    "item": "https://itcart.ai/products/aixhealthcare"
                                 }
                             ]
                         }
@@ -2074,14 +2074,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXLifeCare – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixlifecare",
+                        "url": "https://itcart.ai/products/aixlifecare",
                         "description": "AiXLifeCare is an AI-native lifecare platform delivering predictive healthcare, real-time patient monitoring, and intelligent clinical decision support for hospitals and healthcare institutions.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXLifeCare",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "HealthApplication",
-                            "url": "https://itcart.ai/our-verticals/aixlifecare",
+                            "url": "https://itcart.ai/products/aixlifecare",
                             "description": "AiXLifeCare provides AI-driven healthcare automation, predictive care intelligence, specialty-specific clinical workflows, and seamless integration with HIS, LIS, EHR, PACS, and telemedicine systems.",
 
                             "applicationSuite": [
@@ -2149,13 +2149,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXLifeCare",
-                                    "item": "https://itcart.ai/our-verticals/aixlifecare"
+                                    "item": "https://itcart.ai/products/aixlifecare"
                                 }
                             ]
                         }
@@ -2362,7 +2362,7 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "RCMAiX – iTCart",
-                        "url": "https://itcart.ai/our-verticals/rcmaix",
+                        "url": "https://itcart.ai/products/rcmaix",
                         "description": "RCMAiX is an AI-powered healthcare revenue cycle management platform that automates claims, reduces denials, and improves cash flow accuracy for hospitals and medical practices.",
 
                         "mainEntity": {
@@ -2370,7 +2370,7 @@ export const verticalData = [
                             "name": "RCMAiX",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "HealthApplication",
-                            "url": "https://itcart.ai/our-verticals/rcmaix",
+                            "url": "https://itcart.ai/products/rcmaix",
                             "description": "RCMAiX delivers end-to-end automation across patient registration, coding, claims submission, denial prevention, collections, A/R management, and revenue integrity processes.",
 
                             "applicationSuite": [
@@ -2437,13 +2437,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "RCMAiX",
-                                    "item": "https://itcart.ai/our-verticals/rcmaix"
+                                    "item": "https://itcart.ai/products/rcmaix"
                                 }
                             ]
                         }

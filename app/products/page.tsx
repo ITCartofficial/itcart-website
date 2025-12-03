@@ -23,8 +23,8 @@ const OurVerticals = () => {
             <head>
                 <title>Next-Gen AI Platforms Built for Your Industry’s Future | iTCart</title>
                 <meta name="description" content="Explore AI-driven platforms for BFSI, healthcare, manufacturing, real estate, and more. iTCart’s vertical solutions are built to optimize operations and drive enterprise growth." />
-                <meta property="og:url" content={`https://itcart.ai/our-verticals`} />
-                <link rel="canonical" href="https://itcart.ai/our-verticals"></link>
+                <meta property="og:url" content={`https://itcart.ai/products`} />
+                <link rel="canonical" href="https://itcart.ai/products"></link>
             </head>
 
             <script
@@ -42,7 +42,7 @@ const OurVerticals = () => {
                     ctaUrl="/contact-us"
                     breadcrumbItems={[
                         { label: 'Home', url: '/' },
-                        { label: 'Our Verticals', url: '/our-verticals' }
+                        { label: 'Our Verticals', url: '/products' }
                     ]}
                     backgroundImage="/images/vertical/vertical-bg.jpg"
                 />

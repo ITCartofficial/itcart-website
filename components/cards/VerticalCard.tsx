@@ -73,7 +73,7 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
                     <div className='w-full flex justify-center mt-6 mb-4'>
 
                         <WhiteButton
-                            url={`our-verticals/${compenyName?.toLowerCase()}`}
+                            url={`products/${compenyName?.toLowerCase()}`}
                             text={"View More"}
                             textColor='#ffffff'
                             icon={<FaArrowRight className="text-sm font-semibold text-white" />}
@@ -82,7 +82,7 @@ const VerticalCard: React.FC<VerticalCardProps> = ({
                     </div>
 
 
-                    {/* <button onClick={() => router.push(`our-verticals/${compenyName}`)} className="mt-6 mb-4 inline-block mx-auto group cursor-pointer" aria-label="Learn more">
+                    {/* <button onClick={() => router.push(`products/${compenyName}`)} className="mt-6 mb-4 inline-block mx-auto group cursor-pointer" aria-label="Learn more">
                         <span className="inline-flex rounded-lg p-[1px] bg-gradient-to-r from-black to-[#2ac4c9]">
                             <span className="flex items-center gap-3 bg-white rounded-lg px-6 py-2 text-black font-medium">
                                 <span>Learn More</span>
