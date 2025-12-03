@@ -215,7 +215,7 @@ const AixhubDetailpage = () => {
                             Inventor, AiXHub EOS &amp; Founder &amp; Global CTO, iTCart.
                         </p>
 
-                        <div className="pt-4 border-t border-slate-700">
+                        <div className="pt-4 border-slate-700 bg-red-400">
                             <OutlineBtn
                                 url='/contact-us'
                                 text="Connect with us around FUELD"
