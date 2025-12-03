@@ -9,7 +9,7 @@ import NewsletterSection from "@/components/blogs2/NewsletterSection";
 import BlogGridLayout from "@/components/blogs2/BlogGridLayout";
 import { GET_ALL_POST_SLUGS } from "@/lib/wp/queries";
 import client from "@/lib/wp/graphqlClient";
-import { Post } from "@/types/wordpress";
+// import { Post } from "@/types/wordpress";
 import { notFound } from "next/navigation";
 import TechnologySection from "@/components/blogs2/TechnologySection";
 import SuggestedBlogSection from "@/components/blogs2/SuggestedBlogSection";
@@ -28,7 +28,7 @@ const BlogsTemplate = () => {
     }
   };
 
-  const [posts, setPosts] = React.useState<Post[]>([]);
+  // const [posts, setPosts] = React.useState<Post[]>([]);
 
   useEffect(() => {
     // This effect runs only once when the component mounts
@@ -37,7 +37,7 @@ const BlogsTemplate = () => {
       if (fetchedPosts.length === 0) {
         notFound(); // If no posts are found, trigger a 404 page
       } else {
-        setPosts(fetchedPosts);
+        // setPosts(fetchedPosts);
       }
     };
     fetchPosts();
