@@ -8,7 +8,7 @@ function CareerDetailPage() {
 
     const pathName = usePathname().split("/")[2]
 
-    const filteredJob = jobs.find((job) => job.jobId === pathName) 
+    const filteredJob =  jobs.find((job) => job.jobId === pathName) 
 
     if (!filteredJob) {
         return (
