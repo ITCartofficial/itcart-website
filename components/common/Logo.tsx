@@ -41,7 +41,7 @@ export default Logo
 //   return (
 //     <Link href="/" className="flex justify-center lg:justify-start">
 //       <Image
-//         src={(pathName[1] === "our-verticals" && pathName?.length == 3) ? verticalData.find(item => item.compenyName === pathName[2])?.compenyLogo : "/IT Cart Logo Transparent.svg"}
+//         src={(pathName[1] === "products" && pathName?.length == 3) ? verticalData.find(item => item.compenyName === pathName[2])?.compenyLogo : "/IT Cart Logo Transparent.svg"}
 //         // src={pathName == "abc" ? '' : `/IT Cart Logo Transparent.svg`}
 //         alt="ITCart Logo"
 //         width={120}

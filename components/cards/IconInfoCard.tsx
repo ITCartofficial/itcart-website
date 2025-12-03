@@ -66,7 +66,7 @@ const IconInfoCard: React.FC<IconInfoCardProps> = ({
 
 
   return (
-    <a href={`our-verticals/${title}`}>
+    <a href={`products/${title}`}>
       <div
         className="w-full h-[400px] lg:w-[350px] lg:h-[460px] rounded-[25px] overflow-hidden bg-center cursor-pointer bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${bgImage})` }}
@@ -92,7 +92,7 @@ const IconInfoCard: React.FC<IconInfoCardProps> = ({
             className="text-[12px] md:text-[14px]  hidden sm:block"
             color="#ffffff"
           />
-          <LinkButton url={`our-verticals/${title}`} text="Read Case Study" textColor='#ffffff' />
+          <LinkButton url={`products/${title}`} text="Read Case Study" textColor='#ffffff' />
         </div>
       </div>
     </a >

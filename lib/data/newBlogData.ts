@@ -43,7 +43,7 @@ export const newBlogData = [
                         content: ''
                     }
                 ],
-                finalPoint: '<link text="Explore AiXHub capabilities" url="https://itcart.ai/our-verticals/aixhub" />'
+                finalPoint: '<link text="Explore AiXHub capabilities" url="https://itcart.ai/products/aixhub" />'
             },
             {
                 id: 3,
@@ -71,7 +71,7 @@ export const newBlogData = [
                         content: 'CyberAiX detects anomalies, prevents cyberattacks, and safeguards sensitive data at every touchpoint.'
                     },
                 ],
-                finalPoint: '<link text="Explore Our Verticals" url="https://itcart.ai/our-verticals" />'
+                finalPoint: '<link text="Explore Our Verticals" url="https://itcart.ai/products" />'
             },
             {
                 id: 4,
@@ -155,7 +155,7 @@ export const newBlogData = [
                         content: ''
                     },
                     {
-                        item: 'Pilot Strategically: Begin with key verticals, such as <link text="Fintech:" url="https://itcart.ai/our-verticals/aixfintech" />  or <link text="GRC:" url="https://itcart.ai/our-verticals/aixgrc" />.',
+                        item: 'Pilot Strategically: Begin with key verticals, such as <link text="Fintech:" url="https://itcart.ai/products/aixfintech" />  or <link text="GRC:" url="https://itcart.ai/products/aixgrc" />.',
                         content: ''
                     },
                     {

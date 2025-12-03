@@ -65,7 +65,7 @@ const CardSlider = forwardRef<CardSliderRef, CardSliderProps>(
 
                 <div className="flex justify-center mt-10">
                     <OutlineBtn
-                        url="/our-verticals"
+                        url="/products"
                         text="Show More"
                         textColor="#ffffff"
                         icon={<FaArrowRight className="text-sm font-semibold text-white" />}
