@@ -36,13 +36,13 @@ const OurVerticals = () => {
 
 
             <div className='bg-black'>
-                <HeroBanner title="Our Verticals"
+                <HeroBanner title="Our Products"
                     description="Our company showcases expertise across tech, healthcare, finance, and E-Commerce industries. Specializing in software development, cybersecurity, healthcare IT, fintech, and E-Commerce solutions, we deliver Automation innovation and tailored services to optimize operations and bolster client growth in these sectors."
                     ctaText="Connect with Us"
                     ctaUrl="/contact-us"
                     breadcrumbItems={[
                         { label: 'Home', url: '/' },
-                        { label: 'Our Verticals', url: '/products' }
+                        { label: 'Our Products', url: '/products' }
                     ]}
                     backgroundImage="/images/vertical/vertical-bg.jpg"
                 />

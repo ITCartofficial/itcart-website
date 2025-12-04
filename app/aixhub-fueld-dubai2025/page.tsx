@@ -83,7 +83,7 @@ const AixhubDetailpage = () => {
                             <Image
                                 width={100}
                                 height={24}
-                                src={"/images/verticalLogos/aixhublogo.png"}
+                                src={"/logos/vertical-logos/Fueld_logos-01.png"}
                                 alt="AiXHub Logo"
                             />
                         </div>
