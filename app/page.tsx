@@ -167,7 +167,7 @@ const HomeTemplate = () => {
                   {
                     "@type": "OfferCatalog",
                     "name": "AiXHealthcare",
-                    "description": "AI-powered EHR, diagnostics insights, patient experience, and automation."
+                    "description": "AI-native EHR, diagnostics insights, patient experience, and automation."
                   },
                   {
                     "@type": "OfferCatalog",
@@ -220,7 +220,7 @@ const HomeTemplate = () => {
 
         <div className="bg-black container mx-auto  lg:px-10">
           <AiSection
-            title="Our AI-Powered Solutions for Intelligent Automation"
+            title="Our AI-native Solutions for Intelligent Automation"
             cardDetails={aboutBrief}
           />
         </div>
@@ -229,7 +229,7 @@ const HomeTemplate = () => {
           <PatentPendingSection />
         </div>
 
-        <div id="our-verticals" className="bg-black py-16 pt-20">
+        <div id="products" className="bg-black py-16 pt-20">
           <HorizontalSliderSection
             text="Driving Innovation Across Our Key Verticals"
             cardLists={keyVerticalsData.map((card) => ({

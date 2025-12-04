@@ -10,8 +10,6 @@ const SingleBlogPage = () => {
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
 
-
-
   const filterdData = newBlogData.find((blog) => blog.id?.toString() === id);
 
   // const filterdData =fData; 
@@ -65,32 +63,6 @@ export default SingleBlogPage;
 
 
 
-
-
-
-
-
-// import client from "@/lib/wp/graphqlClient";
-// import { GET_POST_BY_SLUG } from "@/lib/wp/queries";
-// import Image from "next/image";
-// import '@/app/blogs/singlePost.css'; // Import your CSS file for styling
-
-// export default async function SingleBlogPage({
-//   params,
-// }: {
-//   params: Promise<{ slug: string }>;
-// }) {
-//   const { slug } = await params;
-//   const param = slug;
-
-//   try {
-//     // Simulate fetching blog data based on the slug
-//     const { data } = await client.query({
-//       query: GET_POST_BY_SLUG,
-//       variables: { slug: param },
-//     });
-
-//     console.log("ONEEEEEEEEEEEEEEEE", data?.post?.content);
 
 
 //     return (

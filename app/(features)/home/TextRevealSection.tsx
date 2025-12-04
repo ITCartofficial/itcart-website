@@ -8,7 +8,7 @@
 // }
 
 // const TextRevealSection: React.FC<TextRevealSectionProps> = ({
-//     title = "Scaling brands with top-notch AI-powered solutions" 
+//     title = "Scaling brands with top-notch AI-native solutions" 
 // }) => {
 //     return (
 //         <div className="w-full h-max flex flex-col justify-center items-center text-center bg-black ">
@@ -53,7 +53,7 @@ interface TextRevealSectionProps {
 }
 
 const TextRevealSection: React.FC<TextRevealSectionProps> = ({
-    title = "Scaling brands with top-notch AI-Powered solutions",
+    title = "Scaling brands with top-notch AI-native solutions",
 }) => {
     const [isHovered, setIsHovered] = useState(false)
 

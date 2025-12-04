@@ -80,7 +80,7 @@ import HomeFaqSection from '@/app/(features)/home/HomeFaqSection';
 import { careersFaqs } from '@/lib/data/faqsData';
 import HorizontalImageSlider from '@/components/slider/HorizontalImageSlider';
 import WhyWorkWithUsSection from '@/components/careers/WhyWorkWithUsSection';
-import JobSection from '@/components/careers/JobSection';
+// import JobSection from '@/components/careers/JobSection';
 import WhoWeAre from '@/components/careers/WhoWeAre';
 // import { useRouter } from 'next/navigation';
 
@@ -142,9 +142,15 @@ const Careers: React.FC = () => {
                     </div>
                     <WhoWeAre />
                     <WhyWorkWithUsSection />
-                    <div id="job-section">
+                    <section className="container mx-auto px-4 py-10 mt-20">
+                        <div className="text-center">
+                            <h2 className="text-2xl font-bold">Job not found</h2>
+                            <p className="mt-2">The requested job could not be found.</p>
+                        </div>
+                    </section>
+                    {/* <div id="job-section">
                         <JobSection />
-                    </div>
+                    </div> */}
                 </section>
                 <div className="bg-[#131313] border-b-2 border-b-zinc-600">
                     <HomeFaqSection faqs={careersFaqs} />

@@ -43,7 +43,7 @@ export const newBlogData = [
                         content: ''
                     }
                 ],
-                finalPoint: '<link text="Explore AiXHub capabilities" url="https://itcart.ai/our-verticals/aixhub" />'
+                finalPoint: '<link text="Explore AiXHub capabilities" url="https://itcart.ai/products/aixhub" />'
             },
             {
                 id: 3,
@@ -71,7 +71,7 @@ export const newBlogData = [
                         content: 'CyberAiX detects anomalies, prevents cyberattacks, and safeguards sensitive data at every touchpoint.'
                     },
                 ],
-                finalPoint: '<link text="Explore Our Verticals" url="https://itcart.ai/our-verticals" />'
+                finalPoint: '<link text="Explore Our Verticals" url="https://itcart.ai/products" />'
             },
             {
                 id: 4,
@@ -103,7 +103,7 @@ export const newBlogData = [
             },
             {
                 id: 5,
-                title: 'Business Impact of AI-Powered Transformation',
+                title: 'Business Impact of AI-native Transformation',
                 content: ['Adopting AiXHub delivers tangible results:'],
                 subItems: [
                     {
@@ -155,7 +155,7 @@ export const newBlogData = [
                         content: ''
                     },
                     {
-                        item: 'Pilot Strategically: Begin with key verticals, such as <link text="Fintech:" url="https://itcart.ai/our-verticals/aixfintech" />  or <link text="GRC:" url="https://itcart.ai/our-verticals/aixgrc" />.',
+                        item: 'Pilot Strategically: Begin with key verticals, such as <link text="Fintech:" url="https://itcart.ai/products/aixfintech" />  or <link text="GRC:" url="https://itcart.ai/products/aixgrc" />.',
                         content: ''
                     },
                     {
@@ -207,8 +207,8 @@ export const newBlogData = [
         FAQs: [
             {
                 id: '1',
-                title: 'What is AI-powered digital transformation?',
-                content: "AI-powered digital transformation uses AI to automate processes, unify data, and provide real-time insights across an enterprise. It enables faster decisions, improves operational efficiency, and reduces errors."
+                title: 'What is AI-native digital transformation?',
+                content: "AI-native digital transformation uses AI to automate processes, unify data, and provide real-time insights across an enterprise. It enables faster decisions, improves operational efficiency, and reduces errors."
             },
             {
                 id: '2',
@@ -534,7 +534,7 @@ export const newBlogData = [
                 content: ['As healthcare evolves, so will the demands on revenue cycle management. Emerging trends that will shape the future include: '],
                 subItems: [
                     {
-                        item: 'AI-Powered Predictive Analytics',
+                        item: 'AI-native Predictive Analytics',
                         content: 'Machine learning will play a larger role in not just predicting denials but dynamically adjusting workflows in real time. '
                     },
                     {
@@ -1092,7 +1092,7 @@ export const newBlogData = [
                     {
                         item: "Real-Time Anomaly Detection",
                         content:
-                            "AI-powered cybersecurity systems scan IoT network traffic and behavioral data instantly to detect and isolate threats before they spread, reducing mean-time-to-detect by over 50%."
+                            "AI-native cybersecurity systems scan IoT network traffic and behavioral data instantly to detect and isolate threats before they spread, reducing mean-time-to-detect by over 50%."
                     },
                     {
                         item: "Autonomous Operational Adjustments",
@@ -1123,7 +1123,7 @@ export const newBlogData = [
                 subItemTitle: '',
                 subItems: [
                     {
-                        item: "24/7 AI-Powered Threat Monitoring",
+                        item: "24/7 AI-native Threat Monitoring",
                         content:
                             "Continuously analyzes network traffic, device behavior, and system events to instantly detect suspicious patterns and potential threats."
                     },
@@ -1321,7 +1321,7 @@ export const newBlogData = [
                 content: [
                     'Logistics has become the backbone of global commerce. From same-day e‑commerce deliveries to complex freight movements across continents, the pressure on supply chains has never been greater.  ',
                     'Customers expect speed, reliability, and transparency—while businesses face mounting challenges like rising fuel costs, urban congestion, and sustainability regulations. ',
-                    'Traditional route planning methods that rely on static maps, manual scheduling, or outdated software are no longer sufficient to meet the needs of modern logistics. This is where AI-powered route planning changes the game.   ',
+                    'Traditional route planning methods that rely on static maps, manual scheduling, or outdated software are no longer sufficient to meet the needs of modern logistics. This is where AI-native route planning changes the game.   ',
                     'By harnessing real-time data, predictive analytics, and machine learning, AI can optimize delivery routes in ways that not only save time and money but also transform how logistics companies operate. '
                 ]
             },
@@ -1336,7 +1336,7 @@ export const newBlogData = [
                 subItems: [
                     {
                         item: 'Data collection and integration',
-                        content: 'AI-powered systems pull information from multiple real-time and historical data sources, such as: '
+                        content: 'AI-native systems pull information from multiple real-time and historical data sources, such as: '
                     },
                     {
                         item: 'Machine learning and predictive models',
@@ -1422,7 +1422,7 @@ export const newBlogData = [
                     {
                         item: "Driver and Workforce Adoption",
                         content:
-                            "Transitioning from manual or traditional planning to AI-powered routing requires training. Resistance to change or limited digital familiarity can slow adoption and reduce benefits."
+                            "Transitioning from manual or traditional planning to AI-native routing requires training. Resistance to change or limited digital familiarity can slow adoption and reduce benefits."
                     },
                     {
                         item: "Privacy and Security Concerns",
@@ -1563,7 +1563,7 @@ export const newBlogData = [
                 title: 'How to simplify smart factory automation?',
                 content: [
                     'Smart factory automation involves integrating complex systems, data streams, and AI insights to optimize manufacturing operations—from predictive maintenance and quality control to energy management and supply chain coordination.  ',
-                    'Traditionally, building these AI-powered automation solutions required extensive coding, technical expertise, and long development cycles, creating significant hurdles for many manufacturers.  ',
+                    'Traditionally, building these AI-native automation solutions required extensive coding, technical expertise, and long development cycles, creating significant hurdles for many manufacturers.  ',
                     'Drag-and-drop AI builders simplify this process by turning AI development into an accessible, visual experience that anyone in the factory can use.  ',
                     'Here’s how they make smart factory automation easier: '
                 ],
@@ -1582,7 +1582,7 @@ export const newBlogData = [
                     {
                         item: "Rapid Prototyping and Deployment",
                         content:
-                            "Users can quickly assemble AI-powered automation solutions by configuring predefined modules such as sensor data collection, anomaly detection, and automated alert systems. This accelerates experimentation and implementation, helping factories achieve faster time-to-value.",
+                            "Users can quickly assemble AI-native automation solutions by configuring predefined modules such as sensor data collection, anomaly detection, and automated alert systems. This accelerates experimentation and implementation, helping factories achieve faster time-to-value.",
                     },
                     {
                         item: "Use Case Flexibility",
@@ -1791,7 +1791,7 @@ export const newBlogData = [
                     },
                     {
                         item: 'Real-Time Risk Prioritization Engines',
-                        content: 'AI-powered risk scoring engines analyze each vulnerability not only for its technical severity but also its business impact, exploitability, and context—helping security teams focus on what really matters. Aligning security alerts with business metrics reduces noise and focuses resources on threats with highest potential cost.'
+                        content: 'AI-native risk scoring engines analyze each vulnerability not only for its technical severity but also its business impact, exploitability, and context—helping security teams focus on what really matters. Aligning security alerts with business metrics reduces noise and focuses resources on threats with highest potential cost.'
                     },
 
                 ],
@@ -1901,7 +1901,7 @@ export const newBlogData = [
                 subItemTitle: '',
                 subItems: [
                     {
-                        item: "AI-Powered Penetration Testing",
+                        item: "AI-native Penetration Testing",
                         content: "Automated, self-learning tools conduct red-teaming at scale on ML models and infrastructure."
                     },
                     {

@@ -2,7 +2,7 @@ export const verticalSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "iTCart – Our Verticals",
-    "url": "https://itcart.ai/our-verticals",
+    "url": "https://itcart.ai/products",
     "description": "Explore iTCart's industry and AI solution verticals including AiXHub, AiXBFS, AiXQP, AiXRush, InsureAiX, AiXFintech, AiXDesk, RCMAiX, AiXEnergy, AiXHealthcare, AiXMotorsports, AiXGRC, AiXRealty, AiXHeat, AiXLifecare, AiXERP, CyberAiX, and AiXManufacturing, delivering enterprise AI automation and digital transformation.",
     "mainEntity": {
         "@type": "Organization",
@@ -29,7 +29,7 @@ export const verticalSchema = {
                 {
                     "@type": "OfferCatalog",
                     "name": "AiXBFS",
-                    "description": "AI-powered platform for banking and financial services."
+                    "description": "AI-native platform for banking and financial services."
                 },
                 {
                     "@type": "OfferCatalog",
@@ -54,7 +54,7 @@ export const verticalSchema = {
                 {
                     "@type": "OfferCatalog",
                     "name": "AiXDesk",
-                    "description": "AI-powered service desk and IT support automation platform."
+                    "description": "AI-native service desk and IT support automation platform."
                 },
                 {
                     "@type": "OfferCatalog",
@@ -84,7 +84,7 @@ export const verticalSchema = {
                 {
                     "@type": "OfferCatalog",
                     "name": "AiXRealty",
-                    "description": "AI-powered platform for real estate, construction, and project intelligence."
+                    "description": "AI-native platform for real estate, construction, and project intelligence."
                 },
                 {
                     "@type": "OfferCatalog",
@@ -127,7 +127,7 @@ export const verticalSchema = {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Our Verticals",
-                "item": "https://itcart.ai/our-verticals"
+                "item": "https://itcart.ai/products"
             }
         ]
     }

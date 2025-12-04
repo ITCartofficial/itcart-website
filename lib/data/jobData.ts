@@ -236,15 +236,15 @@ export const jobs = [
     title: "SharePoint - Technical Lead",
     location: "Bengaluru, India",
     employmentType: "Full Time",
-    jobCategory: "Insurance",
+    jobCategory: "Technology",
     jobDescriptionUrl: "/iTC0001",
     reportsTo: 'Enterprise Solutions Architect – AI Solutions',
-    positionOverview: "The SharePoint Tech Lead will be responsible for the end-to-end design, development, and deployment of SharePoint solutions, ensuring seamless collaboration and business process automation. The role will involve architecting SharePoint Online and on-premises environments, integrating AI-powered workflows, and ensuring adherence to governance, security, and compliance standards.",
+    positionOverview: "The SharePoint Tech Lead will be responsible for the end-to-end design, development, and deployment of SharePoint solutions, ensuring seamless collaboration and business process automation. The role will involve architecting SharePoint Online and on-premises environments, integrating AI-native workflows, and ensuring adherence to governance, security, and compliance standards.",
     objectives: [
-      "Architect and optimize SharePoint environments, ensuring seamless integration across cloud and hybrid ecosystems.",
-      "Lead SharePoint migration, customization, workflow automation, and AI-powered business process improvements.",
-      "Implement SharePoint governance, compliance, and security best practices for enterprise-wide collaboration.",
-      "Enhance SharePoint performance, scalability, and usability through modernized development and automation practices."
+      "Architect and optimise SharePoint environments to ensure stable, high-performance integration across cloud and hybrid systems.",
+      "Lead SharePoint migrations, customisations, workflow automation, and AI-enabled process enhancements for enterprise adoption.",
+      "Implement SharePoint governance controls, security standards, and compliance frameworks to support organisation-wide collaboration.",
+      "Enhance platform performance, scalability, and user experience through modern development practices and automation standards."
     ],
     responsibilities: [
       {
@@ -312,7 +312,7 @@ export const jobs = [
         items: [
           "SharePoint Adoption Growth: Increase SharePoint and Microsoft 365 adoption by 40%+ year-over-year.",
           "Knowledge Management & Search Optimization: Improve content discoverability by 50% using AI-driven search.",
-          "AI Automation & Efficiency Gains: Reduce document approval times by 30%+ through AI-powered workflow automation."
+          "AI Automation & Efficiency Gains: Reduce document approval times by 30%+ through AI-native workflow automation."
         ]
       }
     ],
@@ -325,7 +325,7 @@ export const jobs = [
       "Experience with Azure AI, Microsoft Teams, OneDrive, and business intelligence integrations."
     ],
     optionalSkills: [
-      "Experience with AI-powered document management, chatbots, and automated knowledge retrieval.",
+      "Experience with AI-native document management, chatbots, and automated knowledge retrieval.",
       "Certifications: Microsoft Certified: SharePoint Administrator Associate, Microsoft 365 Certified: Developer Associate.",
       "Familiarity with hybrid SharePoint deployments, federated search, and cognitive services.",
       "Experience in collaboration platform transformation for BFSI, healthcare, and manufacturing industries.",
@@ -333,6 +333,18 @@ export const jobs = [
 
 
   },
+
+
+
+
+
+
+
+
+
+
+
+  
   // {
   //   jobId: "iTC0002",
   //   title: "Assistant to the Co-Founder & Global CTO",

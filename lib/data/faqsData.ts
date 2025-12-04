@@ -3,13 +3,13 @@ export const faqsData = [
       id: 1,
       title: "Digital Transformation",
       description:
-        "Leverage our AI-powered solutions to streamline key decisions and drive digital transformation through smart automation.",
+        "Leverage our AI-native solutions to streamline key decisions and drive digital transformation through smart automation.",
       image: "/images/digital-transformation.jpg",
     },
     {
       id: 2,
       title: "AiXHub",
-      description: "An AI-powered digital engine transforming education and enterprise productivity.",
+      description: "An AI-native digital engine transforming education and enterprise productivity.",
       image: "/images/ai-image.jpeg",
     },
     {
@@ -33,7 +33,7 @@ export const faqsData = [
     {
       id: 6,
       title: "Financial Business Intelligence",
-      description: "Turn your financial data into actionable insights with our AI-powered BI tools.",
+      description: "Turn your financial data into actionable insights with our AI-native BI tools.",
       image: "/images/banking-finance.jpg",
     },
   ];
@@ -55,7 +55,7 @@ export const faqsData = [
   {
     id: '3',
     title: 'What is the Unique Selling Proposition of iTCart?',
-    content: 'Our USP is to deliver personalized AI-powered solutions that help businesses leverage AI and automation needs.'
+    content: 'Our USP is to deliver personalized AI-native solutions that help businesses leverage AI and automation needs.'
   },
   {
     id: '4',

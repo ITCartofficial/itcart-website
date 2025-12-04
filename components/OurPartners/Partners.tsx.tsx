@@ -35,7 +35,7 @@ function Partners() {
             logo: "/images/ourpartners/Aufait.png",
             alt: "Aufait logo",
             description:
-                "Aufait specializes in enabling tech adoption, encompassing Enterprise 2.0, Mobility, Cloud Solutions, Intranet/Internet Portals, DMS and Workflow/BPM.",
+                "Aufait specializes in enabling tech adoption, encompassing Enterprise 2.0, Mobility, Cloud Solutions, EOS/Internet Portals, DMS and Workflow/BPM.",
         },
         {
             logo: "/images/ourpartners/AufaitUX.png",

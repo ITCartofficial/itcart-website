@@ -70,7 +70,7 @@ export function parseContentWithLinks(content: string) {
 const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
     const caseStudyData = {
         id: '1',
-        title: "Experience a multi-functional AI-Powered platform",
+        title: "Experience a multi-functional AI-native platform",
         image: "/images/blogs/blog-featured-2.png",
         link: "/contact",
         linkText: "Contact Us",
@@ -78,12 +78,12 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
         date: "2024-06-01",
         imageUrl: "/images/blogs/blog-featured-2.png",
         bannerImage: "/images/blogs/blog-banner-2.jpg",
-        description: "Discover how our AI-powered platform can transform your business operations.",
-        slug: "ai-powered-platform",
+        description: "Discover how our AI-native platform can transform your business operations.",
+        slug: "AI-native-platform",
         content: [
             {
                 title: "Overview",
-                content: "This case study explores the features and benefits of our multi-functional AI-powered platform, showcasing real-world applications and results.",
+                content: "This case study explores the features and benefits of our multi-functional AI-native platform, showcasing real-world applications and results.",
             }
         ],
     }

@@ -5,8 +5,8 @@ export const industryData = [
     linkUrl: "/services/ai-ml-automations",
     imageSrc: "/images/industries/Airlines.png",
     detailPage: {
-      metaTitle: 'AI-Powered Digital Transformation for Airlines | iTCart',
-      metaDescription: 'Transform airline operations with iTCart’s AI-powered aviation solutions. Optimize routes, enhance safety, improve CX, and achieve digital excellence.  ',
+      metaTitle: 'AI-native Digital Transformation for Airlines | iTCart',
+      metaDescription: 'Transform airline operations with iTCart’s AI-native aviation solutions. Optimize routes, enhance safety, improve CX, and achieve digital excellence.  ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Digital Transformation in Aviation Excellence ",
@@ -17,7 +17,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/sectionabout.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The aviation industry faces complex challenges across operational efficiency, passenger experience, safety compliance, and digital innovation. Modern airlines require robust technological infrastructure to ensure seamless flight operations and streamlined airport management. iTCart delivers comprehensive airline digital transformation solutions through AI-powered frameworks and advanced aviation technologies.",
+        contentOne: "The aviation industry faces complex challenges across operational efficiency, passenger experience, safety compliance, and digital innovation. Modern airlines require robust technological infrastructure to ensure seamless flight operations and streamlined airport management. iTCart delivers comprehensive airline digital transformation solutions through AI-native frameworks and advanced aviation technologies.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Airlines Digital Excellence',
@@ -770,7 +770,7 @@ export const industryData = [
         {
           id: '2',
           title: 'How does marketing automation software improve operations?',
-          content: 'Marketing automation software applications optimize campaign management, enhance customer journey automation, streamline lead nurturing processes, and improve engagement through AI-powered services and real-time operational insights delivering excellence.'
+          content: 'Marketing automation software applications optimize campaign management, enhance customer journey automation, streamline lead nurturing processes, and improve engagement through AI-native services and real-time operational insights delivering excellence.'
         },
         {
           id: '3',
@@ -806,7 +806,7 @@ export const industryData = [
     linkUrl: "/services/cybersecurity-services",
     imageSrc: "/images/industries/Education.png",
     detailPage: {
-      metaTitle: 'AI-Powered Education Platform & LMS Solutions | iTCart ',
+      metaTitle: 'AI-native Education Platform & LMS Solutions | iTCart ',
       metaDescription: 'LeadingEdTech solution provider iTCart offers AI learning platforms, LMS systems, and educational automation. Transform teaching and learning outcomes. ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
@@ -943,7 +943,7 @@ export const industryData = [
         },
         {
           title: "Learning Management System ",
-          description: "AI-powered training modules for educators, professional certification tracking, faculty development assessments, skills enhancement, and immersive digital learning experiences. ",
+          description: "AI-native training modules for educators, professional certification tracking, faculty development assessments, skills enhancement, and immersive digital learning experiences. ",
           icon: '/images/vertical/icons/manicon.png'
         }
       ],
@@ -967,7 +967,7 @@ export const industryData = [
         {
           id: '2',
           title: 'How does digital transformation in education improve learning outcomes?',
-          content: 'Digital transformation in education applications optimizes curriculum delivery, enhances personalized learning, automates administrative tasks, and improves student engagement through AI-powered services and real-time educational insights delivering excellence.'
+          content: 'Digital transformation in education applications optimizes curriculum delivery, enhances personalized learning, automates administrative tasks, and improves student engagement through AI-native services and real-time educational insights delivering excellence.'
         },
         {
           id: '3',
@@ -1200,11 +1200,11 @@ export const industryData = [
     linkUrl: "/services/devops-services",
     imageSrc: "/images/industries/Food-Beverages.png",
     detailPage: {
-      metaTitle: 'AI-Powered Food & Beverage Industry Solutions | iTCart ',
+      metaTitle: 'AI-native Food & Beverage Industry Solutions | iTCart ',
       metaDescription: 'Enabling modern F&B operations with intelligent ERP platforms and industry-specific automation systems.',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
-      bannerTitle: "AI-Powered F&B Automation Excellence",
+      bannerTitle: "AI-native F&B Automation Excellence",
       bannerDescription: "Empowering modern food and beverage through comprehensive food and beverage ERP solutions and automation in food and beverage industry",
       bannerImage: "/images/industries/Food-&-Beverages-Banner.jpg",
       mobileBannerImage: "/images/industries/Food-MobileBanner.jpg",
@@ -1249,7 +1249,7 @@ export const industryData = [
         },
       ],
       solutionGridHeading: 'Our Food & Beverage Software Solutions',
-      solutionGridHeadingDiscription: 'Explore our comprehensive suite of AI-powered F&B automation solutions ',
+      solutionGridHeadingDiscription: 'Explore our comprehensive suite of AI-native F&B automation solutions ',
       solutionGridItems: [
         {
           title: "Production Management Platform",
@@ -1355,13 +1355,13 @@ export const industryData = [
       FAQs: [
         {
           id: '1',
-          title: "What makes iTCart's AI-Powered F&B automation solutions different?",
+          title: "What makes iTCart's AI-native F&B automation solutions different?",
           content: "Our comprehensive approach integrates food and beverage ERP solutions capabilities with proven automation in food and beverage industry methodologies, delivering measurable results through advanced F&B inventory automation, product lifecycle management food industry, and F&B demand forecasting with AI ensuring competitive advantage. "
         },
         {
           id: '2',
           title: 'How do food and beverage ERP solutions improve operations?',
-          content: 'Food and beverage ERP solutions applications optimize supply chain management, enhance financial control, streamline production processes, and improve operational coordination through AI-powered F&B automation services and real-time operational insights delivering manufacturing excellence.'
+          content: 'Food and beverage ERP solutions applications optimize supply chain management, enhance financial control, streamline production processes, and improve operational coordination through AI-native F&B automation services and real-time operational insights delivering manufacturing excellence.'
         },
         {
           id: '3',
@@ -1381,7 +1381,7 @@ export const industryData = [
         {
           id: '6',
           title: "How long does F&B automation implementation take?",
-          content: "AI-powered F&B automation typically requires twelve to eighteen months for comprehensive implementation, including system integration, staff training, and optimization phases ensuring minimal production disruption while maximizing investment returns."
+          content: "AI-native F&B automation typically requires twelve to eighteen months for comprehensive implementation, including system integration, staff training, and optimization phases ensuring minimal production disruption while maximizing investment returns."
         },
         {
           id: '7',
@@ -1769,7 +1769,7 @@ export const industryData = [
         },
         {
           id: '5',
-          title: "What AI-powered industrial-automation services do you offer?",
+          title: "What AI-native industrial-automation services do you offer?",
           content: "Our AI in industrial automation encompasses machine learning systems, intelligent control platforms, predictive analytics tools, automated decision-making solutions, and comprehensive optimization through digital manufacturing transformation delivering business improvements. "
         },
         {
@@ -1796,7 +1796,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Healthcare Digital Transformation Solutions Excellence",
-      bannerDescription: "Driving healthcare digital transformation through advanced EHR systems, intelligent automation, and AI-powered care innovation.",
+      bannerDescription: "Driving healthcare digital transformation through advanced EHR systems, intelligent automation, and AI-native care innovation.",
       bannerImage: "/images/industries/Healthcare-Banner.jpg",
       mobileBannerImage: "/images/industries/Healthcare-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -1804,7 +1804,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/healthcare-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The healthcare industry faces critical challenges such as optimizing patient care, ensuring regulatory compliance, and improving operational efficiency. Modern healthcare ecosystems require a powerful digital-transformation framework supporting complete electronic health-record management, AI-powered automation across medical operations, remote patient-monitoring capabilities, revenue-cycle automation, and end-to-end intelligent insurance-claim processing. iTCart provides advanced medical-technology solutions using innovative automation systems and robust practice-management platforms.",
+        contentOne: "The healthcare industry faces critical challenges such as optimizing patient care, ensuring regulatory compliance, and improving operational efficiency. Modern healthcare ecosystems require a powerful digital-transformation framework supporting complete electronic health-record management, AI-native automation across medical operations, remote patient-monitoring capabilities, revenue-cycle automation, and end-to-end intelligent insurance-claim processing. iTCart provides advanced medical-technology solutions using innovative automation systems and robust practice-management platforms.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Healthcare Technology Excellence',
@@ -2001,7 +2001,7 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/it-section.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "The information technology sector faces complex challenges such as system modernization, workflow efficiency improvement, and infrastructure scalability. Modern IT organizations require robust AI-driven infrastructure that supports comprehensive workflow automation and end-to-end optimization. iTCart delivers digital transformation through innovative application modernization methodologies and AI-powered IT automation frameworks. ",
+        contentOne: "The information technology sector faces complex challenges such as system modernization, workflow efficiency improvement, and infrastructure scalability. Modern IT organizations require robust AI-driven infrastructure that supports comprehensive workflow automation and end-to-end optimization. iTCart delivers digital transformation through innovative application modernization methodologies and AI-native IT automation frameworks. ",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Information Technology Excellence',
@@ -2031,7 +2031,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Information-icon4.svg',
           title: "Connected Infrastructure",
-          highlight: "Advanced infrastructure optimization enabling seamless integration supported by AI-powered automation.",
+          highlight: "Advanced infrastructure optimization enabling seamless integration supported by AI-native automation.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -2071,7 +2071,7 @@ export const industryData = [
         },
         {
           title: "AI Automation Hub",
-          description: "Connected AI-powered IT automation services with machine learning, intelligent decision-making, process automation, and operational excellence coordination.  ",
+          description: "Connected AI-native IT automation services with machine learning, intelligent decision-making, process automation, and operational excellence coordination.  ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/it-solution6.png'
         }
@@ -2144,7 +2144,7 @@ export const industryData = [
         {
           id: '1',
           title: "What makes iTCart's AI in information technology solutions different? ",
-          content: "Our comprehensive approach integrates IT digital transformation services capabilities with proven application modernization services methodologies, delivering measurable results through advanced workflow automation, infrastructure optimization, and AI-powered automation capabilities."
+          content: "Our comprehensive approach integrates IT digital transformation services capabilities with proven application modernization services methodologies, delivering measurable results through advanced workflow automation, infrastructure optimization, and AI-native automation capabilities."
         },
         {
           id: '2',
@@ -2164,7 +2164,7 @@ export const industryData = [
         {
           id: '5',
           title: "What IT digital transformation services do you offer?",
-          content: "Our IT digital transformation services encompass modernization platforms, automation tools, infrastructure solutions, analytics systems, and comprehensive optimization through AI-powered IT automation services delivering business improvements. "
+          content: "Our IT digital transformation services encompass modernization platforms, automation tools, infrastructure solutions, analytics systems, and comprehensive optimization through AI-native IT automation services delivering business improvements. "
         },
         {
           id: '6',
@@ -2345,7 +2345,7 @@ export const industryData = [
         {
           id: '2',
           title: 'How does digital media transformation improve operations',
-          content: 'Digital media transformation applications optimize content management, enhance workflow automation, streamline distribution processes, and improve audience engagement through AI-powered services and real-time operational insights delivering excellence. '
+          content: 'Digital media transformation applications optimize content management, enhance workflow automation, streamline distribution processes, and improve audience engagement through AI-native services and real-time operational insights delivering excellence. '
         },
         {
           id: '3',
@@ -2643,7 +2643,7 @@ export const industryData = [
         },
         {
           title: "Workforce Management Engine",
-          description: "Our integrated workforce management engine provides training modules with AI-powered analytics to improve government sector performance.",
+          description: "Our integrated workforce management engine provides training modules with AI-native analytics to improve government sector performance.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/publicsector-solution3.png'
         },
@@ -2852,7 +2852,7 @@ export const industryData = [
         },
         {
           title: "Custom Desk System",
-          description: "AI-powered desk platform streamlining service requests, automated routing, and client support for efficient professional services operations.",
+          description: "AI-native desk platform streamlining service requests, automated routing, and client support for efficient professional services operations.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/professional-solution5.png'
         },
@@ -3001,7 +3001,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Retail-icon2.svg',
           title: "Digital Innovation",
-          highlight: "Retail technology solutions featuring AI-powered personalization, automated workflows, and continuous technological advancement through solutions. ",
+          highlight: "Retail technology solutions featuring AI-native personalization, automated workflows, and continuous technological advancement through solutions. ",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -3037,7 +3037,7 @@ export const industryData = [
         },
         {
           title: "Personalization Engine",
-          description: "Integrated AI-powered recommendations with customer intelligence through digital transformation for retail industry applications and behavioral analysis. ",
+          description: "Integrated AI-native recommendations with customer intelligence through digital transformation for retail industry applications and behavioral analysis. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/RetailEcommerce-solution3.png'
         },
@@ -3133,7 +3133,7 @@ export const industryData = [
         {
           id: '2',
           title: 'How does digital transformation in retail industry improve operations?',
-          content: 'Digital transformation in retail industry applications optimizes inventory management, enhances customer personalization, automates business processes, and improves omnichannel experiences through AI-powered services and real-time operational insights delivering excellence. '
+          content: 'Digital transformation in retail industry applications optimizes inventory management, enhances customer personalization, automates business processes, and improves omnichannel experiences through AI-native services and real-time operational insights delivering excellence. '
         },
         {
           id: '3',
@@ -3562,11 +3562,11 @@ export const industryData = [
     imageSrc: "/images/industries/Travel-Tourism.png",
     detailPage: {
       metaTitle: 'Smart Tourism & Travel Automation Services | iTCart ',
-      metaDescription: 'Transform guest experiences with AI-powered travel technology, booking automation, mobile apps, and smart tourism platforms designed to grow hospitality businesses. ',
+      metaDescription: 'Transform guest experiences with AI-native travel technology, booking automation, mobile apps, and smart tourism platforms designed to grow hospitality businesses. ',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Travel Technology Solutions Excellence",
-      bannerDescription: "Driving modern tourism forward with AI-powered automation and digital solutions designed specifically for hotels",
+      bannerDescription: "Driving modern tourism forward with AI-native automation and digital solutions designed specifically for hotels",
       bannerImage: "/images/industries/Travel-&-Tourism-Banner.jpg",
       mobileBannerImage: "/images/industries/travel-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -3758,7 +3758,7 @@ export const industryData = [
     linkUrl: "/services/startup-services",
     imageSrc: "/images/industries/Hospitality.png",
     detailPage: {
-      metaTitle: 'AI-Powered Hospitality Solutions for Hotels & Resorts | iTCart ',
+      metaTitle: 'AI-native Hospitality Solutions for Hotels & Resorts | iTCart ',
       metaDescription: 'Transform hospitality operations with AI-driven automation, smart booking systems, guest experience platforms, and digital hospitality solutions designed to boost revenue and loyalty',
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",

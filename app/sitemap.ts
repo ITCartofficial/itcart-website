@@ -154,7 +154,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 'employee',
     'industry',
     'mediapage',
-    'our-verticals',
+    'products',
     'ourpatners',
     'privacy-policy',
     'services',
@@ -197,7 +197,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Dynamic vertical routes
   const verticals = await getVerticals();
   const verticalRoutes = verticals.map((vertical: { id: string; slug?: string; updatedAt?: string }) => ({
-    url: `${baseUrl}/our-verticals/${vertical.slug || vertical.id}`,
+    url: `${baseUrl}/products/${vertical.slug || vertical.id}`,
     lastModified: vertical.updatedAt ? new Date(vertical.updatedAt).toISOString().split('T')[0] : new Date().toISOString().split('T')[0],
     changeFrequency: 'monthly' as const,
     priority: 0.7,

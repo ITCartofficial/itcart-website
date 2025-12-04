@@ -155,7 +155,7 @@ export const blogPosts = [
   },
   {
     id: "15",
-    title: "Experience a Multi-functional AI-Powered Platform",
+    title: "Experience a Multi-functional AI-native Platform",
     imageUrl: "/images/blogs/blog-featured-10.jpg",
     author: "Akshay Chakrapani",
     date: "22 April 2025",

@@ -15,18 +15,18 @@ export const verticalData = [
             bannerTitle: "AI-Native Enterprise Operating System Built for Unified Execution",
             bannerDescription: "The World's First AI-Native Digital Workplace Transformation Platform",
             bannerImage: "/images/vertical/AiXHub-banner.jpg",
-            banerAltImg: "enterprise intranet solutions",
+            banerAltImg: "enterprise EOS solutions",
             mobileBannerImage: "/images/vertical/AiXHub-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Digital Workspace Challenge',
             aboutSectionHeading: 'Revolutionary AI-Native Workplace',
-            capabilitiSectionHeading: 'AI-Powered Core Capabilities ',
+            capabilitiSectionHeading: 'AI-native Core Capabilities ',
             skillGapSectionHeading: 'Built For Modern Teams',
             FAQsHeading: 'Everything You Need to Know About AiXHub',
             impactImage: '/images/vertical/AiXHub-impact.png',
             VerticalContentSection2: {
                 contentOne: "Modern enterprises struggle with disconnected systems, manual workflows, and limited visibility across functions. AiXHub eliminates these gaps by introducing an AI-native enterprise operating system that unifies communication, compliance, and automation into one governed execution environment, enabling contextual workflows, predictive collaboration, and SLA-driven performance.",
                 contenttwo: "",
-                imgAlt: "enterprise intranet solutions",
+                imgAlt: "enterprise EOS solutions",
                 sectionTwoFirstImage: "/images/vertical/AiXHub-section.png"
             },
             aboutSection: {
@@ -34,7 +34,7 @@ export const verticalData = [
                 logo: '/images/vertical/AiXHub-darklogo.png',
                 contentOne: "AiXHub transforms organizations with the world’s first AI-native enterprise operating system, combining automation, workflow orchestration, and AI-driven decision execution into a single cohesive framework. Powered by patent-applied architecture, it enables autonomous collaboration, governed task management, and real-time analytics—reducing operational costs by thirty percent and increasing workforce engagement by more than two hundred percent while maintaining strict compliance.",
                 contenttwo: "",
-                imgAlt: "enterprise intranet portal"
+                imgAlt: "enterprise EOS portal"
             },
 
             CapabilitySections: [
@@ -138,14 +138,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXHub – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixhub",
+                        "url": "https://itcart.ai/products/aixhub",
                         "description": "AiXHub is an AI-native Enterprise Operating System built on Microsoft 365, delivering unified intelligent automation, workflow optimization, and enterprise AI execution across departments.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXHub",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "BusinessApplication",
-                            "url": "https://itcart.ai/our-verticals/aixhub",
+                            "url": "https://itcart.ai/products/aixhub",
                             "description": "AiXHub is the AI-native Enterprise OS that replaces fragmented software stacks with a unified intelligent platform, enabling enterprise automation, real-time decision-making, and regulatory compliance.",
                             "provider": {
                                 "@type": "Organization",
@@ -180,13 +180,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXHub",
-                                    "item": "https://itcart.ai/our-verticals/aixhub"
+                                    "item": "https://itcart.ai/products/aixhub"
                                 }
                             ]
                         }
@@ -204,10 +204,10 @@ export const verticalData = [
                             },
                             {
                                 "@type": "Question",
-                                "name": "What makes AiXHub different from traditional intranet tools?",
+                                "name": "What makes AiXHub different from traditional EOS tools?",
                                 "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "AiXHub replaces static intranets with an AI-native execution system that automates workflows, enforces SLAs, and learns continuously across departments."
+                                    "text": "AiXHub replaces static EOSs with an AI-native execution system that automates workflows, enforces SLAs, and learns continuously across departments."
                                 }
                             },
                             {
@@ -240,13 +240,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: "iTCart's AiXHub is the foundation of our enterprise intranet solutions, delivering AI-powered digital workplace transformation through an intelligent, unified intranet platform. ",
+            apropriectContentOne: "iTCart's AiXHub is the foundation of our enterprise EOS solutions, delivering AI-native digital workplace transformation through an intelligent, unified EOS platform. ",
             apropriectContenTwo: "Whether you are automating workflows, enhancing employee engagement, or integrating diverse business systems, AiXHub™ empowers your organization with seamless collaboration, advanced analytics, and secure, scalable operations. ",
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -259,16 +259,16 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXBFS.png',
         compenyLogo: '/images/verticalLogos/AiXBFS.png',
         detailPage: {
-            metaTitle: 'AI-Powered Banking & Financial Services Platform | AiXBFS',
-            metaDescription: 'AiXBFS is an AI-powered banking and financial services platform that automates lending, collections, compliance, and risk management for modern BFSI leaders. ',
-            bannerTitle: 'AI-Powered Banking & Financial Services Platform',
+            metaTitle: 'AI-native Banking & Financial Services Platform | AiXBFS',
+            metaDescription: 'AiXBFS is an AI-native banking and financial services platform that automates lending, collections, compliance, and risk management for modern BFSI leaders. ',
+            bannerTitle: 'AI-native Banking & Financial Services Platform',
             bannerDescription: "Transform BFSI operations through intelligent AI in banking and financial services",
             bannerImage: "/images/vertical/AiXBFS-banner.jpg",
             mobileBannerImage: "/images/vertical/AiXBFS-MobileBanner.jpg",
             banerAltImg: "AI in banking and financial services ",
             VerticalContentSection2Heading: 'Banking and Financial Services Revolution',
             aboutSectionHeading: 'Complete Banking Ecosystem Transformation',
-            capabilitiSectionHeading: 'AI-Powered Banking Capabilities',
+            capabilitiSectionHeading: 'AI-native Banking Capabilities',
             skillGapSectionHeading: 'Real-World Banking Applications',
             FAQsHeading: 'Everything You Need to Know About AiXBFS',
             impactImage: '/images/vertical/AiXBFS-impact.png',
@@ -302,7 +302,7 @@ export const verticalData = [
                 {
                     title: "Debt Collection",
                     description:
-                        "AI-powered debt collection software with predictive analytics and smart outreach automation.",
+                        "AI-native debt collection software with predictive analytics and smart outreach automation.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -392,14 +392,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXBFS – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixbfs",
-                        "description": "AiXBFS is an AI-powered banking and financial services platform, offering modular, API-first architecture with embedded regulatory compliance and rapid deployment for Indian BFSI institutions.",
+                        "url": "https://itcart.ai/products/aixbfs",
+                        "description": "AiXBFS is an AI-native banking and financial services platform, offering modular, API-first architecture with embedded regulatory compliance and rapid deployment for Indian BFSI institutions.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXBFS",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "BusinessApplication",
-                            "url": "https://itcart.ai/our-verticals/aixbfs",
+                            "url": "https://itcart.ai/products/aixbfs",
                             "description": "AiXBFS combines 20+ years of BFSI expertise with advanced AI technology, enabling seamless integration, regulatory compliance, and rapid deployment for banking and financial institutions.",
                             "provider": {
                                 "@type": "Organization",
@@ -434,13 +434,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXBFS",
-                                    "item": "https://itcart.ai/our-verticals/aixbfs"
+                                    "item": "https://itcart.ai/products/aixbfs"
                                 }
                             ]
                         }
@@ -494,13 +494,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: "AiXBFS platform runs on AiXHub, the core of the AiX Framework bringing AI-powered automation, predictive analytics, and autonomous decision-making tailored for banking and financial services. ",
+            apropriectContentOne: "AiXBFS platform runs on AiXHub, the core of the AiX Framework bringing AI-native automation, predictive analytics, and autonomous decision-making tailored for banking and financial services. ",
             apropriectContenTwo: "Whether you are automating lending, optimizing collections, ensuring compliance, or managing financial risks, AiXHub empowers BFSI leaders with intelligent, scalable solutions to transform operations and drive growth. ",
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -517,7 +517,7 @@ export const verticalData = [
         capabilitiSectionHeading: 'Core capabilities  ',
         skillGapSectionHeading: 'Bridge Skills Gaps with AI-Driven Education ',
         detailPage: {
-            metaTitle: 'AiXQP | AI-Powered Online Learning Platform for Career Growth',
+            metaTitle: 'AiXQP | AI-native Online Learning Platform for Career Growth',
             metaDescription: 'AiXQP is an AI learning platform offering online courses with certification, internships, and placement support to help you grow your career',
             bannerTitle: "The Future of Intelligent Learning Starts Here",
             bannerDescription: "Experience personalized learning that adapts to your learners' needs.",
@@ -533,12 +533,12 @@ export const verticalData = [
                 contentOne: "Traditional online education platforms often deliver generic content. Modern learning requires AI-driven learning experience platforms, intelligent Learning Management System, adaptive learning technology, personalized AI tutoring, student engagement tools, and AI-enabled certification workflows to achieve educational excellence.",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXQP-section1.png",
-                imgAlt: "AI-powered education platform "
+                imgAlt: "AI-native education platform "
             },
             aboutSection: {
                 aboutImage: '/images/vertical/AiXQP-section2.png',
                 logo: '/images/verticalLogos/AiXQP.png',
-                contentOne: " AiXQP is iTCart's revolutionary AI learning experience platform featuring comprehensive AI-powered education platform, intelligent Learning Management System, personalized AI learning system, adaptive learning technology, AI in student engagement, and AI certification programs capabilities. Built ground-up with AiXHub engine delivering interactive AI tutors and continuous intelligence that evolves with learner needs ensuring faster skill development and industry relevance across multiple educational domains through intelligent automation.",
+                contentOne: " AiXQP is iTCart's revolutionary AI learning experience platform featuring comprehensive AI-native education platform, intelligent Learning Management System, personalized AI learning system, adaptive learning technology, AI in student engagement, and AI certification programs capabilities. Built ground-up with AiXHub engine delivering interactive AI tutors and continuous intelligence that evolves with learner needs ensuring faster skill development and industry relevance across multiple educational domains through intelligent automation.",
                 contenttwo: " ",
                 imgAlt: "intelligent Learning Management System "
             },
@@ -549,7 +549,7 @@ export const verticalData = [
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
-                    title: "AI-Powered Student Engagemen",
+                    title: "AI-native Student Engagemen",
                     description: "Interactive exercises maintaining optimal conditions via advanced AI in student engagement capabilities.  ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
@@ -595,7 +595,7 @@ export const verticalData = [
                 "Reduce training time by fifty percent through adaptive learning paths and content ",
                 "Provide 24/7 learning access with real-time AI tutoring available in multiple languages.",
                 "Accelerate skill development with domain-specific tracks tailored to industry requirements and trends.",
-                "Significantly enhance learner engagement with gamified elements and interactive AI-powered experiences.",
+                "Significantly enhance learner engagement with gamified elements and interactive AI-native experiences.",
                 "Streamline educator workflows through automated lesson generation and assessment tools.",
                 "Improve knowledge retention by 60% through personalized study paths and reinforcement.",
                 "Reduce dropout rates by 40% with continuous engagement monitoring and timely interventions."
@@ -608,8 +608,8 @@ export const verticalData = [
                 },
                 {
                     id: '2',
-                    title: 'How does the AI-Powered education platform adapt to individual learning styles?',
-                    content: ' Our AI-powered education platform analyzes your performance data, learning preferences, and career objectives to create personalized study paths through adaptive learning technology that evolves with your progress and reinforces challenging concepts automatically.'
+                    title: 'How does the AI-native education platform adapt to individual learning styles?',
+                    content: ' Our AI-native education platform analyzes your performance data, learning preferences, and career objectives to create personalized study paths through adaptive learning technology that evolves with your progress and reinforces challenging concepts automatically.'
                 },
                 {
                     id: '3',
@@ -658,15 +658,15 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXQP – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixqp",
+                        "url": "https://itcart.ai/products/aixqp",
                         "description": "AiXQP is an AI learning platform offering online courses with certification, internships, and placement support to help you grow your career.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXQP",
                             "operatingSystem": "Web, Cloud, Mobile",
                             "applicationCategory": "EducationalApplication",
-                            "url": "https://itcart.ai/our-verticals/aixqp",
-                            "description": "AiXQP is an AI-powered online learning platform offering personalized study paths, AI certifications, adaptive learning, and real-time progress tracking for students, professionals, and enterprises.",
+                            "url": "https://itcart.ai/products/aixqp",
+                            "description": "AiXQP is an AI-native online learning platform offering personalized study paths, AI certifications, adaptive learning, and real-time progress tracking for students, professionals, and enterprises.",
 
                             "provider": {
                                 "@type": "Organization",
@@ -702,7 +702,7 @@ export const verticalData = [
                                 "@type": "EnrollAction",
                                 "target": "https://aixqp.com/",
                                 "name": "Enroll Now",
-                                "description": "Enroll in AI-powered online courses, certification programs, and internship pathways on AiXQP."
+                                "description": "Enroll in AI-native online courses, certification programs, and internship pathways on AiXQP."
                             }
                         },
 
@@ -719,13 +719,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXQP",
-                                    "item": "https://itcart.ai/our-verticals/aixqp"
+                                    "item": "https://itcart.ai/products/aixqp"
                                 }
                             ]
                         }
@@ -744,10 +744,10 @@ export const verticalData = [
                             },
                             {
                                 "@type": "Question",
-                                "name": "How does the AI-powered education platform adapt to individual learning styles?",
+                                "name": "How does the AI-native education platform adapt to individual learning styles?",
                                 "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "Our AI-powered education platform analyzes performance data, learning preferences, and career objectives to create personalized study paths through adaptive learning technology that evolves with progress and automatically reinforces challenging concepts."
+                                    "text": "Our AI-native education platform analyzes performance data, learning preferences, and career objectives to create personalized study paths through adaptive learning technology that evolves with progress and automatically reinforces challenging concepts."
                                 }
                             },
                             {
@@ -802,7 +802,7 @@ export const verticalData = [
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -815,8 +815,8 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/InsureAiX.png',
         compenyLogo: '/images/verticalLogos/InsureAiX.png',
         detailPage: {
-            metaTitle: 'AI-Powered Insurance Platform | InsureAiX ',
-            metaDescription: 'Transform your coverage with InsureAiX — the AI-powered insurance platform that uses genomics, behavior, and health data to deliver personalized, dynamic premiums. ',
+            metaTitle: 'AI-native Insurance Platform | InsureAiX ',
+            metaDescription: 'Transform your coverage with InsureAiX — the AI-native insurance platform that uses genomics, behavior, and health data to deliver personalized, dynamic premiums. ',
             bannerTitle: "Smart Insurance for a Secure Future",
             bannerDescription: "Personalized coverage that adapts to your lifestyle.",
             bannerImage: "/images/vertical/InsureAiX-banner.jpg",
@@ -943,14 +943,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXQP – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixqp",
+                        "url": "https://itcart.ai/products/aixqp",
                         "description": "AiXQP is an AI-powered online learning platform offering personalized study paths, certification programs, internships, and real-time progress tracking to help learners grow their careers.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXQP",
                             "operatingSystem": "Web, Cloud, Mobile",
                             "applicationCategory": "EducationalApplication",
-                            "url": "https://itcart.ai/our-verticals/aixqp",
+                            "url": "https://itcart.ai/products/aixqp",
                             "description": "AiXQP enhances learning through AI-driven personalization, adaptive study paths, real-time analytics, and intelligent assessments for students, professionals, and enterprises.",
 
                             "provider": {
@@ -1004,13 +1004,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXQP",
-                                    "item": "https://itcart.ai/our-verticals/aixqp"
+                                    "item": "https://itcart.ai/products/aixqp"
                                 }
                             ]
                         }
@@ -1087,7 +1087,7 @@ export const verticalData = [
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -1101,7 +1101,7 @@ export const verticalData = [
         compenyLogo: '/images/verticalLogos/AiXDesk.png',
         detailPage: {
             metaTitle: ' AI IT Service Management Software | Smart Helpdesk Platform',
-            metaDescription: 'Reimagine IT operations with AiXDesk—an AI-powered ITSM platform that automates ticketing, manages assets, and boosts service delivery across your enterprise.',
+            metaDescription: 'Reimagine IT operations with AiXDesk—an AI-native ITSM platform that automates ticketing, manages assets, and boosts service delivery across your enterprise.',
             bannerTitle: "Intelligent IT Support & Asset Management Platform",
             bannerDescription: "Streamline IT Service Management with AI-driven IT service solutions and intelligent asset management capabilities.",
             bannerImage: "/images/vertical/AiXDesk-banner.jpg",
@@ -1122,14 +1122,14 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXDesk-section2.png',
                 logo: '/images/vertical/AiXDesk-darklogo.png',
-                contentOne: "AiXDesk transforms IT service management with intelligent automation, unifying ticketing systems with complete asset tracking and smooth workflow management. This AI-powered platform streamlines enterprise IT operations, offering IT service management software, asset tracking capabilities, digital asset integration, and smart monitoring that eliminates manual bottlenecks while speeding up issue resolution across the asset lifecycle.",
+                contentOne: "AiXDesk transforms IT service management with intelligent automation, unifying ticketing systems with complete asset tracking and smooth workflow management. This AI-native platform streamlines enterprise IT operations, offering IT service management software, asset tracking capabilities, digital asset integration, and smart monitoring that eliminates manual bottlenecks while speeding up issue resolution across the asset lifecycle.",
                 contenttwo: "",
                 imgAlt: "digital asset management software  "
             },
             CapabilitySections: [
                 {
                     title: "Intelligent Ticket Management",
-                    description: "AI-powered automation captures and routes issues instantly through advanced IT service management software and intelligent workflow orchestration.",
+                    description: "AI-native automation captures and routes issues instantly through advanced IT service management software and intelligent workflow orchestration.",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
@@ -1161,7 +1161,7 @@ export const verticalData = [
             impactImgAlt: "smart asset tracking ",
             impactsAboutAlt: "Asset lifecycle management solutions ",
             impacts: [
-                "40% faster issue processing through AI-powered routing intelligence and comprehensive it service management software optimization ",
+                "40% faster issue processing through AI-native routing intelligence and comprehensive it service management software optimization ",
                 "60% fewer repetitive queries through intelligent helpdesk automation and proactive issue prevention systems",
                 "90% higher employee satisfaction ratings via enhanced service delivery and asset management platform capabilities ",
                 "100% asset visibility through comprehensive digital asset management software and intelligent tracking systems",
@@ -1225,14 +1225,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXDesk – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixdesk",
+                        "url": "https://itcart.ai/products/aixdesk",
                         "description": "AiXDesk is an AI-powered IT service management (ITSM) platform that automates ticketing, asset management, incident response, and IT operations to boost enterprise service delivery.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXDesk",
                             "operatingSystem": "Web, Cloud, Mobile",
                             "applicationCategory": "ITServiceManagementApplication",
-                            "url": "https://itcart.ai/our-verticals/aixdesk",
+                            "url": "https://itcart.ai/products/aixdesk",
                             "description": "AiXDesk enhances IT operations with AI-driven ticket automation, IT asset management, service desk workflows, knowledge base intelligence, predictive incident detection, and enterprise-grade ITSM capabilities.",
 
                             "applicationSuite": [
@@ -1298,13 +1298,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXDesk",
-                                    "item": "https://itcart.ai/our-verticals/aixdesk"
+                                    "item": "https://itcart.ai/products/aixdesk"
                                 }
                             ]
                         }
@@ -1367,13 +1367,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: "AiXDesk platform runs on AiXHub, the core of the AiX Framework—offering AI-powered intelligent ticketing, asset management, and helpdesk automation tailored for modern IT service management. ",
+            apropriectContentOne: "AiXDesk platform runs on AiXHub, the core of the AiX Framework—offering AI-native intelligent ticketing, asset management, and helpdesk automation tailored for modern IT service management. ",
             apropriectContenTwo: "Whether you are streamlining issue resolution, enhancing asset tracking, or automating workflows, AiXHub empowers IT teams with real-time insights, predictive analytics, and scalable service delivery to optimize operations and improve user satisfaction. ",
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -1386,13 +1386,13 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXFintech.png',
         compenyLogo: '/images/verticalLogos/AiXFintech.png',
         detailPage: {
-            metaTitle: 'AI-Powered Financial Automation Platform | AiXFinTech ',
-            metaDescription: ' Automate risk, compliance, and credit scoring with AiXFinTech — an AI-powered financial automation platform built for intelligent banking and digital finance.',
-            bannerTitle: "Transforming Financial Services Through AI-Powered Automation",
+            metaTitle: 'AI-native Financial Automation Platform | AiXFinTech ',
+            metaDescription: ' Automate risk, compliance, and credit scoring with AiXFinTech — an AI-native financial automation platform built for intelligent banking and digital finance.',
+            bannerTitle: "Transforming Financial Services Through AI-native Automation",
             bannerDescription: "Experience digitalized financial services with our AiXHub  ",
             bannerImage: "/images/vertical/AiXFintech-banner.jpg",
             mobileBannerImage: "/images/vertical/AiXFinTech-MobileBanner.jpg",
-            banerAltImg: "AI-powered financial automation platform ",
+            banerAltImg: "AI-native financial automation platform ",
             VerticalContentSection2Heading: 'Financial Services Digital Revolution',
             aboutSectionHeading: 'Revolutionary AI-Native Financial Excellence ',
             capabilitiSectionHeading: 'Advanced FinTech AI Capabilities ',
@@ -1402,17 +1402,17 @@ export const verticalData = [
             impactImgAlt: "digital transformation in financial services ",
             impactsAboutAlt: "intelligent automation financial services ",
             impacts: [
-                "70-85% reduction in manual processing time through AI-powered financial automation and optimized workflows",
+                "70-85% reduction in manual processing time through AI-native financial automation and optimized workflows",
                 "60-90% improvement in accuracy and quality with predictive analytics and error prevention systems",
                 "80-95% increase in SLA compliance via regulatory compliance automation and intelligent monitoring",
                 "82% reduction in policy review time for faster decision-making",
                 "91% predictive accuracy in risk assessment with AI-driven automation and machine learning",
                 "75% reduction in administrative overhead via automated workflows",
                 "94% SLA compliance across all financial operations",
-                "380-487% ROI within 12–24 months through AI-powered financial automation implementation"
+                "380-487% ROI within 12–24 months through AI-native financial automation implementation"
             ],
             VerticalContentSection2: {
-                contentOne: "The global AI in fintech market is growing rapidly, valued at $17.79 billion in 2025 and projected to reach $52.19 billion by 2029. Financial institutions manage 342 applications on average, with 42% of software licenses going unused, creating $127 million in annual waste. AI-powered financial automation, predictive analytics, and digital transformation solutions can help eliminate significant operational losses. ",
+                contentOne: "The global AI in fintech market is growing rapidly, valued at $17.79 billion in 2025 and projected to reach $52.19 billion by 2029. Financial institutions manage 342 applications on average, with 42% of software licenses going unused, creating $127 million in annual waste. AI-native financial automation, predictive analytics, and digital transformation solutions can help eliminate significant operational losses. ",
                 contenttwo: "",
                 sectionTwoFirstImage: "/images/vertical/AiXFintech-section.png",
                 imgAlt: "predictive analytics for finance "
@@ -1420,7 +1420,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXFintech-about.png',
                 logo: '/images/vertical/AiXFintech-darklogo.png',
-                contentOne: "AiXFinTech is the world's first AI-native financial services solution built on AiXHub. Unlike traditional point solutions that add complexity, it replaces fragmented financial stacks with unified intelligent execution. The platform provides AI-powered financial automation, predictive analytics for finance, and intelligent automation that thinks like a financial expert, acts like a compliance officer, and learns like a risk manager. ",
+                contentOne: "AiXFinTech is the world's first AI-native financial services solution built on AiXHub. Unlike traditional point solutions that add complexity, it replaces fragmented financial stacks with unified intelligent execution. The platform provides AI-native financial automation, predictive analytics for finance, and intelligent automation that thinks like a financial expert, acts like a compliance officer, and learns like a risk manager. ",
                 contenttwo: "",
                 contentthree: "",
                 imgAlt: "regulatory compliance automation "
@@ -1449,7 +1449,7 @@ export const verticalData = [
                 },
                 {
                     title: "Intelligent Document Automation",
-                    description: "OCR and NLP-driven document processing for KYC, loans, and regulatory reporting via AI-powered financial automation.",
+                    description: "OCR and NLP-driven document processing for KYC, loans, and regulatory reporting via AI-native financial automation.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -1515,14 +1515,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXFinTech – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixfintech",
+                        "url": "https://itcart.ai/products/aixfintech",
                         "description": "AiXFinTech is an AI-powered financial automation platform that automates risk, compliance, credit scoring, and decisioning for banks, NBFCs, and digital finance institutions.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXFinTech",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "FinancialApplication",
-                            "url": "https://itcart.ai/our-verticals/aixfintech",
+                            "url": "https://itcart.ai/products/aixfintech",
                             "description": "AiXFinTech delivers AI-native financial automation, including credit scoring, risk analytics, regulatory compliance automation, intelligent operations, and predictive financial decisioning for BFSI organizations.",
 
                             "applicationSuite": [
@@ -1589,13 +1589,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXFinTech",
-                                    "item": "https://itcart.ai/our-verticals/aixfintech"
+                                    "item": "https://itcart.ai/products/aixfintech"
                                 }
                             ]
                         }
@@ -1658,13 +1658,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: "AiXFinTech platform runs on AiXHub, the core of the AiX Framework—delivering AI-powered financial automation, predictive analytics, and regulatory compliance automation tailored for intelligent banking and digital finance. ",
+            apropriectContentOne: "AiXFinTech platform runs on AiXHub, the core of the AiX Framework—delivering AI-native financial automation, predictive analytics, and regulatory compliance automation tailored for intelligent banking and digital finance. ",
             apropriectContenTwo: 'Whether you are automating risk management, optimizing credit scoring, or ensuring compliance, AiXHub empowers financial institutions with intelligent, scalable solutions that transform operations and accelerate digital transformation. ',
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -1678,7 +1678,7 @@ export const verticalData = [
         compenyLogo: '/images/verticalLogos/AiXHealthcare.png',
         detailPage: {
             metaTitle: 'AI Healthcare Platform | Predictive & Automated Patient Care – AiXHealthcare',
-            metaDescription: 'Explore AI in healthcare with AiXHealthcare; smart care solutions, digital health platforms, and AI-powered patient engagement tools. ',
+            metaDescription: 'Explore AI in healthcare with AiXHealthcare; smart care solutions, digital health platforms, and AI-native patient engagement tools. ',
             bannerTitle: "Advanced Artificial Intelligence in Healthcare and Patient Management ",
             bannerDescription: "Intelligent healthcare automation for better outcomes ",
             bannerImage: "/images/vertical/AiXHealthcare-banner.jpg",
@@ -1722,7 +1722,7 @@ export const verticalData = [
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
-                    title: "AI-Powered Triage ",
+                    title: "AI-native Triage ",
                     description: "Smart care solutions with SLA-bound emergency response reducing wait times by 69% through intelligent patient prioritization.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
@@ -1793,7 +1793,7 @@ export const verticalData = [
                 },
                 {
                     id: '5',
-                    title: 'How does the AI-Powered clinical decision support work? ',
+                    title: 'How does the AI-native clinical decision support work? ',
                     content: 'Our healthcare AI solutions analyze patient data, lab results, and medical history to provide evidence-based diagnostic suggestions and treatment pathways, improving first-pass diagnostic accuracy by 25% through advanced AI in telemedicine and clinical workflows. '
                 },
             ],
@@ -1803,14 +1803,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXHealthcare – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixhealthcare",
+                        "url": "https://itcart.ai/products/aixhealthcare",
                         "description": "AiXHealthcare is an AI-powered healthcare platform offering predictive analytics, digital health automation, and intelligent patient care workflows for hospitals, clinics, and enterprises.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXHealthcare",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "HealthApplication",
-                            "url": "https://itcart.ai/our-verticals/aixhealthcare",
+                            "url": "https://itcart.ai/products/aixhealthcare",
                             "description": "AiXHealthcare provides AI-native healthcare automation, predictive patient care, EMR/EHR integration, digital triage, and clinical decision support for modern healthcare ecosystems.",
 
                             "applicationSuite": [
@@ -1877,13 +1877,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXHealthcare",
-                                    "item": "https://itcart.ai/our-verticals/aixhealthcare"
+                                    "item": "https://itcart.ai/products/aixhealthcare"
                                 }
                             ]
                         }
@@ -1938,13 +1938,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: 'AiXHealthcare platform runs on AiXHub, the core of the AiX Framework—delivering AI-powered intelligent automation, predictive analytics, and compliance governance tailored for healthcare. ',
-            apropriectContenTwo: 'This platform transforms healthcare operations by integrating smart care solutions, digital health platforms, and AI-powered patient engagement tools to optimize patient outcomes, streamline workflows, and ensure regulatory compliance. ',
+            apropriectContentOne: 'AiXHealthcare platform runs on AiXHub, the core of the AiX Framework—delivering AI-native intelligent automation, predictive analytics, and compliance governance tailored for healthcare. ',
+            apropriectContenTwo: 'This platform transforms healthcare operations by integrating smart care solutions, digital health platforms, and AI-native patient engagement tools to optimize patient outcomes, streamline workflows, and ensure regulatory compliance. ',
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -1979,7 +1979,7 @@ export const verticalData = [
             impactImgAlt: "medical automation system ",
             impactsAboutAlt: "patient engagement platform ",
             impacts: [
-                "Reduce diagnostic delays by 40% through AI-powered pattern recognition and predictive analytics.",
+                "Reduce diagnostic delays by 40% through AI-native pattern recognition and predictive analytics.",
                 "Improve patient safety scores by 35% using real-time monitoring and early warning systems.",
                 "Decrease operational costs by 30% through intelligent automation and workflow optimization.",
                 "Enhance clinical decision accuracy by 50% with evidence-based AI recommendations and protocols.",
@@ -2001,7 +2001,7 @@ export const verticalData = [
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
-                    title: "AI-Powered Diagnostic Excellence",
+                    title: "AI-native Diagnostic Excellence",
                     description: "Early disease detection capabilities with advanced pattern recognition and automated diagnostic reporting through medical automation.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
@@ -2074,14 +2074,14 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXLifeCare – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixlifecare",
+                        "url": "https://itcart.ai/products/aixlifecare",
                         "description": "AiXLifeCare is an AI-native lifecare platform delivering predictive healthcare, real-time patient monitoring, and intelligent clinical decision support for hospitals and healthcare institutions.",
                         "mainEntity": {
                             "@type": "SoftwareApplication",
                             "name": "AiXLifeCare",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "HealthApplication",
-                            "url": "https://itcart.ai/our-verticals/aixlifecare",
+                            "url": "https://itcart.ai/products/aixlifecare",
                             "description": "AiXLifeCare provides AI-driven healthcare automation, predictive care intelligence, specialty-specific clinical workflows, and seamless integration with HIS, LIS, EHR, PACS, and telemedicine systems.",
 
                             "applicationSuite": [
@@ -2149,13 +2149,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXLifeCare",
-                                    "item": "https://itcart.ai/our-verticals/aixlifecare"
+                                    "item": "https://itcart.ai/products/aixlifecare"
                                 }
                             ]
                         }
@@ -2218,13 +2218,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: "AiXLifeCare platform runs on AiXHub, the core of the AiX Framework—delivering AI-powered clinical decision support, workflow automation, and patient engagement tailored for healthcare transformation. ",
+            apropriectContentOne: "AiXLifeCare platform runs on AiXHub, the core of the AiX Framework—delivering AI-native clinical decision support, workflow automation, and patient engagement tailored for healthcare transformation. ",
             apropriectContenTwo: 'Whether you are improving diagnostic accuracy, streamlining clinical workflows, or enhancing patient communication, AiXHub empowers healthcare providers with intelligent automation and real-time predictive analytics to drive better patient outcomes and operational efficiency. ',
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -2238,15 +2238,15 @@ export const verticalData = [
         compenyLogo: '/images/verticalLogos/RCMAiX.png',
         detailPage: {
             metaTitle: 'AI Revenue Cycle Management Software for Healthcare | RCMAiX ',
-            metaDescription: 'Transform healthcare billing with RCM AiX—AI-powered revenue cycle management software that automates claims, reduces denials, and improves cash flow accuracy.',
-            bannerTitle: "Transform Healthcare Revenue with AI-Powered RCM",
+            metaDescription: 'Transform healthcare billing with RCM AiX—AI-native revenue cycle management software that automates claims, reduces denials, and improves cash flow accuracy.',
+            bannerTitle: "Transform Healthcare Revenue with AI-native RCM",
             bannerDescription: "Streamline billing processes with intelligent automation",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
             bannerAltImg: "healthcare revenue cycle management softwar",
             mobileBannerImage: "/images/vertical/AiXRCM-MobileBanner.jpg",
             VerticalContentSection2Heading: 'Healthcare Revenue Challenges & AI Solutions',
             aboutSectionHeading: 'Next-Generation Revenue Cycle Management Excellence',
-            capabilitiSectionHeading: 'AI-Powered Revenue Cycle Capabilities ',
+            capabilitiSectionHeading: 'AI-native Revenue Cycle Capabilities ',
             skillGapSectionHeading: 'Built For Healthcare Excellence',
             FAQsHeading: 'Everything You Need to Know About RCMAiX',
             VerticalContentSection2: {
@@ -2362,7 +2362,7 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "RCMAiX – iTCart",
-                        "url": "https://itcart.ai/our-verticals/rcmaix",
+                        "url": "https://itcart.ai/products/rcmaix",
                         "description": "RCMAiX is an AI-powered healthcare revenue cycle management platform that automates claims, reduces denials, and improves cash flow accuracy for hospitals and medical practices.",
 
                         "mainEntity": {
@@ -2370,7 +2370,7 @@ export const verticalData = [
                             "name": "RCMAiX",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "HealthApplication",
-                            "url": "https://itcart.ai/our-verticals/rcmaix",
+                            "url": "https://itcart.ai/products/rcmaix",
                             "description": "RCMAiX delivers end-to-end automation across patient registration, coding, claims submission, denial prevention, collections, A/R management, and revenue integrity processes.",
 
                             "applicationSuite": [
@@ -2437,13 +2437,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "RCMAiX",
-                                    "item": "https://itcart.ai/our-verticals/rcmaix"
+                                    "item": "https://itcart.ai/products/rcmaix"
                                 }
                             ]
                         }
@@ -2513,7 +2513,7 @@ export const verticalData = [
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -2526,12 +2526,12 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXERP.png',
         compenyLogo: '/images/verticalLogos/AiXERP.png',
         detailPage: {
-            metaTitle: 'Automate Operations with AI-Powered ERP Platform - AiXERP',
-            metaDescription: 'AiXERP by iTCart unifies finance, HR, and operations through an AI-powered ERP platform built for automation, analytics, and agile enterprise growth.',
+            metaTitle: 'Automate Operations with AI-native ERP Platform - AiXERP',
+            metaDescription: 'AiXERP by iTCart unifies finance, HR, and operations through an AI-native ERP platform built for automation, analytics, and agile enterprise growth.',
             bannerTitle: "The Smart ERP Platform for Intelligent Agile Enterprises ",
-            bannerDescription: "Transform operations with an AI-powered ERP platform featuring cloud-based architecture and intelligent ERP automation.",
+            bannerDescription: "Transform operations with an AI-native ERP platform featuring cloud-based architecture and intelligent ERP automation.",
             bannerImage: "/images/vertical/AiXERP-banner.jpg",
-            banerAltImg: "AI-powered ERP platform ",
+            banerAltImg: "AI-native ERP platform ",
             mobileBannerImage: "/images/vertical/AiXERP-MobileBanner.jpg",
             VerticalContentSection2Heading: 'ERP Market Demands AI-Native Solutions',
             aboutSectionHeading: 'Next-Generation AI-Native ERP Excellence',
@@ -2548,7 +2548,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXERP-aboutimage.png',
                 logo: '/images/vertical/AiXERP-darklogo.png',
-                contentOne: "AiXERP reimagines enterprise resource planning on iTCart’s AiXHub EOS, delivering the world’s first AI-powered ERP platform. Built with AI in ERP systems at its core, AiXERP provides end-to-end ERP automation across cloud-based architecture that transforms enterprise operations with intelligent ERP technology.",
+                contentOne: "AiXERP reimagines enterprise resource planning on iTCart’s AiXHub EOS, delivering the world’s first AI-native ERP platform. Built with AI in ERP systems at its core, AiXERP provides end-to-end ERP automation across cloud-based architecture that transforms enterprise operations with intelligent ERP technology.",
                 contenttwo: "",
                 contentthree: "",
                 imgAlt: "erp software"
@@ -2556,7 +2556,7 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "Finance & Accounting",
-                    description: "Automate invoicing, payments, and compliance with AI-powered ERP platform capabilities delivering real-time cash flow visibility",
+                    description: "Automate invoicing, payments, and compliance with AI-native ERP platform capabilities delivering real-time cash flow visibility",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
@@ -2579,7 +2579,7 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixerp-icon1.svg',
                     title: "Growing Enterprises",
-                    highlight: "Startups to global organizations seeking scalable AI-powered ERP platform solutions.",
+                    highlight: "Startups to global organizations seeking scalable AI-native ERP platform solutions.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",
                 },
@@ -2782,13 +2782,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: 'AiXERP platform runs on AiXHub, the core of the AiX Framework offering AI-powered automation, predictive analytics, and intelligent workflow across finance, HR, and operations. ',
+            apropriectContentOne: 'AiXERP platform runs on AiXHub, the core of the AiX Framework offering AI-native automation, predictive analytics, and intelligent workflow across finance, HR, and operations. ',
             apropriectContenTwo: "Whether you are streamlining invoicing, optimizing inventory forecasts, or automating compliance, AiXHub empowers enterprises with a unified cloud native ERP platform designed for scalable, agile growth and seamless integration across complex business environments. ",
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -2802,9 +2802,9 @@ export const verticalData = [
         compenyLogo: '/images/verticalLogos/AiXGRC.png',
         detailPage: {
             metaTitle: 'AI GRC Platform | Governance, Risk & Compliance Automation',
-            metaDescription: ' AiXGRC is an AI-powered compliance management platform automating risk, audit, and policy workflows, ensuring continuous governance and regulatory compliance',
-            bannerTitle: "AiXGRC: AI-Powered Compliance Management Platform",
-            bannerDescription: "AI-powered compliance management ensuring regulatory adherence for enterprises ",
+            metaDescription: ' AiXGRC is an AI-native compliance management platform automating risk, audit, and policy workflows, ensuring continuous governance and regulatory compliance',
+            bannerTitle: "AiXGRC: AI-native Compliance Management Platform",
+            bannerDescription: "AI-native compliance management ensuring regulatory adherence for enterprises ",
             bannerImage: "/images/vertical/AiXGRC-banner.jpg",
             banerAltImg: "compliance management software",
             mobileBannerImage: "/images/vertical/AiXGRC-MobileBanner.jpg",
@@ -2823,7 +2823,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXGRC-about.png',
                 logo: '/images/vertical/AiXGRC-darklogo.png',
-                contentOne: "AiXGRC is an AI-powered GRC automation platform built on iTCart’s AiXHub EOS that streamlines governance, simplifies risk management, and automates compliance workflows. The platform empowers organizations to navigate regulatory shifts with intelligent risk and compliance tools, automated workflows, and continuous compliance monitoring that shift governance from reactive to predictive.",
+                contentOne: "AiXGRC is an AI-native GRC automation platform built on iTCart’s AiXHub EOS that streamlines governance, simplifies risk management, and automates compliance workflows. The platform empowers organizations to navigate regulatory shifts with intelligent risk and compliance tools, automated workflows, and continuous compliance monitoring that shift governance from reactive to predictive.",
                 contenttwo: "",
                 imgAlt: "risk and compliance software "
             },
@@ -2886,7 +2886,7 @@ export const verticalData = [
             impactImgAlt: "compliance management solutions ",
             impactsAboutAlt: "grc system ",
             impacts: [
-                "90% regulatory change identification accuracy using AI-powered analysis and compliance monitoring.",
+                "90% regulatory change identification accuracy using AI-native analysis and compliance monitoring.",
                 "75% reduction in compliance-related mistakes through intelligent automation and optimized risk controls.",
                 "Real-time risk monitoring enabling proactive threat mitigation across departments.",
                 "375+ business applications integrated via GRC connectivity and automated workflows.",
@@ -3079,13 +3079,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: "AiXGRC platform is powered by AiXHub, the core of the AiX Framework—offering AI-powered governance, risk, and compliance automation with predictive analytics and real-time monitoring. ",
+            apropriectContentOne: "AiXGRC platform is powered by AiXHub, the core of the AiX Framework—offering AI-native governance, risk, and compliance automation with predictive analytics and real-time monitoring. ",
             apropriectContenTwo: 'The platform simplifies risk intelligence, automates compliance workflows, and provides centralized dashboards for proactive governance, regulatory adherence, and audit readiness across enterprise systems. ',
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -3098,10 +3098,10 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/CyberAiX.png',
         compenyLogo: '/images/verticalLogos/CyberAiX.png',
         detailPage: {
-            metaTitle: 'AI-Powered Cybersecurity Platform | Zero Trust Defense',
-            metaDescription: 'Safeguard your enterprise with CyberAiX — an AI-powered cybersecurity platform delivering real-time threat detection, automated response, and zero-trust protection.',
+            metaTitle: 'AI-native Cybersecurity Platform | Zero Trust Defense',
+            metaDescription: 'Safeguard your enterprise with CyberAiX — an AI-native cybersecurity platform delivering real-time threat detection, automated response, and zero-trust protection.',
             bannerTitle: "Safeguard your enterprise with AI-driven cybersecurity solutions",
-            bannerDescription: "Transform security operations with an AI-powered platform featuring zero-trust architecture, automated threat intelligence, and enterprise-grade protection.",
+            bannerDescription: "Transform security operations with an AI-native platform featuring zero-trust architecture, automated threat intelligence, and enterprise-grade protection.",
             bannerImage: "/images/vertical/CyberAiX-banner.jpg",
             banerAltImg: "AI powered cybersecurity platform",
             mobileBannerImage: "/images/vertical/cyberAIX-MobileBanner.jpg",
@@ -3122,7 +3122,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/aboutimage-CyberAiX.png',
                 logo: '/images/vertical/dark-logo.png',
-                contentOne: "CyberAiX transforms enterprise security with an AI-powered platform that delivers real-time protection, zero-trust resilience, and integrated AI cybersecurity capabilities. Built on iTCart’s AiXHub EOS, the platform combines automated threat intelligence with expert cybersecurity consulting.",
+                contentOne: "CyberAiX transforms enterprise security with an AI-native platform that delivers real-time protection, zero-trust resilience, and integrated AI cybersecurity capabilities. Built on iTCart’s AiXHub EOS, the platform combines automated threat intelligence with expert cybersecurity consulting.",
                 contenttwo: "",
                 imgAlt: "AI security platform s"
             },
@@ -3221,10 +3221,10 @@ export const verticalData = [
             impactsAboutAlt: "AI cybersecurity solutions  ",
             impacts: [
                 "$2.8M average annual savings through intelligent threat detection and automated incident response that reduce security operational costs.",
-                "10× faster threat detection with AI-powered correlation engines and automated threat intelligence, enabling rapid response.",
+                "10× faster threat detection with AI-native correlation engines and automated threat intelligence, enabling rapid response.",
                 "95% reduction in false positives using AI platform algorithms and behavioral analytics to minimize alert fatigue.",
                 "25× improvement in incident response time, enabling rapid threat containment through zero-trust architecture and automated orchestration.",
-                "Zero security breaches across enterprise deployments with AI-powered protection and proactive threat prevention.",
+                "Zero security breaches across enterprise deployments with AI-native protection and proactive threat prevention.",
             ],
 
             schema: {
@@ -3378,13 +3378,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: 'CyberAiX platform runs on AiXHub, the core of the AiX Framework, and delivers AI-powered cybersecurity with real-time threat detection, zero-trust architecture, and intelligent automated response.',
+            apropriectContentOne: 'CyberAiX platform runs on AiXHub, the core of the AiX Framework, and delivers AI-native cybersecurity with real-time threat detection, zero-trust architecture, and intelligent automated response.',
             apropriectContenTwo: 'Whether you are defending against advanced persistent threats, managing compliance, or automating incident response, AiXHub empowers security teams with behavioral analytics, predictive threat intelligence, and comprehensive integration across enterprise security systems to safeguard your digital assets effectively. ',
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -3397,10 +3397,10 @@ export const verticalData = [
         verticalCompenyLogo: '/images/verticalLogos/AiXHEAT.png',
         compenyLogo: '/images/verticalLogos/AiXHEAT.png',
         detailPage: {
-            metaTitle: 'AI-Powered HVAC Operations Platform | Smart Energy Automation',
-            metaDescription: 'Automate energy optimization and maintenance with our AI-powered HVAC platform. Reduce costs, improve efficiency, and achieve smart building performance.',
+            metaTitle: 'AI-native HVAC Operations Platform | Smart Energy Automation',
+            metaDescription: 'Automate energy optimization and maintenance with our AI-native HVAC platform. Reduce costs, improve efficiency, and achieve smart building performance.',
             bannerTitle: "AI-Native HVAC Operations",
-            bannerDescription: "Cut energy costs by up to 40% and prevent up to 95% of equipment failures with AI-powered predictive maintenance and intelligent maintenance scheduling software.",
+            bannerDescription: "Cut energy costs by up to 40% and prevent up to 95% of equipment failures with AI-native predictive maintenance and intelligent maintenance scheduling software.",
             bannerImage: "/images/vertical/AiXHEAT-banner.jpg",
             banerAltImg: "AI predictive maintenance software ",
             mobileBannerImage: "/images/vertical/AiXHeat-MobileBanner.jpg",
@@ -3428,7 +3428,7 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "Predictive Climate Optimization",
-                    description: "AI-powered thermal modeling prevents up to 95% of HVAC equipment failures using predictive maintenance analytics and intelligent diagnostics. ",
+                    description: "AI-native thermal modeling prevents up to 95% of HVAC equipment failures using predictive maintenance analytics and intelligent diagnostics. ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
@@ -3448,7 +3448,7 @@ export const verticalData = [
                 },
                 {
                     title: "Multi-Zone Coordination Engine",
-                    description: " Synchronizes HVAC operations across building zones to maximize efficiency via AI-powered asset-performance management.",
+                    description: " Synchronizes HVAC operations across building zones to maximize efficiency via AI-native asset-performance management.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -3466,7 +3466,7 @@ export const verticalData = [
                 "50% improvement in occupant comfort and climate satisfaction scores. ",
                 "70–85% reduction in manual monitoring through lifecycle automation. ",
                 "380–487% ROI achieved within 12–24 months via intelligent operational optimization. ",
-                "Unified AI-powered asset management that replaces fragmented HVAC tools. "
+                "Unified AI-native asset management that replaces fragmented HVAC tools. "
             ],
             skillGapSection: [
                 {
@@ -3510,7 +3510,7 @@ export const verticalData = [
                 {
                     id: '4',
                     title: 'How does the predictive maintenance work?',
-                    content: 'The platform uses AI-powered thermal modeling and autonomous AI Personas with maintenance-scheduling software to learn from environmental patterns, enabling predictive maintenance for heavy machinery with up to 95% accuracy. '
+                    content: 'The platform uses AI-native thermal modeling and autonomous AI Personas with maintenance-scheduling software to learn from environmental patterns, enabling predictive maintenance for heavy machinery with up to 95% accuracy. '
                 },
                 {
                     id: '5',
@@ -3691,7 +3691,7 @@ export const verticalData = [
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -3766,7 +3766,7 @@ export const verticalData = [
                 },
                 {
                     title: "Real-time Market Analytics",
-                    description: "AI-powered investment insights enable 40% faster decision-making with predictive analytics for real estate. ",
+                    description: "AI-native investment insights enable 40% faster decision-making with predictive analytics for real estate. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
@@ -3801,8 +3801,8 @@ export const verticalData = [
             FAQs: [
                 {
                     id: '1',
-                    title: 'What is an AI-powered real estate management platform, and how does it work?',
-                    content: "An AI-powered real estate management platform like AiXRealty uses artificial intelligence to automate property operations, analyze market data, and optimize workflows with integrated smart property management and predictive analytics."
+                    title: 'What is an AI-native real estate management platform, and how does it work?',
+                    content: "An AI-native real estate management platform like AiXRealty uses artificial intelligence to automate property operations, analyze market data, and optimize workflows with integrated smart property management and predictive analytics."
                 },
                 {
                     id: '2',
@@ -3974,7 +3974,7 @@ export const verticalData = [
             aboutImage: '',
             apropriectContentOne: 'AiXRealty platform runs on AiXHub, the core of the AiX Framework—offering AI-native automation, predictive analytics, and smart property management capabilities tailored for real estate operations. ',
             apropriectContenTwo: 'Whether you are managing portfolios, optimizing tenant matching, or automating workflows, AiXHub empowers real estate professionals with intelligent, scalable solutions that transform operations and improve decision-making through smart property management and predictive analytics for real estate. ',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -3990,7 +3990,7 @@ export const verticalData = [
             metaTitle: 'Motorsport Data Analytics Platform | AI Race Optimization',
             metaDescription: ' Optimize racing performance with AI motorsport analytics. Real-time telemetry, predictive race strategy, and intelligent data insights — all in one platform.',
             bannerTitle: "AI-Based Racing Performance Platform ",
-            bannerDescription: "Transforming racing performance through AI-powered intelligence and real-time telemetry analysis for motorsports.",
+            bannerDescription: "Transforming racing performance through AI-native intelligence and real-time telemetry analysis for motorsports.",
             bannerImage: "/images/vertical/AiXMotersports-banner.jpg",
             banerAltImg: "AI racing performance software ",
             mobileBannerImage: "/images/vertical/AiXMotorsports-MobileBanner.jpg",
@@ -4018,7 +4018,7 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "Predictive Race Strategy Intelligence",
-                    description: "Real-time AI-powered analysis processing tire degradation, fuel consumption, and track conditions through advanced AI racing performance software optimization.",
+                    description: "Real-time AI-native analysis processing tire degradation, fuel consumption, and track conditions through advanced AI racing performance software optimization.",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
@@ -4258,13 +4258,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: 'AiXMotorsports platform runs on AiXHub, the core of the AiX Framework—delivering AI-powered real-time telemetry analysis, predictive race strategy, and intelligent pit stop management tailored for motorsports performance optimization. ',
+            apropriectContentOne: 'AiXMotorsports platform runs on AiXHub, the core of the AiX Framework—delivering AI-native real-time telemetry analysis, predictive race strategy, and intelligent pit stop management tailored for motorsports performance optimization. ',
             apropriectContenTwo: "Whether you are managing racing teams, optimizing race strategies, or ensuring technical compliance, AiXHub empowers motorsports professionals with advanced analytics, automated decision-making, and unified platform execution to drive championship-winning results. ",
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
@@ -4278,7 +4278,7 @@ export const verticalData = [
         compenyLogo: '/images/verticalLogos/AiXEnergy.png',
         detailPage: {
             metaTitle: 'AI Energy Management Platform | Smart Grid & Renewable Analytics ',
-            metaDescription: 'Transform energy operations with AiXEnergy—AI-powered management software optimizing grids, renewables, and predictive maintenance for sustainable performance.',
+            metaDescription: 'Transform energy operations with AiXEnergy—AI-native management software optimizing grids, renewables, and predictive maintenance for sustainable performance.',
             bannerTitle: "Powering Energy Intelligence with AI Innovation ",
             bannerDescription: "Next-generation AI-based energy management platform that transforms operations with energy management software and renewable energy solutions.",
             bannerImage: "/images/vertical/AiXEnergy.jpg",
@@ -4299,7 +4299,7 @@ export const verticalData = [
             aboutSection: {
                 aboutImage: '/images/vertical/AiXEnergy-section2.png',
                 logo: '/images/verticalLogos/aixenergy.png',
-                contentOne: "AiXEnergy transforms energy operations with AiXHub EOS, delivering intelligent grid management, predictive asset optimization, and autonomous energy decision-making. Designed for utilities, renewable providers, and energy enterprises operating in the $110.98 billion digital power transformation market, AiXEnergy consolidates fragmented operations into a single energy-management platform with AI-powered energy management, solar CRM integration, and renewable-energy solutions that lower operating costs by 30–50%.",
+                contentOne: "AiXEnergy transforms energy operations with AiXHub EOS, delivering intelligent grid management, predictive asset optimization, and autonomous energy decision-making. Designed for utilities, renewable providers, and energy enterprises operating in the $110.98 billion digital power transformation market, AiXEnergy consolidates fragmented operations into a single energy-management platform with AI-native energy management, solar CRM integration, and renewable-energy solutions that lower operating costs by 30–50%.",
                 contentthree: ' ',
                 imgAlt: "Renewable energy solutions "
             },
@@ -4378,7 +4378,7 @@ export const verticalData = [
                 {
                     id: '2',
                     title: 'What energy data can the platform analyze?',
-                    content: "Our energy data management software processes equipment telemetry, weather information, load patterns, fuel usage, and grid performance metrics through real-time AI-powered energy management systems. "
+                    content: "Our energy data management software processes equipment telemetry, weather information, load patterns, fuel usage, and grid performance metrics through real-time AI-native energy management systems. "
                 },
                 {
                     id: '3',
@@ -4539,13 +4539,13 @@ export const verticalData = [
             },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
-            apropriectContentOne: "AiXEnergy platform runs on AiXHub, the core of the AiX Framework—delivering AI-powered energy management, predictive analytics, and autonomous grid optimization tailored for next-generation energy operations. ",
+            apropriectContentOne: "AiXEnergy platform runs on AiXHub, the core of the AiX Framework—delivering AI-native energy management, predictive analytics, and autonomous grid optimization tailored for next-generation energy operations. ",
             apropriectContenTwo: 'Whether you are managing smart grids, integrating renewables, or optimizing asset performance, AiXHub empowers energy enterprises with real-time intelligence, sustainable analytics, and scalable automation to enhance operational efficiency and environmental impact. ',
             section2Image: '/images/vertical/section2Image.png',
             section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
             section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
             aboutImage: '',
-            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-powered study tools and real-time tutoring AI capabilities.',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },

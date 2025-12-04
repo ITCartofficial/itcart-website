@@ -55,6 +55,7 @@ import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Image from "next/image";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -77,7 +78,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-       
+
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
@@ -90,11 +91,36 @@ export default function RootLayout({
       <body
         className={`w-full overflow-x-hidden ${montserrat.variable} font-sans antialiased relative`}
       >
+        <a
+          href="https://wa.me/918088849174"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="bg-white w-fit fixed top-150 right-0 cursor-pointer p-2 rounded-full z-50 shadow-lg">
+            <Image
+              width={35}
+              height={35}
+              src="/icons/whatsapp.png"
+              alt="whatsapp"
+            />
+          </div>
+        </a>
+        {/* <div className="bg-white w-fit absolute top-150 right-0 fixed cursor-pointer p-2 rounded-full z-50 shadow-lg">
+          <Image
+            width={35}
+            height={35}
+            src="/icons/whatsapp.png"
+            alt=""
+          />
+        </div> */}
+
         {/* Header */}
         <Header />
 
         {/* Main Content */}
         <main>{children}</main>
+
+
 
         {/* Footer */}
         <Footer />
@@ -108,7 +134,7 @@ export default function RootLayout({
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-WGD87T7WM1"
         />
-        
+
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];

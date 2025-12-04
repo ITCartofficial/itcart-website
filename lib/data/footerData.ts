@@ -47,10 +47,10 @@ export const footerMenus = [
   {
     title: "Our Verticals",
     navigations: [
-      { label: "AiXHub", href: "/our-verticals/AiXHub" },
-      { label: "AiXBFS", href: "/our-verticals/AiXBFS" },
-      { label: "AiXQP", href: "/our-verticals/AiXQP" },
-      { label: "InsureAiX", href: "/our-verticals/InsureAiX" },
+      { label: "AiXHub", href: "/products/AiXHub" },
+      { label: "AiXBFS", href: "/products/AiXBFS" },
+      { label: "AiXQP", href: "/products/AiXQP" },
+      { label: "InsureAiX", href: "/products/InsureAiX" },
     ],
   }
 ];

@@ -18,7 +18,7 @@ export default function Home() {
           <div className="max-w-[1150px] h-full mx-auto flex flex-col justify-end">
             <div className="flex flex-col gap-4 items-start text-left w-[60%]">
               <h1 className="font-bold text-[64px] leading-[1.2em]">The world&apos;s first native operating system</h1>
-              <p className="text-2xl">Experience unmatched efficiency, innovation, and business agility with a multi-functional AI-powered platform.</p>
+              <p className="text-2xl">Experience unmatched efficiency, innovation, and business agility with a multi-functional AI-native platform.</p>
               <button className="text-white py-3 px-6 border border-amber-50 rounded flex items-center gap-2 cursor-pointer">
                 <span>Get Started</span>
                 <FaArrowRight />
