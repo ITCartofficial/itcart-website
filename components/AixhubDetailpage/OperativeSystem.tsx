@@ -10,7 +10,7 @@ interface CoreValues {
 
 const OperativeSystem = ({ coreValues }: { coreValues: CoreValues[] }) => {
     return (
-        <div className='container mx-auto flex flex-col gap-3 '>
+        <div className='w-full mx-auto flex flex-col gap-3 '>
             <GradientTitle
                 text='The AI-Native Enterprise Operating System'
                 theme='dark'
@@ -20,10 +20,21 @@ const OperativeSystem = ({ coreValues }: { coreValues: CoreValues[] }) => {
             <BodyText
                 text={"AiXHub EOS is a unified intelligence layer that sits above your existing systems— ERP, CRM, HR, operations, finance, engineering—and turns them into an AI-native enterprise without ripping and replacing what already works. "}
                 color="#ffffff"
-                className="text-sm sm:text-base md:text-lg text-center  w-[100%] mx-auto"
+                className="text-sm sm:text-base md:text-lg text-center  md:w-[80%] mx-auto"
             />
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 md:mx-15 mt-4">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mt-4 ">
+                {coreValues?.map((card, i) => (
+                    <IconCard
+                        key={i}
+                        title={card.title}
+                        icon={card.icon}
+                        description={card.description}
+                        theme="dark"
+                    />
+                ))}
+            </div>
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 md:mx-15 mt-4 bg-green-400">
                 {
                     coreValues && coreValues.map((card, i) => (
                         <IconCard
@@ -35,7 +46,7 @@ const OperativeSystem = ({ coreValues }: { coreValues: CoreValues[] }) => {
                         />
                     ))
                 }
-            </div>
+            </div> */}
         </div>
     )
 }
