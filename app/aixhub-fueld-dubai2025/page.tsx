@@ -4,6 +4,7 @@ import OutlineBtn from "@/components/buttons/OutlineBtn";
 import SolutionGrid from "@/components/DetailPageComponents/SolutionGrid";
 import BodyText from "@/components/typography/BodyText";
 import GradientTitle from "@/components/typography/GradientTitle";
+import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa6";
 ;
 
@@ -78,9 +79,15 @@ const AixhubDetailpage = () => {
                 {/* HERO */}
                 <section className="mb-20 grid gap-10 lg:grid-cols-2 lg:items-center">
                     <div className="">
-                        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#2AADB7]">
-                            AiXHub EOS
-                        </p>
+                        <div className="bg-white w-fit p-2 rounded-md mb-2 inline-block">
+                            <Image
+                                width={100}
+                                height={24}
+                                src={"/images/verticalLogos/aixhublogo.png"}
+                                alt="AiXHub Logo"
+                            />
+                        </div>
+
                         <GradientTitle
                             text={"The AI-Native Enterprise Operating System"}
                             theme="dark"
