@@ -2504,6 +2504,7 @@ export const verticalData = [
                     }
                 ]
             },
+
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: 'RCMAiX platform is powered by AiXHub, the core of the AiX Framework—delivering AI-driven automation, predictive analytics, and intelligent workflow orchestration tailored for healthcare revenue cycle management. ',
@@ -2629,6 +2630,156 @@ export const verticalData = [
                     content: 'Yes. workflows, approval hierarchies, and reports can be fully customized based on organizational needs.'
                 },
             ],
+
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXERP – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixerp",
+                        "description": "AiXERP is an AI-powered enterprise resource planning platform that unifies finance, HR, supply chain, and operations with intelligent automation, analytics, and cloud-native ERP capabilities.",
+
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXERP",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "BusinessApplication",
+                            "url": "https://itcart.ai/our-verticals/aixerp",
+                            "description": "AiXERP automates end-to-end business operations including finance, HR, procurement, inventory, manufacturing, CRM, and compliance with AI-driven workflows and predictive analytics.",
+
+                            "applicationSuite": [
+                                "Finance & Accounting Automation",
+                                "HR & Payroll Management",
+                                "Inventory & Warehouse Automation",
+                                "Procurement & Vendor Management",
+                                "Manufacturing & Production Planning",
+                                "Supply Chain & Logistics Automation",
+                                "Sales, CRM & Customer Engagement",
+                                "Project & Task Management",
+                                "Asset Tracking & Maintenance",
+                                "Compliance & Policy Automation",
+                                "Business Intelligence & Analytics"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore AiXERP’s AI-powered enterprise resource planning and automation capabilities."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "1240",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss implementing AiXERP’s AI-powered ERP automation with iTCart specialists."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXERP",
+                                    "item": "https://itcart.ai/our-verticals/aixerp"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Can AiXERP integrate with our existing software?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXERP supports seamless integration with CRMs, legacy ERP systems, HRMS tools, e-commerce platforms, and third-party applications through API-first architecture."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is AiXERP suitable for SMEs and large enterprises?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Absolutely. AiXERP’s modular cloud-based architecture scales effortlessly from startups to enterprise-level deployments, supporting diverse operational needs."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How long does implementation take?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Implementation takes 4–12 weeks depending on selected modules, customization, integrations, and enterprise readiness."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer custom workflows and reports?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXERP offers customizable workflows, approval hierarchies, dashboards, and reports tailored to your organizational processes."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXERP different from traditional ERP solutions?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXERP is built with AI as the foundation, enabling predictive analytics, automated decision flows, intelligent workflows, and adaptive processes—not bolt-on features."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the solution scalable for growing businesses?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXERP’s cloud-native architecture allows unlimited scalability with flexible deployment models and modular expansion as your business grows."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: 'AiXERP platform runs on AiXHub, the core of the AiX Framework offering AI-powered automation, predictive analytics, and intelligent workflow across finance, HR, and operations. ',
@@ -2784,6 +2935,148 @@ export const verticalData = [
                     content: "AiXGRC is designed to scale—from mid-sized firms to global enterprises—ensuring flexibility, affordability, and power at every growth stage."
                 },
             ],
+
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXGRC – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixgrc",
+                        "description": "AiXGRC is an AI-powered governance, risk, and compliance (GRC) automation platform that centralizes risk assessments, audits, policy workflows, and compliance monitoring with intelligent analytics.",
+
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXGRC",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "BusinessApplication",
+                            "url": "https://itcart.ai/our-verticals/aixgrc",
+                            "description": "AiXGRC unifies governance, risk, audit, compliance, and policy automation using AI-driven workflows, predictive analytics, real-time monitoring, and enterprise-grade regulatory intelligence.",
+
+                            "applicationSuite": [
+                                "Governance Workflow Automation",
+                                "Enterprise Risk Management",
+                                "Real-Time Compliance Monitoring",
+                                "Audit Management & Evidence Collection",
+                                "Policy & Document Lifecycle Automation",
+                                "Vendor Risk & Third-Party Compliance",
+                                "Regulatory Reporting & Tracking",
+                                "Internal Controls Management",
+                                "Issue, Incident & CAPA Tracking",
+                                "Security Compliance & ISO Framework Automation",
+                                "AI-Based Predictive Risk Analytics"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore AiXGRC’s AI-powered governance, risk, and compliance automation capabilities."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "980",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss implementing AiXGRC with iTCart’s governance and compliance experts."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXGRC",
+                                    "item": "https://itcart.ai/our-verticals/aixgrc"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXGRC different from traditional GRC tools?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXGRC is AI-native and built for predictive analytics, intelligent automation, real-time risk scoring, and seamless enterprise integration—offering capabilities far beyond legacy and manual GRC tools."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can AiXGRC be customized for specific compliance frameworks?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXGRC can be configured for ISO standards, HIPAA, GDPR, SOC 2, PCI-DSS, and industry-specific regulatory requirements through modular compliance templates."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is AiXGRC suitable for mid-sized companies or only enterprises?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXGRC is designed for both mid-sized firms and global enterprises, offering scalable, cost-effective automation across governance, risk, and compliance operations."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Does AiXGRC support real-time risk monitoring?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXGRC offers real-time dashboards, live risk alerts, data feeds, and AI-based risk scoring to deliver continuous monitoring and predictive insights."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does AiXGRC ensure data security?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXGRC follows global security frameworks, including ISO/IEC 27001:2022, and uses encryption, role-based access control, secure audit trails, and regulatory-aligned data handling."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: "AiXGRC platform is powered by AiXHub, the core of the AiX Framework—offering AI-powered governance, risk, and compliance automation with predictive analytics and real-time monitoring. ",
@@ -2922,6 +3215,8 @@ export const verticalData = [
                 }
 
             ],
+
+
             impactImgAlt: "zero trust architecture  ",
             impactsAboutAlt: "AI cybersecurity solutions  ",
             impacts: [
@@ -2931,6 +3226,156 @@ export const verticalData = [
                 "25× improvement in incident response time, enabling rapid threat containment through zero-trust architecture and automated orchestration.",
                 "Zero security breaches across enterprise deployments with AI-powered protection and proactive threat prevention.",
             ],
+
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "CyberAiX – iTCart",
+                        "url": "https://itcart.ai/our-verticals/cyberaix",
+                        "description": "CyberAiX is an AI-powered cybersecurity platform offering real-time threat detection, automated incident response, SOC automation, and zero trust protection for modern enterprises.",
+
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "CyberAiX",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "SecurityApplication",
+                            "url": "https://itcart.ai/our-verticals/cyberaix",
+                            "description": "CyberAiX delivers AI-driven threat intelligence, SOC automation, incident response orchestration, and zero trust defense, integrating with cloud, SIEM, SOAR, EDR/XDR, IAM, and enterprise security ecosystems.",
+
+                            "applicationSuite": [
+                                "AI-Powered Threat Detection",
+                                "Zero Trust Identity & Access Control",
+                                "SOC Automation & SIEM Correlation",
+                                "Incident Response & Remediation Playbooks",
+                                "Cloud Security (AWS, Azure, GCP)",
+                                "EDR/XDR Integration & Monitoring",
+                                "Threat Intelligence Automation",
+                                "Security Compliance Monitoring",
+                                "Vulnerability Management",
+                                "Attack Surface Monitoring",
+                                "Risk Scoring & Predictive Analytics"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore CyberAiX’s AI-powered cybersecurity, SOC automation, and zero trust defense capabilities."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "1420",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss deploying CyberAiX cybersecurity automation and zero trust defense with iTCart specialists."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "CyberAiX",
+                                    "item": "https://itcart.ai/our-verticals/cyberaix"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What is CyberAiX and how does it differ from traditional cybersecurity solutions?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "CyberAiX is an AI-powered cybersecurity platform featuring automated threat detection, response playbooks, AI-driven SOC insights, and zero trust architecture — delivering capabilities beyond traditional manual security tools."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What technologies and platforms does CyberAiX support?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "CyberAiX integrates with AWS, Azure, GCP, Sentinel, SIEM/SOAR tools, EDR/XDR platforms, identity providers, and enterprise ecosystems through robust security APIs and threat intelligence automation."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is CyberAiX suitable for highly regulated industries?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. CyberAiX is built for regulated sectors with HIPAA, GDPR, CCPA, PCI-DSS, and ISO 27001-ready compliance aligned with robust audit trails and security governance."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Does CyberAiX support incident response automation?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. CyberAiX enables AI-powered incident workflows, auto-escalation, containment automation, and remediation playbooks mapped to MITRE ATT&CK."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can small or mid-sized companies adopt CyberAiX?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Absolutely. CyberAiX offers tiered pricing, MDR-as-a-service, and quick-start SOC kits tailored for SMEs and mid-market customers."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does CyberAiX integrate with existing security infrastructure?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "CyberAiX integrates seamlessly with SIEM/SOAR platforms, EDR/XDR tools, cloud providers, and IAM systems through enterprise-ready APIs and automated threat intelligence connectors."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: 'CyberAiX platform runs on AiXHub, the core of the AiX Framework, and delivers AI-powered cybersecurity with real-time threat detection, zero-trust architecture, and intelligent automated response.',
@@ -3088,6 +3533,155 @@ export const verticalData = [
                     content: "Unlike traditional building automation systems that require extensive integration, AiXHeat’s unified architecture simplifies deployment through AI predictive maintenance and maintenance-scheduling software, reducing implementation complexity significantly. "
                 },
             ],
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXHeat – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixheat",
+                        "description": "AiXHeat is an AI-powered HVAC operations platform that automates energy optimization, predictive maintenance, and multi-zone climate control for buildings and industrial facilities.",
+
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXHeat",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "BusinessApplication",
+                            "url": "https://itcart.ai/our-verticals/aixheat",
+                            "description": "AiXHeat transforms traditional HVAC systems into smart, AI-driven networks with predictive maintenance, autonomous thermal modeling, IoT-based monitoring, and energy optimization capabilities.",
+
+                            "applicationSuite": [
+                                "AI-Based Predictive Maintenance",
+                                "IoT-Driven Equipment Monitoring",
+                                "Smart Energy Optimization",
+                                "Multi-Zone Climate Coordination",
+                                "Thermal Modeling & Load Forecasting",
+                                "Occupancy-Based HVAC Automation",
+                                "Maintenance Scheduling Software",
+                                "HVAC Asset Lifecycle Management",
+                                "Building Performance Analytics",
+                                "Smart Control for Industrial Cooling & Heating",
+                                "Autonomous AI Personas for Operations"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore AiXHeat’s AI-powered HVAC automation, predictive maintenance, and smart building energy optimization capabilities."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "860",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss implementing AiXHeat’s AI-powered HVAC optimization and predictive maintenance with iTCart experts."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXHeat",
+                                    "item": "https://itcart.ai/our-verticals/aixheat"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What is AiXHeat and how does it differ from traditional HVAC systems?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXHeat is an AI-native HVAC operations platform that transforms reactive heating and cooling into intelligent, self-optimizing networks using predictive maintenance, IoT monitoring, and AI-driven automation."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How much can I expect to save with AiXHeat?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Organizations typically save 35–40% on HVAC energy consumption and operational costs, achieving ROI of 380–487% within 12–24 months through intelligent energy optimization and predictive maintenance."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What problems does AiXHeat solve?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXHeat eliminates reactive maintenance, reduces energy waste by up to 40%, prevents costly equipment failures, and simplifies complex multi-system HVAC operations through advanced asset lifecycle management."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does the predictive maintenance work?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXHeat uses AI-powered thermal modeling and autonomous AI Personas to analyze system behavior, detect anomalies, and schedule maintenance with up to 95% accuracy before failures occur."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Who is AiXHeat designed for?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXHeat is built for building operations teams, facility managers, HVAC service providers, and industrial or commercial property owners seeking predictive, AI-driven HVAC control and automation."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does AiXHeat handle multi-zone buildings?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXHeat’s Multi-Zone Coordination Engine synchronizes HVAC activity across zones using IoT monitoring, environmental modeling, and occupancy-based temperature control to maintain optimal comfort and efficiency."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
 
             logo: 'AiXQP-whitelogo',
             section2Data: '',
@@ -3231,6 +3825,147 @@ export const verticalData = [
                     content: 'AI evaluates market data, comparable sales, and trends to generate highly accurate property valuations and predictive forecasts using AI-enabled real estate software and machine learning.'
                 },
             ],
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXRealty – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixrealty",
+                        "description": "AiXRealty is an AI-powered real estate management platform that automates property operations, tenant lifecycle workflows, predictive analytics, valuation intelligence, and investment optimization.",
+
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXRealty",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "BusinessApplication",
+                            "url": "https://itcart.ai/our-verticals/aixrealty",
+                            "description": "AiXRealty transforms real estate and property management with AI-driven workflow automation, predictive analytics, tenant matching, valuation intelligence, and smart operations across commercial and residential portfolios.",
+
+                            "applicationSuite": [
+                                "AI Property Management Automation",
+                                "Tenant Screening & Smart Matching",
+                                "Predictive Maintenance for Real Estate",
+                                "Real Estate Workflow Automation",
+                                "AI-Based Property Valuation",
+                                "Investment Analysis & Market Forecasting",
+                                "Lease Lifecycle & Contract Automation",
+                                "Occupancy & Space Utilization Analytics",
+                                "Asset & Portfolio Performance Insights",
+                                "Smart Property Operations & Alerts",
+                                "CRM for Real Estate & Tenant Engagement"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore AiXRealty’s AI-powered real estate automation, tenant management, and predictive market intelligence capabilities."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "1185",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss implementing AiXRealty’s AI-driven property management and real estate automation with iTCart specialists."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXRealty",
+                                    "item": "https://itcart.ai/our-verticals/aixrealty"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What is an AI-powered real estate management platform, and how does it work?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "An AI-powered real estate management platform like AiXRealty automates property operations, analyzes market data, optimizes workflows, enhances tenant lifecycle management, and provides predictive insights for better decision-making."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How is AI transforming property management and real estate operations?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AI improves property operations through automated tenant screening, predictive maintenance, market intelligence, workflow automation, and end-to-end digital transactions, enhancing accuracy and efficiency."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How can predictive analytics improve real estate investment decisions?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Predictive analytics evaluates pricing patterns, trends, market movement, and investment risks to help investors make more informed and profitable decisions using AI-driven insights."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What are the benefits of automating real estate workflows with AI?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AI workflow automation reduces manual processing by up to 70–85%, speeds up transactions, improves operational accuracy, and enhances tenant management for both commercial and residential properties."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What role does AI play in property valuation and market forecasting?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AI analyzes comparable sales, market movement, historical data, and local patterns to generate accurate valuations and predictive forecasts using machine learning and real estate intelligence models."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             section2Image: '/images/vertical/section2Image.png',
@@ -3372,6 +4107,155 @@ export const verticalData = [
                     content: 'The telemetry engine processes 300+ sensor streams, including engine parameters, aerodynamics, tire metrics, and driver inputs, in real time. '
                 }
             ],
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXMotorSports – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixmotorsports",
+                        "description": "AiXMotorSports is an AI-powered motorsport performance analytics platform that optimizes race strategy, processes real-time telemetry, and delivers intelligent performance insights for racing teams.",
+
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXMotorSports",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "BusinessApplication",
+                            "url": "https://itcart.ai/our-verticals/aixmotorsports",
+                            "description": "AiXMotorSports optimizes racing performance with AI motorsport analytics, predictive race strategy, FIA-compliant execution control, and real-time telemetry insights across 300+ sensor streams.",
+
+                            "applicationSuite": [
+                                "Real-Time Telemetry Processing (300+ Sensors)",
+                                "AI Race Strategy & Predictive Modeling",
+                                "Driver Performance Insights",
+                                "Aerodynamics & Tire Behaviour Analysis",
+                                "Power Unit & Engine Data Intelligence",
+                                "FIA Technical Compliance Enforcement",
+                                "Race Weekend & Session Optimization",
+                                "Multi-Category Motorsport Support",
+                                "Race Simulation & Digital Twin Modeling",
+                                "Pitstop Optimization & Crew Analytics",
+                                "Endurance & Heat Cycle Performance Modeling"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore AiXMotorSports’ AI-powered race analytics, telemetry intelligence, and predictive performance optimisation."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "980",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss implementing AiXMotorSports for AI-powered race performance optimization and telemetry automation."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXMotorSports",
+                                    "item": "https://itcart.ai/our-verticals/aixmotorsports"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXMotorSports different from existing racing analytics platforms?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXMotorSports is built on an AI-native enterprise operating system that replaces fragmented racing stacks with unified execution and predictive intelligence—not just analytics overlays."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How quickly can racing teams see performance improvements?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Teams typically see 380–487% ROI within a racing season, with measurable performance improvements visible as early as the first race weekend."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Does AiXMotorSports integrate with existing racing systems and telemetry equipment?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The platform integrates seamlessly with existing racing infrastructure, telemetry sensors, ECU systems, and analytics tools through extensive motorsport data APIs."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does AiXMotorSports ensure FIA regulatory compliance?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXMotorSports includes embedded compliance controls that enforce technical regulations in real time, preventing violations by monitoring execution at the system level."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What kind of telemetry data can the platform analyze?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The platform processes over 300 telemetry streams including engine power metrics, aerodynamics behaviour, tire temperature & degradation, fuel system data, and driver input telemetry."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can the platform handle different racing categories?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXMotorSports supports Formula racing, endurance races, touring cars, rally events, karting, and other categories with configurable race optimization modules."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: 'AiXMotorsports platform runs on AiXHub, the core of the AiX Framework—delivering AI-powered real-time telemetry analysis, predictive race strategy, and intelligent pit stop management tailored for motorsports performance optimization. ',
@@ -3512,6 +4396,147 @@ export const verticalData = [
                     content: " AiXEnergy is AI-native, delivering predictive analytics and intelligent automation that outperform traditional energy monitoring tools, while supporting modern renewable energy operations."
                 },
             ],
+            schema: {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "name": "AiXEnergy – iTCart",
+                        "url": "https://itcart.ai/our-verticals/aixenergy",
+                        "description": "AiXEnergy is an AI-powered energy management platform that optimizes renewable systems, smart grids, energy forecasting, and predictive maintenance for sustainable, efficient operations.",
+
+                        "mainEntity": {
+                            "@type": "SoftwareApplication",
+                            "name": "AiXEnergy",
+                            "operatingSystem": "Web, Cloud",
+                            "applicationCategory": "BusinessApplication",
+                            "url": "https://itcart.ai/our-verticals/aixenergy",
+                            "description": "AiXEnergy enhances renewable energy operations, smart grids, and industrial energy usage through AI-powered forecasting, asset intelligence, Solar CRM integration, and predictive maintenance.",
+
+                            "applicationSuite": [
+                                "AI-Based Energy Forecasting",
+                                "Renewable Energy Optimization (Solar, Wind, Hydro)",
+                                "Hybrid Renewable System Coordination",
+                                "Smart Grid Automation & Load Balancing",
+                                "Energy Data Telemetry & Monitoring",
+                                "Predictive Maintenance for Energy Assets",
+                                "Fuel Usage & Performance Analytics",
+                                "Solar CRM Integration & Project Tracking",
+                                "Energy Storage Optimization",
+                                "Carbon Footprint & Sustainability Analytics",
+                                "Grid Stability & Outage Prediction"
+                            ],
+
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "iTCart",
+                                "url": "https://itcart.ai",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://itcart.ai/assets/logo.png"
+                                },
+                                "sameAs": [
+                                    "https://www.linkedin.com/company/itcart",
+                                    "https://twitter.com/itcart_ai"
+                                ]
+                            },
+
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "INR",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://itcart.ai/consult-now#contact-form",
+                                "description": "Request a consultation to explore AiXEnergy’s AI-powered energy optimization, renewable operations, and smart grid intelligence."
+                            },
+
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "ratingCount": "910",
+                                "bestRating": "5"
+                            },
+
+                            "potentialAction": {
+                                "@type": "SubmitAction",
+                                "target": "https://itcart.ai/consult-now#contact-form",
+                                "name": "Request a Consultation",
+                                "description": "Submit your details to discuss implementing AiXEnergy’s AI-powered energy management and renewable optimization platform."
+                            }
+                        },
+
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://itcart.ai/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Our Verticals",
+                                    "item": "https://itcart.ai/our-verticals"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AiXEnergy",
+                                    "item": "https://itcart.ai/our-verticals/aixenergy"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Does AiXEnergy support hybrid renewable systems?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXEnergy optimizes hybrid renewable systems including solar, wind, hydro, and hybrid grids using intelligent forecasting and performance analytics powered by AI-based energy management."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What energy data can the platform analyze?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXEnergy processes equipment telemetry, weather data, load patterns, grid performance, and fuel consumption in real time through its AI-powered energy data management engine."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is AiXEnergy cloud-compatible?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. AiXEnergy deploys on AWS, Azure, Google Cloud, or on-premises environments, offering a scalable and secure enterprise energy management architecture."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does the solar CRM integration work?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXEnergy integrates with Solar CRM systems to streamline customer management, project tracking, installation workflows, and renewable system lifecycle management through AI-enabled connectivity."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What makes AiXEnergy different from traditional energy management software?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "AiXEnergy is AI-native, enabling predictive analytics, intelligent automation, hybrid renewable coordination, and real-time optimization that significantly outperform traditional monitoring tools."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             logo: 'AiXQP-whitelogo',
             section2Data: '',
             apropriectContentOne: "AiXEnergy platform runs on AiXHub, the core of the AiX Framework—delivering AI-powered energy management, predictive analytics, and autonomous grid optimization tailored for next-generation energy operations. ",
