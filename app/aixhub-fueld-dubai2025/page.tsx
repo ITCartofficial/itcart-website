@@ -70,9 +70,6 @@ const AixhubDetailpage = () => {
         // }
     ]
 
-
-
-
     return (
         <div className="min-h-screen text-slate-50">
             {/* Page wrapper */}
@@ -122,27 +119,6 @@ const AixhubDetailpage = () => {
                         ></iframe>
                     </div>
 
-
-                    {/* Hero “video” / visual placeholder */}
-                    {/* <div className="flex justify-center lg:justify-end">
-                        <div className="relative w-full max-w-md overflow-hidden rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-900 to-sky-900/40 p-4 shadow-2xl">
-                            <div className="mb-3 flex items-center justify-between text-xs text-slate-400">
-                                <span className="inline-flex items-center gap-1">
-                                    <span className="inline-block h-2 w-2 rounded-full bg-emerald-400" />
-                                    Live Concept
-                                </span>
-                                <span>AiXHub EOS • Keynote Teaser</span>
-                            </div>
-                            <div className="aspect-video w-full rounded-2xl bg-slate-900/80 ring-1 ring-slate-700/80 flex items-center justify-center">
-                                <p className="px-6 text-center text-sm text-slate-300">
-                                    “Why the World Has an AI Operating Problem”
-                                    <span className="mt-1 block text-xs text-slate-500">
-                                        Video placeholder – embed your FUELD teaser here
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div> */}
                 </section>
 
                 {/* PROBLEM */}
@@ -193,8 +169,6 @@ const AixhubDetailpage = () => {
 
                         </div>
 
-
-
                         <div
                             className={`rounded-xl w-full h-[200px] md:h-[350px] bg-cover bg-center flex items-end justify-center`}
                             style={{
@@ -237,14 +211,17 @@ const AixhubDetailpage = () => {
                             Inventor, AiXHub EOS &amp; Founder &amp; Global CTO, iTCart.
                         </p>
 
+
                         <div className="pt-4 border-slate-700">
                             <OutlineBtn
-                                url='/contact-us'
+                                url='https://wa.me/918951806428'
                                 text="Connect with us around FUELD"
                                 textColor='#ffffff'
                                 icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                             />
                         </div>
+
+
                     </div>
 
                 </section>
@@ -275,15 +252,7 @@ const AixhubDetailpage = () => {
                                 icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                             />
                         </div>
-                        {/* <button className="rounded-full bg-sky-500 px-6 py-2.5 text-sm font-semibold text-slate-950 shadow-lg shadow-sky-500/30 transition hover:bg-sky-400">
-                            Request a Conversation
-                        </button>
-                        <a
-                            href="mailto:contact@itcart.ai"
-                            className="rounded-full border border-slate-300 px-6 py-2.5 text-sm font-semibold text-slate-100 transition hover:border-sky-400 hover:text-sky-300"
-                        >
-                            Email our leadership team
-                        </a> */}
+
                     </div>
                 </section>
             </div>
