@@ -227,6 +227,7 @@ const AixhubDetailpage = () => {
                 </section>
 
                 {/* FINAL CTA */}
+                
                 <section className="rounded-3xl border border-sky-500/40 bg-sky-500/5 px-6 py-8 text-center mb-20">
                     <h2 className="mb-3 text-2xl font-semibold text-slate-50 md:text-3xl">
                         Ready to explore AiXHub EOS for your enterprise?
