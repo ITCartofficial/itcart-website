@@ -29,6 +29,9 @@ const BlogsTemplate = () => {
   };
 
   // const [posts, setPosts] = React.useState<Post[]>([]);
+  const categories = [...new Set(newBlogData.map(blog => blog.type))];
+
+
 
   useEffect(() => {
     // This effect runs only once when the component mounts
@@ -83,8 +86,17 @@ const BlogsTemplate = () => {
         <BlogSlider posts={newBlogData} />
         <BlogGridLayout posts={newBlogData} />
         <NewsletterSection />
-        <TechnologySection />
+        {/* {
+          [1, 2, 3,]?.map((data) =>
+            <TechnologySection />
+          )
+        } */}
 
+        {
+  categories.map((type, index) => (
+    <TechnologySection key={index} type={type} />
+  ))
+}
         <SuggestedBlogSection />
 
       </section>
