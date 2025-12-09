@@ -32,6 +32,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
       formattedDate = format(dateObj, "MMMM dd, yyyy");
     }
   }
+  // const finalUrl = linkUrl ?? `/blogs/${title.toLowerCase().replace(/ /g, "-")}?id=${id}`;
   const finalUrl = linkUrl ?? `/blogs/${title.toLowerCase().replace(/ /g, "-")}?id=${id}`;
 
 
@@ -71,7 +72,14 @@ const BlogCard: React.FC<BlogCardProps> = ({
             <div className="mt-3">
               {/* <p className="text-[#45C2CC] cursor-pointer font-semibold lg:text-[18px]">Read More...</p> */}
               {/* <LinkButton textColor={"white"} text={"Continue Reading"} url={"buttonUrl"} /> */}
-              <LinkButton textColor={"white"} text={"Continue Reading"} url={linkUrl ?? "#"} />
+              {/* <LinkButton textColor={"white"} text={"Continue Reading"} url={linkUrl ?? "#"} /> */}
+              {/* <LinkButton textColor={"white"} text={"Continue Reading"} url={finalUrl} /> */}
+              <LinkButton
+  textColor={"white"}
+  text={"Continue Reading"}
+  url={finalUrl}
+/>
+
             </div>
           </div>
         </div>
