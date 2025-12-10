@@ -4,13 +4,13 @@ export const newBlogData = [
     {
         bannerTitle: 'How AiXHub Is Shaping the Future of Enterprise AI in 2025',
         bannerDiscription: 'Explore how AiXHub helps enterprises automate workflows, unify data, and make smarter decisions. Learn why AI-powered transformation is becoming the new business standard.',
-        image: '/images/blogs/blog-feature-1.jpg',
+        image: '/images/blogs/newblogs/Reinforcement-learning-models.jpg',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
         id: 1,
         type: "",
         status: '',
-        slug:"",
+        slug: "",
         contents: [
             {
                 id: 1,
@@ -237,7 +237,8 @@ export const newBlogData = [
     {
         bannerTitle: 'Reinforcement learning models – Meaning, Process, and Applications',
         bannerDiscription: 'Reinforcement learning is one of the most exciting and rapidly evolving areas of AI today. It empowers machines to learn optimal behaviors by interacting with their environment, receiving feedback, and improving over time; much like how humans learn from experience. ',
-        image: '/images/blogs/blog-feature-1.jpg',
+        // image: '/images/blogs/blog-feature-1.jpg',
+        image: '/images/blogs/newblogs/revenue-circle.png',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
         id: 2,
@@ -357,13 +358,13 @@ export const newBlogData = [
             }
 
         ],
-       
+
     },
     ////////////////////////////////////////////////////////////////////////////////
     {
         bannerTitle: 'How Revenue Cycle Analytics Can Help Reduce Claim Denials: A New Era with ITcart’s RCM Solution ',
         bannerDiscription: '',
-        image: '/images/blogs/blog-feature-1.jpg',
+        image: '/images/blogs/newblogs/revenue-circle.png',
         writtenBy: 'Dona',
         writtenDate: '23/12/2005',
         type: "",
@@ -548,7 +549,7 @@ export const newBlogData = [
     {
         bannerTitle: 'Process Discovery: Unveiling the DNA of Modern Business Success  ',
         bannerDiscription: '',
-        image: '/images/blogs/blog-feature-1.jpg',
+        image: '/images/blogs/newblogs/process-discovery.jpg',
         writtenBy: 'Dona',
         writtenDate: '24/11/2025',
         type: "",
@@ -748,7 +749,7 @@ export const newBlogData = [
     {
         bannerTitle: 'Multimodal AI – Meaning, Capabilities, and Use Cases',
         bannerDiscription: '',
-        image: '/images/blogs/blog-feature-1.jpg',
+        image: '/images/blogs/newblogs/Multimodal-ai.jpg',
         writtenBy: 'Dona',
         writtenDate: '23/12/2000',
         type: "",
@@ -1630,7 +1631,7 @@ export const newBlogData = [
                 subItemTitle: '',
                 finalPoint: ''
             }
-        ],  
+        ],
     },
     ////////////////////////////////////////////////////////////////////////////////
     {
@@ -2172,7 +2173,7 @@ export const newBlogData = [
                 content: ['The life insurance sector is experiencing the most significant transformation in its modern history. Traditional actuarial methods, once considered reliable, are now struggling to match the complexity of today’s human health patterns, behavioural shifts, and unpredictable lifestyles. As medical science evolves and personal data becomes more abundant, insurers require better tools to measure risk with greater accuracy and fairness. InsureAiX emerges as a groundbreaking intelligence framework designed to bridge this widening gap between outdated models and the realities of human life.  ',
 
                     "InsureAiX introduces a new philosophy in underwriting and risk assessment: every human being possesses a unique risk signature. Rather than relying solely on chronological age, generic health history, or demographic categories, the platform interprets thousands of dynamic signals—biological, behavioural, emotional, environmental, and genetic—to create a far more precise understanding of individual risk. This approach marks a departure from the traditional actuarial mindset, replacing averages with personalisation and guesswork with scientific intelligence. ",
-                    
+
                 ]
             },
             {
@@ -2183,7 +2184,7 @@ export const newBlogData = [
                     "The shift towards precision insurance reflects a global trend in personalisation. Insights from the World Economic Forum highlight that policyholders increasingly expect products tailored to their unique needs, health conditions, and lifestyle patterns. Insurers must therefore move beyond static methodologies and adopt systems that interpret real-time data with greater depth and clarity.  ",
 
                     "InsureAiX supports this transition by integrating seamlessly with the broader ecosystem at iTCart, including access to the InsureAiX platform. This ensures that risk evaluation, customer engagement, claims, and underwriting decisions are aligned under a unified intelligence framework. "
-                    
+
                 ]
             },
             {
@@ -2194,7 +2195,7 @@ export const newBlogData = [
                     "Biological age has become a critical component in predicting lifespan variation and disease likelihood. Studies from the National Institutes of Health confirm that biological ageing markers provide superior predictions of long-term health outcomes compared with traditional measures. InsureAiX incorporates these scientific findings into its algorithms, enabling insurers to build more accurate and personalised risk models.  ",
 
                     "Through advanced AI and signal interpretation, the platform continuously analyses micro-changes in lifestyle, behaviour, sleep patterns, movement trends, and early health signs. These subtle indicators often reveal potential future risks long before clinical symptoms emerge. InsureAiX transforms these insights into actionable intelligence that improves underwriting accuracy and strengthens insurer–customer relationships.  "
-                    
+
                 ]
             },
             {
@@ -2205,7 +2206,7 @@ export const newBlogData = [
                     "The first layer—Human Signal Intelligence—captures raw behavioural, biological, and environmental signals. The second layer, the Lifespan Science Engine, interprets these signals using predictive models, scientific frameworks, and data correlations. The third layer, Future Risk Radar, estimates potential conditions and risk fluctuations years into the future. The fourth layer—Wellbeing and Trust Activation—supports lifestyle improvement and engagement. The final layer, Decision Flow Orchestration, ensures that the intelligence generated reaches underwriting teams, claims decision-makers, and advisory ecosystems effortlessly.  ",
 
                     "This architecture allows insurers to design highly tailored products for diverse customer segments. Active lifestyle enthusiasts, ageing caregivers, chronic condition managers, and young urban professionals all benefit from insurance policies aligned to their real-world needs and health trajectories.   "
-                    
+
                 ]
             },
             {
@@ -2216,7 +2217,7 @@ export const newBlogData = [
                     "With this intelligence, insurers can avoid overcharging healthy individuals who may appear high-risk on paper, while also detecting hidden vulnerabilities in individuals who seem low-risk based solely on conventional assessments. Over time, this approach reduces loss ratios, strengthens portfolio quality, and enhances customer trust.  ",
 
                     "InsureAiX’s risk intelligence is strengthened further through integrations with enterprise systems available via iTCart, including the Digital Transformation service offerings. These integrations help insurers automate risk workflows, create unified dashboards, and align decision-making across teams.  "
-                    
+
                 ]
             },
             {
@@ -2225,7 +2226,7 @@ export const newBlogData = [
                 content: ['One of the most transformative elements of InsureAiX is its capacity for predictive risk modelling. The platform analyses longitudinal data—patterns observed over time—to forecast potential health events, disease onset, and risk clusters. These insights empower insurers to anticipate claims risk long before it materialises. ',
 
                     "Predictive modelling has become a global priority for insurers. A report from Deloitte confirms that insurance organisations using predictive analytics are significantly more likely to outperform their peers in claims accuracy, premium adjustment, and customer retention. InsureAiX’s Future Risk Radar brings this capability directly into the insurer’s operational ecosystem, enabling better pricing strategies and informed portfolio management. ",
-                    
+
                 ]
             },
             {
@@ -2234,7 +2235,7 @@ export const newBlogData = [
                 content: ['InsureAiX moves insurance from being reactive—paying out after an event—to proactive, guiding people towards healthier lives. Policyholders receive personalised insights that encourage healthier habits, improved sleep patterns, balanced routines, and early medical consultations when necessary. This creates a new form of insurance partnership, where prevention becomes as important as protection. ',
 
                     "This shift benefits both policyholders and insurers. Customers feel more supported and understood, while insurers experience fewer claims and improved risk stability. Over time, the insurer–customer relationship evolves into a collaborative wellbeing journey rather than a transactional one. ",
-                    
+
                 ]
             },
             {
@@ -2243,7 +2244,7 @@ export const newBlogData = [
                 content: ['Fraud remains a significant challenge in the insurance sector. Traditional fraud detection relies heavily on documentation checks and retrospective analysis. By incorporating behavioural and lifestyle signals, InsureAiX identifies inconsistencies that conventional systems overlook. Claims assessors gain access to more context, enabling faster and more accurate decision-making. ',
 
                     "The platform also provides explainable intelligence—clear, interpretable insights that demonstrate how conclusions were reached. This supports regulatory compliance and enhances internal audit processes. ",
-                    
+
                 ]
             },
             {
@@ -2252,7 +2253,7 @@ export const newBlogData = [
                 content: ['Modern policyholders expect insurers to deliver digital-first, personalised experiences. With InsureAiX, engagement becomes intelligent, timely, and personalised. Policyholders receive behaviour-specific nudges, health suggestions, and clarity on how their lifestyle choices influence premiums and risk. This transparency encourages trust and long-term policy loyalty.  ',
 
                     "Advisors also benefit from these insights, gaining confidence when recommending policies that align closely with customer needs. This strengthens advisory credibility and increases customer satisfaction. ",
-                    
+
                 ]
             },
             {
@@ -2261,7 +2262,7 @@ export const newBlogData = [
                 content: ['Regulatory bodies worldwide are increasing scrutiny on AI-based decision-making. InsureAiX is built with governance and transparency at its core. Every risk decision is fully interpretable, traceable, and compliant with emerging fairness standards. This ensures that insurers remain audit-ready and aligned with global regulatory expectations.  ',
 
                     "Explainable intelligence also enhances customer confidence. When policyholders understand how their premiums are calculated, trust grows naturally. InsureAiX supports this transparency by providing accessible insights without revealing sensitive data or compromising security.  ",
-                    
+
                 ]
             },
             {
@@ -2270,12 +2271,12 @@ export const newBlogData = [
                 content: ['Life insurance is evolving into a personalised, science-driven, behaviour-aware ecosystem. InsureAiX leads this transformation with precision intelligence that enhances underwriting, strengthens claims accuracy, and improves customer wellbeing. By combining science, data, behaviour, and enterprise systems, it empowers insurers to build resilient portfolios, reduce uncertainty, and deliver more meaningful protection. ',
 
                     "This future belongs to insurers who adopt intelligence-driven decision models. InsureAiX provides the foundation for this evolution, offering clarity where there was once uncertainty and delivering personalised protection where averages once prevailed. As the world continues to change, InsureAiX ensures that insurers remain prepared, competitive, and aligned with the needs of modern policyholders.   ",
-                    
+
                 ]
             },
         ]
     },
-////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////
     {
         bannerTitle: 'Intelligent Claims Management with InsureAiX ',
         bannerDiscription: 'Smarter claims decisions powered by predictive intelligence, behavioural insights, and lifecycle-aware risk modelling.',
@@ -2289,58 +2290,58 @@ export const newBlogData = [
                 id: 1,
                 title: '',
                 content: ['Life insurance claims management has entered a new era defined by behavioural complexity, rising expectations, and the urgent need for accuracy. Policyholders demand faster resolutions, transparent decisions, and personalised communication. Insurers need predictable outcomes, stronger fraud detection, and claims processes rooted in scientific evidence rather than subjective interpretation. Traditional models, designed decades ago, struggle to meet these demands. InsureAiX transforms claims management by introducing intelligence-driven capabilities that enhance clarity, precision, and fairness at every stage of the claims journey. Claims are pivotal moments in the life insurance relationship. They test the trust between insurer and policyholder, often under emotionally challenging circumstances. For insurers, claims also represent operational risk, financial exposure, and reputational stakes. When handled poorly, they erode customer trust; when managed intelligently, they strengthen loyalty and demonstrate the insurer’s commitment to fairness. InsureAiX bridges these expectations by enabling claims teams to use behavioural, biological, and predictive insights to make clearer, faster, and more equitable decisions.  ',
-                    
-                'Through the broader capabilities provided by the InsureAiX, insurers gain a unified foundation to modernise claims handling and create long-term portfolio stability. As claims become more complex and customer-centric, the need for a modern intelligence layer becomes essential rather than optional. This is where InsureAiX reshapes the claims landscape.  ',
+
+                    'Through the broader capabilities provided by the InsureAiX, insurers gain a unified foundation to modernise claims handling and create long-term portfolio stability. As claims become more complex and customer-centric, the need for a modern intelligence layer becomes essential rather than optional. This is where InsureAiX reshapes the claims landscape.  ',
                 ],
             },
             {
                 id: 2,
                 title: 'The Changing Dynamics of Life Insurance Claims ',
                 content: ['Claims environments today are significantly different from those of the past. Customer expectations have shifted dramatically due to digital experiences across industries. People expect rapid responses, transparent decisions, and empathetic communication. Meanwhile, insurers face operational challenges: rising claim volumes, increasingly sophisticated fraud methods, and data held across disparate systems. ',
-                    
-                'Research from the Association of British Insurers indicates that claims processing time is now a defining metric for policyholder satisfaction. Slow decisions undermine trust, even when claims are eventually approved. Insurers therefore require systems that can interpret risk quickly without compromising accuracy. ',
 
-                'Traditional claims processes rely heavily on manual review, paper-based documentation, and subjective judgement. These methods create inconsistencies and contribute to long resolution times. InsureAiX helps insurers automate the intelligence layer so claims teams can focus on adjudication rather than administrative overhead. This evolution improves quality, reduces costs, and ensures consistency across all cases.  '
+                    'Research from the Association of British Insurers indicates that claims processing time is now a defining metric for policyholder satisfaction. Slow decisions undermine trust, even when claims are eventually approved. Insurers therefore require systems that can interpret risk quickly without compromising accuracy. ',
+
+                    'Traditional claims processes rely heavily on manual review, paper-based documentation, and subjective judgement. These methods create inconsistencies and contribute to long resolution times. InsureAiX helps insurers automate the intelligence layer so claims teams can focus on adjudication rather than administrative overhead. This evolution improves quality, reduces costs, and ensures consistency across all cases.  '
                 ],
             },
             {
                 id: 3,
                 title: 'The Role of Behavioural Intelligence in Claims ',
                 content: ['Behavioural intelligence is one of InsureAiX’s most valuable contributions to claims management. Daily movement patterns, stress indicators, emotional changes, and lifestyle trends all contribute to understanding the context behind a claim. These behavioural signals often reveal whether a claim aligns logically with a customer’s long-term patterns.  ',
-                    
-                'often reveal whether a claim aligns logically with a customer’s long-term patterns. For example, sudden changes in routine before a claim event may support legitimate circumstances. Conversely, behavioural inconsistencies may highlight anomalies that require further review. InsureAiX helps claims teams interpret these signals without judgement, providing a balanced, data-backed view that supports fair, defensible decisions. ',
 
-                'This behavioural intelligence feeds directly into early triage, helping insurers prioritise claims that require immediate attention. It also strengthens fraud detection by highlighting deviations from normal patterns. '
+                    'often reveal whether a claim aligns logically with a customer’s long-term patterns. For example, sudden changes in routine before a claim event may support legitimate circumstances. Conversely, behavioural inconsistencies may highlight anomalies that require further review. InsureAiX helps claims teams interpret these signals without judgement, providing a balanced, data-backed view that supports fair, defensible decisions. ',
+
+                    'This behavioural intelligence feeds directly into early triage, helping insurers prioritise claims that require immediate attention. It also strengthens fraud detection by highlighting deviations from normal patterns. '
                 ],
             },
             {
                 id: 4,
                 title: 'Biological and Lifestyle Signals for Clarifying Claims',
                 content: ['Biological age, lifestyle patterns, and long-term behavioural trajectories offer meaningful context during claim assessment. InsureAiX interprets biological markers and lifestyle stability to reveal underlying health trends that traditional documentation may not capture. This enhances claims accuracy by providing additional layers of visibility. ',
-                    
-                'For instance, a customer with consistent signs of lifestyle deterioration over several years may reflect rising legitimate health vulnerability. Meanwhile, biological insights can help validate or challenge medical narratives. These insights do not replace evidence but strengthen the insurer’s ability to understand the full picture.  ',
 
-                'Lifestyle intelligence also helps insurers bridge the gap between medical documentation and real-life context. This combination ensures that decisions are not based solely on static paperwork but on scientific interpretation of long-term human signals.  '
+                    'For instance, a customer with consistent signs of lifestyle deterioration over several years may reflect rising legitimate health vulnerability. Meanwhile, biological insights can help validate or challenge medical narratives. These insights do not replace evidence but strengthen the insurer’s ability to understand the full picture.  ',
+
+                    'Lifestyle intelligence also helps insurers bridge the gap between medical documentation and real-life context. This combination ensures that decisions are not based solely on static paperwork but on scientific interpretation of long-term human signals.  '
                 ],
             },
             {
                 id: 5,
                 title: 'Predictive Risk Intelligence for Claims Forecasting ',
                 content: ['Predictive intelligence plays a vital role in modern claims ecosystems. InsureAiX enables insurers to anticipate future claims clusters, detect early health deterioration, and identify policyholders who may require additional engagement before a claim is filed. ',
-                    
-                'This proactive approach helps insurers manage reserves more effectively, reduce long-term claims exposure, and support customers before they reach crisis points. Predictive insights also allow insurers to refine underwriting and product strategies based on claims patterns emerging from real-world behaviour.  ',
 
-                'The predictive accuracy provided by InsureAiX aligns with advanced analytical strategies seen across enterprise platforms such as iTCart’s Business Intelligence services. Together, these capabilities create a more resilient claims ecosystem. '
+                    'This proactive approach helps insurers manage reserves more effectively, reduce long-term claims exposure, and support customers before they reach crisis points. Predictive insights also allow insurers to refine underwriting and product strategies based on claims patterns emerging from real-world behaviour.  ',
+
+                    'The predictive accuracy provided by InsureAiX aligns with advanced analytical strategies seen across enterprise platforms such as iTCart’s Business Intelligence services. Together, these capabilities create a more resilient claims ecosystem. '
                 ],
             },
             {
                 id: 6,
                 title: 'Explainability and Transparency in Claims Decisions ',
                 content: ['One of the most important requirements of modern insurance is explainable decision-making. Regulators, customers, and internal teams all expect clarity on how claims decisions are made. InsureAiX provides explainable intelligence that breaks down the underlying logic behind risk interpretations, behavioural signals, and predictive insights. ',
-                    
-                'This ensures that insurers remain compliant with emerging AI fairness standards. It also empowers claims teams to communicate decisions more transparently. When policyholders understand why a decision was made, even denied claims are more likely to be accepted gracefully. ',
 
-                'Explainable intelligence also improves internal quality control, helping insurers ensure consistency across claim types, adjuster teams, and geographic regions. '
+                    'This ensures that insurers remain compliant with emerging AI fairness standards. It also empowers claims teams to communicate decisions more transparently. When policyholders understand why a decision was made, even denied claims are more likely to be accepted gracefully. ',
+
+                    'Explainable intelligence also improves internal quality control, helping insurers ensure consistency across claim types, adjuster teams, and geographic regions. '
                 ],
             },
             {
@@ -2368,12 +2369,12 @@ export const newBlogData = [
                 id: 7,
                 title: 'Fraud Detection Through Behavioural Pattern Recognition',
                 content: ['Fraudulent claims continue to pose financial risk for insurers globally. Traditional fraud detection depends heavily on documentation inconsistencies and retrospective audits. ',
-                    
-                'InsureAiX introduces behavioural and lifestyle pattern recognition that identifies fraud risk earlier and with greater accuracy. ',
 
-                'For example, unusual digital behaviour, sudden lifestyle shifts, or behavioural anomalies inconsistent with the claim narrative may signal potential fraud. This does not label a claim as fraudulent but alerts teams to investigate further. The platform ensures ethical, bias-free analysis through science-backed signals. ',
+                    'InsureAiX introduces behavioural and lifestyle pattern recognition that identifies fraud risk earlier and with greater accuracy. ',
 
-                'This capability aligns with broader intelligence strategies adopted across iTCart’s enterprise ecosystem, such as the advanced orchestration available in Digital Transformation Suite.'
+                    'For example, unusual digital behaviour, sudden lifestyle shifts, or behavioural anomalies inconsistent with the claim narrative may signal potential fraud. This does not label a claim as fraudulent but alerts teams to investigate further. The platform ensures ethical, bias-free analysis through science-backed signals. ',
+
+                    'This capability aligns with broader intelligence strategies adopted across iTCart’s enterprise ecosystem, such as the advanced orchestration available in Digital Transformation Suite.'
 
                 ],
             },
@@ -2431,18 +2432,18 @@ export const newBlogData = [
                 id: 10,
                 title: 'Portfolio-Level Claims Intelligence ',
                 content: ['InsureAiX provides insurers with portfolio-level insights that reveal macro patterns across claim types, demographics, and behavioural clusters. Portfolio managers can identify emerging risks, shifting vulnerabilities, and demographic trends that influence long-term claims exposure.  ',
-                    
-                'This helps insurers refine pricing, adjust capital reserves, enhance underwriting strategies, and design targeted wellness programmes. Portfolio-level intelligence becomes a strategic asset for sustainable growth.  ',
+
+                    'This helps insurers refine pricing, adjust capital reserves, enhance underwriting strategies, and design targeted wellness programmes. Portfolio-level intelligence becomes a strategic asset for sustainable growth.  ',
                 ],
-            }, 
+            },
             {
                 id: 11,
                 title: 'Conclusion',
                 content: ['Claims management is undergoing profound change, driven by customer expectations, regulatory pressure, and the need for predictive accuracy. InsureAiX introduces a modern, intelligence-driven approach that strengthens every stage of the claims journey—from early triage to final resolution. By combining behavioural intelligence, biological insight, predictive modelling, and explainable AI, the platform empowers insurers to make fairer, faster, and more consistent decisions. ',
-                    
-                'This shift does more than modernise claims; it redefines the insurer–customer relationship. Claims become moments of clarity, empathy, and trust rather than confusion and delay. InsureAiX offers the intelligence needed to build a claims ecosystem that is resilient, transparent, and aligned with the complexities of human life.  ',
+
+                    'This shift does more than modernise claims; it redefines the insurer–customer relationship. Claims become moments of clarity, empathy, and trust rather than confusion and delay. InsureAiX offers the intelligence needed to build a claims ecosystem that is resilient, transparent, and aligned with the complexities of human life.  ',
                 ],
-            }, 
+            },
         ]
     },
     ////////////////////////////////////////////////////////////////////////////////
@@ -2464,7 +2465,7 @@ export const newBlogData = [
                 id: 2,
                 title: 'Why Behaviour and Lifestyle Matter in Modern Life Insurance ',
                 content: ['Research across health sciences, psychology, and behavioural economics has consistently shown that everyday habits influence longevity more significantly than previously understood. For example, sleep deprivation affects cardiovascular health, immune resilience, and emotional stability. Sedentary lifestyles increase the likelihood of chronic conditions such as diabetes and hypertension. Stress patterns, emotional regulation, and social behaviour influence long-term mental and physical health outcomes.',
-                    
+
                     "A report from the World Health Organization highlights that behavioural factors now account for a substantial share of global mortality. This means that behavioural risk is not a supplementary component of insurance—it is essential to understanding the full risk profile of an individual. InsureAiX integrates such insights directly into its intelligence engine, transforming behavioural science into quantifiable risk indicators. Traditional underwriting captures only snapshots of behaviour, often through self-reported questionnaires that are subjective, inconsistent, and incomplete. InsureAiX replaces this with continuous, passive, and scientifically validated behavioural intelligence that provides deeper, more reliable insights. "
                 ],
             },
@@ -2472,7 +2473,7 @@ export const newBlogData = [
                 id: 2,
                 title: 'Lifestyle Intelligence and Long-Term Health Trajectories ',
                 content: ['Lifestyle patterns shape health outcomes more deeply than most demographic indicators. Diet, activity levels, sleep consistency, environmental exposure, and social habits all contribute to long-term health conditions, disease likelihood, and longevity. InsureAiX’s lifestyle intelligence engine models these variables through advanced pattern recognition, giving insurers a holistic view of customers’ future health trajectories. ',
-                    
+
                     'This level of visibility allows insurers to detect early signs of risk escalation. For instance, disrupted sleep patterns coupled with increased stress signals may indicate vulnerability to cardiovascular disease. Similarly, a decline in routine stability could signal mental health risk. With such insight, insurers can offer personalised engagement, early intervention guidance, or dynamic policy adjustments. ',
 
                     'Lifestyle intelligence also helps insurers design reward-based products that incentivise positive behaviour. When policyholders improve their routines—better sleep, higher daily movement, or stress reduction—insurers can recognise and reward these improvements.'
@@ -2483,7 +2484,7 @@ export const newBlogData = [
                 id: 3,
                 title: 'The Science Behind Behaviour-Based Personalisation ',
                 content: ['Behavioural science has demonstrated that micro-patterns—small signals that appear insignificant at first glance—carry powerful predictive value. These signals include fluctuations in sleep cycles, step count patterns, stress reactions, voice tone shifts, digital behaviour signatures, and lifestyle routines. When analysed collectively, these micro-patterns reveal trends that reflect future vulnerability.',
-                    
+
                     'For example, subtle changes in digital behaviour may indicate rising stress or emotional strain. Irregular movement patterns may signal early symptoms of musculoskeletal issues. Changes in routine could reflect mental health decline or lifestyle disruption. InsureAiX uses AI models to analyse these behavioural signals continuously, converting them into risk-relevant insights.',
 
                     'These behavioural analytics become a blueprint for personalised underwriting. Instead of relying on outdated assumptions, insurers acquire a dynamic understanding of how the customer’s lifestyle impacts long-term health outcomes'
@@ -2494,7 +2495,7 @@ export const newBlogData = [
                 id: 4,
                 title: 'Lifestyle Intelligence and Long-Term Health Trajectories ',
                 content: ['Lifestyle patterns shape health outcomes more deeply than most demographic indicators. Diet, activity levels, sleep consistency, environmental exposure, and social habits all contribute to long-term health conditions, disease likelihood, and longevity. InsureAiX’s lifestyle intelligence engine models these variables through advanced pattern recognition,giving insurers a holistic view of customers’ future health trajectories.',
-                    
+
                     'This level of visibility allows insurers to detect early signs of risk escalation. For instance, disrupted sleep patterns coupled with increased stress signals may indicate vulnerability to cardiovascular disease. Similarly, a decline in routine stability could signal mental health risk. With such insight, insurers can offer personalised engagement, early intervention guidance, or dynamic policy adjustments. ',
 
                     'Lifestyle intelligence also helps insurers design reward-based products that incentivise positive behaviour. When policyholders improve their routines—better sleep, higher daily movement, or stress reduction—insurers can recognise and reward these improvements. '
@@ -2505,7 +2506,7 @@ export const newBlogData = [
                 id: 5,
                 title: 'Building Precision Personalisation Through Longitudinal Data ',
                 content: ['One of InsureAiX’s greatest strengths is its ability to use longitudinal data—patterns gathered over time. Short-term data provides limited insight, but long-term behavioural patterns reveal consistent tendencies that shape future health outcomes. InsureAiX interprets these trends with precision, making personalisation more accurate than ever before.',
-                    
+
                     'Longitudinal insight allows insurers to differentiate between temporary behaviour fluctuations and long-term risk indicators. For example, a week of poor sleep may be insignificant, but a year of consistent sleep disruption holds deep predictive value. This distinguishes InsureAiX from static models that treat all data points equally. ',
 
                     'Such longitudinal precision supports the design of products that adapt to the customer’s evolving health. It also contributes to more stable and sustainable underwriting decisions.'
@@ -2516,7 +2517,7 @@ export const newBlogData = [
                 id: 6,
                 title: 'Embedding Behaviour and Lifestyle Into Underwriting ',
                 content: ['InsureAiX brings behavioural and lifestyle intelligence directly into underwriting models, making them both personalised and dynamic. Traditional underwriting methods capture static information once at the start of a policy. InsureAiX ensures that underwriting evolves over time, reflecting the customer’s real-life habits and health journey. ',
-                    
+
                     'This creates a more accurate and fair system. Individuals who maintain healthy routines benefit from better policy terms, while those showing risk escalation receive guidance and support. This alignment between behaviour and pricing builds trust and transparency between insurers and customers. ',
 
                     'Underwriters can also use InsureAiX insights to personalise underwriting questions, reduce the need for invasive medical assessments, and accelerate approval times. '
@@ -2527,7 +2528,7 @@ export const newBlogData = [
                 id: 7,
                 title: 'Enhancing Customer Experience Through Personalised Engagement ',
                 content: ['Behavioural and lifestyle intelligence enables insurers to engage customers with purpose, clarity, and personal relevance. Policyholders receive meaningful insights into their wellbeing, personalised improvement suggestions, and transparent explanations of how lifestyle influences risk. This fosters a deeper sense of partnership and empowerment. ',
-                    
+
                     'Customers also benefit from digital nudges that promote healthier habits. These nudges reduce long-term risk, improve customer satisfaction, and strengthen loyalty. InsureAiX transforms the insurer–customer relationship into a connected wellbeing journey rather than a transactional policy.  ',
 
                     'This aligns with the personalisation strategies used across iTCart’s broader ecosystem, such as the enterprise-wide capabilities offered through Digital Transformation.  '
@@ -2538,7 +2539,7 @@ export const newBlogData = [
                 id: 8,
                 title: 'Supporting Advisors With Behaviour-Driven Recommendations ',
                 content: ['Insurance advisors gain significant value from behavioural intelligence. Instead of relying on generic assumptions, advisors can use InsureAiX dashboards to understand individual vulnerabilities, strengths, and wellbeing trajectories. This helps them tailor recommendations with greater accuracy. ',
-                    
+
                     'Behavioural intelligence supports advisors in guiding customers toward more suitable coverage, wellness add-ons, dynamic premium structures, and preventive engagement programmes. ',
 
                     'This strengthens advisory credibility and improves conversion rates.  '
@@ -2549,7 +2550,7 @@ export const newBlogData = [
                 id: 9,
                 title: 'Building Trust Through Explainability and Transparency ',
                 content: ['One challenge with AI-driven insurance models is ensuring transparency. Policyholders need to understand how behavioural data influences their premiums without feeling monitored or judged. InsureAiX addresses this through explainable intelligence, offering clear explanations for underwriting decisions, risk scores, and policy adjustments. ',
-                    
+
                     'The insurance industry increasingly demands such transparency. Reports published by the OECD highlight the importance of fairness, clarity, and accountability in AI applications. InsureAiX’s explainable intelligence ensures that regulatory requirements are met without compromising personalisation. ',
 
                     'This transparency builds trust and strengthens long-term customer relationships. '
@@ -2560,7 +2561,7 @@ export const newBlogData = [
                 id: 10,
                 title: 'Portfolio-Level Behavioural Insights for Insurers ',
                 content: ['InsureAiX’s behavioural intelligence capabilities extend beyond individual policies. At a portfolio level, insurers gain clarity on emerging behavioural trends across customer segments. They can identify stress clusters, lifestyle deterioration patterns, or demographic shifts that influence long-term risk. ',
-                    
+
                     'The insurance industry increasingly demands such transparency. Reports published by the OECD highlight the importance of fairness, clarity, and accountability in AI applications. InsureAiX’s explainable intelligence ensures that regulatory requirements are met without compromising personalisation. ',
 
                     'This transparency builds trust and strengthens long-term customer relationships. '
@@ -2618,7 +2619,7 @@ export const newBlogData = [
                 id: 13,
                 title: 'Conclusion  ',
                 content: ['Behavioural and lifestyle intelligence is reshaping the future of life insurance. InsureAiX leads this transformation by integrating science, AI, and behavioural insight into a unified model of precision personalisation. It moves insurers beyond outdated assumptions and into a world where protection is tailored, proactive, and deeply aligned with how people live.',
-                    
+
                     'By understanding the true drivers of longevity and wellbeing, InsureAiX helps insurers build fairer policies, healthier portfolios, and stronger customer relationships. It represents not just a technological advancement but a new philosophy of insurance—one grounded in humanity, science, and continuous intelligence.',
                 ],
             },
@@ -2626,123 +2627,123 @@ export const newBlogData = [
     },
     ////////////////////////////////////////////////////////////////////////////////
     {
-    bannerTitle: 'Predictive Life Risk Modelling with InsureAiX',
-    bannerDiscription: 'Future-focused risk prediction transforms how insurers identify vulnerabilities, forecast claims, and personalise long-term life protection.',
-    image: '/images/vertical/section2Image.png',
-    writtenBy: 'Muskan Sonda',
-    writtenDate: '08/12/2025',
-    type: "InsureAiX Blogs",
-    status: '',
-    id: 15,
+        bannerTitle: 'Predictive Life Risk Modelling with InsureAiX',
+        bannerDiscription: 'Future-focused risk prediction transforms how insurers identify vulnerabilities, forecast claims, and personalise long-term life protection.',
+        image: '/images/vertical/section2Image.png',
+        writtenBy: 'Muskan Sonda',
+        writtenDate: '08/12/2025',
+        type: "InsureAiX Blogs",
+        status: '',
+        id: 15,
 
-    contents: [
-        {
-            id: 1,
-            title: '',
-            content: [
-                'Life insurance is built on the ability to anticipate risk accurately. For decades, underwriters relied on actuarial assumptions, demographic averages, and historical patterns to forecast future outcomes. While these models served their purpose, they were fundamentally limited by the narrowness of the data they used.',
-                'Modern lifestyles, rapidly changing health patterns, environmental exposures, and behavioural fluctuations make risk far more complex. InsureAiX redefines predictive risk modelling by combining AI, human signal science, and behavioural intelligence to create a precise and dynamic understanding of human longevity.',
-                'Predictive modelling has become essential as insurers face rising claims, unpredictable disease patterns, and growing customer expectations for transparency. Traditional models struggle to detect subtle indicators that influence long-term survival.'
-            ]
-        },
-        {
-            id: 2,
-            title: '',
-            content: [
-                'Predictive risk modelling is no longer an optional enhancement—it is the backbone of future-ready insurance. Without a deeper intelligence layer, insurers risk mispricing policies, failing to detect emerging risks, and weakening portfolio financial stability.',
-                'InsureAiX introduces a next-generation approach where biological age, behavioural signals, emotional patterns, and lifespan science converge to produce predictive accuracy that surpasses traditional methods.'
-            ]
-        },
-        {
-            id: 3,
-            title: 'Why Conventional Predictive Models Fall Short',
-            content: [
-                'Traditional risk models depend heavily on past behaviour to predict future outcomes. While history can be useful, it rarely captures deeper, evolving elements that influence mortality and health trajectories.',
-                'Two individuals with the same medical profile can have entirely different risk outcomes depending on stress exposure, daily routines, movement habits, and mental health patterns.'
-            ],
-            finalPoint: 'Research from the Swiss Re Institute highlights the growing gap between traditional modelling systems and real-world risk variability—leading to volatile loss ratios and unfair pricing structures.'
-        },
-        {
-            id: 4,
-            title: 'Human Signal Science as the Engine of Precision',
-            content: [
-                'Human Signal Science refers to the interpretation of behavioural, emotional, lifestyle, environmental, and biological signals that collectively shape a person’s risk signature.',
-                'These micro-signals include sleep cycles, movement patterns, digital behaviour, mood shifts, and stress fluctuations. InsureAiX’s intelligence engine identifies correlations between these signals and future outcomes.',
-                'This visibility enables insurers to transition from reactive to proactive risk management.'
-            ]
-        },
-        {
-            id: 5,
-            title: 'Biological Age as a Predictor of Longevity',
-            content: [
-                'Chronological age alone is not enough to determine health risk. Biological age reflects cellular deterioration, immune strength, metabolic efficiency, and genetic predispositions.',
-                'Studies published in the Nature Research Journal confirm that biological age metrics outperform traditional measures in predicting disease onset and mortality.',
-                'InsureAiX applies biological age analytics to build accurate health projections and enable personalised pricing models.'
-            ]
-        },
-        {
-            id: 6,
-            title: 'The Role of Behavioural Intelligence in Forecasting Risk',
-            content: [
-                'Behaviours such as sleep quality, emotional regulation, physical activity, and daily routines shape long-term outcomes more significantly than many biological indicators.',
-                'For example, declining daily movement or worsening sleep quality may indicate early signals of health deterioration long before medical symptoms emerge.',
-                'Behavioural intelligence allows insurers to forecast risk earlier and more accurately, enabling personalised engagement and better policy alignment.'
-            ]
-        },
-        {
-            id: 7,
-            title: 'Future Risk Radar: Seeing Tomorrow’s Risk Today',
-            content: [
-                'InsureAiX’s Future Risk Radar forecasts disease emergence, mental health risk, lifestyle deterioration, and biological age acceleration years before visible impact.',
-                'This strengthens claims predictability and reduces uncertainty, enabling insurers to operate with clarity and foresight.'
-            ],
-            subItemTitle: '',
-            subItems: [
-                { item: 'Adjust premiums based on real-world health trajectories', content: '' },
-                { item: 'Engage policyholders proactively to improve outcomes', content: '' },
-                { item: 'Enable strategic claims forecasting', content: '' }
-            ]
-        },
-        {
-            id: 8,
-            title: 'Predictive Risk Modelling for Claims Management',
-            content: [
-                'InsureAiX enhances claims analysis by combining behavioural and biological intelligence to differentiate genuine claims from anomalies.',
-                'Signals that contradict claim narratives are highlighted instantly for investigation, reducing fraudulent payouts and improving fairness.'
-            ]
-        },
-        {
-            id: 9,
-            title: 'Improving Product Design Through Predictive Insight',
-            content: [
-                'Predictive analytics supports personalised insurance product design based on lifestyle behaviour, not generic demographic profiles.',
-                'Insurers can customise coverage flexibility, premium adjustment cycles, and wellness incentives based on real signals.'
-            ]
-        },
-        {
-            id: 10,
-            title: 'Key Benefits of Predictive Risk Modelling with InsureAiX',
-            content: [
-                'Predictive intelligence with InsureAiX enables insurers to achieve:'
-            ],
-            subItemTitle: '',
-            subItems: [
-                { item: 'More accurate risk evaluation', content: '' },
-                { item: 'Fairer and personalised premiums', content: '' },
-                { item: 'Earlier detection of emerging risk trends', content: '' }
-            ]
-        },
-        {
-            id: 11,
-            title: 'Conclusion',
-            content: [
-                'Predictive risk modelling is the foundation of next-generation life insurance. InsureAiX redefines how insurers anticipate, assess, and manage risk with precision and personalisation.'
-            ],
-            finalPoint: 'InsureAiX positions insurers for a future where decisions are scientific, engagement is proactive, and protection is personalised.'
-        }
-    ]
-},
-///////////////////////////////////////////////////////////////////////////////////
+        contents: [
+            {
+                id: 1,
+                title: '',
+                content: [
+                    'Life insurance is built on the ability to anticipate risk accurately. For decades, underwriters relied on actuarial assumptions, demographic averages, and historical patterns to forecast future outcomes. While these models served their purpose, they were fundamentally limited by the narrowness of the data they used.',
+                    'Modern lifestyles, rapidly changing health patterns, environmental exposures, and behavioural fluctuations make risk far more complex. InsureAiX redefines predictive risk modelling by combining AI, human signal science, and behavioural intelligence to create a precise and dynamic understanding of human longevity.',
+                    'Predictive modelling has become essential as insurers face rising claims, unpredictable disease patterns, and growing customer expectations for transparency. Traditional models struggle to detect subtle indicators that influence long-term survival.'
+                ]
+            },
+            {
+                id: 2,
+                title: '',
+                content: [
+                    'Predictive risk modelling is no longer an optional enhancement—it is the backbone of future-ready insurance. Without a deeper intelligence layer, insurers risk mispricing policies, failing to detect emerging risks, and weakening portfolio financial stability.',
+                    'InsureAiX introduces a next-generation approach where biological age, behavioural signals, emotional patterns, and lifespan science converge to produce predictive accuracy that surpasses traditional methods.'
+                ]
+            },
+            {
+                id: 3,
+                title: 'Why Conventional Predictive Models Fall Short',
+                content: [
+                    'Traditional risk models depend heavily on past behaviour to predict future outcomes. While history can be useful, it rarely captures deeper, evolving elements that influence mortality and health trajectories.',
+                    'Two individuals with the same medical profile can have entirely different risk outcomes depending on stress exposure, daily routines, movement habits, and mental health patterns.'
+                ],
+                finalPoint: 'Research from the Swiss Re Institute highlights the growing gap between traditional modelling systems and real-world risk variability—leading to volatile loss ratios and unfair pricing structures.'
+            },
+            {
+                id: 4,
+                title: 'Human Signal Science as the Engine of Precision',
+                content: [
+                    'Human Signal Science refers to the interpretation of behavioural, emotional, lifestyle, environmental, and biological signals that collectively shape a person’s risk signature.',
+                    'These micro-signals include sleep cycles, movement patterns, digital behaviour, mood shifts, and stress fluctuations. InsureAiX’s intelligence engine identifies correlations between these signals and future outcomes.',
+                    'This visibility enables insurers to transition from reactive to proactive risk management.'
+                ]
+            },
+            {
+                id: 5,
+                title: 'Biological Age as a Predictor of Longevity',
+                content: [
+                    'Chronological age alone is not enough to determine health risk. Biological age reflects cellular deterioration, immune strength, metabolic efficiency, and genetic predispositions.',
+                    'Studies published in the Nature Research Journal confirm that biological age metrics outperform traditional measures in predicting disease onset and mortality.',
+                    'InsureAiX applies biological age analytics to build accurate health projections and enable personalised pricing models.'
+                ]
+            },
+            {
+                id: 6,
+                title: 'The Role of Behavioural Intelligence in Forecasting Risk',
+                content: [
+                    'Behaviours such as sleep quality, emotional regulation, physical activity, and daily routines shape long-term outcomes more significantly than many biological indicators.',
+                    'For example, declining daily movement or worsening sleep quality may indicate early signals of health deterioration long before medical symptoms emerge.',
+                    'Behavioural intelligence allows insurers to forecast risk earlier and more accurately, enabling personalised engagement and better policy alignment.'
+                ]
+            },
+            {
+                id: 7,
+                title: 'Future Risk Radar: Seeing Tomorrow’s Risk Today',
+                content: [
+                    'InsureAiX’s Future Risk Radar forecasts disease emergence, mental health risk, lifestyle deterioration, and biological age acceleration years before visible impact.',
+                    'This strengthens claims predictability and reduces uncertainty, enabling insurers to operate with clarity and foresight.'
+                ],
+                subItemTitle: '',
+                subItems: [
+                    { item: 'Adjust premiums based on real-world health trajectories', content: '' },
+                    { item: 'Engage policyholders proactively to improve outcomes', content: '' },
+                    { item: 'Enable strategic claims forecasting', content: '' }
+                ]
+            },
+            {
+                id: 8,
+                title: 'Predictive Risk Modelling for Claims Management',
+                content: [
+                    'InsureAiX enhances claims analysis by combining behavioural and biological intelligence to differentiate genuine claims from anomalies.',
+                    'Signals that contradict claim narratives are highlighted instantly for investigation, reducing fraudulent payouts and improving fairness.'
+                ]
+            },
+            {
+                id: 9,
+                title: 'Improving Product Design Through Predictive Insight',
+                content: [
+                    'Predictive analytics supports personalised insurance product design based on lifestyle behaviour, not generic demographic profiles.',
+                    'Insurers can customise coverage flexibility, premium adjustment cycles, and wellness incentives based on real signals.'
+                ]
+            },
+            {
+                id: 10,
+                title: 'Key Benefits of Predictive Risk Modelling with InsureAiX',
+                content: [
+                    'Predictive intelligence with InsureAiX enables insurers to achieve:'
+                ],
+                subItemTitle: '',
+                subItems: [
+                    { item: 'More accurate risk evaluation', content: '' },
+                    { item: 'Fairer and personalised premiums', content: '' },
+                    { item: 'Earlier detection of emerging risk trends', content: '' }
+                ]
+            },
+            {
+                id: 11,
+                title: 'Conclusion',
+                content: [
+                    'Predictive risk modelling is the foundation of next-generation life insurance. InsureAiX redefines how insurers anticipate, assess, and manage risk with precision and personalisation.'
+                ],
+                finalPoint: 'InsureAiX positions insurers for a future where decisions are scientific, engagement is proactive, and protection is personalised.'
+            }
+        ]
+    },
+    ///////////////////////////////////////////////////////////////////////////////////
     {
         bannerTitle: 'Redefining Underwriting with Intelligent Risk Modelling Through InsureAiX ',
         bannerDiscription: 'Smarter underwriting powered by advanced signals, biological intelligence, and transparent decision-making for fairer insurance outcomes.',
@@ -2763,7 +2764,7 @@ export const newBlogData = [
                 id: 2,
                 title: 'The Limitations of Traditional Underwriting Methods ',
                 content: ['Conventional underwriting methods have remained largely unchanged for decades. They rely heavily on medical records, self-reported information, and age-based tables that reflect broad generalisations rather than individual realities. These models assume that people of the same age, gender, or occupation share similar life risks. While statistically convenient, such assumptions ignore the deep variability in health, behaviour, and environmental factors that influence longevity. ',
-                    
+
                     'Studies published by the Institute and Faculty of Actuaries confirm that outdated risk models overlook critical lifestyle and behavioural data that correlate strongly with mortality outcomes. These blind spots create unfair pricing structures, inaccurate risk categories, and greater volatility in claims. InsureAiX responds to these concerns by delivering a more detailed, science-driven approach that reflects true human diversity.',
 
                     'The limitations of traditional underwriting are becoming more evident as customers demand transparency. Policyholders want to understand how their daily habits  wellbeing, and lifestyle decisions influence premiums. Without access to deeper signals, insurers struggle to meet these expectations in a meaningful way. ',
@@ -2773,7 +2774,7 @@ export const newBlogData = [
                 id: 3,
                 title: 'The Rise of Intelligence-Driven Underwriting ',
                 content: ['Intelligent underwriting uses advanced AI, behavioural science, biological insights, and real-time data to evaluate risk with greater precision. InsureAiX introduces this global best practice into the core of insurance operations. Unlike static models, intelligent underwriting continuously refines itself with every new piece of data. This makes it both predictive and adaptive—two qualities missing from conventional methodologies. InsureAiX’s unique architecture allows insurers to interpret biological age, lifestyle patterns, sleep cycles, behavioural signatures, stress indicators, and environmental exposure. These signals produce a risk profile that reflects an individual’s lived reality rather than assumptions. This deep clarity allows insurers to price policies fairly, reduce uncertainty, and create insurance products aligned with real human experiences. ',
-                    
+
                     'This shift echoes broader industry changes, where insurers use technologies similar to iTCart’s Data Analytics services to strengthen decision-making. InsureAiX brings this same intelligence directly into underwriting models, elevating their accuracy and relevance for modern portfolios.',
 
                 ],
@@ -2782,11 +2783,11 @@ export const newBlogData = [
                 id: 4,
                 title: 'Understanding Biological Age as a Core Risk Indicator ',
                 content: ['Chronological age only tells part of a person’s health story. Two policyholders aged forty can have dramatically different health trajectories depending on genetics, environment, sleep quality, emotional wellbeing, and lifestyle decisions. Biological age reveals how quickly a person is ageing internally based on biomarkers and cellular processes.  ',
-                    
+
                     'Research from the Mayo Clinic shows that biological age more accurately predicts disease risk, vulnerability to chronic conditions, and longevity than traditional age measures. InsureAiX integrates the principles of biological ageing into its risk models, enabling insurers to evaluate risk beyond surface-level indicators. ',
 
                     'This shift allows insurers to identify individuals with accelerated biological ageing—potentially high-risk—despite appearing outwardly healthy. Conversely, individuals with a lower biological age benefit from fairer pricing and better policy terms. This fosters a sense of trust and fairness in the underwriting process. '
-                    
+
 
                 ],
             },
@@ -2794,11 +2795,11 @@ export const newBlogData = [
                 id: 5,
                 title: 'Precision Modelling Through Human Signal Intelligence ',
                 content: ['Human behaviour reflects long-term health outcomes. Daily movement patterns, stress levels, emotional stability, social behaviour, and environmental exposure all shape individual vulnerability. InsureAiX leverages Human Signal Intelligence to interpret these signals holistically, providing richer insight into an individual’s risk profile.  ',
-                    
+
                     'These behavioural patterns often reveal hidden risks far earlier than medical tests. For instance, subtle stress indicators or early sleep disruption patterns can signal growing mental or physical challenges. Predictive modelling helps insurers identify these trends years before they become critical.  ',
 
                     'This intelligence supports underwriters in making proactive decisions. Instead of reacting to claims, they anticipate them and design policies that incentivise improvement. The result is a healthier customer base and more stable portfolios.  '
-                    
+
 
                 ],
             },
@@ -2806,11 +2807,11 @@ export const newBlogData = [
                 id: 6,
                 title: 'Enhancing Underwriting Transparency Through Explainable AI  ',
                 content: ['Regulatory bodies are increasingly demanding transparency in AI-driven decision-making. Insurers must ensure that underwriting processes are explainable, traceable, and compliant. InsureAiX uses Explainable AI to provide clear justifications for predictions, risk scores, and premium recommendations.  ',
-                    
+
                     'This builds trust with regulators and customers alike. Policyholders understand how insights are generated without exposing sensitive personal data. For insurers, it ensures that AI models remain unbiased and aligned with industry regulations.  ',
 
                     'Explainable AI also supports claims teams. When a claim arises, assessors can see how the risk was evaluated and identify any anomalies quickly.  '
-                    
+
 
                 ],
             },
@@ -2818,40 +2819,40 @@ export const newBlogData = [
                 id: 7,
                 title: 'Future Risk Radar for Long-Term Portfolio Stability ',
                 content: ['One of InsureAiX’s most powerful capabilities is its Future Risk Radar—an engine that forecasts disease probability, lifestyle deterioration, and biological ageing acceleration. This forward-looking intelligence helps insurers anticipate future claims events and adjust pricing or engagement strategies accordingly. ',
-                    
+
                     'This predictive view enhances portfolio stability by giving underwriters visibility into long-term trends. They can identify rising risk segments, detect early warning signs, and adjust underwriting strategies before challenges escalate.  ',
 
                     'Predictive underwriting becomes especially valuable in group insurance, where understanding collective behaviour can significantly influence pricing and engagement strategies.  '
-                
+
                 ],
             },
             {
                 id: 8,
                 title: 'The Business Impact of Intelligent Underwriting ',
                 content: ['Intelligent underwriting creates tangible operational and commercial benefits. Insurers gain the ability to segment customers more accurately, reduce mispricing, improve loss ratios, and strengthen customer engagement. Meanwhile, policyholders receive personalised premiums, wellness insights, and proactive support.  ',
-                    
+
                     'These outcomes create a sustainable model of insurance—one that is fair, efficient, and human-centred. Intelligent underwriting improves customer trust, extends policy durations, and encourages healthier behaviour.  ',
 
                     'From a business perspective, insurers using InsureAiX experience greater predictability in claims, more efficient underwriting processes, and better alignment between pricing and real-world risk.  '
-                
+
                 ],
             },
             {
                 id: 9,
                 title: 'Strengthening Claims with Behavioural and Biological Insights ',
                 content: ['Claims assessment becomes more accurate when underwriters have access to behavioural and biological data. Claims teams can differentiate between genuine cases and anomalies that signal fraud. InsureAiX’s signal-based intelligence highlights inconsistencies that traditional documentation cannot detect.  ',
-                    
+
                     'This strengthens claims integrity and protects honest policyholders. It also reduces operational burden on insurers by minimising the need for extensive investigations. ',
 
                     'Insurers benefit from faster claims processing and greater customer satisfaction, improving brand loyalty and reputation.  '
-                
+
                 ],
             },
             {
                 id: 10,
                 title: 'Underwriting as a Strategic Advantage ',
                 content: ['Underwriting was once viewed as a technical function, but InsureAiX transforms it into a strategic advantage. Insurers that adopt intelligent underwriting build stronger, more resilient portfolios and benefit from reduced volatility and more predictable outcomes.  ',
-                    
+
                     'This competitive edge becomes crucial as consumer behaviour shifts and regulatory expectations increase. Insurers that embrace precision intelligence will outperform those who rely on outdated models.  ',
                 ],
             },
@@ -2880,7 +2881,7 @@ export const newBlogData = [
                 id: 12,
                 title: 'Conclusion ',
                 content: ['InsureAiX marks a revolutionary shift in how insurers evaluate risk. By merging biological science, behavioural intelligence, predictive modelling, and Explainable AI, the platform provides a depth of understanding that traditional models cannot match. It brings fairness, accuracy, and personalisation into every underwriting decision, strengthening customer relationships and enhancing portfolio stability. ',
-                    
+
                     'In a world where human lives are becoming increasingly complex, InsureAiX gives insurers the clarity needed to build lasting impact. Intelligent underwriting is no longer optional—it is the foundation of the future. And InsureAiX is leading the way.   ',
                 ],
             },
@@ -2888,354 +2889,355 @@ export const newBlogData = [
     },
     /////////////////////////////////////////////////////////////////////////////////
     {
-    bannerTitle: 'Beyond Automation: How AiXbfs is Creating a Frictionless Future for Borrowers and Lenders',
-    bannerDiscription: 'AI-driven automation accelerates lending workflows, removes bottlenecks, and delivers a seamless experience for borrowers and lenders.',
-    image: '/images/blogs/newblogs/aixbfsblog-1.jpg',
-    writtenBy: 'Muskan Sonda',
-    writtenDate: '08/12/2025',
-    type: 'AiXBFS Blogs',
-    status: '',
-    id: 17,
+        bannerTitle: 'Beyond Automation: How AiXbfs is Creating a Frictionless Future for Borrowers and Lenders',
+        bannerDiscription: 'AI-driven automation accelerates lending workflows, removes bottlenecks, and delivers a seamless experience for borrowers and lenders.',
+        image: '/images/blogs/newblogs/aixbfsblog-1.jpg',
+        writtenBy: 'Muskan Sonda',
+        writtenDate: '08/12/2025',
+        type: 'AiXBFS Blogs',
+        status: '',
+        id: 17,
 
-    contents: [
-        {
-            id: 1,
-            title: '',
-            content: [
-                'In the digital age, “friction” is the silent killer of growth and customer loyalty. For lenders, friction means manual underwriting, slow disbursements, and inefficient collections. For borrowers, it means cumbersome application processes, a lack of transparency, and confusing repayment steps. Most digital solutions have only chipped away at the edges of this problem.',
-                'True transformation requires a holistic approach that reimagines the entire financial journey for every stakeholder. This is the mission of AiXbfs: to go beyond simple automation and create a truly frictionless, intelligent, and inclusive financial ecosystem. By leveraging a unified, AI-powered platform, it delivers seamless experiences from the back office to the borrower’s smartphone.'
-            ]
-        },
-        {
-            id: 2,
-            title: "The Borrower’s Journey: From Anxiety to Assurance",
-            content: [
-                'Imagine applying for a loan as seamlessly as ordering a ride-share. This is the experience the borrower-focused app and web portal delivers. This borrower-focused app and web portal simplifies the entire loan lifecycle.',
-                'Intelligent Applications: The journey begins with a user-friendly interface that guides the borrower step-by-step. Using Intelligent Document Processing, borrowers can auto-capture their KYC documents like Aadhaar and PAN using their phone’s camera, with AI guidance to avoid blurry or incorrect uploads. No more scanning or visiting branches.',
-                'Real-Time Transparency: Once submitted, borrowers can track their application status in real-time. Instead of waiting in the dark, they see a clear timeline: “KYC Verified,” “Credit Check Complete,” “Approval Pending.” If a document is rejected, the system specifies the exact reason with visual guidance for resubmission, turning a point of frustration into a simple corrective step.',
-                'Empowered Repayment: The frictionless experience continues post-disbursement. Borrowers receive timely, personalized reminders via their preferred channel (SMS, WhatsApp, email) and can pay EMIs with a single tap through integrated UPI. They have a clear dashboard showing their EMI schedule, payment history, and downloadable receipts, empowering them with full financial control.'
-            ]
-        },
-        {
-            id: 3,
-            title: "The Lender’s Advantage: From Operational Burden to Strategic Command",
-            content: [
-                'While the borrower enjoys a smooth front-end, lenders achieve unprecedented operational efficiency and strategic insight at the back-end.',
-                'The Unified Command Centre: The platform acts as an all-in-one AI platform for banks and NBFCs. It streamlines lending management, collections, partner management, and compliance on a single screen. Credit officers benefit from a multi-bureau credit score comparison and AI-driven risk summaries, allowing for faster, more reliable approvals.',
-                'Revolutionizing Field Operations: For collections and verification, the mobile-first, offline-capable toolkit equips field agents. Agents receive geo-optimized routes, can capture payments and KYC on-site, and sync all data once back online. This eliminates wasted travel time, improves coverage, and provides real-time visibility into field activities for supervisors.',
-                'Intelligent Partner Ecosystem: The partner management platform simplifies the management of Direct Selling Agents (DSAs) and channel partners. It automates onboarding, tracks lead progress in real-time, and manages customizable incentive programs. This transparency and efficiency foster stronger, more productive partnerships, driving higher conversions.'
-            ]
-        },
-        {
-            id: 4,
-            title: 'The Engine of Frictionlessness: AI and Hyper-Integration',
-            content: [
-                'The seamless experience for both borrowers and lenders is powered by a deeply integrated, AI-fuelled core.',
-            ],
-            subItemTitle: '',
-            subItems: [
-                {
-                    item: 'API-First Architecture',
-                    content: 'Platforms are built cloud-native and API-first. This allows fintech to securely connect with legacy banking systems, Account Aggregators (AA), and KYC vendors, creating a cohesive data flow that eliminates manual data entry and silos.'
-                },
-                {
-                    item: 'Predictive Intelligence',
-                    content: 'The collections module uses machine learning on historical data to predict delinquency, allowing collections teams to prioritize high-risk accounts and engage with borrowers proactively through empathetic, omnichannel communication.'
-                },
-                {
-                    item: 'The Human Touch',
-                    content: 'The future of finance relies on a balance of AI and human judgment. AI handles the repetitive, data-heavy tasks, freeing up loan officers, compliance teams, and field agents to focus on complex cases and customer relationships.'
-                },
-            ]
-        },
-        {
-            id: 5,
-            title: 'Building the Future of Inclusive Finance',
-            content: [
-                'By eliminating friction at every touchpoint, AiXbfs promotes financial inclusion. Faster, more accurate risk assessment allows lenders to safely serve thin-file customers. Accessible mobile tools empower agents to operate effectively in semi-urban and rural areas. A simple, transparent application process encourages more people to enter the formal credit system.',
-            ],
-            finalPoint: 'The future of BFSI is not just automated; it is connected, intelligent, and empathetic — enabling growth, trust, and financial well-being.'
-        }
-    ]
-},
-//////////////////////////////////////////////////////////////////////
-{
-    bannerTitle: 'How AiXBFS Reinvents Recovery, Field Operations, and Risk Governance',
-    bannerDiscription: 'Predictive intelligence enhances recoveries, strengthens field operations, and modernises risk governance for higher financial outcome',
-    image: '/images/blogs/newblogs/aixbfsblog-2.jpg',
-    writtenBy: 'Muskan Sonda',
-    writtenDate: '08/12/2025',
-    type: 'AiXBFS Blogs',
-    status: '',
-    id: 18,
+        contents: [
+            {
+                id: 1,
+                title: '',
+                content: [
+                    'In the digital age, “friction” is the silent killer of growth and customer loyalty. For lenders, friction means manual underwriting, slow disbursements, and inefficient collections. For borrowers, it means cumbersome application processes, a lack of transparency, and confusing repayment steps. Most digital solutions have only chipped away at the edges of this problem.',
+                    'True transformation requires a holistic approach that reimagines the entire financial journey for every stakeholder. This is the mission of AiXbfs: to go beyond simple automation and create a truly frictionless, intelligent, and inclusive financial ecosystem. By leveraging a unified, AI-powered platform, it delivers seamless experiences from the back office to the borrower’s smartphone.'
+                ]
+            },
+            {
+                id: 2,
+                title: "The Borrower’s Journey: From Anxiety to Assurance",
+                content: [
+                    'Imagine applying for a loan as seamlessly as ordering a ride-share. This is the experience the borrower-focused app and web portal delivers. This borrower-focused app and web portal simplifies the entire loan lifecycle.',
+                    'Intelligent Applications: The journey begins with a user-friendly interface that guides the borrower step-by-step. Using Intelligent Document Processing, borrowers can auto-capture their KYC documents like Aadhaar and PAN using their phone’s camera, with AI guidance to avoid blurry or incorrect uploads. No more scanning or visiting branches.',
+                    'Real-Time Transparency: Once submitted, borrowers can track their application status in real-time. Instead of waiting in the dark, they see a clear timeline: “KYC Verified,” “Credit Check Complete,” “Approval Pending.” If a document is rejected, the system specifies the exact reason with visual guidance for resubmission, turning a point of frustration into a simple corrective step.',
+                    'Empowered Repayment: The frictionless experience continues post-disbursement. Borrowers receive timely, personalized reminders via their preferred channel (SMS, WhatsApp, email) and can pay EMIs with a single tap through integrated UPI. They have a clear dashboard showing their EMI schedule, payment history, and downloadable receipts, empowering them with full financial control.'
+                ]
+            },
+            {
+                id: 3,
+                title: "The Lender’s Advantage: From Operational Burden to Strategic Command",
+                content: [
+                    'While the borrower enjoys a smooth front-end, lenders achieve unprecedented operational efficiency and strategic insight at the back-end.',
+                    'The Unified Command Centre: The platform acts as an all-in-one AI platform for banks and NBFCs. It streamlines lending management, collections, partner management, and compliance on a single screen. Credit officers benefit from a multi-bureau credit score comparison and AI-driven risk summaries, allowing for faster, more reliable approvals.',
+                    'Revolutionizing Field Operations: For collections and verification, the mobile-first, offline-capable toolkit equips field agents. Agents receive geo-optimized routes, can capture payments and KYC on-site, and sync all data once back online. This eliminates wasted travel time, improves coverage, and provides real-time visibility into field activities for supervisors.',
+                    'Intelligent Partner Ecosystem: The partner management platform simplifies the management of Direct Selling Agents (DSAs) and channel partners. It automates onboarding, tracks lead progress in real-time, and manages customizable incentive programs. This transparency and efficiency foster stronger, more productive partnerships, driving higher conversions.'
+                ]
+            },
+            {
+                id: 4,
+                title: 'The Engine of Frictionlessness: AI and Hyper-Integration',
+                content: [
+                    'The seamless experience for both borrowers and lenders is powered by a deeply integrated, AI-fuelled core.',
+                ],
+                subItemTitle: '',
+                subItems: [
+                    {
+                        item: 'API-First Architecture',
+                        content: 'Platforms are built cloud-native and API-first. This allows fintech to securely connect with legacy banking systems, Account Aggregators (AA), and KYC vendors, creating a cohesive data flow that eliminates manual data entry and silos.'
+                    },
+                    {
+                        item: 'Predictive Intelligence',
+                        content: 'The collections module uses machine learning on historical data to predict delinquency, allowing collections teams to prioritize high-risk accounts and engage with borrowers proactively through empathetic, omnichannel communication.'
+                    },
+                    {
+                        item: 'The Human Touch',
+                        content: 'The future of finance relies on a balance of AI and human judgment. AI handles the repetitive, data-heavy tasks, freeing up loan officers, compliance teams, and field agents to focus on complex cases and customer relationships.'
+                    },
+                ]
+            },
+            {
+                id: 5,
+                title: 'Building the Future of Inclusive Finance',
+                content: [
+                    'By eliminating friction at every touchpoint, AiXbfs promotes financial inclusion. Faster, more accurate risk assessment allows lenders to safely serve thin-file customers. Accessible mobile tools empower agents to operate effectively in semi-urban and rural areas. A simple, transparent application process encourages more people to enter the formal credit system.',
+                ],
+                finalPoint: 'The future of BFSI is not just automated; it is connected, intelligent, and empathetic — enabling growth, trust, and financial well-being.'
+            }
+        ]
+    },
+    //////////////////////////////////////////////////////////////////////
+    {
+        bannerTitle: 'How AiXBFS Reinvents Recovery, Field Operations, and Risk Governance',
+        bannerDiscription: 'Predictive intelligence enhances recoveries, strengthens field operations, and modernises risk governance for higher financial outcome',
+        image: '/images/blogs/newblogs/aixbfsblog-2.jpg',
+        writtenBy: 'Muskan Sonda',
+        writtenDate: '08/12/2025',
+        type: 'AiXBFS Blogs',
+        status: '',
+        id: 18,
 
-    contents: [
-        {
-            id: 1,
-            title: '',
-            content: [
-                'Collections and recovery have long been some of the most challenging and operationally demanding areas in BFSI. As loan volumes rise and borrower behaviour becomes more unpredictable, financial institutions must manage increasing complexities while ensuring compliance, visibility, and efficiency.',
-                'Traditional, manual collections processes often fail to keep up with these demands, resulting in revenue leakage, poor customer experiences, and inconsistent recovery rates.',
-                'This is why the role of intelligent, predictive, and automated collections has become indispensable. AiXbfs is one of the few platforms uniquely designed to transform the entire collections lifecycle, improving both operational performance and financial outcomes. With its blend of AI-driven insights, workflow automation, geo-enabled field operations, and powerful dashboards, AiXbfs helps organisations recover more, faster, and with far greater accuracy.'
-            ]
-        },
-        {
-            id: 2,
-            title: '',
-            content: [
-                'The collections function is no longer limited to simple follow-ups and reminders. It now involves sophisticated risk forecasting, targeted communication, agent performance analysis, geo-tracking, digital payments, customer segmentation, and regulatory compliance.',
-                'AiXbfs brings all of these capabilities into one unified system.'
-            ]
-        },
-        {
-            id: 3,
-            title: "The Complexities of Modern Collections",
-            content: [
-                'Modern financial institutions face a multitude of challenges in the collections domain:',
-            ],
-            subItemTitle: '',
-            subItems: [
-                { 
-                  item: 'Rising default rates across retail and enterprise segments', 
-                  content: '' 
-                },
+        contents: [
+            {
+                id: 1,
+                title: '',
+                content: [
+                    'Collections and recovery have long been some of the most challenging and operationally demanding areas in BFSI. As loan volumes rise and borrower behaviour becomes more unpredictable, financial institutions must manage increasing complexities while ensuring compliance, visibility, and efficiency.',
+                    'Traditional, manual collections processes often fail to keep up with these demands, resulting in revenue leakage, poor customer experiences, and inconsistent recovery rates.',
+                    'This is why the role of intelligent, predictive, and automated collections has become indispensable. AiXbfs is one of the few platforms uniquely designed to transform the entire collections lifecycle, improving both operational performance and financial outcomes. With its blend of AI-driven insights, workflow automation, geo-enabled field operations, and powerful dashboards, AiXbfs helps organisations recover more, faster, and with far greater accuracy.'
+                ]
+            },
+            {
+                id: 2,
+                title: '',
+                content: [
+                    'The collections function is no longer limited to simple follow-ups and reminders. It now involves sophisticated risk forecasting, targeted communication, agent performance analysis, geo-tracking, digital payments, customer segmentation, and regulatory compliance.',
+                    'AiXbfs brings all of these capabilities into one unified system.'
+                ]
+            },
+            {
+                id: 3,
+                title: "The Complexities of Modern Collections",
+                content: [
+                    'Modern financial institutions face a multitude of challenges in the collections domain:',
+                ],
+                subItemTitle: '',
+                subItems: [
+                    {
+                        item: 'Rising default rates across retail and enterprise segments',
+                        content: ''
+                    },
 
-                { 
-                  item: 'Difficulties in coordinating large field teams', 
-                  content: '' },
-                { 
-                  item: 'Inefficient manual tracking of follow-ups', 
-                  content: ''
-                 },
+                    {
+                        item: 'Difficulties in coordinating large field teams',
+                        content: ''
+                    },
+                    {
+                        item: 'Inefficient manual tracking of follow-ups',
+                        content: ''
+                    },
 
-                { 
-                  item: 'Lack of transparency in agent activities', 
-                  content: '' 
-                },
-                {
-                   item: 'Limited visibility into borrower risk behaviour',
-                   content: '' 
-                },
-                { 
-                    item: 'Compliance breaches due to lack of documentation',
-                     content: '' 
-                },
-                { 
-                    item: 'Low recovery due to poor prioritisation',
-                    content: ''
-                 },
-            ],
-            finalPoint: 'Research by McKinsey shows AI-powered collections can improve recovery rates by 20–30%, while Deloitte highlights automation can reduce effort by up to 50%. AiXbfs enables institutions to achieve these gains by modernising the entire collections lifecycle.'
-        },
-        {
-            id: 4,
-            title: 'AiXbfs: A New Approach to Intelligent Collections',
-            content: [
-                'AiXbfs offers a fully integrated collections management framework that combines automation, tracking, analytics, and AI-based recommendations. Instead of relying on manual spreadsheets and fragmented systems, financial institutions gain a centralised engine that guides agents, supervisors, and leadership teams with precise insights.',
-            ]
-        },
-        {
-            id: 5,
-            title: '',
-            content: [
-                'AI-Driven Probability-to-Pay Models: AiXbfs predicts the likelihood of repayment using advanced AI models. It analyses borrower behaviour, payment history, demographic data, and device metadata to prioritise accounts intelligently.',
-                'Smart Automated Task Allocation: AiXbfs automates assignment of accounts based on geography, skill level, performance, workload, and risk category.',
-                'Geo-Verified Field Operations: Agents’ visits are geo-verified so supervisors can track activities in real-time and intervene when required.',
-                'Real-Time Dashboards and Analytics: AiXbfs provides operational visibility through agent activity timelines, performance scores, recovery progress, flagged cases, overdue accounts, and productivity metrics.',
-                'Intelligent Communication and Follow-Ups: Enables personalised communication based on behaviour patterns and predicted outcomes.',
-                'Fraud Detection and Compliance: Provides audit trails, call logs, visit validations, automated compliance rules, and fraud alerts.',
-                'Integrating Enterprise Functions: Integrates collections with credit, customer service, legal and operations—enabling seamless workflows and cross-functional communication.'
-            ]
-        },
-        {
-            id: 6,
-            title: 'Strengthening Performance Across Field and Telecalling Teams',
-            content: [
-                'AiXbfs standardises operations across field agents and telecallers with tools for attendance tracking, productivity scoring, location monitoring, real-time updates, escalations, and performance analytics.',
-                'This improves efficiency, reduces absenteeism, and strengthens accountability.'
-            ]
-        },
-        {
-            id: 7,
-            title: 'A Future-Ready Collections Framework',
-            content: [
-                'The future of collections relies heavily on prediction, automation, and digital engagement.',
-                'AiXbfs enables institutions to shift from reactive collections to predictive, proactive, and performance-driven strategy — protecting revenue and strengthening financial health.'
-            ],
-            finalPoint: 'With intelligent automation, BFSI organisations can improve recovery rates, reduce operational costs, enhance customer engagement, and ensure compliance — securing stronger financial outcomes.'
-        }
-    ]
-},
-////////////////////////////////////////////////////////////////////////////
-{
-    bannerTitle: 'How AiXBFS is Transforming Digital Lending: Faster Decisions, Lower Risk, Higher Profitability',
-    bannerDiscription: 'Advanced scoring, workflow automation, and real-time analytics make digital lending faster, safer, and more profitable.',
-    image: '/images/blogs/newblogs/aixbfsblog-3.jpg',
-    writtenBy: 'Muskan Sonda',
-    writtenDate: '08/12/2025',
-    type: 'AiXBFS Blogs',
-    status: '',
-    id: 19,
+                    {
+                        item: 'Lack of transparency in agent activities',
+                        content: ''
+                    },
+                    {
+                        item: 'Limited visibility into borrower risk behaviour',
+                        content: ''
+                    },
+                    {
+                        item: 'Compliance breaches due to lack of documentation',
+                        content: ''
+                    },
+                    {
+                        item: 'Low recovery due to poor prioritisation',
+                        content: ''
+                    },
+                ],
+                finalPoint: 'Research by McKinsey shows AI-powered collections can improve recovery rates by 20–30%, while Deloitte highlights automation can reduce effort by up to 50%. AiXbfs enables institutions to achieve these gains by modernising the entire collections lifecycle.'
+            },
+            {
+                id: 4,
+                title: 'AiXbfs: A New Approach to Intelligent Collections',
+                content: [
+                    'AiXbfs offers a fully integrated collections management framework that combines automation, tracking, analytics, and AI-based recommendations. Instead of relying on manual spreadsheets and fragmented systems, financial institutions gain a centralised engine that guides agents, supervisors, and leadership teams with precise insights.',
+                ]
+            },
+            {
+                id: 5,
+                title: '',
+                content: [
+                    'AI-Driven Probability-to-Pay Models: AiXbfs predicts the likelihood of repayment using advanced AI models. It analyses borrower behaviour, payment history, demographic data, and device metadata to prioritise accounts intelligently.',
+                    'Smart Automated Task Allocation: AiXbfs automates assignment of accounts based on geography, skill level, performance, workload, and risk category.',
+                    'Geo-Verified Field Operations: Agents’ visits are geo-verified so supervisors can track activities in real-time and intervene when required.',
+                    'Real-Time Dashboards and Analytics: AiXbfs provides operational visibility through agent activity timelines, performance scores, recovery progress, flagged cases, overdue accounts, and productivity metrics.',
+                    'Intelligent Communication and Follow-Ups: Enables personalised communication based on behaviour patterns and predicted outcomes.',
+                    'Fraud Detection and Compliance: Provides audit trails, call logs, visit validations, automated compliance rules, and fraud alerts.',
+                    'Integrating Enterprise Functions: Integrates collections with credit, customer service, legal and operations—enabling seamless workflows and cross-functional communication.'
+                ]
+            },
+            {
+                id: 6,
+                title: 'Strengthening Performance Across Field and Telecalling Teams',
+                content: [
+                    'AiXbfs standardises operations across field agents and telecallers with tools for attendance tracking, productivity scoring, location monitoring, real-time updates, escalations, and performance analytics.',
+                    'This improves efficiency, reduces absenteeism, and strengthens accountability.'
+                ]
+            },
+            {
+                id: 7,
+                title: 'A Future-Ready Collections Framework',
+                content: [
+                    'The future of collections relies heavily on prediction, automation, and digital engagement.',
+                    'AiXbfs enables institutions to shift from reactive collections to predictive, proactive, and performance-driven strategy — protecting revenue and strengthening financial health.'
+                ],
+                finalPoint: 'With intelligent automation, BFSI organisations can improve recovery rates, reduce operational costs, enhance customer engagement, and ensure compliance — securing stronger financial outcomes.'
+            }
+        ]
+    },
+    ////////////////////////////////////////////////////////////////////////////
+    {
+        bannerTitle: 'How AiXBFS is Transforming Digital Lending: Faster Decisions, Lower Risk, Higher Profitability',
+        bannerDiscription: 'Advanced scoring, workflow automation, and real-time analytics make digital lending faster, safer, and more profitable.',
+        image: '/images/blogs/newblogs/aixbfsblog-3.jpg',
+        writtenBy: 'Muskan Sonda',
+        writtenDate: '08/12/2025',
+        type: 'AiXBFS Blogs',
+        status: '',
+        id: 19,
 
-    contents: [
-        {
-            id: 1,
-            title: '',
-            content: [
-                'The digital lending landscape has undergone a remarkable evolution in recent years. As customers increasingly expect instant approvals, seamless onboarding, and transparent communication, lenders are under pressure to modernise systems that were built for a slower, paper-heavy era.',
-                'Legacy underwriting workflows, manual document checks, inconsistent credit evaluations, and outdated processes can no longer support the speed and scale required in today’s financial world.',
-                'This urgency for transformation has led financial institutions to embrace intelligent solutions powered by automation, analytics, and artificial intelligence. Among the platforms leading this shift is AiXBFS, a comprehensive suite designed to reimagine digital lending from end to end.'
-            ]
-        },
-        {
-            id: 2,
-            title: '',
-            content: [
-                'Digital lending today is not simply about digitising paper forms or creating online applications. It is about building a system capable of analysing data intelligently, predicting borrower behaviour, accelerating risk assessments, meeting regulatory demands, and personalising customer journeys in real time.',
-                'AiXBFS excels in all these areas, empowering lenders to operate with precision, agility, and confidence.'
-            ]
-        },
-        {
-            id: 3,
-            title: 'The Shift from Traditional to Intelligent Lending',
-            content: [
-                'The limitations of conventional lending environments are becoming more evident each day. Manual documentation slows down approval cycles, human-driven underwriting increases inconsistencies, and fragmented data makes risk evaluation unreliable.',
-                'AI-enabled lending changes this paradigm entirely. Instead of relying on labour-intensive and error-prone workflows, institutions can implement streamlined, automated systems capable of evaluating borrowers accurately and efficiently.',
-                'Research from McKinsey indicates that AI-driven automation can reduce credit decisioning time by up to 70 percent. Meanwhile, Deloitte reports that data-led underwriting significantly lowers default rates and improves profitability.'
-            ]
-        },
-        {
-            id: 4,
-            title: 'AiXBFS: A New Standard for Digital Lending Excellence',
-            content: [
-                'AiXBFS introduces a truly modern approach to lending, one that prioritises speed without compromising on accuracy, compliance, or risk governance. Its lending engine is designed with advanced technology and deep industry insights, supporting end-to-end operations from onboarding through recovery.'
-            ]
-        },
-        {
-            id: 5,
-            title: '',
-            content: [
-                'Intelligent Digital Onboarding: AiXBFS enables instant, intelligent onboarding powered by automated KYC, digital document verification, and real-time validation checks.',
-                'AI-Enhanced Underwriting: Machine learning and predictive analytics evaluate creditworthiness to improve accuracy and consistency.',
-                'Real-Time Credit Scoring: Behavioural, transactional, and demographic data drive reliable and intelligent scoring models.',
-                'Faster, Automated Approvals: Automated workflow routing reduces approval time from days to minutes, improving borrower satisfaction and conversion.',
-                'End-to-End Loan Management: Supports complete loan lifecycle with intelligent dashboards, automated reminders, and integrations with AiXHub.'
-            ]
-        },
-        {
-            id: 6,
-            title: 'Strengthening Risk Governance at Every Stage',
-            content: [
-                'Risk is inherent to lending, but AiXBFS ensures proactive and intelligent risk management. Machine learning models predict risk exposure and identify early signs of default.',
-                'Fraud detection systems highlight anomalies and suspicious patterns before they escalate.',
-                'Continuous learning models enhance accuracy over time, strengthening decision-making.'
-            ]
-        },
-        {
-            id: 7,
-            title: 'Improving Operational Efficiency Across Teams',
-            content: [
-                'AiXBFS streamlines operations by automating manual tasks, eliminating duplication, and accelerating communication through instant alerts and smart workflows.',
-                'Dashboards provide visibility into approval cycles, performance metrics, pipeline volumes, servicing quality, and customer behaviour.'
-            ]
-        },
-        {
-            id: 8,
-            title: 'Delivering Better Customer Experiences',
-            content: [
-                'Customers today expect speed, clarity, and convenience. AiXBFS provides instant updates, transparent communication, personalised recommendations, mobile-friendly experiences, and faster decisions.'
-            ]
-        },
-        {
-            id: 9,
-            title: 'Compliance and Audit-Ready Operations',
-            content: [
-                'Compliance is integral to BFSI operations, and AiXBFS ensures it is embedded across every workflow. Automated validations, audit logs, document records, and role-based permissions strengthen regulatory governance.',
-                'Institutions enhance compliance further with modules such as Governance Risk & Compliance.'
-            ]
-        },
-        {
-            id: 10,
-            title: 'The Future of Lending Powered by AiXBFS',
-            content: [
-                'Digital lending is here to stay, and institutions that adopt intelligent automation will remain ahead of the curve.',
-                'With AI-driven workflows, automated decisions, and future-ready architecture, AiXBFS enables lenders to innovate confidently and ensure stronger outcomes.',
-            ],
-            finalPoint: 'AiXBFS empowers BFSI leaders to scale faster, reduce risk, improve profitability, and deliver lending systems that are more secure, efficient, and customer-centric than ever before.'
-        }
-    ]
-},
-//////////////////////////////////////////////////////////////////////
-{
-    bannerTitle: 'The Silent Guardian: How AIXBFS is Fortifying BFSI Security and Compliance in Real-Time',
-    bannerDiscription: 'Automated controls, audit visibility, and behavioural intelligence protect institutions with real-time compliance and data integrity.',
-    image: '/images/vertical/section2Image.png',
-    writtenBy: 'Muskan Sonda',
-    writtenDate: '08/12/2025',
-    type: 'AiXBFS Blogs',
-    status: '',
-    id: 20,
+        contents: [
+            {
+                id: 1,
+                title: '',
+                content: [
+                    'The digital lending landscape has undergone a remarkable evolution in recent years. As customers increasingly expect instant approvals, seamless onboarding, and transparent communication, lenders are under pressure to modernise systems that were built for a slower, paper-heavy era.',
+                    'Legacy underwriting workflows, manual document checks, inconsistent credit evaluations, and outdated processes can no longer support the speed and scale required in today’s financial world.',
+                    'This urgency for transformation has led financial institutions to embrace intelligent solutions powered by automation, analytics, and artificial intelligence. Among the platforms leading this shift is AiXBFS, a comprehensive suite designed to reimagine digital lending from end to end.'
+                ]
+            },
+            {
+                id: 2,
+                title: '',
+                content: [
+                    'Digital lending today is not simply about digitising paper forms or creating online applications. It is about building a system capable of analysing data intelligently, predicting borrower behaviour, accelerating risk assessments, meeting regulatory demands, and personalising customer journeys in real time.',
+                    'AiXBFS excels in all these areas, empowering lenders to operate with precision, agility, and confidence.'
+                ]
+            },
+            {
+                id: 3,
+                title: 'The Shift from Traditional to Intelligent Lending',
+                content: [
+                    'The limitations of conventional lending environments are becoming more evident each day. Manual documentation slows down approval cycles, human-driven underwriting increases inconsistencies, and fragmented data makes risk evaluation unreliable.',
+                    'AI-enabled lending changes this paradigm entirely. Instead of relying on labour-intensive and error-prone workflows, institutions can implement streamlined, automated systems capable of evaluating borrowers accurately and efficiently.',
+                    'Research from McKinsey indicates that AI-driven automation can reduce credit decisioning time by up to 70 percent. Meanwhile, Deloitte reports that data-led underwriting significantly lowers default rates and improves profitability.'
+                ]
+            },
+            {
+                id: 4,
+                title: 'AiXBFS: A New Standard for Digital Lending Excellence',
+                content: [
+                    'AiXBFS introduces a truly modern approach to lending, one that prioritises speed without compromising on accuracy, compliance, or risk governance. Its lending engine is designed with advanced technology and deep industry insights, supporting end-to-end operations from onboarding through recovery.'
+                ]
+            },
+            {
+                id: 5,
+                title: '',
+                content: [
+                    'Intelligent Digital Onboarding: AiXBFS enables instant, intelligent onboarding powered by automated KYC, digital document verification, and real-time validation checks.',
+                    'AI-Enhanced Underwriting: Machine learning and predictive analytics evaluate creditworthiness to improve accuracy and consistency.',
+                    'Real-Time Credit Scoring: Behavioural, transactional, and demographic data drive reliable and intelligent scoring models.',
+                    'Faster, Automated Approvals: Automated workflow routing reduces approval time from days to minutes, improving borrower satisfaction and conversion.',
+                    'End-to-End Loan Management: Supports complete loan lifecycle with intelligent dashboards, automated reminders, and integrations with AiXHub.'
+                ]
+            },
+            {
+                id: 6,
+                title: 'Strengthening Risk Governance at Every Stage',
+                content: [
+                    'Risk is inherent to lending, but AiXBFS ensures proactive and intelligent risk management. Machine learning models predict risk exposure and identify early signs of default.',
+                    'Fraud detection systems highlight anomalies and suspicious patterns before they escalate.',
+                    'Continuous learning models enhance accuracy over time, strengthening decision-making.'
+                ]
+            },
+            {
+                id: 7,
+                title: 'Improving Operational Efficiency Across Teams',
+                content: [
+                    'AiXBFS streamlines operations by automating manual tasks, eliminating duplication, and accelerating communication through instant alerts and smart workflows.',
+                    'Dashboards provide visibility into approval cycles, performance metrics, pipeline volumes, servicing quality, and customer behaviour.'
+                ]
+            },
+            {
+                id: 8,
+                title: 'Delivering Better Customer Experiences',
+                content: [
+                    'Customers today expect speed, clarity, and convenience. AiXBFS provides instant updates, transparent communication, personalised recommendations, mobile-friendly experiences, and faster decisions.'
+                ]
+            },
+            {
+                id: 9,
+                title: 'Compliance and Audit-Ready Operations',
+                content: [
+                    'Compliance is integral to BFSI operations, and AiXBFS ensures it is embedded across every workflow. Automated validations, audit logs, document records, and role-based permissions strengthen regulatory governance.',
+                    'Institutions enhance compliance further with modules such as Governance Risk & Compliance.'
+                ]
+            },
+            {
+                id: 10,
+                title: 'The Future of Lending Powered by AiXBFS',
+                content: [
+                    'Digital lending is here to stay, and institutions that adopt intelligent automation will remain ahead of the curve.',
+                    'With AI-driven workflows, automated decisions, and future-ready architecture, AiXBFS enables lenders to innovate confidently and ensure stronger outcomes.',
+                ],
+                finalPoint: 'AiXBFS empowers BFSI leaders to scale faster, reduce risk, improve profitability, and deliver lending systems that are more secure, efficient, and customer-centric than ever before.'
+            }
+        ]
+    },
+    //////////////////////////////////////////////////////////////////////
+    {
+        bannerTitle: 'The Silent Guardian: How AIXBFS is Fortifying BFSI Security and Compliance in Real-Time',
+        bannerDiscription: 'Automated controls, audit visibility, and behavioural intelligence protect institutions with real-time compliance and data integrity.',
+        image: '/images/vertical/section2Image.png',
+        writtenBy: 'Muskan Sonda',
+        writtenDate: '08/12/2025',
+        type: 'AiXBFS Blogs',
+        status: '',
+        id: 20,
 
-    contents: [
-        {
-            id: 1,
-            title: '',
-            content: [
-                'In the high-stakes world of banking and finance, security and compliance are not just IT concerns—they are the bedrock of trust and operational integrity. Yet, many institutions rely on patchworks of legacy systems and manual processes, creating a reactive defence that is always one step behind emerging threats and regulatory changes.',
-                'The result? Vulnerability to fraud, exhausting audit preparations, and significant regulatory exposure.',
-                'The modern financial landscape demands a proactive, intelligent, and integrated approach to risk management. This is where AIXBFS acts as a silent guardian, embedding robust security and automated compliance directly into the operational DNA of financial institutions.'
-            ]
-        },
-        {
-            id: 2,
-            title: 'The High Cost of Reactive Security and Manual Compliance',
-            content: [
-                'Traditional methods are failing under the weight of modern challenges:',
-            ],
-            subItemTitle: '',
-            subItems: [
-                { item: 'Fraud Evolution: Advanced real-time fraud schemes bypass rule-based detection systems without AI-driven pattern monitoring.', content: '' },
-                { item: 'Regulatory Overload: Tracking evolving mandates manually increases compliance risk and operational strain.', content: '' },
-                { item: 'Audit Agony: Weeks of manual document collection result in delays and errors during audit preparation.', content: '' },
-            ],
-            finalPoint: 'A study by the Association of Certified Fraud Examiners shows that organisations using proactive monitoring detect fraud faster and suffer significantly lower losses.'
-        },
-        {
-            id: 3,
-            title: 'The AIXBFS Shield: Proactive Defence and Automated Adherence',
-            content: [
-                'The platform addresses these challenges with a multi-layered, intelligent defence strategy.'
-            ]
-        },
-        {
-            id: 4,
-            title: '',
-            content: [
-                'Real-Time Fraud Detection and AML: Using machine learning to analyse live transactional patterns and behaviour, AIXBFS flags anomalies such as rapid small withdrawals or impossible geo-logins.',
-                'The Always-On Compliance Officer (AIXGovern360): Automated regulatory monitoring with a continuously updated rules library for RBI, FIU, SEBI and more.',
-                'Unbreachable Data Integrity & Audit Trails: Role-based access and immutable logging ensure the ability to provide audit-ready reports instantly.'
-            ]
-        },
-        {
-            id: 5,
-            title: 'Building a Culture of Security and Compliance',
-            content: [
-                'Technology alone is not enough — true protection requires alignment across people, process, and governance.',
-                'AIXBFS elevates risk culture with real-time alerts and intuitive dashboards that give decision-makers full visibility into risk posture and operational integrity.',
-                'This transforms compliance from a constraint into a competitive advantage aligned with global GRC standards.'
-            ]
-        },
-        {
-            id: 6,
-            title: 'Conclusion: From Vulnerability to Vigilance',
-            content: [
-                'In an era where a single breach can destroy decades of trust and a compliance mistake can trigger crippling penalties, proactive intelligence becomes essential.',
-                'AIXBFS delivers that shield — replacing uncertainty with assurance and operating as a silent guardian that protects institutional integrity, customer trust, and long-term stability.'
-            ],
-            finalPoint: 'The future of BFSI belongs to institutions that secure aggressively, comply continuously, and respond intelligently—powered by AIXBFS.'
-        }
-    ]
-}
+        contents: [
+            {
+                id: 1,
+                title: '',
+                content: [
+                    'In the high-stakes world of banking and finance, security and compliance are not just IT concerns—they are the bedrock of trust and operational integrity. Yet, many institutions rely on patchworks of legacy systems and manual processes, creating a reactive defence that is always one step behind emerging threats and regulatory changes.',
+                    'The result? Vulnerability to fraud, exhausting audit preparations, and significant regulatory exposure.',
+                    'The modern financial landscape demands a proactive, intelligent, and integrated approach to risk management. This is where AIXBFS acts as a silent guardian, embedding robust security and automated compliance directly into the operational DNA of financial institutions.'
+                ]
+            },
+            {
+                id: 2,
+                title: 'The High Cost of Reactive Security and Manual Compliance',
+                content: [
+                    'Traditional methods are failing under the weight of modern challenges:',
+                ],
+                subItemTitle: '',
+                subItems: [
+                    { item: 'Fraud Evolution: Advanced real-time fraud schemes bypass rule-based detection systems without AI-driven pattern monitoring.', content: '' },
+                    { item: 'Regulatory Overload: Tracking evolving mandates manually increases compliance risk and operational strain.', content: '' },
+                    { item: 'Audit Agony: Weeks of manual document collection result in delays and errors during audit preparation.', content: '' },
+                ],
+                finalPoint: 'A study by the Association of Certified Fraud Examiners shows that organisations using proactive monitoring detect fraud faster and suffer significantly lower losses.'
+            },
+            {
+                id: 3,
+                title: 'The AIXBFS Shield: Proactive Defence and Automated Adherence',
+                content: [
+                    'The platform addresses these challenges with a multi-layered, intelligent defence strategy.'
+                ]
+            },
+            {
+                id: 4,
+                title: '',
+                content: [
+                    'Real-Time Fraud Detection and AML: Using machine learning to analyse live transactional patterns and behaviour, AIXBFS flags anomalies such as rapid small withdrawals or impossible geo-logins.',
+                    'The Always-On Compliance Officer (AIXGovern360): Automated regulatory monitoring with a continuously updated rules library for RBI, FIU, SEBI and more.',
+                    'Unbreachable Data Integrity & Audit Trails: Role-based access and immutable logging ensure the ability to provide audit-ready reports instantly.'
+                ]
+            },
+            {
+                id: 5,
+                title: 'Building a Culture of Security and Compliance',
+                content: [
+                    'Technology alone is not enough — true protection requires alignment across people, process, and governance.',
+                    'AIXBFS elevates risk culture with real-time alerts and intuitive dashboards that give decision-makers full visibility into risk posture and operational integrity.',
+                    'This transforms compliance from a constraint into a competitive advantage aligned with global GRC standards.'
+                ]
+            },
+            {
+                id: 6,
+                title: 'Conclusion: From Vulnerability to Vigilance',
+                content: [
+                    'In an era where a single breach can destroy decades of trust and a compliance mistake can trigger crippling penalties, proactive intelligence becomes essential.',
+                    'AIXBFS delivers that shield — replacing uncertainty with assurance and operating as a silent guardian that protects institutional integrity, customer trust, and long-term stability.'
+                ],
+                finalPoint: 'The future of BFSI belongs to institutions that secure aggressively, comply continuously, and respond intelligently—powered by AIXBFS.'
+            }
+        ]
+    }
 
 
 

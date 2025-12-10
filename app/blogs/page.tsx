@@ -93,10 +93,10 @@ const BlogsTemplate = () => {
         } */}
 
         {
-  categories.map((type, index) => (
-    <TechnologySection key={index} type={type} />
-  ))
-}
+          categories.map((type, index) => (
+            <TechnologySection key={index} type={type} />
+          ))
+        }
         <SuggestedBlogSection />
 
       </section>

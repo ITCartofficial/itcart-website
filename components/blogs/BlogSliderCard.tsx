@@ -30,16 +30,16 @@ interface Posts {
     contents: ContentItem[];
 }
 
-const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, id, bannerDiscription }) => {
+const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, id, bannerDiscription, image }) => {
     const convertToSlug = (text: string) => {
-  return text
-    .toLowerCase()
-    .replace(/ /g, "-")
-    .replace(/[^\w-]+/g, "");
-};
+        return text
+            .toLowerCase()
+            .replace(/ /g, "-")
+            .replace(/[^\w-]+/g, "");
+    };
 
 
-// console.log("bannerTitle", bannerTitle);
+    // console.log("bannerTitle", bannerTitle);
 
     return (
         <div className="flex flex-col md:flex-row bg-black text-white rounded-2xl overflow-hidden shadow-lg gap-8 md:gap-11 h-auto">
@@ -55,7 +55,7 @@ const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, id, bannerDiscription })
 
             <div className="relative w-full md:w-1/2 h-[250px] sm:h-[300px] md:h-[500px] rounded-2xl overflow-hidden">
                 <Image
-                    src={'/images/about/ai-image.jpg'}
+                    src={image ?? ""}
                     alt={bannerTitle}
                     fill
                     className="object-cover object-center"
