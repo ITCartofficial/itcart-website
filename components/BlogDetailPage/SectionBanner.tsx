@@ -22,6 +22,7 @@ interface FilteredData {
     writtenBy?: string;
     writtenDate?: string;
     contents: ContentItem[];
+    image?: string
 }
 
 const SectionBanner = ({ filterdData }: { filterdData: FilteredData }) => {
@@ -59,7 +60,7 @@ const SectionBanner = ({ filterdData }: { filterdData: FilteredData }) => {
                 {/* RIGHT SECTION — IMAGE */}
                 <div className="flex-1 flex justify-center">
                     <Image
-                        src={"/images/vertical/section2Image.png"}
+                        src={filterdData?.image ?? ""}
                         alt={"Blog Image"}
                         width={600}
                         height={500}

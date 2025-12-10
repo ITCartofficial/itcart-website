@@ -11,7 +11,7 @@ interface SubItem {
 }
 
 interface ContentItem {
-    id: number | string; 
+    id: number | string;
     title: string;
     content: string[];
     subItems?: SubItem[];
@@ -104,7 +104,10 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                         <ul className="space-y-2 text-lg underline underline-offset-4">
                             {
                                 filterdData?.contents?.map((data, index) =>
-                                    <li key={index} className={`text-[16px] cursor-pointer`}> {parseContentWithLinks(data?.title)}</li>
+                                    <li onClick={() => {
+                                        const section = document.getElementById(`section-${index}`);
+                                        section?.scrollIntoView({ behavior: "smooth" });
+                                    }} key={index} className={`text-[16px] cursor-pointer`}> {parseContentWithLinks(data?.title)}</li>
                                 )
                             }
                         </ul>
@@ -114,7 +117,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                     <div className="space-y-3 text-gray-300 leading-relaxed text-[16px]">
                         {
                             filterdData?.contents?.map((data, index) =>
-                                <div key={index}>
+                                <div key={index} id={`section-${index}`}>
                                     <GradientTitle
                                         text={data?.title}
                                         theme="dark"

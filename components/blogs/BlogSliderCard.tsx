@@ -1,7 +1,9 @@
+"use client";
 import OutlineBtn from '@/components/buttons/OutlineBtn';
 import BodyText from '@/components/typography/BodyText';
 import GradientTitle from '@/components/typography/GradientTitle';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa6';
 
@@ -38,11 +40,13 @@ const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, id, bannerDiscription, i
             .replace(/[^\w-]+/g, "");
     };
 
+    const router = useRouter()
+
 
     // console.log("bannerTitle", bannerTitle);
 
     return (
-        <div className="flex flex-col md:flex-row bg-black text-white rounded-2xl overflow-hidden shadow-lg gap-8 md:gap-11 h-auto">
+        <div onClick={() => router.push(`/blogs/${convertToSlug(bannerTitle)}?id=${id}`)} className="flex flex-col md:flex-row bg-black text-white rounded-2xl overflow-hidden shadow-lg gap-8 md:gap-11 h-auto">
             {/* Image Section */}
             <div className='block md:hidden'>
                 <p className='text-[#9A9A9A] text-[16px] text-center md:texr-start'>Editor’s Pick</p>

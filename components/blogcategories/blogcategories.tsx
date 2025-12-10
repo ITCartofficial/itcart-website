@@ -1,0 +1,61 @@
+
+"use client"
+import { industryData } from "@/lib/data/industryData";
+import ServiceCard from "../cards/ServiceCard";
+import { newBlogData } from "@/lib/data/newBlogData";
+import { usePathname } from "next/navigation";
+
+
+interface IndustryGridProps {
+    className?: string;
+}
+
+// export default function blogcategoriGrid() {
+const Blogcategories: React.FC<IndustryGridProps> = ({ className = "" }) => {
+
+    const convertToSlug = (text: string) => {
+        return text
+            .toLowerCase()
+            .replace(/ /g, "-")
+            .replace(/[^\w-]+/g, "");
+    };
+
+    function slugToText(slug: string) {
+        return slug.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    const pathName = usePathname().split('/')[2]
+
+    console.log("pathName", slugToText(pathName).toLowerCase());
+
+
+
+    // console.log(slugToText(pathName));
+    const filteredData = newBlogData?.filter(
+        (blog) => blog.type.toLowerCase() === slugToText(pathName).toLowerCase()
+    );
+    // const filterdData = newBlogData?.map((blogs, index) => blogs.type.toLowerCase() == slugToText(pathName).toLowerCase())
+
+    console.log("filteredData", filteredData);
+
+    return (
+        <section className={`w-full flex pb-16 bg-black container ${className}`}>
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                {filteredData.map((data, index) => (
+                    <ServiceCard
+                        key={`${data.bannerTitle}-${index}`}
+                        title={`${data.bannerTitle?.substring(0, 25)}...`}
+                        // title={data.bannerTitle}
+                        description={data.bannerDiscription}
+                        linkUrl={"#"}
+                        imageSrc={data.image}
+                        imageAlt={`${data.bannerTitle} illustration`}
+                    />
+                ))}
+            </div>
+            {/* </div> */}
+        </section>
+    )
+}
+
+export default Blogcategories;

@@ -86,11 +86,6 @@ const BlogsTemplate = () => {
         <BlogSlider posts={newBlogData} />
         <BlogGridLayout posts={newBlogData} />
         <NewsletterSection />
-        {/* {
-          [1, 2, 3,]?.map((data) =>
-            <TechnologySection />
-          )
-        } */}
 
         {
           categories.map((type, index) => (
