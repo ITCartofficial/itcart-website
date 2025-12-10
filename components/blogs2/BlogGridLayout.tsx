@@ -34,7 +34,7 @@ interface Posts {
 const slugify = (text: string) =>
   text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-const BlogGridLayout = ({ posts }: { posts: Posts[]}) => {
+const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
   const featuredPost = posts[0];
 
   return (

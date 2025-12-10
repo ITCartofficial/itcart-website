@@ -40,6 +40,7 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({
     showColumn,
     classNameTwo
 }) => {
+
     return (
         <div className={`w-full ${showColumn ? 'lg:flex' : "flex"} items-center overflow-hidden px-2 py-4 text-white shadow-lg ${showColumn} ${className}`}>
             {/* Image Section */}
