@@ -21,6 +21,7 @@ const TechnologySection = ({ type }: { type: string }) => {
             .replace(/ /g, "-")
             .replace(/[^\w-]+/g, "");
     };
+
     return (
         <div className='container'>
             <div className='flex justify-between'>
@@ -30,7 +31,8 @@ const TechnologySection = ({ type }: { type: string }) => {
                     theme='dark'
                     className="text-4xl leading-tight"
                 />
-                <LinkButton text='View All' url='#' />
+                {/* ${convertToSlug(post?.bannerTitle) */}
+                <LinkButton text='View All' url={`blogcategories/${convertToSlug(filteredPosts[0]?.type)  }`} />
             </div>
             {/* <div className='grid grid-cols-1 md:grid-cols-3 py-10 gap-10 lg:gap-20'>
                 {filteredPosts.map((post, index) => (
@@ -50,13 +52,13 @@ const TechnologySection = ({ type }: { type: string }) => {
                         <BlogCard
                             key={index}
                             imageUrl={post.image}
-                            title={post.bannerTitle}    
+                            title={post.bannerTitle}
                             description={post.bannerDiscription}
                             author={post.writtenBy}
                             date={post.writtenDate}
 
-                            linkUrl= {`/blogs/${convertToSlug(post?.bannerTitle)}?id=${post?.id}`}
-                            // linkUrl={`/blogs/${post?.bannerTitle}/${post.id}`}
+                            linkUrl={`/blogs/${convertToSlug(post?.bannerTitle)}?id=${post?.id}`}
+                        // linkUrl={`/blogs/${post?.bannerTitle}/${post.id}`}
                         />
                     ))}
                 </div>

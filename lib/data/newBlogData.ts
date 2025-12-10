@@ -4,7 +4,7 @@ export const newBlogData = [
     {
         bannerTitle: 'How AiXHub Is Shaping the Future of Enterprise AI in 2025',
         bannerDiscription: 'Explore how AiXHub helps enterprises automate workflows, unify data, and make smarter decisions. Learn why AI-powered transformation is becoming the new business standard.',
-        image: '/images/blogs/newblogs/Reinforcement-learning-models.jpg',
+        image: '/images/blogs/newblogs/How AiXHub Is Shaping.jpg',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
         id: 1,
@@ -2215,7 +2215,6 @@ export const newBlogData = [
                 content: ['Traditional underwriting relies on medical records, questionnaires, and broad statistical tables. InsureAiX replaces this approach by calculating risk using real-life, real-time indicators. Biological age, micro-stress markers, environmental exposure, and long-term lifestyle data become core components of premium decisions. This method not only increases accuracy but also makes underwriting more equitable. ',
 
                     "With this intelligence, insurers can avoid overcharging healthy individuals who may appear high-risk on paper, while also detecting hidden vulnerabilities in individuals who seem low-risk based solely on conventional assessments. Over time, this approach reduces loss ratios, strengthens portfolio quality, and enhances customer trust.  ",
-
                     "InsureAiX’s risk intelligence is strengthened further through integrations with enterprise systems available via iTCart, including the Digital Transformation service offerings. These integrations help insurers automate risk workflows, create unified dashboards, and align decision-making across teams.  "
 
                 ]
