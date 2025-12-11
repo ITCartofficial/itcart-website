@@ -67,7 +67,7 @@ const BlogCard: React.FC<ServiceCardProps> = ({
 
                 <div className="absolute bottom-0 left-0 w-full py-4 px-6">
                     <GradientTitle
-                        text={title}
+                        text={`${title.split(" ").slice(0, 4).join(" ")}...`}
                         theme="dark"
                         className="text-4xl"
                     />
