@@ -34,7 +34,7 @@ const SectionBanner = ({ filterdData }: { filterdData: FilteredData }) => {
                 <div className="flex-1">
                     {/* Breadcrumb */}
                     <p className="text-gray-400 text-sm mb-3">
-                        Blog › How to Build...
+                        Blog ›  {filterdData?.bannerTitle.split(" ").slice(0, 4).join(" ")}...
                     </p>
 
                     {/* Title */}

@@ -1,5 +1,5 @@
 "use client";
-import { usePathname, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import HomeFaqSection from "@/app/(features)/home/HomeFaqSection";
 import BlogContents from "@/components/BlogDetailPage/BlogContent";
 import SectionBanner from "@/components/BlogDetailPage/SectionBanner";
@@ -9,20 +9,15 @@ const SingleBlogPage = () => {
 
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
-  const pathName = usePathname
 
   const filterdData = newBlogData.find((blog) => blog.id?.toString() === id);
 
   if (!filterdData) {
-    return <div>Blog post not found</div>;
+    return <div className="text-white">Blog post not found</div>;
   }
-
-  console.log("pathName", pathName);
-
 
   return (
     <div className="mt-10 md:mt-30  space-y-20 mb-10">
-
 
       <SectionBanner filterdData={filterdData} />
 
