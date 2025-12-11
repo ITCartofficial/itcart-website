@@ -32,7 +32,7 @@ interface Posts {
     contents: ContentItem[];
 }
 
-const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, id, bannerDiscription, image }) => {
+const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, bannerDiscription, image }) => {
     const convertToSlug = (text: string) => {
         return text
             .toLowerCase()
@@ -46,7 +46,7 @@ const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, id, bannerDiscription, i
     // console.log("bannerTitle", bannerTitle);
 
     return (
-        <div onClick={() => router.push(`/blogs/${convertToSlug(bannerTitle)}?id=${id}`)} className="flex flex-col md:flex-row bg-black text-white rounded-2xl overflow-hidden shadow-lg gap-8 md:gap-11 h-auto">
+        <div onClick={() => router.push(`/blogs/${convertToSlug(bannerTitle)}`)} className="flex flex-col md:flex-row bg-black text-white rounded-2xl overflow-hidden shadow-lg gap-8 md:gap-11 h-auto">
             {/* Image Section */}
             <div className='block md:hidden'>
                 <p className='text-[#9A9A9A] text-[16px] text-center md:texr-start'>Editor’s Pick</p>
@@ -107,7 +107,7 @@ const BlogSliderCard: React.FC<Posts> = ({ bannerTitle, id, bannerDiscription, i
                         showBorderaButton={true}
                         text="Read More"
                         textColor="#FFFFFF"
-                        url={`/blogs/${convertToSlug(bannerTitle)}?id=${id}`}
+                        url={`/blogs/${convertToSlug(bannerTitle)}`}
                         icon={<FaArrowRight size={16} color="#FFFFFF" />}
                     />
                 </div>
