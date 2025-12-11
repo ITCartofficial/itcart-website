@@ -4549,4 +4549,13 @@ export const verticalData = [
             about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
         }
     },
+
+
+
+
+
+
+
+
+
 ];
