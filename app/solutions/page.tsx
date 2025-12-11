@@ -17,11 +17,7 @@ export default function Page() {
 
 
     return (
-
-
-
         <html lang="en">
-
             <head>
                 <title>AI-native Digital Transformation Solutions | iTCart </title>
                 <meta name="description" content="Discover intelligent automation, ERP, BFSI, healthcare, and enterprise AI solutions from iTCart. Streamline operations, boost growth, and build future-ready businesses." />

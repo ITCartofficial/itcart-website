@@ -8,13 +8,13 @@ const addressList: AddressCardProps[] = [
   {
     country: "India",
     phone: "+91 80888 49174",
-    email: "sales@itcart.io",
+    email: "globalcto@itcart.io",
     location: "WeWork Galaxy, Bengaluru, KA, India",
   },
   {
     country: "US",
     phone: "+1 (313) 790-2882",
-    email: "ceo@itcart.io",
+    email: " globalceo@itcart.io",
     location: "Toledo, Ohio, USA",
   },
   {
