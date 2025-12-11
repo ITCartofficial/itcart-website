@@ -32,13 +32,6 @@ const BlogCard: React.FC<ServiceCardProps> = ({
 
     const pathName = usePathname().split('/')[1]
 
-    const formattedTitle = title
-        .toLowerCase()
-        .replace(/\s+/g, '-')
-        .replace(/[&,]/g, '');
-    // const formattedTitle = title.replace(/\s+/g, '-').replace(/&/g, '&');
-
-
     const convertToSlug = (text: string) => {
         return text
             .toLowerCase()
