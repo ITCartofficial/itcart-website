@@ -2628,7 +2628,7 @@ export const newBlogData = [
     {
         bannerTitle: 'Predictive Life Risk Modelling with InsureAiX',
         bannerDiscription: 'Future-focused risk prediction transforms how insurers identify vulnerabilities, forecast claims, and personalise long-term life protection.',
-        image: '/images/vertical/section2Image.png',
+        image: '/images/blogs/newblogs/insureaixblog-4.jpg',
         writtenBy: 'Muskan Sonda',
         writtenDate: '08/12/2025',
         type: "InsureAiX Blogs",
@@ -2746,7 +2746,7 @@ export const newBlogData = [
     {
         bannerTitle: 'Redefining Underwriting with Intelligent Risk Modelling Through InsureAiX ',
         bannerDiscription: 'Smarter underwriting powered by advanced signals, biological intelligence, and transparent decision-making for fairer insurance outcomes.',
-        image: '/images/vertical/section2Image.png',
+        image: '/images/blogs/newblogs/insureaixblog-5.jpg',
         writtenBy: 'Muskan Sonda',
         writtenDate: '04/12/2025',
         type: "InsureAiX Blogs",
