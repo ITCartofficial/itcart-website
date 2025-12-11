@@ -4724,6 +4724,149 @@ export const verticalData = [
     },
 
 
+    {
+        title: "Startup Services",
+        description: "Real estate solutions digitizing property lifecycles with smart documentation, CRM, dashboards, and immersive virtual tours.",
+        linkUrl: "/services/startup-services",
+        imageSrc: "/images/services/startup-service.png",
+        compenyName: 'AiXManufacturing',
+        verticalCompenyLogo: '/images/verticalLogos/AiXReality.png',
+        compenyLogo: '/images/verticalLogos/AiXReality.png',
+        detailPage: {
+            metaTitle: 'AI Manufacturing Platform | Smart Factory & Predictive Automation ',
+            metaDescription: 'Revolutionize production with AiXManufacturing—AI-powered platform for predictive maintenance, real-time analytics, and digital twin automation. ',
+            bannerTitle: "Smart Manufacturing Intelligence Platform",
+            bannerDescription: "Revolutionizing factory operations with AI-powered predictive analytics and automation. ",
+            bannerImage: "/images/vertical/AiXReality-banner.jpg",
+            mobileBannerImage: "/images/vertical/AiXRealty-MobileBanner.jpg",
+            banerAltImg: "AI in property management ",
+            impactImage: '/images/vertical/AiXReality-impact.png',
+            VerticalContentSection2Heading: 'Manufacturing Challenges We Solve',
+            aboutSectionHeading: 'Smart Factory Revolution ',
+            capabilitiSectionHeading: 'Core Platform Capabilities',
+            skillGapSectionHeading: 'Built For Industry Leaders',
+            FAQsHeading: 'Everything You Need to Know About AiXRealty',
+            VerticalContentSection2: {
+                contentOne: "Modern manufacturing faces fragmented systems, unpredictable downtime, manual processes, and poor visibility across operations. AiXManufacturing eliminates these bottlenecks with a unified AI manufacturing platform that connects machines, workforce, inventory, and finances in real time using advanced AI-driven manufacturing solutions. ",
+                contenttwo: "",
+                sectionTwoFirstImage: "/images/vertical/AiXReality-section.png",
+                imgAlt: "predictive analytics for real estate "
+            },
+            impactImgAlt: "smart property management ",
+            impactsAboutAlt: "real estate workflow automation ",
+            impacts: [
+                "Reduce unplanned downtime by up to 90% with predictive maintenance AI and intelligent equipment monitoring.",
+                "Achieve 40% faster production cycles by optimizing workflows through smart manufacturing process automation.",
+                "Lower operational costs by 20–30% using intelligent resource allocation and AI-driven manufacturing efficiency.",
+                "Improve inventory turnover with AI-driven demand forecasting and continuous manufacturing process optimization.",
+                "Enhance quality control with 90% faster defect detection using AI-powered analytics across the production line.",
+                "Minimize energy costs through smart consumption optimization algorithms and continuous performance insights.",
+                "Increase equipment utilization rates with real-time performance monitoring powered by predictive maintenance software.",
+                "Accelerate compliance reporting through automated tracking, documentation, and manufacturing process automation."
+            ],
+            aboutSection: {
+                aboutImage: '/images/vertical/AiXReality-about.png',
+                logo: '/images/vertical/AiXReality-darkLogo.png',
+                contentOne: "AiXManufacturing transforms traditional manufacturing into intelligent, self-optimizing operations through predictive maintenance, real-time analytics, and automated decision-making. Our AI manufacturing software integrates seamlessly with existing systems and delivers measurable ROI within 18 months by reducing operational costs, accelerating production cycles, and strengthening quality control through end-to-end process automation and optimization. ",
+                contenttwo: "",
+                contentthree: '',
+                imgAlt: "AI property management "
+            },
+            CapabilitySections: [
+                {
+                    title: "Predictive Intelligence ",
+                    description: "Advanced predictive maintenance AI models help prevent equipment failures and optimize maintenance schedules through intelligent predictive maintenance software. ",
+                    gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
+                },
+                {
+                    title: "Real-Time Analytics",
+                    description: "Unified dashboards provide instant visibility across all manufacturing operations, with AI-driven insights highlighting performance, bottlenecks, and trends. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Process Automation",
+                    description: "No-code manufacturing process automation streamlines workflows without requiring technical expertise, enabling consistent operational excellence. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Digital Twin Technology",
+                    description: "No-code manufacturing process automation streamlines workflows without requiring technical expertise, enabling consistent operational excellence. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Smart Inventory Management",
+                    description: "AI-driven forecasting prevents stockouts and optimizes procurement cycles through intelligent inventory and process optimization.  ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                },
+                {
+                    title: "Financial Optimization",
+                    description: "Integrated cost tracking and budget deviation alerts support higher profitability through real-time operational intelligence and data-backed decision-making. ",
+                    gradient: "from-[#222222] to-[#111111]", // dark
+                }
+            ],
+            skillGapSection: [
+                {
+                    icon: '/images/vertical/icons/aixreality-icon1.svg',
+                    title: "Plant Managers ",
+                    highlight: "Gain centralized visibility across multi-location operations with AI-powered manufacturing solutions that unify key production metrics.",
+                    description: "",
+                    gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/aixreality-icon2.svg',
+                    title: "Operations Teams ",
+                    highlight: "Access real-time insights to optimize equipment performance using predictive maintenance and automated manufacturing workflows. ",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+                {
+                    icon: '/images/vertical/icons/aixreality-icon3.svg',
+                    title: "Maintenance Engineers ",
+                    highlight: "Use predictive maintenance AI analytics for proactive equipment care and maximizing uptime across all critical assets.  ",
+                    description: "",
+                    gradient: "from-[#222222] to-[#111111]",   // add gradient
+                },
+            ],
+            FAQs: [
+                {
+                    id: '1',
+                    title: 'How quickly can AiXManufacturing be deployed?',
+                    content: 'Our phased implementation approach enables deployment within 4–6 weeks, with early results visible in pilot areas once AI-powered manufacturing integration begins.'
+                },
+                {
+                    id: '2',
+                    title: 'Does it integrate with existing manufacturing systems?',
+                    content: 'Yes. AiXManufacturing seamlessly connects with ERP, MES, PLM, and legacy systems through robust integration APIs and process-automation connectors.'
+                },
+                {
+                    id: '3',
+                    title: 'What ROI can we expect from implementation?',
+                    content: 'Manufacturing clients typically see 20–30% cost reduction and measurable efficiency gains within 18 months, driven by predictive maintenance and AI-enabled process optimization.'
+                },
+                {
+                    id: '4',
+                    title: 'Is technical expertise required for operation?',
+                    content: 'Our no-code AI manufacturing tools enable operations teams to manage workflows and automation without needing programming expertise.'
+                },
+                {
+                    id: '5',
+                    title: 'How does predictive maintenance work?',
+                    content: 'Predictive maintenance AI analyses sensor data to detect early failure patterns and automatically schedules maintenance before equipment breaks down, using advanced predictive monitoring software.'
+                }
+            ]
+            ,
+            logo: 'AiXQP-whitelogo',
+            section2Data: '',
+            section2Image: '/images/vertical/section2Image.png',
+            section2FirstParagraph: 'Traditional online education platforms suffer from generic content delivery, low completion rates hovering around 10–20%, digital fatigue, and one-size-fits-all learning experiences.',
+            section2SecondParagraph: 'These challenges create engagement drops, content overload, and skills gaps among educators, while learners struggle with outdated materials and a lack of personalized guidance. Industry transformation demands intelligent, adaptive learning solutions.',
+            aboutImage: '',
+            apropriectContentOne: 'AiXRealty platform runs on AiXHub, the core of the AiX Framework—offering AI-native automation, predictive analytics, and smart property management capabilities tailored for real estate operations. ',
+            apropriectContenTwo: 'Whether you are managing portfolios, optimizing tenant matching, or automating workflows, AiXHub empowers real estate professionals with intelligent, scalable solutions that transform operations and improve decision-making through smart property management and predictive analytics for real estate. ',
+            aboutFirstParagraph: 'AiXQP is iTCarts revolutionary AI learning platform that transforms traditional education through intelligent, adaptive, and personalized learning experiences. Unlike platforms that bolt AI as an add-on, AiXQP is built ground-up with AI-native study tools and real-time tutoring AI capabilities.',
+            about2SecondParagraph: 'Powered by the proprietary AiXHub engine, this platform delivers online courses platform, interactive AI tutors, and continuous intelligence that evolves with learner needs, ensuring faster skill development and industry relevance across multiple domains.',
+        }
+    },
 
 
 
