@@ -79,7 +79,6 @@ const BlogCard: React.FC<BlogCardProps> = ({
   text={"Continue Reading"}
   url={finalUrl}
 />
-
             </div>
           </div>
         </div>
