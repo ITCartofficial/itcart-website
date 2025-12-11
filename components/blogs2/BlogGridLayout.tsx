@@ -61,7 +61,7 @@ const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
                 description={featuredPost.bannerDiscription}
                 date={featuredPost.writtenDate ?? ""}
                 id={featuredPost.id}
-                linkUrl={`/blogs/${slugify(featuredPost.bannerTitle)}?id=${featuredPost.id}`}
+                linkUrl={`/blogs/${slugify(featuredPost.bannerTitle)}`}
 
               />
             </div>
@@ -69,7 +69,7 @@ const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
             {/* Second Column - Four Horizontal Cards */}
             <div className="flex flex-col gap-4">
               {posts.slice(1, 5).map((post) => (
-                <a key={post.id} href={`/blogs/${slugify(post.bannerTitle)}?id=${post.id}`}>
+                <a key={post.id} href={`/blogs/${slugify(post.bannerTitle)}`}>
                   <div className='bg-[#212121] rounded-lg'>
                     <HorizontalCard
                       imageUrl={post.image}
@@ -93,7 +93,7 @@ const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
             {posts.slice(5, 10).map((post, index) => (
               <a
                 key={post.id}
-                href={`/blogs/${slugify(post.bannerTitle)}?id=${post.id}`}
+                href={`/blogs/${slugify(post.bannerTitle)}`}
               >
                 <NumberedCard
                   number={`0${index + 1}`}

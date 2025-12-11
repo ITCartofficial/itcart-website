@@ -9,20 +9,23 @@ const SingleBlogPage = () => {
 
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
-  const pathName = usePathname
+  const pathName = usePathname()
 
-  const filterdData = newBlogData.find((blog) => blog.id?.toString() === id);
+  const convertToSlug = (text: string) => {
+    return text
+      .toLowerCase()
+      .replace(/ /g, "-")
+      .replace(/[^\w-]+/g, "");
+  };
+
+  const filterdData = newBlogData.find((blog) => pathName.split('/')[2] === convertToSlug(blog?.bannerTitle));
 
   if (!filterdData) {
-    return <div>Blog post not found</div>;
+    return <div className="text-white">Blog post not found</div>;
   }
-
-  console.log("pathName", pathName);
-
 
   return (
     <div className="mt-10 md:mt-30  space-y-20 mb-10">
-
 
       <SectionBanner filterdData={filterdData} />
 

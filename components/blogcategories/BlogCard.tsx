@@ -30,8 +30,6 @@ const BlogCard: React.FC<ServiceCardProps> = ({
 
     const router = useRouter();
 
-    const pathName = usePathname().split('/')[1]
-
     const convertToSlug = (text: string) => {
         return text
             .toLowerCase()
@@ -41,7 +39,7 @@ const BlogCard: React.FC<ServiceCardProps> = ({
 
     return (
         <div
-            onClick={() => router.push(`/blogs/${convertToSlug(title)}?id=${id}`)}
+            onClick={() => router.push(`/blogs/${convertToSlug(title)}`)}
             className={`flex flex-col w-full max-w-max overflow-hidden rounded-3xl bg-black cursor-pointer ${className}`}>
             <div className="relative h-96">
                 {imageSrc ? (

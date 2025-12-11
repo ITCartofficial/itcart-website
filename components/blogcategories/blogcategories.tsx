@@ -20,7 +20,7 @@ const Blogcategories: React.FC<IndustryGridProps> = ({ className = "" }) => {
             .replace(/[^\w-]+/g, "");
     };
 
-    function slugToText(slug: string) {
+    function slugToText(slug: string) { 
         return slug.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
     }
 
