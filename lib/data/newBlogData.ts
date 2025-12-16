@@ -52,23 +52,23 @@ export const newBlogData = [
                 content: ['AiXHub delivers targeted AI solutions across multiple verticals, tailored to industry-specific challenges.'],
                 subItems: [
                     {
-                        item: 'AiXERP — The Intelligent Core of Business Operations',
+                        item: '<link text="AiXERP" url="https://itcart.ai/products/aixerp" /> — The Intelligent Core of Business Operations',
                         content: 'AiXERP unifies finance, procurement, inventory, and HR into one real-time system.It reduces delays and gives leaders accurate insights to scale without chaos.'
                     },
                     {
-                        item: 'AiXDesk — Smart Automation for Workplace Productivity',
+                        item: ' <link text="AiXDesk" url="https://itcart.ai/our-verticals/aixdesk" /> — Smart Automation for Workplace Productivity',
                         content: 'Repetitive workflows like approvals, ticketing, and document handling are automated — helping employees focus on strategic work.'
                     },
                     {
-                        item: 'AiXGRC — Automated Governance, Risk & Compliance',
+                        item: ' <link text="AiXGRC" url="https://itcart.ai/products/aixgrc" /> — Automated Governance, Risk & Compliance',
                         content: 'AiXGRC continuously tracks compliance, risk exposure, and audit activity — reducing manual oversight and protecting the business from disruptions.'
                     },
                     {
-                        item: 'AiXbfs — Financial Intelligence for Better Business Decisions',
+                        item: ' <link text="AiXbfs" url="https://itcart.ai/products/aixbfs" /> — Financial Intelligence for Better Business Decisions',
                         content: 'From predictive analytics to fraud detection, AiXbfs empowers finance and banking teams with insight that drives profitable growth.'
                     },
                     {
-                        item: 'CyberAiX — Real-Time AI Security & Threat Prevention',
+                        item: ' <link text="CyberAiX" url="https://itcart.ai/products/cyberaix" /> — Real-Time AI Security & Threat Prevention',
                         content: 'CyberAiX detects anomalies, prevents cyberattacks, and safeguards sensitive data at every touchpoint.'
                     },
                 ],
@@ -136,11 +136,11 @@ export const newBlogData = [
                 content: ['AI adoption continues to grow worldwide:'],
                 subItems: [
                     {
-                        item: 'According to McKinsey’s State of AI 2025, organizations are moving from pilot projects to scaling AI across core operations, achieving measurable efficiency gains.<link text="Source:" url="https://mckinsey.com" />  ',
+                        item: 'According to McKinsey’s State of AI 2025, organizations are moving from pilot projects to scaling AI across core operations, achieving measurable efficiency gains. Source: <link text="mckinsey.com" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" />  ',
                         content: ''
                     },
                     {
-                        item: 'Studies show AI-driven automation reduces processing times by 40–80%, particularly in finance, compliance, and operational workflows.<link text="Source:" url="https://arxiv.org" /> ',
+                        item: 'Studies show AI-driven automation reduces processing times by 40–80%, particularly in finance, compliance, and operational workflows. Source: <link text="arxiv.org" url="https://arxiv.org/abs/2506.01423" /> ',
                         content: ''
                     }
                 ],

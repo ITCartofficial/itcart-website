@@ -2637,7 +2637,7 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXERP – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixerp",
+                        "url": "https://itcart.ai/products/aixerp",
                         "description": "AiXERP is an AI-powered enterprise resource planning platform that unifies finance, HR, supply chain, and operations with intelligent automation, analytics, and cloud-native ERP capabilities.",
 
                         "mainEntity": {
@@ -2645,7 +2645,7 @@ export const verticalData = [
                             "name": "AiXERP",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "BusinessApplication",
-                            "url": "https://itcart.ai/our-verticals/aixerp",
+                            "url": "https://itcart.ai/products/aixerp",
                             "description": "AiXERP automates end-to-end business operations including finance, HR, procurement, inventory, manufacturing, CRM, and compliance with AI-driven workflows and predictive analytics.",
 
                             "applicationSuite": [
@@ -2713,13 +2713,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXERP",
-                                    "item": "https://itcart.ai/our-verticals/aixerp"
+                                    "item": "https://itcart.ai/products/aixerp"
                                 }
                             ]
                         }
@@ -2942,7 +2942,7 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXGRC – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixgrc",
+                        "url": "https://itcart.ai/products/aixgrc",
                         "description": "AiXGRC is an AI-powered governance, risk, and compliance (GRC) automation platform that centralizes risk assessments, audits, policy workflows, and compliance monitoring with intelligent analytics.",
 
                         "mainEntity": {
@@ -2950,7 +2950,7 @@ export const verticalData = [
                             "name": "AiXGRC",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "BusinessApplication",
-                            "url": "https://itcart.ai/our-verticals/aixgrc",
+                            "url": "https://itcart.ai/products/aixgrc",
                             "description": "AiXGRC unifies governance, risk, audit, compliance, and policy automation using AI-driven workflows, predictive analytics, real-time monitoring, and enterprise-grade regulatory intelligence.",
 
                             "applicationSuite": [
@@ -3018,13 +3018,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXGRC",
-                                    "item": "https://itcart.ai/our-verticals/aixgrc"
+                                    "item": "https://itcart.ai/products/aixgrc"
                                 }
                             ]
                         }
@@ -3233,7 +3233,7 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "CyberAiX – iTCart",
-                        "url": "https://itcart.ai/our-verticals/cyberaix",
+                        "url": "https://itcart.ai/products/cyberaix",
                         "description": "CyberAiX is an AI-powered cybersecurity platform offering real-time threat detection, automated incident response, SOC automation, and zero trust protection for modern enterprises.",
 
                         "mainEntity": {
@@ -3241,7 +3241,7 @@ export const verticalData = [
                             "name": "CyberAiX",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "SecurityApplication",
-                            "url": "https://itcart.ai/our-verticals/cyberaix",
+                            "url": "https://itcart.ai/products/cyberaix",
                             "description": "CyberAiX delivers AI-driven threat intelligence, SOC automation, incident response orchestration, and zero trust defense, integrating with cloud, SIEM, SOAR, EDR/XDR, IAM, and enterprise security ecosystems.",
 
                             "applicationSuite": [
@@ -3309,13 +3309,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "CyberAiX",
-                                    "item": "https://itcart.ai/our-verticals/cyberaix"
+                                    "item": "https://itcart.ai/products/cyberaix"
                                 }
                             ]
                         }
@@ -3539,7 +3539,7 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXHeat – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixheat",
+                        "url": "https://itcart.ai/products/aixheat",
                         "description": "AiXHeat is an AI-powered HVAC operations platform that automates energy optimization, predictive maintenance, and multi-zone climate control for buildings and industrial facilities.",
 
                         "mainEntity": {
@@ -3547,7 +3547,7 @@ export const verticalData = [
                             "name": "AiXHeat",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "BusinessApplication",
-                            "url": "https://itcart.ai/our-verticals/aixheat",
+                            "url": "https://itcart.ai/products/aixheat",
                             "description": "AiXHeat transforms traditional HVAC systems into smart, AI-driven networks with predictive maintenance, autonomous thermal modeling, IoT-based monitoring, and energy optimization capabilities.",
 
                             "applicationSuite": [
@@ -3615,13 +3615,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXHeat",
-                                    "item": "https://itcart.ai/our-verticals/aixheat"
+                                    "item": "https://itcart.ai/products/aixheat"
                                 }
                             ]
                         }
@@ -3831,7 +3831,7 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXRealty – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixrealty",
+                        "url": "https://itcart.ai/products/aixrealty",
                         "description": "AiXRealty is an AI-powered real estate management platform that automates property operations, tenant lifecycle workflows, predictive analytics, valuation intelligence, and investment optimization.",
 
                         "mainEntity": {
@@ -3839,7 +3839,7 @@ export const verticalData = [
                             "name": "AiXRealty",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "BusinessApplication",
-                            "url": "https://itcart.ai/our-verticals/aixrealty",
+                            "url": "https://itcart.ai/products/aixrealty",
                             "description": "AiXRealty transforms real estate and property management with AI-driven workflow automation, predictive analytics, tenant matching, valuation intelligence, and smart operations across commercial and residential portfolios.",
 
                             "applicationSuite": [
@@ -3907,13 +3907,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXRealty",
-                                    "item": "https://itcart.ai/our-verticals/aixrealty"
+                                    "item": "https://itcart.ai/products/aixrealty"
                                 }
                             ]
                         }
@@ -4113,7 +4113,7 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXMotorSports – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixmotorsports",
+                        "url": "https://itcart.ai/products/aixmotorsports",
                         "description": "AiXMotorSports is an AI-powered motorsport performance analytics platform that optimizes race strategy, processes real-time telemetry, and delivers intelligent performance insights for racing teams.",
 
                         "mainEntity": {
@@ -4121,7 +4121,7 @@ export const verticalData = [
                             "name": "AiXMotorSports",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "BusinessApplication",
-                            "url": "https://itcart.ai/our-verticals/aixmotorsports",
+                            "url": "https://itcart.ai/products/aixmotorsports",
                             "description": "AiXMotorSports optimizes racing performance with AI motorsport analytics, predictive race strategy, FIA-compliant execution control, and real-time telemetry insights across 300+ sensor streams.",
 
                             "applicationSuite": [
@@ -4189,13 +4189,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXMotorSports",
-                                    "item": "https://itcart.ai/our-verticals/aixmotorsports"
+                                    "item": "https://itcart.ai/products/aixmotorsports"
                                 }
                             ]
                         }
@@ -4402,7 +4402,7 @@ export const verticalData = [
                     {
                         "@type": "WebPage",
                         "name": "AiXEnergy – iTCart",
-                        "url": "https://itcart.ai/our-verticals/aixenergy",
+                        "url": "https://itcart.ai/products/aixenergy",
                         "description": "AiXEnergy is an AI-powered energy management platform that optimizes renewable systems, smart grids, energy forecasting, and predictive maintenance for sustainable, efficient operations.",
 
                         "mainEntity": {
@@ -4410,7 +4410,7 @@ export const verticalData = [
                             "name": "AiXEnergy",
                             "operatingSystem": "Web, Cloud",
                             "applicationCategory": "BusinessApplication",
-                            "url": "https://itcart.ai/our-verticals/aixenergy",
+                            "url": "https://itcart.ai/products/aixenergy",
                             "description": "AiXEnergy enhances renewable energy operations, smart grids, and industrial energy usage through AI-powered forecasting, asset intelligence, Solar CRM integration, and predictive maintenance.",
 
                             "applicationSuite": [
@@ -4478,13 +4478,13 @@ export const verticalData = [
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Our Verticals",
-                                    "item": "https://itcart.ai/our-verticals"
+                                    "item": "https://itcart.ai/products"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
                                     "name": "AiXEnergy",
-                                    "item": "https://itcart.ai/our-verticals/aixenergy"
+                                    "item": "https://itcart.ai/products/aixenergy"
                                 }
                             ]
                         }
