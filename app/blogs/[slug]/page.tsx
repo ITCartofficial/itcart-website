@@ -17,7 +17,6 @@ const SingleBlogPage = () => {
     return <div>Blog post not found</div>;
   }
 
-  console.log("pathName", pathName);
 
 
   return (
