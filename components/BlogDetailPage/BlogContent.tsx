@@ -1,9 +1,7 @@
 import { FaInstagram, FaXTwitter, FaLinkedin, FaFacebook } from "react-icons/fa6";
 import CaseStudyCard from "../cards/CaseStudyCard";
 import GradientTitle from "../typography/GradientTitle";
-
-
-
+import Image from "next/image";
 
 interface SubItem {
     item: string;
@@ -13,6 +11,7 @@ interface SubItem {
 interface ContentItem {
     id: number | string;
     title: string;
+    image?: string; 
     content: string[];
     subItems?: SubItem[];
     subItemTitle?: string;
@@ -98,7 +97,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                         <GradientTitle
                             text={"Table of contents:"}
                             theme="dark"
-                            className={`text-[26px] mb-3 lg:items-start sm:text-[32px] md:text-[36px]  w-full lg:w-[80%] leading-[1.2]`}
+                            className={`text-[26px] mb-3 lg:items-start sm:text-[32px] md:text-[36px]  w-full h-[160px] leading-[1.2]`}
                         />
 
                         <ul className="space-y-2 text-lg underline underline-offset-4">
@@ -126,12 +125,28 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
 
                                     {
                                         data?.content?.map((content: string, index: number) =>
-                                            <p key={index} className={`text-[14px] ${index != 0 ? "mt-2" : "mt-0"}`}>
-                                                {parseContentWithLinks(content)}
-                                            </p>
+                                            <>
+                                                <p key={index} className={`text-[14px] ${index != 0 ? "mt-2" : "mt-0"}`}>
+                                                    {parseContentWithLinks(content)}
+                                                </p>
+                                            </>
+
                                         )
                                     }
 
+                                    {
+                                        data?.image && ( 
+                                            <Image
+                                                width={500}
+                                                height={300}
+                                                alt="image"
+                                                src={data?.image}
+                                                // className={`mb-3 mt-3 lg:items-start  w-full lg:w-[100%] leading-[1.2] rounded-xl`}
+                                                className="mb-3 mt-3 w-full h-[350px] object-cover rounded-xl
+    "
+                                            />
+                                        )
+                                    }
 
 
                                     <ul className="list-disc list-outside text-white leading-relaxed space-y-3 pl-6 mt-4">
