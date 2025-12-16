@@ -7,18 +7,26 @@ import { usePathname } from "next/navigation";
 import BlogCard from "./BlogCard";
 
 
+
+// 
 interface IndustryGridProps {
     className?: string;
+    setCategoryName: React.Dispatch<React.SetStateAction<string | undefined>>;
 }
 
-const Blogcategories: React.FC<IndustryGridProps> = ({ className = "" }) => {
 
-    const convertToSlug = (text: string) => {
-        return text
-            .toLowerCase()
-            .replace(/ /g, "-")
-            .replace(/[^\w-]+/g, "");
-    };
+const Blogcategories: React.FC<IndustryGridProps> = ({
+    className = "",
+    setCategoryName
+}) => {
+
+
+    // const convertToSlug = (text: string) => {
+    //     return text
+    //         .toLowerCase()
+    //         .replace(/ /g, "-")
+    //         .replace(/[^\w-]+/g, "");
+    // };
 
     function slugToText(slug: string) { 
         return slug.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
@@ -28,6 +36,11 @@ const Blogcategories: React.FC<IndustryGridProps> = ({ className = "" }) => {
     const filteredData = newBlogData?.filter(
         (blog) => blog.type.toLowerCase() === slugToText(pathName).toLowerCase()
     );
+
+    setCategoryName(filteredData[0]?.type)
+
+    console.log("filteredData", filteredData[0]?.type);
+
 
     return (
         <section className={`w-full flex pb-16 bg-black container ${className}`}>
