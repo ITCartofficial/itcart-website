@@ -1,15 +1,17 @@
 "use client";
 import Blogcategories from "@/components/blogcategories/blogcategories";
 import BlogsHero from "@/components/blogs2/BlogsHero";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const blogcategories = ({ params }: { params: { id: string } }) => {
-    const slug = params.id;
-    const type = slug
+
+    const pathName = usePathname()
+
+    const type = pathName.split('/')[2]
         .replace(/-/g, " ")
         .replace(/\b\w/g, (c) => c.toUpperCase());
 
-    // const [categoryName, setCategoryName] = useState();
     const [categoryName, setCategoryName] = useState<string | undefined>();
 
 
@@ -19,11 +21,13 @@ const blogcategories = ({ params }: { params: { id: string } }) => {
             <div className="pb-20">
                 <BlogsHero
                     title={categoryName ?? ""}
+
+                    // title={categoryName ?? ""}
                     description="Explore our IT blog hub for cutting-edge insights, expert advice, and industry updates. Stay informed on the latest tech trends with our comprehensive collection of informative and engaging blog posts."
                     breadcrumbItems={[
                         { label: "Home", url: "/" },
                         { label: "Blogs", url: "/blogs" },
-                        { label: type, url: `/blogcategories/${slug}` }
+                        { label: "type", url: `/blogcategories/${"slug"}` }
                     ]}
                     reduceTitle={true}
                     className="pb-20 w-[80%]"
