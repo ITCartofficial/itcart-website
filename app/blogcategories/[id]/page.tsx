@@ -4,7 +4,7 @@ import BlogsHero from "@/components/blogs2/BlogsHero";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
-const blogcategories = ({ params }: { params: { id: string } }) => {
+const blogcategories = () => {
 
     const pathName = usePathname()
 
