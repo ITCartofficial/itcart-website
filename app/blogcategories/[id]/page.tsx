@@ -14,7 +14,6 @@ const blogcategories = () => {
 
     const [categoryName, setCategoryName] = useState<string | undefined>();
 
-
     return (
         <section className="w-full bg-black text-white pt-32 pb-20 md:px-4 border-b-2 border-[#525252] space-y-15 lg:space-y-25">
 
@@ -22,7 +21,6 @@ const blogcategories = () => {
                 <BlogsHero
                     title={categoryName ?? ""}
 
-                    // title={categoryName ?? ""}
                     description="Explore our IT blog hub for cutting-edge insights, expert advice, and industry updates. Stay informed on the latest tech trends with our comprehensive collection of informative and engaging blog posts."
                     breadcrumbItems={[
                         { label: "Home", url: "/" },
