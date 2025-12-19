@@ -192,19 +192,19 @@ function StrugglingPoint() {
                     </ul>
 
 
-                    <div className="mt-4">
+                    {/* <div className="mt-4">
                         <OutlineBtn
                             url='/contact-us'
                             text="See Enterprise Use Cases"
                             textColor='#ffffff'
                             icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                         />
-                    </div>
+                    </div> */}
 
                 </div>
 
 
-                
+
             </section>
 
         </div>

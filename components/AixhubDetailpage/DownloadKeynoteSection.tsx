@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import OutlineBtn from "../buttons/OutlineBtn";
 import { FaArrowRight } from "react-icons/fa6";
@@ -25,9 +26,8 @@ const DownloadKeynoteSection: React.FC<DownloadKeynoteSectionProps> = ({
         md:h-[350px] 
         flex items-center justify-center
         text-white
-        bg-cover bg-center bg-no-repeat
+        bg-cover  bg-no-repeat
       "
-            //   downloadimage
             style={{
                 backgroundImage: `url(${bgImage || "/images/fueld2025/downloadimage.jpg"})`,
             }}
@@ -47,9 +47,6 @@ const DownloadKeynoteSection: React.FC<DownloadKeynoteSectionProps> = ({
                             className={`text-[26px] text-center  lg:items-center sm:text-[32px] md:text-[36px] w-[70%] [1.2]`}
                         />
                     </div>
-                    {/* <h2 className="font-bold text-2xl sm:text-3xl md:text-[36pxss] md:w-[80%]">
-                        {title ? title : "Download the Full FUELD Dubai Keynote"}
-                    </h2> */}
                 </div>
 
 
@@ -57,18 +54,22 @@ const DownloadKeynoteSection: React.FC<DownloadKeynoteSectionProps> = ({
                     {subTitle ? subTitle : "   12 minutes that reframe how enterprises should think about AI, governance, intelligence, and the future of work."}
                 </p>
 
-                <div className="w-full justify-center flex mt-3">
-                    <OutlineBtn
-                        url={btnUrl ? btnUrl : '/contact-us'}
-                        text={btnName ? btnName : "Download the Keynote"}
-                        textColor='#ffffff'
-                        icon={<FaArrowRight className="text-sm font-semibold text-white" />}
-                    />
 
+                <div className="w-full flex justify-center mt-3">
+                    <button
+
+                        onClick={() => window.open("https://wa.me/918088849174", "_blank")}
+                    >
+                        <OutlineBtn
+                            text={btnName || "Download the Keynote"}
+                            textColor="#ffffff"
+                            icon={<FaArrowRight className="text-sm font-semibold text-white" />}
+                        />
+                    </button>
                 </div>
 
             </div>
-        </section>
+        </section >
     );
 };
 

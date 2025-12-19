@@ -93,7 +93,7 @@ const EosOperatingSystemSection = () => {
             <div className="flex w-full justify-center mt-10" >
                 <OutlineBtn
                     url='/contact-us'
-                    text="Learn How AiXHub EOS Works "
+                    text="Download the Keynote Slides "
                     textColor='#ffffff'
                     icon={<FaArrowRight className="text-sm font-semibold text-white" />}
                 />

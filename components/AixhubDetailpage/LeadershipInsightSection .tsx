@@ -34,11 +34,11 @@ const LeadershipInsightSection = () => {
                     {/* <div className="mx-auto w-20 border-b border-cyan-400 my-6"></div> */}
 
                     <p className="text-xl sm:text-2xl font-bold mt-4">
-                        Mohammed Rohim Uddin
+                       - Mohammed Rohim Uddin -
                     </p>
 
-                    <p className=" mt-1 text-sm sm:text-base">
-                        Inventor of AiXHub EOS & Global CTO, ITCart
+                    <p className=" mt-1 text-[15px] sm:text-base">
+                       Inventor of AiXHub EOS
                     </p>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const WhyAIFailingSection = () => {
         },
         {
             name: "Operating Gap",
-            title: "74% struggle to scale. <20% reach enterprise-wide impact.",
+            title: "74% enterprises struggle to scale. <20% reach enterprise-wide impact. ",
         },
         {
             name: "Wrong Focus",
@@ -56,7 +56,7 @@ const WhyAIFailingSection = () => {
                                         theme="dark"
                                         className="text-[18px] sm:text-[20px] md:text-[20px]"
                                     />
-                                    <p className="text-gray-400 mt-1 text-[14px] md:text-[16px] leading-relaxed">
+                                    <p className="text-gray-400 mt-1 text-[14px] md:text-[16px] leading-relaxed w-[80%]">
                                         {data?.title ?? ""}
                                     </p>
                                 </div>

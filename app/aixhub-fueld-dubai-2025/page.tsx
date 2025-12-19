@@ -6,6 +6,8 @@ import LeadershipInsightSection from "@/components/AixhubDetailpage/LeadershipIn
 import DownloadKeynoteSection from "@/components/AixhubDetailpage/DownloadKeynoteSection";
 import EosOperatingSystemSection from "@/components/AixhubDetailpage/EosOperatingSystemSection";
 import Timeline100Day from "@/components/AixhubDetailpage/Timeline100Day";
+import DownloadSecetionTwo from "@/components/AixhubDetailpage/DownloadSecetionTwo";
+import AiRoadmap from "@/components/AixhubDetailpage/AiRoadmap";
 
 
 const AixhubDetailpage = () => {
@@ -22,7 +24,7 @@ const AixhubDetailpage = () => {
                 <LeadershipInsightSection />
             </div>
 
-            <DownloadKeynoteSection
+            <DownloadSecetionTwo
                 title=""
                 subTitle=""
                 btnName=""
@@ -39,7 +41,9 @@ const AixhubDetailpage = () => {
                 </div>
             </section>
 
-            <Timeline100Day />
+            {/* <Timeline100Day /> */}
+
+            <AiRoadmap />
 
             <DownloadKeynoteSection
                 title="Your Enterprise Already Has AI. Now It Needs an Operating System."

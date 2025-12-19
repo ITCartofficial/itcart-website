@@ -17,14 +17,17 @@ const AixHubVerticalBanner: React.FC = () => {
             ></div>
 
             {/* Content */}
-            <div className="relative max-w-5xl mx-auto px-4 text-center text-white ">
+            <div className="relative w-full mx-auto px-4 text-center text-white ">
 
-                <GradientTitle
-                    text={"AI Alone Doesn’t Transform Enterprises. "}
-                    as="h1"
-                    theme="dark"
-                    className={`text-[26px]  lg:items-center sm:text-[32px] md:text-[48px] [1.2]`}
-                />
+                <div className="w-full flex justify-center">
+                    <GradientTitle
+                        text={"AI Alone Doesn’t Transform Enterprises.  The Operating System Behind It Does"}
+                        as="h1"
+                        theme="dark"
+                        className={`text-[26px] lg:items-center sm:text-[32px] md:text-[48px] w-[85%] [1.2]`}
+                    />
+                </div>
+
 
                 <h2 className="mt-4 text-[15] md:text-[19px] font-bold">
                     AiXHub unveiled at FUELD Dubai 2025 by Mohammed Rohim Uddin
@@ -39,7 +42,7 @@ const AixHubVerticalBanner: React.FC = () => {
                 </p> */}
 
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-10">
-{/* 
+                    {/* 
                     <OutlineBtn
                         url="/contact-us"
                         text=" Explore AiXHub EOS "
