@@ -100,7 +100,7 @@ export const navItems = [
       { label: "Our Blogs", href: "/blogs" },
       { label: "Case Studies", href: "/case-study" },
       { label: "Careers", href: "/careers" },
-      { label: "Fueld", href: "/ixhub-fueld-dubai-2025" },
+      { label: "Fueld", href: "/aixhub-fueld-dubai-2025" },
     ],
   },
   // { label: "Careers", href: "/careers" },
