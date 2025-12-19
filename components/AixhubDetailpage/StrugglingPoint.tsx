@@ -91,14 +91,10 @@ function StrugglingPoint() {
     ];
     const [selected, setSelected] = useState(personas[0])
 
-    console.log("selected", selected);
-
-
-
     return (
         <div className="w-full">
             <GradientTitle
-                text={'Across Industries, the Pattern Is the Same.  AiXHub EOS Fixes It. '}
+                text={'Across Industries, the Pattern Is the Same. AiXHub EOS Fixes It. '}
                 theme="dark"
                 className="text-[25px] lg:text-[30px] md:text-[40px] w-[90%] text-center mx-auto  leading-[1.2]"
             />
@@ -156,7 +152,16 @@ function StrugglingPoint() {
                             ${selected.name === p.name ? "opacity-100" : "opacity-40 hover:opacity-60"}
                         `}
                         >
-                            <span className="text-teal-300 text-4xl">{p.icon}</span>
+                            <div className="mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[#2BADB7] overflow-hidden">
+                                <Image
+                                    src={serviceCardItems[index].icon || "/fallback-icon.png"}
+                                    alt={"icon"}
+                                    width={32}
+                                    height={32}
+                                    className="object-contain"
+                                />
+                            </div>
+                            {/* <span className="text-teal-300 text-4xl">{p.icon}</span> */}
                             <div>
                                 <p className="text-2xl font-semibold">{p.name}</p>
                                 <p className="text-lg opacity-60">{p.role}</p>
@@ -197,6 +202,9 @@ function StrugglingPoint() {
                     </div>
 
                 </div>
+
+
+                
             </section>
 
         </div>
