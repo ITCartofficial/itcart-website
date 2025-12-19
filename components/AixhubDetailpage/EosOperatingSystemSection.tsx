@@ -74,7 +74,7 @@ const EosOperatingSystemSection = () => {
 
                             <p className="text-sm text-gray-200 mt-1">{item.subtitle}</p>
 
-                            <div className="flex flex-col items-center mt-3 relative h-24">
+                            <div className="relative h-24 hidden lg:flex flex-col items-center mt-3">
                                 <div className="absolute top-0 w-4 h-4 bg-[#71E8F9] rounded-full"></div>
                                 <div className="absolute top-4 w-[2px] h-20 bg-[#71E8F9]"></div>
                             </div>
