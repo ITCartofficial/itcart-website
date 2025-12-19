@@ -6,8 +6,8 @@ import { useState } from "react";
 const blogcategories = ({ params }: { params: { id: string } }) => {
     const slug = params.id;
     const type = slug
-        .replace(/-/g, " ")
-        .replace(/\b\w/g, (c) => c.toUpperCase());
+        ?.replace(/-/g, " ")
+        ?.replace(/\b\w/g, (c) => c.toUpperCase());
 
     // const [categoryName, setCategoryName] = useState();
     const [categoryName, setCategoryName] = useState<string | undefined>();

@@ -5,13 +5,14 @@ import HorizontalCard from '../blogs/HorizontalCard';
 import NumberedCard from '../blogs/NumberCard';
 
 
+
 interface SubItem {
   item: string;
   content: string;
 }
 
 interface ContentItem {
-  id: number | string;  // Allow both number and string
+  id: number | string;  
   title: string;
   content: string[];
   subItems?: SubItem[];
@@ -33,6 +34,14 @@ interface Posts {
 
 const slugify = (text: string) =>
   text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+
+
+const convertToSlug = (text: string) => {
+  return text
+    .toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/[^\w-]+/g, "");
+};
 
 const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
   const featuredPost = posts[0];
@@ -69,7 +78,10 @@ const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
             {/* Second Column - Four Horizontal Cards */}
             <div className="flex flex-col gap-4">
               {posts.slice(1, 5).map((post) => (
-                <a key={post.id} href={`/blogs/${slugify(post.bannerTitle)}`}>
+                <a
+                  key={post.id}
+                  href={`/blogs/${convertToSlug(post.bannerTitle)}`}
+                >
                   <div className='bg-[#212121] rounded-lg'>
                     <HorizontalCard
                       imageUrl={post.image}
@@ -93,7 +105,7 @@ const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
             {posts.slice(5, 10).map((post, index) => (
               <a
                 key={post.id}
-                href={`/blogs/${slugify(post.bannerTitle)}`}
+                href={`/blogs/${convertToSlug(post.bannerTitle)}`}
               >
                 <NumberedCard
                   number={`0${index + 1}`}

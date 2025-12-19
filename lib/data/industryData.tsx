@@ -220,16 +220,16 @@ export const industryData = [
       aboutSection: {
         aboutImage: '/images/industries/automotive-sectionabout.png',
         logo: '/images/verticalLogos/AiXQP.png',
-        contentOne: "AiXHub Enterprise Operating System brings deep AI automation, intelligent decision-making, and scalable performance to your aviation operations. Whether you’re managing single-aircraft operations, coordinating multi-fleet networks, or scaling enterprise-wide airline systems, AiXHub EOS optimizes flight operations, enhances passenger experiences, and streamlines aviation workflows through intelligent automation.",
+        contentOne: "The automotive industry faces profound transformation challenges including electrification, software-defined vehicles, and evolving consumer expectations. Modern manufacturers require robust technological infrastructure enabling automotive digitalization and streamlined robotics in automotive manufacturing. iTCart delivers comprehensive automotive digital transformation services through AI-powered frameworks and predictive analytics for automotive excellence.",
         contenttwo: ""
       },
       skillGapSectionHeading: 'Automotive Manufacturing Excellence',
-      skillGapHeadingDescription: 'Accelerating automotive digitalization through our innovation solutions ',
+      skillGapHeadingDescription: 'Accelerating automotive digitalization through comprehensive innovation solutions',
       skillGapSection: [
         {
           icon: '/icons/Industry-icons/Automotive-icon1.svg',
           title: "Smart Manufacturing",
-          highlight: "Advanced robotics in automotive manufacturing with IoT integration, real-time monitoring, and our production optimization. ",
+          highlight: "Advanced robotics in automotive manufacturing with IoT integration, real-time monitoring, and comprehensive production optimization.",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
         },
@@ -243,24 +243,24 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Automotive-icon3.svg',
           title: "Predictive Intelligence",
-          highlight: "Real-time data analysis utilizing predictive analytics for automotive quality control and proactive maintenance optimization. ",
+          highlight: "Real-time data analysis utilizing predictive analytics for automotive quality control and proactive maintenance optimization.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
         {
           icon: '/icons/Industry-icons/Automotive-icon4.svg',
           title: "Connected Vehicles ",
-          highlight: "Advanced automotive manufacturing solutions for seamless connectivity through automotive digital transformation services elevating mobility experiences. ",
+          highlight: "Advanced automotive manufacturing solutions for seamless connectivity through automotive digital transformation services elevating mobility experiences.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
       ],
       solutionGridHeading: 'Our Automotive Software Solutions',
-      solutionGridHeadingDiscription: 'Advanced automotive manufacturing solutions for seamless connectivity through automotive digital transformation services elevating mobility experiences. ',
+      solutionGridHeadingDiscription: 'Explore our comprehensive suite of automotive manufacturing solutions ',
       solutionGridItems: [
         {
-          title: "PLM Integration Platform",
-          description: "Comprehensive automotive digitalization with product lifecycle management, engineering coordination, and resource allocation systems. ",
+          title: "PLM Integration Platform ",
+          description: "Comprehensive automotive digitalization with product lifecycle management, engineering coordination, and resource allocation systems.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/automotive-solution1.png'
           // automotive-solution1
@@ -273,54 +273,54 @@ export const industryData = [
         },
         {
           title: "Connected Vehicle Engine",
-          description: "Integrated software-defined platforms with over-the-air updates through innovation in automotive industry applications. ",
+          description: "Integrated software-defined platforms with over-the-air updates through innovation in automotive industry applications.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/automotive-solution3.png'
         },
         {
           title: "Analytics Intelligence System",
-          description: "Dynamic predictive analytics for automotive utilizing AI algorithms for quality forecasting, maintenance optimization, and detailed insights. ",
+          description: "Dynamic predictive analytics for automotive utilizing AI algorithms for quality forecasting, maintenance optimization, and comprehensive insights. ",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/automotive-solution4.png'
         },
         {
           title: "Supply Chain Platform",
-          description: "Automated inventory management, logistics tracking, vendor coordination, and optimization through our automotive digital transformation services. ",
+          description: "Automated inventory management, logistics tracking, vendor coordination, and optimization through comprehensive automotive digital transformation services.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/automotive-solution5.png'
         },
         {
-          title: "Compliance Management Hub",
-          description: "Regulatory adherence dashboards supporting automotive standards, audit trails, and documentation through advanced automotive manufacturing solutions. ",
+          title: "Compliance Management Hub ",
+          description: "Regulatory adherence dashboards supporting automotive standards, audit trails, and documentation through advanced automotive manufacturing solutions.",
           icon: '/images/vertical/icons/manicon.png',
           image: '/images/industries/automotive-solution6.png'
         }
       ],
       whyChooseUsHeading: 'Our Services',
-      whyChooseUsHeadingDescription: 'Explore our comprehensive automotive service portfolio ',
+      whyChooseUsHeadingDescription: 'Explore our comprehensive automotive service portfolio',
       whyChooseUsCards: [
         {
           image: '/images/industries/service1.png',
           title: 'Cybersecurity Services ',
-          content: 'Enterprise-level security protecting vehicle data, manufacturing systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all automotive touchpoints. '
+          content: 'Enterprise-level security protecting vehicle data, manufacturing systems, and operational infrastructure through comprehensive cybersecurity frameworks ensuring regulatory compliance and threat protection across all automotive touchpoints.'
         },
         {
           image: '/images/industries/service2.png',
           title: 'Application Services ',
-          content: 'Custom development for connected vehicle platforms, manufacturing management systems, and operational solutions through innovative automotive manufacturing solutions enabling digital transformation and enhanced efficiency. '
+          content: 'Custom development for connected vehicle platforms, manufacturing management systems, and operational solutions through innovative automotive manufacturing solutions enabling digital transformation and enhanced efficiency.'
         },
         {
           image: '/images/industries/service3.png',
           title: 'AI ML Automation',
-          content: 'Intelligent automation featuring robotics in automotive manufacturing applications for predictive maintenance, quality forecasting, and operational optimization delivering measurable performance improvements across automotive operations. '
+          content: 'Intelligent automation featuring robotics in automotive manufacturing applications for predictive maintenance, quality forecasting, and operational optimization delivering measurable performance improvements across automotive operations.'
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
-      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
+      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety',
       CapabilitySections: [
         {
           title: "Business Process Automation ",
-          description: "Intelligent workflow automation for automotive production scheduling, quality control processes, maintenance coordination, compliance procedures, and manufacturing-specific operational workflows.  ",
+          description: "Intelligent workflow automation for automotive production scheduling, quality control processes, maintenance coordination, compliance procedures, and manufacturing-specific operational workflows. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
@@ -335,12 +335,12 @@ export const industryData = [
         },
         {
           title: "Human Resource Management",
-          description: "Complete workforce scheduling, certification management, safety compliance optimization, automated HR processes, and talent management solutions for automotive manufacturing operations. ",
+          description: "Complete workforce scheduling, certification management, safety compliance optimization, automated HR processes, and talent management solutions for automotive manufacturing operations.   ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
           title: "Digital Transformation Suite ",
-          description: "Extensive digital modernization platform enabling automotive legacy system upgrades, process automation, technology integration, and enterprise-wide digital transformation services.",
+          description: "Comprehensive digital modernization platform enabling automotive legacy system upgrades, process automation, technology integration, and enterprise-wide digital transformation services. ",
           icon: '/images/vertical/icons/manicon.png'
         },
         {
@@ -358,7 +358,7 @@ export const industryData = [
         contenttwo: ""
       },
       futurSectionHeading: "Ready to get started?",
-      futurSectionDescription: "Transform your automotive operations with our wide range of digitalization solutions ",
+      futurSectionDescription: "Transform your automotive operations with comprehensive digitalization solutions",
       FAQsHeading: 'Everything You Need to Know About Automotive',
       FAQs: [
         {
