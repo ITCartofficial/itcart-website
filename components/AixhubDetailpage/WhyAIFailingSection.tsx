@@ -9,7 +9,7 @@ const WhyAIFailingSection = () => {
         },
         {
             name: "Operating Gap",
-            title: "74% struggle to scale. <20% reach enterprise-wide impact.",
+            title: "74% enterprises struggle to scale. <20% reach enterprise-wide impact. ",
         },
         {
             name: "Wrong Focus",
@@ -27,15 +27,15 @@ const WhyAIFailingSection = () => {
             <div className="">
                 {/* Heading */}
                 <GradientTitle
-                    text="AI Isn’t Failing Because of Technology."
+                    text="AI Isn’t Failing Because of Technology. It’s Failing Because of How Enterprises Operate."
                     as="h2"
                     theme="dark"
                     className="text-center text-[26px] sm:text-[32px] md:text-[36px]"
                 />
 
-                <p className="text-center text-gray-300 mt-3 text-[14px] sm:text-base md:text-lg">
+                {/* <p className="text-center text-gray-300 mt-3 text-[14px] sm:text-base md:text-lg">
                     It’s Failing Because of How Enterprises Operate.
-                </p>
+                </p> */}
 
                 {/* Layout */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-14 items-start">
@@ -56,7 +56,7 @@ const WhyAIFailingSection = () => {
                                         theme="dark"
                                         className="text-[18px] sm:text-[20px] md:text-[20px]"
                                     />
-                                    <p className="text-gray-400 mt-1 text-[14px] md:text-[16px] leading-relaxed">
+                                    <p className="text-gray-400 mt-1 text-[14px] md:text-[16px] leading-relaxed w-[80%]">
                                         {data?.title ?? ""}
                                     </p>
                                 </div>
@@ -67,7 +67,7 @@ const WhyAIFailingSection = () => {
                     {/* Right image */}
                     <div className="flex justify-center md:justify-end">
                         <img
-                            src="/images/fueld2025/failedimage.png"
+                            src="/images/fueld2025/failedimage.jpg"
                             alt="Failed system"
                             className="rounded-xl shadow-lg w-full max-w-md md:max-w-lg object-cover"
                         />

@@ -24,22 +24,21 @@ const LeadershipInsightSection = () => {
                     />
                 </div>
 
-
                 {/* quote + person */}
-                <div className="mt-16 text-center px-4 max-w-3xl mx-auto">
-                    <p className="italic text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed w-[100%]">
+                <div className="mt-16 text-center px-4 max-w-[80%] mx-auto">
+                    <p className="italic text-gray-300 text-[25px] sm:text-base md:text-[25px] leading-relaxed w-[100%]">
                         “Enterprises don’t need another AI tools, <br />
                         They need a system where intelligence can live, learn, and govern decisions.”
                     </p>
 
-                    <div className="mx-auto w-20 border-b border-cyan-400 my-6"></div>
+                    {/* <div className="mx-auto w-20 border-b border-cyan-400 my-6"></div> */}
 
-                    <p className="text-xl sm:text-2xl font-bold">
-                        Mohammed Rohim Uddin
+                    <p className="text-xl sm:text-2xl font-bold mt-4">
+                       - Mohammed Rohim Uddin -
                     </p>
 
-                    <p className=" mt-1 text-sm sm:text-base">
-                        Inventor of AiXHub EOS & Global CTO, ITCart
+                    <p className=" mt-1 text-[15px] sm:text-base">
+                       Inventor of AiXHub EOS
                     </p>
                 </div>
             </div>
