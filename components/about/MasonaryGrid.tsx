@@ -124,19 +124,27 @@ const MasonaryGrid = () => {
                         backdropFilter: "blur(38px)",
                     }}
                 >
-                    <p className="text-[16px] md:text-[18px] leading-relaxed mt-2">
+                    {/* <p className="text-[16px] md:text-[18px] leading-relaxed mt-2 ">
                         With a mission to deliver cutting-edge AI solutions, we’re scaling
                         globally—powered by a talented workforce and creating meaningful job
                         opportunities worldwide.
-                    </p>
-                    <div className="py-1">
+                    </p> */}
+                    <div className="flex items-center justify-center h-full ">
+                        <p className="text-[18px] md:text-[20px] leading-relaxed">
+                            With a mission to deliver cutting-edge AI solutions, we’re scaling
+                            globally—powered by a talented workforce and creating meaningful job
+                            opportunities worldwide.
+                        </p>
+                    </div>
+
+                    {/* <div className="py-1">
                         <p className="text-[32px] md:text-[54px] font-semibold">
                             6 countries
                         </p>
                         <p className="text-[16px] md:text-[35px] text-white/80">
                             85 Employees
                         </p>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Team Image (desktop only) */}
@@ -189,7 +197,7 @@ const MasonaryGrid = () => {
                     </div>
                     <p className="text-[16px] md:text-[18px] text-white/80 leading-relaxed mb-3">
                         Our diverse clientele has been the driving force behind our commitment to excellence. As we grow, we continue to embrace cutting-edge technologies that expand our reach and connect us with new audiences worldwide.
- 
+
                     </p>
                 </div>
             </div>
