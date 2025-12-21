@@ -97,7 +97,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                         <GradientTitle
                             text={"Table of contents:"}
                             theme="dark"
-                            className={`text-[26px] mb-3 lg:items-start sm:text-[32px] md:text-[36px]  w-full h-[160px] leading-[1.2]`}
+                            className={`text-[26px] lg:items-start sm:text-[32px] md:text-[36px]  w-full mb-4 leading-[1.2]`}
                         />
 
                         <ul className="space-y-2 text-lg underline underline-offset-4">
