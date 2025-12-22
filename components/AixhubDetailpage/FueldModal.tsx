@@ -198,10 +198,10 @@ const FueldModal: React.FC<FueldModalProps> = ({ openModal, setOpenModal }) => {
             setOpenModal(false);
 
             // optional - download file after submit
-            // const link = document.createElement("a");
-            // link.href = "/Fueld Keynote Presentation 1.pdf";
-            // link.download = "keynote.pdf";
-            // link.click();
+            const link = document.createElement("a");
+            link.href = "/Fueld Keynote Presentation 1.pdf";
+            link.download = "keynote.pdf";
+            link.click();
         } catch (error) {
             console.log("Form submit failed", error);
         }
