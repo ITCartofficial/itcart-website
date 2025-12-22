@@ -1,4 +1,4 @@
-
+"use client"
 import StrugglingPoint from "@/components/AixhubDetailpage/StrugglingPoint";
 import AixHubVerticalBanner from "@/components/AixhubDetailpage/AixHubVerticalBanner";
 import WhyAIFailingSection from "@/components/AixhubDetailpage/WhyAIFailingSection";

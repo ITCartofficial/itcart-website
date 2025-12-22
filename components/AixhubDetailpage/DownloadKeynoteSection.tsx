@@ -18,6 +18,19 @@ const DownloadKeynoteSection: React.FC<DownloadKeynoteSectionProps> = ({
     btnName,
     bgImage,
 }) => {
+
+    const handleSubmit = (e: React.FormEvent) => {
+
+        e.preventDefault();
+        // if (!validate()) return;
+
+        // setOpenModal(false);
+
+        const link = document.createElement("a");
+        link.href = "/Fueld Keynote Presentation 1.pdf";
+        link.download = "keynote.pdf";
+        link.click();
+    };
     return (
         <section
             className="

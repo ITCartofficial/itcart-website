@@ -52,7 +52,7 @@ const ContactForm = ({ theme }: { theme: "dark" | "light" }) => {
     return Object.keys(formErrors).length === 0
   }
 
-  
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setResult(null)
