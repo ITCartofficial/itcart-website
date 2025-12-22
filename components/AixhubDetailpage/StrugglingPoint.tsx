@@ -17,19 +17,19 @@ function StrugglingPoint() {
         },
         {
             title: "HR & Workforce",
-            description: "Unified decision governance ",
+            description: "Unified decision governance",
             gradient: "from-[#222222] to-[#111111]", // dark
             icon: '/images/fueld2025/hricon.png'
         },
         {
             title: "Manufacturing",
-            description: "Turning genius planners into scalable intelligence ",
+            description: "Turning genius planners into scalable intelligence",
             gradient: "from-[#222222] to-[#111111]", // dark
             icon: '/images/fueld2025/manufactureicon.png'
         },
         {
             title: "Finance & Underwriting",
-            description: "Faster, explainable governed decisions ",
+            description: "Faster, explainable governed decisions",
             gradient: "from-[#222222] to-[#111111]", // dark
             icon: '/images/fueld2025/financeicon.png'
         },
@@ -154,12 +154,12 @@ function StrugglingPoint() {
                             ${selected.name === p.name ? "opacity-100" : "opacity-40 hover:opacity-60"}
                         `}
                             >
-                                <div className="mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[#2BADB7] overflow-hidden">
+                                <div className="mb-3 inline-flex h-13 w-13 items-center justify-center rounded-full bg-[#2BADB7] overflow-hidden">
                                     <Image
                                         src={serviceCardItems[index].icon || "/fallback-icon.png"}
                                         alt={"icon"}
-                                        width={32}
-                                        height={32}
+                                        width={25}
+                                        height={25}
                                         className="object-contain"
                                     />
                                 </div>

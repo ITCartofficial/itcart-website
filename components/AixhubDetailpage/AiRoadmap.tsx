@@ -251,7 +251,7 @@ const AiRoadmap = () => {
             />
 
             {/* ---------- DESKTOP (horizontal timeline) ---------- */}
-            <div className="relative w-full max-w-6xl mt-20 hidden md:block">
+            <div className="relative w-full max-w-7xl mt-20 hidden md:block">
 
                 {/* main horizontal line */}
                 <div className="absolute top-[18px] left-[8%] right-[8%] h-[2px] bg-[#63D2E0]" />
@@ -270,14 +270,14 @@ const AiRoadmap = () => {
                             </div>
 
                             {/* connector */}
-                            <div className="w-[2px] h-[60px] bg-[#63D2E0]" />
+                            <div className="w-[2px] h-[70px] bg-[#63D2E0]" />
 
                             {/* number bubble */}
                             <div className="w-12 h-12 rounded-full bg-[#1A8B9D] flex items-center justify-center text-white font-bold text-lg mb-6">
                                 {step.number}
                             </div>
 
-                            <h3 className="text-xl font-bold mb-2 text-center">{step.title}</h3>
+                            <h3 className="text-[30px] font-bold mb-2 text-center">{step.title}</h3>
                             <p className="text-gray-300 text-sm max-w-[200px] text-center leading-relaxed">
                                 {step.desc}
                             </p>
@@ -312,7 +312,7 @@ const AiRoadmap = () => {
 
                                 {/* number bubble */}
                                 <div className={`absolute top-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-[#1A8B9D] flex items-center justify-center text-white font-bold 
-                    ${idx % 2 === 0 ? "right-[70px]" : "left-[70px]"}`}
+                    ${idx % 2 === 0 ? "right-[8ss0px]" : "left-[70px]"}`}
                                 >
                                     {step.number}
                                 </div>
@@ -323,7 +323,7 @@ const AiRoadmap = () => {
                                 className={`mt-6 w-full px-6  ${idx % 2 === 0 ? "text-left pl-0" : "text-right pr-0"
                                     }`}
                             >
-                                <h3 className="text-xl font-bold ml-auto">{step.title}</h3>
+                                <h3 className="text-[20px] font-bold ml-auto">{step.title}</h3>
                                 <p className={`text-gray-300 text-sm leading-5 ${idx % 2 === 0 ? "mr-auto " : "ml-auto"} w-[50%]`}>
                                     {step.desc}
                                 </p>
