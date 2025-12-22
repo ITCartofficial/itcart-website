@@ -145,33 +145,64 @@ function StrugglingPoint() {
                 {/* Left - clickable personas */}
                 <div className="flex-1 space-y-6">
                     {personas.map((p, index) => (
-                        <button
-                            key={index}
-                            onClick={() => setSelected(p)}
-                            className={`flex w-full items-center gap-4 text-left transition 
+
+                        <div className="">
+                            <button
+                                key={index}
+                                onClick={() => setSelected(p)}
+                                className={`flex w-full items-center gap-4 text-left transition 
                             ${selected.name === p.name ? "opacity-100" : "opacity-40 hover:opacity-60"}
                         `}
-                        >
-                            <div className="mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[#2BADB7] overflow-hidden">
-                                <Image
-                                    src={serviceCardItems[index].icon || "/fallback-icon.png"}
-                                    alt={"icon"}
-                                    width={32}
-                                    height={32}
-                                    className="object-contain"
-                                />
-                            </div>
-                            {/* <span className="text-teal-300 text-4xl">{p.icon}</span> */}
-                            <div>
-                                <p className="text-2xl font-semibold">{p.name}</p>
-                                <p className="text-lg opacity-60">{p.role}</p>
-                            </div>
-                        </button>
+                            >
+                                <div className="mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[#2BADB7] overflow-hidden">
+                                    <Image
+                                        src={serviceCardItems[index].icon || "/fallback-icon.png"}
+                                        alt={"icon"}
+                                        width={32}
+                                        height={32}
+                                        className="object-contain"
+                                    />
+                                </div>
+                                {/* <span className="text-teal-300 text-4xl">{p.icon}</span> */}
+                                <div>
+                                    <p className="text-2xl font-semibold">{p.name}</p>
+                                    <p className="text-lg opacity-60">{p.role}</p>
+                                </div>
+                            </button>
+                            {
+                                selected?.image == p.image && (
+                                    <div className="lg:hidden block my-8 ">
+                                            <div className="flex justify-center">
+                                                <Image
+                                                    src={selected?.image}
+                                                    alt="persona visual"
+                                                    width={300}
+                                                    height={200}
+                                                    className="rounded-xl shadow-xl  h-auto"
+                                                />
+                                            </div>
+
+                                        <div className="flex-1 mt-4">
+                                            <ul className="space-y-4">
+                                                {selected.points.map((pt, index) => (
+                                                    <li key={index} className="text-lg flex gap-3 leading-relaxed">
+                                                        • {pt}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                )
+                            }
+
+                        </div>
+
+
                     ))}
                 </div>
 
                 {/* Middle Image - dynamic */}
-                <div className="flex-1 max-w-md">
+                <div className="flex-1 max-w-md hidden lg:block">
                     <Image
                         src={selected?.image}
                         alt="persona visual"
@@ -182,7 +213,7 @@ function StrugglingPoint() {
                 </div>
 
                 {/* Right points - dynamic */}
-                <div className="flex-1">
+                <div className="flex-1 hidden lg:block">
                     <ul className="space-y-6">
                         {selected.points.map((pt, index) => (
                             <li key={index} className="text-lg flex gap-3 leading-relaxed">
@@ -190,16 +221,6 @@ function StrugglingPoint() {
                             </li>
                         ))}
                     </ul>
-
-
-                    {/* <div className="mt-4">
-                        <OutlineBtn
-                            url='/contact-us'
-                            text="See Enterprise Use Cases"
-                            textColor='#ffffff'
-                            icon={<FaArrowRight className="text-sm font-semibold text-white" />}
-                        />
-                    </div> */}
 
                 </div>
 
