@@ -10648,7 +10648,7 @@ export const newBlogData = [
 
     {
       id: 2,
-      title: "",
+      title: "", 
       content: [
         "Platforms such as AiXERP combine core ERP functionality with AI-powered insights, enabling organisations to transition from reactive management to proactive and predictive control.",
         "This guide explains what AI-enabled ERP truly means, how it differs from legacy ERP, and why enterprises worldwide are adopting this next-generation operating model."

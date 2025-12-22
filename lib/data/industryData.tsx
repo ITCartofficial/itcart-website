@@ -112,7 +112,7 @@ export const industryData = [
         }
       ],
       capabilitiSectionHeading: 'Our Additional Solutions',
-      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety ',
+      capabilitiSectionDescription: 'Discover advanced AI solutions accelerating operational efficiency, performance enhancement, and safety in aviation.',
       CapabilitySections: [
         {
           title: "Business Process Automation",
@@ -176,22 +176,22 @@ export const industryData = [
         {
           id: '4',
           title: 'How does airport operations management enhance efficiency?',
-          content: 'Airport operations management solutions streamline gate assignments, baggage tracking, ground services coordination, passenger flow optimization, and resource allocation through intelligent automation and real-time operational visibility,improving overall efficiency and passenger satisfaction.'
+          content: 'Airport operations management solutions streamline gate assignments, baggage tracking, ground services coordination, passenger flow optimization, and resource allocation through intelligent automation and real-time operational visibility,improving, overall efficiency and passenger satisfaction.'
         },
         {
           id: '5',
           title: "What airline digital transformation solutions do you offer?",
-          content: "Our airline digital transformation solutions encompass passenger experience platforms, operational optimization systems, revenue management tools, safety compliance automation, and comprehensive analytics through aviation technology solutions,delivering measurable business improvements and competitive advantages."
+          content: "Our airline digital transformation solutions encompass passenger experience platforms, operational optimization systems, revenue management tools, safety compliance automation, and comprehensive analytics through aviation technology solutions, delivering measurable business improvements and competitive advantages."
         },
         {
           id: '6',
           title: "How long does digital transformation in aviation take?",
-          content: "Digital transformation in aviation typically requires twelve to eighteen months for comprehensive implementation, including system integration, staff training, and optimization phases ensuring minimal operational disruption while maximizing return on investment and operational improvements."
+          content: "Digital transformation in aviation typically requires twelve to eighteen months for comprehensive implementation, including system integration, staff training, and optimization phases,ensuring minimal operational disruption while maximizing return on investment and operational improvements."
         },
         {
           id: '7',
           title: "Can your solutions integrate with existing airline systems?",
-          content: "Yes, our aviation technology solutions feature robust APIs and pre-built integrations ensuring seamless connectivity with existing reservation systems, maintenance platforms, and operational management tools without disrupting current operations or requiring extensive system replacements."
+          content: "Yes. Our aviation technology solutions feature robust APIs and pre-built integrations, ensuring seamless connectivity with existing reservation, maintenance, and operations systems without requiring full system replacement."
         },
         {
           id: '8',
@@ -212,7 +212,7 @@ export const industryData = [
       serviceName: 'Cybersecurity Services',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Automotive Digital Transformation Excellence",
-      bannerDescription: "Elevating innovation in automotive industry through extensive automotive manufacturing solutions",
+      bannerDescription: "Elevating innovation in the automotive industry through extensive automotive manufacturing solutions",
       bannerImage: "/images/industries/Automotive-Industry-Banner.jpg",
       mobileBannerImage: "/images/industru/Automotive-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
@@ -250,7 +250,7 @@ export const industryData = [
         {
           icon: '/icons/Industry-icons/Automotive-icon4.svg',
           title: "Connected Vehicles ",
-          highlight: "Advanced automotive manufacturing solutions for seamless connectivity through automotive digital transformation services elevating mobility experiences.",
+          highlight: "Advanced automotive manufacturing solutions for seamless connectivity through automotive digital transformation services, elevating mobility experiences.",
           description: "",
           gradient: "from-[#222222] to-[#111111]",   // add gradient
         },
@@ -364,22 +364,22 @@ export const industryData = [
         {
           id: '1',
           title: "What makes iTCart's automotive manufacturing solutions different?",
-          content: "Our comprehensive approach integrates robotics in automotive manufacturing with proven automotive digital transformation methodologies, delivering measurable results through advanced innovation in automotive industry and predictive analytics for automotive capabilities ensuring competitive advantage. "
+          content: "Our comprehensive approach integrates artificial intelligence in the automotive industry with proven digital transformation methodologies, delivering measurable results through advanced manufacturing and operational optimization. "
         },
         {
           id: '2',
           title: 'How does innovation in automotive industry improve operations?',
-          content: 'Innovation in automotive industry applications optimizes production planning, enhances predictive maintenance, automates quality control, and improves connected vehicle experiences through personalized services and real-time operational insights delivering operational excellence.'
+          content: 'Innovation in the automotive industry optimizes production planning, enhances predictive maintenance, automates quality control, and improves connected vehicle experiences through real-time insights,  delivering consistent operational excellence.'
         },
         {
           id: '3',
           title: 'What automotive manufacturing solutions features are included?',
-          content: 'Our automotive manufacturing solutions platform includes production scheduling, quality optimization, maintenance coordination, supply chain management, IoT integration, and comprehensive operational dashboard with real-time monitoring capabilities ensuring seamless operations.'
+          content: 'Our automotive manufacturing solutions include production scheduling, quality optimization, maintenance coordination, supply chain management, and IoT-enabled dashboards with real-time monitoring to ensure seamless operations.'
         },
         {
           id: '4',
           title: 'How does automotive digitalization enhance efficiency?',
-          content: 'Automotive digitalization solutions streamline production workflows, equipment monitoring, quality control processes, supply chain optimization, and resource allocation through intelligent automation and real-time operational visibility improving efficiency.'
+          content: 'Automotive digitalization streamlines production workflows, equipment monitoring, quality control, supply chain optimization, and resource allocation through intelligent automation and real-time visibility, enhancing overall efficiency. '
         },
         {
           id: '5',
@@ -389,7 +389,7 @@ export const industryData = [
         {
           id: '6',
           title: "How long does automotive digital transformation take?",
-          content: "Automotive digital transformation typically requires twelve to eighteen months for comprehensive implementation, including system integration, staff training, and optimization phases ensuring minimal production disruption while maximizing investment returns."
+          content: "Automotive digital transformation typically takes twelve to eighteen months for full implementation, including system integration, workforce training, and optimization, ensuring minimal production disruption while maximizing return on investment."
         },
         {
           id: '7',
