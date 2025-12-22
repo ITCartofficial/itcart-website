@@ -16,13 +16,12 @@ const DownloadKeynoteSection: React.FC<DownloadKeynoteSectionProps> = ({
     title,
     subTitle,
     btnName,
-    btnUrl,
     bgImage,
 }) => {
     return (
         <section
             className="
-        relative w-full h-[300px] 
+        relative w-full h-[400px] 
         md:h-[350px] 
         flex items-center justify-center
         text-white

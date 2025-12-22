@@ -24,7 +24,7 @@ const DownloadSecetionTwo: React.FC<DownloadSecetionTwoProps> = ({
         bg-cover  bg-no-repeat
       "
             style={{
-                backgroundImage: `url(${bgImage || "/images/fueld2025/downloadimage.jpg"})`,
+                backgroundImage: `url(${bgImage || "/images/fueld2025/downloadimage.jpg"}) `,
             }}
         >
             {/* overlay */}
@@ -35,7 +35,7 @@ const DownloadSecetionTwo: React.FC<DownloadSecetionTwoProps> = ({
                 <div className="w-full flex justify-center py-1">
                     <button
                         className="
-          px-10 py-4 rounded-md text-xl font-bold 
+          md:px-10 md:py-4 py-3 px-3 rounded-md text-[15px] text-xl font-bold 
           bg-gradient-to-r from-[#63D5E3] to-[#E6FCFF]
           text-[#002333]
           shadow-lg hover:scale-[1.02] transition-transform  cursor-pointer
