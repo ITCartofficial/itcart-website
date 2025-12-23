@@ -115,7 +115,7 @@ const AiRoadmap = () => {
 
                                     {/* number bubble */}
                                     <div className={`absolute top-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-[#1A8B9D] flex items-center justify-center text-white font-bold 
-                    ${idx % 2 === 0 ? "right-[8ss0px]" : "left-[70px]"}`}
+                    ${idx % 2 === 0 ? "right-[8ss0px]" : "right-[8ss0px]"}`}
                                     >
                                         {step.number}
                                     </div>
