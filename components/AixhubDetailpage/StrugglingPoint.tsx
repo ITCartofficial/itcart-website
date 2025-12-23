@@ -11,7 +11,7 @@ function StrugglingPoint() {
     const serviceCardItems = [
         {
             title: "Water & Utilities",
-            description: "Capturing expert intuition into system memory ",
+            description: "Capturing expert intuition into system memory",
             gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
             icon: '/images/fueld2025/watericon.png'
         },
@@ -56,9 +56,9 @@ function StrugglingPoint() {
             icon: <FaUserShield />,
             image: "/images/fueld2025/hrr.png",
             points: [
-                "Juggling 5 disconnected tools, drowning in confusion",
-                "Stressed, afraid of making wrong decisions",
-                "AiXHubTM EOS unified risk signals, audit trail, and recommendations onto one screen",
+                "Juggling 5 disconnected tools, drowning in confusion",
+                "Stressed, afraid of making wrong decisions",
+                "AiXHub™ EOS unified risk signals, audit trail, and recommendations onto one screen",
                 "Outcome: Confident, supported decisions"
             ]
         },
@@ -69,10 +69,10 @@ function StrugglingPoint() {
             icon: <FaIndustry />,
             image: "/images/fueld2025/steel.png",
             points: [
-                "Genius planner, running operations using spreadsheets and instinct",
+                "Genius planner, running operations using spreadsheets and instinct",
                 "10 screens open—high stress, unsustainable",
-                "AiXHubTM EOS empowered real-time machine observations, auto-suggested schedules, bottleneck warnings",
-                "NOutcome: Quinn gains superpowers; system turns genius into scalable intelligence"
+                "AiXHub™ EOS empowered real-time machine observations, auto-suggested schedules, bottleneck warnings",
+                "Outcome: Quinn gains superpowers; system turns genius into scalable intelligence"
             ]
         },
         {
@@ -82,9 +82,9 @@ function StrugglingPoint() {
             icon: <FaIndustry />,
             image: "/images/fueld2025/finance.png",
             points: [
-                "Overwhelmed by hundreds of pages, high stakes decisions",
-                "AiXHubTM EOS provided scenario views, risk assessments, audit trails",
-                "Decisive, explainable, governed underwriting",
+                "Overwhelmed by hundreds of pages, high stakes decisions",
+                "AiXHub™ EOS provided scenario views, risk assessments, audit trails",
+                "Decisive, explainable, governed underwriting",
                 "Outcome: Enhanced human judgment, faster and clearer decisions"
             ]
         }
@@ -94,7 +94,7 @@ function StrugglingPoint() {
     return (
         <div className="w-full">
             <GradientTitle
-                text={'Across Industries, the Pattern Is the Same. AiXHub EOS Fixes It. '}
+                text={'Across Industries, the Pattern Is the Same.AiXHub™ Fixes It. '}
                 theme="dark"
                 className="text-[25px] lg:text-[30px] md:text-[40px] w-[90%] text-center mx-auto  leading-[1.2]"
             />

@@ -46,7 +46,7 @@ const AixhubDetailpage = () => {
             <AiRoadmap />
 
             <DownloadKeynoteSection
-                title="Your Enterprise Already Has AI. Now It Needs an Operating System."
+                title="Your Enterprise Already Has AI. Now It Needs the Operating System."
                 subTitle=" Start with a conversation, not a demo."
                 btnName="Request an Executive Discussion"
                 btnUrl=""

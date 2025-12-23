@@ -44,7 +44,7 @@ const EosOperatingSystemSection = () => {
 
                 <div className="flex w-full justify-center" >
                     <GradientTitle
-                        text={"AiXHub EOS The Operating System for AI-Native Enterprises"}
+                        text={"AiXHub™ EOS-The Operating System for AI-Native Enterprises"}
                         as="h1"
                         theme="dark"
                         className={`text-[26px] text-center  lg:items-center sm:text-[32px] md:text-[36px] w-[70%] [1.2]`}

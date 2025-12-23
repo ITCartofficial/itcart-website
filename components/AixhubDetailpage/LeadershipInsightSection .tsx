@@ -26,7 +26,7 @@ const LeadershipInsightSection = () => {
 
                 {/* quote + person */}
                 <div className="mt-16 text-center px-4 max-w-[80%] mx-auto">
-                    <p className="italic text-gray-300 text-[20px] sm:text-base md:text-[25px] leading-relaxed w-[100%]">
+                    <p className="italic text-gray-300 text-[20px] sm:text-base md:text-[20px] leading-relaxed w-[100%]">
                         “Enterprises don’t need another AI tools, <br />
                         They need a system where intelligence can live, learn, and govern decisions.”
                     </p>
