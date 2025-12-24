@@ -7,8 +7,9 @@ export const caseStudyData: CaseStudyItem[] = [
     title:
       "Transforming Healthcare: The Success of Health AI's Telehealth Platform",
     description:
-      "Discover how Health AI transformed healthcare with its innovative telehealth platform, boosting accessibility, patient outcomes, and clinical efficiency through AI-native diagnostics, real-time consultations, and integrated digital healthcare services.",
+      "Discover how AiXHealthcare transformed healthcare with its innovative telehealth platform, boosting accessibility, patient outcomes, and clinical efficiency through AI-native diagnostics, real-time consultations, and integrated digital healthcare services.",
     author: "Akshay Chakrapani",
+    // type: "Healthcare Casestudies",
     date: "December 15, 2024",
     imageUrl: "/images/case-study/case study featured/Transforming-healthcare.png",
     bannerImage: "/images/case-study/Health-AI.webp",
@@ -17,13 +18,13 @@ export const caseStudyData: CaseStudyItem[] = [
       {
         title: "Executive Summary",
         content:
-          "Health AI spearheaded a revolutionary telehealth platform, addressing the growing demand for accessible and efficient healthcare services. This platform empowers users to book video consultations, schedule in-person visits and order medication from the comfort of their homes. Featuring five distinct dashboards tailored for patients, doctors, clinics, receptionists and master administrators, the platform enhances the healthcare experience by streamlining appointment management, patient records and communication. Health AI's innovative approach showcases the potential of digital solutions in transforming healthcare delivery and accessibility.",
+          "AiXHealthcare spearheaded a revolutionary telehealth platform, addressing the growing demand for accessible and efficient healthcare services. This platform empowers users to book video consultations, schedule in-person visits and order medication from the comfort of their homes. Featuring five distinct dashboards tailored for patients, doctors, clinics, receptionists and master administrators, the platform enhances the healthcare experience by streamlining appointment management, patient records and communication. AiXHealthcare innovative approach showcases the potential of digital solutions in transforming healthcare delivery and accessibility.",
         isHTML: false,
       },
       {
-        title: "About Health AI",
+        title: "About AiXHealthcare",
         content: [
-          "Health AI is committed to advancing healthcare accessibility and efficiency through cutting-edge technology. By integrating comprehensive digital solutions, Health AI aims to bridge the gap between patients and healthcare providers, ensuring seamless access to medical services. The platform's mission is to provide an intuitive, user-friendly experience that supports patients' health management while enabling healthcare professionals to deliver high-quality care. Health AI's initiatives have significantly improved healthcare service delivery, enhancing patient satisfaction and operational efficiency across various clinics.",
+          "AiXHealthcare is committed to advancing healthcare accessibility and efficiency through cutting-edge technology. By integrating comprehensive digital solutions, AiXHealthcare aims to bridge the gap between patients and healthcare providers, ensuring seamless access to medical services. The platform's mission is to provide an intuitive, user-friendly experience that supports patients' health management while enabling healthcare professionals to deliver high-quality care. AiXHealthcare initiatives have significantly improved healthcare service delivery, enhancing patient satisfaction and operational efficiency across various clinics.",
         ],
         isHTML: false,
       },
@@ -91,6 +92,7 @@ export const caseStudyData: CaseStudyItem[] = [
     title: "Building the Future: BIMQP's Success with iTCart's Digital Solutions",
     description:
       "A comprehensive healthcare management system that streamlined patient care and reduced administrative overhead by 50Discover how BIMQP revolutionized construction project delivery by partnering with iTCart to implement advanced BIM solutions—enhancing collaboration, compliance, data visualization, and operational efficiency across the entire project lifecycle.",
+    // type: "Healthcare Casestudies",
     author:"Akshay Chakrapani",
     date: "November 28, 2024",
     imageUrl: "/images/case-study/case study featured/buildingfuture.png",
@@ -188,6 +190,7 @@ export const caseStudyData: CaseStudyItem[] = [
   {
     id: "3",
     title: "Maarif Foundation Digital Transformation with iTCart",
+    // type: "AiXBFS Casestudies",
     description:
       "Explore how the Maarif Foundation partnered with iTCart to digitally transform its philanthropic initiatives—streamlining donations, enhancing donor engagement, ensuring compliance, and increasing global outreach through secure, user-friendly platforms",
     author: "Akshay Chakrapani",
@@ -489,5 +492,71 @@ export const caseStudyData: CaseStudyItem[] = [
     isHTML: true
     }
       ]
+    },
+    ///////////////////////////////////////////////////////////////////////////////
+    {
+  "id": "7",
+  // type: "AiXBFS Case Study",
+  "title": "Enhancing Retail Lending and Collections Precision with AiXBFS",
+  "description": "Discover how a mid-sized Indian NBFC strengthened lending accuracy, reduced early-stage delinquencies, and improved collections productivity by deploying AiXBFS as a unified AI-driven operating backbone across credit, risk, and recovery functions.",
+  "author": "IT Cart – AiXBFS Team",
+  "date": "November 24, 2024",
+  "imageUrl": "/images/case-study/case study featured/aixbfs-nbfc.png",
+  "bannerImage": "/images/case-study/aixbfs-nbfc-banner.png",
+  "slug": "enhancing-retail-lending-and-collections-precision-with-aixbfs",
+  "content": [
+    {
+      "title": "Background",
+      "content": [
+        "India’s rapidly expanding retail lending ecosystem has placed increasing operational pressure on NBFCs, particularly those serving semi-urban and rural borrower segments. The client, a mid-sized NBFC, relied heavily on manual underwriting, fragmented borrower data, and inconsistent collections workflows across dispersed regions.",
+        "These limitations resulted in rising early-stage delinquencies, poor visibility into borrower behaviour, and reduced productivity for field and call-centre teams. As portfolio scale increased, the absence of a unified intelligence layer constrained the organisation’s ability to enforce workflow discipline, strengthen risk governance, and respond proactively to emerging stress."
+      ],
+      "isHTML": false
+    },
+    {
+      "title": "Solution",
+      "content": [
+        "<p>AiXBFS was implemented as a unified AI-driven operating environment to modernise the NBFC’s credit, risk, and collections functions.</p>\
+        <ul class='list-disc pl-6 space-y-2'>\
+        <li><strong>AI-Based Credit Scoring:</strong> Automated scoring models replaced subjective underwriting by analysing financial attributes, behavioural markers, and historical patterns.</li>\
+        <li><strong>Unified Borrower Profiles:</strong> Consolidated customer data enabled personalised and context-aware engagement by call-centre and field teams.</li>\
+        <li><strong>Predictive Early-Warning Signals:</strong> Behavioural analytics identified borrowers at risk of slippage, allowing prioritised and timely interventions.</li>\
+        <li><strong>Digitised Field Execution:</strong> Structured visit workflows, geo-optimised routing, and real-time check-ins improved productivity and plan adherence.</li>\
+        <li><strong>Leadership Dashboards:</strong> Real-time visibility into region-wise stress, agent performance, and bucket movement trends strengthened decision-making.</li>\
+        </ul>"
+      ],
+      "isHTML": true
+    },
+    {
+      "title": "Key Result Areas",
+      "content": [
+        "<ul class='list-disc pl-6 space-y-2'>\
+        <li><strong>Improved Lending Precision:</strong> Automated scoring reduced subjectivity and improved approval consistency across regions.</li>\
+        <li><strong>Lower Early-Stage Delinquencies:</strong> Predictive early-warning capabilities enabled earlier intervention, reducing roll-forward risk in key buckets.</li>\
+        <li><strong>Higher Field Productivity:</strong> Digitised task execution reduced redundant visits and improved daily plan adherence.</li>\
+        <li><strong>Stronger Portfolio Visibility:</strong> Centralised dashboards enabled faster identification of stress pockets and resource reallocation.</li>\
+        <li><strong>Operational Efficiency Gains:</strong> Reduced manual dependency and faster turnaround cycles across credit and collections workflows.</li>\
+        </ul>"
+      ],
+      "isHTML": true
+    },
+    {
+      "title": "Lessons Learned",
+      "content": [
+        "The engagement reinforced the importance of governed AI adoption in BFSI environments. Leadership sponsorship, disciplined execution, and continuous training were critical to driving adoption at scale. Behavioural data emerged as a strong predictor of repayment performance, highlighting its importance in future risk and engagement strategies."
+      ],
+      "isHTML": false
+    },
+    {
+      "title": "Conclusion",
+      "content": [
+        "<p>This case study demonstrates how AiXBFS enabled a mid-sized NBFC to modernise its lending and collections operations while operating across geographically dispersed and digitally constrained markets.</p>\
+        <p>By unifying borrower intelligence, automating workflows, and embedding predictive analytics into daily operations, the organisation strengthened portfolio resilience, improved productivity, and aligned its operating model with industry benchmarks for AI-enabled loan lifecycle management.</p>\
+        <p>The AiXBFS deployment positioned the NBFC to scale responsibly, protect portfolio quality, and evolve toward a fully AI-native credit ecosystem.</p>"
+      ],
+      "isHTML": true
     }
+  ]
+},
+
   ]

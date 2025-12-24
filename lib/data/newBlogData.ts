@@ -361,9 +361,9 @@ export const newBlogData = [
     },
     ////////////////////////////////////////////////////////////////////////////////
     {
-        bannerTitle: 'How Revenue Cycle Analytics Can Help Reduce Claim Denials: A New Era with ITcart’s RCM Solution ',
+        bannerTitle: 'How Revenue Cycle Analytics Can Help Reduce Claim Denials: A New Era with ITCart’s RCM Solution ',
         bannerDiscription: '',
-        image: '/images/blogs/newblogs/revenue-circle.png',
+        image: '/images/blogs/newblogs/revenueblog-1.jpg',
         writtenBy: 'Dona',
         writtenDate: '23/12/2005',
         type: "",
