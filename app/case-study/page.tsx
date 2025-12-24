@@ -24,6 +24,15 @@ const CaseStudiesPage: React.FC = () => {
         return null;
     }
 
+    const groupedCaseStudies = caseStudyData.reduce((acc, item) => {
+        if (!acc[item.category]) {
+            acc[item.category] = [];
+        }
+        acc[item.category].push(item);
+        return acc;
+    }, {} as Record<string, typeof caseStudyData>);
+
+
 
     return (
 
@@ -63,24 +72,63 @@ const CaseStudiesPage: React.FC = () => {
                 </div>
             </section> */}
 
-                {/* Case Studies Grid */}
-                <section className="py-16 px-4 sm:px-6 lg:px-8">
-                    <div className="max-w-7xl mx-auto">
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                            {caseStudyData.map((caseStudy) => (
-                                <CaseStudy
-                                    key={caseStudy.id}
-                                    imageUrl={caseStudy.imageUrl}
-                                    title={caseStudy.title}
-                                    description={caseStudy.description}
-                                    author={caseStudy.author}
-                                    date={caseStudy.date}
-                                    slug={caseStudy.slug}
-                                />
+                <>
+                    <section className="py-16 px-4 sm:px-6 lg:px-8">
+                        <div className="max-w-7xl mx-auto space-y-16">
+
+                            {Object.entries(groupedCaseStudies).map(([category, items]) => (
+                                <div key={category}>
+
+                                    {/* Category Title */}
+                                    <h2 className="text-2xl font-bold mb-8 capitalize">
+                                        {category} Case Studies
+                                    </h2>
+
+                                    {/* Cards */}
+                                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                                        {items.map((caseStudy) => (
+                                            <CaseStudy
+                                                key={caseStudy.id}
+                                                imageUrl={caseStudy.imageUrl}
+                                                title={caseStudy.title}
+                                                description={caseStudy.description}
+                                                author={caseStudy.author}
+                                                date={caseStudy.date}
+                                                slug={caseStudy.slug}
+                                            />
+                                        ))}
+                                    </div>
+                                </div>
                             ))}
+
                         </div>
-                    </div>
-                </section>
+                    </section>
+
+                    {/* <section className="py-16 px-4 sm:px-6 lg:px-8">
+
+
+                        <div className="max-w-7xl mx-auto">
+                            <div className='bg-red-400'>
+                                AAAAAAAAAAAAA
+                            </div>
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                                {caseStudyData.map((caseStudy) => (
+                                    <CaseStudy
+                                        key={caseStudy.id}
+                                        imageUrl={caseStudy.imageUrl}
+                                        title={caseStudy.title}
+                                        description={caseStudy.description}
+                                        author={caseStudy.author}
+                                        date={caseStudy.date}
+                                        slug={caseStudy.slug}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+                    </section> */}
+                </>
+                {/* Case Studies Grid */}
+
 
                 {/* Call to Action Section */}
                 <section className="md:py-20 py-10 px-4 sm:px-6 lg:px-8 bg-[#131313]">

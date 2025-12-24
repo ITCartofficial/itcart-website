@@ -4,11 +4,13 @@ import BlogsHero from "@/components/blogs2/BlogsHero";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
-const blogcategories = ({ params }: { params: { id: string } }) => {
-    const slug = params.id;
-    const type = slug
-        ?.replace(/-/g, " ")
-        ?.replace(/\b\w/g, (c) => c.toUpperCase());
+const blogcategories = () => {
+
+    const pathName = usePathname()
+
+    const type = pathName.split('/')[2]
+        .replace(/-/g, " ")
+        .replace(/\b\w/g, (c) => c.toUpperCase());
 
     const [categoryName, setCategoryName] = useState<string | undefined>();
 
