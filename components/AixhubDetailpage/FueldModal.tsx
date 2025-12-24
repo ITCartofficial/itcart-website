@@ -148,7 +148,7 @@ export interface FueldModalProps {
 const FueldModal: React.FC<FueldModalProps> = ({ openModal, setOpenModal }) => {
 
     const scriptURL =
-        "https://script.google.com/macros/s/AKfycbxy5QNnW0qbIZW2_q-BJm84kHkDiAvR8ViLFS9cSrGm5PUgyVl1K5FMglJpqcybKYz_Aw/exec";
+        "https://script.google.com/macros/s/AKfycbyihrxfy06nfBzl6eu4US4apMNp0Xb0tY6uAzFvCt4xugRWcbCB9P1g_ldrxwzKnlXt/exec";
 
     const [formData, setFormData] = useState({
         name: "",
