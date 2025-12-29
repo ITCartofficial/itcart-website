@@ -127,6 +127,7 @@ const SuggestedBlogSection = () => {
         link: "/contact-us",
         linkText: "Contact us",
         slug: "AI-native-platform",
+        category: "",
         content: [
             {
                 title: "Overview",

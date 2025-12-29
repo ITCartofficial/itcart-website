@@ -1,10 +1,11 @@
 import HeadingText from "@/components/typography/HeadingText";
-import { Post } from "@/types/wordpress";
-import { format } from "date-fns";
+// import { Post } from "@/types/wordpress";
+// import { format } from "date-fns";
 import Image from "next/image";
-import React from "react";
+// import React from "react";
 import OutlineBtn from "../buttons/OutlineBtn";
 import { FaArrowRight } from "react-icons/fa6";
+import { newBlogData } from "@/lib/data/newBlogData";
 
 // interface Post {
 //   title: string;
@@ -14,35 +15,40 @@ import { FaArrowRight } from "react-icons/fa6";
 //   featured?: boolean;
 // }
 
-const  PostLists = ({ posts, items = 3 }: { posts: Post[]; items: number }) => {
+const PostLists = () => {
+
+  const featuredItem = newBlogData
+
+  const slugify = (text: string) =>
+    text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+
   return (
     <div className="flex flex-col gap-3 flex-grow-0">
-      {posts?.slice(0, items).map((post, idx) => (
+      {featuredItem?.slice(20, 23).map((post, idx) => (
         <a
-          href={`/blogs/${post?.slug}`}
+          href={`/blogs/${slugify(post?.bannerTitle)}`}
           key={idx}
           className="flex items-center gap-4 hover:bg-white/5 p-2 rounded-lg transition "
         >
           <Image
-            src={post?.featuredImage?.node.sourceUrl || ""}
-            alt={post?.title}
+            src={post?.image || ""}
+            alt={post?.bannerTitle}
             width={100}
             height={100}
             loading="lazy"
             className="w-20 h-20 object-cover rounded-lg"
           />
           <div>
-            {/* <p className="text-sm text-gray-400">
-              {post.author} &nbsp;&bull;&nbsp; {post.date}
-            </p> */}
-
-            <HeadingText
-              text={post.title || ""}
-              className="text-base font-bold"
+            <p className="text-base text-white font-bold hover:text-[#2BADB7] hover:font-black">
+              {post.bannerTitle || ""}
+            </p>
+            {/* <HeadingText
+              text={post.bannerTitle || ""}
+              className="text-base font-bold hover:text-red-400"
               color="#ffffff"
-            />
+            /> */}
             <p className="text-sm text-gray-400">
-              {format(new Date(post?.date), "MMMM dd, yyyy")}
+              {post?.writtenBy} - {post?.writtenDate}
             </p>
           </div>
         </a>

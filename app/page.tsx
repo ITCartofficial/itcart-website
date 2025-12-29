@@ -271,9 +271,6 @@ const HomeTemplate = () => {
       </div>
 
     </html>
-
-
-
   );
 };
 
