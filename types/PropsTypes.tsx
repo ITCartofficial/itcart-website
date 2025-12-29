@@ -139,6 +139,7 @@ export interface Ambassador {
 export interface CaseStudyItem {
   id: string;
   title: string;
+  category: string;
   description: string;
   author: string;
   date: string;

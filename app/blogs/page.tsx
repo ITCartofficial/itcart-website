@@ -57,7 +57,6 @@ const BlogsTemplate = () => {
     return null;
   }
 
-  console.log("newBlogData", newBlogData);
 
   return (
 
