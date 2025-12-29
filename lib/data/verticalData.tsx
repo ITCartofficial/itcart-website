@@ -520,7 +520,7 @@ export const verticalData = [
             metaTitle: 'AiXQP | AI-native Online Learning Platform for Career Growth',
             metaDescription: 'AiXQP is an AI learning platform offering online courses with certification, internships, and placement support to help you grow your career',
             bannerTitle: "The Future of Intelligent Learning Starts Here",
-            bannerDescription: "Experience personalized learning that adapts to your learners' needs.",
+            bannerDescription: "Experience personalized learning that adapts to your learner's needs.",
             bannerImage: "/images/vertical/AiXQP-singlepagebanner.png",
             mobileBannerImage: "/images/vertical/AiXQP-MobileBanner.jpg",
             banerAltImg: "AI learning experience platform",
