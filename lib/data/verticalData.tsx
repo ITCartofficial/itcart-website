@@ -4553,84 +4553,84 @@ export const verticalData = [
 
     {
         title: "Startup Services",
-        description: "Real estate solutions digitizing property lifecycles with smart documentation, CRM, dashboards, and immersive virtual tours.",
+        description: "An AI-driven sports operations system unifying league management, ticketing, analytics, and fan engagement globally, scalably.",
         linkUrl: "/services/startup-services",
         imageSrc: "/images/services/startup-service.png",
         compenyName: 'AiXRush',
         verticalCompenyLogo: '/images/verticalLogos/AiXReality.png',
-        compenyLogo: '/images/verticalLogos/AiXReality.png',
+        compenyLogo: '/images/verticalLogos/AiXRush.png',
         detailPage: {
             metaTitle: 'AiXRUSH – AI Sports Management Platform for Leagues | iTCart  ',
-            metaDescription: 'Meta Description: Revolutionize sports operations with AiXRUSH—an AI-powered management platform for leagues, clubs, and fans. Automate workflows, boost engagement, and grow faster. ',
-            bannerTitle: "All-in-One AI Sports Management Platform for Modern Leagues",
-            bannerDescription: "Transform fragmented sports operations into unified digital excellence ",
-            bannerImage: "/images/vertical/AiXReality-banner.jpg",
+            metaDescription: ' Revolutionize sports operations with AiXRUSH—an AI-powered management platform for leagues, clubs, and fans. Automate workflows, boost engagement, and grow faster. ',
+            bannerTitle: "All-in-One AI-Driven Sports Operations System for Modern Leagues",
+            bannerDescription: "Transform fragmented sports operations into a unified, governed operating environment",
+            bannerImage: "/images/vertical/aixrushbanner.png",
             mobileBannerImage: "/images/vertical/AiXRealty-MobileBanner.jpg",
             banerAltImg: "AI in property management ",
-            impactImage: '/images/vertical/AiXReality-impact.png',
-            VerticalContentSection2Heading: 'Game-Changing Digital Revolution ',
-            aboutSectionHeading: 'Complete Sports Ecosystem Transformation ',
-            capabilitiSectionHeading: 'Powerful Core Capabilities  ',
-            skillGapSectionHeading: 'Built For Every Sports Professional',
-            FAQsHeading: 'Everything You Need to Know About AiXRealty',
+            impactImage: '/images/vertical/aixrush-impact.png',
+            VerticalContentSection2Heading: 'Digital Transformation Challenges in Modern Sports ',
+            aboutSectionHeading: 'Unified Sports Ecosystem Management',
+            capabilitiSectionHeading: 'Core Operating Capabilities',
+            skillGapSectionHeading: 'Designed for Sports Professionals Across Roles',
+            FAQsHeading: 'Everything You Need to Know About AiXRush',
             VerticalContentSection2: {
-                contentOne: "Modern sports leagues struggle with fragmented tools and disconnected workflows, creating the need for unified systems that bring together operations, ticketing, performance insights, and fan engagement into one cohesive digital environment. ",
+                contentOne: "Modern sports leagues increasingly operate with fragmented tools and disconnected workflows that limit visibility, slow execution, and create operational inconsistency. Ticketing, sales, performance insights, youth programmes, and fan engagement often run in parallel systems, making coordination difficult and data unreliable.As leagues grow in scale and complexity, these disconnected environments expose the need for a unified operating system that governs how work executes, decisions are made, and performance is measured across the entire sports ecosystem. ",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/AiXReality-section.png",
+                sectionTwoFirstImage: "/images/vertical/aixrushsection-2.png",
                 imgAlt: "predictive analytics for real estate "
             },
             impactImgAlt: "smart property management ",
             impactsAboutAlt: "real estate workflow automation ",
             impacts: [
-                "Club compliance rates reach one hundred percent with automated reminders and tracking.",
-                "Sales productivity increases by thirty-five percent through AI-driven lead conversion and management.",
-                "Campaign engagement rates improve up to sixty percent with advanced behaviour-based segmentation.",
-                "Youth retention improves by forty percent through proactive communication and tracking systems.",
-                "Financial accuracy improves significantly with real-time budget variance reports and error reduction.",
-                "League-wide visibility enables instant KPI benchmarking and anomaly detection across clubs.",
-                "Ticketing efficiency increases by fifty percent through automated processing and management systems.",
-                "Fan satisfaction improves by forty-five percent through personalized engagement and experience optimization.",
-                "Revenue growth accelerates by thirty percent through optimized pricing and demand forecasting.",
-                "Operational costs reduce by twenty-five percent through comprehensive automation and workflow optimization.",
-                "Data accuracy improves by ninety percent through integrated analytics and reporting systems."
+                "Club compliance rates improve significantly through automated reminders and tracking mechanisms",
+                "Sales productivity increases by approximately thirty-five percent through AI-assisted lead management",
+                "Campaign engagement improves by up to sixty percent using behaviour-based audience segmentation",
+                "Youth retention improves by approximately forty percent through structured communication workflows",
+                "Financial accuracy improves through real-time budget variance monitoring and validation",
+                "League-wide visibility enables faster KPI benchmarking and anomaly identification",
+                "Ticketing efficiency increases by up to fifty percent through automated processing workflows",
+                "Fan satisfaction improves by approximately forty-five percent through personalised experiences",
+                "Revenue growth accelerates by around thirty percent through demand-aware pricing insights",
+                "Operational costs reduce by approximately twenty-five percent through workflow automation",
+                "Data accuracy improves significantly through integrated analytics and reporting"
             ],
             aboutSection: {
-                aboutImage: '/images/vertical/AiXReality-about.png',
-                logo: '/images/vertical/AiXReality-darkLogo.png',
-                contentOne: "AiXRUSH transforms fragmented sports operations with comprehensive sports management software, integrated ticketing management capabilities, AI in sports analytics, and a unified fan engagement platform designed for modern leagues. This integrated ecosystem centralizes ticketing, sales, fan engagement, youth management, and financial oversight, replacing disconnected systems with automated workflows and data-driven insights that empower stakeholders with real-time visibility and performance optimization. ",
+                aboutImage: '/images/vertical/aixrushsection-3.png',
+                logo: '/images/verticalLogos/AiXRush.png',
+                contentOne: "AiXRUSH replaces fragmented sports operations with a unified sports management system that coordinates ticketing workflows, performance analytics, and fan engagement through a single operating layer for modern leagues.This structured ecosystem centralises ticketing, sales, fan engagement, youth development, and financial oversight, eliminating disconnected systems through automated workflows and data-driven insights. Stakeholders gain real-time visibility, consistent execution standards, and operational control across league and club environments without increasing administrative complexity.",
                 contenttwo: "",
                 contentthree: '',
                 imgAlt: "AI property management "
             },
             CapabilitySections: [
                 {
-                    title: "Club Operations Excellence ",
-                    description: "Centralized scheduling and fully automated compliance reporting help clubs maintain accuracy, consistency, and operational control. ",
+                    title: "Club Operations Governance",
+                    description: "Centralised scheduling and governed compliance reporting enable clubs to maintain accuracy, consistency, and operational discipline across daily activities.",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "League-Wide Intelligence",
-                    description: "Real-time dashboards and performance analytics give leagues clear visibility into trends, KPIs, and operational patterns. ",
+                    description: "League-level dashboards and analytical views provide visibility into trends, KPIs, and operational patterns across all participating clubs. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Sales Performance Optimization",
-                    description: "Advanced lead tracking and conversion insights enable teams to accelerate sales performance with greater precision. ",
+                    title: "Sales Execution Optimisation",
+                    description: "Structured lead tracking and conversion analysis support sales teams in improving forecasting accuracy and execution effectiveness. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Fan Engagement Mastery",
-                    description: "Automated campaigns, loyalty features, and personalized outreach help organizations strengthen fan relationships across every channel.",
+                    title: "Fan Engagement Orchestration",
+                    description: "Orchestrated campaigns, loyalty mechanisms, and personalised outreach strengthen fan relationships across multiple engagement channels.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Youth Development Solutions",
-                    description: "Complete registration workflows and attendance tracking support smooth operations for academies and youth programs.  ",
+                    description: "End-to-end registration workflows and attendance tracking support reliable operations across academies and youth development programmes.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
-                    title: "Financial Management Control",
-                    description: "Real-time budget tracking and automated compliance checks ensure accurate financial control across all departments. ",
+                    title: "Financial Oversight & Control",
+                    description: "Continuous budget visibility and automated compliance validation help organisations maintain financial accuracy and financial governance across departments.",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
@@ -4638,21 +4638,21 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixreality-icon1.svg',
                     title: "League Administrators",
-                    highlight: "Gain complete oversight with tools that simplify comparisons, monitor compliance, and streamline league-wide coordination. ",
+                    highlight: "Gain league-wide oversight through tools that simplify benchmarking, monitor compliance, and support coordinated decision-making across clubs.",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixreality-icon2.svg',
                     title: "Club Managers",
-                    highlight: "Manage daily operations efficiently with automation that reduces manual work and ensures consistent compliance. ",
+                    highlight: "Manage daily operations more efficiently using structured workflows that reduce manual effort and reinforce consistent compliance standards. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixreality-icon3.svg',
                     title: "Marketing Teams",
-                    highlight: "Use detailed audience insights and automated campaigns to build stronger, more targeted fan engagement. ",
+                    highlight: "Apply audience insights and automated campaigns to build targeted, measurable, and sustained fan engagement across seasons. ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -4661,52 +4661,52 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'What is AiXRUSH and who benefits from using it?',
-                    content: 'AiXRUSH is a unified sports management system designed for leagues and clubs seeking smoother operations, better coordination, and modern digital workflows.'
+                    content: 'AiXRUSH is an AI-driven sports operations system designed for leagues and clubs seeking unified execution, operational visibility, and governed workflows.'
                 },
                 {
                     id: '2',
-                    title: 'How does AiXRUSH integrate with our current systems?',
-                    content: 'It connects easily with existing CRMs, ERPs, and ticketing tools through secure, API-based integrations.'
+                    title: 'How does AiXRUSH integrate with existing systems?',
+                    content: 'AiXRUSH connects with existing CRMs, ERPs, and ticketing solutions through secure, API-based integrations.Can AiXRUSH be customised for specific league'
                 },
                 {
                     id: '3',
-                    title: 'Can we customize AiXRUSH for our specific needs?',
-                    content: 'Yes. Each module can be configured to match your workflows, event structure, and operational requirements.'
+                    title: 'Can AiXRUSH be customised for specific league requirements?',
+                    content: 'Yes. Each module is configurable to align with league structures, workflows, and operational priorities.'
                 },
                 {
                     id: '4',
                     title: 'Is AiXRUSH suitable for smaller leagues and clubs?',
-                    content: 'Absolutely. Its modular design makes it flexible enough for small teams yet powerful enough for large organizations.'
+                    content: 'Yes. Its modular design supports smaller organisations while remaining scalable for large leagues.'
                 },
                 {
                     id: '5',
-                    title: 'Does AiXRUSH work on mobile devices?',
-                    content: 'Yes. AiXRUSH offers a mobile-first experience with offline support for youth programs and fan activities.'
+                    title: 'Does AiXRUSH support mobile usage?',
+                    content: 'AiXRUSH offers a mobile-first experience with offline support for youth programmes and field operations.'
                 },
                 {
                     id: '6',
-                    title: 'How is sensitive data protected and secured?',
-                    content: 'AiXRUSH follows GDPR and CCPA standards and uses end-to-end encryption to safeguard all operational data.'
+                    title: 'How is sensitive data secured?',
+                    content: 'AiXRUSH follows GDPR and CCPA standards with end-to-end encryption and governed access controls.'
                 },
                 {
                     id: '7',
                     title: 'What is the typical implementation timeline?',
-                    content: 'Most deployments take two to six weeks, depending on the features selected and the complexity of your operations.'
+                    content: 'Most deployments are completed within approximately two to six weeks, depending on scope and complexity.'
                 },
                 {
                     id: '8',
-                    title: 'How does the AI in sports analytics feature work?',
-                    content: 'AI processes performance data, identifies patterns, and provides predictive insights to support strategic decisions.'
+                    title: 'How does AI in sports analytics function within AiXRUSH?',
+                    content: 'AI analyses operational and performance data to identify patterns and deliver predictive insights for decision-making.'
                 },
                 {
                     id: '9',
-                    title: 'Can we integrate existing ticketing systems?',
-                    content: 'Yes, AiXRUSH supports integrations with most modern ticketing tools via API connections.'
+                    title: 'Can existing ticketing systems be retained?',
+                    content: 'Yes. AiXRUSH supports integration with modern ticketing systems via secure APIs.'
                 },
                 {
                     id: '10',
-                    title: 'What fan engagement features are available?',
-                    content: 'You can launch automated campaigns, segment audiences, run loyalty programs, and deliver personalized experiences across multiple channels.'
+                    title: 'What fan engagement capabilities are available?',
+                    content: 'Organisations can launch automated campaigns, segment audiences, run loyalty initiatives, and deliver personalised engagement across channels.'
                 },
             ]
             ,
@@ -4726,48 +4726,48 @@ export const verticalData = [
 
     {
         title: "Startup Services",
-        description: "Real estate solutions digitizing property lifecycles with smart documentation, CRM, dashboards, and immersive virtual tours.",
+        description: "A unified manufacturing operating system delivering predictive maintenance, process automation, and data-driven factory intelligence.",
         linkUrl: "/services/startup-services",
         imageSrc: "/images/services/startup-service.png",
         compenyName: 'AiXManufacturing',
         verticalCompenyLogo: '/images/verticalLogos/AiXReality.png',
-        compenyLogo: '/images/verticalLogos/AiXReality.png',
+        compenyLogo: '/images/verticalLogos/AiXManufacturing.png',
         detailPage: {
             metaTitle: 'AI Manufacturing Platform | Smart Factory & Predictive Automation ',
             metaDescription: 'Revolutionize production with AiXManufacturing—AI-powered platform for predictive maintenance, real-time analytics, and digital twin automation. ',
-            bannerTitle: "Smart Manufacturing Intelligence Platform",
-            bannerDescription: "Revolutionizing factory operations with AI-powered predictive analytics and automation. ",
-            bannerImage: "/images/vertical/AiXReality-banner.jpg",
+            bannerTitle: "Smart Manufacturing Intelligence System ",
+            bannerDescription: "Transforming factory operations through AI-driven predictive analytics and intelligent automation. ",
+            bannerImage: "/images/vertical/manufacturing-banner.png",
             mobileBannerImage: "/images/vertical/AiXRealty-MobileBanner.jpg",
             banerAltImg: "AI in property management ",
-            impactImage: '/images/vertical/AiXReality-impact.png',
+            impactImage: '/images/vertical/manufacturing-impact.png',
             VerticalContentSection2Heading: 'Manufacturing Challenges We Solve',
-            aboutSectionHeading: 'Smart Factory Revolution ',
+            aboutSectionHeading: 'Smart Factory Revolution',
             capabilitiSectionHeading: 'Core Platform Capabilities',
-            skillGapSectionHeading: 'Built For Industry Leaders',
-            FAQsHeading: 'Everything You Need to Know About AiXRealty',
+            skillGapSectionHeading: 'Designed for Manufacturing Leaders ',
+            FAQsHeading: 'Everything You Need to Know About AiXManufacturing',
             VerticalContentSection2: {
-                contentOne: "Modern manufacturing faces fragmented systems, unpredictable downtime, manual processes, and poor visibility across operations. AiXManufacturing eliminates these bottlenecks with a unified AI manufacturing platform that connects machines, workforce, inventory, and finances in real time using advanced AI-driven manufacturing solutions. ",
+                contentOne: "Modern manufacturing faces fragmented systems, unpredictable downtime, manual processes, and limited visibility across operations. AiXManufacturing addresses these bottlenecks through a unified AI-driven manufacturing system that connects machines, workforce, inventory, and finances in real time using governed, intelligence-led manufacturing capabilities.  ",
                 contenttwo: "",
-                sectionTwoFirstImage: "/images/vertical/AiXReality-section.png",
+                sectionTwoFirstImage: "/images/vertical/manufacturing-section2.png",
                 imgAlt: "predictive analytics for real estate "
             },
-            impactImgAlt: "smart property management ",
+            impactImgAlt: "Smart property management ",
             impactsAboutAlt: "real estate workflow automation ",
             impacts: [
-                "Reduce unplanned downtime by up to 90% with predictive maintenance AI and intelligent equipment monitoring.",
-                "Achieve 40% faster production cycles by optimizing workflows through smart manufacturing process automation.",
-                "Lower operational costs by 20–30% using intelligent resource allocation and AI-driven manufacturing efficiency.",
-                "Improve inventory turnover with AI-driven demand forecasting and continuous manufacturing process optimization.",
-                "Enhance quality control with 90% faster defect detection using AI-powered analytics across the production line.",
-                "Minimize energy costs through smart consumption optimization algorithms and continuous performance insights.",
-                "Increase equipment utilization rates with real-time performance monitoring powered by predictive maintenance software.",
-                "Accelerate compliance reporting through automated tracking, documentation, and manufacturing process automation."
+                "Reduce unplanned downtime by up to ninety percent through predictive maintenance analytics and equipment condition monitoring ",
+                "Achieve approximately forty percent faster production cycles by optimising workflows through intelligent process automation ",
+                "Lower operational costs by roughly twenty to thirty percent using AI-guided resource allocation ",
+                "Improve inventory turnover through AI-driven demand forecasting and procurement alignment ",
+                "Enhance quality control with significantly faster defect detection using AI-based production analytics ",
+                "Minimise energy costs through consumption optimisation and continuous performance insights ",
+                "Increase equipment utilisation through real-time monitoring supported by predictive maintenance ",
+                "Accelerate compliance reporting through automated tracking and documentation workflows "
             ],
             aboutSection: {
-                aboutImage: '/images/vertical/AiXReality-about.png',
-                logo: '/images/vertical/AiXReality-darkLogo.png',
-                contentOne: "AiXManufacturing transforms traditional manufacturing into intelligent, self-optimizing operations through predictive maintenance, real-time analytics, and automated decision-making. Our AI manufacturing software integrates seamlessly with existing systems and delivers measurable ROI within 18 months by reducing operational costs, accelerating production cycles, and strengthening quality control through end-to-end process automation and optimization. ",
+                aboutImage: '/images/vertical/manufacturing-section3.png',
+                logo: '/images/verticalLogos/AiXManufacturing.png',
+                contentOne: "AiXManufacturing enables manufacturers to evolve traditional operations into intelligence-led environments through predictive maintenance, real-time analytics, and automated decision execution. The system integrates with existing manufacturing systems and supports measurable ROI within approximately eighteen months by lowering operational costs, accelerating production cycles, and strengthening quality control through end-to-end process automation and optimisation. ",
                 contenttwo: "",
                 contentthree: '',
                 imgAlt: "AI property management "
@@ -4775,32 +4775,32 @@ export const verticalData = [
             CapabilitySections: [
                 {
                     title: "Predictive Intelligence ",
-                    description: "Advanced predictive maintenance AI models help prevent equipment failures and optimize maintenance schedules through intelligent predictive maintenance software. ",
+                    description: "Predictive maintenance AI models help reduce equipment failure risk and improve maintenance scheduling through intelligent, data-driven condition monitoring.  ",
                     gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
                 },
                 {
                     title: "Real-Time Analytics",
-                    description: "Unified dashboards provide instant visibility across all manufacturing operations, with AI-driven insights highlighting performance, bottlenecks, and trends. ",
+                    description: "Unified dashboards provide immediate visibility across manufacturing operations, with analytical insights highlighting performance patterns, bottlenecks, and emerging trends. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Process Automation",
-                    description: "No-code manufacturing process automation streamlines workflows without requiring technical expertise, enabling consistent operational excellence. ",
+                    description: "No-code manufacturing process automation streamlines workflows without requiring technical expertise, supporting consistent and controlled operational execution. ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Digital Twin Technology",
-                    description: "No-code manufacturing process automation streamlines workflows without requiring technical expertise, enabling consistent operational excellence. ",
+                    description: "Digital twin modelling enables virtual representations of production systems, allowing manufacturers to simulate performance, assess risks, and optimise processes before physical execution.  ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Smart Inventory Management",
-                    description: "AI-driven forecasting prevents stockouts and optimizes procurement cycles through intelligent inventory and process optimization.  ",
+                    description: "AI-driven forecasting reduces stockout risk and improves procurement cycles through intelligent inventory planning and demand alignment.   ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 },
                 {
                     title: "Financial Optimization",
-                    description: "Integrated cost tracking and budget deviation alerts support higher profitability through real-time operational intelligence and data-backed decision-making. ",
+                    description: "Integrated cost tracking and budget deviation alerts support improved profitability through real-time operational visibility and data-backed decisions.  ",
                     gradient: "from-[#222222] to-[#111111]", // dark
                 }
             ],
@@ -4808,21 +4808,21 @@ export const verticalData = [
                 {
                     icon: '/images/vertical/icons/aixreality-icon1.svg',
                     title: "Plant Managers ",
-                    highlight: "Gain centralized visibility across multi-location operations with AI-powered manufacturing solutions that unify key production metrics.",
+                    highlight: "Gain centralised visibility across multi-location operations using AI-enabled manufacturing insights that unify key production metrics. ",
                     description: "",
                     gradient: "from-[#45C2CC] to-[#181919]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixreality-icon2.svg',
                     title: "Operations Teams ",
-                    highlight: "Access real-time insights to optimize equipment performance using predictive maintenance and automated manufacturing workflows. ",
+                    highlight: "Access real-time insights to optimise equipment performance using predictive maintenance and automated manufacturing workflows.  ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
                 {
                     icon: '/images/vertical/icons/aixreality-icon3.svg',
                     title: "Maintenance Engineers ",
-                    highlight: "Use predictive maintenance AI analytics for proactive equipment care and maximizing uptime across all critical assets.  ",
+                    highlight: "Apply predictive maintenance analytics to enable proactive equipment care and maximise uptime across critical assets.  ",
                     description: "",
                     gradient: "from-[#222222] to-[#111111]",   // add gradient
                 },
@@ -4831,27 +4831,27 @@ export const verticalData = [
                 {
                     id: '1',
                     title: 'How quickly can AiXManufacturing be deployed?',
-                    content: 'Our phased implementation approach enables deployment within 4–6 weeks, with early results visible in pilot areas once AI-powered manufacturing integration begins.'
+                    content: 'AiXManufacturing follows a phased implementation approach that typically enables deployment within approximately 4–6 weeks, with early operational improvements visible in pilot areas once AI-driven manufacturing capabilities are activated. '
                 },
                 {
                     id: '2',
-                    title: 'Does it integrate with existing manufacturing systems?',
-                    content: 'Yes. AiXManufacturing seamlessly connects with ERP, MES, PLM, and legacy systems through robust integration APIs and process-automation connectors.'
+                    title: 'Does it integrate with existing manufacturing systems? ',
+                    content: 'Yes. AiXManufacturing connects with existing ERP, MES, PLM, and legacy manufacturing systems through secure, API-based integrations and governed automation connectors, without disrupting current operations. '
                 },
                 {
                     id: '3',
                     title: 'What ROI can we expect from implementation?',
-                    content: 'Manufacturing clients typically see 20–30% cost reduction and measurable efficiency gains within 18 months, driven by predictive maintenance and AI-enabled process optimization.'
+                    content: 'Manufacturing organisations typically observe cost reductions in the range of twenty to thirty percent and measurable efficiency improvements within approximately eighteen months, driven by predictive maintenance and AI-assisted process optimisation. '
                 },
                 {
                     id: '4',
                     title: 'Is technical expertise required for operation?',
-                    content: 'Our no-code AI manufacturing tools enable operations teams to manage workflows and automation without needing programming expertise.'
+                    content: 'No. AiXManufacturing provides no-code operational controls that allow production and operations teams to manage workflows, insights, and automation without requiring programming or advanced technical expertise.'
                 },
                 {
                     id: '5',
-                    title: 'How does predictive maintenance work?',
-                    content: 'Predictive maintenance AI analyses sensor data to detect early failure patterns and automatically schedules maintenance before equipment breaks down, using advanced predictive monitoring software.'
+                    title: 'How does predictive maintenance work? ',
+                    content: 'Predictive maintenance within AiXManufacturing analyses equipment and sensor data to identify early failure patterns, enabling maintenance actions to be scheduled before breakdowns occur, improving uptime through continuous condition monitoring. '
                 }
             ]
             ,

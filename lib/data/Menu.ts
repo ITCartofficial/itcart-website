@@ -23,6 +23,8 @@ export const navItems = [
       { label: "AiXRealty", href: "/products/aixrealty" },
       { label: "AiXMotorsports", href: "/products/aixmotorsports" },
       { label: "AiXEnergy", href: "/products/aixenergy" },
+      { label: "AiXRush", href: "/products/aixrush"},
+      { label: "AiXManufacturing", href: "/products/aixmanufacturing"},
     ],
   },
   {
