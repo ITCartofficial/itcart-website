@@ -66,13 +66,19 @@ const AixHubVerticalBanner: React.FC = () => {
             )}
 
             {/* banner */}
-            <section className="relative w-full min-h-[80vh] flex items-center justify-center">
+            <section className="relative w-full min-h-[80vh] flex items-center justify-center mt-20">
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{ backgroundImage: "url('/images/fueld2025/fueldannerIMage.jpg')" }}
                 ></div>
 
                 <div className="relative w-full mx-auto px-4 text-center text-white">
+                    {/* <div className="w-full flex justify-center">
+                        <div className="bg-red-400 w-fit">
+                            AAs
+                        </div>
+                    </div> */}
+
                     <div className="w-full flex flex-col justify-center items-center text-center">
                         <GradientTitle
                             text="AI Alone Doesn’t Transform Enterprises."
@@ -102,6 +108,29 @@ const AixHubVerticalBanner: React.FC = () => {
                             />
                         </div>
                     </div>
+
+                    <div className="w-full flex justify-center py-3">
+                        <div className="w-150 aspect-video">
+                            <iframe
+                                className="w-full h-full rounded-lg"
+                                src="https://www.youtube.com/embed/uHabDwAIjxw?autoplay=1&mute=1"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            />
+
+                            {/* <iframe
+                                className="w-full h-full rounded-lg"
+                                src="https://www.youtube.com/embed/uHabDwAIjxw"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            /> */}
+                        </div>
+                    </div>
+
                 </div>
             </section>
         </>

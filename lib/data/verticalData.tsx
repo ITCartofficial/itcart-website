@@ -1200,7 +1200,7 @@ export const verticalData = [
                 },
                 {
                     id: '2',
-                    title: 'HDoes AiXDesk integrate with our existing systems? ',
+                    title: 'Does AiXDesk integrate with our existing systems? ',
                     content: "Yes, we offer pre-built connectors for 200+ popular business applications. "
                 },
                 {
