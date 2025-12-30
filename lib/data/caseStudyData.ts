@@ -10,7 +10,7 @@ export const caseStudyData: CaseStudyItem[] = [
   author: "Akshay Chakrapani",
   category: "one",
   date: "November 24, 2024",
-     imageUrl: "/images/case-study/case study featured/Transforming-healthcare.png",
+     imageUrl: "/images/case-study/case study featured/Transforminghealth-1.jpg",
     bannerImage: "/images/case-study/Health-AI.webp",
     slug: "transforming-healthcare-the-success-of-health-ais-telehealth-platform",
   content: [
@@ -139,7 +139,7 @@ export const caseStudyData: CaseStudyItem[] = [
     // type: "AiXBFS Casestudies",
     category:"one",
     date: "November 28, 2024",
-    imageUrl: "/images/case-study/case study featured/buildingfuture.png",
+    imageUrl: "/images/case-study/case study featured/BIMQP's.jpg",
     bannerImage: "/images/case-study/BIMQP.webp",
     slug: "building-the-future-bimqps-success-with-itcarts-digital-solutions",
     content: [
@@ -332,7 +332,7 @@ export const caseStudyData: CaseStudyItem[] = [
     author: "Akshay Chakrapani",
     category: "one",
     date: "October 10, 2024",
-    imageUrl: "/images/case-study/case study featured/digitaltransformation.png",
+    imageUrl: "/images/case-study/case study featured/ImmunoCon.jpg",
     bannerImage: "/images/case-study/Immunocon2024.webp",
     slug: "digital-transformation-at-immunocon2024-conference",
     content: [
@@ -422,7 +422,7 @@ export const caseStudyData: CaseStudyItem[] = [
   author: "Akshay Chakrapani",
   category: "one",
   date: "December 25, 2025",
-  imageUrl: "/images/case-study/case study featured/aipowereddigital.png",
+  imageUrl: "/images/case-study/case study featured/Digital-Transformation.jpg",
     bannerImage: "/images/case-study/Tranforming Ajmal.webp",
     slug: "AI-native-digital-transformation-at-ajmal-foundation",
   content: [
@@ -549,7 +549,7 @@ export const caseStudyData: CaseStudyItem[] = [
   author: "Akshay Chakrapani",
   category: "one",
   date: "November 24, 2024",
-  imageUrl: "/images/case-study/case study featured/tranformingeducation.png",
+  imageUrl: "/images/case-study/case study featured/Transformation-Education.jpg",
   bannerImage: "/images/case-study/Tranforming Education.png",
   slug: "transforming-education-and-operations-aixhub-at-the-forefront",
   content: [
