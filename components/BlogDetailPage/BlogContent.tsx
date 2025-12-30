@@ -11,7 +11,7 @@ interface SubItem {
 interface ContentItem {
     id: number | string;
     title: string;
-    image?: string; 
+    image?: string;
     content: string[];
     subItems?: SubItem[];
     subItemTitle?: string;
@@ -79,6 +79,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
         bannerImage: "/images/blogs/blog-banner-2.jpg",
         description: "Discover how our AI-native platform can transform your business operations.",
         slug: "AI-native-platform",
+        category: "",
         content: [
             {
                 title: "Overview",
@@ -135,7 +136,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                                     }
 
                                     {
-                                        data?.image && ( 
+                                        data?.image && (
                                             <Image
                                                 width={500}
                                                 height={300}

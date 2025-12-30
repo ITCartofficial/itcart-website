@@ -65,7 +65,7 @@ const Footer = () => {
                         {/* Company + Solutions Section */}
                         <div className="flex flex-col sm:items-start gap-8">
                             <FooterSection title="Company" items={companyMenus || []} />
-                            <FooterSection title="Verticals" items={verticalMenus || []} />
+                            <FooterSection title="Products" items={verticalMenus || []} />
                         </div>
                     </div>
                 </div>

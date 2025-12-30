@@ -34,7 +34,7 @@ const FooterSection: React.FC<FooterSectionProps> = ({ title, items }) => {
                 <BodyText
                   text={item.label}
                   lineHeight="32px"
-                  className="text-sm text-white hover:text-cyan-300 cursor-pointer transition"
+                  className={`${item.label == "All Products" ? "text-md text-white font-bold" : "text-sm text-white"} hover:text-cyan-300 cursor-pointer transition`}
                 />
               </a>
             )}

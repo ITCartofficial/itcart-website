@@ -17,6 +17,7 @@ const NewsletterSection = () => {
         bannerImage: "/images/blogs/blog-banner-2.jpg",
         description: "Discover how our AI-native platform can transform your business operations.",
         slug: "AI-native-platform",
+        category: "any",
         content: [
             {
                 title: "Overview",

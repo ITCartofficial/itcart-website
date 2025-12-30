@@ -14,11 +14,14 @@ interface Featured {
 }
 
 const FeaturedPostCard = ({ featuredImage = "", title, slug, date, author }: Featured) => {
-  console.log("date", date);
+
+  const slugify = (text: string) =>
+    text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
   return (
     <a
-      href={`/blogs/${slug}`}
+      href={`/blogs/${slugify(title)}`}
+      // href={`/blogs/${slug}`}
       className=" overflow-hidden shadow-lg relative group min-h-[260px] grow"
     >
       {featuredImage?.trim() && (
@@ -31,12 +34,17 @@ const FeaturedPostCard = ({ featuredImage = "", title, slug, date, author }: Fea
         />
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">
-        <HeadingText
+        <p className="lg:text-2xl text-white font-bold hover:text-[#2BADB7] hover:font-black">
+          {title}
+        </p>
+
+        {/* <p className="lg:text-2xl text-white font-bold hover:font-black">{title || "Featured Post"}</p> */}
+        {/* <HeadingText
           text={title || "Featured Post"}
           color="#ffffff"
-          className="lg:text-2xl"
-          theme="dark"
-        />
+          className="lg:text-2xl "
+          theme="dark" */}
+        {/* /> */}
         {
           date &&
           <p className="text-sm text-gray-300 mt-2">
