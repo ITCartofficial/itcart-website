@@ -109,7 +109,7 @@ const AixHubVerticalBanner: React.FC = () => {
                         </div>
                     </div>
 
-                    <div className="w-full flex justify-center py-3">
+                    <div className="w-full flex justify-center py-2">
                         <div className="w-150 aspect-video">
                             <iframe
                                 className="w-full h-full rounded-lg"
