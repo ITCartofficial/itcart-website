@@ -24,7 +24,7 @@ const CaseStudy: React.FC<CaseStudyProps> = ({
 }) => {
     return (
         <div className="max-w-sm rounded-lg overflow-hidden shadow-xs bg-black text-white p-4">
-            <div className="relative h-48 w-full">
+            <div className="relative h-54 w-full">
                 <Image
                     src={imageUrl}
                     alt={title}

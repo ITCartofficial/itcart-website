@@ -361,9 +361,9 @@ export const newBlogData = [
     },
     ////////////////////////////////////////////////////////////////////////////////
     {
-        bannerTitle: 'How Revenue Cycle Analytics Can Help Reduce Claim Denials: A New Era with ITcart’s RCM Solution ',
+        bannerTitle: 'How Revenue Cycle Analytics Can Help Reduce Claim Denials: A New Era with ITCart’s RCM Solution ',
         bannerDiscription: '',
-        image: '/images/blogs/newblogs/revenue-circle.png',
+        image: '/images/blogs/newblogs/revenueblog-1.jpg',
         writtenBy: 'Dona',
         writtenDate: '23/12/2005',
         type: "",
@@ -9326,223 +9326,223 @@ export const newBlogData = [
 //   ]
 // },
 //////////////////////////////////////////////////////////////
- {
-  bannerTitle: "AI-Driven Governance for Modern Enterprises",
-  bannerDiscription:
-    "AiXGRC introduces an AI-driven governance model that unifies risk management, compliance monitoring, and audit readiness into a single intelligent system.",
-  image: "/images/vertical/section2Image.png",
-  writtenBy: "Muskan Sonda",
-  writtenDate: "16/12/2025",
-  type: "AiXGRC",
-  status: "",
-  id: 56,
+//  {
+//   bannerTitle: "AI-Driven Governance for Modern Enterprises",
+//   bannerDiscription:
+//     "AiXGRC introduces an AI-driven governance model that unifies risk management, compliance monitoring, and audit readiness into a single intelligent system.",
+//   image: "/images/vertical/section2Image.png",
+//   writtenBy: "Muskan Sonda",
+//   writtenDate: "16/12/2025",
+//   type: "AiXGRC",
+//   status: "",
+//   id: 56,
 
-  contents: [
-    {
-      id: 1,
-      title: "Executive Summary",
-      content: [
-        "Governance, risk, and compliance functions are under unprecedented pressure as enterprises operate in highly regulated and fast-changing environments.",
-        "Manual controls, fragmented risk registers, and reactive audits no longer provide sufficient oversight or resilience.",
-        "AiXGRC introduces an AI-driven governance model that unifies risk management, compliance monitoring, and audit readiness into a single intelligent system."
-      ]
-    },
+//   contents: [
+//     {
+//       id: 1,
+//       title: "Executive Summary",
+//       content: [
+//         "Governance, risk, and compliance functions are under unprecedented pressure as enterprises operate in highly regulated and fast-changing environments.",
+//         "Manual controls, fragmented risk registers, and reactive audits no longer provide sufficient oversight or resilience.",
+//         "AiXGRC introduces an AI-driven governance model that unifies risk management, compliance monitoring, and audit readiness into a single intelligent system."
+//       ]
+//     },
 
-    {
-      id: 2,
-      title: "Why Are Traditional GRC Models No Longer Effective?",
-      content: [
-        "For decades, organisations have relied on periodic audits, manual risk assessments, and static compliance checklists.",
-        "These approaches struggle to keep pace with modern operational complexity and regulatory change."
-      ]
-    },
+//     {
+//       id: 2,
+//       title: "Why Are Traditional GRC Models No Longer Effective?",
+//       content: [
+//         "For decades, organisations have relied on periodic audits, manual risk assessments, and static compliance checklists.",
+//         "These approaches struggle to keep pace with modern operational complexity and regulatory change."
+//       ]
+//     },
 
-    {
-      id: 3,
-      title: "",
-      content: [
-        "Legacy GRC models suffer from disconnected risk, compliance, and audit systems.",
-        "Issue detection is reactive, often occurring only after incidents, and governance teams depend heavily on spreadsheets and manual reviews.",
-        "Executives lack real-time visibility into organisational exposure."
-      ]
-    },
+//     {
+//       id: 3,
+//       title: "",
+//       content: [
+//         "Legacy GRC models suffer from disconnected risk, compliance, and audit systems.",
+//         "Issue detection is reactive, often occurring only after incidents, and governance teams depend heavily on spreadsheets and manual reviews.",
+//         "Executives lack real-time visibility into organisational exposure."
+//       ]
+//     },
 
-    {
-      id: 4,
-      title: "What Does AI-Driven Governance Really Mean?",
-      content: [
-        "AI-driven governance applies intelligence across the entire GRC lifecycle.",
-        "Governance shifts from a periodic reporting function to a continuous control system operating in real time."
-      ]
-    },
+//     {
+//       id: 4,
+//       title: "What Does AI-Driven Governance Really Mean?",
+//       content: [
+//         "AI-driven governance applies intelligence across the entire GRC lifecycle.",
+//         "Governance shifts from a periodic reporting function to a continuous control system operating in real time."
+//       ]
+//     },
 
-    {
-      id: 5,
-      title: "",
-      content: [
-        "AiXGRC continuously monitors risk indicators, maps controls directly to regulations and policies, automates compliance workflows, and maintains real-time audit trails.",
-        "This enables governance to operate at the speed of business rather than lag behind it."
-      ]
-    },
+//     {
+//       id: 5,
+//       title: "",
+//       content: [
+//         "AiXGRC continuously monitors risk indicators, maps controls directly to regulations and policies, automates compliance workflows, and maintains real-time audit trails.",
+//         "This enables governance to operate at the speed of business rather than lag behind it."
+//       ]
+//     },
 
-    {
-      id: 6,
-      title: "How Does AiXGRC Unify Risk, Compliance, and Audit?",
-      content: [
-        "Fragmentation across risk, compliance, and audit functions creates governance blind spots.",
-        "AiXGRC establishes a shared intelligence layer where risks, controls, and evidence remain continuously aligned."
-      ]
-    },
+//     {
+//       id: 6,
+//       title: "How Does AiXGRC Unify Risk, Compliance, and Audit?",
+//       content: [
+//         "Fragmentation across risk, compliance, and audit functions creates governance blind spots.",
+//         "AiXGRC establishes a shared intelligence layer where risks, controls, and evidence remain continuously aligned."
+//       ]
+//     },
 
-    {
-      id: 7,
-      title: "",
-      content: [
-        "Unified governance enables consistent risk scoring across departments, automated evidence collection, real-time compliance visibility, and faster regulatory response.",
-        "Organisations gain a single source of truth for governance."
-      ]
-    },
+//     {
+//       id: 7,
+//       title: "",
+//       content: [
+//         "Unified governance enables consistent risk scoring across departments, automated evidence collection, real-time compliance visibility, and faster regulatory response.",
+//         "Organisations gain a single source of truth for governance."
+//       ]
+//     },
 
-    {
-      id: 8,
-      title: "Why Is Continuous Compliance Becoming Mandatory?",
-      content: [
-        "Regulators increasingly expect organisations to demonstrate ongoing compliance rather than point-in-time readiness.",
-        "Annual audits alone are no longer sufficient to manage regulatory risk."
-      ]
-    },
+//     {
+//       id: 8,
+//       title: "Why Is Continuous Compliance Becoming Mandatory?",
+//       content: [
+//         "Regulators increasingly expect organisations to demonstrate ongoing compliance rather than point-in-time readiness.",
+//         "Annual audits alone are no longer sufficient to manage regulatory risk."
+//       ]
+//     },
 
-    {
-      id: 9,
-      title: "",
-      content: [
-        "AiXGRC monitors policy adherence in real time, triggers corrective actions automatically, and updates compliance status dynamically.",
-        "This reduces last-minute audit pressure and lowers breach risk."
-      ]
-    },
+//     {
+//       id: 9,
+//       title: "",
+//       content: [
+//         "AiXGRC monitors policy adherence in real time, triggers corrective actions automatically, and updates compliance status dynamically.",
+//         "This reduces last-minute audit pressure and lowers breach risk."
+//       ]
+//     },
 
-    {
-      id: 10,
-      title: "How Does AI Improve Risk Identification and Prioritisation?",
-      content: [
-        "Traditional risk assessments rely on subjective scoring and periodic workshops.",
-        "AI analyses operational data to identify emerging risks objectively."
-      ]
-    },
+//     {
+//       id: 10,
+//       title: "How Does AI Improve Risk Identification and Prioritisation?",
+//       content: [
+//         "Traditional risk assessments rely on subjective scoring and periodic workshops.",
+//         "AI analyses operational data to identify emerging risks objectively."
+//       ]
+//     },
 
-    {
-      id: 11,
-      title: "",
-      content: [
-        "AiXGRC detects unusual operational patterns, correlates risks across business units, prioritises risks based on impact and likelihood, and predicts future exposure.",
-        "This enables focused mitigation of the most critical risks."
-      ]
-    },
+//     {
+//       id: 11,
+//       title: "",
+//       content: [
+//         "AiXGRC detects unusual operational patterns, correlates risks across business units, prioritises risks based on impact and likelihood, and predicts future exposure.",
+//         "This enables focused mitigation of the most critical risks."
+//       ]
+//     },
 
-    {
-      id: 12,
-      title: "What Role Does Automation Play in Modern GRC?",
-      content: [
-        "Manual governance processes are slow, error-prone, and difficult to scale.",
-        "Automation allows governance teams to operate efficiently without losing control."
-      ]
-    },
+//     {
+//       id: 12,
+//       title: "What Role Does Automation Play in Modern GRC?",
+//       content: [
+//         "Manual governance processes are slow, error-prone, and difficult to scale.",
+//         "Automation allows governance teams to operate efficiently without losing control."
+//       ]
+//     },
 
-    {
-      id: 13,
-      title: "",
-      content: [
-        "Automation includes policy enforcement workflows, risk remediation task assignment, compliance reporting, and audit evidence validation.",
-        "When integrated with platforms like AiXHub, governance becomes part of a broader intelligent operating model."
-      ]
-    },
+//     {
+//       id: 13,
+//       title: "",
+//       content: [
+//         "Automation includes policy enforcement workflows, risk remediation task assignment, compliance reporting, and audit evidence validation.",
+//         "When integrated with platforms like AiXHub, governance becomes part of a broader intelligent operating model."
+//       ]
+//     },
 
-    {
-      id: 14,
-      title: "How Does AiXGRC Support Executive Decision-Making?",
-      content: [
-        "Executives require timely, contextual insight into organisational risk exposure.",
-        "Static reports often fail to support proactive decision-making."
-      ]
-    },
+//     {
+//       id: 14,
+//       title: "How Does AiXGRC Support Executive Decision-Making?",
+//       content: [
+//         "Executives require timely, contextual insight into organisational risk exposure.",
+//         "Static reports often fail to support proactive decision-making."
+//       ]
+//     },
 
-    {
-      id: 15,
-      title: "",
-      content: [
-        "AiXGRC provides real-time dashboards, risk trend analysis, compliance health scoring, and scenario-based simulations.",
-        "Leadership can align governance decisions with strategic and regulatory objectives."
-      ]
-    },
+//     {
+//       id: 15,
+//       title: "",
+//       content: [
+//         "AiXGRC provides real-time dashboards, risk trend analysis, compliance health scoring, and scenario-based simulations.",
+//         "Leadership can align governance decisions with strategic and regulatory objectives."
+//       ]
+//     },
 
-    {
-      id: 16,
-      title: "Can AI Reduce the Cost of Governance and Compliance?",
-      content: [
-        "Governance functions are traditionally viewed as cost centres.",
-        "AI-driven GRC improves efficiency and reduces avoidable losses."
-      ]
-    },
+//     {
+//       id: 16,
+//       title: "Can AI Reduce the Cost of Governance and Compliance?",
+//       content: [
+//         "Governance functions are traditionally viewed as cost centres.",
+//         "AI-driven GRC improves efficiency and reduces avoidable losses."
+//       ]
+//     },
 
-    {
-      id: 17,
-      title: "",
-      content: [
-        "Organisations experience reduced audit preparation effort, lower regulatory penalty risk, fewer compliance incidents, and stronger operational resilience.",
-        "Automated GRC platforms lower compliance management costs while improving control effectiveness."
-      ]
-    },
+//     {
+//       id: 17,
+//       title: "",
+//       content: [
+//         "Organisations experience reduced audit preparation effort, lower regulatory penalty risk, fewer compliance incidents, and stronger operational resilience.",
+//         "Automated GRC platforms lower compliance management costs while improving control effectiveness."
+//       ]
+//     },
 
-    {
-      id: 18,
-      title: "How Does AiXGRC Integrate with Enterprise Operations?",
-      content: [
-        "Governance must be embedded within day-to-day business operations.",
-        "AiXGRC integrates directly with operational systems to enforce controls where work actually happens."
-      ]
-    },
+//     {
+//       id: 18,
+//       title: "How Does AiXGRC Integrate with Enterprise Operations?",
+//       content: [
+//         "Governance must be embedded within day-to-day business operations.",
+//         "AiXGRC integrates directly with operational systems to enforce controls where work actually happens."
+//       ]
+//     },
 
-    {
-      id: 19,
-      title: "",
-      content: [
-        "By aligning with business process automation platforms, compliance and risk controls become frictionless and consistent.",
-        "This improves adherence and reduces governance overhead."
-      ]
-    },
+//     {
+//       id: 19,
+//       title: "",
+//       content: [
+//         "By aligning with business process automation platforms, compliance and risk controls become frictionless and consistent.",
+//         "This improves adherence and reduces governance overhead."
+//       ]
+//     },
 
-    {
-      id: 20,
-      title: "Why Is AI-Driven GRC a Strategic Advantage?",
-      content: [
-        "Adaptive governance provides resilience in an environment of constant regulatory change.",
-        "AI-driven GRC enables faster response, greater transparency, stronger stakeholder confidence, and sustainable governance at scale."
-      ]
-    },
+//     {
+//       id: 20,
+//       title: "Why Is AI-Driven GRC a Strategic Advantage?",
+//       content: [
+//         "Adaptive governance provides resilience in an environment of constant regulatory change.",
+//         "AI-driven GRC enables faster response, greater transparency, stronger stakeholder confidence, and sustainable governance at scale."
+//       ]
+//     },
 
-    {
-      id: 21,
-      title: "Conclusion",
-      content: [
-        "Governance is no longer about static checklists or annual audits.",
-        "AiXGRC transforms GRC into a continuous intelligence system that unifies risk, compliance, and audit in real time.",
-        "As complexity increases, AI-driven governance becomes essential for long-term stability and growth."
-      ]
-    },
+//     {
+//       id: 21,
+//       title: "Conclusion",
+//       content: [
+//         "Governance is no longer about static checklists or annual audits.",
+//         "AiXGRC transforms GRC into a continuous intelligence system that unifies risk, compliance, and audit in real time.",
+//         "As complexity increases, AI-driven governance becomes essential for long-term stability and growth."
+//       ]
+//     },
 
-    {
-      id: 22,
-      title: "Frequently Asked Questions",
-      content: [
-        "AI-driven GRC uses artificial intelligence to continuously manage governance, risk, and compliance activities.",
-        "AiXGRC delivers real-time monitoring, automation, and predictive insights rather than manual reporting.",
-        "The platform supports multiple regulatory frameworks across regions and industries.",
-        "Continuous evidence collection significantly reduces audit preparation effort.",
-        "AiXGRC is designed to scale across large, complex enterprises."
-      ]
-    }
-  ]
-},
+//     {
+//       id: 22,
+//       title: "Frequently Asked Questions",
+//       content: [
+//         "AI-driven GRC uses artificial intelligence to continuously manage governance, risk, and compliance activities.",
+//         "AiXGRC delivers real-time monitoring, automation, and predictive insights rather than manual reporting.",
+//         "The platform supports multiple regulatory frameworks across regions and industries.",
+//         "Continuous evidence collection significantly reduces audit preparation effort.",
+//         "AiXGRC is designed to scale across large, complex enterprises."
+//       ]
+//     }
+//   ]
+// },
 ////////////////////////////////////////////////////////////////////////////////////
 // {
 //   bannerTitle: "How AI Strengthens Compliance And Audit Readiness",
