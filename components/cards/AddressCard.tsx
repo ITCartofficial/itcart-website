@@ -35,7 +35,10 @@ const AddressCard: React.FC<AddressCardProps> = ({ country, phone, email, locati
                         <span className="text-sm text-white">{phone}</span>
                     </Link>
 
-                    <Link href={`mailto:${email?.trim() || ''}`} className="flex gap-2 items-center">
+                    {/* connect@itcart.io */}
+                    <Link
+                        href={`mailto:${email?.trim() || ''}`}
+                        className="flex gap-2 items-center">
                         <FiMail className="text-white" />
                         <span className="text-sm text-white">{email}</span>
                     </Link>
