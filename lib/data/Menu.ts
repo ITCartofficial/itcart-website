@@ -23,8 +23,8 @@ export const navItems = [
       { label: "AiXRealty", href: "/products/aixrealty" },
       { label: "AiXMotorsports", href: "/products/aixmotorsports" },
       { label: "AiXEnergy", href: "/products/aixenergy" },
-      { label: "AiXRush", href: "/products/aixrush"},
-      { label: "AiXManufacturing", href: "/products/aixmanufacturing"},
+      { label: "AiXRush", href: "/products/aixrush" },
+      { label: "AiXManufacturing", href: "/products/aixmanufacturing" },
     ],
   },
   {
@@ -65,7 +65,10 @@ export const navItems = [
       { label: "Retail & Ecommerce", href: "/industry/retail-and-ecommerce" },
       { label: "Transportations & Logistics", href: "/industry/transportation-and-logistics" },
       { label: "Travel & Tourism", href: "/industry/travel-and-tourism" },
-      { label: "Hospitality", href: "/industry/hospitality" }
+      { label: "Hospitality", href: "/industry/hospitality" },
+      { label: "Real Estate", href: "/industry/real-estate" }
+
+      // Real Estate
     ]
   },
   {

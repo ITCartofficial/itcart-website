@@ -2205,7 +2205,7 @@ export const industryData = [
       skillGapSection: [
         {
           icon: '/icons/Industry-icons/Media-icon1.svg',
-          title: "content Management",
+          title: "Content Management",
           highlight: "Advanced media operations platform systems with content lifecycle management, distribution optimization, and workflow coordination. ",
           description: "",
           gradient: "from-[#45C2CC] to-[#181919]",   // add gradient

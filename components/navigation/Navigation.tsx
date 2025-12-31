@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import NavLink from "@/components/common/NavLink";
 // import Link from 'next/link'
 import { navItems } from "@/lib/data/Menu";
+import { usePathname } from "next/navigation";
 
 type NavigationProps = {
   className?: string;
@@ -51,6 +52,10 @@ const Navigation: React.FC<NavigationProps> = ({
     setOpenMobileSubmenu(null);
   };
 
+  const pathName = usePathname()
+
+
+
   return (
     <nav className={className || ""}>
       <ul
@@ -85,12 +90,13 @@ const Navigation: React.FC<NavigationProps> = ({
                 handleMobileSubmenuToggle(item.label)
               }}
             >
+              {/* pathName.split('/')[1] href.split('/') */}
               <p
                 // onClick={(e) => {
-                //   e.preventDefault();
+                //   e.preventDefault();s
                 //   setSubMenu?.(item.submenu)
                 // }}
-                className="flex items-center gap-1"
+                className={`flex items-center gap-1 ${pathName.split('/')[1] == item.href.split('/')[1] ? "text-[#45C2CC]" : ''} `}
               >{item.label}</p>
             </NavLink>
 
