@@ -1432,7 +1432,7 @@ export const solutionData = [
       bannerButtonText: "Get In Touch",
       bannerTitle: "Transform Customer Relationships with Intelligent CRM",
       bannerDescription: "Convert conversations into conversions through intelligent customer relationship management system. ",
-      bannerImage: "/images/solutions/crm-Banner.png",
+      bannerImage: "/images/solutions/crm-bannerimage.png",
       mobileBannerImage: "/images/solutions/Customer-MobileBanner.jpg",
       aboutSectionHeading: 'Intelligent CRM for Modern Businesses',
       aboutSection: {
