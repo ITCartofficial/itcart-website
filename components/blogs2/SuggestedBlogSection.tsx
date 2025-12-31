@@ -10,6 +10,7 @@ import SocialIcons from '@/components/common/SocialIcons'
 import { blogPosts } from '@/lib/data/blogsData'
 import Image from 'next/image'
 import { socialLinks } from '@/lib/data/footerData'
+import { newBlogData } from '@/lib/data/newBlogData'
 
 // Define types for blog post
 interface BlogPost {
@@ -36,6 +37,8 @@ const SuggestedBlogSection = () => {
             .filter((blog: BlogPost) => blog.category === "Must Read")
             .slice(0, 5)
     }, [])
+
+    const blogData = newBlogData
 
     // Debounced search function
     const handleSearchChange = (value: string): void => {
@@ -136,6 +139,13 @@ const SuggestedBlogSection = () => {
         ]
     }
 
+    const convertToSlug = (text: string) => {
+        return text
+            .toLowerCase()
+            .replace(/ /g, "-")
+            .replace(/[^\w-]+/g, "");
+    };
+
     return (
         <div className=''>
 
@@ -153,23 +163,26 @@ const SuggestedBlogSection = () => {
                 <div className='col-span-2'>
 
                     <div className='flex flex-col gap-4'>
-                        {suggestedPostsCard.map((post: BlogPost) => (
+                        {blogData.slice(20, 23).map((post) => (
                             <HorizontalCard key={post.id}
-                                imageUrl={post.imageUrl}
-                                title={post.title}
-                                author={post.author}
-                                date={post.date}
+                                imageUrl={post.image}
+                                title={post.bannerTitle}
+                                author={post.writtenBy}
+                                date={post.writtenDate}
                                 imageHeight='h-60'
                                 imageWidth='md:w-100 w-full'
                                 titleSize="lg:text-[24px] text-[20px]"
                                 showButton={true}
-                                buttonUrl={`/blog/${post.slug}`}
+                                buttonUrl={`/blogs/${convertToSlug(post.bannerTitle)}`}
+                                // `/blogs/${convertToSlug(bannerTitle)}`
+                                // buttonUrl={`/blog/${post.slug}`}
                                 buttonText="Continue Reading"
                                 showColumn={true}
                                 classNameTwo='py-4'
                             />
                         ))}
                     </div>
+
                 </div>
 
                 {/* Right: Sidebar */}

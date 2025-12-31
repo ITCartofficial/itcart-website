@@ -362,7 +362,7 @@ export const newBlogData = [
     ////////////////////////////////////////////////////////////////////////////////
     {
         bannerTitle: 'How Revenue Cycle Analytics Can Help Reduce Claim Denials: A New Era with ITCart’s RCM Solution ',
-        bannerDiscription: '',
+        bannerDiscription: 'Preventing claim denials requires more than corrective action after rejection. An analytics-led revenue cycle approach, as implemented by ITcart, enables proactive control, financial resilience, and consistent billing outcomes.',
         image: '/images/blogs/newblogs/revenueblog-1.jpg',
         writtenBy: 'Dona',
         writtenDate: '23/12/2005',
@@ -547,7 +547,7 @@ export const newBlogData = [
     ////////////////////////////////////////////////////////////////////////////////
     {
         bannerTitle: 'Process Discovery: Unveiling the DNA of Modern Business Success  ',
-        bannerDiscription: '',
+        bannerDiscription: 'Process discovery provides organisations with a factual, data-driven view of how work truly flows across systems and teams. Leveraging iTCart’s AiXHub framework, enterprises can uncover hidden inefficiencies, strengthen compliance, and drive transformation with precision rather than assumptions.',
         image: '/images/blogs/newblogs/process-discovery.jpg',
         writtenBy: 'Dona',
         writtenDate: '24/11/2025',
@@ -747,7 +747,7 @@ export const newBlogData = [
     ////////////////////////////////////////////////////////////////////////////////    
     {
         bannerTitle: 'Multimodal AI – Meaning, Capabilities, and Use Cases',
-        bannerDiscription: '',
+        bannerDiscription: 'Multimodal AI enables machines to understand and combine text, images, audio, and video to interpret the world more holistically. By fusing multiple data types, it delivers richer context, more natural interactions, and advanced capabilities across industries.',
         image: '/images/blogs/newblogs/Multimodal-ai.jpg',
         writtenBy: 'Dona',
         writtenDate: '23/12/2000',
@@ -2459,7 +2459,12 @@ export const newBlogData = [
             {
                 id: 1,
                 title: '',
-                content: ['Life insurance is evolving rapidly as customers demand personalised policies, transparent pricing, proactive engagement, and experiences that reflect their real lives. Traditional life insurance models were designed for a world where risk moved slowly, lifestyles were predictable, and data was limited. Today, human lives are shaped by dynamic behaviours, fluctuating routines, mental wellbeing shifts, digital habits, and environmental exposures—all of which influence longevity in ways conventional actuarial tables cannot capture. InsureAiX introduces a transformative approach to personalised insurance by using behavioural and lifestyle intelligence to create highly tailored, science-backed protection The strength of InsureAiX lies in its capacity to interpret signals that reveal deeper truths about how individuals live, age, and adapt. These signals include daily movement patterns, sleep quality, emotional volatility, stress indicators, routine stability, digital behaviour, and environmental changes. Each of these elements provides meaningful insight into an individual’s future risk. When combined into a unified risk signature, they offer insurers unparalleled clarity. Through access to the broader InsureAiX ecosystem, insurers gain a comprehensive suite that turns raw behaviour and lifestyle data into actionable intelligence. Behavioural and lifestyle intelligence is not merely a new feature—it represents a fundamental shift in how life insurance organisations perceive and protect their customers. Instead of treating risk as a fixed attribute, InsureAiX understands that risk is fluid, shaped by how people live their everyday lives. This enables products that evolve alongside policyholders. ']
+                content: ['Life insurance is evolving rapidly as customers demand personalised policies, transparent pricing, proactive engagement, and experiences that reflect their real lives. Traditional life insurance models were designed for a world where risk moved slowly, lifestyles were predictable, and data was limited. Today, human lives are shaped by dynamic behaviours, fluctuating routines, mental wellbeing shifts, digital habits, and environmental exposures—all of which influence longevity in ways conventional actuarial tables cannot capture. InsureAiX introduces a transformative approach to personalised insurance by using behavioural and lifestyle intelligence to create highly tailored, science-backed protection.']
+            },
+            {
+                id: 1,
+                title: '',
+                content: ['The strength of InsureAiX lies in its capacity to interpret signals that reveal deeper truths about how individuals live, age, and adapt. These signals include daily movement patterns, sleep quality, emotional volatility, stress indicators, routine stability, digital behaviour, and environmental changes. Each of these elements provides meaningful insight into an individual’s future risk. When combined into a unified risk signature, they offer insurers unparalleled clarity. Through access to the broader InsureAiX ecosystem, insurers gain a comprehensive suite that turns raw behaviour and lifestyle data into actionable intelligence. Behavioural and lifestyle intelligence is not merely a new feature—it represents a fundamental shift in how life insurance organisations perceive and protect their customers. Instead of treating risk as a fixed attribute, InsureAiX understands that risk is fluid, shaped by how people live their everyday lives. This enables products that evolve alongside policyholders. ']
             },
             {
                 id: 2,
