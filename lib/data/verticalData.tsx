@@ -4298,7 +4298,7 @@ export const verticalData = [
             },
             aboutSection: {
                 aboutImage: '/images/vertical/AiXEnergy-section2.png',
-                logo: '/images/verticalLogos/aixenergy.png',
+                logo: '/images/verticalLogos/AiXEnergy.png',
                 contentOne: "AiXEnergy transforms energy operations with AiXHub EOS, delivering intelligent grid management, predictive asset optimization, and autonomous energy decision-making. Designed for utilities, renewable providers, and energy enterprises operating in the $110.98 billion digital power transformation market, AiXEnergy consolidates fragmented operations into a single energy-management platform with AI-native energy management, solar CRM integration, and renewable-energy solutions that lower operating costs by 30–50%.",
                 contentthree: ' ',
                 imgAlt: "Renewable energy solutions "
