@@ -63,7 +63,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
             />
 
             <div className=" w-full items-center justify-between mt-4 text-xs text-gray-400">
-              <span>{formattedDate}</span>
+              <span>23-12-2000</span>
               <div className="mt-3">
                 <LinkButton
                   textColor={"white"}
