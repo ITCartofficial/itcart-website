@@ -166,7 +166,7 @@ export const solutionData = [
       aboutSolutionImage: '/images/solutions/AiXHub-aboutfinal.png',
       futurSectionHeading: "",
       futurSectionDescription: "",
-      FAQsHeading: 'Everything You Need About AiXHub',
+      FAQsHeading: 'Everything You Need Know About AiXHub',
       FAQs: [
         {
           id: '1',
