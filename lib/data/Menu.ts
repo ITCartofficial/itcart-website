@@ -7,7 +7,7 @@ export const navItems = [
     label: "Products",
     href: "/products",
     submenu: [
-      { label: "AiXHub", href: "/products/aixhub" },
+      { label: "AiXHub™", href: "/products/aixhub" },
       { label: "AiXBFS", href: "/products/aixbfs" },
       { label: "AiXQP", href: "/products/aixqp" },
       { label: "InsureAiX", href: "/products/insureaix" },
@@ -30,7 +30,7 @@ export const navItems = [
   {
     label: "Solutions", href: "/solutions",
     submenu: [
-      // { label: "AiXHub", href: "/solutions/aixhub" },
+      // { label: "AiXHub™", href: "/solutions/aixhub" },
       { label: "Document Management System", href: "/solutions/document-management-system" },
       { label: "Digital Transformation Suite", href: "/solutions/digital-transformation-suite" },
       { label: "Business Process Automation", href: "/solutions/business-process-automation" },

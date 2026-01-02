@@ -146,6 +146,7 @@ export interface CaseStudyItem {
   imageUrl: string;
   bannerImage: string;
   slug: string;
+  homeCaseStudyBanner?: string; 
   content: {
     title: string;
     content: string | string[];

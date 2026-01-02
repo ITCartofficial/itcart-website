@@ -34,32 +34,32 @@ function CunsultNow() {
     const homeFAQs = [
         {
             id: '1',
-            title: "How does AiXHub differ from traditional AI tools we're already using?",
-            content: "AiXHub is the first AI-native Enterprise Operating System designed to replace fragmented software stacks with unified intelligent execution. Unlike point solutions, AiXHub consolidates multiple applications into a single platform with autonomous decision-making capabilities.",
+            title: "How does AiXHub™ differ from traditional AI tools we're already using?",
+            content: "AiXHub™ is the first AI-native Enterprise Operating System designed to replace fragmented software stacks with unified intelligent execution. Unlike point solutions, AiXHub™ consolidates multiple applications into a single platform with autonomous decision-making capabilities.",
         },
         {
             id: '2',
-            title: 'What ROI can we expect from AiXHub implementation?',
+            title: 'What ROI can we expect from AiXHub™ implementation?',
             content: 'Organizations have reported up to 300% ROI within 12–36 months, with operational cost reductions of 30–50% and efficiency gains up to 85%. Typical payback periods range from 6–12 months. '
         },
         {
             id: '3',
-            title: 'How long does AiXHub implementation take?',
+            title: 'How long does AiXHub™ implementation take?',
             content: 'Full transformation follows our UNITE Framework across five phases spanning approximately 36 weeks. Pilot outcomes typically appear in 4–12 weeks; adoption and results vary by organization.'
         },
         {
             id: '4',
-            title: 'Is AiXHub compliant with industry regulations?',
+            title: 'Is AiXHub™ compliant with industry regulations?',
             content: 'AiXHub includes embedded governance and real-time compliance controls for GDPR, HIPAA, SOC-2, and industry standards, and provides automated audit trails to support regulatory reporting.'
         },
         {
             id: '5',
-            title: 'Can AiXHub integrate with our existing ERP, CRM, and other systems?',
+            title: 'Can AiXHub™ integrate with our existing ERP, CRM, and other systems?',
             content: "Yes — the Cross-System Orchestration Model supports integration across ERP, CRM, HRMS, ITSM, and GRC systems while minimizing custom development and preserving existing infrastructure."
         },
         {
             id: '6',
-            title: 'What happens to our current software licenses after AiXHub implementation?',
+            title: 'What happens to our current software licenses after AiXHub™ implementation?',
             content: 'Organizations often reduce application count significantly, leading to substantial license savings and lower integration costs; results depend on the existing application landscape and consolidation strategy.'
         }
     ];

@@ -12,6 +12,7 @@ export const caseStudyData: CaseStudyItem[] = [
   date: "November 24, 2024",
      imageUrl: "/images/case-study/case study featured/Transforminghealth-1.jpg",
     bannerImage: "/images/case-study/Health-AI.webp",
+    homeCaseStudyBanner: "/images/case_studies/HealthcareHome.png",
     slug: "transforming-healthcare-the-success-of-health-ais-telehealth-platform",
   content: [
     {
@@ -54,7 +55,7 @@ export const caseStudyData: CaseStudyItem[] = [
     {
       title: "Answer & Solution",
       content: [
-        "<p>iTCart implemented AiXHealthcare, the healthcare vertical of AiXHub EOS, to act as the organisation’s execution and governance layer.</p>\
+        "<p>iTCart implemented AiXHealthcare, the healthcare vertical of AiXHub™ EOS, to act as the organisation’s execution and governance layer.</p>\
         <p>Using a MECE-based design, the solution addressed four dimensions:</p>\
         <ul class='list-disc pl-6 space-y-2'>\
         <li><strong>Execution Governance:</strong> AiXHealthcare governed how appointments, consultations, records, and payments execute across roles, eliminating manual coordination.</li>\
@@ -141,6 +142,7 @@ export const caseStudyData: CaseStudyItem[] = [
     date: "November 28, 2024",
     imageUrl: "/images/case-study/case study featured/BIMQP's.jpg",
     bannerImage: "/images/case-study/BIMQP.webp",
+    homeCaseStudyBanner: "/images/case_studies/Building-CasestudyHome.png",
     slug: "building-the-future-bimqps-success-with-itcarts-digital-solutions",
     content: [
       {
@@ -242,6 +244,7 @@ export const caseStudyData: CaseStudyItem[] = [
     date: "October 10, 2024",
     imageUrl: "/images/case-study/case study featured/maarif-found.jpg",
     bannerImage: "/images/case-study/TMF-Case-Study-Banner.webp",
+    homeCaseStudyBanner: "/images/case_studies/Maarif-CasestudyHome.png",
     slug: "maarif-foundation-digital-transformation-with-itcart",
     content: [
       {
@@ -334,6 +337,7 @@ export const caseStudyData: CaseStudyItem[] = [
     date: "October 10, 2024",
     imageUrl: "/images/case-study/case study featured/ImmunoCon.jpg",
     bannerImage: "/images/case-study/Immunocon2024.webp",
+    homeCaseStudyBanner: "/images/case_studies/Digital-CasestudyHome.png",
     slug: "digital-transformation-at-immunocon2024-conference",
     content: [
       {
@@ -425,12 +429,13 @@ export const caseStudyData: CaseStudyItem[] = [
   imageUrl: "/images/case-study/case study featured/Digital-Transformation.jpg",
     bannerImage: "/images/case-study/Tranforming Ajmal.webp",
     slug: "AI-native-digital-transformation-at-ajmal-foundation",
+    homeCaseStudyBanner: "/images/case_studies/AI-PoweredHome.png",
   content: [
     {
       title: "Executive Summary",
       content: [
         "<p>Educational institutions are under growing pressure to operate with greater agility, transparency, and engagement while managing increasingly complex administrative and community-driven environments. Ajmal Foundation, a large and diverse educational organisation, faced persistent challenges in communication fragmentation, operational inefficiencies, and limited institutional visibility, all of which constrained its ability to scale effectively.</p>\
-        <p>iTCart partnered with Ajmal Foundation to implement AiXHub, an AI-native Enterprise Operating System (EOS) designed to govern how communication, workflows, and institutional operations execute across the organisation. Rather than introducing another digital tool, AiXHub restructured the Foundation’s operating layer, enabling unified execution, role-based governance, and measurable efficiency gains.</p>\
+        <p>iTCart partnered with Ajmal Foundation to implement AiXHub, an AI-native Enterprise Operating System (EOS) designed to govern how communication, workflows, and institutional operations execute across the organisation. Rather than introducing another digital tool, AiXHub™ restructured the Foundation’s operating layer, enabling unified execution, role-based governance, and measurable efficiency gains.</p>\
         <p>The engagement replaced disconnected systems with a single operational backbone, improving productivity, strengthening community engagement, and reducing administrative overhead. As a result, Ajmal Foundation established a scalable, future-ready operating foundation capable of supporting continuous improvement and AI-driven evolution. This case illustrates how an EOS-led transformation delivers sustainable impact beyond conventional digitisation initiatives.</p>"
       ],
       isHTML: true
@@ -543,22 +548,23 @@ export const caseStudyData: CaseStudyItem[] = [
 },
   {
   id: "6",
-  title: "Transforming Education and Operations: AiXHub at the Forefront",
+  title: "Transforming Education and Operations: AiXHub™ at the Forefront",
   description:
-    "Transforming Education and Operations: AiXHub at the Forefront",
+    "Transforming Education and Operations: AiXHub™ at the Forefront",
   author: "Akshay Chakrapani",
   category: "one",
   date: "November 24, 2024",
   imageUrl: "/images/case-study/case study featured/Transformation-Education.jpg",
   bannerImage: "/images/case-study/Tranforming Education.png",
+  homeCaseStudyBanner: "/images/case_studies/Education-CasestudyHome.png",
   slug: "transforming-education-and-operations-aixhub-at-the-forefront",
   content: [
     {
       title: "Executive Summary",
       content: [
         "<p>Ajmal Foundation, a large and diverse educational institution, embarked on a transformation journey to modernise how its organisation operates, communicates, and governs itself at scale. As the Foundation expanded, fragmented systems, manual workflows, and disconnected communication channels began limiting efficiency, visibility, and institutional cohesion.</p>\
-        <p>iTCart partnered with Ajmal Foundation to implement AiXHub, an AI-native Enterprise Operating System (EOS) designed to act as the single operational backbone for the organisation. Rather than introducing another application or platform, AiXHub redefined how work, communication, governance, and decision flows function across the institution.</p>\
-        <p>By adopting AiXHub as its operating layer, Ajmal Foundation transitioned from siloed digital tools to a unified, intelligent execution model that improved operational efficiency, strengthened community engagement, and established a future-ready foundation for continuous evolution.</p>"
+        <p>iTCart partnered with Ajmal Foundation to implement AiXHub, an AI-native Enterprise Operating System (EOS) designed to act as the single operational backbone for the organisation. Rather than introducing another application or platform, AiXHub™ redefined how work, communication, governance, and decision flows function across the institution.</p>\
+        <p>By adopting AiXHub™ as its operating layer, Ajmal Foundation transitioned from siloed digital tools to a unified, intelligent execution model that improved operational efficiency, strengthened community engagement, and established a future-ready foundation for continuous evolution.</p>"
       ],
       isHTML: true
     },
@@ -595,7 +601,7 @@ export const caseStudyData: CaseStudyItem[] = [
         <li>The communication layer for unified institutional messaging</li>\
         <li>The intelligence layer for continuous optimisation and future AI enablement</li>\
         </ul>\
-        <p>Rather than adding to digital complexity, AiXHub replaced fragmentation with structured, intelligent execution.</p>"
+        <p>Rather than adding to digital complexity, AiXHub™ replaced fragmentation with structured, intelligent execution.</p>"
       ],
       isHTML: true
     },
@@ -607,7 +613,7 @@ export const caseStudyData: CaseStudyItem[] = [
         <ul class='list-disc pl-6 space-y-2'>\
         <li><strong>Unified Organisational Workspace:</strong> A single, governed entry point for communication, policies, events, and institutional updates.</li>\
         <li><strong>Execution-Driven Workflows:</strong> Structured workflows for internal requests, task management, HR interactions, and approvals — governed by roles, rules, and accountability.</li>\
-        <li><strong>Role-Bound Experiences:</strong> Different user roles (faculty, staff, administrators, leadership) experienced AiXHub differently, based on responsibility and authority.</li>\
+        <li><strong>Role-Bound Experiences:</strong> Different user roles (faculty, staff, administrators, leadership) experienced AiXHub™ differently, based on responsibility and authority.</li>\
         <li><strong>Governance by Design:</strong> Access control, information ownership, and auditability were embedded into how work executed — not added as afterthoughts.</li>\
         <li><strong>AI-Ready Operating Layer:</strong> The EOS was designed to evolve into intelligent, AI-driven decision execution without re-architecting the organisation.</li>\
         </ul>"
@@ -619,7 +625,7 @@ export const caseStudyData: CaseStudyItem[] = [
       content: [
         "<ol class='list-decimal pl-6 space-y-2'>\
         <li><strong>Organisational Discovery:</strong> iTCart worked with Ajmal Foundation stakeholders to map operational flows, decision points, and friction areas across departments.</li>\
-        <li><strong>EOS Configuration:</strong> AiXHub was configured to reflect how the Foundation actually operates — not how generic software assumes organisations work.</li>\
+        <li><strong>EOS Configuration:</strong> AiXHub™ was configured to reflect how the Foundation actually operates — not how generic software assumes organisations work.</li>\
         <li><strong>Controlled Rollout:</strong> The EOS was introduced in phases to ensure stability, adoption, and confidence across user groups.</li>\
         <li><strong>Enablement & Adoption:</strong> Hands-on training ensured users understood not just how to use AiXHub, but how work now flows through the organisation.</li>\
         <li><strong>Continuous Optimisation:</strong> A feedback-driven model allowed the EOS to evolve alongside institutional needs.</li>\
@@ -668,7 +674,7 @@ export const caseStudyData: CaseStudyItem[] = [
     {
       title: "Conclusion",
       content: [
-        "<p>The AiXHub implementation at Ajmal Foundation demonstrates how an AI-native Enterprise Operating System can redefine education-sector operations.</p>\
+        "<p>The AiXHub™ implementation at Ajmal Foundation demonstrates how an AI-native Enterprise Operating System can redefine education-sector operations.</p>\
         <p>By replacing fragmented tools with a unified operating layer, iTCart enabled Ajmal Foundation to move beyond digital patchwork toward structured, intelligent execution.</p>\
         <p>AiXHub is now the Foundation’s operational backbone — governing communication, workflows, and accountability — while remaining ready for future AI-driven evolution.</p>"
       ],

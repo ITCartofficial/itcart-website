@@ -38,7 +38,7 @@ const PatentPendingSection = () => {
                     </p>
 
                     <BodyText
-                        text="Built for speed, scale, and self-learning, AiXHub powers intelligent transformation across industries, turning complexity into clarity and ideas into real-time impact."
+                        text="Built for speed, scale, and self-learning, AiXHub™ powers intelligent transformation across industries, turning complexity into clarity and ideas into real-time impact."
                         className="text-white text-[16px] sm:text-[18px] leading-relaxed"
                     />
                 </div>

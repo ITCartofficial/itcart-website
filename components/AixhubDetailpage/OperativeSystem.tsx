@@ -18,7 +18,7 @@ const OperativeSystem = ({ coreValues }: { coreValues: CoreValues[] }) => {
             />
 
             <BodyText
-                text={"AiXHub EOS is a unified intelligence layer that sits above your existing systems— ERP, CRM, HR, operations, finance, engineering—and turns them into an AI-native enterprise without ripping and replacing what already works. "}
+                text={"AiXHub™ EOS is a unified intelligence layer that sits above your existing systems— ERP, CRM, HR, operations, finance, engineering—and turns them into an AI-native enterprise without ripping and replacing what already works. "}
                 color="#ffffff"
                 className="text-sm sm:text-base md:text-lg text-center  md:w-[80%] mx-auto"
             />
