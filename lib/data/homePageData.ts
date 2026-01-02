@@ -263,9 +263,11 @@ export const caseStudies = [
   {
     id: 1,
     title: "AI Powered Digital Transformations at Ajmal Foundation",
+    // bgImage: "/images/home/aixbfs-bg.jpg",
     image: "/images/case_studies/aipowereddigital.png",
     link: "/case-study",
     linkText: "Read Case Study",
+    
   },
   {
     id: 2,
@@ -286,6 +288,7 @@ export const caseStudies = [
   {
     id: 4,
     title: "Maarif Foundation Digital Transformation with iTCart",
+    bgImage: "/images/home/aixbfs-bg.jpg",
     image: "/images/case_studies/maariffoundation.png",
     link: "/case-study",
     linkText: "Read Case Study",

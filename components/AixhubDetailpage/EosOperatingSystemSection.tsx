@@ -53,7 +53,7 @@ const EosOperatingSystemSection = () => {
 
 
                 <p className="text-gray-300 mt-4 w-[70%] mx-auto text-sm sm:text-lg leading-relaxed">
-                    AiXHub EOS connects your ERP, CRM, HRMS, Finance, Operations, Engineering,
+                    AiXHub™ EOS connects your ERP, CRM, HRMS, Finance, Operations, Engineering,
                     enterprise tools and more into a single intelligence and governance layer —
                     without replacing what already works.
                 </p>

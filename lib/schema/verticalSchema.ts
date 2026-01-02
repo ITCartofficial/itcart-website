@@ -23,7 +23,7 @@ export const verticalSchema = {
             "itemListElement": [
                 {
                     "@type": "OfferCatalog",
-                    "name": "AiXHub",
+                    "name": "AiXHub™",
                     "description": "Core AI workspace framework for enterprise digital transformation and automation."
                 },
                 {

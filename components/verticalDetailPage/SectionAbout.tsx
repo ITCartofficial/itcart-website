@@ -41,8 +41,8 @@ const SectionAbout: React.FC<SectionAboutProps> = ({ aboutProduct, className,
 
                     <p className="text-[16px] leading-relaxed text-center md:text-start">
                         {contentOne}
-                        {/* AiXHub is the world's first AI-Native Enterprise Operating System engineered to enable governed autonomy, SLA-driven intelligence, and explainable decision execution across business functions like IT, HR, Finance, Legal, and Operations.
-                        The essence of AiXHub is core operating principle in all our solutions and services offered under different verticals across industries. */}
+                        {/* AiXHub™ is the world's first AI-Native Enterprise Operating System engineered to enable governed autonomy, SLA-driven intelligence, and explainable decision execution across business functions like IT, HR, Finance, Legal, and Operations.
+                        The essence of AiXHub™ is core operating principle in all our solutions and services offered under different verticals across industries. */}
                     </p>
                     <p className="text-[16px] leading-relaxed text-center md:text-start">
                         {contenttwo}

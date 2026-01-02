@@ -12,6 +12,7 @@ export const industryData = [
       bannerTitle: "Digital Transformation in Aviation Excellence ",
       bannerDescription: "Elevating artificial intelligence in the airline industry through comprehensive aviation technology solutions.",
       bannerImage: "/images/industries/Airline-Banner.jpg",   
+      mobileBannerImage: "/images/industries/Airlines-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {
@@ -214,7 +215,7 @@ export const industryData = [
       bannerTitle: "Automotive Digital Transformation Excellence",
       bannerDescription: "Elevating innovation in the automotive industry through extensive automotive manufacturing solutions",
       bannerImage: "/images/industries/Automotive-Industry-Banner.jpg",
-      mobileBannerImage: "/images/industru/Automotive-MobileBanner.jpg",
+      mobileBannerImage: "/images/industries/Automotive-MobileBanner.jpg",
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think and Do',
       aboutSection: {

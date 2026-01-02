@@ -98,7 +98,7 @@
 //                         Headquartered in Bengaluru, India’s Silicon Valley, and spanning
 //                         across innovation hubs in the USA, UK, KSA, UAE, and LATAM, iTCart stands at the
 //                         forefront of AI-native digital transformation. We don’t follow trends; we create them.
-//                         With a relentless focus on AI-driven disruption, iTCart’s Patent-pending AiXHub EOS
+//                         With a relentless focus on AI-driven disruption, iTCart’s Patent-pending AiXHub™ EOS
 //                         serves as the backbone of a new era of efficiency, innovation, and scalability.
 //                         This proprietary technology isn’t just a tool – it’s a paradigm shift. From automating
 //                         complex workflows to unlocking hyper-personalized insights with Generative AI, our solutions
@@ -341,7 +341,7 @@ const JobDetails: React.FC<JobDetailsProps> = ({ filteredJob }: JobDetailsProps)
                         About iTCart:
                     </p>
                     <p className="mt-2 text-white leading-relaxed">
-                        iTCart Private Limited is a global technology organisation redefining how industries operate in the age of Artificial Intelligence. Headquartered in Bengaluru and established across key innovation hubs in the USA, UK, KSA, UAE, and LATAM, iTCart leads AI-native digital transformation for enterprises worldwide. Our patent-pending AiXHub EOS serves as the foundation for intelligent automation, operational scalability, and AI-driven business excellence. From streamlining complex workflows to delivering hyper-personalised insights through Generative AI, we enable organisations to transition seamlessly from legacy environments to future-ready digital ecosystems.
+                        iTCart Private Limited is a global technology organisation redefining how industries operate in the age of Artificial Intelligence. Headquartered in Bengaluru and established across key innovation hubs in the USA, UK, KSA, UAE, and LATAM, iTCart leads AI-native digital transformation for enterprises worldwide. Our patent-pending AiXHub™ EOS serves as the foundation for intelligent automation, operational scalability, and AI-driven business excellence. From streamlining complex workflows to delivering hyper-personalised insights through Generative AI, we enable organisations to transition seamlessly from legacy environments to future-ready digital ecosystems.
                     </p>
                 </div>
 

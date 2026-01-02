@@ -90,7 +90,7 @@ const LeadershipInsightSection = () => {
                     </p>
 
                     <p className=" mt-1 text-[15px] sm:text-base">
-                        Inventor of AiXHub EOS
+                        Inventor of AiXHub™ EOS
                     </p>
                 </div>
             </div>

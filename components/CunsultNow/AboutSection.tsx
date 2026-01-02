@@ -28,7 +28,7 @@ function AboutSection() {
                 {/* Right Text Section */}
                 <div className="w-full lg:w-1/2 space-y-6 text-left">
                     <p className="text-gray-300 text-base leading-relaxed">
-                        Join organizations achieving up to 300% ROI through unified AI execution. The AiXHub framework delivers an end-to-end enterprise transformation. Our AI consulting methodology converts fragmented operations into intelligent, autonomous systems that coordinate across teams and continuously improve. Avoid falling behind competitors using AI-native operations while your organization relies on manual processes and software sprawl. Our AI consulting services enable Generative AI implementations that deliver measurable results. 
+                        Join organizations achieving up to 300% ROI through unified AI execution. The AiXHub™ framework delivers an end-to-end enterprise transformation. Our AI consulting methodology converts fragmented operations into intelligent, autonomous systems that coordinate across teams and continuously improve. Avoid falling behind competitors using AI-native operations while your organization relies on manual processes and software sprawl. Our AI consulting services enable Generative AI implementations that deliver measurable results. 
                     </p>
 
                     <p className="text-gray-300 text-base leading-relaxed">

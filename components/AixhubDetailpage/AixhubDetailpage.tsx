@@ -7,7 +7,7 @@ const AixhubDetailpage = () => {
                 <section className="mb-20 grid gap-10 lg:grid-cols-2 lg:items-center">
                     <div>
                         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-sky-400">
-                            AiXHub EOS
+                            AiXHub™ EOS
                         </p>
                         <h1 className="mb-4 text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
                             The AI-Native <span className="text-sky-400">Enterprise Operating System</span>
@@ -20,7 +20,7 @@ const AixhubDetailpage = () => {
                             </span>
                         </p>
                         <p className="mb-8 text-sm text-slate-400">
-                            AiXHub EOS helps leaders redesign how their enterprise thinks, decides,
+                            AiXHub™ EOS helps leaders redesign how their enterprise thinks, decides,
                             and executes with AI at the centre—and humans in control.
                         </p>
 
@@ -96,16 +96,16 @@ const AixhubDetailpage = () => {
                     </ul>
                 </section>
 
-                {/* INTRODUCING AIXHUB */}
+                {/* INTRODUCING AiXHub™ */}
                 <section className="mb-16">
                     <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.22em] text-sky-400">
-                        Introducing AiXHub EOS
+                        Introducing AiXHub™ EOS
                     </h2>
                     <h3 className="mb-4 text-2xl font-semibold text-slate-50 md:text-3xl">
                         The AI-Native Enterprise Operating System
                     </h3>
                     <p className="mb-6 max-w-3xl text-sm leading-relaxed text-slate-300">
-                        AiXHub EOS is a unified intelligence layer that sits above your existing systems—
+                        AiXHub™ EOS is a unified intelligence layer that sits above your existing systems—
                         ERP, CRM, HR, operations, finance, engineering—and turns them into an AI-native
                         enterprise without ripping and replacing what already works.
                     </p>
@@ -151,7 +151,7 @@ const AixhubDetailpage = () => {
                         Designed for enterprises that want AI at scale
                     </h3>
                     <p className="mb-5 max-w-3xl text-sm leading-relaxed text-slate-300">
-                        AiXHub EOS gives leaders a practical blueprint to go AI-native, not just AI-enabled.
+                        AiXHub™ EOS gives leaders a practical blueprint to go AI-native, not just AI-enabled.
                     </p>
 
                     <div className="grid gap-3 md:grid-cols-2">
@@ -247,7 +247,7 @@ const AixhubDetailpage = () => {
                             The future of your enterprise is AI-native
                         </h3>
                         <p className="mb-4 max-w-xl text-sm leading-relaxed text-slate-300">
-                            AiXHub EOS helps leaders answer the real questions:
+                            AiXHub™ EOS helps leaders answer the real questions:
                         </p>
                         <ul className="mb-4 space-y-2 text-sm text-slate-300">
                             <li>• How do we redesign our enterprise to think with AI?</li>
@@ -262,10 +262,10 @@ const AixhubDetailpage = () => {
                             FUELD Dubai 2025
                         </p>
                         <h4 className="mb-2 text-lg font-semibold text-slate-50">
-                            AiXHub EOS – Global Stage Debut
+                            AiXHub™ EOS – Global Stage Debut
                         </h4>
                         <p className="mb-3 text-sm text-slate-300">
-                            AiXHub EOS will make its first global-stage appearance at{" "}
+                            AiXHub™ EOS will make its first global-stage appearance at{" "}
                             <span className="font-medium text-slate-100">FUELD Dubai 2025</span>.
                         </p>
                         <p className="mb-4 text-sm text-slate-300">
@@ -274,7 +274,7 @@ const AixhubDetailpage = () => {
                             <span className="font-medium text-slate-100">
                                 Mohammed Rohim Uddin
                             </span>{" "}
-                            – Inventor, AiXHub EOS &amp; Founder &amp; Global CTO, iTCart.
+                            – Inventor, AiXHub™ EOS &amp; Founder &amp; Global CTO, iTCart.
                         </p>
                         <button className="w-full rounded-full border border-fuchsia-400/70 px-4 py-2.5 text-xs font-semibold uppercase tracking-[0.16em] text-fuchsia-300 transition hover:border-fuchsia-300 hover:text-fuchsia-100">
                             Connect with us around FUELD
@@ -285,11 +285,11 @@ const AixhubDetailpage = () => {
                 {/* FINAL CTA */}
                 <section className="rounded-3xl border border-sky-500/40 bg-sky-500/5 px-6 py-8 text-center">
                     <h2 className="mb-3 text-2xl font-semibold text-slate-50 md:text-3xl">
-                        Ready to explore AiXHub EOS for your enterprise?
+                        Ready to explore AiXHub™ EOS for your enterprise?
                     </h2>
                     <p className="mb-5 text-sm text-slate-200">
                         Start with a thoughtful conversation—not a demo carousel.
-                        Share your context and we’ll help you explore if AiXHub EOS is the right fit.
+                        Share your context and we’ll help you explore if AiXHub™ EOS is the right fit.
                     </p>
                     <div className="flex flex-wrap justify-center gap-4">
                         <button className="rounded-full bg-sky-500 px-6 py-2.5 text-sm font-semibold text-slate-950 shadow-lg shadow-sky-500/30 transition hover:bg-sky-400">

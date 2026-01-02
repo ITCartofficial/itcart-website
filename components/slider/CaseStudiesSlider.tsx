@@ -210,6 +210,11 @@ export default function CaseStudiesSlider({
 
   // ✅ Notify parent on slide change
 
+  interface CaseStudySliderItem extends CaseStudyItem {
+  image: string; // slider / home image
+}
+
+
 
   // ✅ Reset slider when loop edges are reached
   const resetPosition = useCallback(() => {
@@ -305,7 +310,7 @@ export default function CaseStudiesSlider({
               onClick={() => goToSlide(index)}
             >
               <div className="h-[450px] rounded-[25px] overflow-hidden bg-black">
-                <CaseStudyCard isFocused={isFocused} forSlide card={study} />
+                <CaseStudyCard isFocused={isFocused} forSlide card={study} bgImage={study.homeCaseStudyBanner}/>
               </div>
             </div>
           );

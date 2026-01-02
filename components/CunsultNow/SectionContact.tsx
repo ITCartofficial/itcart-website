@@ -11,7 +11,7 @@ function SectionContact({ showContent }: { showContent: string, image: string })
                 <>
                     <div className="flex justify-center text-center mb-8 md:px-0 px-10">
                         <GradientTitle
-                            text="Contact iTCart’s transformation experts today for a personalized AiXHub assessment and implementation roadmap."
+                            text="Contact iTCart’s transformation experts today for a personalized AiXHub™ assessment and implementation roadmap."
                             lineHeight="1.2"
                             className="text-[18px] sm:text-[20px] md:text-[24px] lg:text-[30px] leading-tight w-full sm:w-[90%] md:w-[70%]"
                             theme="dark"
