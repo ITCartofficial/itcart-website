@@ -12,6 +12,8 @@ interface CaseStudyCardProps {
 
 const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card, forSlide, isFocused }) => {
 
+    console.log("card", card);
+
 
     return (
 

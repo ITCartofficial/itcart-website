@@ -2,6 +2,8 @@ import { FaInstagram, FaXTwitter, FaLinkedin, FaFacebook } from "react-icons/fa6
 import CaseStudyCard from "../cards/CaseStudyCard";
 import GradientTitle from "../typography/GradientTitle";
 import Image from "next/image";
+import Link from "next/link";
+import { socialLinks } from "@/lib/data/footerData";
 
 interface SubItem {
     item: string;
@@ -69,7 +71,7 @@ export function parseContentWithLinks(content: string) {
 const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
     const caseStudyData = {
         id: '1',
-        title: "Experience a multi-functional AI-native platform",
+        title: "Transforming Healthcare Delivery through AiXHealthcare",
         image: "/images/blogs/blog-featured-2.png",
         link: "/contact",
         linkText: "Contact Us",
@@ -78,7 +80,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
         imageUrl: "/images/blogs/blog-featured-2.png",
         bannerImage: "/images/blogs/blog-banner-2.jpg",
         description: "Discover how our AI-native platform can transform your business operations.",
-        slug: "AI-native-platform",
+        slug: "transforming-healthcare-the-success-of-health-ais-telehealth-platform",
         category: "",
         content: [
             {
@@ -117,7 +119,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                     <div className="space-y-3 text-gray-300 leading-relaxed text-[16px]">
                         {
                             filterdData?.contents?.map((data, index) =>
-                                <div key={index} id={`section-${index}`}>
+                                <div key={index} id={`section-${index}`} className="scroll-mt-28 md:scroll-mt-36">
                                     <GradientTitle
                                         text={data?.title}
                                         theme="dark"
@@ -128,7 +130,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                                         data?.content?.map((content: string, index: number) =>
                                             <>
                                                 <p key={index} className={`text-[16px] ${index != 0 ? "mt-2" : "mt-0"}`}>
-                                                    {parseContentWithLinks(content)}....
+                                                    {parseContentWithLinks(content)}
                                                 </p>
                                             </>
 
@@ -199,11 +201,20 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                             theme="dark"
                             className={`text-[19px] mb-3 lg:items-start sm:text-[22px] md:text-[25px] leading-[1.2]`}
                         />
+                        {/* socialLinks */}
                         <div className="flex items-center gap-6 text-xl">
-                            <FaInstagram className="cursor-pointer hover:text-[#3cd1ff]" />
-                            <FaXTwitter className="cursor-pointer hover:text-[#3cd1ff]" />
-                            <FaLinkedin className="cursor-pointer hover:text-[#3cd1ff]" />
-                            <FaFacebook className="cursor-pointer hover:text-[#3cd1ff]" />
+                            <Link href={socialLinks.instagram}>   
+                                <FaInstagram className="cursor-pointer hover:text-[#3cd1ff]" />
+                            </Link>
+                            <Link href={socialLinks.twitter}>
+                                <FaXTwitter className="cursor-pointer hover:text-[#3cd1ff]" />
+                            </Link>
+                            <Link href={socialLinks.linkedin}>
+                                <FaLinkedin className="cursor-pointer hover:text-[#3cd1ff]" />
+                            </Link>
+                            <Link href={socialLinks.facebook}>
+                                <FaFacebook className="cursor-pointer hover:text-[#3cd1ff]" />
+                            </Link>
                         </div>
                     </div>
 
