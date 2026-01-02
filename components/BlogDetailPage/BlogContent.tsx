@@ -107,7 +107,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                                     <li onClick={() => {
                                         const section = document.getElementById(`section-${index}`);
                                         section?.scrollIntoView({ behavior: "smooth" });
-                                    }} key={index} className={`text-[16px] cursor-pointer`}> {parseContentWithLinks(data?.title)}</li>
+                                    }} key={index} className={`text-[16px] cursor-pointer hover:text-cyan-300`}> {parseContentWithLinks(data?.title)}</li>
                                 )
                             }
                         </ul>
