@@ -1,12 +1,12 @@
 export const solutionData = [
   {
-    title: "AiXHub",
+    title: "AiXHub™",
     description: "Consolidates resources, cultivates seamless collaboration and amplifies productivity via integrated tools, elevating communication, security, and organizational efficiency.",
     linkUrl: "/solutions/aixhub-internet",
     imageSrc: "/images/solutions/ai_image.png",
     detailPage: {
       metaTitle: 'Enterprise AI Workplace Automation & Unified Collaboration | AiXHub',
-      metaDescription: ' Experience enterprise transformation with AiXHub — the AI-native digital workplace platform that unifies collaboration, automation, and decision intelligence for modern organizations.',
+      metaDescription: ' Experience enterprise transformation with AiXHub™ — the AI-native digital workplace platform that unifies collaboration, automation, and decision intelligence for modern organizations.',
       bannerButtonText: "Get In Touch",
       bannerTitle: "Best Digital Workplace Software for Enterprises",
       bannerDescription: "Transform workplace through comprehensive enterprise collaboration platform excellence",
@@ -15,7 +15,7 @@ export const solutionData = [
       aboutSectionHeading: 'Digital Workplace Reimagined',
       aboutSection: {
         aboutImage: '/images/solutions/AiXHub-about.png',
-        contentOne: "Modern organizations need an intelligent workplace that goes beyond simple communication — one platform that brings together automation, teamwork, and governance. AiXHub EOS combines AI decision execution, workflow automation, and adaptive intelligence to turn workplaces into connected, efficient, and compliant ecosystems. ",
+        contentOne: "Modern organizations need an intelligent workplace that goes beyond simple communication — one platform that brings together automation, teamwork, and governance. AiXHub™ EOS combines AI decision execution, workflow automation, and adaptive intelligence to turn workplaces into connected, efficient, and compliant ecosystems. ",
         contenttwo: "",
         logo: ""
       },
@@ -44,7 +44,7 @@ export const solutionData = [
         },
         {
           title: "AI Integration",
-          description: "AiXHub EOS enables AI-native task execution, smart recommendations, and predictive process optimization.",
+          description: "AiXHub™ EOS enables AI-native task execution, smart recommendations, and predictive process optimization.",
           icon: "/icons/AiXHub/AiXHubFuture-icon5.svg",
         },
         {
@@ -58,13 +58,13 @@ export const solutionData = [
         {
           id: 1,
           title: "Collaboration Excellence",
-          description: "AiXHub unifies people, processes, and systems within a single AI-native ecosystem that eliminates silos and enhances visibility across departments. Intelligent collaboration tools streamline task execution, automate approvals, and maintain SLA compliance. Teams can communicate in real time, co-author securely through Microsoft 365, and manage documents with embedded governance. The result is faster decisions, stronger accountability, and seamless teamwork across distributed environments.  ",
+          description: "AiXHub™ unifies people, processes, and systems within a single AI-native ecosystem that eliminates silos and enhances visibility across departments. Intelligent collaboration tools streamline task execution, automate approvals, and maintain SLA compliance. Teams can communicate in real time, co-author securely through Microsoft 365, and manage documents with embedded governance. The result is faster decisions, stronger accountability, and seamless teamwork across distributed environments.  ",
           imageSrc: "/images/solutions/AiXHub-collab1.png",
         },
         {
           id: 2,
           title: "Employee Empowerment ",
-          description: "AiXHub delivers an adaptive employee experience through AI-personalized dashboards, smart task prioritization, and contextual recommendations. Employees gain real-time visibility into performance metrics, pending tasks, and achievements. Automated feedback loops and recognition systems improve engagement, while workflow transparency fosters accountability and trust. By merging automation with intuitive design, AiXHub ensures every employee contributes efficiently to organizational success while staying aligned with enterprise goals and values. ",
+          description: "AiXHub™ delivers an adaptive employee experience through AI-personalized dashboards, smart task prioritization, and contextual recommendations. Employees gain real-time visibility into performance metrics, pending tasks, and achievements. Automated feedback loops and recognition systems improve engagement, while workflow transparency fosters accountability and trust. By merging automation with intuitive design, AiXHub™ ensures every employee contributes efficiently to organizational success while staying aligned with enterprise goals and values. ",
           imageSrc: "/images/solutions/AiXHub-collab2.png",
         },
         {
@@ -101,8 +101,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart?",
       chooseItems: [
         {
-          title: "AiXHub EOS Integration",
-          description: "Built on the proprietary AiXHub Enterprise Operating System, delivering intelligent automation, adaptive learning, and predictive insights across workplace systems.",
+          title: "AiXHub™ EOS Integration",
+          description: "Built on the proprietary AiXHub™ Enterprise Operating System, delivering intelligent automation, adaptive learning, and predictive insights across workplace systems.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/AiXHub/AiXHubChooseUs-icon1.svg'
         },
@@ -126,7 +126,7 @@ export const solutionData = [
         },
         {
           title: "Proven Results",
-          description: "Organizations report 85% faster collaboration cycles, 70% fewer manual tasks, and 95% audit-ready compliance after AiXHub deployments.",
+          description: "Organizations report 85% faster collaboration cycles, 70% fewer manual tasks, and 95% audit-ready compliance after AiXHub™ deployments.",
           gradient: "from-[#222222] to-[#111111]", // dark
           icon: '/icons/AiXHub/AiXHubChooseUs-icon5.svg'
         },
@@ -170,8 +170,8 @@ export const solutionData = [
       FAQs: [
         {
           id: '1',
-          title: 'What makes AiXHub different from other digital workplace solutions?',
-          content: " AiXHub is the world’s first AI-Native Enterprise Operating System integrating workflow automation, compliance, and Microsoft 365 — delivering real-time decision execution and intelligent collaboration.."
+          title: 'What makes AiXHub™ different from other digital workplace solutions?',
+          content: " AiXHub™ is the world’s first AI-Native Enterprise Operating System integrating workflow automation, compliance, and Microsoft 365 — delivering real-time decision execution and intelligent collaboration.."
         },
         {
           id: '2',
@@ -180,7 +180,7 @@ export const solutionData = [
         },
         {
           id: '3',
-          title: 'Can AiXHub integrate with existing systems?',
+          title: 'Can AiXHub™ integrate with existing systems?',
           content: ' Yes. AiXHub’s orchestration engine connects with ERP, CRM, HRMS, and legacy tools through secure APIs and Microsoft 365 integration.'
         },
         {
@@ -190,7 +190,7 @@ export const solutionData = [
         },
         {
           id: '5',
-          title: "How does AiXHub improve employee engagement?",
+          title: "How does AiXHub™ improve employee engagement?",
           content: "By unifying communication, performance analytics, and recognition systems — enabling transparent and motivating workplace experiences."
         },
         {
@@ -309,8 +309,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart",
       chooseItems: [
         {
-          title: "AiXHub EOS Integration",
-          description: "Built on the proprietary AiXHub Enterprise Operating System, this solution delivers intelligent automation, adaptive learning capabilities, and predictive insights. It provides a unified AI-native ERP architecture that simplifies enterprise operations and enhances decision-making efficiency.",
+          title: "AiXHub™ EOS Integration",
+          description: "Built on the proprietary AiXHub™ Enterprise Operating System, this solution delivers intelligent automation, adaptive learning capabilities, and predictive insights. It provides a unified AI-native ERP architecture that simplifies enterprise operations and enhances decision-making efficiency.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Documents/DocumentChooseUs-icon1.svg'
         },
@@ -512,8 +512,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart",
       chooseItems: [
         {
-          title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System, delivering intelligent automation, adaptive learning capabilities, and predictive insights. It provides a unified AI-native ERP architecture for optimized operations.",
+          title: "AiXHub™ EOS Integration",
+          description: "Built on proprietary AiXHub™ Enterprise Operating System, delivering intelligent automation, adaptive learning capabilities, and predictive insights. It provides a unified AI-native ERP architecture for optimized operations.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Digital/DigitalChooseUs-icon1.svg'
         },
@@ -715,8 +715,8 @@ export const solutionData = [
       chooseHeading: "Why Choose Us",
       chooseItems: [
         {
-          title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
+          title: "AiXHub™ EOS Integration",
+          description: "Built on proprietary AiXHub™ Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Busines/BussinesChooseUs-icon1.svg'
         },
@@ -918,8 +918,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart? ",
       chooseItems: [
         {
-          title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
+          title: "AiXHub™ EOS Integration",
+          description: "Built on proprietary AiXHub™ Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Human-Resource/HumanChooseUs-icon1.svg'
         },
@@ -1323,8 +1323,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart?",
       chooseItems: [
         {
-          title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
+          title: "AiXHub™ EOS Integration",
+          description: "Built on proprietary AiXHub™ Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/Enterprise/EnterpriseChooseUs-icon1.svg'
         },
@@ -1522,8 +1522,8 @@ export const solutionData = [
       chooseHeading: "Why Choose Us ",
       chooseItems: [
         {
-          title: "AiXHub EOS Integration",
-          description: "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture. ",
+          title: "AiXHub™ EOS Integration",
+          description: "Built on proprietary AiXHub™ Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon:'/icons/Customer/CustomerChooseUs-icon1.svg'
         },
@@ -1725,8 +1725,8 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart?",
       chooseItems: [
         {
-          title: "AiXHub EOS Integration ",
-          description: "Built on proprietary AiXHub  delivering intelligent automation, predictive insights, and adaptive capabilities through comprehensive supply chain management solutions architecture. ",
+          title: "AiXHub™ EOS Integration ",
+          description: "Built on proprietary AiXHub™  delivering intelligent automation, predictive insights, and adaptive capabilities through comprehensive supply chain management solutions architecture. ",
           gradient: "from-[#45C2CC] to-[#181919]", // teal to blue
           icon: '/icons/SupplyChain/SupplyChooseUs-icon1.svg'
         },
@@ -1952,9 +1952,9 @@ export const solutionData = [
       chooseHeading: "Why Choose iTCart?",
       chooseItems: [
         {
-          title: "AiXHub EOS Integration",
+          title: "AiXHub™ EOS Integration",
           description:
-            "Built on proprietary AiXHub Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
+            "Built on proprietary AiXHub™ Enterprise Operating System delivering intelligent automation, adaptive learning capabilities, and predictive insights through advanced AI-native ERP architecture.",
           gradient: "from-[#45C2CC] to-[#181919]",
           icon: "/icons/Logistics/LogisticsChooseUs-icon1.svg",
         },

@@ -1,9 +1,9 @@
 
 export const newBlogData = [
     {
-        bannerTitle: 'How AiXHub Is Shaping the Future of Enterprise AI in 2025',
-        bannerDiscription: 'Explore how AiXHub helps enterprises automate workflows, unify data, and make smarter decisions. Learn why AI-powered transformation is becoming the new business standard.',
-        image: '/images/blogs/newblogs/How AiXHub Is Shaping.jpg',
+        bannerTitle: 'How AiXHub™ Is Shaping the Future of Enterprise AI in 2025',
+        bannerDiscription: 'Explore how AiXHub™ helps enterprises automate workflows, unify data, and make smarter decisions. Learn why AI-powered transformation is becoming the new business standard.',
+        image: '/images/blogs/newblogs/How AiXHub™ Is Shaping.jpg',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
         id: 1,
@@ -14,12 +14,12 @@ export const newBlogData = [
             {
                 id: 1,
                 title: 'Why AI Is Essential for Modern Enterprises in 2025',
-                content: ['In today’s fast-evolving business environment, enterprises face increasing complexity, fragmented data, and the need for rapid decision-making. Legacy systems and siloed workflows often limit productivity. Digital transformation is no longer optional; it is a strategic imperative. But true transformation isn’t just about digitizing existing processes. It’s about intelligent automation, predictive analytics, and integrated AI systems that connect all parts of an organization. iTCart addresses this need with AiXHub, a proprietary AI-native platform that integrates automation, analytics, and decision intelligence across multiple enterprise verticals. AiXHub enables organizations to streamline operations, reduce errors, optimize resources, and enhance customer experiences — all while delivering measurable ROI. Learn more about <link text="AiXHub" url="https://aixhub.ai/" />']
+                content: ['In today’s fast-evolving business environment, enterprises face increasing complexity, fragmented data, and the need for rapid decision-making. Legacy systems and siloed workflows often limit productivity. Digital transformation is no longer optional; it is a strategic imperative. But true transformation isn’t just about digitizing existing processes. It’s about intelligent automation, predictive analytics, and integrated AI systems that connect all parts of an organization. iTCart addresses this need with AiXHub, a proprietary AI-native platform that integrates automation, analytics, and decision intelligence across multiple enterprise verticals. AiXHub™ enables organizations to streamline operations, reduce errors, optimize resources, and enhance customer experiences — all while delivering measurable ROI. Learn more about <link text="AiXHub™" url="https://aixhub.ai/" />']
             },
             {
                 id: 2,
-                title: 'How AiXHub Works for Enterprises',
-                content: ['AiXHub is more than an AI tool; it is a unified ecosystem designed to connect every department. By centralizing data from finance, operations, compliance, logistics, and customer management, AiXHub provides actionable insights and automates critical processes.'],
+                title: 'How AiXHub™ Works for Enterprises',
+                content: ['AiXHub is more than an AI tool; it is a unified ecosystem designed to connect every department. By centralizing data from finance, operations, compliance, logistics, and customer management, AiXHub™ provides actionable insights and automates critical processes.'],
                 subItemTitle: 'Key Capabilities:',
                 subItems: [
                     {
@@ -43,7 +43,7 @@ export const newBlogData = [
                         content: ''
                     }
                 ],
-                finalPoint: '<link text="Explore AiXHub capabilities" url="https://itcart.ai/products/aixhub" />'
+                finalPoint: '<link text="Explore AiXHub™ capabilities" url="https://itcart.ai/products/aixhub" />'
             },
             {
                 id: 3,
@@ -75,8 +75,8 @@ export const newBlogData = [
             },
             {
                 id: 4,
-                title: 'Why AiXHub Stands Out',
-                content: ['Enterprises often ask why AiXHub is different from other AI platforms.'],
+                title: 'Why AiXHub™ Stands Out',
+                content: ['Enterprises often ask why AiXHub™ is different from other AI platforms.'],
                 subItems: [
                     {
                         item: 'End-to-End Integration: Connects ERP, GRC, BI, supply chain, and customer operations in one platform.',
@@ -99,12 +99,12 @@ export const newBlogData = [
                         content: ''
                     }
                 ],
-                finalPoint: '<link text="See AiXHub in action" url="https://itcart.ai/case-study/transforming-education-and-operations-aixhub-at-the-forefront" />'
+                finalPoint: '<link text="See AiXHub™ in action" url="https://itcart.ai/case-study/transforming-education-and-operations-aixhub-at-the-forefront" />'
             },
             {
                 id: 5,
                 title: 'Business Impact of AI-native Transformation',
-                content: ['Adopting AiXHub delivers tangible results:'],
+                content: ['Adopting AiXHub™ delivers tangible results:'],
                 subItems: [
                     {
                         item: 'Efficiency Gains: Automation reduces repetitive tasks and human error.',
@@ -127,7 +127,7 @@ export const newBlogData = [
                         content: ''
                     },
                 ],
-                finalPoint: 'Case Example: Organizations using AiXHub ERP and BPA solutions reported 30–50% faster workflow cycles and improved compliance accuracy. <link text="Read more about AiXHub ERP" url="https://itcart.ai/solutions/enterprise-resource-planning" />'
+                finalPoint: 'Case Example: Organizations using AiXHub™ ERP and BPA solutions reported 30–50% faster workflow cycles and improved compliance accuracy. <link text="Read more about AiXHub™ ERP" url="https://itcart.ai/solutions/enterprise-resource-planning" />'
             },
             {
                 id: 6,
@@ -147,8 +147,8 @@ export const newBlogData = [
             },
             {
                 id: 7,
-                title: 'Starting Your AiXHub Journey',
-                content: ['To implement AiXHub effectively:'],
+                title: 'Starting Your AiXHub™ Journey',
+                content: ['To implement AiXHub™ effectively:'],
                 subItems: [
                     {
                         item: 'Identify High-Impact Areas: Target repetitive or data-heavy processes.',
@@ -163,7 +163,7 @@ export const newBlogData = [
                         content: ''
                     },
                     {
-                        item: 'Scale Across Departments: Expand AiXHub implementation while continuously refining workflows.',
+                        item: 'Scale Across Departments: Expand AiXHub™ implementation while continuously refining workflows.',
                         content: ''
                     },
                     {
@@ -171,12 +171,12 @@ export const newBlogData = [
                         content: ''
                     }
                 ],
-                finalPoint: '<link text="Learn more about AiXHub services" url="https://itcart.ai/services" />'
+                finalPoint: '<link text="Learn more about AiXHub™ services" url="https://itcart.ai/services" />'
             },
             {
                 id: 8,
                 title: 'Emerging Enterprise AI Trends',
-                content: ['Enterprises leveraging AiXHub can stay ahead by adopting key AI trends:'],
+                content: ['Enterprises leveraging AiXHub™ can stay ahead by adopting key AI trends:'],
                 subItems: [
                     {
                         item: 'Hyper automation: AI, RPA, and analytics combine for fully automated workflows.',
@@ -199,11 +199,11 @@ export const newBlogData = [
             {
                 id: 9,
                 title: 'Conclusion',
-                content: ['Digital transformation is no longer optional; it’s essential. iTCart’s AiXHub framework empowers enterprises to automate workflows, gain predictive intelligence, and deliver superior customer experiences. By integrating AI across ERP, GRC, logistics, finance, and industry-specific operations, AiXHub enables businesses to scale efficiently, reduce risk, and innovate continuously.'],
-                finalPoint: '<link text="Learn more about AiXHub services" url="https://itcart.ai/solutions/aixhub" /> | <link text="Get Started Today" url="https://itcart.ai/contact-us" />'
+                content: ['Digital transformation is no longer optional; it’s essential. iTCart’s AiXHub™ framework empowers enterprises to automate workflows, gain predictive intelligence, and deliver superior customer experiences. By integrating AI across ERP, GRC, logistics, finance, and industry-specific operations, AiXHub™ enables businesses to scale efficiently, reduce risk, and innovate continuously.'],
+                finalPoint: '<link text="Learn more about AiXHub™ services" url="https://itcart.ai/solutions/aixhub" /> | <link text="Get Started Today" url="https://itcart.ai/contact-us" />'
             }
         ],
-        FAQsHeading: "AI & AiXHub for Enterprises",
+        FAQsHeading: "AI & AiXHub™ for Enterprises",
         FAQs: [
             {
                 id: '1',
@@ -212,7 +212,7 @@ export const newBlogData = [
             },
             {
                 id: '2',
-                title: 'How can AiXHub improve my business operations?',
+                title: 'How can AiXHub™ improve my business operations?',
                 content: 'AiXHub integrates AI across departments, automates workflows, and provides predictive insights. Enterprises can streamline ERP, compliance, logistics, finance, and customer experience functions.'
             },
             {
@@ -223,12 +223,12 @@ export const newBlogData = [
             {
                 id: '4',
                 title: 'How do I start AI transformation in my enterprise?',
-                content: 'Start by identifying high-impact workflows, piloting AiXHub in select verticals, measuring results, and scaling gradually while maintaining governance and compliance oversight.'
+                content: 'Start by identifying high-impact workflows, piloting AiXHub™ in select verticals, measuring results, and scaling gradually while maintaining governance and compliance oversight.'
             },
             {
                 id: '5',
                 title: "What is the ROI of adopting AiXHub?",
-                content: "Enterprises adopting AiXHub have reported 30–50% faster workflow cycles, reduced operational costs, improved compliance, and enhanced customer experience, making AI adoption highly impactful."
+                content: "Enterprises adopting AiXHub™ have reported 30–50% faster workflow cycles, reduced operational costs, improved compliance, and enhanced customer experience, making AI adoption highly impactful."
             }
         ],
     },
@@ -547,7 +547,7 @@ export const newBlogData = [
     ////////////////////////////////////////////////////////////////////////////////
     {
         bannerTitle: 'Process Discovery: Unveiling the DNA of Modern Business Success  ',
-        bannerDiscription: 'Process discovery provides organisations with a factual, data-driven view of how work truly flows across systems and teams. Leveraging iTCart’s AiXHub framework, enterprises can uncover hidden inefficiencies, strengthen compliance, and drive transformation with precision rather than assumptions.',
+        bannerDiscription: 'Process discovery provides organisations with a factual, data-driven view of how work truly flows across systems and teams. Leveraging iTCart’s AiXHub™ framework, enterprises can uncover hidden inefficiencies, strengthen compliance, and drive transformation with precision rather than assumptions.',
         image: '/images/blogs/newblogs/process-discovery.jpg',
         writtenBy: 'Dona',
         writtenDate: '24/11/2025',
@@ -560,7 +560,7 @@ export const newBlogData = [
                 title: 'Introduction: Mapping the Invisible Workflows',
                 content: [
                     'In the digital age, business agility hinges on precise understanding, not just of technology but of the countless human and digital interactions lurking within everyday operations. The concept of process discovery is fundamental for organizations seeking transformation without disruption. Instead of relying on intuition or siloed knowledge, process discovery creates an empirical blueprint of how tasks, systems, and people connect across the enterprise. ',
-                    'This blog explores process discovery from its core meaning to deep business benefits, lays out the strategic essentials for leaders, and demonstrates how iTCart’s pioneering AiXHub framework empowers organizations to move beyond guesswork to operational mastery. It is written to avoid generic automation clichés and tired industry buzzwords.'
+                    'This blog explores process discovery from its core meaning to deep business benefits, lays out the strategic essentials for leaders, and demonstrates how iTCart’s pioneering AiXHub™ framework empowers organizations to move beyond guesswork to operational mastery. It is written to avoid generic automation clichés and tired industry buzzwords.'
                 ]
             },
             {
@@ -615,7 +615,7 @@ export const newBlogData = [
                 content: [
                     'While process discovery offers transformative benefits, there are inherent challenges that must be acknowledged to present a well-rounded perspective. One such challenge is the complexity involved in collecting and interpreting vast amounts of data from disparate systems, particularly in large enterprises where legacy platforms coexist with modern applications. This can sometimes result in incomplete or noisy data sets that require expert filtering and validation. ',
                     'Additionally, change management and user adoption can be significant hurdles. Employees may feel wary or resistant when their behaviors and workflows become closely monitored, fearing loss of autonomy or job security. There is also the risk that without proper governance, automated insights could mislead rather than guide improvement efforts. ',
-                    'iTCart addresses these challenges head-on through its AiXHub framework by integrating human expertise with AI. This approach balances the power of automation with the nuance of human judgment, ensuring insights are accurate, actionable, and ethically applied. iTCart also emphasizes transparency and employee engagement, fostering trust and collaboration throughout the discovery and optimization process. Its scalable architecture tackles data complexity by unifying inputs across platforms, while adaptive learning continuously refines process intelligence as the business evolves.'
+                    'iTCart addresses these challenges head-on through its AiXHub™ framework by integrating human expertise with AI. This approach balances the power of automation with the nuance of human judgment, ensuring insights are accurate, actionable, and ethically applied. iTCart also emphasizes transparency and employee engagement, fostering trust and collaboration throughout the discovery and optimization process. Its scalable architecture tackles data complexity by unifying inputs across platforms, while adaptive learning continuously refines process intelligence as the business evolves.'
                 ],
             },
             {
@@ -675,19 +675,19 @@ export const newBlogData = [
             },
             {
                 id: 8,
-                title: 'The iTCart Advantage: AiXHub Framework, Precision Without Disruption ',
-                content: ['Process discovery is transformative when combined with advanced AI-driven platforms such as iTCart’s AiXHub Framework. Here’s what sets iTCart apart in applying process discovery at scale. '],
+                title: 'The iTCart Advantage: AiXHub™ Framework, Precision Without Disruption ',
+                content: ['Process discovery is transformative when combined with advanced AI-driven platforms such as iTCart’s AiXHub™ Framework. Here’s what sets iTCart apart in applying process discovery at scale. '],
                 subItemTitle: '',
                 subItems: [
                     {
                         item: "Centralized, Real-Time Insights",
                         content:
-                            "AiXHub continuously monitors enterprise workflows without disrupting staff or legacy systems. Data from platforms such as ERP, CRM, HCM, and custom apps flows directly into unified process maps, giving decision makers live insights for prompt action."
+                            "AiXHub™ continuously monitors enterprise workflows without disrupting staff or legacy systems. Data from platforms such as ERP, CRM, HCM, and custom apps flows directly into unified process maps, giving decision makers live insights for prompt action."
                     },
                     {
                         item: "Human Expertise Integrated with AI",
                         content:
-                            "Unlike solutions built purely for automation, iTCart ensures human judgment stays central. AiXHub allows leaders to validate insights, confirm compliance, and make nuanced decisions that algorithms alone cannot achieve."
+                            "Unlike solutions built purely for automation, iTCart ensures human judgment stays central. AiXHub™ allows leaders to validate insights, confirm compliance, and make nuanced decisions that algorithms alone cannot achieve."
                     },
                     {
                         item: "Tailored Application Across Industries",
@@ -697,12 +697,12 @@ export const newBlogData = [
                     {
                         item: "Ethical, Secure, and Compliant",
                         content:
-                            "Adherence to global standards like GDPR, HIPAA, and SOC-2 is built in. AiXHub safeguards sensitive information throughout the process discovery lifecycle, ensuring transparency without compromising trust."
+                            "Adherence to global standards like GDPR, HIPAA, and SOC-2 is built in. AiXHub™ safeguards sensitive information throughout the process discovery lifecycle, ensuring transparency without compromising trust."
                     },
                     {
                         item: "Intelligent Automation Only Where Needed",
                         content:
-                            "AiXHub avoids blanket automation by identifying high-impact opportunities. This allows companies to focus resources where they deliver measurable results, such as improved customer experience, reduced operational costs, and stronger regulatory performance."
+                            "AiXHub™ avoids blanket automation by identifying high-impact opportunities. This allows companies to focus resources where they deliver measurable results, such as improved customer experience, reduced operational costs, and stronger regulatory performance."
                     },
                     {
                         item: "Adaptive and Future-Proof",
@@ -726,7 +726,7 @@ export const newBlogData = [
                 id: 10,
                 title: 'Optimizing Payment Workflows with Actionable Insights ',
                 content: [
-                    'A financial services company faced operational blind spots in its payments and risk management workflow. Deploying AiXFintech powered by AiXHub allowed the company to map payment flows, customer journeys, and risk checks. Process discovery uncovered hidden dependencies that impeded payment verification, revealed compliance gaps, and flagged repetitive tasks ideal for automation.',
+                    'A financial services company faced operational blind spots in its payments and risk management workflow. Deploying AiXFintech powered by AiXHub™ allowed the company to map payment flows, customer journeys, and risk checks. Process discovery uncovered hidden dependencies that impeded payment verification, revealed compliance gaps, and flagged repetitive tasks ideal for automation.',
                     'Using AiXHub’s recommendations, the organization refined payment approvals, automated regulatory traceability, and optimized risk assessment touchpoints. The result was reduced churn rates, improved customer satisfaction, and measurable improvement in compliance scores, all achieved with accurate, actionable insights. '
                 ],
                 subItemTitle: '',
@@ -736,7 +736,7 @@ export const newBlogData = [
                 id: 11,
                 title: 'Conclusion',
                 content: [
-                    "Process discovery is fundamental to the success of any transformation journey. It removes guesswork, aligns human expertise with real operational data, and lays the foundation for strategic improvement. As digital complexity continues to grow, the right approach guided by platforms like iTCart’s AiXHub ensures businesses excel, powered by insights not assumptions. ",
+                    "Process discovery is fundamental to the success of any transformation journey. It removes guesswork, aligns human expertise with real operational data, and lays the foundation for strategic improvement. As digital complexity continues to grow, the right approach guided by platforms like iTCart’s AiXHub™ ensures businesses excel, powered by insights not assumptions. ",
                     "Embark on your process discovery journey with iTCart. Process discovery is embedded into enterprise DNA, enabling clear direction, reliable compliance, and future-ready growth. ",
                     "Unlock operational clarity now. Your organization’s future depends on seeing, improving, and owning every workflow. Reach out to iTCart for a discovery consultation or to book a live demo today, and transform your business with precision and confidence. "
                 ]
@@ -1185,7 +1185,7 @@ export const newBlogData = [
                             ""
                     },
                     {
-                        item: "AiXHub processes and analyzes this data locally, triggering immediate alerts for issues. ",
+                        item: "AiXHub™ processes and analyzes this data locally, triggering immediate alerts for issues. ",
                         content:
                             ""
                     },
@@ -1240,7 +1240,7 @@ export const newBlogData = [
                         content: ''
                     },
                 ],
-                finalPoint: 'iTCart is positioned to lead this evolution by continuously enhancing AiXHub and CyberAiX with innovation rooted in responsibility, scalability, and security. '
+                finalPoint: 'iTCart is positioned to lead this evolution by continuously enhancing AiXHub™ and CyberAiX with innovation rooted in responsibility, scalability, and security. '
             },
             {
                 id: 18,
@@ -1248,7 +1248,7 @@ export const newBlogData = [
                 content: [
                     'AIoT fundamentally changes what connected technology can do, transforming it from simple data feeders into intelligent collaborators driving proactive, agile, and resilient business operations. ',
                     'iTCart is central to this transformation. Their AIoT cybersecurity and operational platforms are designed to address today’s challenges while also enabling businesses to seize tomorrow’s opportunities in a practical, compliant, and scalable way. ',
-                    'Organizations adopting AiXHub and CyberAiX set the new standard by being secure, insightful, and prepared for a rapidly evolving digital future. '
+                    'Organizations adopting AiXHub™ and CyberAiX set the new standard by being secure, insightful, and prepared for a rapidly evolving digital future. '
                 ],
             }
         ],
@@ -1728,7 +1728,7 @@ export const newBlogData = [
                 subItems: [
                     {
                         item: 'Built-In Security as a Baseline',
-                        content: 'iTCart places cyber resilience and security at the core of the AiXHub framework and every vertical solution. With deep domain expertise in BFSI, Fintech, Healthcare, Real Estate, and Manufacturing, iTCart tailors assessments to meet sector-specific risk profiles, ensuring AI deployments are both functional and inherently secure. Our processes align strictly with standards including ISO 27001, SOC-2, PCI DSS, HIPAA, and GDPR, allowing clients to maintain compliance proactively.'
+                        content: 'iTCart places cyber resilience and security at the core of the AiXHub™ framework and every vertical solution. With deep domain expertise in BFSI, Fintech, Healthcare, Real Estate, and Manufacturing, iTCart tailors assessments to meet sector-specific risk profiles, ensuring AI deployments are both functional and inherently secure. Our processes align strictly with standards including ISO 27001, SOC-2, PCI DSS, HIPAA, and GDPR, allowing clients to maintain compliance proactively.'
                     },
                 ],
                 finalPoint: ''
@@ -1747,7 +1747,7 @@ export const newBlogData = [
                     {
                         item: "Adaptive, Always-On Monitoring",
                         content:
-                            "AiXHub provides real-time visibility into vulnerable assets, issues, and compliance gaps through centralized, customizable dashboards integrated with global threat intelligence. This continuous monitoring can reduce incident response times by up to 40%."
+                            "AiXHub™ provides real-time visibility into vulnerable assets, issues, and compliance gaps through centralized, customizable dashboards integrated with global threat intelligence. This continuous monitoring can reduce incident response times by up to 40%."
                     },
                     {
                         item: "Vertical-Specific Solutions",
@@ -1802,7 +1802,7 @@ export const newBlogData = [
                     {
                         item: "Scenario-Based Testing",
                         content:
-                            "Security teams run realistic threat simulations—such as adversarial input attacks and supply chain compromises—directly within the AiXHub platform. This practical approach accelerates learning and closes security gaps up to 30% faster."
+                            "Security teams run realistic threat simulations—such as adversarial input attacks and supply chain compromises—directly within the AiXHub™ platform. This practical approach accelerates learning and closes security gaps up to 30% faster."
                     },
                     {
                         item: "Client-Centric Customization",
@@ -1880,7 +1880,7 @@ export const newBlogData = [
                 title: 'Conclusion: The iTCart Edge in AI Vulnerability Assessment',
                 content: [
                     'The next stage of enterprise AI adoption must prioritize continuous security. Vulnerability assessment for AI systems requires smarter tools, adaptive techniques, and a business-aligned approach.',
-                    'iTCart stands as a partner in this journey, delivering security-first AI solutions that blend technical rigor, industry expertise, and human insight. By embedding advanced assessment tools, dynamic monitoring, and interactive testing directly into its AiXHub ecosystem and vertical applications, iTCart empowers organizations to embrace AI with confidence, agility, and lasting security.',
+                    'iTCart stands as a partner in this journey, delivering security-first AI solutions that blend technical rigor, industry expertise, and human insight. By embedding advanced assessment tools, dynamic monitoring, and interactive testing directly into its AiXHub™ ecosystem and vertical applications, iTCart empowers organizations to embrace AI with confidence, agility, and lasting security.',
                     'From planning to deployment, and ongoing compliance, iTCart ensures your AI systems are secure, responsible, and ready for the future.'
                 ],
                 subItemTitle: '',
@@ -3534,13 +3534,13 @@ export const newBlogData = [
 },
     ////////////////////////////////////////////////////////////////////////////
     {
-  bannerTitle: "AiXHub: Powering Data-Driven Enterprise Transformation",
+  bannerTitle: "AiXHub™: Powering Data-Driven Enterprise Transformation",
   bannerDiscription:
     "Unified intelligence streamlines operations, enhances visibility, and drives faster enterprise decisions through structured data flows.",
    image: '/images/blogs/newblogs/aixhubblog-1.jpg',
   writtenBy: "Muskan Sonda",
   writtenDate: "12/12/2025",
-  type: "AiXHub Blogs",
+  type: "AiXHub™ Blogs",
   status: "",
   id: 23,
 
@@ -3551,7 +3551,7 @@ export const newBlogData = [
       content: [
         "Data has become one of the most valuable assets in modern enterprises. Organisations generate massive amounts of information across operations, finance, HR, customer engagement, supply chain, and compliance.",
         "But for many enterprises, this data stays trapped in silos—locked in old systems or scattered across tools that don’t integrate. Instead of enabling strategy, data becomes an obstacle: inconsistent, slow, and difficult to interpret.",
-        "AiXHub transforms this challenge into an opportunity. As an AI-native Enterprise Operating System (EOS), it unifies data, connects workflows, and gives leaders real-time visibility into the entire organisation."
+        "AiXHub™ transforms this challenge into an opportunity. As an AI-native Enterprise Operating System (EOS), it unifies data, connects workflows, and gives leaders real-time visibility into the entire organisation."
       ]
     },
 
@@ -3567,10 +3567,10 @@ export const newBlogData = [
 
     {
       id: 3,
-      title: "AiXHub: Creating a Unified Data Foundation",
+      title: "AiXHub™: Creating a Unified Data Foundation",
       content: [
-        "AiXHub ensures that data empowers the enterprise rather than weighing it down. It centralises information into a shared ecosystem where accuracy, structure, and accessibility are standard.",
-        "Because AiXHub connects workflows across the organisation, every action enriches the data ecosystem—approvals, updates, documentation, task progress, performance metrics, and more.",
+        "AiXHub™ ensures that data empowers the enterprise rather than weighing it down. It centralises information into a shared ecosystem where accuracy, structure, and accessibility are standard.",
+        "Because AiXHub™ connects workflows across the organisation, every action enriches the data ecosystem—approvals, updates, documentation, task progress, performance metrics, and more.",
         "This creates a live organisational dashboard where leaders can monitor health, performance, and progress in real time."
       ]
     },
@@ -3579,7 +3579,7 @@ export const newBlogData = [
       id: 4,
       title: "Driving Enterprise Intelligence Through Real-Time Insights",
       content: [
-        "Traditional reporting relies on batch processes and manual updates, which delays insight generation. AiXHub enables continuous, real-time insight delivery.",
+        "Traditional reporting relies on batch processes and manual updates, which delays insight generation. AiXHub™ enables continuous, real-time insight delivery.",
         "Dashboards reflect the current state of operations—allowing leaders to spot issues early, adjust strategies quickly, and act with confidence."
       ]
     },
@@ -3588,7 +3588,7 @@ export const newBlogData = [
       id: 5,
       title: "Connecting People and Data Through Context-Aware Workflows",
       content: [
-        "Most systems bury information, forcing employees to search across tools and files. AiXHub attaches data directly to workflows, tasks, and processes.",
+        "Most systems bury information, forcing employees to search across tools and files. AiXHub™ attaches data directly to workflows, tasks, and processes.",
         "When employees open a task, they instantly see related files, updates, discussions, and metrics—removing friction and improving clarity from the start."
       ]
     },
@@ -3597,7 +3597,7 @@ export const newBlogData = [
       id: 6,
       title: "Enabling Predictive Insight and Strategic Foresight",
       content: [
-        "AiXHub uses AI to identify trends, anomalies, and patterns that humans may miss. Over time, the platform learns and predicts bottlenecks, workload spikes, operational risks, and project delays.",
+        "AiXHub™ uses AI to identify trends, anomalies, and patterns that humans may miss. Over time, the platform learns and predicts bottlenecks, workload spikes, operational risks, and project delays.",
         "This empowers leaders to shift from reactive decisions to proactive, forward-looking strategy."
       ]
     },
@@ -3607,7 +3607,7 @@ export const newBlogData = [
       title: "Breaking Down Silos for Enterprise Alignment",
       content: [
         "Misalignment is a common enterprise challenge. Teams often operate with different datasets and priorities, causing delays and duplication.",
-        "AiXHub eliminates silos with shared dashboards, unified workflows, and centralised communication—ensuring that all teams operate with the same visibility and direction."
+        "AiXHub™ eliminates silos with shared dashboards, unified workflows, and centralised communication—ensuring that all teams operate with the same visibility and direction."
       ]
     },
 
@@ -3616,7 +3616,7 @@ export const newBlogData = [
       title: "Enhancing Decision-Making Through Structured Knowledge Management",
       content: [
         "Institutional knowledge scattered across emails, spreadsheets, and folders leads to repeated mistakes and inconsistencies.",
-        "AiXHub centralises knowledge—documents, SOPs, policies, best practices—so employees can quickly access what they need and execute with accuracy."
+        "AiXHub™ centralises knowledge—documents, SOPs, policies, best practices—so employees can quickly access what they need and execute with accuracy."
       ]
     },
 
@@ -3624,7 +3624,7 @@ export const newBlogData = [
       id: 9,
       title: "Accelerating Operational Efficiency with Centralised Visibility",
       content: [
-        "Operational clarity is essential for performance. AiXHub offers centralised visibility across tasks, approvals, projects, and team metrics.",
+        "Operational clarity is essential for performance. AiXHub™ offers centralised visibility across tasks, approvals, projects, and team metrics.",
         "Teams no longer chase updates or rely on fragmented reporting. Everything is visible, measurable, and trackable in one place."
       ]
     },
@@ -3633,7 +3633,7 @@ export const newBlogData = [
       id: 10,
       title: "Strengthening Enterprise Culture Through Shared Insight",
       content: [
-        "AiXHub improves transparency, keeping employees informed about organisational goals and progress.",
+        "AiXHub™ improves transparency, keeping employees informed about organisational goals and progress.",
         "This clarity enhances trust, boosts morale, and strengthens the culture of ownership across teams."
       ]
     },
@@ -3643,7 +3643,7 @@ export const newBlogData = [
       title: "Building Scalable Data Capabilities for the Future",
       content: [
         "As organisations grow, their data becomes more complex. Traditional systems struggle to keep up due to rigid architectures.",
-        "AiXHub’s modular design makes it easy to introduce new workflows, departments, and datasets without disrupting ongoing operations.",
+        "AiXHub™’s modular design makes it easy to introduce new workflows, departments, and datasets without disrupting ongoing operations.",
         "This ensures the platform remains scalable, future-ready, and adaptable."
       ]
     },
@@ -3652,7 +3652,7 @@ export const newBlogData = [
       id: 12,
       title: "Key Benefits of AiXHub’s Data-Driven Model",
       content: [],
-      subItemTitle: "AiXHub enables organisations to achieve:",
+      subItemTitle: "AiXHub™ enables organisations to achieve:",
       subItems: [
         { item: "Real-time visibility across all departments", content: "" },
         { item: "Predictive insights to anticipate challenges", content: "" },
@@ -3664,24 +3664,24 @@ export const newBlogData = [
 
     {
       id: 13,
-      title: "Conclusion: AiXHub Enables the Intelligent Enterprise of Tomorrow",
+      title: "Conclusion: AiXHub™ Enables the Intelligent Enterprise of Tomorrow",
       content: [
         "Data is no longer just an operational by-product—it is the core of enterprise excellence.",
-        "AiXHub unifies intelligence, enhances collaboration, and enables real-time decision-making.",
-        "With predictive insights, structured knowledge, and unified workflows, AiXHub transforms enterprise operations into high-performing, future-ready systems."
+        "AiXHub™ unifies intelligence, enhances collaboration, and enables real-time decision-making.",
+        "With predictive insights, structured knowledge, and unified workflows, AiXHub™ transforms enterprise operations into high-performing, future-ready systems."
       ]
     }
   ]
 },
     //////////////////////////////////////////////////////////////////////
     {
-  bannerTitle: "The Power of Intelligent Collaboration: How AiXHub Redefines the Modern Digital Workplace",
+  bannerTitle: "The Power of Intelligent Collaboration: How AiXHub™ Redefines the Modern Digital Workplace",
   bannerDiscription:
     "AI-led collaboration simplifies workflows, strengthens coordination, and enables seamless teamwork across enterprise functions and roles.",
   image: '/images/blogs/newblogs/aixhubblog-2.jpg',
   writtenBy: "Muskan Sonda",
   writtenDate: "12/12/2025",
-  type: "AiXHub Blogs",
+  type: "AiXHub™ Blogs",
   status: "",
   id: 26,
 
@@ -3692,7 +3692,7 @@ export const newBlogData = [
       content: [
         "The way enterprises collaborate has changed dramatically over the past decade. As businesses scale across regions and adopt hybrid work models, teamwork is no longer defined by physical proximity.",
         "However, despite widespread digital adoption, collaboration remains fragmented—relying on isolated chat apps, scattered email threads, outdated repositories, and departmental systems. This slows execution and weakens alignment.",
-        "AiXHub solves this fragmentation by merging communication, workflow orchestration, data sharing, and decision support into one unified intelligent platform."
+        "AiXHub™ solves this fragmentation by merging communication, workflow orchestration, data sharing, and decision support into one unified intelligent platform."
       ]
     },
 
@@ -3703,16 +3703,16 @@ export const newBlogData = [
         "Hybrid and remote work environments offer flexibility, but they also introduce communication gaps and operational friction.",
         "Employees lose time searching for information, switching between tools, and following up on scattered updates.",
         "Nearly 55% of employees feel they waste hours every week just trying to locate essential information or align with teammates.",
-        "AiXHub eliminates this chaos by embedding collaboration directly into workflows—ensuring continuity and clarity."
+        "AiXHub™ eliminates this chaos by embedding collaboration directly into workflows—ensuring continuity and clarity."
       ]
     },
 
     {
       id: 3,
-      title: "AiXHub: Turning Collaboration into an Intelligent, Work-Centric Experience",
+      title: "AiXHub™: Turning Collaboration into an Intelligent, Work-Centric Experience",
       content: [
         "Most collaboration tools support conversation but do not link communication to execution.",
-        "AiXHub changes this by making collaboration contextual—messages, tasks, documents, and approvals all live within the same environment.",
+        "AiXHub™ changes this by making collaboration contextual—messages, tasks, documents, and approvals all live within the same environment.",
         "This ensures discussions stay meaningful, decisions remain traceable, and workflows progress without interruption."
       ]
     },
@@ -3722,7 +3722,7 @@ export const newBlogData = [
       title: "Reducing Collaboration Noise Through Structured Communication",
       content: [
         "Unfiltered communication—group chats, emails, random notifications—creates noise and distractions.",
-        "AiXHub introduces structured communication using channels, task-linked threads, and project spaces.",
+        "AiXHub™ introduces structured communication using channels, task-linked threads, and project spaces.",
         "Employees receive only context-aware notifications, improving focus and productivity."
       ]
     },
@@ -3732,7 +3732,7 @@ export const newBlogData = [
       title: "Enhancing Team Performance Through Transparency and Visibility",
       content: [
         "Effective collaboration requires visibility into responsibilities, timelines, and progress.",
-        "AiXHub provides real-time insights that help teams understand priorities, avoid delays, and adjust workloads.",
+        "AiXHub™ provides real-time insights that help teams understand priorities, avoid delays, and adjust workloads.",
         "Leaders gain oversight to proactively resolve bottlenecks and improve coordination."
       ]
     },
@@ -3742,7 +3742,7 @@ export const newBlogData = [
       title: "Supporting Cross-Functional Collaboration Without Friction",
       content: [
         "Most enterprises struggle with collaboration across departments due to disconnected systems.",
-        "AiXHub unifies workflows, documents, and communication—allowing marketing, HR, operations, finance, and sales to work from the same ecosystem.",
+        "AiXHub™ unifies workflows, documents, and communication—allowing marketing, HR, operations, finance, and sales to work from the same ecosystem.",
         "This improves hand-offs, reduces misunderstandings, and strengthens cross-functional alignment."
       ]
     },
@@ -3752,7 +3752,7 @@ export const newBlogData = [
       title: "Optimising Employee Experience Through Intelligent Assistance",
       content: [
         "Employees experience frustration when juggling complex tools and manual processes.",
-        "AiXHub improves workplace experience using AI assistance, automated task management, and intuitive navigation.",
+        "AiXHub™ improves workplace experience using AI assistance, automated task management, and intuitive navigation.",
         "The platform reduces mental load, accelerates onboarding, and boosts engagement."
       ]
     },
@@ -3762,7 +3762,7 @@ export const newBlogData = [
       title: "Strengthening Knowledge Sharing and Organisational Learning",
       content: [
         "Enterprise knowledge often gets lost in emails or personal devices, causing repetitive questions and inconsistent processes.",
-        "AiXHub maintains a centralised repository of policies, documents, SOPs, and best practices.",
+        "AiXHub™ maintains a centralised repository of policies, documents, SOPs, and best practices.",
         "This makes information accessible, speeds up onboarding, and improves organisational competence."
       ]
     },
@@ -3772,7 +3772,7 @@ export const newBlogData = [
       title: "Building a Culture of Collaboration Through Unified Ecosystems",
       content: [
         "Collaboration is a cultural strength, not just a tool.",
-        "AiXHub reinforces this by giving leaders a platform to share updates, highlight achievements, and communicate decisions.",
+        "AiXHub™ reinforces this by giving leaders a platform to share updates, highlight achievements, and communicate decisions.",
         "Employees feel more connected, informed, and aligned with organisational goals."
       ]
     },
@@ -3782,27 +3782,27 @@ export const newBlogData = [
       title: "Facilitating Hybrid Work with Seamless Connectivity",
       content: [
         "Hybrid work requires seamless coordination between onsite and remote teams.",
-        "AiXHub supports this with mobile-first design, enabling teams to manage tasks, discussions, and approvals from anywhere.",
+        "AiXHub™ supports this with mobile-first design, enabling teams to manage tasks, discussions, and approvals from anywhere.",
         "Leaders gain visibility across geographies, making hybrid work efficient and predictable."
       ]
     },
 
     {
       id: 11,
-      title: "How AiXHub Enables Scalable Collaboration Structures",
+      title: "How AiXHub™ Enables Scalable Collaboration Structures",
       content: [
         "As organisations expand, traditional collaboration systems fail to scale effectively.",
-        "AiXHub uses a modular architecture that supports the addition of new teams, workflows, and business units without disruption.",
+        "AiXHub™ uses a modular architecture that supports the addition of new teams, workflows, and business units without disruption.",
         "This future-proof scalability ensures long-term stability and consistent collaboration."
       ]
     },
 
     {
       id: 12,
-      title: "Using AiXHub to Unlock Better Decision-Making",
+      title: "Using AiXHub™ to Unlock Better Decision-Making",
       content: [
         "Collaborative clarity leads to better decisions.",
-        "AiXHub integrates data, conversations, and workflow activities into a unified environment, enabling intelligent decisions.",
+        "AiXHub™ integrates data, conversations, and workflow activities into a unified environment, enabling intelligent decisions.",
         "Real-time dashboards help leaders identify bottlenecks, manage performance, and act proactively."
       ]
     },
@@ -3811,23 +3811,23 @@ export const newBlogData = [
       id: 13,
       title: "Key Benefits of AiXHub’s Intelligent Collaboration Model",
       content: [],
-      subItemTitle: "AiXHub strengthens enterprise collaboration with:",
+      subItemTitle: "AiXHub™ strengthens enterprise collaboration with:",
       subItems: [
         { item: "Reduced operational friction and communication noise", content: "" },
         { item: "Stronger cross-functional coordination", content: "" },
         { item: "Faster, insight-driven decision-making", content: "" }
       ],
       finalPoint:
-        "AiXHub converts collaboration from a basic task into a strategic enterprise capability."
+        "AiXHub™ converts collaboration from a basic task into a strategic enterprise capability."
     },
 
     {
       id: 14,
-      title: "Conclusion: AiXHub Is Redefining Collaboration for the Modern Enterprise",
+      title: "Conclusion: AiXHub™ Is Redefining Collaboration for the Modern Enterprise",
       content: [
         "Collaboration now includes communication, workflow execution, data sharing, and cultural alignment.",
-        "AiXHub unifies these elements into one intelligent ecosystem that strengthens teamwork and accelerates execution.",
-        "Enterprises that adopt AiXHub gain a modern workplace where collaboration is seamless, decisions are faster, and performance scales naturally."
+        "AiXHub™ unifies these elements into one intelligent ecosystem that strengthens teamwork and accelerates execution.",
+        "Enterprises that adopt AiXHub™ gain a modern workplace where collaboration is seamless, decisions are faster, and performance scales naturally."
       ]
     }
   ]
@@ -3840,7 +3840,7 @@ export const newBlogData = [
   image: '/images/blogs/newblogs/aixhubblog-3.jpg',
   writtenBy: "Muskan Sonda",
   writtenDate: "12/12/2025",
-  type: "AiXHub Blogs",
+  type: "AiXHub™ Blogs",
   status: "",
   id: 27,
 
@@ -3851,7 +3851,7 @@ export const newBlogData = [
       content: [
         "Governance, risk management, and compliance (GRC) have become defining elements of enterprise resilience. As organisations scale across geographies and adopt new digital systems, the need for strong governance has never been greater.",
         "Many enterprises still rely on disconnected spreadsheets, legacy systems, and outdated manual audits. These methods are slow, inconsistent, and prone to errors — creating compliance gaps and operational vulnerabilities.",
-        "AiXHub transforms this landscape by embedding governance directly into the enterprise operating system. Instead of treating GRC as a separate function, AiXHub integrates continuous oversight into workflows, communication, and data."
+        "AiXHub™ transforms this landscape by embedding governance directly into the enterprise operating system. Instead of treating GRC as a separate function, AiXHub™ integrates continuous oversight into workflows, communication, and data."
       ]
     },
 
@@ -3861,15 +3861,15 @@ export const newBlogData = [
       content: [
         "Modern enterprises must comply with multiple layers of regulation — industry policies, regional standards, global frameworks, and internal audit requirements.",
         "Many organisations still try to handle this manually, leading to inconsistency, poor visibility, and a higher risk of violations.",
-        "More than 60% of organisations struggle with compliance due to siloed systems and lack of visibility. AiXHub solves these challenges by centralising governance at the system level."
+        "More than 60% of organisations struggle with compliance due to siloed systems and lack of visibility. AiXHub™ solves these challenges by centralising governance at the system level."
       ]
     },
 
     {
       id: 3,
-      title: "AiXHub: Governance Built Into the Operating System",
+      title: "AiXHub™: Governance Built Into the Operating System",
       content: [
-        "AiXHub does not rely on manual user actions for compliance. Instead, governance is hardcoded into workflow rules and platform logic.",
+        "AiXHub™ does not rely on manual user actions for compliance. Instead, governance is hardcoded into workflow rules and platform logic.",
         "Every approval, update, document change, and communication follows the organisation's governance standards automatically.",
         "Non-compliant actions are detected in real time, and the system prevents violations before they occur — strengthening operational integrity."
       ]
@@ -3880,7 +3880,7 @@ export const newBlogData = [
       title: "Centralised Risk Visibility Across the Enterprise",
       content: [
         "Risks often grow quietly across departments and only surface when they become major problems.",
-        "AiXHub provides unified, real-time visibility into operational risks across all enterprise layers.",
+        "AiXHub™ provides unified, real-time visibility into operational risks across all enterprise layers.",
         "The platform highlights anomalies, deviations, and vulnerabilities — enabling leaders to take proactive action instead of reacting to issues after the fact."
       ]
     },
@@ -3890,7 +3890,7 @@ export const newBlogData = [
       title: "Eliminating Manual Audits Through Continuous Compliance",
       content: [
         "Traditional audits rely on periodic checks that often miss important events.",
-        "AiXHub automates the audit process by generating continuous, live audit trails for every workflow action.",
+        "AiXHub™ automates the audit process by generating continuous, live audit trails for every workflow action.",
         "Regulators and internal teams can retrieve complete records instantly — reducing compliance effort, audit preparation time, and operational cost."
       ]
     },
@@ -3900,7 +3900,7 @@ export const newBlogData = [
       title: "Strengthening Policy Enforcement Through Intelligent Validation",
       content: [
         "Manual policy enforcement leads to errors, forgotten rules, and inconsistent execution.",
-        "AiXHub embeds policies directly into its workflow engine, validating every action against predefined standards.",
+        "AiXHub™ embeds policies directly into its workflow engine, validating every action against predefined standards.",
         "Employees receive corrective prompts in real time if they attempt non-compliant actions — ensuring accuracy without slowing productivity."
       ]
     },
@@ -3910,7 +3910,7 @@ export const newBlogData = [
       title: "Creating a Culture of Accountability and Transparency",
       content: [
         "Strong governance depends on accountability and clarity.",
-        "AiXHub makes responsibilities, actions, and decisions transparent across teams.",
+        "AiXHub™ makes responsibilities, actions, and decisions transparent across teams.",
         "Employees understand their role in policy adherence, while leaders gain visibility into performance and compliance behaviour."
       ]
     },
@@ -3920,7 +3920,7 @@ export const newBlogData = [
       title: "Supporting Compliance with Industry Standards and Regulations",
       content: [
         "Enterprises often need to align with frameworks such as ISO, GDPR, SOC 2, HIPAA, and region-specific regulations.",
-        "AiXHub simplifies compliance by mapping workflows to regulatory standards and maintaining detailed document trails.",
+        "AiXHub™ simplifies compliance by mapping workflows to regulatory standards and maintaining detailed document trails.",
         "Audit logs, approval histories, and workflow records can be retrieved instantly — improving audit readiness."
       ]
     },
@@ -3929,7 +3929,7 @@ export const newBlogData = [
       id: 9,
       title: "Integrating Governance with Other Enterprise Systems",
       content: [
-        "AiXHub extends governance across connected systems in HR, finance, IT, supply chain, and operations.",
+        "AiXHub™ extends governance across connected systems in HR, finance, IT, supply chain, and operations.",
         "This creates a unified governance structure where policies and rules apply consistently across the organisation.",
         "Integration ensures stability even as enterprises expand into new regions, products, or markets."
       ]
@@ -3940,7 +3940,7 @@ export const newBlogData = [
       title: "Improving Decision-Making Through Governed Intelligence",
       content: [
         "Governance isn’t just about compliance — it is about enabling smarter decisions.",
-        "AiXHub provides visual dashboards that display risk trends, compliance metrics, and workflow anomalies.",
+        "AiXHub™ provides visual dashboards that display risk trends, compliance metrics, and workflow anomalies.",
         "Leaders benefit from actionable intelligence based on validated, transparent, and real-time enterprise data."
       ]
     },
@@ -3950,7 +3950,7 @@ export const newBlogData = [
       title: "Building Scalable Governance for Fast-Growing Organisations",
       content: [
         "As companies expand, managing governance becomes increasingly difficult.",
-        "AiXHub allows organisations to define policies once and enforce them everywhere with zero manual intervention.",
+        "AiXHub™ allows organisations to define policies once and enforce them everywhere with zero manual intervention.",
         "Workflows remain compliant, risk monitoring stays consistent, and onboarding new teams becomes effortless."
       ]
     },
@@ -3959,7 +3959,7 @@ export const newBlogData = [
       id: 12,
       title: "Key Advantages of AiXHub’s Governance Model",
       content: [],
-      subItemTitle: "AiXHub strengthens enterprise governance through:",
+      subItemTitle: "AiXHub™ strengthens enterprise governance through:",
       subItems: [
         { 
             item: "Continuous oversight that eliminates blind spots", 
@@ -3979,23 +3979,23 @@ export const newBlogData = [
     },
     {
       id: 13,
-      title: "Conclusion: AiXHub Is the New Standard for Enterprise Governance",
+      title: "Conclusion: AiXHub™ Is the New Standard for Enterprise Governance",
       content: [
         "Governance, risk, and compliance are now central to organisational success, not optional functions.",
-        "AiXHub embeds transparency, intelligence, and oversight directly into everyday work — transforming governance into a continuous system capability.",
+        "AiXHub™ embeds transparency, intelligence, and oversight directly into everyday work — transforming governance into a continuous system capability.",
         "With AiXHub, enterprises can scale confidently, innovate safely, and make decisions grounded in complete operational clarity."
       ]
     }
   ]
 },
 {
-  bannerTitle: "AiXHub: The Future of Enterprise Transformation Through Unified Intelligence",
+  bannerTitle: "AiXHub™: The Future of Enterprise Transformation Through Unified Intelligence",
   bannerDiscription:
     "Real-time intelligence integrates workflows, enhances insights, and drives continuous operational improvement across modern enterprises.",
   image: '/images/blogs/newblogs/aixhubblog-4.jpg',
   writtenBy: "Muskan Sonda",
   writtenDate: "12/12/2025",
-  type: "AiXHub Blogs",
+  type: "AiXHub™ Blogs",
   status: "",
   id: 28,
 
@@ -4012,11 +4012,11 @@ export const newBlogData = [
 
     {
       id: 2,
-      title: "AiXHub: Solving the Enterprise Transformation Gap",
+      title: "AiXHub™: Solving the Enterprise Transformation Gap",
       content: [
-        "AiXHub was built to address the core problem of fragmented enterprise systems.",
+        "AiXHub™ was built to address the core problem of fragmented enterprise systems.",
         "As an AI-native Enterprise Operating System (EOS), it unifies workflows, intelligence, data, collaboration, and governance into a single platform.",
-        "Rather than acting as a typical workplace tool, AiXHub becomes the digital nervous system of the enterprise—where decisions, operations, and knowledge converge."
+        "Rather than acting as a typical workplace tool, AiXHub™ becomes the digital nervous system of the enterprise—where decisions, operations, and knowledge converge."
       ]
     },
 
@@ -4036,15 +4036,15 @@ export const newBlogData = [
       content: [
         "Industry research indicates that over 80% of digital initiatives fail to scale due to fragmented platforms and the absence of unified architecture.",
         "Data duplication, inconsistent approvals, and lack of real-time visibility create operational clutter instead of capability.",
-        "AiXHub eliminates this clutter by delivering a connected, intelligent operating environment."
+        "AiXHub™ eliminates this clutter by delivering a connected, intelligent operating environment."
       ]
     },
 
     {
       id: 5,
-      title: "AiXHub as a Unified Operating System",
+      title: "AiXHub™ as a Unified Operating System",
       content: [
-        "AiXHub is not a collection of stitched modules—it is a cohesive enterprise operating system.",
+        "AiXHub™ is not a collection of stitched modules—it is a cohesive enterprise operating system.",
         "It combines workflow automation, collaboration, communication, governance, data centralisation, and AI-driven decision support.",
         "Every team works from a single source of truth, improving clarity, accountability, and execution."
       ]
@@ -4055,7 +4055,7 @@ export const newBlogData = [
       title: "Transforming Enterprise Collaboration Through Unified Intelligence",
       content: [
         "Traditional platforms focus only on communication or document sharing.",
-        "AiXHub addresses deeper enterprise needs by unifying intelligence, governance, and execution.",
+        "AiXHub™ addresses deeper enterprise needs by unifying intelligence, governance, and execution.",
         "This integrated approach enables faster decisions, measurable performance, and fully aligned operations."
       ]
     },
@@ -4065,7 +4065,7 @@ export const newBlogData = [
       title: "Intelligent Automation for Workflow Excellence",
       content: [
         "Manual approvals, email-based tracking, and spreadsheet workflows slow enterprises down and introduce errors.",
-        "AiXHub automates workflows using configurable rules, triggers, and escalations.",
+        "AiXHub™ automates workflows using configurable rules, triggers, and escalations.",
         "Every stage of execution remains visible, auditable, and compliant—improving speed and accountability."
       ]
     },
@@ -4075,7 +4075,7 @@ export const newBlogData = [
       title: "Centralised Data for Faster Decision-Making",
       content: [
         "When data is scattered across departments, decision-making becomes reactive.",
-        "AiXHub centralises enterprise data into a unified structure that supports analytics, reporting, and planning.",
+        "AiXHub™ centralises enterprise data into a unified structure that supports analytics, reporting, and planning.",
         "Leaders gain instant access to accurate, real-time insights without manual consolidation."
       ]
     },
@@ -4085,7 +4085,7 @@ export const newBlogData = [
       title: "Governance and Compliance Embedded by Design",
       content: [
         "Governance is often treated as a periodic activity rather than a continuous system capability.",
-        "AiXHub embeds governance directly into workflows, ensuring compliance at every step.",
+        "AiXHub™ embeds governance directly into workflows, ensuring compliance at every step.",
         "Audit trails are generated automatically, reducing risk and eliminating manual reporting effort."
       ]
     },
@@ -4095,7 +4095,7 @@ export const newBlogData = [
       title: "Reinventing Enterprise Communication",
       content: [
         "Email-heavy communication creates noise, missed actions, and fragmented context.",
-        "AiXHub consolidates communication into structured, workflow-linked channels.",
+        "AiXHub™ consolidates communication into structured, workflow-linked channels.",
         "Employees receive relevant updates only, improving clarity and execution."
       ]
     },
@@ -4105,7 +4105,7 @@ export const newBlogData = [
       title: "Enhancing Employee Productivity and Experience",
       content: [
         "Disconnected tools frustrate employees and reduce efficiency.",
-        "AiXHub provides a clean, intuitive environment where employees can collaborate, manage work, access knowledge, and receive AI assistance.",
+        "AiXHub™ provides a clean, intuitive environment where employees can collaborate, manage work, access knowledge, and receive AI assistance.",
         "This reduces cognitive load and enables teams to focus on higher-value work."
       ]
     },
@@ -4115,7 +4115,7 @@ export const newBlogData = [
       title: "Supporting Remote and Hybrid Work at Scale",
       content: [
         "Hybrid work demands seamless collaboration across locations.",
-        "AiXHub supports mobility, secure access, and consistent performance across devices.",
+        "AiXHub™ supports mobility, secure access, and consistent performance across devices.",
         "Leaders maintain visibility while teams remain productive—regardless of where they work."
       ]
     },
@@ -4125,7 +4125,7 @@ export const newBlogData = [
       title: "Strengthening Cross-Functional Collaboration",
       content: [
         "Projects often stall due to disconnected tools and lack of shared visibility.",
-        "AiXHub enables cross-functional teams to collaborate within one unified environment.",
+        "AiXHub™ enables cross-functional teams to collaborate within one unified environment.",
         "Documentation, workflows, and updates remain centralised—accelerating delivery timelines."
       ]
     },
@@ -4135,7 +4135,7 @@ export const newBlogData = [
       title: "Driving Organisational Clarity and Culture",
       content: [
         "Culture thrives on transparency and shared understanding.",
-        "AiXHub enables leaders to communicate clearly, track performance, and reinforce accountability.",
+        "AiXHub™ enables leaders to communicate clearly, track performance, and reinforce accountability.",
         "The platform becomes part of the organisation’s cultural identity."
       ]
     },
@@ -4146,29 +4146,29 @@ export const newBlogData = [
       content: [
         "As enterprises scale, traditional systems struggle to maintain governance and consistency.",
         "Enterprise Operating Systems represent the next evolution in organisational architecture.",
-        "AiXHub provides the scalable foundation required for expansion, innovation, and long-term resilience."
+        "AiXHub™ provides the scalable foundation required for expansion, innovation, and long-term resilience."
       ]
     },
 
     {
       id: 16,
-      title: "Conclusion: AiXHub Is the Operating System of the Intelligent Enterprise",
+      title: "Conclusion: AiXHub™ Is the Operating System of the Intelligent Enterprise",
       content: [
         "The future of enterprise success depends on unified intelligence, seamless execution, and embedded governance.",
-        "AiXHub delivers all three within a single AI-powered platform.",
+        "AiXHub™ delivers all three within a single AI-powered platform.",
         "It transforms fragmented enterprises into intelligent, high-performing organisations built for scale, speed, and strategic clarity."
       ]
     }
   ]
 },
 {
-  bannerTitle: "Why Intelligent Automation Through AiXHub Is the Future of Enterprise Productivity",
+  bannerTitle: "Why Intelligent Automation Through AiXHub™ Is the Future of Enterprise Productivity",
   bannerDiscription:
     "Automation accelerates processes, reduces manual effort, and increases enterprise productivity through intelligent, decision-ready workflows.",
   image: '/images/blogs/newblogs/aixhubblog-5.jpg',
   writtenBy: "Muskan Sonda",
   writtenDate: "12/12/2025",
-  type: "AiXHub Blogs",
+  type: "AiXHub™ Blogs",
   status: "",
   id: 29,
 
@@ -4185,10 +4185,10 @@ export const newBlogData = [
 
     {
       id: 2,
-      title: "AiXHub: The Next Evolution of Enterprise Automation",
+      title: "AiXHub™: The Next Evolution of Enterprise Automation",
       content: [
-        "AiXHub represents the next evolution of enterprise automation. Designed as an AI-native Enterprise Operating System (EOS), it provides intelligence, automation, and governance within a single unified platform.",
-        "Unlike tools that merely digitise manual steps, AiXHub redefines how work flows across the organisation by unifying people, processes, and data.",
+        "AiXHub™ represents the next evolution of enterprise automation. Designed as an AI-native Enterprise Operating System (EOS), it provides intelligence, automation, and governance within a single unified platform.",
+        "Unlike tools that merely digitise manual steps, AiXHub™ redefines how work flows across the organisation by unifying people, processes, and data.",
         "This unified architecture ensures that automation is not isolated but deeply embedded into everyday enterprise operations."
       ]
     },
@@ -4206,12 +4206,12 @@ export const newBlogData = [
 
     {
       id: 4,
-      title: "AiXHub as the Intelligent Automation Backbone of the Enterprise",
+      title: "AiXHub™ as the Intelligent Automation Backbone of the Enterprise",
       content: [
-        "AiXHub centralises automation within a single cohesive operating system.",
-        "Instead of scattering tasks across disconnected applications, AiXHub aligns workflows across departments while maintaining visibility, compliance, and accountability.",
+        "AiXHub™ centralises automation within a single cohesive operating system.",
+        "Instead of scattering tasks across disconnected applications, AiXHub™ aligns workflows across departments while maintaining visibility, compliance, and accountability.",
         "Its intelligent automation adapts to changing business needs, supports contextual decisions, and provides real-time oversight across teams.",
-        "AiXHub automates entire processes—not just tasks—ensuring smooth execution across hiring, document validation, project management, and cross-functional coordination."
+        "AiXHub™ automates entire processes—not just tasks—ensuring smooth execution across hiring, document validation, project management, and cross-functional coordination."
       ]
     },
 
@@ -4221,7 +4221,7 @@ export const newBlogData = [
       content: [
         "A major productivity barrier arises when teams operate on disconnected systems.",
         "Marketing, HR, finance, and operations often use different platforms that do not communicate with each other, leading to misalignment and delays.",
-        "AiXHub eliminates fragmentation by providing a centralised environment where all teams collaborate within a shared operational model.",
+        "AiXHub™ eliminates fragmentation by providing a centralised environment where all teams collaborate within a shared operational model.",
         "Tasks, documents, communication, and updates are consolidated into a single interface, keeping teams aligned and informed."
       ]
     },
@@ -4231,9 +4231,9 @@ export const newBlogData = [
       title: "Smart Workflows That Drive Predictable Outcomes",
       content: [
         "Predictability and consistency are critical for enterprise productivity.",
-        "AiXHub enables intelligent workflow automation with defined sequences, approval layers, and escalation logic.",
+        "AiXHub™ enables intelligent workflow automation with defined sequences, approval layers, and escalation logic.",
         "Workflows execute autonomously while remaining fully visible and measurable.",
-        "When exceptions arise, AiXHub provides alerts and guidance, ensuring processes remain aligned with organisational standards."
+        "When exceptions arise, AiXHub™ provides alerts and guidance, ensuring processes remain aligned with organisational standards."
       ]
     },
 
@@ -4242,7 +4242,7 @@ export const newBlogData = [
       title: "The Role of AI in Enhancing Everyday Productivity",
       content: [
         "While traditional automation focuses on fixed tasks, AI-driven automation adapts to context and decision-making needs.",
-        "AiXHub uses AI to filter noise, prioritise actions, detect anomalies, and provide recommendations.",
+        "AiXHub™ uses AI to filter noise, prioritise actions, detect anomalies, and provide recommendations.",
         "Over time, the platform learns behavioural patterns and continuously optimises workflows.",
         "This reduces cognitive load on employees and allows teams to focus on higher-value, strategic work."
       ]
@@ -4253,7 +4253,7 @@ export const newBlogData = [
       title: "Strengthening Governance Through Embedded Compliance",
       content: [
         "Governance and compliance are often treated as reactive processes.",
-        "AiXHub embeds compliance directly into automated workflows, ensuring that every action aligns with organisational policies and regulatory standards.",
+        "AiXHub™ embeds compliance directly into automated workflows, ensuring that every action aligns with organisational policies and regulatory standards.",
         "Non-compliant actions are automatically prevented or flagged, reducing risk and increasing accountability.",
         "This proactive governance model eliminates uncertainty and operational disruption."
       ]
@@ -4264,7 +4264,7 @@ export const newBlogData = [
       title: "Improving Workforce Alignment Through Intelligent Collaboration",
       content: [
         "Fragmented communication weakens collaboration and productivity.",
-        "AiXHub centralises communication within structured, context-aware environments tied to tasks and workflows.",
+        "AiXHub™ centralises communication within structured, context-aware environments tied to tasks and workflows.",
         "Messages, documents, and updates remain connected to real work, improving clarity and reducing misunderstandings.",
         "Teams become more aligned, engaged, and responsive."
       ]
@@ -4275,7 +4275,7 @@ export const newBlogData = [
       title: "Creating a Unified Workspace for Hybrid and Distributed Teams",
       content: [
         "Hybrid and remote work require consistent visibility and access.",
-        "AiXHub offers a unified digital workspace accessible from anywhere, enabling employees to manage tasks, workflows, and communication seamlessly.",
+        "AiXHub™ offers a unified digital workspace accessible from anywhere, enabling employees to manage tasks, workflows, and communication seamlessly.",
         "Leaders gain real-time insight into team performance, progress, and bottlenecks—regardless of location."
       ]
     },
@@ -4285,7 +4285,7 @@ export const newBlogData = [
       title: "Reducing Operational Overheads Through Intelligent Automation",
       content: [
         "Manual processes increase labour costs and inefficiency.",
-        "AiXHub reduces operational overhead by automating routine workflows, eliminating tool redundancy, and minimising manual oversight.",
+        "AiXHub™ reduces operational overhead by automating routine workflows, eliminating tool redundancy, and minimising manual oversight.",
         "Approvals, document processing, reporting, and collaboration become faster and more cost-effective.",
         "Over time, productivity increases while operational costs decrease."
       ]
@@ -4296,7 +4296,7 @@ export const newBlogData = [
       title: "Unlocking Cross-Functional Intelligence for Better Decisions",
       content: [
         "Effective decisions require unified, real-time information.",
-        "AiXHub consolidates operational data into centralised dashboards that reflect performance, timelines, and resource utilisation.",
+        "AiXHub™ consolidates operational data into centralised dashboards that reflect performance, timelines, and resource utilisation.",
         "This cross-functional visibility empowers leaders to identify issues early and drive continuous improvement."
       ]
     },
@@ -4306,7 +4306,7 @@ export const newBlogData = [
       title: "Scaling Automation Without Increasing Complexity",
       content: [
         "As enterprises grow, automation often becomes harder to manage.",
-        "AiXHub simplifies scaling by providing a single operational backbone that expands with the organisation.",
+        "AiXHub™ simplifies scaling by providing a single operational backbone that expands with the organisation.",
         "New teams, workflows, and business units can be added without disrupting existing processes.",
         "The unified data model ensures consistency and governance at scale."
       ]
@@ -4316,7 +4316,7 @@ export const newBlogData = [
       id: 14,
       title: "Key Advantages of AiXHub’s Intelligent Automation",
       content: [],
-      subItemTitle: "AiXHub delivers measurable enterprise benefits:",
+      subItemTitle: "AiXHub™ delivers measurable enterprise benefits:",
       subItems: [
         { item: "Significant reduction in manual workload", content: "" },
         { item: "Greater cross-departmental alignment", content: "" },
@@ -4331,8 +4331,8 @@ export const newBlogData = [
       title: "Conclusion: Intelligent Automation Is the Foundation of the High-Performance Enterprise",
       content: [
         "As digital complexity increases, enterprises need more than conventional automation.",
-        "AiXHub provides an intelligent operating system that unifies teams, integrates data, and empowers work through AI-driven automation.",
-        "By eliminating fragmentation, strengthening governance, and enabling seamless execution, AiXHub transforms productivity at its core.",
+        "AiXHub™ provides an intelligent operating system that unifies teams, integrates data, and empowers work through AI-driven automation.",
+        "By eliminating fragmentation, strengthening governance, and enabling seamless execution, AiXHub™ transforms productivity at its core.",
         "It is the foundation enterprises need to move from scattered tools to unified intelligence and future-ready performance."
       ]
     }
@@ -12701,7 +12701,7 @@ export const newBlogData = [
       title: "How Does CyberAiX Fit into a Broader Enterprise Architecture?",
       content: [
         "Cybersecurity must integrate with IT operations, governance, and digital transformation initiatives.",
-        "CyberAiX aligns with intelligent enterprise platforms such as AiXHub to provide coordinated visibility and response."
+        "CyberAiX aligns with intelligent enterprise platforms such as AiXHub™ to provide coordinated visibility and response."
       ]
     },
 
@@ -12820,7 +12820,7 @@ export const newBlogData = [
     //             finalPoint: ''
     //         },
     //     ],
-    //     FAQsHeading: "AI & AiXHub for Enterprises",
+    //     FAQsHeading: "AI & AiXHub™ for Enterprises",
     //     FAQs: [
     //         {
     //             id: '1',

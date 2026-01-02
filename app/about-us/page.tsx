@@ -25,7 +25,7 @@ const missionVisionData = {
 }
 // const PatientSectionData = {
 //     title: "Patent-Pending AI Framework",
-//     description: "AiXHub is a patent-pending AI orchestration framework that unifies governance, automation, and human oversight to help enterprises build secure, scalable, and responsible AI systems. <br>We are industry trailblazers, revolutionizing the technology landscape by pioneering accessible and innovative technology solutions.",
+//     description: "AiXHub™ is a patent-pending AI orchestration framework that unifies governance, automation, and human oversight to help enterprises build secure, scalable, and responsible AI systems. <br>We are industry trailblazers, revolutionizing the technology landscape by pioneering accessible and innovative technology solutions.",
 //     imageUrl: "/images/about-card-2.jpg",
 // }
 

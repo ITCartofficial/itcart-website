@@ -8,9 +8,20 @@ interface CaseStudyCardProps {
     card: CaseStudyItem
     forSlide?: boolean
     isFocused?: boolean
+    bgImage?: string
 }
 
-const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card, forSlide, isFocused }) => {
+// const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card, forSlide, isFocused }) => {
+const CaseStudyCard: React.FC<CaseStudyCardProps> = ({
+    card,
+    bgImage,
+    forSlide,
+    isFocused
+}) => {
+
+    const imageSrc = bgImage ?? card.imageUrl
+    card.homeCaseStudyBanner ??
+        card.imageUrl;
 
     console.log("card", card);
 
@@ -24,7 +35,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card, forSlide, isFocused
                     forSlide ?
                         <div className="absolute inset-0 rounded-[30px] overflow-hidden">
                             <Image
-                                src={card.imageUrl}
+                                src={imageSrc}
                                 alt={card.title}
                                 fill
                                 className="object-cover"
@@ -36,7 +47,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ card, forSlide, isFocused
                         <div
                             className="absolute inset-0 rounded-[30px] bg-cover bg-center"
                             style={{
-                                backgroundImage: `url(${card.imageUrl})`
+                                backgroundImage: `url(${imageSrc})`
                             }}
                         />
 

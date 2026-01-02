@@ -45,7 +45,7 @@ const AixHubVerticalBanner: React.FC = () => {
                     </div>
 
                     <h2 className="mt-4 text-[15px] md:text-[19px] font-bold">
-                        AiXHub unveiled at FUELD Dubai 2025 by Mohammed Rohim Uddin
+                        AiXHub™ unveiled at FUELD Dubai 2025 by Mohammed Rohim Uddin
                     </h2>
 
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-10">

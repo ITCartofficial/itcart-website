@@ -84,7 +84,7 @@ const AixhubDetailpage = () => {
                                 width={24}
                                 height={24}
                                 src={"/images/verticalLogos/aixhublogo.png"}
-                                alt="AiXHub Logo"
+                                alt="AiXHub™ Logo"
                             />
                         </p>
                         <GradientTitle
@@ -100,7 +100,7 @@ const AixhubDetailpage = () => {
                         />
 
                         <BodyText
-                            text={" AiXHub EOS helps leaders redesign how their enterprise thinks, decides, and executes with AI at the centre—and humans in control."}
+                            text={" AiXHub™ EOS helps leaders redesign how their enterprise thinks, decides, and executes with AI at the centre—and humans in control."}
                             color="#ffffff"
                             className="text-sm text-[18px] w-[90%] mt-4"
                         />
@@ -204,11 +204,11 @@ const AixhubDetailpage = () => {
                             className="text-[22px] sm:text-[22px] md:text-[30px] leading-[1.2]"
                         />
                         {/* <h4 className="mb-2 text-lg font-semibold text-slate-50">
-                            AiXHub EOS – Global Stage Debut
+                            AiXHub™ EOS – Global Stage Debut
                         </h4> */}
 
                         <p className="mb-3 text-[16px] text-slate-300 mt-2">
-                            AiXHub EOS will make its first global-stage appearance at{" "}
+                            AiXHub™ EOS will make its first global-stage appearance at{" "}
                             <span className="font-medium text-slate-100">FUELD Dubai 2025</span>.
                         </p>
 
@@ -218,7 +218,7 @@ const AixhubDetailpage = () => {
                                 Mohammed Rohim Uddin
                             </span>{" "}
                             <br />
-                            Inventor, AiXHub EOS &amp; Founder &amp; Global CTO, iTCart.
+                            Inventor, AiXHub™ EOS &amp; Founder &amp; Global CTO, iTCart.
                         </p>
 
                         <div className="pt-4 border-t border-slate-700">
@@ -244,11 +244,11 @@ const AixhubDetailpage = () => {
                 {/* FINAL CTA */}
                 <section className="rounded-3xl border border-sky-500/40 bg-sky-500/5 px-6 py-8 text-center">
                     <h2 className="mb-3 text-2xl font-semibold text-slate-50 md:text-3xl">
-                        Ready to explore AiXHub EOS for your enterprise?
+                        Ready to explore AiXHub™ EOS for your enterprise?
                     </h2>
                     <p className="mb-5 text-sm text-slate-200">
                         Start with a thoughtful conversation—not a demo carousel.
-                        Share your context and we’ll help you explore if AiXHub EOS is the right fit.
+                        Share your context and we’ll help you explore if AiXHub™ EOS is the right fit.
                     </p>
                     <div className="flex flex-wrap justify-center gap-4">
                         <div className="pt-4 border-t border-slate-700">

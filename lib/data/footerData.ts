@@ -38,7 +38,7 @@ export const footerMenus = [
   // {
   //   title: "Solutions",
   //   navigations: [
-  //     { label: "AiXHub - Your AI Workspace", href: "/solutions/aixhub" },
+  //     { label: "AiXHub™ - Your AI Workspace", href: "/solutions/aixhub" },
   //     { label: "Document Management System", href: "/solutions/dms" },
   //     { label: "Digital Transformation Suite", href: "/solutions/dts" },
   //     { label: "All Solutions →", href: "/solutions" },
@@ -47,7 +47,7 @@ export const footerMenus = [
   {
     title: "Our Verticals",
     navigations: [
-      { label: "AiXHub", href: "/products/aixhub" },
+      { label: "AiXHub™", href: "/products/aixhub" },
       { label: "AiXBFS", href: "/products/aixbfs" },
       { label: "AiXQP", href: "/products/aixqp" },
       { label: "InsureAiX", href: "/products/insureaix" },

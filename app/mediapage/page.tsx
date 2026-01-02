@@ -23,7 +23,7 @@ function MediaPage() {
         {
             id: '1',
             title: 'What is AiXHUB?',
-            content: "AiXHub is iTCart's proprietary AI-native EOS (Enterprise Operating System), designed to unify data, decision-making, and automation into one adaptive, high-performance ecosystem. Built for speed, scale, and self-learning, AiXHub powers intelligent transformation across industries—turning complexity into clarity, and ideas into real-time impact. ",
+            content: "AiXHub™ is iTCart's proprietary AI-native EOS (Enterprise Operating System), designed to unify data, decision-making, and automation into one adaptive, high-performance ecosystem. Built for speed, scale, and self-learning, AiXHub™ powers intelligent transformation across industries—turning complexity into clarity, and ideas into real-time impact. ",
         },
         {
             id: '2',
