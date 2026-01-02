@@ -25,7 +25,7 @@ const SingleBlogPage = () => {
   }
 
   return (
-    <div className="mt-10 md:mt-30  space-y-20 mb-10">
+    <div className="mt-20 md:mt-30  space-y-20 mb-10 ">
 
       <SectionBanner filterdData={filterdData} />
 
