@@ -128,7 +128,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                                         data?.content?.map((content: string, index: number) =>
                                             <>
                                                 <p key={index} className={`text-[16px] ${index != 0 ? "mt-2" : "mt-0"}`}>
-                                                    {parseContentWithLinks(content)}....
+                                                    {parseContentWithLinks(content)}
                                                 </p>
                                             </>
 

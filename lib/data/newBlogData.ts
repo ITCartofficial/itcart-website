@@ -71,7 +71,7 @@ export const newBlogData = [
                         content: 'CyberAiX detects anomalies, prevents cyberattacks, and safeguards sensitive data at every touchpoint.'
                     },
                 ],
-                finalPoint: '<link text="Explore Our Verticals" url="https://itcart.ai/products" />'
+                finalPoint: '<link text="Explore Our Products" url="https://itcart.ai/products" />'
             },
             {
                 id: 4,
