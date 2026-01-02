@@ -9,7 +9,7 @@ const LeadershipInsightSection = () => {
 
     return (
         <section className="bg-black text-white px-6 md:px-10">
-            <div className="max-w-7xl mx-auto text-center">
+            <div className="max-w-7xl mx-auto text-center ">
 
                 {/* Heading */}
                 <GradientTitle
@@ -25,7 +25,7 @@ const LeadershipInsightSection = () => {
                     <div className="md:ml-7 flex flex-row md:flex-col justify-around md:justify-between mr-7 md:mb-0 mb-4">
                         <div
                             onClick={() => setMainImage('/images/fueld2025/founder2.png')}
-                            className="md:w-30 md:h-30 w-35 h-25 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat md:ml-auto md:mt-2"
+                            className="md:w-30 md:h-30 w-45 h-45 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat md:ml-auto md:mt-2"
                             style={{
                                 backgroundImage: "url('/images/fueld2025/founder2.png')",
                             }}
@@ -33,7 +33,7 @@ const LeadershipInsightSection = () => {
 
                         <div
                             onClick={() => setMainImage('/images/fueld2025/founder3.png')}
-                            className="md:w-45 md:h-45 w-25 h-25 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat bg-green-400 md:mb-2"
+                            className="md:w-45 md:h-45 w-65 h-45 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat bg-green-400 md:mb-2"
                             style={{
                                 backgroundImage: "url('/images/fueld2025/founder3.png')",
                                 // backgroundImage: `url(${mainImage})`,
@@ -43,19 +43,21 @@ const LeadershipInsightSection = () => {
                         {/* founder3 */}
                     </div>
 
-                    <div
-                        className="w-75 h-95 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat"
-                        style={{
-                            backgroundImage: `url(${mainImage})`,
+                    <div className=" flex justify-center items-center">
+                        <div
+                            className="md:w-75 md:h-95 w-70 h-90 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat"
+                            style={{
+                                backgroundImage: `url(${mainImage})`,
 
-                        }}
-                    />
+                            }}
+                        />
+                    </div>
 
                     <div className="md:ml-7 flex flex-row md:flex-col justify-around md:justify-between md:mt-0 mt-4">
 
                         <div
                             onClick={() => setMainImage('/images/fueld2025/founder4.png')}
-                            className="md:w-45 md:h-45 w-25 h-25 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat bg-green-400 md:mt-2"
+                            className="md:w-45 md:h-45 w-65 h-45 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat bg-green-400 md:mt-2"
                             style={{
                                 backgroundImage: "url('/images/fueld2025/founder4.png')",
                             }}
@@ -63,7 +65,7 @@ const LeadershipInsightSection = () => {
 
                         <div
                             onClick={() => setMainImage('/images/fueld2025/founder5.png')}
-                            className="md:w-30 md:h-30 w-35 h-25 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat md:mr-auto md:mb-3"
+                            className="md:w-30 md:h-30 w-45 h-45aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat md:mr-auto md:mb-3"
                             style={{
                                 backgroundImage: "url('/images/fueld2025/founder5.png')",
                             }}
@@ -72,33 +74,7 @@ const LeadershipInsightSection = () => {
 
                     </div>
 
-                    {/* <div>
-                        <div
-                            className="w-30 h-30 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat"
-                            style={{
-                                backgroundImage: "url('/images/fueld2025/founder-centerimage.png')",
-                            }}
-                        />
-
-                        <div
-                            className="w-30 h-30 aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat"
-                            style={{
-                                backgroundImage: "url('/images/fueld2025/founder-centerimage.png')",
-                            }}
-                        />
-                    </div> */}
                 </div>
-
-
-                {/* Image Layout */}
-                {/* <div className="w-full flex justify-center mt-10">
-                    <div
-                        className="w-full max-w-4xl h-auto aspect-[16/9] rounded-xl bg-cover bg-center bg-no-repeat"
-                        style={{
-                            backgroundImage: "url('/images/fueld2025/Groupimages.png')",
-                        }}
-                    />
-                </div> */}
 
                 {/* quote + person */}
                 <div className="mt-16 text-center px-4 max-w-[80%] mx-auto">

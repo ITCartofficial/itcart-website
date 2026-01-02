@@ -9,52 +9,6 @@ import FueldModal from "./FueldModal";
 const AixHubVerticalBanner: React.FC = () => {
 
     const [openModal, setOpenModal] = useState(false);
-    // const [formData, setFormData] = useState({
-    //     name: "",
-    //     email: "",
-    // });
-
-    // const [errors, setErrors] = useState<{ [key: string]: string }>({});
-
-    // // field-level change handler
-    // const handleChange = (
-    //     field: string,
-    //     value: string
-    // ) => {
-    //     setFormData(prev => ({
-    //         ...prev,
-    //         [field]: value,
-    //     }));
-
-    //     setErrors(prev => ({
-    //         ...prev,
-    //         [field]: "",
-    //     }));
-    // };
-
-    // const validate = () => {
-    //     let temp: any = {};
-
-    //     if (!formData.name.trim()) temp.name = "Name is required";
-    //     if (!formData.email.trim()) temp.email = "Email is required";
-    //     else if (!/\S+@\S+\.\S+/.test(formData.email))
-    //         temp.email = "Email is invalid";
-
-    //     setErrors(temp);
-    //     return Object.keys(temp).length === 0;
-    // };
-
-    // const handleSubmit = (e: React.FormEvent) => {
-    //     e.preventDefault();
-    //     if (!validate()) return;
-
-    //     setOpenModal(false);
-
-    //     const link = document.createElement("a");
-    //     link.href = "/Fueld Keynote Presentation 1.pdf";
-    //     link.download = "keynote.pdf";
-    //     link.click();
-    // };
 
     return (
         <>
@@ -73,11 +27,6 @@ const AixHubVerticalBanner: React.FC = () => {
                 ></div>
 
                 <div className="relative w-full mx-auto px-4 text-center text-white">
-                    {/* <div className="w-full flex justify-center">
-                        <div className="bg-red-400 w-fit">
-                            AAs
-                        </div>
-                    </div> */}
 
                     <div className="w-full flex flex-col justify-center items-center text-center">
                         <GradientTitle
@@ -109,7 +58,7 @@ const AixHubVerticalBanner: React.FC = () => {
                         </div>
                     </div>
 
-                    <div className="w-full flex justify-center py-2">
+                    <div className="w-full flex justify-center mt-4">
                         <div className="w-150 aspect-video">
                             <iframe
                                 className="w-full h-full rounded-lg"
@@ -120,14 +69,6 @@ const AixHubVerticalBanner: React.FC = () => {
                                 allowFullScreen
                             />
 
-                            {/* <iframe
-                                className="w-full h-full rounded-lg"
-                                src="https://www.youtube.com/embed/uHabDwAIjxw"
-                                title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                            /> */}
                         </div>
                     </div>
 
