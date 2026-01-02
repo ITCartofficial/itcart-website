@@ -520,5 +520,5 @@ export const historyData = {
   bgImage: "/images/bg-about-history.jpg",
   title: "Our History",
   description:
-    "iTCart Private Limited has a remarkable history as a privately funded organization, supported by a robust financial portfolio. Founded by prominent Business Leaders and Directors of a prestigious 70+ years old multinational business conglomerate from India, our roots lie in a legacy of excellence and innovation. <br>With a relentless commitment to quality and customer satisfaction, we have earned a reputation for excellence in the IT landscape.",
+    "iTCart Private Limited has a remarkable history as a privately funded organization, supported by a robust financial portfolio. Founded by prominent business leaders and directors of a prestigious 70+ years old multinational business conglomerate from India, our roots lie in a legacy of excellence and innovation. <br>With a relentless commitment to quality and customer satisfaction, we have earned a reputation for excellence in the IT landscape.",
 };
