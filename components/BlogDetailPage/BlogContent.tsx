@@ -107,7 +107,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                                     <li onClick={() => {
                                         const section = document.getElementById(`section-${index}`);
                                         section?.scrollIntoView({ behavior: "smooth" });
-                                    }} key={index} className={`text-[16px] cursor-pointer`}> {parseContentWithLinks(data?.title)}</li>
+                                    }} key={index} className={`text-[16px] cursor-pointer hover:text-cyan-300`}> {parseContentWithLinks(data?.title)}</li>
                                 )
                             }
                         </ul>
@@ -127,7 +127,7 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                                     {
                                         data?.content?.map((content: string, index: number) =>
                                             <>
-                                                <p key={index} className={`text-[14px] ${index != 0 ? "mt-2" : "mt-0"}`}>
+                                                <p key={index} className={`text-[16px] ${index != 0 ? "mt-2" : "mt-0"}`}>
                                                     {parseContentWithLinks(content)}....
                                                 </p>
                                             </>
@@ -155,11 +155,11 @@ const BlogContentss = ({ filterdData }: { filterdData: FilteredData }) => {
                                             data?.subItems?.map((items, index) =>
                                                 <>
                                                     <div className="flex">
-                                                        <p className="font-bold">{index + 1}.</p>
+                                                        <p className="font-bold text-[18px]">{index + 1}.</p>
                                                         <p className="ml-3"> {parseContentWithLinks(items?.item)}</p>
                                                     </div>
 
-                                                    <p className="text-[14px]">
+                                                    <p className="text-[16px]">
                                                         {parseContentWithLinks(items?.content)}
                                                     </p>
                                                 </>
