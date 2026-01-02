@@ -11,7 +11,7 @@ export const industryData = [
       bannerButtonText: "Get In Touch",
       bannerTitle: "Digital Transformation in Aviation Excellence ",
       bannerDescription: "Elevating artificial intelligence in the airline industry through comprehensive aviation technology solutions.",
-      bannerImage: "/images/industries/Airline-Banner.jpg",
+      bannerImage: "/images/industries/Airline-Banner.jpg",   
       VerticalContentSection2Heading: 'The Digital Workspace Challenge',
       aboutSectionHeading: 'What We Think And Do',
       aboutSection: {

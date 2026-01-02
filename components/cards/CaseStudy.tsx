@@ -50,7 +50,7 @@ const CaseStudy: React.FC<CaseStudyProps> = ({
                 <div className="flex items-center pt-3 text-xs text-gray-400">
                     <span>by {author}</span>
                     <span className="mx-2">•</span>
-                    <span>{date}</span>
+                    <span>{date}...</span>
                 </div>
 
                 <LinkButton
