@@ -16,7 +16,7 @@ const NewsletterSection = () => {
         imageUrl: "/images/blogs/blog-featured-2.png",
         bannerImage: "/images/blogs/blog-banner-2.jpg",
         description: "Discover how our AI-native platform can transform your business operations.",
-        slug: "AI-native-platform",
+        slug: "transforming-healthcare-the-success-of-health-ais-telehealth-platform",
         category: "any",
         content: [
             {
