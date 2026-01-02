@@ -121,7 +121,7 @@ const SuggestedBlogSection = () => {
 
     const caseStudyData = {
         id: '1',
-        title: "Experience a multi-functional AI-native platform",
+        title: "Building the Future: BIMQP's Success with iTCart's Digital Solutions",
         author: "iTCart Team",
         date: "2024-06-01",
         imageUrl: "/images/blogs/blog-featured-14.png",
@@ -129,7 +129,7 @@ const SuggestedBlogSection = () => {
         description: "Discover how our AI-native platform transforms your business.",
         link: "/contact-us",
         linkText: "Contact us",
-        slug: "AI-native-platform",
+        slug: "building-the-future-bimqps-success-with-itcarts-digital-solutions",
         category: "",
         content: [
             {
