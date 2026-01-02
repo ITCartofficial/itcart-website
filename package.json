@@ -24,7 +24,7 @@
     "react": "^19.2.1",
     "react-countup": "^6.5.3",
     "react-dom": "^19.2.1",
-    "sitemap-generator": "^8.5.1",
+    "sitemap-generator": "^7.5.2",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
