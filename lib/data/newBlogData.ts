@@ -3,7 +3,7 @@ export const newBlogData = [
     {
         bannerTitle: 'How AiXHub™ Is Shaping the Future of Enterprise AI in 2025',
         bannerDiscription: 'Explore how AiXHub™ helps enterprises automate workflows, unify data, and make smarter decisions. Learn why AI-powered transformation is becoming the new business standard.',
-        image: '/images/blogs/newblogs/How AiXHub™ Is Shaping.jpg',
+        image: '/images/blogs/newblogs/AiXHubShaping.jpg',
         writtenBy: 'Fazil Arfath',
         writtenDate: '26-11-2025',
         id: 1,
