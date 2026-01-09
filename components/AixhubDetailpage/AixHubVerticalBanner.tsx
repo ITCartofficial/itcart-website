@@ -62,7 +62,8 @@ const AixHubVerticalBanner: React.FC = () => {
                         <div className="w-150 aspect-video">
                             <iframe
                                 className="w-full h-full rounded-lg"
-                                src="https://www.youtube.com/embed/pHyca8I0_8A?si=elAPPPthqM6O2s0f&autoplay=1&mute=1"
+                                src="https://www.youtube.com/embed/6Z-5oMljnAY"
+                                // src="https://www.youtube.com/watch?v=6Z-5oMljnAY"
                                 title="YouTube video player"
                                 frameBorder="0"
                                 allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
