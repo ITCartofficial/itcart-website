@@ -8,29 +8,31 @@ const addressList: AddressCardProps[] = [
   {
     country: "India",
     phone: "+91 80888 49174",
-    email: "globalcto@itcart.io",
+    email: "globalcto@itcart.ai",
     location: "WeWork Galaxy, Bengaluru, KA, India",
   },
   {
     country: "US",
-    phone: "+1 (313) 790-2882",
-    email: " globalceo@itcart.io",
+    phone: "+1 (800) 407 2588",
+    email: " globalceo@itcart.ai",
     location: "Toledo, Ohio, USA",
   },
   {
     country: "India",
     phone: "+91 70196 67214",
-    email: "connect@itcart.io",
+    email: "connect@itcart.ai",
     location: "91Springboard, MG Road, Bengaluru",
   },
   {
     country: "India",
     phone: "+91 89518 06428",
-    email: "neindiasales@itcart.io",
+    email: "neindiasales@itcart.ai",
     location: "Prithvi Centre, Guwahati, India",
   },
   
 ]
+
+
 
 const ContactUs = () => {
   return (
@@ -50,4 +52,3 @@ const ContactUs = () => {
 }
 
 export default ContactUs
-
