@@ -71,7 +71,7 @@ const BlogSlider = ({ posts }: { posts: Posts[] }) => {
             </div>
 
             {/* Custom Pagination */}
-            <div className="flex">
+            <div className="flex mt-4">
                 {editorsPickPosts.map((_, index) => (
                     <button
                         key={index}

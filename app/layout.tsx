@@ -62,14 +62,14 @@ export default function RootLayout({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="bg-white w-fit fixed top-150 right-0 cursor-pointer p-2 rounded-full z-50 shadow-lg">
+          <span className="bg-white w-fit fixed top-150 right-0 cursor-pointer p-2 rounded-full z-50 shadow-lg">
             <Image
               width={35}
               height={35}
               src="/icons/whatsapp.png"
               alt="whatsapp"
             />
-          </div>
+          </span>
         </a>
         {/* <div className="bg-white w-fit absolute top-150 right-0 fixed cursor-pointer p-2 rounded-full z-50 shadow-lg">
           <Image
