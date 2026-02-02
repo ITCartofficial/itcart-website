@@ -82,8 +82,14 @@ const BlogsTemplate = () => {
             className="pb-20 w-[80%]"
           />
         </div>
-        <BlogSlider posts={newBlogData} />
-        <BlogGridLayout posts={newBlogData} />
+        <BlogSlider posts={newBlogData.map(blog => ({
+          ...blog,
+          contents: blog.contents ?? [],
+        }))} />
+        <BlogGridLayout posts={newBlogData.map(blog => ({
+          ...blog,
+          contents: blog.contents ?? [],
+        }))} />
         <NewsletterSection />
 
         {
