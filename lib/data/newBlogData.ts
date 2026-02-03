@@ -4723,6 +4723,8 @@ export const newBlogData = [
     ],
   },
   {
+    metaTitle:"How AI-Powered Workspace Management Modernizes Technology",
+    metdescription:"Master your office environment. Discover why AI-powered workspace environment management is the future of workplace technology for high-growth businesses.",
     bannerTitle: "How AiXDesk Redefines Enterprise IT Efficiency",
     bannerDiscription:
       "AiXDesk streamlines IT operations, strengthens visibility, and empowers teams with automation-driven workplace intelligence.",
@@ -4880,6 +4882,8 @@ export const newBlogData = [
   },
   //////////////////////////////////////////////////////////////////////////////////////
   {
+    metaTitle:"Digital Workplace Transformation & GRC: Secure Your Enterprise",
+    metdescription:"Accelerate digital workplace transformation with AiXDesk. Automate governance risk & compliance (GRC) to secure your hybrid workforce.",
     bannerTitle:
       "AiXDesk and the Evolution of Secure Digital Work Environments",
     bannerDiscription:
@@ -5011,6 +5015,8 @@ export const newBlogData = [
     ],
   },
   {
+    metaTitle:"AI Workflow Automation & Collab Workspace | AiXDesk ",
+    metdescription:"Boost productivity with AI workflow automation. AiXDesk offers a collab workspace and a workspace one intelligent hub to streamline your digital operations.",
     bannerTitle: "AiXDesk and the Future of Intelligent Workspaces",
     bannerDiscription:
       "Intelligent workspaces streamline tasks, enhance performance, and reduce digital friction for modern enterprise teams.",
@@ -5189,7 +5195,10 @@ export const newBlogData = [
   },
   ////////////////////////////////////////////////////////////////////////////////
   {
-    bannerTitle: "AiXDesk and the Rise of Human-Centred Digital Workflows",
+    metaTitle:"Digital Transformation & Workflow Automation Guide | AiXDesk",
+    metdescription:"Master your digital transformation with human-centred workflow automation. Learn how AiXDesk workflow software reduces cognitive load and boosts ROI.",
+    bannerTitle:
+     "AiXDesk and the Rise of Human-Centred Digital Workflows",
     bannerDiscription:
       "AiXDesk empowers people-first productivity by simplifying workflows, reducing cognitive load, and elevating everyday digital experiences.",
     image: "/images/blogs/newblogs/aixdeskblog-4.jpg",
@@ -5343,6 +5352,8 @@ export const newBlogData = [
     ],
   },
   {
+    metaTitle:"Workplace Technology for AI-Powered Workspace Management",
+    metdescription:"Workplace technology and AI-powered workspace environment management create a smarter, safer, and more productive space for every team, in any location.",
     bannerTitle: "The Power of AiXDesk in Modern Hybrid Workplaces",
     bannerDiscription:
       "AiXDesk transforms hybrid work by unifying tasks, security, and user experience into a single intelligent workspace.",
