@@ -17,11 +17,7 @@ const SingleBlogPage = () => {
       .replace(/[^\w-]+/g, "");
   };
 
-  const filterdData = newBlogData.find((blog) => pathName.split('/')[2] === convertToSlug(blog?.bannerTitle));
-
-  console.log("filterdData:", filterdData);
-
-
+  const filterdData = newBlogData.find((blog) => pathName.split('/')[2] === blog?.url);
 
   if (!filterdData || !filterdData.contents) {
     return <div className="text-white">Blog post not found</div>;

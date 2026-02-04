@@ -1,8 +1,9 @@
 export const newBlogData = [
   {
-    metaTitle:"metaTitle metaTitlemetaTitle",
-    metdescription:"metdescription metdescriptionmetdescription",
+    metaTitle: "metaTitle metaTitlemetaTitle",
+    metdescription: "metdescription metdescriptionmetdescription",
     bannerTitle: "How AiXHub™ Is Shaping the Future of Enterprise AI in 2025",
+    url: 'intelligent-ai-automation-enterprise-productivity',
     bannerDiscription:
       "Explore how AiXHub™ helps enterprises automate workflows, unify data, and make smarter decisions. Learn why AI-powered transformation is becoming the new business standard.",
     image: "/images/blogs/newblogs/AiXHubShaping.jpg",
@@ -276,6 +277,7 @@ export const newBlogData = [
     id: 2,
     type: "",
     status: "",
+    url: '',
     contents: [
       {
         id: 1,
@@ -2363,8 +2365,8 @@ export const newBlogData = [
   },
   ////////////////////////////////////////////////////////////////////////////////
   {
-    metaTitle:"AI in Insurance: Life Underwriting & Biological Age Testing",
-    metdescription:"AI in insurance uses biological age testing for better risk assessment, accurate claims prediction, and improved customer outcomes.",
+    metaTitle: "AI in Insurance: Life Underwriting & Biological Age Testing",
+    metdescription: "AI in insurance uses biological age testing for better risk assessment, accurate claims prediction, and improved customer outcomes.",
     bannerTitle:
       "How InsureAiX Is Transforming Life Insurance Through Precision Intelligence ",
     bannerDiscription:
@@ -2489,8 +2491,8 @@ export const newBlogData = [
   },
   ////////////////////////////////////////////////////////////////////////////////
   {
-    metaTitle:"AI in Insurance: Intelligent Claims Management",
-    metdescription:"Intelligent claims management transforms insurance processing with behavioral insights, fraud detection, and predictive risk analysis using InsureAiX technology.",
+    metaTitle: "AI in Insurance: Intelligent Claims Management",
+    metdescription: "Intelligent claims management transforms insurance processing with behavioral insights, fraud detection, and predictive risk analysis using InsureAiX technology.",
     bannerTitle: "Intelligent Claims Management with InsureAiX ",
     bannerDiscription:
       "Smarter claims decisions powered by predictive intelligence, behavioural insights, and lifecycle-aware risk modelling.",
@@ -2679,8 +2681,8 @@ export const newBlogData = [
   },
   ////////////////////////////////////////////////////////////////////////////////
   {
-    metaTitle:"Personalized Health Insurance: Behavioral & Lifestyle Intelligence",
-    metdescription:"AI powered health insurance driven by behavioral and lifestyle intelligence, delivering coverage that adapts to your real-life habits.",
+    metaTitle: "Personalized Health Insurance: Behavioral & Lifestyle Intelligence",
+    metdescription: "AI powered health insurance driven by behavioral and lifestyle intelligence, delivering coverage that adapts to your real-life habits.",
     bannerTitle:
       "Personalised Life Insurance Through Behavioural and Lifestyle Intelligence with InsureAiX ",
     bannerDiscription:
@@ -2888,8 +2890,8 @@ export const newBlogData = [
   },
   ////////////////////////////////////////////////////////////////////////////////
   {
-    metaTitle:"AI in Insurance: Predictive Life Risk Modeling",
-    metdescription:"Explore how AI in insurance uses predictive life risk modeling to improve underwriting, reduce claims, and provide smarter, more accurate coverage.",
+    metaTitle: "AI in Insurance: Predictive Life Risk Modeling",
+    metdescription: "Explore how AI in insurance uses predictive life risk modeling to improve underwriting, reduce claims, and provide smarter, more accurate coverage.",
     bannerTitle: "Predictive Life Risk Modelling with InsureAiX",
     bannerDiscription:
       "Future-focused risk prediction transforms how insurers identify vulnerabilities, forecast claims, and personalise long-term life protection.",
@@ -3017,8 +3019,8 @@ export const newBlogData = [
   },
   ///////////////////////////////////////////////////////////////////////////////////
   {
-    metaTitle:"AI in Insurance: Biological Age Underwriting Revolution",
-    metdescription:"AI in insurance makes life underwriting fairer with biological age testing. Get smarter premiums based on your real health, not just your age.",
+    metaTitle: "AI in Insurance: Biological Age Underwriting Revolution",
+    metdescription: "AI in insurance makes life underwriting fairer with biological age testing. Get smarter premiums based on your real health, not just your age.",
     bannerTitle:
       "Redefining Underwriting with Intelligent Risk Modelling Through InsureAiX ",
     bannerDiscription:
@@ -3167,8 +3169,8 @@ export const newBlogData = [
   },
   /////////////////////////////////////////////////////////////////////////////////
   {
-     metaTitle:"Frictionless Lending Automation | Faster Approvals & KYC",
-    metdescription:"Frictionless digital lending automation platform for AI-driven loan origination to KYC, reducing approval time, errors, and improving borrower experience.",
+    metaTitle: "Frictionless Lending Automation | Faster Approvals & KYC",
+    metdescription: "Frictionless digital lending automation platform for AI-driven loan origination to KYC, reducing approval time, errors, and improving borrower experience.",
     bannerTitle:
       "Beyond Automation: How AiXbfs is Creating a Frictionless Future for Borrowers and Lenders",
     bannerDiscription:
@@ -3248,8 +3250,8 @@ export const newBlogData = [
   },
   //////////////////////////////////////////////////////////////////////
   {
-     metaTitle:"Debt Recovery Automation | Field Ops & Risk Governance",
-    metdescription:"Automate field recovery with real-time tracking and AI-led risk governance to boost recovery rates by 25%, cut costs by 30%, and ensure compliant operations.",
+    metaTitle: "Debt Recovery Automation | Field Ops & Risk Governance",
+    metdescription: "Automate field recovery with real-time tracking and AI-led risk governance to boost recovery rates by 25%, cut costs by 30%, and ensure compliant operations.",
     bannerTitle:
       "How AiXBFS Reinvents Recovery, Field Operations, and Risk Governance",
     bannerDiscription:
@@ -3363,8 +3365,8 @@ export const newBlogData = [
   },
   ////////////////////////////////////////////////////////////////////////////
   {
-     metaTitle:"Digital Lending Automation | Faster Risk Decisions & ROI",
-    metdescription:"Speed up lending with AI risk assessment. Cut approval times 40%, reduce NPAs, boost profits through automated credit scoring and real-time decisions. ",
+    metaTitle: "Digital Lending Automation | Faster Risk Decisions & ROI",
+    metdescription: "Speed up lending with AI risk assessment. Cut approval times 40%, reduce NPAs, boost profits through automated credit scoring and real-time decisions. ",
     bannerTitle:
       "How AiXBFS is Transforming Digital Lending: Faster Decisions, Lower Risk, Higher Profitability",
     bannerDiscription:
@@ -3467,8 +3469,8 @@ export const newBlogData = [
   },
   //////////////////////////////////////////////////////////////////////
   {
-    metaTitle:"Banking Security & Compliance | Real-Time Fraud Monitor",
-    metdescription:"Detect fraud in real-time with AI monitoring. Automate AML/KYC compliance, cut false positives 95%, ensure RBI audit readiness for banks & NBFCs.",
+    metaTitle: "Banking Security & Compliance | Real-Time Fraud Monitor",
+    metdescription: "Detect fraud in real-time with AI monitoring. Automate AML/KYC compliance, cut false positives 95%, ensure RBI audit readiness for banks & NBFCs.",
     bannerTitle:
       "The Silent Guardian: How AIXBFS is Fortifying BFSI Security and Compliance in Real-Time",
     bannerDiscription:
@@ -3553,8 +3555,8 @@ export const newBlogData = [
   },
   {
 
-    metaTitle:"Modern Banking Challenges | AI-Driven Digital Transform",
-    metdescription:"Solve legacy gaps, competitive pressure, and costs with intelligent banking automation. Integrate, scale, and compete with next-gen fintech.",
+    metaTitle: "Modern Banking Challenges | AI-Driven Digital Transform",
+    metdescription: "Solve legacy gaps, competitive pressure, and costs with intelligent banking automation. Integrate, scale, and compete with next-gen fintech.",
     bannerTitle:
       "The Strategic Edge: How AIXBFS is Solving the Core Dilemmas of Modern Banking",
     bannerDiscription:
@@ -3677,8 +3679,8 @@ export const newBlogData = [
     ],
   },
   {
-    metaTitle:"Future of Banking Automation 2025 | AI-Driven Trends",
-    metdescription:"Explore how smarter banking automation, AI-driven insights, and predictive risk shape the future. Make your platform ready for tomorrow.",
+    metaTitle: "Future of Banking Automation 2025 | AI-Driven Trends",
+    metdescription: "Explore how smarter banking automation, AI-driven insights, and predictive risk shape the future. Make your platform ready for tomorrow.",
     bannerTitle:
       "AiXBFS: The Future of Intelligent Banking Automation in 2025 and Beyond",
     bannerDiscription:
@@ -3878,8 +3880,8 @@ export const newBlogData = [
   },
   ////////////////////////////////////////////////////////////////////////////
   {
-     metaTitle:"Enterprise AI Platform for Digital Transformation | AiXHub",
-    metdescription:"AiXHub is an Enterprise AI platform that unifies data and eliminates silos. Use Predictive AI for real-time insights to drive digital transformation.",
+    metaTitle: "Enterprise AI Platform for Digital Transformation | AiXHub",
+    metdescription: "AiXHub is an Enterprise AI platform that unifies data and eliminates silos. Use Predictive AI for real-time insights to drive digital transformation.",
     bannerTitle: "AiXHub™: Powering Data-Driven Enterprise Transformation",
     bannerDiscription:
       "Unified intelligence streamlines operations, enhances visibility, and drives faster enterprise decisions through structured data flows.",
@@ -4024,8 +4026,8 @@ export const newBlogData = [
   },
   //////////////////////////////////////////////////////////////////////
   {
-     metaTitle:"Intelligent Collaboration: Building a Productive Digital Workplace",
-    metdescription:"Is your team overwhelmed? Learn how intelligent collaboration goes beyond standard tools to create a unified digital workplace and boost productivity. Find out",
+    metaTitle: "Intelligent Collaboration: Building a Productive Digital Workplace",
+    metdescription: "Is your team overwhelmed? Learn how intelligent collaboration goes beyond standard tools to create a unified digital workplace and boost productivity. Find out",
     bannerTitle:
       "The Power of Intelligent Collaboration: How AiXHub™ Redefines the Modern Digital Workplace",
     bannerDiscription:
@@ -4195,8 +4197,8 @@ export const newBlogData = [
     ],
   },
   {
-     metaTitle:"AI-Driven GRC Platform for Risk Management | AiXHub",
-    metdescription:"Optimize enterprise risk management software with AiXHub. Use AI in governance risk & compliance to automate audits and ensure real time accountability.",
+    metaTitle: "AI-Driven GRC Platform for Risk Management | AiXHub",
+    metdescription: "Optimize enterprise risk management software with AiXHub. Use AI in governance risk & compliance to automate audits and ensure real time accountability.",
     bannerTitle:
       "Reinventing Governance, Risk, and Compliance Through AiXHub: The Intelligent Backbone of the Modern Enterprise",
     bannerDiscription:
@@ -4355,8 +4357,8 @@ export const newBlogData = [
     ],
   },
   {
-     metaTitle:"Digital Transformation: Unified Intelligence with AiXHub™",
-    metdescription:"Digital transformation needs unified intelligence. AiXHub connects workflows, data, and governance to turn fragmented enterprises into intelligent organizations",
+    metaTitle: "Digital Transformation: Unified Intelligence with AiXHub™",
+    metdescription: "Digital transformation needs unified intelligence. AiXHub connects workflows, data, and governance to turn fragmented enterprises into intelligent organizations",
     bannerTitle:
       "AiXHub™: The Future of Enterprise Transformation Through Unified Intelligence",
     bannerDiscription:
@@ -4539,8 +4541,8 @@ export const newBlogData = [
   },
   //////////////////////////////////////////////
   {
-    metaTitle:"Intelligent AI Automation: Transform Enterprise Productivity",
-    metdescription:"Too many tools slowing your teams down? Intelligent AI unifies workflows and boosts productivity by 30%. See how AiXHub simplifies enterprise operations.",
+    metaTitle: "Intelligent AI Automation: Transform Enterprise Productivity",
+    metdescription: "Too many tools slowing your teams down? Intelligent AI unifies workflows and boosts productivity by 30%. See how AiXHub simplifies enterprise operations.",
     bannerTitle:
       "Why Intelligent Automation Through AiXHub™ Is the Future of Enterprise Productivity",
     bannerDiscription:
@@ -4551,7 +4553,7 @@ export const newBlogData = [
     type: "AiXHub™ Blogs",
     status: "",
     id: 29,
-
+    url: 'intelligent-ai-automation-enterprise-productivity',
     contents: [
       {
         id: 1,
@@ -5508,8 +5510,8 @@ export const newBlogData = [
     ],
   },
   {
-    metaTitle:"AI Fraud Detection in Banking: Prevent Identity Fraud & Scams",
-    metdescription:"Revolutionize fraud detection in banking. Use AI fraud detection to prevent identity fraud and ensure instant scam detection without slowing down users.",
+    metaTitle: "AI Fraud Detection in Banking: Prevent Identity Fraud & Scams",
+    metdescription: "Revolutionize fraud detection in banking. Use AI fraud detection to prevent identity fraud and ensure instant scam detection without slowing down users.",
     bannerTitle:
       "Building Trust in Digital Banking – How Smart Technology Stops Fraud Without Slowing You Down",
     bannerDiscription:
@@ -5680,8 +5682,8 @@ export const newBlogData = [
   },
   //////////////////////////////////////////////////////
   {
-    metaTitle:"AI in Fintech: Revolutionizing Financial Operations & Routing",
-    metdescription:"Master AI in finance with AiXFintech. Learn how financial operations automation and intelligent payment routing transform financial services for 90% accuracy.",
+    metaTitle: "AI in Fintech: Revolutionizing Financial Operations & Routing",
+    metdescription: "Master AI in finance with AiXFintech. Learn how financial operations automation and intelligent payment routing transform financial services for 90% accuracy.",
     bannerTitle:
       "Revolutionising Financial Operations – AiXFintech’s AI-Native Payments Intelligence",
     bannerDiscription:
@@ -5874,8 +5876,8 @@ export const newBlogData = [
     ],
   },
   {
-    metaTitle:"AI Fraud Detection & Prevention with AiXFintech",
-    metdescription:"Stop threats before they happen. AiXFintech uses behavioral intelligence and real-time AI fraud detection to reduce false positives and build customer trust.",
+    metaTitle: "AI Fraud Detection & Prevention with AiXFintech",
+    metdescription: "Stop threats before they happen. AiXFintech uses behavioral intelligence and real-time AI fraud detection to reduce false positives and build customer trust.",
     bannerTitle:
       "From Fraud Detection to Customer Trust – How AiXFintech Stops Threats Before They Happen",
     bannerDiscription:
@@ -6077,8 +6079,8 @@ export const newBlogData = [
     ],
   },
   {
-    metaTitle:"Scaling Fintech Solutions with AI in Financial Services",
-    metdescription:"Boost financial operational efficiency with smart fintech solutions. See how AI in financial services makes global scaling and compliance feel easy. Read more.",
+    metaTitle: "Scaling Fintech Solutions with AI in Financial Services",
+    metdescription: "Boost financial operational efficiency with smart fintech solutions. See how AI in financial services makes global scaling and compliance feel easy. Read more.",
     bannerTitle:
       "From Local to Global – Scaling Financial Services Across Borders",
     bannerDiscription:
@@ -6285,8 +6287,8 @@ export const newBlogData = [
     ],
   },
   {
-    metaTitle:"AI in Financial services - Financial Fraud Detection with AiXFintech ",
-    metdescription:"Stop threats instantly with AiXFintech fraud solutions. Use real-time transaction monitoring and financial fraud detection AI to keep your banking safe and secure.",
+    metaTitle: "AI in Financial services - Financial Fraud Detection with AiXFintech ",
+    metdescription: "Stop threats instantly with AiXFintech fraud solutions. Use real-time transaction monitoring and financial fraud detection AI to keep your banking safe and secure.",
     bannerTitle:
       "Unlocking the Future of Financial Fraud Detection and Prevention",
     bannerDiscription:
@@ -6481,8 +6483,8 @@ export const newBlogData = [
     ],
   },
   {
-    metaTitle:"Clinical Workflow Management | AiXHealthcare AI Automation",
-    metdescription:"Streamline clinical data management and healthcare administrative automation. Eliminate backlogs and improve patient care with intelligent workflow tools.",
+    metaTitle: "Clinical Workflow Management | AiXHealthcare AI Automation",
+    metdescription: "Streamline clinical data management and healthcare administrative automation. Eliminate backlogs and improve patient care with intelligent workflow tools.",
     bannerTitle: "Redefining Clinical Workflows with Intelligent Automation",
     bannerDiscription:
       "AiXHealthcare streamlines clinical and administrative workflows, enabling hospitals to operate with speed, precision, and reliability.",
@@ -11035,8 +11037,8 @@ export const newBlogData = [
   // },
   ///////////////////////////////////////////////////////////////////////////////////////////////
   {
-    metaTitle:"What is AI Enabled ERP? Guide to AI Powered ERP Systems 2026",
-    metdescription:"Upgrade your business with AI-enabled ERP. Learn how predictive analytics and automation drive smarter decisions, boost efficiency, and redefine the future.",
+    metaTitle: "What is AI Enabled ERP? Guide to AI Powered ERP Systems 2026",
+    metdescription: "Upgrade your business with AI-enabled ERP. Learn how predictive analytics and automation drive smarter decisions, boost efficiency, and redefine the future.",
     bannerTitle:
       "What Is AI-Enabled ERP? A Complete Guide for Modern Enterprises",
     bannerDiscription:
@@ -11248,8 +11250,8 @@ export const newBlogData = [
   },
   /////////////////////////////////////////////////////////////////////////////
   {
-    metaTitle:"AI in Enterprise Resource Planning Systems: 2026 Roadmap",
-    metdescription:"Lead your enterprise digital transformation with our 2026 guide. Master AI-driven ERP implementation to automate workflows and unlock predictive growth.",
+    metaTitle: "AI in Enterprise Resource Planning Systems: 2026 Roadmap",
+    metdescription: "Lead your enterprise digital transformation with our 2026 guide. Master AI-driven ERP implementation to automate workflows and unlock predictive growth.",
     bannerTitle: "AI in ERP Implementation: Roadmap & Best Practices for 2026",
     bannerDiscription:
       "A complete guide to implementing AI-enabled ERP with modern strategies and proven frameworks.",
@@ -11458,8 +11460,8 @@ export const newBlogData = [
   },
   ///////////////////////////////////////////////////////////////////////////
   {
-    metaTitle:"AI ERP Systems & Demand Forecasting ERP Software | AiXERP",
-    metdescription:"Scale with AI ERP systems. Use demand forecasting ERP software and AI in warehouse management systems to optimize your inventory and finance operations.",
+    metaTitle: "AI ERP Systems & Demand Forecasting ERP Software | AiXERP",
+    metdescription: "Scale with AI ERP systems. Use demand forecasting ERP software and AI in warehouse management systems to optimize your inventory and finance operations.",
     bannerTitle:
       "Predictive ERP: AI Forecasting for Finance, Inventory & Operations",
     bannerDiscription:
@@ -11726,8 +11728,8 @@ export const newBlogData = [
   },
   //////////////////////////////////////////////////////////////////////////////////////
   {
-    metaTitle:"AI in ERP | Predictive Analytics & ERP Systems for 2026",
-    metdescription:"See how AI in ERP use cases for 2026 can empower your team. Use predictive analytics in ERP and AI supply chain inventory management to transform your business.",
+    metaTitle: "AI in ERP | Predictive Analytics & ERP Systems for 2026",
+    metdescription: "See how AI in ERP use cases for 2026 can empower your team. Use predictive analytics in ERP and AI supply chain inventory management to transform your business.",
     bannerTitle: "Top AI Use Cases in ERP Systems for 2026",
     bannerDiscription:
       "Explore how AI is transforming finance, supply chain, HR, and operations inside modern ERP systems.",
