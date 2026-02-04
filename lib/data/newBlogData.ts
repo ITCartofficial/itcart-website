@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 export const newBlogData = [
   {
     metaTitle: "metaTitle metaTitlemetaTitle",
@@ -2377,6 +2379,7 @@ export const newBlogData = [
     type: "InsureAiX Blogs",
     status: "",
     id: 12,
+    url: "life-insurance-ai-precision-underwriting",
     contents: [
       {
         id: 1,
@@ -2501,6 +2504,7 @@ export const newBlogData = [
     writtenDate: "04/12/2025",
     type: "InsureAiX Blogs",
     id: 13,
+    url: 'intelligent-claims-management-with-insureaix',
     contents: [
       {
         id: 1,
@@ -2692,6 +2696,7 @@ export const newBlogData = [
     writtenDate: "04/12/2025",
     type: "InsureAiX Blogs",
     id: 14,
+    url: "personalized-health-insurance-behavioral-lifestyle-intelligence",
     contents: [
       {
         id: 1,
@@ -2901,7 +2906,7 @@ export const newBlogData = [
     type: "InsureAiX Blogs",
     status: "",
     id: 15,
-
+    url: 'predictive-life-risk-modelling-with-insureaix',
     contents: [
       {
         id: 1,
@@ -3030,6 +3035,7 @@ export const newBlogData = [
     writtenDate: "04/12/2025",
     type: "InsureAiX Blogs",
     id: 16,
+    url: "ai-insurance-biological-age-underwriting",
     contents: [
       {
         id: 1,
@@ -3181,7 +3187,7 @@ export const newBlogData = [
     type: "AiXBFS Blogs",
     status: "",
     id: 17,
-
+    url: "frictionless-digital-lending-automation-ai-powered-los",
     contents: [
       {
         id: 1,
@@ -3262,7 +3268,7 @@ export const newBlogData = [
     type: "AiXBFS Blogs",
     status: "",
     id: 18,
-
+    url: 'digital-debt-recovery-field-operations-risk-automation',
     contents: [
       {
         id: 1,
@@ -3377,7 +3383,7 @@ export const newBlogData = [
     type: "AiXBFS Blogs",
     status: "",
     id: 19,
-
+    url: "digital-lending-automation-credit-risk-profitability",
     contents: [
       {
         id: 1,
@@ -3481,7 +3487,7 @@ export const newBlogData = [
     type: "AiXBFS Blogs",
     status: "",
     id: 20,
-
+    url: "real-time-banking-fraud-detection-compliance-automation",
     contents: [
       {
         id: 1,
@@ -3567,7 +3573,7 @@ export const newBlogData = [
     type: "AiXBFS Blogs",
     status: "",
     id: 21,
-
+    url: 'modern-banking-digital-transformation-challenges',
     contents: [
       {
         id: 1,
@@ -3691,7 +3697,7 @@ export const newBlogData = [
     type: "AiXBFS Blogs",
     status: "",
     id: 22,
-
+    url: "future-banking-automation-2025-ai-trends-innovation",
     contents: [
       {
         id: 1,
@@ -3891,7 +3897,7 @@ export const newBlogData = [
     type: "AiXHub™ Blogs",
     status: "",
     id: 23,
-
+    url: 'enterprise-ai-digital-transformation',
     contents: [
       {
         id: 1,
@@ -4042,6 +4048,7 @@ export const newBlogData = [
     writtenDate: "12/12/2025",
     type: "AiXHub™ Blogs",
     status: "",
+    url: "intelligent-collaboration-digital-workplace",
     id: 26,
     contents: [
       {
@@ -4209,7 +4216,7 @@ export const newBlogData = [
     type: "AiXHub™ Blogs",
     status: "",
     id: 27,
-
+    url: 'ai-driven-grc-platform-risk-management',
     contents: [
       {
         id: 1,
@@ -4368,6 +4375,7 @@ export const newBlogData = [
       metaDescription:
         "Too many tools slowing your teams down? Intelligent AI unifies workflows and boosts productivity by 30%.   See how AiXHub simplifies enterprise operations.",
     },
+    url: 'digital-transformation-unified-intelligence-aixhub',
     image: "/images/blogs/newblogs/aixhubblog-4.jpg",
     writtenBy: "Muskan Sonda",
     writtenDate: "12/12/2025",
@@ -4725,6 +4733,8 @@ export const newBlogData = [
     ],
   },
   {
+    metaTitle: "How AI-Powered Workspace Management Modernizes Technology",
+    metdescription: "Master your office environment. Discover why AI-powered workspace environment management is the future of workplace technology for high-growth businesses.",
     bannerTitle: "How AiXDesk Redefines Enterprise IT Efficiency",
     bannerDiscription:
       "AiXDesk streamlines IT operations, strengthens visibility, and empowers teams with automation-driven workplace intelligence.",
@@ -4734,7 +4744,7 @@ export const newBlogData = [
     type: "AiXDESK Blogs",
     status: "",
     id: 30,
-
+    url: "ai-powered-workspace-management-technology",
     contents: [
       {
         id: 1,
@@ -4882,6 +4892,8 @@ export const newBlogData = [
   },
   //////////////////////////////////////////////////////////////////////////////////////
   {
+    metaTitle: "Digital Workplace Transformation & GRC: Secure Your Enterprise",
+    metdescription: "Accelerate digital workplace transformation with AiXDesk. Automate governance risk & compliance (GRC) to secure your hybrid workforce.",
     bannerTitle:
       "AiXDesk and the Evolution of Secure Digital Work Environments",
     bannerDiscription:
@@ -4892,7 +4904,7 @@ export const newBlogData = [
     type: "AiXDESK Blogs",
     status: "",
     id: 31,
-
+    url: 'digital-workplace-transformation-grc-security',
     contents: [
       {
         id: 1,
@@ -5013,6 +5025,8 @@ export const newBlogData = [
     ],
   },
   {
+    metaTitle: "AI Workflow Automation & Collab Workspace | AiXDesk ",
+    metdescription: "Boost productivity with AI workflow automation. AiXDesk offers a collab workspace and a workspace one intelligent hub to streamline your digital operations.",
     bannerTitle: "AiXDesk and the Future of Intelligent Workspaces",
     bannerDiscription:
       "Intelligent workspaces streamline tasks, enhance performance, and reduce digital friction for modern enterprise teams.",
@@ -5022,7 +5036,7 @@ export const newBlogData = [
     type: "AiXDESK Blogs",
     status: "",
     id: 32,
-
+    url: "ai-workflow-automation-collab-workspace",
     contents: [
       {
         id: 1,
@@ -5191,7 +5205,10 @@ export const newBlogData = [
   },
   ////////////////////////////////////////////////////////////////////////////////
   {
-    bannerTitle: "AiXDesk and the Rise of Human-Centred Digital Workflows",
+    metaTitle: "Digital Transformation & Workflow Automation Guide | AiXDesk",
+    metdescription: "Master your digital transformation with human-centred workflow automation. Learn how AiXDesk workflow software reduces cognitive load and boosts ROI.",
+    bannerTitle:
+      "AiXDesk and the Rise of Human-Centred Digital Workflows",
     bannerDiscription:
       "AiXDesk empowers people-first productivity by simplifying workflows, reducing cognitive load, and elevating everyday digital experiences.",
     image: "/images/blogs/newblogs/aixdeskblog-4.jpg",
@@ -5200,7 +5217,7 @@ export const newBlogData = [
     type: "AiXDESK Blogs",
     status: "",
     id: 33,
-
+    url: 'digital-transformation-workflow-automation-aixdesk',
     contents: [
       {
         id: 1,
@@ -5345,6 +5362,8 @@ export const newBlogData = [
     ],
   },
   {
+    metaTitle: "Workplace Technology for AI-Powered Workspace Management",
+    metdescription: "Workplace technology and AI-powered workspace environment management create a smarter, safer, and more productive space for every team, in any location.",
     bannerTitle: "The Power of AiXDesk in Modern Hybrid Workplaces",
     bannerDiscription:
       "AiXDesk transforms hybrid work by unifying tasks, security, and user experience into a single intelligent workspace.",
@@ -5354,7 +5373,7 @@ export const newBlogData = [
     type: "AiXDESK Blogs",
     status: "",
     id: 34,
-
+    url: 'workplace-technology-ai-powered-workspace-management',
     contents: [
       {
         id: 1,
@@ -5522,7 +5541,7 @@ export const newBlogData = [
     type: "AiXFintech Blogs",
     status: "",
     id: 35,
-
+    url: "ai-fraud-detection-banking-prevent-identity-scams",
     contents: [
       {
         id: 1,
@@ -5694,7 +5713,7 @@ export const newBlogData = [
     type: "AiXFintech Blogs",
     status: "",
     id: 36,
-
+    url: "ai-fintech-financial-operations-automation",
     contents: [
       {
         id: 1,
@@ -5888,7 +5907,7 @@ export const newBlogData = [
     type: "AiXFintech Blogs",
     status: "",
     id: 37,
-
+    url: "fraud-detection-aixfintech-customer-trust",
     contents: [
       {
         id: 1,
@@ -6091,7 +6110,7 @@ export const newBlogData = [
     type: "AiXFintech Blogs",
     status: "",
     id: 38,
-
+    url: "scaling-financial-services-global-ai",
     contents: [
       {
         id: 1,
@@ -6299,7 +6318,7 @@ export const newBlogData = [
     type: "AiXFintech Blogs",
     status: "",
     id: 39,
-
+    url: "financial-fraud-detection-ai",
     contents: [
       {
         id: 1,
@@ -6494,7 +6513,7 @@ export const newBlogData = [
     type: "AiXHealthcare Blogs",
     status: "",
     id: 40,
-
+    url: "redefining-clinical-workflows-with-intelligent-automation",
     contents: [
       {
         id: 1,
@@ -11049,7 +11068,7 @@ export const newBlogData = [
     type: "AiXERP Blogs",
     status: "",
     id: 62,
-
+    url: 'ai-enabled-erp-complete-guide',
     contents: [
       {
         id: 1,
@@ -11261,7 +11280,7 @@ export const newBlogData = [
     type: "AiXERP Blogs",
     status: "",
     id: 63,
-
+    url: "ai-erp-implementation-roadmap-2026",
     contents: [
       {
         id: 1,
@@ -11472,7 +11491,7 @@ export const newBlogData = [
     type: "AiXERP Blogs",
     status: "",
     id: 64,
-
+    url: "ai-erp-systems-demand-forecasting-warehouse-management",
     contents: [
       {
         id: 1,

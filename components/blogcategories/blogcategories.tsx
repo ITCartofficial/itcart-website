@@ -56,6 +56,7 @@ const Blogcategories: React.FC<IndustryGridProps> = ({
                         linkUrl={``}
                         imageSrc={data.image}
                         imageAlt={`${data.bannerTitle} illustration`}
+                        url={data.url}
                     />
                 ))}
             </div>

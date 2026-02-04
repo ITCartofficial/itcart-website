@@ -63,7 +63,7 @@ const BlogSlider = ({ posts }: { posts: Posts[] }) => {
                     autoplay={{ delay: 5000, disableOnInteraction: false }}>
                     {editorsPickPosts.map((blog, index) => (
                         <SwiperSlide key={index}>
-                            <BlogSliderCard {...blog} />
+                            <BlogSliderCard url={''} {...blog} />
                         </SwiperSlide>
                     ))}
                     <SwiperController current={current} />

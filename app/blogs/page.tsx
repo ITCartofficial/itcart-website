@@ -84,11 +84,13 @@ const BlogsTemplate = () => {
           ...blog,
           contents: blog.contents ?? [],
         }))} />
-        
+
         <BlogGridLayout posts={newBlogData.map(blog => ({
           ...blog,
           contents: blog.contents ?? [],
-        }))} />
+          url: blog.url ?? ""
+        }))} url={""} />
+
         <NewsletterSection />
 
         {

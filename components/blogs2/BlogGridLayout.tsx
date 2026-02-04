@@ -12,12 +12,13 @@ interface SubItem {
 }
 
 interface ContentItem {
-  id: number | string;  
+  id: number | string;
   title: string;
   content: string[];
   subItems?: SubItem[];
   subItemTitle?: string;
   finalPoint?: string;
+  url?: string;
 }
 
 interface Posts {
@@ -30,6 +31,7 @@ interface Posts {
   writtenBy?: string;
   writtenDate?: string;
   contents: ContentItem[];
+  url: string;
 }
 
 const slugify = (text: string) =>
@@ -43,7 +45,7 @@ const convertToSlug = (text: string) => {
     .replace(/[^\w-]+/g, "");
 };
 
-const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
+const BlogGridLayout = ({ posts, url }: { posts: Posts[], url: string }) => {
   const featuredPost = posts[0];
 
   return (
@@ -70,7 +72,7 @@ const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
                 description={featuredPost.bannerDiscription}
                 date={featuredPost.writtenDate ?? ""}
                 id={featuredPost.id}
-                linkUrl={`/blogs/${slugify(featuredPost.bannerTitle)}`}
+                linkUrl={`/blogs/${url}`}
 
               />
             </div>
@@ -80,7 +82,7 @@ const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
               {posts.slice(1, 5).map((post) => (
                 <a
                   key={post.id}
-                  href={`/blogs/${convertToSlug(post.bannerTitle)}`}
+                  href={`/blogs/${url}`}
                 >
                   <div className='bg-[#212121] rounded-lg'>
                     <HorizontalCard
@@ -105,7 +107,7 @@ const BlogGridLayout = ({ posts }: { posts: Posts[] }) => {
             {posts.slice(5, 10).map((post, index) => (
               <a
                 key={post.id}
-                href={`/blogs/${convertToSlug(post.bannerTitle)}`}
+                href={`/blogs/${url}`}
               >
                 <NumberedCard
                   number={`0${index + 1}`}
