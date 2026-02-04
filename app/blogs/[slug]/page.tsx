@@ -4,11 +4,19 @@ import HomeFaqSection from "@/app/(features)/home/HomeFaqSection";
 import BlogContents from "@/components/BlogDetailPage/BlogContent";
 import SectionBanner from "@/components/BlogDetailPage/SectionBanner";
 import { newBlogData } from "@/lib/data/newBlogData";
+import { useEffect, useState } from "react";
 
 const SingleBlogPage = () => {
 
 
   const pathName = usePathname()
+
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
 
   const convertToSlug = (text: string) => {
     return text
@@ -17,11 +25,9 @@ const SingleBlogPage = () => {
       .replace(/[^\w-]+/g, "");
   };
 
-  const filterdData = newBlogData.find((blog) => pathName.split('/')[2] === convertToSlug(blog?.bannerTitle));
+  const filterdData = newBlogData.find((blog) => pathName.split('/')[2] === blog?.url);
 
-  console.log("filterdData:", filterdData);
-
-
+  if (!isClient) return null;
 
   if (!filterdData || !filterdData.contents) {
     return <div className="text-white">Blog post not found</div>;

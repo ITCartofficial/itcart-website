@@ -31,8 +31,6 @@ const BlogsTemplate = () => {
   // const [posts, setPosts] = React.useState<Post[]>([]);
   const categories = [...new Set(newBlogData.map(blog => blog.type))];
 
-
-
   useEffect(() => {
     // This effect runs only once when the component mounts
     const fetchPosts = async () => {
@@ -86,10 +84,13 @@ const BlogsTemplate = () => {
           ...blog,
           contents: blog.contents ?? [],
         }))} />
+
         <BlogGridLayout posts={newBlogData.map(blog => ({
           ...blog,
           contents: blog.contents ?? [],
-        }))} />
+          url: blog.url ?? ""
+        }))} url={""} />
+
         <NewsletterSection />
 
         {

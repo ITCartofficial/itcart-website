@@ -17,6 +17,7 @@ interface ServiceCardProps {
     linkUrl?: string;
     className?: string;
     id?: number | string
+    url?: string;
 }
 
 const BlogCard: React.FC<ServiceCardProps> = ({
@@ -25,7 +26,8 @@ const BlogCard: React.FC<ServiceCardProps> = ({
     imageSrc = "/images/default-service.jpg",
     imageAlt = "Service illustration",
     className = "",
-    id
+    id,
+    url
 }) => {
 
     const router = useRouter();
@@ -39,7 +41,7 @@ const BlogCard: React.FC<ServiceCardProps> = ({
 
     return (
         <div
-            onClick={() => router.push(`/blogs/${convertToSlug(title)}`)}
+            onClick={() => router.push(`/blogs/${url}`)}
             className={`flex flex-col w-full max-w-max overflow-hidden rounded-3xl bg-black cursor-pointer ${className}`}>
             <div className="relative h-96">
                 {imageSrc ? (
@@ -75,7 +77,7 @@ const BlogCard: React.FC<ServiceCardProps> = ({
 
                 <div className="mt-auto">
                     <OutlineBtn
-                        url={`/blogs/${convertToSlug(title)}?id=${id}`}
+                        url={`/blogs/${url}`}
                         text={"View More"}
                         textColor='#ffffff'
                         icon={<FaArrowRight className="text-sm font-semibold text-white" />}

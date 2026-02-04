@@ -43,7 +43,7 @@ const TechnologySection = ({ type }: { type: string }) => {
                             description={post.bannerDiscription}
                             author={post.writtenBy}
                             date={post.writtenDate}
-                            linkUrl={`/blogs/${convertToSlug(post?.bannerTitle)}?id=${post?.id}`}
+                            linkUrl={`/blogs/${post.url}`}
                         />
                     ))}
                 </div>
