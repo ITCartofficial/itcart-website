@@ -11,6 +11,7 @@ export const newBlogData = [
     image: "/images/blogs/newblogs/AiXHubShaping.jpg",
     writtenBy: "Fazil Arfath",
     writtenDate: "26-11-2025",
+    
     id: 1,
     type: "",
     status: "",
@@ -276,10 +277,12 @@ export const newBlogData = [
     image: "/images/blogs/newblogs/revenue-circle.png",
     writtenBy: "Fazil Arfath",
     writtenDate: "26-11-2025",
+    metaTitle: "AI-Driven Revenue Cycle Management & Analytics Software ",
+    metdescription: "Get paid for the work you do. Our AI-driven revenue cycle management tracks every dollar to reduce denials and fix your billing process today.",
     id: 2,
     type: "",
     status: "",
-    url: '',
+    url: 'revenue-cycle-analytics-software',
     contents: [
       {
         id: 1,
@@ -427,6 +430,7 @@ export const newBlogData = [
     type: "",
     id: 3,
     status: "",
+    url: 'revenue-cycle-analytics-software-proactive-rcm',
     contents: [
       {
         id: 1,
@@ -648,6 +652,9 @@ export const newBlogData = [
     type: "",
     id: 4,
     status: "",
+    url: "ai-driven-process-discovery-framework-aixhub",
+    metaTitle: "AI-Driven Process Discovery Framework | AiXHub™",
+    metdescription: "Uncover hidden inefficiencies with AiXHub™. Use enterprise process mining solutions to gain a factual, data-driven view and transform with precision.",
     contents: [
       {
         id: 1,
@@ -863,6 +870,9 @@ export const newBlogData = [
     type: "",
     id: 5,
     status: "",
+    url: "multimodal-ai-meaning-capabilities-use-cases",
+    metaTitle: "What is Multimodal AI? Meaning, Capabilities & Use Cases ",
+    metdescription: "Learn how Multimodal AI fuses text, image, and video for richer context. Discover key capabilities and industry use cases to transform your digital strategy.",
     contents: [
       {
         id: 1,
@@ -6926,7 +6936,9 @@ export const newBlogData = [
     type: "AiXHealthcare Blogs",
     status: "",
     id: 42,
-
+    url: "predictive-healthcare-clinical-data-insights",
+    metaTitle: "Predictive Healthcare AI | Faster Clinical Insights & Care",
+    metdescription: "Turn clinical data into proactive decisions. AiXHealthcare delivers early insights for faster interventions and improved patient outcomes through AI.",
     contents: [
       {
         id: 1,
@@ -7061,7 +7073,9 @@ export const newBlogData = [
     type: "AiXHealthcare Blogs",
     status: "",
     id: 43,
-
+    url: "hospital-operations-intelligence-governance",
+    metaTitle: "Hospital Intelligence & Efficiency | AiXHealthcare",
+    metdescription: "Elevate patient outcomes with AI-driven speed and governance. AiXHealthcare streamlines hospital operations to improve clinical efficiency and care quality.",
     contents: [
       {
         id: 1,
@@ -7233,7 +7247,9 @@ export const newBlogData = [
     type: "AiXHealthcare Blogs",
     status: "",
     id: 44,
-
+    url: "ai-hospital-infrastructure-clinical-excellence",
+    metaTitle: "Hospital Intelligence & Clinical Excellence | AiXHealthcare",
+    metdescription: "Build a faster, safer hospital with intelligent AI infrastructure. AiXHealthcare ensures operational reliability to drive superior clinical excellence.",
     contents: [
       {
         id: 1,
