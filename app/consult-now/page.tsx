@@ -68,8 +68,8 @@ function CunsultNow() {
     return (
         <html lang="en">
             <head>
-                <title>AI Consulting Company | Enterprise AI Transformation – iTCart</title>
-                <meta name="description" content="iTCart is a leading artificial intelligence consulting company. We help enterprises integrate, automate, and scale AI transformation. Consult now.  " />
+                <title>Expert AI Consultation | Digital Transformation Strategy</title>
+                <meta name="description" content="Partner with our specialists to redefine your business. Schedule a session to explore tailored digital transformation and autonomous growth strategies." />
                 <meta property="og:url" content={`https://itcart.ai/consult-now`} />
                 <link rel="canonical" href="https://itcart.ai/consult-now"></link>
             </head>

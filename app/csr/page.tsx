@@ -1,3 +1,4 @@
+'use client'
 import BetterFutureSection from "@/components/Csr/BetterFutureSection"
 import ShappingSection from "@/components/Csr/ShappingSection"
 // import HeroBanner from "@/components/HeroBanner"
@@ -7,9 +8,20 @@ import SectionTeam from "@/components/Csr/SectionTeam"
 import JoinSection from "@/components/Csr/JoinSection"
 import HomeFaqSection from "../(features)/home/HomeFaqSection";
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
+import { useState, useEffect } from "react";
 
 
 function Csr() {
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null;
+    }
 
     const homeFAQs = [
         {
@@ -45,9 +57,15 @@ function Csr() {
     ];
 
     return (
-        <>
+        <html lang="en">
+            <head>
+                <title>Corporate Social Responsibility | Our Social Impact</title>
+                <meta name="description" content="Discover how iTCart gives back. From sustainability to community support, learn about our commitment to making a positive difference in the world." />
+                <meta property="og:url" content={`https://itcart.ai/csr`} />
+                <link rel="canonical" href="https://itcart.ai/csr"></link>
+            </head>
             <div className='bg-black space-y-15 lg:space-y-25'>
-            
+
                 <VerticalHeroBanner
                     title="Technology Transforms Lives."
                     description="At iTCart, innovation is our responsibility. Through our CSR initiatives in healthcare, education, sustainability, and community empowerment, we apply technology as a force for positive change."
@@ -92,7 +110,8 @@ function Csr() {
                 <HomeFaqSection faqs={homeFAQs} />
             </div>
 
-        </>
+        </html>
+
     )
 }
 export default Csr

@@ -11,7 +11,7 @@ import VerticalHeroBanner from "@/components/verticalDetailPage/VerticalHeroBann
 import { verticalData } from "@/lib/data/verticalData";
 
 import { usePathname } from "next/navigation";
-import Head from "next/head";
+import head from "next/head";
 import React from "react";
 
 const OurVerticalsDetailPage = () => {
@@ -25,6 +25,9 @@ const OurVerticalsDetailPage = () => {
     const filteredItem = verticalData.find(
         (item) => item.compenyName.toLowerCase() === pathName.toLowerCase()
     );
+
+    console.log("filteredItem", filteredItem?.detailPage?.metaTitle);
+
 
 
 
@@ -40,8 +43,8 @@ const OurVerticalsDetailPage = () => {
 
     return (
         <>
-            {/* ----------- PROPER HEAD TAG ----------- */}
-            <Head>
+            {/* ----------- PROPER hEAD TAG ----------- */}
+            <head>
                 <title>{filteredItem?.detailPage?.metaTitle ?? ""}</title>
                 <meta
                     name="description"
@@ -65,7 +68,7 @@ const OurVerticalsDetailPage = () => {
                     href={`https://itcart.ai/products/${pathName}`}
                 ></link>
 
-            </Head>
+            </head>
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
@@ -129,9 +132,9 @@ const OurVerticalsDetailPage = () => {
                                     filteredItem?.detailPage?.VerticalContentSection2
                                         ?.contentthree ?? ""
                                 }
-                                VerticalContentSection2Heading={
+                                herticalContentSection2Heading={
                                     filteredItem?.detailPage
-                                        ?.VerticalContentSection2Heading ?? ""
+                                        ?.herticalContentSection2Heading ?? ""
                                 }
                                 image={
                                     filteredItem?.detailPage?.VerticalContentSection2
@@ -163,8 +166,8 @@ const OurVerticalsDetailPage = () => {
                                 contentfour={
                                     filteredItem?.detailPage?.aboutSection?.contentfour ?? ""
                                 }
-                                aboutSectionHeading={
-                                    filteredItem?.detailPage?.aboutSectionHeading ?? ""
+                                hboutSectionHeading={
+                                    filteredItem?.detailPage?.hboutSectionHeading ?? ""
                                 }
                                 imgAlt={
                                     filteredItem?.detailPage?.aboutSection?.imgAlt ?? ""
@@ -174,8 +177,8 @@ const OurVerticalsDetailPage = () => {
 
                         <div className="bg-black container">
                             <CapabilitySection
-                                capabilitiSectionHeading={
-                                    filteredItem?.detailPage?.capabilitiSectionHeading ?? ""
+                                hapabilitiSectionHeading={
+                                    filteredItem?.detailPage?.hapabilitiSectionHeading ?? ""
                                 }
                                 CapabilitySections={
                                     filteredItem?.detailPage?.CapabilitySections ?? []
@@ -188,8 +191,8 @@ const OurVerticalsDetailPage = () => {
                                 skillGapSection={
                                     filteredItem?.detailPage?.skillGapSection ?? []
                                 }
-                                skillGapSectionHeading={
-                                    filteredItem?.detailPage?.skillGapSectionHeading ?? ""
+                                hkillGapSectionHeading={
+                                    filteredItem?.detailPage?.hkillGapSectionHeading ?? ""
                                 }
                                 showShadedBackground={true}
                             />
@@ -220,8 +223,8 @@ const OurVerticalsDetailPage = () => {
 
                     <div className="bg-[#131313] border-b-2 border-b-zinc-600 mt-15">
                         <HomeFaqSection
-                            FAQsHeading={
-                                filteredItem?.detailPage?.FAQsHeading ?? ""
+                            hAQsHeading={
+                                filteredItem?.detailPage?.hAQsHeading ?? ""
                             }
                             faqs={filteredItem?.detailPage?.FAQs ?? []}
                         />
