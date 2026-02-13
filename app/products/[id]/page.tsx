@@ -11,7 +11,7 @@ import VerticalHeroBanner from "@/components/verticalDetailPage/VerticalHeroBann
 import { verticalData } from "@/lib/data/verticalData";
 
 import { usePathname } from "next/navigation";
-import head from "next/head";
+import Head from "next/head";
 import React from "react";
 
 const OurVerticalsDetailPage = () => {
@@ -43,8 +43,8 @@ const OurVerticalsDetailPage = () => {
 
     return (
         <>
-            {/* ----------- PROPER hEAD TAG ----------- */}
-            <head>
+            {/* ----------- PROPER HEAD TAG ----------- */}
+            <Head>
                 <title>{filteredItem?.detailPage?.metaTitle ?? ""}</title>
                 <meta
                     name="description"
@@ -68,7 +68,7 @@ const OurVerticalsDetailPage = () => {
                     href={`https://itcart.ai/products/${pathName}`}
                 ></link>
 
-            </head>
+            </Head>
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
@@ -132,9 +132,9 @@ const OurVerticalsDetailPage = () => {
                                     filteredItem?.detailPage?.VerticalContentSection2
                                         ?.contentthree ?? ""
                                 }
-                                herticalContentSection2Heading={
+                                VerticalContentSection2Heading={
                                     filteredItem?.detailPage
-                                        ?.herticalContentSection2Heading ?? ""
+                                        ?.VerticalContentSection2Heading ?? ""
                                 }
                                 image={
                                     filteredItem?.detailPage?.VerticalContentSection2
@@ -166,8 +166,8 @@ const OurVerticalsDetailPage = () => {
                                 contentfour={
                                     filteredItem?.detailPage?.aboutSection?.contentfour ?? ""
                                 }
-                                hboutSectionHeading={
-                                    filteredItem?.detailPage?.hboutSectionHeading ?? ""
+                                aboutSectionHeading={
+                                    filteredItem?.detailPage?.aboutSectionHeading ?? ""
                                 }
                                 imgAlt={
                                     filteredItem?.detailPage?.aboutSection?.imgAlt ?? ""
@@ -177,8 +177,8 @@ const OurVerticalsDetailPage = () => {
 
                         <div className="bg-black container">
                             <CapabilitySection
-                                hapabilitiSectionHeading={
-                                    filteredItem?.detailPage?.hapabilitiSectionHeading ?? ""
+                                capabilitiSectionHeading={
+                                    filteredItem?.detailPage?.capabilitiSectionHeading ?? ""
                                 }
                                 CapabilitySections={
                                     filteredItem?.detailPage?.CapabilitySections ?? []
@@ -191,8 +191,8 @@ const OurVerticalsDetailPage = () => {
                                 skillGapSection={
                                     filteredItem?.detailPage?.skillGapSection ?? []
                                 }
-                                hkillGapSectionHeading={
-                                    filteredItem?.detailPage?.hkillGapSectionHeading ?? ""
+                                skillGapSectionHeading={
+                                    filteredItem?.detailPage?.skillGapSectionHeading ?? ""
                                 }
                                 showShadedBackground={true}
                             />
@@ -223,8 +223,8 @@ const OurVerticalsDetailPage = () => {
 
                     <div className="bg-[#131313] border-b-2 border-b-zinc-600 mt-15">
                         <HomeFaqSection
-                            hAQsHeading={
-                                filteredItem?.detailPage?.hAQsHeading ?? ""
+                            FAQsHeading={
+                                filteredItem?.detailPage?.FAQsHeading ?? ""
                             }
                             faqs={filteredItem?.detailPage?.FAQs ?? []}
                         />
