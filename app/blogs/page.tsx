@@ -61,8 +61,8 @@ const BlogsTemplate = () => {
     <html lang="en">
 
       <head>
-        <title>Explore Our Blogs – iTCart</title>
-        <meta name="description" content="Read insights, trends, and expert perspectives from the iTCart team on AI, automation, and digital innovation shaping the future of business." />
+        <title>AI Automation for Business Growth | Blogs</title>
+        <meta name="description" content="Explore how AI automation drives business growth. Get expert insights on AI-native solutions, enterprise scaling, and digital transformation strategies." />
         <meta property="og:url" content={`https://itcart.ai/blogs`} />
         <link rel="canonical" href="https://itcart.ai/blogs"></link>
       </head>

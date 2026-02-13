@@ -19,8 +19,8 @@ export default function Page() {
         <html lang="en">
 
             <head>
-                <title>Digital Transformation Solutions for All Industries | iTCart </title>
-                <meta name="description" content="Meta description: From banking to manufacturing, healthcare to telecom—iTCart delivers AI-native industry solutions that modernize operations, enhance efficiency, and fuel growth. " />
+                <title>Enterprise AI Platform & Process Automation for Industries</title>
+                <meta name="description" content="Drive ROI with proven AI. Scale Artificial Intelligence solutions across Finance, Retail, and Healthcare. Automate workflows with our enterprise platform." />
                 <meta property="og:url" content={`https://itcart.ai/industry`} />
                 <link rel="canonical" href="https://itcart.ai/industry"></link>
             </head>

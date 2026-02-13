@@ -73,8 +73,8 @@ const AboutUs = () => {
         <html lang="en">
 
             <head>
-                <title>About Us – iTCart</title>
-                <meta name="description" content="Learn about iTCart, a technology company building intelligent, AI-driven solutions that empower businesses to innovate, automate, and scale with confidence." />
+                <title>About iTCart | Enterprise Artificial Intelligence Solutions</title>
+                <meta name="description" content="Stop fragmented AI implementation. iTCart delivers the world’s first AI-native EOS to streamline operations and drive 300% ROI. See how we transform businesses." />
                 <meta property="og:url" content={`https://itcart.ai/about-us`} />
                 <link rel="canonical" href="https://itcart.ai/about-us"></link>
             </head>

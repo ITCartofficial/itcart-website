@@ -76,7 +76,6 @@ const HomeTemplate = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{  
           __html: JSON.stringify(
-
             {
               "@context": "https://schema.org",
               "@type": "Organization",
@@ -85,7 +84,6 @@ const HomeTemplate = () => {
               "url": "https://itcart.ai",
               "logo": "https://itcart.ai/assets/logo.png",
               "description": "iTCart is a global AI-driven technology company delivering next-generation digital transformation through intelligent platforms, enterprise automation, cloud modernization, and industry-specific AI solutions built on the AiX Framework.",
-
               "foundingDate": "2021",
               "founders": [
                 {

@@ -38,8 +38,8 @@ const CaseStudiesPage: React.FC = () => {
 
         <html lang="en">
             <head>
-                <title>Case Studies – iTCart</title>
-                <meta name="description" content="See how iTCart delivers measurable business impact through AI, automation, and data-driven solutions. Explore real client stories and project outcomes." />
+                <title>Enterprise Success Stories | Business Transformation</title>
+                <meta name="description" content="See real-world results of autonomous technology in action. Explore case studies showcasing how we help global brands achieve operational excellence." />
                 <meta property="og:url" content={`https://itcart.ai/case-study`} />
                 <link rel="canonical" href="https://itcart.ai/case-study"></link>
             </head>

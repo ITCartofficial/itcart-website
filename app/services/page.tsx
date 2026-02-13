@@ -19,8 +19,8 @@ const Services = () => {
         <html lang="en">
 
             <head>
-                <title>AI & Automation Services for Digital Transformation | iTCart </title>
-                <meta name="description" content="Meta description: Explore end-to-end IT services including AI automation, ERP implementation, cloud solutions, cybersecurity, LMS, and workflow optimization to drive enterprise growth." />
+                <title>Digital Transformation Services & AI Consulting | iTCart</title>
+                <meta name="description" content="Future-proof your business with digital transformation services. iTCart offers AI automation consulting and enterprise IT solutions for organizations." />
                 <meta property="og:url" content={`https://itcart.ai/services`} />
                 <link rel="canonical" href="https://itcart.ai/services"></link>
             </head>

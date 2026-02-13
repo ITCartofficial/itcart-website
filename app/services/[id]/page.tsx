@@ -21,7 +21,7 @@ const ServicesDetailPage = () => {
         return item.title.toLowerCase().replace(/™/g, '').trim() ==
             pathName.toLowerCase().replace(/™/g, '').trim()
     })
-
+    console.log("filterdItem:", filterdItem);
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {

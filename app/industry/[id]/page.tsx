@@ -19,10 +19,11 @@ const IndustryDetailPage = () => {
 
     console.log("pathName", pathName);
 
-
+    console.log("industryData:", industryData);
     const filterdItem = industryData.find(item => item.title.toLowerCase() === pathName);
+    console.log("filterdItem:", filterdItem);
 
-    console.log("filterdItem", filterdItem);
+    console.log("filterdItem.detailPage:", filterdItem?.detailPage);
 
 
     const [isClient, setIsClient] = useState(false);
@@ -35,7 +36,6 @@ const IndustryDetailPage = () => {
         return null;
     }
 
-
     return (
         <html lang="en">
             <head>
@@ -47,10 +47,7 @@ const IndustryDetailPage = () => {
                 <meta property="og:url" content={`https://itcart.ai/industry/${pathName}`} />
                 <link rel="canonical" href={`https://itcart.ai/industry/${pathName}`}></link>
             </head>
-
-
             <>
-
                 <div className='bg-black space-y-15 lg:space-y-25  mt-10'>
 
                     <div className='md:block hidden'>
