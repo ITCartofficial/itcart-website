@@ -1,57 +1,3 @@
-// import type { NextConfig } from "next";
-
-// const nextConfig: NextConfig = {
-//   /* config options here */
-//   images: {
-//     domains: ['randomuser.me', 'itcart.io']
-//   }
-// };
-
-// export default nextConfig;
-
-
-// import type { NextConfig } from "next";
-
-// const nextConfig: NextConfig = {
-//   images: {
-//     domains: [
-//       'randomuser.me',
-//       'itcart.io',
-//       'img.freepik.com' // ✅ added this line
-//     ],
-//   },
-// };
-
-
-// import type { NextConfig } from "next";
-
-// const nextConfig: NextConfig = {
-//   images: {
-//     remotePatterns: [
-//       {
-//         protocol: "https",
-//         hostname: "randomuser.me",
-//       },
-//       {
-//         protocol: "https",
-//         hostname: "itcart.io",
-//       },
-//       {
-//         protocol: "https",
-//         hostname: "img.freepik.com",
-//       },
-//       {
-//         protocol: "https",
-//         hostname: "itcartaiwebsite.blob.core.windows.net", // ✅ Azure Blob Storage
-//       },
-//     ],
-//   },
-// };
-
-
-// export default nextConfig;
-
-
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -66,105 +12,165 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
+      
       {
-        source: "/our-verticals/aixhub",
-        destination: "/products/aixhub",
-        permanent: true,              // 301/308 permanent
+        source: "/services/devOps%20services",
+        destination: "/services/devops-services",
+        permanent: true,
       },
       {
-        source: "/our-verticals/aixbfs",
+        source: "/services/data%20analytics",
+        destination: "/services/data-analytics",
+        permanent: true,
+      },
+      {
+        source: "/industry/industrial%20and%20manufacturing",
+        destination: "/industry/industrial-and-manufacturing",
+        permanent: true,
+      },
+      {
+        source: "/industry/banking%20and%20finance",
+        destination: "/industry/banking-and-finance",
+        permanent: true,
+      },
+      {
+        source: "/services/devops%20services",
+        destination: "/services/devops-services",
+        permanent: true,
+      },
+      {
+        source: "/industry/transportation%20and%20logistics",
+        destination: "/industry/transportation-and-logistics",
+        permanent: true,
+      },
+      {
+        source: "/services/managed%20it%20services",
+        destination: "/services/managed-it-services",
+        permanent: true,
+      },
+      {
+        source: "/industry/public%20sector",
+        destination: "/industry/public-sector",
+        permanent: true,
+      },
+      {
+        source: "/industry/one",
+        destination: "/industry/automotive",
+        permanent: true,
+      },
+      {
+        source: "/services/cybersecurity%20services",
+        destination: "/services/cybersecurity-services",
+        permanent: true,
+      },
+      {
+        source: "/industry/ducation",
+        destination: "/industry/education",
+        permanent: true,
+      },
+      {
+        source: "/industry/irlines",
+        destination: "/industry/airlines",
+        permanent: true,
+      },
+      {
+        source: "/our-verticals/AiXBFS",
         destination: "/products/aixbfs",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
+      },
+      {
+        source: "/our-verticals/AiXHealthcare",
+        destination: "/products/aixhealthcare",
+        permanent: true,
       },
       {
         source: "/our-verticals/aixqp",
         destination: "/products/aixqp",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/insureaix",
         destination: "/products/insureaix",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixdesk",
         destination: "/products/aixdesk",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixfintech",
         destination: "/products/aixfintech",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixhealthcare",
         destination: "/products/aixhealthcare",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixlifecare",
         destination: "/products/aixlifecare",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixbfs",
         destination: "/products/aixbfs",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/rcmaix",
         destination: "/products/rcmaix",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixerp",
         destination: "/products/aixerp",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixgrc",
         destination: "/products/aixgrc",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
 
       {
         source: "/our-verticals/cyberaix",
         destination: "/products/cyberaix",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixheat",
         destination: "/products/aixheat",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixrealty",
         destination: "/products/aixrealty",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixmotorsports",
         destination: "/products/aixmotorsports",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixenergy",
         destination: "/products/aixenergy",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals/aixbfs",
         destination: "/products/aixbfs",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
       {
         source: "/our-verticals",
         destination: "/products",
-        permanent: true,              // 301/308 permanent
+        permanent: true,
       },
     ];
   },
 };
 
 export default nextConfig;
-
