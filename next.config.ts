@@ -53,11 +53,11 @@ const nextConfig: NextConfig = {
         destination: "/industry/public-sector",
         permanent: true,
       },
-      {
-        source: "/industry/one",
-        destination: "/industry/automotive",
-        permanent: true,
-      },
+      // {
+      //   source: "/industry/one",
+      //   destination: "/industry/automotive",
+      //   permanent: true,
+      // },
       {
         source: "/services/cybersecurity%20services",
         destination: "/services/cybersecurity-services",
