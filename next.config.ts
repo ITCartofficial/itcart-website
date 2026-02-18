@@ -54,7 +54,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/industry/Automotive",
+        source: "/industry/one",
         destination: "/industry/automotive",
         permanent: true,
       },
