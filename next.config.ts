@@ -53,11 +53,11 @@ const nextConfig: NextConfig = {
         destination: "/industry/public-sector",
         permanent: true,
       },
-      // {
-      //   source: "/industry/one",
-      //   destination: "/industry/automotive",
-      //   permanent: true,
-      // },
+      {
+        source: "/industry/Automotive",
+        destination: "/industry/automotive",
+        permanent: true,
+      },
       {
         source: "/services/cybersecurity%20services",
         destination: "/services/cybersecurity-services",
@@ -69,7 +69,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/industry/irlines",
+        source: "/industry/Airlines",
         destination: "/industry/airlines",
         permanent: true,
       },
