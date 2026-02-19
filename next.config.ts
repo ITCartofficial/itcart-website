@@ -12,7 +12,11 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
-      
+      // {
+      //   source: "/industry/Automotive",
+      //   destination: "/industry/automotive",
+      //   permanent: true,
+      // },
       {
         source: "/services/devOps%20services",
         destination: "/services/devops-services",
@@ -51,11 +55,6 @@ const nextConfig: NextConfig = {
       {
         source: "/industry/public%20sector",
         destination: "/industry/public-sector",
-        permanent: true,
-      },
-      {
-        source: "/industry/Automotive",
-        destination: "/industry/automotive",
         permanent: true,
       },
       {
