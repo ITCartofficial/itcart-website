@@ -68,11 +68,11 @@ const nextConfig: NextConfig = {
         destination: "/industry/education",
         permanent: true,
       },
-      {
-        source: "/industry/Airlines",
-        destination: "/industry/airlines",
-        permanent: true,
-      },
+      // {
+      //   source: "/industry/Airlines",
+      //   destination: "/industry/airlines",
+      //   permanent: true,
+      // },
       {
         source: "/our-verticals/AiXBFS",
         destination: "/products/aixbfs",
