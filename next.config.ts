@@ -16,6 +16,7 @@ const nextConfig: NextConfig = {
       //   source: "/industry/Automotive",
       //   destination: "/industry/automotive",
       //   permanent: true,
+      //   basePath: false
       // },
       {
         source: "/services/devOps%20services",
