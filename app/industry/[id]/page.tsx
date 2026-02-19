@@ -8,9 +8,10 @@ import SkillGapSection from '@/components/verticalDetailPage/SkillGapSection'
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
 import { industryData } from '@/lib/data/industryData'
 import { usePathname, useRouter } from 'next/navigation'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import WhyChoose from '@/components/DetailPageComponents/WhyChoose'
 import MobileVerticalHeroBanner from '@/components/verticalDetailPage/MobileVerticalHeroBanner'
+
 
 
 const IndustryDetailPage = () => {
@@ -24,14 +25,16 @@ const IndustryDetailPage = () => {
 
     useEffect(() => {
         setIsClient(true);
-        if (pathName == "Automotive") {
-            useEffect(() => {
-                router.replace("/industry/automotive");
-            }, []);
-        }
-
-
     }, []);
+
+    console.log("pathName>>>>>>>>>>>>>>>>", pathName);
+
+
+    useEffect(() => {
+        if (pathName == "Automotive") {
+            router.replace("/industry/automotive");
+        }
+    }, [pathName]);
 
     if (!isClient) {
         return null;
