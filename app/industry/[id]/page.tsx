@@ -7,7 +7,7 @@ import SectionAbout from '@/components/verticalDetailPage/SectionAbout'
 import SkillGapSection from '@/components/verticalDetailPage/SkillGapSection'
 import VerticalHeroBanner from '@/components/verticalDetailPage/VerticalHeroBanner'
 import { industryData } from '@/lib/data/industryData'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 import WhyChoose from '@/components/DetailPageComponents/WhyChoose'
 import MobileVerticalHeroBanner from '@/components/verticalDetailPage/MobileVerticalHeroBanner'
@@ -16,20 +16,21 @@ import MobileVerticalHeroBanner from '@/components/verticalDetailPage/MobileVert
 const IndustryDetailPage = () => {
 
     const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
+    const router = useRouter()
 
-    console.log("pathName", pathName);
-
-    console.log("industryData:", industryData);
     const filterdItem = industryData.find(item => item.title.toLowerCase() === pathName);
-    console.log("filterdItem:", filterdItem);
-
-    console.log("filterdItem.detailPage:", filterdItem?.detailPage);
-
 
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
         setIsClient(true);
+        if (pathName == "Automotive") {
+            useEffect(() => {
+                router.replace("/industry/automotive");
+            }, []);
+        }
+
+
     }, []);
 
     if (!isClient) {
