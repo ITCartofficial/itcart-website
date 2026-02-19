@@ -36,6 +36,12 @@ const IndustryDetailPage = () => {
         }
     }, [pathName]);
 
+    useEffect(() => {
+        if (pathName == "Airlines") {
+            router.replace("/industry/airlines");
+        }
+    }, [pathName]);
+
     if (!isClient) {
         return null;
     }
