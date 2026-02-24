@@ -169,6 +169,21 @@ const nextConfig: NextConfig = {
         destination: "/products",
         permanent: true,
       },
+      {
+        source: "/career",
+        destination: "/careers",
+        permanent: true,
+      },
+{
+        source: "/our-verticals/aixhub",
+        destination: "/products/aixhub",
+        permanent: true,
+      },
+      {
+        source: "/our-verticals/AiXHub",
+        destination: "/products/aixhub",
+        permanent: true,
+      },
     ];
   },
 };
