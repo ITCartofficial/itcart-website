@@ -2,8 +2,8 @@ import { url } from "inspector";
 
 export const newBlogData = [
   {
-    metaTitle: "metaTitle metaTitlemetaTitle",
-    metdescription: "metdescription metdescriptionmetdescription",
+    metaTitle: "Intelligent AI Automation: Transform Enterprise Productivity",
+    metdescription: "Too many tools slowing your teams down? Intelligent AI unifies workflows and boosts productivity by 30%. See how AiXHub simplifies enterprise operations.",
     bannerTitle: "How AiXHub™ Is Shaping the Future of Enterprise AI in 2025",
     url: 'intelligent-ai-automation-enterprise-productivity',
     bannerDiscription:
