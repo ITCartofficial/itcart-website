@@ -75,7 +75,6 @@ END:VCARD
     }, [id]);
 
 
-    console.log("employeeData", employeeData);
     return (
         <>
             <div className="bg-[#1a1a1a] text-white p-6 rounded-2xl mx-auto flex flex-col space-y-5 mt-10">

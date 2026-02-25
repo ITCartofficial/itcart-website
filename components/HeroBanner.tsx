@@ -191,9 +191,6 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
   height
 }) => {
 
-  console.log("height", height);
-
-
   return (
     <section
       className={`relative w-full bg-black text-white overflow-hidden mt-7 ${className}`}

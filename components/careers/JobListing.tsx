@@ -13,8 +13,6 @@ const JobListings = () => {
 
     const uniqueCategories = [...new Set(jobs.map(job => job.jobCategory))];
 
-    console.log("uniqueCategories", uniqueCategories);
-
     const categories = [
         "All Position",
         ...uniqueCategories

@@ -75,12 +75,8 @@ interface EmailRequestBody {
 }
 
 export async function POST(request: Request) {
-  console.log('Email API called');
-
   try {
     const { to, subject, text }: EmailRequestBody = await request.json();
-    console.log('Request data:', { to, subject });
-
     if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
       console.error('Missing email configuration');
       return NextResponse.json(
@@ -96,16 +92,12 @@ export async function POST(request: Request) {
         pass: process.env.EMAIL_PASS,
       },
     });
-
-    console.log('Sending email...');
     const info: SentMessageInfo = await transporter.sendMail({
       from: `"iTCart Contact Form" <${process.env.EMAIL_USER}>`,
       to,
       subject,
       text: text.replace(/^\s+/gm, ''), // remove leading whitespace
     });
-
-    console.log('Message sent:', info.messageId);
     return NextResponse.json({
       success: true,
       message: 'Email sent successfully',

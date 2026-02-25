@@ -27,9 +27,6 @@ const IndustryDetailPage = () => {
         setIsClient(true);
     }, []);
 
-    console.log("pathName>>>>>>>>>>>>>>>>", pathName);
-
-
     useEffect(() => {
         if (pathName == "Automotive") {
             router.replace("/industry/automotive");

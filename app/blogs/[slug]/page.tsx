@@ -42,8 +42,8 @@ const SingleBlogPage = () => {
         <meta property="og:title" content={filterdData?.metaTitle} />
         <meta property="og:description" content={filterdData?.metdescription ?? ""} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={`https://itcart.ai/blogs/${pathName}`} />
-        <link rel="canonical" href={`https://itcart.ai/blogs/${pathName}`}></link>
+        <meta property="og:url" content={`https://itcart.ai${pathName}`} />
+        <link rel="canonical" href={`https://itcart.ai${pathName}`}></link>
       </head>
 
       <>

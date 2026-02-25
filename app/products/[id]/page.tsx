@@ -26,11 +26,6 @@ const OurVerticalsDetailPage = () => {
         (item) => item.compenyName.toLowerCase() === pathName.toLowerCase()
     );
 
-    console.log("filteredItem", filteredItem?.detailPage?.metaTitle);
-
-
-
-
     if (!isClient) return null;
 
     if (!filteredItem) {
@@ -44,7 +39,7 @@ const OurVerticalsDetailPage = () => {
     return (
         <>
             {/* ----------- PROPER HEAD TAG ----------- */}
-            <Head>
+            <head>
                 <title>{filteredItem?.detailPage?.metaTitle ?? ""}</title>
                 <meta
                     name="description"
@@ -68,7 +63,7 @@ const OurVerticalsDetailPage = () => {
                     href={`https://itcart.ai/products/${pathName}`}
                 ></link>
 
-            </Head>
+            </head>
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
