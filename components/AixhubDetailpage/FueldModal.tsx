@@ -203,7 +203,7 @@ const FueldModal: React.FC<FueldModalProps> = ({ openModal, setOpenModal }) => {
             link.download = "keynote.pdf";
             link.click();
         } catch (error) {
-            console.log("Form submit failed", error);
+            console.error("Form submit failed", error);
         }
     };
 

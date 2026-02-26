@@ -13,15 +13,14 @@ import FutureSection from '@/components/DetailPageComponents/FutureSection';
 import MobileVerticalHeroBanner from '@/components/verticalDetailPage/MobileVerticalHeroBanner';
 
 const ServicesDetailPage = () => {
+    const fullPathName = usePathname()
 
-    const pathName = usePathname().split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
-
+    const pathName = fullPathName.split('/')[2].replace(/-&-/g, ' & ').replace(/-/g, ' ')
     const filterdItem = serviceData.find(item => {
 
         return item.title.toLowerCase().replace(/™/g, '').trim() ==
             pathName.toLowerCase().replace(/™/g, '').trim()
     })
-    console.log("filterdItem:", filterdItem);
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
@@ -31,8 +30,6 @@ const ServicesDetailPage = () => {
     if (!isClient) {
         return null;
     }
-
-
     return (
         <html lang="en">
 
@@ -42,8 +39,8 @@ const ServicesDetailPage = () => {
                 <meta property="og:title" content={filterdItem?.detailPage?.metaTitle} />
                 <meta property="og:description" content={filterdItem?.detailPage?.metaDescription ?? ""} />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content={`https://itcart.ai/services/${pathName}`} />
-                <link rel="canonical" href={`https://itcart.ai/services/${pathName}`}></link>
+                <meta property="og:url" content={`https://itcart.ai${fullPathName}`} />
+                <link rel="canonical" href={`https://itcart.ai${fullPathName}`}></link>
             </head>
 
 
