@@ -1,3 +1,4 @@
+"use client";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
 
@@ -7,6 +8,7 @@ import Footer from "@/components/layouts/Footer";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Image from "next/image";
+import { useEffect } from "react";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -14,6 +16,8 @@ const montserrat = Montserrat({
   display: "swap",
   weight: ["400", "500", "600", "700"],
 });
+
+
 
 // export const metadata = {
 //   title: "",
@@ -26,6 +30,31 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+  useEffect(() => {
+    const paramsToRemove = [
+      "utm_soucre",
+      "liquid-footer",
+      "page_id",
+      "utm_medium",
+      "utm_campaign",
+    ];
+
+    let hasDirty = false;
+    const url = new URL(window.location.href);
+
+    paramsToRemove.forEach((key) => {
+      if (url.searchParams.has(key)) {
+        url.searchParams.delete(key);
+        hasDirty = true;
+      }
+    });
+
+    if (hasDirty) {
+      window.history.replaceState({}, "", url.pathname);
+    }
+  }, []);
+  
   return (
     <html lang="en">
       <head>

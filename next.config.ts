@@ -19,11 +19,6 @@ const nextConfig: NextConfig = {
       //   basePath: false
       // },
       {
-        source: "/services/devOps%20services",
-        destination: "/services/devops-services",
-        permanent: true,
-      },
-      {
         source: "/services/data%20analytics",
         destination: "/services/data-analytics",
         permanent: true,
@@ -68,16 +63,6 @@ const nextConfig: NextConfig = {
         destination: "/industry/education",
         permanent: true,
       },
-      // {
-      //   source: "/industry/Airlines",
-      //   destination: "/industry/airlines",
-      //   permanent: true,
-      // },
-      {
-        source: "/our-verticals/AiXBFS",
-        destination: "/products/aixbfs",
-        permanent: true,
-      },
       {
         source: "/our-verticals/AiXHealthcare",
         destination: "/products/aixhealthcare",
@@ -111,11 +96,6 @@ const nextConfig: NextConfig = {
       {
         source: "/our-verticals/aixlifecare",
         destination: "/products/aixlifecare",
-        permanent: true,
-      },
-      {
-        source: "/our-verticals/aixbfs",
-        destination: "/products/aixbfs",
         permanent: true,
       },
       {
@@ -174,7 +154,7 @@ const nextConfig: NextConfig = {
         destination: "/careers",
         permanent: true,
       },
-{
+      {
         source: "/our-verticals/aixhub",
         destination: "/products/aixhub",
         permanent: true,
