@@ -12,12 +12,16 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
-      // {
-      //   source: "/industry/Automotive",
-      //   destination: "/industry/automotive",
-      //   permanent: true,
-      //   basePath: false
-      // },
+      {
+        source: "/industry/banking-&-finance",
+        destination: "/industry/banking-and-finance",
+        permanent: true,
+      },
+      {
+        source: "/services/CloudOps-Services",
+        destination: "/services/cloud-ops",
+        permanent: true,
+      },
       {
         source: "/services/data%20analytics",
         destination: "/services/data-analytics",
